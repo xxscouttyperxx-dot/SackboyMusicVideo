@@ -1,0 +1,7 @@
+[lock] preserving existing lights; no reflection lights added
+[asphalt] visible active asphalt: Asphalt ground; flattened at z=1.637120; ENV_Asphalt hidden=True
+[paint] hid 48 old paint-strip meshes and built 48 flat decal planes at z=1.639120
+[hatch] adjusted 1 hatch/manhole mesh object(s)
+[render] 01_PaintDecalLowAngle.png
+[render] 02_PaintDecalTopCheck.png
+[render] 03_CharacterFitPrepScan.png

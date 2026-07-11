@@ -1,9 +1,10 @@
 # Scene Layout Summary
 
-Updated by Surface Repair / Character Fit Scan v1B.
+Updated by Parking Texture Decal / Fit Prep v1.
 
-- ENV_Asphalt is visible and flat.
-- Parking paint strips are zero-height planes just above asphalt.
-- Manhole/hatch objects were raised back onto asphalt.
-- Current lights were scanned and preserved.
+- Imported Asphalt ground is visible and flattened.
+- ENV_Asphalt is hidden to avoid z-fighting.
+- Old raised paint-strip meshes are hidden and replaced with flat decal planes.
+- Hatch/manhole was placed back on the asphalt surface.
+- Current lighting was scanned and preserved.
 - Character/clothing fit measurements were recorded; no body or clothing deformation was applied.
