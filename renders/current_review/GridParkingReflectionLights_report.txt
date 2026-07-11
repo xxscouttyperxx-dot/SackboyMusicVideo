@@ -1,6 +1,6 @@
 [pass] grid parking repair, underglow lock, reflection light setup
 [asphalt] imported Asphalt ground lowered/flattened to grid z=0.000000
-[paint] removed 37 generated decal object(s)
+[paint] removed 0 generated decal object(s)
 [paint] restored 47 original paint strip object(s) as flat visible grid-level paint at z=0.003000
 [hatch] adjusted 1 hatch/manhole object(s) to grid surface
 [underglow] locked HERO_CyanUnderglow_Area: [-1.522953, 5.177517, 0.075276] -> [-1.522953, 5.177517, 0.075276]

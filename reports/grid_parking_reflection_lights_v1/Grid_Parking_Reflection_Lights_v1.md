@@ -3,7 +3,7 @@
 ## Parking Repair
 - Imported asphalt lowered/flattened to grid z: **0.0**
 - Paint strips restored from original meshes: **47**
-- Generated decal objects removed: **37**
+- Generated decal objects removed: **0**
 - Hatch/manhole objects adjusted: **1**
 - Underglow locked to: **[-1.522953, 5.177517, 0.075276]**
 
