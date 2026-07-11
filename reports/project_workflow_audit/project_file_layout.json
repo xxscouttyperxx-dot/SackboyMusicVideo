@@ -80,6 +80,10 @@
     "size_bytes": 3733
   },
   {
+    "path": "blender\\scripts\\integrate_hero_car_hdri.py",
+    "size_bytes": 15035
+  },
+  {
     "path": "blender\\scripts\\isolate_meshy_candidate.py",
     "size_bytes": 7619
   },
@@ -240,11 +244,15 @@
     "size_bytes": 245714
   },
   {
+    "path": "reports\\project_workflow_audit\\project_file_layout.json",
+    "size_bytes": 6309
+  },
+  {
     "path": "reports\\project_workflow_audit\\scene_layout_summary.md",
-    "size_bytes": 9084
+    "size_bytes": 8964
   },
   {
     "path": "reports\\project_workflow_audit\\scene_manifest.json",
-    "size_bytes": 327149
+    "size_bytes": 267068
   }
 ]

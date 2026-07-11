@@ -225,6 +225,28 @@
       "children": []
     },
     {
+      "name": "HERO_CAR_UNDERGLOW",
+      "hide_viewport": false,
+      "hide_render": false,
+      "objects": [
+        "HERO_Underglow_FrontHiddenStrip",
+        "HERO_Underglow_RearHiddenStrip",
+        "HERO_CyanUnderglow_Area"
+      ],
+      "children": []
+    },
+    {
+      "name": "HERO_REVIEW_CAMERAS",
+      "hide_viewport": false,
+      "hide_render": false,
+      "objects": [
+        "HERO_CAM_CurrentReview",
+        "HERO_CAM_CarUnderglow",
+        "HERO_CAM_HighLayout"
+      ],
+      "children": []
+    },
+    {
       "name": "LGT_Night",
       "hide_viewport": true,
       "hide_render": true,
@@ -262,7 +284,6 @@
       "objects": [],
       "children": [
         "V2C_ENVIRONMENT",
-        "V2C_DRIFT_CAR",
         "V2C_SKY_CLOUDS",
         "V2C_CAMERAS",
         "V2C_HELPERS"
@@ -281,10 +302,7 @@
       "hide_render": false,
       "objects": [
         "V2B_OverheadAmber_0",
-        "V2B_OverheadAmber_1",
-        "V2C_CyanUnderglow_Area",
-        "V2C_TailGlow_-1",
-        "V2C_TailGlow_1"
+        "V2B_OverheadAmber_1"
       ],
       "children": []
     },
@@ -297,70 +315,6 @@
         "V2C_CAM_HIGH_ORBIT",
         "V2C_CAM_LOW",
         "V2C_ORBIT_RIG"
-      ],
-      "children": []
-    },
-    {
-      "name": "V2C_DRIFT_CAR",
-      "hide_viewport": false,
-      "hide_render": false,
-      "objects": [
-        "V2C_DriftCoupe_SlopedBody",
-        "V2C_DriftCoupe_Windshield",
-        "V2C_DriftCoupe_RearGlass",
-        "V2C_DriftCoupe_SideWindow_-1",
-        "V2C_DriftCoupe_DoorLine_-1",
-        "V2C_DriftCoupe_DoorHandle_-1",
-        "V2C_DriftCoupe_SideWindow_1",
-        "V2C_DriftCoupe_DoorLine_1",
-        "V2C_DriftCoupe_DoorHandle_1",
-        "V2C_DriftCoupe_FrontBumper",
-        "V2C_DriftCoupe_SideSkirt_L",
-        "V2C_DriftCoupe_SideSkirt_R",
-        "V2C_DriftCoupe_SpoilerWing",
-        "V2C_DriftCoupe_Exhaust",
-        "V2C_Underglow_HiddenStrip_Front",
-        "V2C_Underglow_HiddenStrip_Rear",
-        "V2C_DriftCoupe_TailLightBand_-1",
-        "V2C_DriftCoupe_TailLightBand_1",
-        "V2C_Tire_-1_-1",
-        "V2C_RimRing_-1_-1",
-        "V2C_RimThickSpoke_-1_-1_0",
-        "V2C_RimThickSpoke_-1_-1_1",
-        "V2C_RimThickSpoke_-1_-1_2",
-        "V2C_RimThickSpoke_-1_-1_3",
-        "V2C_RimThickSpoke_-1_-1_4",
-        "V2C_RimThickSpoke_-1_-1_5",
-        "V2C_Tire_-1_1",
-        "V2C_RimRing_-1_1",
-        "V2C_RimThickSpoke_-1_1_0",
-        "V2C_RimThickSpoke_-1_1_1",
-        "V2C_RimThickSpoke_-1_1_2",
-        "V2C_RimThickSpoke_-1_1_3",
-        "V2C_RimThickSpoke_-1_1_4",
-        "V2C_RimThickSpoke_-1_1_5",
-        "V2C_Tire_1_-1",
-        "V2C_RimRing_1_-1",
-        "V2C_RimThickSpoke_1_-1_0",
-        "V2C_RimThickSpoke_1_-1_1",
-        "V2C_RimThickSpoke_1_-1_2",
-        "V2C_RimThickSpoke_1_-1_3",
-        "V2C_RimThickSpoke_1_-1_4",
-        "V2C_RimThickSpoke_1_-1_5",
-        "V2C_Tire_1_1",
-        "V2C_RimRing_1_1",
-        "V2C_RimThickSpoke_1_1_0",
-        "V2C_RimThickSpoke_1_1_1",
-        "V2C_RimThickSpoke_1_1_2",
-        "V2C_RimThickSpoke_1_1_3",
-        "V2C_RimThickSpoke_1_1_4",
-        "V2C_RimThickSpoke_1_1_5",
-        "V2C_ExhaustSmoke_0",
-        "V2C_ExhaustSmoke_1",
-        "V2C_ExhaustSmoke_2",
-        "V2C_ExhaustSmoke_3",
-        "V2C_ExhaustSmoke_4",
-        "V2C_ExhaustSmoke_5"
       ],
       "children": []
     },
@@ -2674,6 +2628,329 @@
       "modifiers": [],
       "materials": [
         "FINAL_MAT_CrochetYarn"
+      ]
+    },
+    {
+      "name": "HERO_CAM_CarUnderglow",
+      "type": "CAMERA",
+      "collections": [
+        "HERO_REVIEW_CAMERAS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        2.477047,
+        -0.022483,
+        2.311171
+      ],
+      "rotation_euler": [
+        1.472041,
+        -0.0,
+        0.655696
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_bounds": {
+        "xmin": 2.4770474433898926,
+        "xmax": 2.4770474433898926,
+        "ymin": -0.022483061999082565,
+        "ymax": -0.022483061999082565,
+        "zmin": 2.3111705780029297,
+        "zmax": 2.3111705780029297
+      },
+      "world_dimensions": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modifiers": [],
+      "materials": [],
+      "camera": {
+        "lens": 42.0,
+        "clip_start": 0.10000000149011612,
+        "clip_end": 1000.0
+      }
+    },
+    {
+      "name": "HERO_CAM_CurrentReview",
+      "type": "CAMERA",
+      "collections": [
+        "HERO_REVIEW_CAMERAS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        7.284449,
+        -7.985823,
+        3.975296
+      ],
+      "rotation_euler": [
+        1.33825,
+        0.0,
+        0.694744
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_bounds": {
+        "xmin": 7.284449100494385,
+        "xmax": 7.284449100494385,
+        "ymin": -7.985822677612305,
+        "ymax": -7.985822677612305,
+        "zmin": 3.9752962589263916,
+        "zmax": 3.9752962589263916
+      },
+      "world_dimensions": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modifiers": [],
+      "materials": [],
+      "camera": {
+        "lens": 45.0,
+        "clip_start": 0.10000000149011612,
+        "clip_end": 1000.0
+      }
+    },
+    {
+      "name": "HERO_CAM_HighLayout",
+      "type": "CAMERA",
+      "collections": [
+        "HERO_REVIEW_CAMERAS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        8.784449,
+        -7.985823,
+        6.375297
+      ],
+      "rotation_euler": [
+        1.270571,
+        0.0,
+        0.68573
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_bounds": {
+        "xmin": 8.784448623657227,
+        "xmax": 8.784448623657227,
+        "ymin": -7.985822677612305,
+        "ymax": -7.985822677612305,
+        "zmin": 6.375296592712402,
+        "zmax": 6.375296592712402
+      },
+      "world_dimensions": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modifiers": [],
+      "materials": [],
+      "camera": {
+        "lens": 38.0,
+        "clip_start": 0.10000000149011612,
+        "clip_end": 1000.0
+      }
+    },
+    {
+      "name": "HERO_CyanUnderglow_Area",
+      "type": "LIGHT",
+      "collections": [
+        "HERO_CAR_UNDERGLOW"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -1.522953,
+        5.177517,
+        0.075276
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_bounds": {
+        "xmin": -1.5229525566101074,
+        "xmax": -1.5229525566101074,
+        "ymin": 5.177516937255859,
+        "ymax": 5.177516937255859,
+        "zmin": 0.07527603209018707,
+        "zmax": 0.07527603209018707
+      },
+      "world_dimensions": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modifiers": [],
+      "materials": [],
+      "light": {
+        "type": "AREA",
+        "energy": 160.0,
+        "color": [
+          0.0,
+          0.550000011920929,
+          1.0
+        ],
+        "size": 4.834234237670898
+      }
+    },
+    {
+      "name": "HERO_Underglow_FrontHiddenStrip",
+      "type": "MESH",
+      "collections": [
+        "HERO_CAR_UNDERGLOW"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -1.522953,
+        3.300874,
+        0.055276
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.867387,
+        0.05,
+        0.016
+      ],
+      "world_bounds": {
+        "xmin": -3.456646203994751,
+        "xmax": 0.41074109077453613,
+        "ymin": 3.2758734226226807,
+        "ymax": 3.325873613357544,
+        "zmin": 0.047276031225919724,
+        "zmax": 0.0632760301232338
+      },
+      "world_dimensions": {
+        "x": 3.867387294769287,
+        "y": 0.05000019073486328,
+        "z": 0.01599999889731407
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_CyanUnderglow"
+      ]
+    },
+    {
+      "name": "HERO_Underglow_RearHiddenStrip",
+      "type": "MESH",
+      "collections": [
+        "HERO_CAR_UNDERGLOW"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -1.522953,
+        7.05416,
+        0.055276
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.867387,
+        0.05,
+        0.016
+      ],
+      "world_bounds": {
+        "xmin": -3.456646203994751,
+        "xmax": 0.41074109077453613,
+        "ymin": 7.029160022735596,
+        "ymax": 7.079160213470459,
+        "zmin": 0.047276031225919724,
+        "zmax": 0.0632760301232338
+      },
+      "world_dimensions": {
+        "x": 3.867387294769287,
+        "y": 0.05000019073486328,
+        "z": 0.01599999889731407
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_CyanUnderglow"
       ]
     },
     {
@@ -7596,27 +7873,27 @@
         0.0
       ],
       "scale": [
+        2.0,
         1.0,
-        1.0,
-        1.0
+        0.25
       ],
       "dimensions": [
-        5.288405,
+        10.57681,
         0.08,
-        0.014
+        0.0035
       ],
       "world_bounds": {
-        "xmin": -6.958427429199219,
-        "xmax": -1.67002272605896,
+        "xmin": -9.602630615234375,
+        "xmax": 0.974179744720459,
         "ymin": 2.7100000381469727,
         "ymax": 2.7899999618530273,
-        "zmin": -0.009407533332705498,
-        "zmax": 0.004592467099428177
+        "zmin": -0.004157532937824726,
+        "zmax": -0.0006575328297913074
       },
       "world_dimensions": {
-        "x": 5.288404703140259,
+        "x": 10.576810359954834,
         "y": 0.07999992370605469,
-        "z": 0.014000000432133675
+        "z": 0.0035000001080334187
       },
       "modifiers": [
         {
@@ -7797,7 +8074,7 @@
       "parent": null,
       "location": [
         0.0,
-        10.14,
+        18.139999,
         0.050592
       ],
       "rotation_euler": [
@@ -7818,8 +8095,8 @@
       "world_bounds": {
         "xmin": -15.586877822875977,
         "xmax": 15.586877822875977,
-        "ymin": 10.070000648498535,
-        "ymax": 10.210000038146973,
+        "ymin": 18.06999969482422,
+        "ymax": 18.209999084472656,
         "zmin": -0.029407531023025513,
         "zmax": 0.1305924654006958
       },
@@ -7843,1253 +8120,6 @@
       ]
     },
     {
-      "name": "V2C_CyanUnderglow_Area",
-      "type": "LIGHT",
-      "collections": [
-        "V2B_LIGHTS_OVERHEAD"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -5.705911,
-        3.05,
-        0.160592
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "world_bounds": {
-        "xmin": -5.705910682678223,
-        "xmax": -5.705910682678223,
-        "ymin": 3.049999952316284,
-        "ymax": 3.049999952316284,
-        "zmin": 0.1605924665927887,
-        "zmax": 0.1605924665927887
-      },
-      "world_dimensions": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modifiers": [],
-      "materials": [],
-      "light": {
-        "type": "AREA",
-        "energy": 160.0,
-        "color": [
-          0.0,
-          0.550000011920929,
-          1.0
-        ],
-        "size": 1.399999976158142
-      }
-    },
-    {
-      "name": "V2C_DriftCoupe_DoorHandle_-1",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -6.781405,
-        3.335295,
-        0.772548
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.024,
-        0.228236,
-        0.034313
-      ],
-      "world_bounds": {
-        "xmin": -6.793405532836914,
-        "xmax": -6.769405364990234,
-        "ymin": 3.221177101135254,
-        "ymax": 3.449413776397705,
-        "zmin": 0.7553914189338684,
-        "zmax": 0.7897040247917175
-      },
-      "world_dimensions": {
-        "x": 0.024000167846679688,
-        "y": 0.22823667526245117,
-        "z": 0.03431260585784912
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "V2C_MAT_DeepBlackPearlCar"
-      ]
-    },
-    {
-      "name": "V2C_DriftCoupe_DoorHandle_1",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -4.630416,
-        3.335295,
-        0.772548
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.024,
-        0.228236,
-        0.034313
-      ],
-      "world_bounds": {
-        "xmin": -4.642416000366211,
-        "xmax": -4.618415832519531,
-        "ymin": 3.221177101135254,
-        "ymax": 3.449413776397705,
-        "zmin": 0.7553914189338684,
-        "zmax": 0.7897040247917175
-      },
-      "world_dimensions": {
-        "x": 0.024000167846679688,
-        "y": 0.22823667526245117,
-        "z": 0.03431260585784912
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "V2C_MAT_DeepBlackPearlCar"
-      ]
-    },
-    {
-      "name": "V2C_DriftCoupe_DoorLine_-1",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -6.742995,
-        3.192648,
-        0.672469
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.02,
-        2.054128,
-        0.571877
-      ],
-      "world_bounds": {
-        "xmin": -6.752995014190674,
-        "xmax": -6.732994556427002,
-        "ymin": 2.165583610534668,
-        "ymax": 4.219711780548096,
-        "zmin": 0.3865308463573456,
-        "zmax": 0.9584076404571533
-      },
-      "world_dimensions": {
-        "x": 0.020000457763671875,
-        "y": 2.0541281700134277,
-        "z": 0.5718767940998077
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "V2C_MAT_DeepBlackPearlCar"
-      ]
-    },
-    {
-      "name": "V2C_DriftCoupe_DoorLine_1",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -4.668827,
-        3.192648,
-        0.672469
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.02,
-        2.054128,
-        0.571877
-      ],
-      "world_bounds": {
-        "xmin": -4.678826808929443,
-        "xmax": -4.6588263511657715,
-        "ymin": 2.165583610534668,
-        "ymax": 4.219711780548096,
-        "zmin": 0.3865308463573456,
-        "zmax": 0.9584076404571533
-      },
-      "world_dimensions": {
-        "x": 0.020000457763671875,
-        "y": 2.0541281700134277,
-        "z": 0.5718767940998077
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "V2C_MAT_DeepBlackPearlCar"
-      ]
-    },
-    {
-      "name": "V2C_DriftCoupe_Exhaust",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -6.371693,
-        5.931485,
-        0.429422
-      ],
-      "rotation_euler": [
-        1.570796,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.07,
-        0.07,
-        0.22
-      ],
-      "world_bounds": {
-        "xmin": -6.406692981719971,
-        "xmax": -6.336693286895752,
-        "ymin": 5.821484565734863,
-        "ymax": 6.041484832763672,
-        "zmin": 0.39442163705825806,
-        "zmax": 0.4644216299057007
-      },
-      "world_dimensions": {
-        "x": 0.06999969482421875,
-        "y": 0.2200002670288086,
-        "z": 0.06999999284744263
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_DeepBlackPearlCar"
-      ]
-    },
-    {
-      "name": "V2C_DriftCoupe_FrontBumper",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -5.705911,
-        0.139986,
-        0.415125
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        2.355845,
-        0.11,
-        0.157266
-      ],
-      "world_bounds": {
-        "xmin": -6.883833408355713,
-        "xmax": -4.527987957000732,
-        "ymin": 0.08498553186655045,
-        "ymax": 0.1949855387210846,
-        "zmin": 0.3364916443824768,
-        "zmax": 0.49375778436660767
-      },
-      "world_dimensions": {
-        "x": 2.3558454513549805,
-        "y": 0.11000000685453415,
-        "z": 0.15726613998413086
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "V2C_MAT_DeepBlackPearlCar"
-      ]
-    },
-    {
-      "name": "V2C_DriftCoupe_RearGlass",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -5.705911,
-        3.962946,
-        1.08708
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.075495,
-        0.05,
-        0.271641
-      ],
-      "world_bounds": {
-        "xmin": -6.243658065795898,
-        "xmax": -5.168163299560547,
-        "ymin": 3.937945604324341,
-        "ymax": 3.987945795059204,
-        "zmin": 0.9512592554092407,
-        "zmax": 1.2229007482528687
-      },
-      "world_dimensions": {
-        "x": 1.0754947662353516,
-        "y": 0.05000019073486328,
-        "z": 0.27164149284362793
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "V2C_MAT_CarGlossBlackGlass"
-      ]
-    },
-    {
-      "name": "V2C_DriftCoupe_SideSkirt_L",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -7.011868,
-        3.05,
-        0.386531
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.07,
-        5.13532,
-        0.128672
-      ],
-      "world_bounds": {
-        "xmin": -7.046868324279785,
-        "xmax": -6.976868629455566,
-        "ymin": 0.48234009742736816,
-        "ymax": 5.617659568786621,
-        "zmin": 0.3221947252750397,
-        "zmax": 0.45086702704429626
-      },
-      "world_dimensions": {
-        "x": 0.06999969482421875,
-        "y": 5.135319471359253,
-        "z": 0.1286723017692566
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "V2C_MAT_DeepBlackPearlCar"
-      ]
-    },
-    {
-      "name": "V2C_DriftCoupe_SideSkirt_R",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -4.399953,
-        3.05,
-        0.386531
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.07,
-        5.13532,
-        0.128672
-      ],
-      "world_bounds": {
-        "xmin": -4.434952735900879,
-        "xmax": -4.36495304107666,
-        "ymin": 0.48234009742736816,
-        "ymax": 5.617659568786621,
-        "zmin": 0.3221947252750397,
-        "zmax": 0.45086702704429626
-      },
-      "world_dimensions": {
-        "x": 0.06999969482421875,
-        "y": 5.135319471359253,
-        "z": 0.1286723017692566
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "V2C_MAT_DeepBlackPearlCar"
-      ]
-    },
-    {
-      "name": "V2C_DriftCoupe_SideWindow_-1",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -6.704584,
-        3.135589,
-        1.015595
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.05,
-        1.825891,
-        0.257345
-      ],
-      "world_bounds": {
-        "xmin": -6.729584217071533,
-        "xmax": -6.67958402633667,
-        "ymin": 2.2226428985595703,
-        "ymax": 4.048534393310547,
-        "zmin": 0.8869230151176453,
-        "zmax": 1.1442675590515137
-      },
-      "world_dimensions": {
-        "x": 0.05000019073486328,
-        "y": 1.8258914947509766,
-        "z": 0.2573445439338684
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "V2C_MAT_CarGlossBlackGlass"
-      ]
-    },
-    {
-      "name": "V2C_DriftCoupe_SideWindow_1",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -4.707237,
-        3.135589,
-        1.015595
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.05,
-        1.825891,
-        0.257345
-      ],
-      "world_bounds": {
-        "xmin": -4.732237339019775,
-        "xmax": -4.682237148284912,
-        "ymin": 2.2226428985595703,
-        "ymax": 4.048534393310547,
-        "zmin": 0.8869230151176453,
-        "zmax": 1.1442675590515137
-      },
-      "world_dimensions": {
-        "x": 0.05000019073486328,
-        "y": 1.8258914947509766,
-        "z": 0.2573445439338684
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "V2C_MAT_CarGlossBlackGlass"
-      ]
-    },
-    {
-      "name": "V2C_DriftCoupe_SlopedBody",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        2.551001,
-        5.684597,
-        1.086566
-      ],
-      "world_bounds": {
-        "xmin": -6.981411457061768,
-        "xmax": -4.430410385131836,
-        "ymin": 0.20713630318641663,
-        "ymax": 5.891732692718506,
-        "zmin": 0.38653087615966797,
-        "zmax": 1.4730968475341797
-      },
-      "world_dimensions": {
-        "x": 2.5510010719299316,
-        "y": 5.684596389532089,
-        "z": 1.0865659713745117
-      },
-      "modifiers": [
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        },
-        {
-          "name": "V2C_BevelBody",
-          "type": "BEVEL"
-        }
-      ],
-      "materials": [
-        "V2C_MAT_DeepBlackPearlCar"
-      ]
-    },
-    {
-      "name": "V2C_DriftCoupe_SpoilerWing",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -5.705911,
-        5.503541,
-        1.244346
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.843705,
-        0.06,
-        0.071485
-      ],
-      "world_bounds": {
-        "xmin": -6.627763271331787,
-        "xmax": -4.784058094024658,
-        "ymin": 5.473541259765625,
-        "ymax": 5.533541679382324,
-        "zmin": 1.208603858947754,
-        "zmax": 1.2800884246826172
-      },
-      "world_dimensions": {
-        "x": 1.843705177307129,
-        "y": 0.06000041961669922,
-        "z": 0.07148456573486328
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "V2C_MAT_DeepBlackPearlCar"
-      ]
-    },
-    {
-      "name": "V2C_DriftCoupe_TailLightBand_-1",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -6.166837,
-        5.937191,
-        0.658172
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.614568,
-        0.028,
-        0.077203
-      ],
-      "world_bounds": {
-        "xmin": -6.474121570587158,
-        "xmax": -5.85955286026001,
-        "ymin": 5.923191070556641,
-        "ymax": 5.951190948486328,
-        "zmin": 0.6195706725120544,
-        "zmax": 0.6967740654945374
-      },
-      "world_dimensions": {
-        "x": 0.6145687103271484,
-        "y": 0.0279998779296875,
-        "z": 0.07720339298248291
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "V2C_MAT_ModernRedTail"
-      ]
-    },
-    {
-      "name": "V2C_DriftCoupe_TailLightBand_1",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -5.244985,
-        5.937191,
-        0.658172
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.614568,
-        0.028,
-        0.077203
-      ],
-      "world_bounds": {
-        "xmin": -5.552268981933594,
-        "xmax": -4.937700271606445,
-        "ymin": 5.923191070556641,
-        "ymax": 5.951190948486328,
-        "zmin": 0.6195706725120544,
-        "zmax": 0.6967740654945374
-      },
-      "world_dimensions": {
-        "x": 0.6145687103271484,
-        "y": 0.0279998779296875,
-        "z": 0.07720339298248291
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "V2C_MAT_ModernRedTail"
-      ]
-    },
-    {
-      "name": "V2C_DriftCoupe_Windshield",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -5.705911,
-        2.42235,
-        1.129971
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.177923,
-        0.05,
-        0.328829
-      ],
-      "world_bounds": {
-        "xmin": -6.294871807098389,
-        "xmax": -5.116949558258057,
-        "ymin": 2.3973498344421387,
-        "ymax": 2.447350025177002,
-        "zmin": 0.9655562043190002,
-        "zmax": 1.2943854331970215
-      },
-      "world_dimensions": {
-        "x": 1.177922248840332,
-        "y": 0.05000019073486328,
-        "z": 0.32882922887802124
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "V2C_MAT_CarGlossBlackGlass"
-      ]
-    },
-    {
-      "name": "V2C_ExhaustSmoke_0",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -6.448514,
-        6.24531,
-        0.458015
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.16,
-        0.1,
-        0.11
-      ],
-      "world_bounds": {
-        "xmin": -6.5285139083862305,
-        "xmax": -6.368514060974121,
-        "ymin": 6.195309638977051,
-        "ymax": 6.295310020446777,
-        "zmin": 0.40301546454429626,
-        "zmax": 0.5130154490470886
-      },
-      "world_dimensions": {
-        "x": 0.15999984741210938,
-        "y": 0.10000038146972656,
-        "z": 0.10999998450279236
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_ExhaustSmoke"
-      ]
-    },
-    {
-      "name": "V2C_ExhaustSmoke_1",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -6.448514,
-        6.473547,
-        0.479461
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.21,
-        0.136,
-        0.134
-      ],
-      "world_bounds": {
-        "xmin": -6.553514003753662,
-        "xmax": -6.3435139656066895,
-        "ymin": 6.40554666519165,
-        "ymax": 6.54154634475708,
-        "zmin": 0.4124608635902405,
-        "zmax": 0.5464608669281006
-      },
-      "world_dimensions": {
-        "x": 0.21000003814697266,
-        "y": 0.1359996795654297,
-        "z": 0.1340000033378601
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_ExhaustSmoke"
-      ]
-    },
-    {
-      "name": "V2C_ExhaustSmoke_2",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -6.448514,
-        6.701783,
-        0.500906
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.26,
-        0.172,
-        0.158
-      ],
-      "world_bounds": {
-        "xmin": -6.578514099121094,
-        "xmax": -6.318513870239258,
-        "ymin": 6.615782737731934,
-        "ymax": 6.787782669067383,
-        "zmin": 0.4219062328338623,
-        "zmax": 0.5799062252044678
-      },
-      "world_dimensions": {
-        "x": 0.26000022888183594,
-        "y": 0.17199993133544922,
-        "z": 0.15799999237060547
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_ExhaustSmoke"
-      ]
-    },
-    {
-      "name": "V2C_ExhaustSmoke_3",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -6.448514,
-        6.930019,
-        0.522352
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.31,
-        0.208,
-        0.182
-      ],
-      "world_bounds": {
-        "xmin": -6.603513717651367,
-        "xmax": -6.293514251708984,
-        "ymin": 6.826019287109375,
-        "ymax": 7.034019470214844,
-        "zmin": 0.4313516318798065,
-        "zmax": 0.6133516430854797
-      },
-      "world_dimensions": {
-        "x": 0.3099994659423828,
-        "y": 0.20800018310546875,
-        "z": 0.18200001120567322
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_ExhaustSmoke"
-      ]
-    },
-    {
-      "name": "V2C_ExhaustSmoke_4",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -6.448514,
-        7.158256,
-        0.543797
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.36,
-        0.244,
-        0.206
-      ],
-      "world_bounds": {
-        "xmin": -6.628513813018799,
-        "xmax": -6.268514156341553,
-        "ymin": 7.036255836486816,
-        "ymax": 7.2802557945251465,
-        "zmin": 0.44079703092575073,
-        "zmax": 0.6467970013618469
-      },
-      "world_dimensions": {
-        "x": 0.3599996566772461,
-        "y": 0.24399995803833008,
-        "z": 0.2059999704360962
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_ExhaustSmoke"
-      ]
-    },
-    {
-      "name": "V2C_ExhaustSmoke_5",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -6.448514,
-        7.386492,
-        0.565242
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.41,
-        0.28,
-        0.23
-      ],
-      "world_bounds": {
-        "xmin": -6.6535139083862305,
-        "xmax": -6.243514060974121,
-        "ymin": 7.246492385864258,
-        "ymax": 7.526492118835449,
-        "zmin": 0.45024240016937256,
-        "zmax": 0.6802424192428589
-      },
-      "world_dimensions": {
-        "x": 0.4099998474121094,
-        "y": 0.2799997329711914,
-        "z": 0.23000001907348633
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_ExhaustSmoke"
-      ]
-    },
-    {
       "name": "V2C_FrameBottom_0",
       "type": "MESH",
       "collections": [
@@ -9101,7 +8131,7 @@
       "parent": null,
       "location": [
         -5.678077,
-        10.785,
+        18.785,
         1.182838
       ],
       "rotation_euler": [
@@ -9122,8 +8152,8 @@
       "world_bounds": {
         "xmin": -6.955644607543945,
         "xmax": -4.400509834289551,
-        "ymin": 10.739999771118164,
-        "ymax": 10.829999923706055,
+        "ymin": 18.739999771118164,
+        "ymax": 18.829999923706055,
         "zmin": 1.1578378677368164,
         "zmax": 1.2078378200531006
       },
@@ -9158,7 +8188,7 @@
       "parent": null,
       "location": [
         -2.839039,
-        10.785,
+        18.785,
         1.182838
       ],
       "rotation_euler": [
@@ -9179,8 +8209,8 @@
       "world_bounds": {
         "xmin": -4.116605758666992,
         "xmax": -1.5614712238311768,
-        "ymin": 10.739999771118164,
-        "ymax": 10.829999923706055,
+        "ymin": 18.739999771118164,
+        "ymax": 18.829999923706055,
         "zmin": 1.1578378677368164,
         "zmax": 1.2078378200531006
       },
@@ -9215,7 +8245,7 @@
       "parent": null,
       "location": [
         0.0,
-        10.785,
+        18.785,
         1.182838
       ],
       "rotation_euler": [
@@ -9236,8 +8266,8 @@
       "world_bounds": {
         "xmin": -1.2775673866271973,
         "xmax": 1.2775673866271973,
-        "ymin": 10.739999771118164,
-        "ymax": 10.829999923706055,
+        "ymin": 18.739999771118164,
+        "ymax": 18.829999923706055,
         "zmin": 1.1578378677368164,
         "zmax": 1.2078378200531006
       },
@@ -9272,7 +8302,7 @@
       "parent": null,
       "location": [
         2.839039,
-        10.785,
+        18.785,
         1.182838
       ],
       "rotation_euler": [
@@ -9293,8 +8323,8 @@
       "world_bounds": {
         "xmin": 1.5614712238311768,
         "xmax": 4.116605758666992,
-        "ymin": 10.739999771118164,
-        "ymax": 10.829999923706055,
+        "ymin": 18.739999771118164,
+        "ymax": 18.829999923706055,
         "zmin": 1.1578378677368164,
         "zmax": 1.2078378200531006
       },
@@ -9329,7 +8359,7 @@
       "parent": null,
       "location": [
         5.678077,
-        10.785,
+        18.785,
         1.182838
       ],
       "rotation_euler": [
@@ -9350,8 +8380,8 @@
       "world_bounds": {
         "xmin": 4.400509834289551,
         "xmax": 6.955644607543945,
-        "ymin": 10.739999771118164,
-        "ymax": 10.829999923706055,
+        "ymin": 18.739999771118164,
+        "ymax": 18.829999923706055,
         "zmin": 1.1578378677368164,
         "zmax": 1.2078378200531006
       },
@@ -9386,7 +8416,7 @@
       "parent": null,
       "location": [
         -6.955644,
-        10.785,
+        18.785,
         1.925178
       ],
       "rotation_euler": [
@@ -9407,8 +8437,8 @@
       "world_bounds": {
         "xmin": -6.980644226074219,
         "xmax": -6.9306440353393555,
-        "ymin": 10.739999771118164,
-        "ymax": 10.829999923706055,
+        "ymin": 18.739999771118164,
+        "ymax": 18.829999923706055,
         "zmin": 0.5504740476608276,
         "zmax": 3.299881935119629
       },
@@ -9443,7 +8473,7 @@
       "parent": null,
       "location": [
         -4.116606,
-        10.785,
+        18.785,
         1.925178
       ],
       "rotation_euler": [
@@ -9464,8 +8494,8 @@
       "world_bounds": {
         "xmin": -4.141605854034424,
         "xmax": -4.0916056632995605,
-        "ymin": 10.739999771118164,
-        "ymax": 10.829999923706055,
+        "ymin": 18.739999771118164,
+        "ymax": 18.829999923706055,
         "zmin": 0.5504740476608276,
         "zmax": 3.299881935119629
       },
@@ -9500,7 +8530,7 @@
       "parent": null,
       "location": [
         -1.277567,
-        10.785,
+        18.785,
         1.925178
       ],
       "rotation_euler": [
@@ -9521,8 +8551,8 @@
       "world_bounds": {
         "xmin": -1.3025673627853394,
         "xmax": -1.2525674104690552,
-        "ymin": 10.739999771118164,
-        "ymax": 10.829999923706055,
+        "ymin": 18.739999771118164,
+        "ymax": 18.829999923706055,
         "zmin": 0.5504740476608276,
         "zmax": 3.299881935119629
       },
@@ -9557,7 +8587,7 @@
       "parent": null,
       "location": [
         1.561471,
-        10.785,
+        18.785,
         1.925178
       ],
       "rotation_euler": [
@@ -9578,8 +8608,8 @@
       "world_bounds": {
         "xmin": 1.5364712476730347,
         "xmax": 1.5864711999893188,
-        "ymin": 10.739999771118164,
-        "ymax": 10.829999923706055,
+        "ymin": 18.739999771118164,
+        "ymax": 18.829999923706055,
         "zmin": 0.5504740476608276,
         "zmax": 3.299881935119629
       },
@@ -9614,7 +8644,7 @@
       "parent": null,
       "location": [
         4.40051,
-        10.785,
+        18.785,
         1.925178
       ],
       "rotation_euler": [
@@ -9635,8 +8665,8 @@
       "world_bounds": {
         "xmin": 4.375509738922119,
         "xmax": 4.425509929656982,
-        "ymin": 10.739999771118164,
-        "ymax": 10.829999923706055,
+        "ymin": 18.739999771118164,
+        "ymax": 18.829999923706055,
         "zmin": 0.5504740476608276,
         "zmax": 3.299881935119629
       },
@@ -9671,7 +8701,7 @@
       "parent": null,
       "location": [
         -4.40051,
-        10.785,
+        18.785,
         1.925178
       ],
       "rotation_euler": [
@@ -9692,8 +8722,8 @@
       "world_bounds": {
         "xmin": -4.425509929656982,
         "xmax": -4.375509738922119,
-        "ymin": 10.739999771118164,
-        "ymax": 10.829999923706055,
+        "ymin": 18.739999771118164,
+        "ymax": 18.829999923706055,
         "zmin": 0.5504740476608276,
         "zmax": 3.299881935119629
       },
@@ -9728,7 +8758,7 @@
       "parent": null,
       "location": [
         -1.561471,
-        10.785,
+        18.785,
         1.925178
       ],
       "rotation_euler": [
@@ -9749,8 +8779,8 @@
       "world_bounds": {
         "xmin": -1.5864711999893188,
         "xmax": -1.5364712476730347,
-        "ymin": 10.739999771118164,
-        "ymax": 10.829999923706055,
+        "ymin": 18.739999771118164,
+        "ymax": 18.829999923706055,
         "zmin": 0.5504740476608276,
         "zmax": 3.299881935119629
       },
@@ -9785,7 +8815,7 @@
       "parent": null,
       "location": [
         1.277567,
-        10.785,
+        18.785,
         1.925178
       ],
       "rotation_euler": [
@@ -9806,8 +8836,8 @@
       "world_bounds": {
         "xmin": 1.2525674104690552,
         "xmax": 1.3025673627853394,
-        "ymin": 10.739999771118164,
-        "ymax": 10.829999923706055,
+        "ymin": 18.739999771118164,
+        "ymax": 18.829999923706055,
         "zmin": 0.5504740476608276,
         "zmax": 3.299881935119629
       },
@@ -9842,7 +8872,7 @@
       "parent": null,
       "location": [
         4.116606,
-        10.785,
+        18.785,
         1.925178
       ],
       "rotation_euler": [
@@ -9863,8 +8893,8 @@
       "world_bounds": {
         "xmin": 4.0916056632995605,
         "xmax": 4.141605854034424,
-        "ymin": 10.739999771118164,
-        "ymax": 10.829999923706055,
+        "ymin": 18.739999771118164,
+        "ymax": 18.829999923706055,
         "zmin": 0.5504740476608276,
         "zmax": 3.299881935119629
       },
@@ -9899,7 +8929,7 @@
       "parent": null,
       "location": [
         6.955644,
-        10.785,
+        18.785,
         1.925178
       ],
       "rotation_euler": [
@@ -9920,8 +8950,8 @@
       "world_bounds": {
         "xmin": 6.9306440353393555,
         "xmax": 6.980644226074219,
-        "ymin": 10.739999771118164,
-        "ymax": 10.829999923706055,
+        "ymin": 18.739999771118164,
+        "ymax": 18.829999923706055,
         "zmin": 0.5504740476608276,
         "zmax": 3.299881935119629
       },
@@ -9956,7 +8986,7 @@
       "parent": null,
       "location": [
         -5.678077,
-        10.785,
+        18.785,
         2.640024
       ],
       "rotation_euler": [
@@ -9977,8 +9007,8 @@
       "world_bounds": {
         "xmin": -6.955644607543945,
         "xmax": -4.400509834289551,
-        "ymin": 10.739999771118164,
-        "ymax": 10.829999923706055,
+        "ymin": 18.739999771118164,
+        "ymax": 18.829999923706055,
         "zmin": 2.6150238513946533,
         "zmax": 2.6650240421295166
       },
@@ -10013,7 +9043,7 @@
       "parent": null,
       "location": [
         -2.839039,
-        10.785,
+        18.785,
         2.640024
       ],
       "rotation_euler": [
@@ -10034,8 +9064,8 @@
       "world_bounds": {
         "xmin": -4.116605758666992,
         "xmax": -1.5614712238311768,
-        "ymin": 10.739999771118164,
-        "ymax": 10.829999923706055,
+        "ymin": 18.739999771118164,
+        "ymax": 18.829999923706055,
         "zmin": 2.6150238513946533,
         "zmax": 2.6650240421295166
       },
@@ -10070,7 +9100,7 @@
       "parent": null,
       "location": [
         0.0,
-        10.785,
+        18.785,
         2.640024
       ],
       "rotation_euler": [
@@ -10091,8 +9121,8 @@
       "world_bounds": {
         "xmin": -1.2775673866271973,
         "xmax": 1.2775673866271973,
-        "ymin": 10.739999771118164,
-        "ymax": 10.829999923706055,
+        "ymin": 18.739999771118164,
+        "ymax": 18.829999923706055,
         "zmin": 2.6150238513946533,
         "zmax": 2.6650240421295166
       },
@@ -10127,7 +9157,7 @@
       "parent": null,
       "location": [
         2.839039,
-        10.785,
+        18.785,
         2.640024
       ],
       "rotation_euler": [
@@ -10148,8 +9178,8 @@
       "world_bounds": {
         "xmin": 1.5614712238311768,
         "xmax": 4.116605758666992,
-        "ymin": 10.739999771118164,
-        "ymax": 10.829999923706055,
+        "ymin": 18.739999771118164,
+        "ymax": 18.829999923706055,
         "zmin": 2.6150238513946533,
         "zmax": 2.6650240421295166
       },
@@ -10184,7 +9214,7 @@
       "parent": null,
       "location": [
         5.678077,
-        10.785,
+        18.785,
         2.640024
       ],
       "rotation_euler": [
@@ -10205,8 +9235,8 @@
       "world_bounds": {
         "xmin": 4.400509834289551,
         "xmax": 6.955644607543945,
-        "ymin": 10.739999771118164,
-        "ymax": 10.829999923706055,
+        "ymin": 18.739999771118164,
+        "ymax": 18.829999923706055,
         "zmin": 2.6150238513946533,
         "zmax": 2.6650240421295166
       },
@@ -10241,7 +9271,7 @@
       "parent": null,
       "location": [
         -4.996708,
-        10.81,
+        18.810001,
         1.595249
       ],
       "rotation_euler": [
@@ -10262,14 +9292,14 @@
       "world_bounds": {
         "xmin": -5.365782737731934,
         "xmax": -4.627633094787598,
-        "ymin": 10.770000457763672,
-        "ymax": 10.850000381469727,
+        "ymin": 18.770000457763672,
+        "ymax": 18.85000228881836,
         "zmin": 0.6054621338844299,
         "zmax": 2.585035800933838
       },
       "world_dimensions": {
         "x": 0.7381496429443359,
-        "y": 0.07999992370605469,
+        "y": 0.0800018310546875,
         "z": 1.979573667049408
       },
       "modifiers": [
@@ -10298,7 +9328,7 @@
       "parent": null,
       "location": [
         -2.157669,
-        10.81,
+        18.810001,
         1.595249
       ],
       "rotation_euler": [
@@ -10319,14 +9349,14 @@
       "world_bounds": {
         "xmin": -2.5267443656921387,
         "xmax": -1.7885942459106445,
-        "ymin": 10.770000457763672,
-        "ymax": 10.850000381469727,
+        "ymin": 18.770000457763672,
+        "ymax": 18.85000228881836,
         "zmin": 0.6054621338844299,
         "zmax": 2.585035800933838
       },
       "world_dimensions": {
         "x": 0.7381501197814941,
-        "y": 0.07999992370605469,
+        "y": 0.0800018310546875,
         "z": 1.979573667049408
       },
       "modifiers": [
@@ -10355,7 +9385,7 @@
       "parent": null,
       "location": [
         0.681369,
-        10.81,
+        18.810001,
         1.595249
       ],
       "rotation_euler": [
@@ -10376,14 +9406,14 @@
       "world_bounds": {
         "xmin": 0.31229424476623535,
         "xmax": 1.05044424533844,
-        "ymin": 10.770000457763672,
-        "ymax": 10.850000381469727,
+        "ymin": 18.770000457763672,
+        "ymax": 18.85000228881836,
         "zmin": 0.6054621338844299,
         "zmax": 2.585035800933838
       },
       "world_dimensions": {
         "x": 0.7381500005722046,
-        "y": 0.07999992370605469,
+        "y": 0.0800018310546875,
         "z": 1.979573667049408
       },
       "modifiers": [
@@ -10412,7 +9442,7 @@
       "parent": null,
       "location": [
         3.520408,
-        10.81,
+        18.810001,
         1.595249
       ],
       "rotation_euler": [
@@ -10433,14 +9463,14 @@
       "world_bounds": {
         "xmin": 3.1513326168060303,
         "xmax": 3.8894827365875244,
-        "ymin": 10.770000457763672,
-        "ymax": 10.850000381469727,
+        "ymin": 18.770000457763672,
+        "ymax": 18.85000228881836,
         "zmin": 0.6054621338844299,
         "zmax": 2.585035800933838
       },
       "world_dimensions": {
         "x": 0.7381501197814941,
-        "y": 0.07999992370605469,
+        "y": 0.0800018310546875,
         "z": 1.979573667049408
       },
       "modifiers": [
@@ -10469,7 +9499,7 @@
       "parent": null,
       "location": [
         6.359446,
-        10.81,
+        18.810001,
         1.595249
       ],
       "rotation_euler": [
@@ -10490,14 +9520,14 @@
       "world_bounds": {
         "xmin": 5.990371227264404,
         "xmax": 6.72852087020874,
-        "ymin": 10.770000457763672,
-        "ymax": 10.850000381469727,
+        "ymin": 18.770000457763672,
+        "ymax": 18.85000228881836,
         "zmin": 0.6054621338844299,
         "zmax": 2.585035800933838
       },
       "world_dimensions": {
         "x": 0.7381496429443359,
-        "y": 0.07999992370605469,
+        "y": 0.0800018310546875,
         "z": 1.979573667049408
       },
       "modifiers": [
@@ -10526,7 +9556,7 @@
       "parent": null,
       "location": [
         -5.678077,
-        10.835,
+        18.834999,
         1.925178
       ],
       "rotation_euler": [
@@ -10547,8 +9577,8 @@
       "world_bounds": {
         "xmin": -6.870473384857178,
         "xmax": -4.485681056976318,
-        "ymin": 10.800000190734863,
-        "ymax": 10.869999885559082,
+        "ymin": 18.799999237060547,
+        "ymax": 18.869998931884766,
         "zmin": 0.6054621934890747,
         "zmax": 3.2448935508728027
       },
@@ -10583,7 +9613,7 @@
       "parent": null,
       "location": [
         -2.839039,
-        10.835,
+        18.834999,
         1.925178
       ],
       "rotation_euler": [
@@ -10604,8 +9634,8 @@
       "world_bounds": {
         "xmin": -4.031435012817383,
         "xmax": -1.6466424465179443,
-        "ymin": 10.800000190734863,
-        "ymax": 10.869999885559082,
+        "ymin": 18.799999237060547,
+        "ymax": 18.869998931884766,
         "zmin": 0.6054621934890747,
         "zmax": 3.2448935508728027
       },
@@ -10640,7 +9670,7 @@
       "parent": null,
       "location": [
         0.0,
-        10.835,
+        18.834999,
         1.925178
       ],
       "rotation_euler": [
@@ -10661,8 +9691,8 @@
       "world_bounds": {
         "xmin": -1.1923961639404297,
         "xmax": 1.1923961639404297,
-        "ymin": 10.800000190734863,
-        "ymax": 10.869999885559082,
+        "ymin": 18.799999237060547,
+        "ymax": 18.869998931884766,
         "zmin": 0.6054621934890747,
         "zmax": 3.2448935508728027
       },
@@ -10697,7 +9727,7 @@
       "parent": null,
       "location": [
         2.839039,
-        10.835,
+        18.834999,
         1.925178
       ],
       "rotation_euler": [
@@ -10718,8 +9748,8 @@
       "world_bounds": {
         "xmin": 1.6466424465179443,
         "xmax": 4.031435012817383,
-        "ymin": 10.800000190734863,
-        "ymax": 10.869999885559082,
+        "ymin": 18.799999237060547,
+        "ymax": 18.869998931884766,
         "zmin": 0.6054621934890747,
         "zmax": 3.2448935508728027
       },
@@ -10754,7 +9784,7 @@
       "parent": null,
       "location": [
         5.678077,
-        10.835,
+        18.834999,
         1.925178
       ],
       "rotation_euler": [
@@ -10775,8 +9805,8 @@
       "world_bounds": {
         "xmin": 4.485681056976318,
         "xmax": 6.870473384857178,
-        "ymin": 10.800000190734863,
-        "ymax": 10.869999885559082,
+        "ymin": 18.799999237060547,
+        "ymax": 18.869998931884766,
         "zmin": 0.6054621934890747,
         "zmax": 3.2448935508728027
       },
@@ -11220,27 +10250,27 @@
         0.0
       ],
       "scale": [
+        2.0,
         1.0,
-        1.0,
-        1.0
+        0.25
       ],
       "dimensions": [
-        0.08,
+        0.16,
         5.773757,
-        0.014
+        0.0035
       ],
       "world_bounds": {
-        "xmin": -7.276764869689941,
-        "xmax": -7.196764945983887,
+        "xmin": -7.316764831542969,
+        "xmax": -7.156764984130859,
         "ymin": -2.186878204345703,
         "ymax": 3.5868782997131348,
-        "zmin": -0.010407533496618271,
-        "zmax": 0.003592467401176691
+        "zmin": -0.005157533101737499,
+        "zmax": -0.001657532760873437
       },
       "world_dimensions": {
-        "x": 0.07999992370605469,
+        "x": 0.15999984741210938,
         "y": 5.773756504058838,
-        "z": 0.014000000897794962
+        "z": 0.0035000003408640623
       },
       "modifiers": [
         {
@@ -11277,27 +10307,27 @@
         0.0
       ],
       "scale": [
+        2.0,
         1.0,
-        1.0,
-        1.0
+        0.25
       ],
       "dimensions": [
-        0.08,
+        0.16,
         5.773757,
-        0.014
+        0.0035
       ],
       "world_bounds": {
-        "xmin": -4.771730899810791,
-        "xmax": -4.691730976104736,
+        "xmin": -4.811730861663818,
+        "xmax": -4.651731014251709,
         "ymin": -2.186878204345703,
         "ymax": 3.5868782997131348,
-        "zmin": -0.010407533496618271,
-        "zmax": 0.003592467401176691
+        "zmin": -0.005157533101737499,
+        "zmax": -0.001657532760873437
       },
       "world_dimensions": {
-        "x": 0.07999992370605469,
+        "x": 0.15999984741210938,
         "y": 5.773756504058838,
-        "z": 0.014000000897794962
+        "z": 0.0035000003408640623
       },
       "modifiers": [
         {
@@ -11334,27 +10364,27 @@
         0.0
       ],
       "scale": [
+        2.0,
         1.0,
-        1.0,
-        1.0
+        0.25
       ],
       "dimensions": [
-        0.08,
+        0.16,
         5.773757,
-        0.014
+        0.0035
       ],
       "world_bounds": {
-        "xmin": -2.2666969299316406,
-        "xmax": -2.186697006225586,
+        "xmin": -2.306696891784668,
+        "xmax": -2.1466970443725586,
         "ymin": -2.186878204345703,
         "ymax": 3.5868782997131348,
-        "zmin": -0.010407533496618271,
-        "zmax": 0.003592467401176691
+        "zmin": -0.005157533101737499,
+        "zmax": -0.001657532760873437
       },
       "world_dimensions": {
-        "x": 0.07999992370605469,
+        "x": 0.15999984741210938,
         "y": 5.773756504058838,
-        "z": 0.014000000897794962
+        "z": 0.0035000003408640623
       },
       "modifiers": [
         {
@@ -11391,27 +10421,27 @@
         0.0
       ],
       "scale": [
+        2.0,
         1.0,
-        1.0,
-        1.0
+        0.25
       ],
       "dimensions": [
-        0.08,
+        0.16,
         5.773757,
-        0.014
+        0.0035
       ],
       "world_bounds": {
-        "xmin": 0.23833712935447693,
-        "xmax": 0.3183371126651764,
+        "xmin": 0.198337122797966,
+        "xmax": 0.3583371043205261,
         "ymin": -2.186878204345703,
         "ymax": 3.5868782997131348,
-        "zmin": -0.010407533496618271,
-        "zmax": 0.003592467401176691
+        "zmin": -0.005157533101737499,
+        "zmax": -0.001657532760873437
       },
       "world_dimensions": {
-        "x": 0.07999998331069946,
+        "x": 0.15999998152256012,
         "y": 5.773756504058838,
-        "z": 0.014000000897794962
+        "z": 0.0035000003408640623
       },
       "modifiers": [
         {
@@ -11448,27 +10478,27 @@
         0.0
       ],
       "scale": [
+        2.0,
         1.0,
-        1.0,
-        1.0
+        0.25
       ],
       "dimensions": [
-        0.08,
+        0.16,
         5.773757,
-        0.014
+        0.0035
       ],
       "world_bounds": {
-        "xmin": 2.74337100982666,
-        "xmax": 2.823370933532715,
+        "xmin": 2.703371047973633,
+        "xmax": 2.863370895385742,
         "ymin": -2.186878204345703,
         "ymax": 3.5868782997131348,
-        "zmin": -0.010407533496618271,
-        "zmax": 0.003592467401176691
+        "zmin": -0.005157533101737499,
+        "zmax": -0.001657532760873437
       },
       "world_dimensions": {
-        "x": 0.07999992370605469,
+        "x": 0.15999984741210938,
         "y": 5.773756504058838,
-        "z": 0.014000000897794962
+        "z": 0.0035000003408640623
       },
       "modifiers": [
         {
@@ -11505,27 +10535,27 @@
         0.0
       ],
       "scale": [
+        2.0,
         1.0,
-        1.0,
-        1.0
+        0.25
       ],
       "dimensions": [
-        0.08,
+        0.16,
         5.773757,
-        0.014
+        0.0035
       ],
       "world_bounds": {
-        "xmin": 5.2484049797058105,
-        "xmax": 5.328404903411865,
+        "xmin": 5.208405017852783,
+        "xmax": 5.368404865264893,
         "ymin": -2.186878204345703,
         "ymax": 3.5868782997131348,
-        "zmin": -0.010407533496618271,
-        "zmax": 0.003592467401176691
+        "zmin": -0.005157533101737499,
+        "zmax": -0.001657532760873437
       },
       "world_dimensions": {
-        "x": 0.07999992370605469,
+        "x": 0.15999984741210938,
         "y": 5.773756504058838,
-        "z": 0.014000000897794962
+        "z": 0.0035000003408640623
       },
       "modifiers": [
         {
@@ -11562,27 +10592,27 @@
         0.0
       ],
       "scale": [
+        2.0,
         1.0,
-        1.0,
-        1.0
+        0.25
       ],
       "dimensions": [
-        0.08,
+        0.16,
         5.773757,
-        0.014
+        0.0035
       ],
       "world_bounds": {
-        "xmin": 7.753438949584961,
-        "xmax": 7.833438873291016,
+        "xmin": 7.713438987731934,
+        "xmax": 7.873438835144043,
         "ymin": -2.186878204345703,
         "ymax": 3.5868782997131348,
-        "zmin": -0.010407533496618271,
-        "zmax": 0.003592467401176691
+        "zmin": -0.005157533101737499,
+        "zmax": -0.001657532760873437
       },
       "world_dimensions": {
-        "x": 0.07999992370605469,
+        "x": 0.15999984741210938,
         "y": 5.773756504058838,
-        "z": 0.014000000897794962
+        "z": 0.0035000003408640623
       },
       "modifiers": [
         {
@@ -11599,1350 +10629,6 @@
       ]
     },
     {
-      "name": "V2C_RimRing_-1_-1",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -6.832619,
-        1.395286,
-        0.415125
-      ],
-      "rotation_euler": [
-        1.570796,
-        -0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.271641,
-        0.271641,
-        0.028594
-      ],
-      "world_bounds": {
-        "xmin": -6.968440055847168,
-        "xmax": -6.696798324584961,
-        "ymin": 1.3809889554977417,
-        "ymax": 1.4095827341079712,
-        "zmin": 0.27930396795272827,
-        "zmax": 0.5509454607963562
-      },
-      "world_dimensions": {
-        "x": 0.27164173126220703,
-        "y": 0.028593778610229492,
-        "z": 0.27164149284362793
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimRing_-1_1",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -6.832619,
-        4.704714,
-        0.415125
-      ],
-      "rotation_euler": [
-        1.570796,
-        -0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.271641,
-        0.271641,
-        0.028594
-      ],
-      "world_bounds": {
-        "xmin": -6.968440055847168,
-        "xmax": -6.696798324584961,
-        "ymin": 4.690417289733887,
-        "ymax": 4.719011306762695,
-        "zmin": 0.27930396795272827,
-        "zmax": 0.5509454607963562
-      },
-      "world_dimensions": {
-        "x": 0.27164173126220703,
-        "y": 0.028594017028808594,
-        "z": 0.27164149284362793
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimRing_1_-1",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -4.579202,
-        1.395286,
-        0.415125
-      ],
-      "rotation_euler": [
-        1.570796,
-        -0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.271641,
-        0.271641,
-        0.028594
-      ],
-      "world_bounds": {
-        "xmin": -4.715023040771484,
-        "xmax": -4.443381309509277,
-        "ymin": 1.3809889554977417,
-        "ymax": 1.4095827341079712,
-        "zmin": 0.27930396795272827,
-        "zmax": 0.5509454607963562
-      },
-      "world_dimensions": {
-        "x": 0.27164173126220703,
-        "y": 0.028593778610229492,
-        "z": 0.27164149284362793
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimRing_1_1",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -4.579202,
-        4.704714,
-        0.415125
-      ],
-      "rotation_euler": [
-        1.570796,
-        -0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.271641,
-        0.271641,
-        0.028594
-      ],
-      "world_bounds": {
-        "xmin": -4.715023040771484,
-        "xmax": -4.443381309509277,
-        "ymin": 4.690417289733887,
-        "ymax": 4.719011306762695,
-        "zmin": 0.27930396795272827,
-        "zmax": 0.5509454607963562
-      },
-      "world_dimensions": {
-        "x": 0.27164173126220703,
-        "y": 0.028594017028808594,
-        "z": 0.27164149284362793
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimThickSpoke_-1_-1_0",
-      "type": "CURVE",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.100078,
-        0.02,
-        0.02
-      ],
-      "world_bounds": {
-        "xmin": -6.8326191902160645,
-        "xmax": -6.732541084289551,
-        "ymin": 1.3852858543395996,
-        "ymax": 1.4052858352661133,
-        "zmin": 0.4051247239112854,
-        "zmax": 0.4251247048377991
-      },
-      "world_dimensions": {
-        "x": 0.10007810592651367,
-        "y": 0.019999980926513672,
-        "z": 0.019999980926513672
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimThickSpoke_-1_-1_1",
-      "type": "CURVE",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.06736,
-        0.02,
-        0.09667
-      ],
-      "world_bounds": {
-        "xmin": -6.84127950668335,
-        "xmax": -6.773919582366943,
-        "ymin": 1.3852858543395996,
-        "ymax": 1.4052858352661133,
-        "zmin": 0.4101247191429138,
-        "zmax": 0.5067951679229736
-      },
-      "world_dimensions": {
-        "x": 0.06735992431640625,
-        "y": 0.019999980926513672,
-        "z": 0.09667044878005981
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimThickSpoke_-1_-1_2",
-      "type": "CURVE",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.06736,
-        0.02,
-        0.09667
-      ],
-      "world_bounds": {
-        "xmin": -6.8913187980651855,
-        "xmax": -6.823958873748779,
-        "ymin": 1.3852858543395996,
-        "ymax": 1.4052858352661133,
-        "zmin": 0.4101247191429138,
-        "zmax": 0.5067951679229736
-      },
-      "world_dimensions": {
-        "x": 0.06735992431640625,
-        "y": 0.019999980926513672,
-        "z": 0.09667044878005981
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimThickSpoke_-1_-1_3",
-      "type": "CURVE",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.100079,
-        0.02,
-        0.02
-      ],
-      "world_bounds": {
-        "xmin": -6.932697772979736,
-        "xmax": -6.8326191902160645,
-        "ymin": 1.3852858543395996,
-        "ymax": 1.4052858352661133,
-        "zmin": 0.4051247239112854,
-        "zmax": 0.4251247048377991
-      },
-      "world_dimensions": {
-        "x": 0.10007858276367188,
-        "y": 0.019999980926513672,
-        "z": 0.019999980926513672
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimThickSpoke_-1_-1_4",
-      "type": "CURVE",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.06736,
-        0.02,
-        0.09667
-      ],
-      "world_bounds": {
-        "xmin": -6.8913187980651855,
-        "xmax": -6.823958873748779,
-        "ymin": 1.3852858543395996,
-        "ymax": 1.4052858352661133,
-        "zmin": 0.32345426082611084,
-        "zmax": 0.42012470960617065
-      },
-      "world_dimensions": {
-        "x": 0.06735992431640625,
-        "y": 0.019999980926513672,
-        "z": 0.09667044878005981
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimThickSpoke_-1_-1_5",
-      "type": "CURVE",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.06736,
-        0.02,
-        0.09667
-      ],
-      "world_bounds": {
-        "xmin": -6.84127950668335,
-        "xmax": -6.773919582366943,
-        "ymin": 1.3852858543395996,
-        "ymax": 1.4052858352661133,
-        "zmin": 0.32345426082611084,
-        "zmax": 0.42012470960617065
-      },
-      "world_dimensions": {
-        "x": 0.06735992431640625,
-        "y": 0.019999980926513672,
-        "z": 0.09667044878005981
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimThickSpoke_-1_1_0",
-      "type": "CURVE",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.100078,
-        0.02,
-        0.02
-      ],
-      "world_bounds": {
-        "xmin": -6.8326191902160645,
-        "xmax": -6.732541084289551,
-        "ymin": 4.694714069366455,
-        "ymax": 4.714714527130127,
-        "zmin": 0.4051247239112854,
-        "zmax": 0.4251247048377991
-      },
-      "world_dimensions": {
-        "x": 0.10007810592651367,
-        "y": 0.020000457763671875,
-        "z": 0.019999980926513672
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimThickSpoke_-1_1_1",
-      "type": "CURVE",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.06736,
-        0.02,
-        0.09667
-      ],
-      "world_bounds": {
-        "xmin": -6.84127950668335,
-        "xmax": -6.773919582366943,
-        "ymin": 4.694714069366455,
-        "ymax": 4.714714527130127,
-        "zmin": 0.4101247191429138,
-        "zmax": 0.5067951679229736
-      },
-      "world_dimensions": {
-        "x": 0.06735992431640625,
-        "y": 0.020000457763671875,
-        "z": 0.09667044878005981
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimThickSpoke_-1_1_2",
-      "type": "CURVE",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.06736,
-        0.02,
-        0.09667
-      ],
-      "world_bounds": {
-        "xmin": -6.8913187980651855,
-        "xmax": -6.823958873748779,
-        "ymin": 4.694714069366455,
-        "ymax": 4.714714527130127,
-        "zmin": 0.4101247191429138,
-        "zmax": 0.5067951679229736
-      },
-      "world_dimensions": {
-        "x": 0.06735992431640625,
-        "y": 0.020000457763671875,
-        "z": 0.09667044878005981
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimThickSpoke_-1_1_3",
-      "type": "CURVE",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.100079,
-        0.02,
-        0.02
-      ],
-      "world_bounds": {
-        "xmin": -6.932697772979736,
-        "xmax": -6.8326191902160645,
-        "ymin": 4.694714069366455,
-        "ymax": 4.714714527130127,
-        "zmin": 0.4051247239112854,
-        "zmax": 0.4251247048377991
-      },
-      "world_dimensions": {
-        "x": 0.10007858276367188,
-        "y": 0.020000457763671875,
-        "z": 0.019999980926513672
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimThickSpoke_-1_1_4",
-      "type": "CURVE",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.06736,
-        0.02,
-        0.09667
-      ],
-      "world_bounds": {
-        "xmin": -6.8913187980651855,
-        "xmax": -6.823958873748779,
-        "ymin": 4.694714069366455,
-        "ymax": 4.714714527130127,
-        "zmin": 0.32345426082611084,
-        "zmax": 0.42012470960617065
-      },
-      "world_dimensions": {
-        "x": 0.06735992431640625,
-        "y": 0.020000457763671875,
-        "z": 0.09667044878005981
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimThickSpoke_-1_1_5",
-      "type": "CURVE",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.06736,
-        0.02,
-        0.09667
-      ],
-      "world_bounds": {
-        "xmin": -6.84127950668335,
-        "xmax": -6.773919582366943,
-        "ymin": 4.694714069366455,
-        "ymax": 4.714714527130127,
-        "zmin": 0.32345426082611084,
-        "zmax": 0.42012470960617065
-      },
-      "world_dimensions": {
-        "x": 0.06735992431640625,
-        "y": 0.020000457763671875,
-        "z": 0.09667044878005981
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimThickSpoke_1_-1_0",
-      "type": "CURVE",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.100079,
-        0.02,
-        0.02
-      ],
-      "world_bounds": {
-        "xmin": -4.579202175140381,
-        "xmax": -4.479123592376709,
-        "ymin": 1.3852858543395996,
-        "ymax": 1.4052858352661133,
-        "zmin": 0.4051247239112854,
-        "zmax": 0.4251247048377991
-      },
-      "world_dimensions": {
-        "x": 0.10007858276367188,
-        "y": 0.019999980926513672,
-        "z": 0.019999980926513672
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimThickSpoke_1_-1_1",
-      "type": "CURVE",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.06736,
-        0.02,
-        0.09667
-      ],
-      "world_bounds": {
-        "xmin": -4.587862491607666,
-        "xmax": -4.52050256729126,
-        "ymin": 1.3852858543395996,
-        "ymax": 1.4052858352661133,
-        "zmin": 0.4101247191429138,
-        "zmax": 0.5067951679229736
-      },
-      "world_dimensions": {
-        "x": 0.06735992431640625,
-        "y": 0.019999980926513672,
-        "z": 0.09667044878005981
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimThickSpoke_1_-1_2",
-      "type": "CURVE",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.06736,
-        0.02,
-        0.09667
-      ],
-      "world_bounds": {
-        "xmin": -4.637901782989502,
-        "xmax": -4.570541858673096,
-        "ymin": 1.3852858543395996,
-        "ymax": 1.4052858352661133,
-        "zmin": 0.4101247191429138,
-        "zmax": 0.5067951679229736
-      },
-      "world_dimensions": {
-        "x": 0.06735992431640625,
-        "y": 0.019999980926513672,
-        "z": 0.09667044878005981
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimThickSpoke_1_-1_3",
-      "type": "CURVE",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.100079,
-        0.02,
-        0.02
-      ],
-      "world_bounds": {
-        "xmin": -4.679280757904053,
-        "xmax": -4.579202175140381,
-        "ymin": 1.3852858543395996,
-        "ymax": 1.4052858352661133,
-        "zmin": 0.4051247239112854,
-        "zmax": 0.4251247048377991
-      },
-      "world_dimensions": {
-        "x": 0.10007858276367188,
-        "y": 0.019999980926513672,
-        "z": 0.019999980926513672
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimThickSpoke_1_-1_4",
-      "type": "CURVE",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.06736,
-        0.02,
-        0.09667
-      ],
-      "world_bounds": {
-        "xmin": -4.637901782989502,
-        "xmax": -4.570541858673096,
-        "ymin": 1.3852858543395996,
-        "ymax": 1.4052858352661133,
-        "zmin": 0.32345426082611084,
-        "zmax": 0.42012470960617065
-      },
-      "world_dimensions": {
-        "x": 0.06735992431640625,
-        "y": 0.019999980926513672,
-        "z": 0.09667044878005981
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimThickSpoke_1_-1_5",
-      "type": "CURVE",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.06736,
-        0.02,
-        0.09667
-      ],
-      "world_bounds": {
-        "xmin": -4.587862491607666,
-        "xmax": -4.52050256729126,
-        "ymin": 1.3852858543395996,
-        "ymax": 1.4052858352661133,
-        "zmin": 0.32345426082611084,
-        "zmax": 0.42012470960617065
-      },
-      "world_dimensions": {
-        "x": 0.06735992431640625,
-        "y": 0.019999980926513672,
-        "z": 0.09667044878005981
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimThickSpoke_1_1_0",
-      "type": "CURVE",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.100079,
-        0.02,
-        0.02
-      ],
-      "world_bounds": {
-        "xmin": -4.579202175140381,
-        "xmax": -4.479123592376709,
-        "ymin": 4.694714069366455,
-        "ymax": 4.714714527130127,
-        "zmin": 0.4051247239112854,
-        "zmax": 0.4251247048377991
-      },
-      "world_dimensions": {
-        "x": 0.10007858276367188,
-        "y": 0.020000457763671875,
-        "z": 0.019999980926513672
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimThickSpoke_1_1_1",
-      "type": "CURVE",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.06736,
-        0.02,
-        0.09667
-      ],
-      "world_bounds": {
-        "xmin": -4.587862491607666,
-        "xmax": -4.52050256729126,
-        "ymin": 4.694714069366455,
-        "ymax": 4.714714527130127,
-        "zmin": 0.4101247191429138,
-        "zmax": 0.5067951679229736
-      },
-      "world_dimensions": {
-        "x": 0.06735992431640625,
-        "y": 0.020000457763671875,
-        "z": 0.09667044878005981
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimThickSpoke_1_1_2",
-      "type": "CURVE",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.06736,
-        0.02,
-        0.09667
-      ],
-      "world_bounds": {
-        "xmin": -4.637901782989502,
-        "xmax": -4.570541858673096,
-        "ymin": 4.694714069366455,
-        "ymax": 4.714714527130127,
-        "zmin": 0.4101247191429138,
-        "zmax": 0.5067951679229736
-      },
-      "world_dimensions": {
-        "x": 0.06735992431640625,
-        "y": 0.020000457763671875,
-        "z": 0.09667044878005981
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimThickSpoke_1_1_3",
-      "type": "CURVE",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.100079,
-        0.02,
-        0.02
-      ],
-      "world_bounds": {
-        "xmin": -4.679280757904053,
-        "xmax": -4.579202175140381,
-        "ymin": 4.694714069366455,
-        "ymax": 4.714714527130127,
-        "zmin": 0.4051247239112854,
-        "zmax": 0.4251247048377991
-      },
-      "world_dimensions": {
-        "x": 0.10007858276367188,
-        "y": 0.020000457763671875,
-        "z": 0.019999980926513672
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimThickSpoke_1_1_4",
-      "type": "CURVE",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.06736,
-        0.02,
-        0.09667
-      ],
-      "world_bounds": {
-        "xmin": -4.637901782989502,
-        "xmax": -4.570541858673096,
-        "ymin": 4.694714069366455,
-        "ymax": 4.714714527130127,
-        "zmin": 0.32345426082611084,
-        "zmax": 0.42012470960617065
-      },
-      "world_dimensions": {
-        "x": 0.06735992431640625,
-        "y": 0.020000457763671875,
-        "z": 0.09667044878005981
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
-      "name": "V2C_RimThickSpoke_1_1_5",
-      "type": "CURVE",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.06736,
-        0.02,
-        0.09667
-      ],
-      "world_bounds": {
-        "xmin": -4.587862491607666,
-        "xmax": -4.52050256729126,
-        "ymin": 4.694714069366455,
-        "ymax": 4.714714527130127,
-        "zmin": 0.32345426082611084,
-        "zmax": 0.42012470960617065
-      },
-      "world_dimensions": {
-        "x": 0.06735992431640625,
-        "y": 0.020000457763671875,
-        "z": 0.09667044878005981
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_BlackChromeRim"
-      ]
-    },
-    {
       "name": "V2C_Roof_HVAC_0",
       "type": "MESH",
       "collections": [
@@ -12954,7 +10640,7 @@
       "parent": null,
       "location": [
         -5.010068,
-        12.85,
+        20.85,
         4.867044
       ],
       "rotation_euler": [
@@ -12975,8 +10661,8 @@
       "world_bounds": {
         "xmin": -5.622409820556641,
         "xmax": -4.397726058959961,
-        "ymin": 12.620000839233398,
-        "ymax": 13.079999923706055,
+        "ymin": 20.6200008392334,
+        "ymax": 21.079999923706055,
         "zmin": 4.715826988220215,
         "zmax": 5.018261909484863
       },
@@ -13011,7 +10697,7 @@
       "parent": null,
       "location": [
         -1.391685,
-        12.85,
+        20.85,
         4.867044
       ],
       "rotation_euler": [
@@ -13032,8 +10718,8 @@
       "world_bounds": {
         "xmin": -2.0040271282196045,
         "xmax": -0.779343843460083,
-        "ymin": 12.620000839233398,
-        "ymax": 13.079999923706055,
+        "ymin": 20.6200008392334,
+        "ymax": 21.079999923706055,
         "zmin": 4.715826988220215,
         "zmax": 5.018261909484863
       },
@@ -13068,7 +10754,7 @@
       "parent": null,
       "location": [
         1.94836,
-        12.85,
+        20.85,
         4.867044
       ],
       "rotation_euler": [
@@ -13089,8 +10775,8 @@
       "world_bounds": {
         "xmin": 1.3360180854797363,
         "xmax": 2.560701370239258,
-        "ymin": 12.620000839233398,
-        "ymax": 13.079999923706055,
+        "ymin": 20.6200008392334,
+        "ymax": 21.079999923706055,
         "zmin": 4.715826988220215,
         "zmax": 5.018261909484863
       },
@@ -13125,7 +10811,7 @@
       "parent": null,
       "location": [
         5.566742,
-        12.85,
+        20.85,
         4.867044
       ],
       "rotation_euler": [
@@ -13146,8 +10832,8 @@
       "world_bounds": {
         "xmin": 4.954400062561035,
         "xmax": 6.179083824157715,
-        "ymin": 12.620000839233398,
-        "ymax": 13.079999923706055,
+        "ymin": 20.6200008392334,
+        "ymax": 21.079999923706055,
         "zmin": 4.715826988220215,
         "zmax": 5.018261909484863
       },
@@ -13182,7 +10868,7 @@
       "parent": null,
       "location": [
         -4.509061,
-        12.9,
+        20.9,
         5.059503
       ],
       "rotation_euler": [
@@ -13203,8 +10889,8 @@
       "world_bounds": {
         "xmin": -4.554061412811279,
         "xmax": -4.464061260223389,
-        "ymin": 12.854999542236328,
-        "ymax": 12.944999694824219,
+        "ymin": 20.854999542236328,
+        "ymax": 20.94499969482422,
         "zmin": 4.994502544403076,
         "zmax": 5.124502658843994
       },
@@ -13230,7 +10916,7 @@
       "parent": null,
       "location": [
         -0.890679,
-        12.9,
+        20.9,
         5.059503
       ],
       "rotation_euler": [
@@ -13251,8 +10937,8 @@
       "world_bounds": {
         "xmin": -0.9356787800788879,
         "xmax": -0.8456787467002869,
-        "ymin": 12.854999542236328,
-        "ymax": 12.944999694824219,
+        "ymin": 20.854999542236328,
+        "ymax": 20.94499969482422,
         "zmin": 4.994502544403076,
         "zmax": 5.124502658843994
       },
@@ -13278,7 +10964,7 @@
       "parent": null,
       "location": [
         2.449367,
-        12.9,
+        20.9,
         5.059503
       ],
       "rotation_euler": [
@@ -13299,8 +10985,8 @@
       "world_bounds": {
         "xmin": 2.4043664932250977,
         "xmax": 2.4943666458129883,
-        "ymin": 12.854999542236328,
-        "ymax": 12.944999694824219,
+        "ymin": 20.854999542236328,
+        "ymax": 20.94499969482422,
         "zmin": 4.994502544403076,
         "zmax": 5.124502658843994
       },
@@ -13326,7 +11012,7 @@
       "parent": null,
       "location": [
         6.067749,
-        12.9,
+        20.9,
         5.059503
       ],
       "rotation_euler": [
@@ -13347,8 +11033,8 @@
       "world_bounds": {
         "xmin": 6.022748947143555,
         "xmax": 6.112749099731445,
-        "ymin": 12.854999542236328,
-        "ymax": 12.944999694824219,
+        "ymin": 20.854999542236328,
+        "ymax": 20.94499969482422,
         "zmin": 4.994502544403076,
         "zmax": 5.124502658843994
       },
@@ -13374,7 +11060,7 @@
       "parent": null,
       "location": [
         0.0,
-        10.58,
+        18.58,
         0.025592
       ],
       "rotation_euler": [
@@ -13395,14 +11081,14 @@
       "world_bounds": {
         "xmin": -15.586877822875977,
         "xmax": 15.586877822875977,
-        "ymin": 9.859999656677246,
-        "ymax": 11.300000190734863,
+        "ymin": 17.860000610351562,
+        "ymax": 19.299999237060547,
         "zmin": -0.029407532885670662,
         "zmax": 0.08059246838092804
       },
       "world_dimensions": {
         "x": 31.173755645751953,
-        "y": 1.4400005340576172,
+        "y": 1.4399986267089844,
         "z": 0.1100000012665987
       },
       "modifiers": [
@@ -14199,7 +11885,7 @@
       "parent": null,
       "location": [
         -5.678077,
-        10.775,
+        18.775,
         3.382364
       ],
       "rotation_euler": [
@@ -14220,14 +11906,14 @@
       "world_bounds": {
         "xmin": -6.529788970947266,
         "xmax": -4.8263654708862305,
-        "ymin": 10.744999885559082,
-        "ymax": 10.804999351501465,
+        "ymin": 18.744998931884766,
+        "ymax": 18.80500030517578,
         "zmin": 3.2173995971679688,
         "zmax": 3.547328472137451
       },
       "world_dimensions": {
         "x": 1.7034235000610352,
-        "y": 0.05999946594238281,
+        "y": 0.060001373291015625,
         "z": 0.3299288749694824
       },
       "modifiers": [
@@ -14256,7 +11942,7 @@
       "parent": null,
       "location": [
         -2.839039,
-        10.775,
+        18.775,
         3.382364
       ],
       "rotation_euler": [
@@ -14277,14 +11963,14 @@
       "world_bounds": {
         "xmin": -3.6907501220703125,
         "xmax": -1.9873270988464355,
-        "ymin": 10.744999885559082,
-        "ymax": 10.804999351501465,
+        "ymin": 18.744998931884766,
+        "ymax": 18.80500030517578,
         "zmin": 3.2173995971679688,
         "zmax": 3.547328472137451
       },
       "world_dimensions": {
         "x": 1.703423023223877,
-        "y": 0.05999946594238281,
+        "y": 0.060001373291015625,
         "z": 0.3299288749694824
       },
       "modifiers": [
@@ -14313,7 +11999,7 @@
       "parent": null,
       "location": [
         0.0,
-        10.775,
+        18.775,
         3.382364
       ],
       "rotation_euler": [
@@ -14334,14 +12020,14 @@
       "world_bounds": {
         "xmin": -0.8517115712165833,
         "xmax": 0.8517115712165833,
-        "ymin": 10.744999885559082,
-        "ymax": 10.804999351501465,
+        "ymin": 18.744998931884766,
+        "ymax": 18.80500030517578,
         "zmin": 3.2173995971679688,
         "zmax": 3.547328472137451
       },
       "world_dimensions": {
         "x": 1.7034231424331665,
-        "y": 0.05999946594238281,
+        "y": 0.060001373291015625,
         "z": 0.3299288749694824
       },
       "modifiers": [
@@ -14370,7 +12056,7 @@
       "parent": null,
       "location": [
         2.839039,
-        10.775,
+        18.775,
         3.382364
       ],
       "rotation_euler": [
@@ -14391,14 +12077,14 @@
       "world_bounds": {
         "xmin": 1.9873270988464355,
         "xmax": 3.6907501220703125,
-        "ymin": 10.744999885559082,
-        "ymax": 10.804999351501465,
+        "ymin": 18.744998931884766,
+        "ymax": 18.80500030517578,
         "zmin": 3.2173995971679688,
         "zmax": 3.547328472137451
       },
       "world_dimensions": {
         "x": 1.703423023223877,
-        "y": 0.05999946594238281,
+        "y": 0.060001373291015625,
         "z": 0.3299288749694824
       },
       "modifiers": [
@@ -14427,7 +12113,7 @@
       "parent": null,
       "location": [
         5.678077,
-        10.775,
+        18.775,
         3.382364
       ],
       "rotation_euler": [
@@ -14448,14 +12134,14 @@
       "world_bounds": {
         "xmin": 4.8263654708862305,
         "xmax": 6.529788970947266,
-        "ymin": 10.744999885559082,
-        "ymax": 10.804999351501465,
+        "ymin": 18.744998931884766,
+        "ymax": 18.80500030517578,
         "zmin": 3.2173995971679688,
         "zmax": 3.547328472137451
       },
       "world_dimensions": {
         "x": 1.7034235000610352,
-        "y": 0.05999946594238281,
+        "y": 0.060001373291015625,
         "z": 0.3299288749694824
       },
       "modifiers": [
@@ -14484,7 +12170,7 @@
       "parent": null,
       "location": [
         0.0,
-        12.85,
+        20.85,
         2.255107
       ],
       "rotation_euler": [
@@ -14505,14 +12191,14 @@
       "world_bounds": {
         "xmin": -14.751866340637207,
         "xmax": 14.751866340637207,
-        "ymin": 10.90000057220459,
-        "ymax": 14.800000190734863,
+        "ymin": 18.899999618530273,
+        "ymax": 22.80000114440918,
         "zmin": 0.11056876182556152,
         "zmax": 4.39964485168457
       },
       "world_dimensions": {
         "x": 29.503732681274414,
-        "y": 3.8999996185302734,
+        "y": 3.9000015258789062,
         "z": 4.289076089859009
       },
       "modifiers": [
@@ -14541,7 +12227,7 @@
       "parent": null,
       "location": [
         0.0,
-        12.85,
+        20.85,
         4.482127
       ],
       "rotation_euler": [
@@ -14562,8 +12248,8 @@
       "world_bounds": {
         "xmin": -15.16937255859375,
         "xmax": 15.16937255859375,
-        "ymin": 10.780000686645508,
-        "ymax": 14.920000076293945,
+        "ymin": 18.780000686645508,
+        "ymax": 22.920000076293945,
         "zmin": 4.289668560028076,
         "zmax": 4.674585819244385
       },
@@ -14598,7 +12284,7 @@
       "parent": null,
       "location": [
         0.0,
-        10.87,
+        18.869999,
         4.729574
       ],
       "rotation_euler": [
@@ -14619,8 +12305,8 @@
       "world_bounds": {
         "xmin": -15.16937255859375,
         "xmax": 15.16937255859375,
-        "ymin": 10.769999504089355,
-        "ymax": 10.970000267028809,
+        "ymin": 18.76999855041504,
+        "ymax": 18.969999313354492,
         "zmin": 4.344656467437744,
         "zmax": 5.114490985870361
       },
@@ -14642,424 +12328,6 @@
       "materials": [
         "V2C_MAT_StuccoWarm"
       ]
-    },
-    {
-      "name": "V2C_TailGlow_-1",
-      "type": "LIGHT",
-      "collections": [
-        "V2B_LIGHTS_OVERHEAD"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -6.166837,
-        6.074133,
-        0.658172
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "world_bounds": {
-        "xmin": -6.166837215423584,
-        "xmax": -6.166837215423584,
-        "ymin": 6.074132919311523,
-        "ymax": 6.074132919311523,
-        "zmin": 0.6581723690032959,
-        "zmax": 0.6581723690032959
-      },
-      "world_dimensions": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modifiers": [],
-      "materials": [],
-      "light": {
-        "type": "POINT",
-        "energy": 65.0,
-        "color": [
-          1.0,
-          0.029999999329447746,
-          0.0
-        ],
-        "size": null
-      }
-    },
-    {
-      "name": "V2C_TailGlow_1",
-      "type": "LIGHT",
-      "collections": [
-        "V2B_LIGHTS_OVERHEAD"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -5.244985,
-        6.074133,
-        0.658172
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "world_bounds": {
-        "xmin": -5.2449846267700195,
-        "xmax": -5.2449846267700195,
-        "ymin": 6.074132919311523,
-        "ymax": 6.074132919311523,
-        "zmin": 0.6581723690032959,
-        "zmax": 0.6581723690032959
-      },
-      "world_dimensions": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modifiers": [],
-      "materials": [],
-      "light": {
-        "type": "POINT",
-        "energy": 65.0,
-        "color": [
-          1.0,
-          0.029999999329447746,
-          0.0
-        ],
-        "size": null
-      }
-    },
-    {
-      "name": "V2C_Tire_-1_-1",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -6.832619,
-        1.395286,
-        0.415125
-      ],
-      "rotation_euler": [
-        1.570796,
-        -0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.543283,
-        0.543283,
-        0.128672
-      ],
-      "world_bounds": {
-        "xmin": -7.104260444641113,
-        "xmax": -6.560977935791016,
-        "ymin": 1.3309496641159058,
-        "ymax": 1.4596220254898071,
-        "zmin": 0.1434832215309143,
-        "zmax": 0.6867662072181702
-      },
-      "world_dimensions": {
-        "x": 0.5432825088500977,
-        "y": 0.12867236137390137,
-        "z": 0.5432829856872559
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_Tire"
-      ]
-    },
-    {
-      "name": "V2C_Tire_-1_1",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -6.832619,
-        4.704714,
-        0.415125
-      ],
-      "rotation_euler": [
-        1.570796,
-        -0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.543283,
-        0.543283,
-        0.128672
-      ],
-      "world_bounds": {
-        "xmin": -7.104260444641113,
-        "xmax": -6.560977935791016,
-        "ymin": 4.640377998352051,
-        "ymax": 4.769050598144531,
-        "zmin": 0.1434832215309143,
-        "zmax": 0.6867662072181702
-      },
-      "world_dimensions": {
-        "x": 0.5432825088500977,
-        "y": 0.12867259979248047,
-        "z": 0.5432829856872559
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_Tire"
-      ]
-    },
-    {
-      "name": "V2C_Tire_1_-1",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -4.579202,
-        1.395286,
-        0.415125
-      ],
-      "rotation_euler": [
-        1.570796,
-        -0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.543283,
-        0.543283,
-        0.128672
-      ],
-      "world_bounds": {
-        "xmin": -4.85084342956543,
-        "xmax": -4.307560920715332,
-        "ymin": 1.3309496641159058,
-        "ymax": 1.4596220254898071,
-        "zmin": 0.1434832215309143,
-        "zmax": 0.6867662072181702
-      },
-      "world_dimensions": {
-        "x": 0.5432825088500977,
-        "y": 0.12867236137390137,
-        "z": 0.5432829856872559
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_Tire"
-      ]
-    },
-    {
-      "name": "V2C_Tire_1_1",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -4.579202,
-        4.704714,
-        0.415125
-      ],
-      "rotation_euler": [
-        1.570796,
-        -0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.543283,
-        0.543283,
-        0.128672
-      ],
-      "world_bounds": {
-        "xmin": -4.85084342956543,
-        "xmax": -4.307560920715332,
-        "ymin": 4.640377998352051,
-        "ymax": 4.769050598144531,
-        "zmin": 0.1434832215309143,
-        "zmax": 0.6867662072181702
-      },
-      "world_dimensions": {
-        "x": 0.5432825088500977,
-        "y": 0.12867259979248047,
-        "z": 0.5432829856872559
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_Tire"
-      ]
-    },
-    {
-      "name": "V2C_Underglow_HiddenStrip_Front",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -5.705911,
-        2.336761,
-        0.145592
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.664456,
-        0.04,
-        0.02
-      ],
-      "world_bounds": {
-        "xmin": -6.538138389587402,
-        "xmax": -4.873682975769043,
-        "ymin": 2.3167612552642822,
-        "ymax": 2.3567612171173096,
-        "zmin": 0.13559246063232422,
-        "zmax": 0.15559247136116028
-      },
-      "world_dimensions": {
-        "x": 1.6644554138183594,
-        "y": 0.039999961853027344,
-        "z": 0.02000001072883606
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "V2C_MAT_CyanUnderglowHidden"
-      ]
-    },
-    {
-      "name": "V2C_Underglow_HiddenStrip_Rear",
-      "type": "MESH",
-      "collections": [
-        "V2C_DRIFT_CAR"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -5.705911,
-        3.848828,
-        0.145592
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.664456,
-        0.04,
-        0.02
-      ],
-      "world_bounds": {
-        "xmin": -6.538138389587402,
-        "xmax": -4.873682975769043,
-        "ymin": 3.8288276195526123,
-        "ymax": 3.8688275814056396,
-        "zmin": 0.13559246063232422,
-        "zmax": 0.15559247136116028
-      },
-      "world_dimensions": {
-        "x": 1.6644554138183594,
-        "y": 0.039999961853027344,
-        "z": 0.02000001072883606
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "V2C_MAT_CyanUnderglowHidden"
-      ]
     }
   ],
   "render_settings": {
@@ -15071,6 +12339,6 @@
     "frame_start": 1,
     "frame_end": 120,
     "frame_current": 120,
-    "world": "World"
+    "world": "NightSkyHDRI003_World"
   }
 }

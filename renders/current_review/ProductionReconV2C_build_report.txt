@@ -1,7 +1,0 @@
-[audit] F2 bounds=(-1.607236623764038, 1.176134467124939, -0.7234944105148315, 0.7518489956855774, 0.0005924672004766762, 2.750000238418579) dims=(2.783371090888977, 1.475343406200409, 2.7494077712181024)
-[audit] J2B retained hidden
-[lighting] preserved existing V2B overhead amber lights unchanged
-[render] 01_Hero_F2_OverheadAmber.png
-[render] 02_HighOrbit_RoofParkingCar.png
-[render] 03_LowAngle_CarStorefront.png
-[save] C:\BlenderProjects\SackboyMusicVideo\Project\blender\sackboy_scene.blend
