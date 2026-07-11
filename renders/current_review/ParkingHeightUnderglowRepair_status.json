@@ -1,456 +1,398 @@
 {
-  "asphalt": {
-    "active_asphalt": "Asphalt ground",
-    "plane_z": 1.6371204853057861,
+  "asphalt_height_repair": {
+    "name": "Asphalt ground",
+    "old_bounds": {
+      "min_x": -32.99190139770508,
+      "max_x": 37.774147033691406,
+      "min_y": -27.842344284057617,
+      "max_y": 42.473350524902344,
+      "min_z": -0.3461715877056122,
+      "max_z": 3.498124837875366,
+      "dim_x": 70.76604843139648,
+      "dim_y": 70.31569480895996,
+      "dim_z": 3.8442964255809784
+    },
+    "new_bounds": {
+      "min_x": -32.99190139770508,
+      "max_x": 37.774147033691406,
+      "min_y": -27.842344284057617,
+      "max_y": 42.473350524902344,
+      "min_z": -0.3461715877056122,
+      "max_z": 3.498124837875366,
+      "dim_x": 70.76604843139648,
+      "dim_y": 70.31569480895996,
+      "dim_z": 3.8442964255809784
+    },
+    "target_z": 0.3007543087005615,
     "env_asphalt_hidden": true
   },
-  "paint_decals": {
-    "old_paint_hidden": 48,
-    "flat_decals_created": 48,
-    "decal_z": 1.6391204853057861,
+  "paint_decal_repair": {
+    "prior_decals_removed": 48,
+    "flat_decals_created": 37,
+    "decal_z": 0.3027543087005615,
+    "bad_plaza_decals_removed": [],
     "objects": [
       {
-        "old": "ENV_FrameL_-1",
+        "source": "ENV_FrameL_-1",
         "decal": "PARKING_DECAL_001_ENV_FrameL_-1",
-        "old_dims": [
+        "source_dims": [
           0.11,
           0.16,
           0.0
         ]
       },
       {
-        "old": "ENV_FrameL_-2",
+        "source": "ENV_FrameL_-2",
         "decal": "PARKING_DECAL_002_ENV_FrameL_-2",
-        "old_dims": [
+        "source_dims": [
           0.11,
           0.16,
           0.0
         ]
       },
       {
-        "old": "ENV_FrameL_-3",
+        "source": "ENV_FrameL_-3",
         "decal": "PARKING_DECAL_003_ENV_FrameL_-3",
-        "old_dims": [
+        "source_dims": [
           0.11,
           0.16,
           0.0
         ]
       },
       {
-        "old": "ENV_FrameL_0",
+        "source": "ENV_FrameL_0",
         "decal": "PARKING_DECAL_004_ENV_FrameL_0",
-        "old_dims": [
+        "source_dims": [
           0.11,
           0.16,
           0.0
         ]
       },
       {
-        "old": "ENV_FrameL_1",
+        "source": "ENV_FrameL_1",
         "decal": "PARKING_DECAL_005_ENV_FrameL_1",
-        "old_dims": [
+        "source_dims": [
           0.11,
           0.16,
           0.0
         ]
       },
       {
-        "old": "ENV_FrameL_2",
+        "source": "ENV_FrameL_2",
         "decal": "PARKING_DECAL_006_ENV_FrameL_2",
-        "old_dims": [
+        "source_dims": [
           0.11,
           0.16,
           0.0
         ]
       },
       {
-        "old": "ENV_FrameL_3",
+        "source": "ENV_FrameL_3",
         "decal": "PARKING_DECAL_007_ENV_FrameL_3",
-        "old_dims": [
+        "source_dims": [
           0.11,
           0.16,
           0.0
         ]
       },
       {
-        "old": "ENV_FrameR_-1",
+        "source": "ENV_FrameR_-1",
         "decal": "PARKING_DECAL_008_ENV_FrameR_-1",
-        "old_dims": [
+        "source_dims": [
           0.11,
           0.16,
           0.0
         ]
       },
       {
-        "old": "ENV_FrameR_-2",
+        "source": "ENV_FrameR_-2",
         "decal": "PARKING_DECAL_009_ENV_FrameR_-2",
-        "old_dims": [
+        "source_dims": [
           0.11,
           0.16,
           0.0
         ]
       },
       {
-        "old": "ENV_FrameR_-3",
+        "source": "ENV_FrameR_-3",
         "decal": "PARKING_DECAL_010_ENV_FrameR_-3",
-        "old_dims": [
+        "source_dims": [
           0.11,
           0.16,
           0.0
         ]
       },
       {
-        "old": "ENV_FrameR_0",
+        "source": "ENV_FrameR_0",
         "decal": "PARKING_DECAL_011_ENV_FrameR_0",
-        "old_dims": [
+        "source_dims": [
           0.11,
           0.16,
           0.0
         ]
       },
       {
-        "old": "ENV_FrameR_1",
+        "source": "ENV_FrameR_1",
         "decal": "PARKING_DECAL_012_ENV_FrameR_1",
-        "old_dims": [
+        "source_dims": [
           0.11,
           0.16,
           0.0
         ]
       },
       {
-        "old": "ENV_FrameR_2",
+        "source": "ENV_FrameR_2",
         "decal": "PARKING_DECAL_013_ENV_FrameR_2",
-        "old_dims": [
+        "source_dims": [
           0.11,
           0.16,
           0.0
         ]
       },
       {
-        "old": "ENV_FrameR_3",
+        "source": "ENV_FrameR_3",
         "decal": "PARKING_DECAL_014_ENV_FrameR_3",
-        "old_dims": [
+        "source_dims": [
           0.11,
           0.16,
           0.0
         ]
       },
       {
-        "old": "ENV_FrameTop_-1",
+        "source": "ENV_FrameTop_-1",
         "decal": "PARKING_DECAL_015_ENV_FrameTop_-1",
-        "old_dims": [
+        "source_dims": [
           3.2,
           0.16,
           0.0
         ]
       },
       {
-        "old": "ENV_FrameTop_-2",
+        "source": "ENV_FrameTop_-2",
         "decal": "PARKING_DECAL_016_ENV_FrameTop_-2",
-        "old_dims": [
+        "source_dims": [
           3.2,
           0.16,
           0.0
         ]
       },
       {
-        "old": "ENV_FrameTop_-3",
+        "source": "ENV_FrameTop_-3",
         "decal": "PARKING_DECAL_017_ENV_FrameTop_-3",
-        "old_dims": [
+        "source_dims": [
           3.2,
           0.16,
           0.0
         ]
       },
       {
-        "old": "ENV_FrameTop_0",
+        "source": "ENV_FrameTop_0",
         "decal": "PARKING_DECAL_018_ENV_FrameTop_0",
-        "old_dims": [
+        "source_dims": [
           3.2,
           0.16,
           0.0
         ]
       },
       {
-        "old": "ENV_FrameTop_1",
+        "source": "ENV_FrameTop_1",
         "decal": "PARKING_DECAL_019_ENV_FrameTop_1",
-        "old_dims": [
+        "source_dims": [
           3.2,
           0.16,
           0.0
         ]
       },
       {
-        "old": "ENV_FrameTop_2",
+        "source": "ENV_FrameTop_2",
         "decal": "PARKING_DECAL_020_ENV_FrameTop_2",
-        "old_dims": [
+        "source_dims": [
           3.2,
           0.16,
           0.0
         ]
       },
       {
-        "old": "ENV_FrameTop_3",
+        "source": "ENV_FrameTop_3",
         "decal": "PARKING_DECAL_021_ENV_FrameTop_3",
-        "old_dims": [
+        "source_dims": [
           3.2,
           0.16,
           0.0
         ]
       },
       {
-        "old": "ENV_Glass_-1",
-        "decal": "PARKING_DECAL_022_ENV_Glass_-1",
-        "old_dims": [
-          2.84,
-          0.16,
-          0.0
-        ]
-      },
-      {
-        "old": "ENV_Glass_-2",
-        "decal": "PARKING_DECAL_023_ENV_Glass_-2",
-        "old_dims": [
-          2.84,
-          0.16,
-          0.0
-        ]
-      },
-      {
-        "old": "ENV_Glass_-3",
-        "decal": "PARKING_DECAL_024_ENV_Glass_-3",
-        "old_dims": [
-          2.84,
-          0.16,
-          0.0
-        ]
-      },
-      {
-        "old": "ENV_Glass_0",
-        "decal": "PARKING_DECAL_025_ENV_Glass_0",
-        "old_dims": [
-          2.84,
-          0.16,
-          0.0
-        ]
-      },
-      {
-        "old": "ENV_Glass_1",
-        "decal": "PARKING_DECAL_026_ENV_Glass_1",
-        "old_dims": [
-          2.84,
-          0.16,
-          0.0
-        ]
-      },
-      {
-        "old": "ENV_Glass_2",
-        "decal": "PARKING_DECAL_027_ENV_Glass_2",
-        "old_dims": [
-          2.84,
-          0.16,
-          0.0
-        ]
-      },
-      {
-        "old": "ENV_Glass_3",
-        "decal": "PARKING_DECAL_028_ENV_Glass_3",
-        "old_dims": [
-          2.84,
-          0.16,
-          0.0
-        ]
-      },
-      {
-        "old": "ENV_PlazaShell",
-        "decal": "PARKING_DECAL_029_ENV_PlazaShell",
-        "old_dims": [
-          28.0,
-          2.4,
-          0.0
-        ]
-      },
-      {
-        "old": "HERO_HParking_CenterSpine",
-        "decal": "PARKING_DECAL_030_HERO_HParking_CenterSpine",
-        "old_dims": [
-          18.5094,
-          0.075,
-          0.0
-        ]
-      },
-      {
-        "old": "HERO_HParking_Row0_Divider_0",
-        "decal": "PARKING_DECAL_031_HERO_HParking_Row0_Divider_0",
-        "old_dims": [
+        "source": "HERO_HParking_Row0_Divider_0",
+        "decal": "PARKING_DECAL_022_HERO_HParking_Row0_Divider_0",
+        "source_dims": [
           0.075,
           3.4671,
           0.0
         ]
       },
       {
-        "old": "HERO_HParking_Row0_Divider_1",
-        "decal": "PARKING_DECAL_032_HERO_HParking_Row0_Divider_1",
-        "old_dims": [
+        "source": "HERO_HParking_Row0_Divider_1",
+        "decal": "PARKING_DECAL_023_HERO_HParking_Row0_Divider_1",
+        "source_dims": [
           0.075,
           3.4671,
           0.0
         ]
       },
       {
-        "old": "HERO_HParking_Row0_Divider_2",
-        "decal": "PARKING_DECAL_033_HERO_HParking_Row0_Divider_2",
-        "old_dims": [
+        "source": "HERO_HParking_Row0_Divider_2",
+        "decal": "PARKING_DECAL_024_HERO_HParking_Row0_Divider_2",
+        "source_dims": [
           0.075,
           3.4671,
           0.0
         ]
       },
       {
-        "old": "HERO_HParking_Row0_Divider_3",
-        "decal": "PARKING_DECAL_034_HERO_HParking_Row0_Divider_3",
-        "old_dims": [
+        "source": "HERO_HParking_Row0_Divider_3",
+        "decal": "PARKING_DECAL_025_HERO_HParking_Row0_Divider_3",
+        "source_dims": [
           0.075,
           3.4671,
           0.0
         ]
       },
       {
-        "old": "HERO_HParking_Row0_Divider_4",
-        "decal": "PARKING_DECAL_035_HERO_HParking_Row0_Divider_4",
-        "old_dims": [
+        "source": "HERO_HParking_Row0_Divider_4",
+        "decal": "PARKING_DECAL_026_HERO_HParking_Row0_Divider_4",
+        "source_dims": [
           0.075,
           3.4671,
           0.0
         ]
       },
       {
-        "old": "HERO_HParking_Row0_Divider_5",
-        "decal": "PARKING_DECAL_036_HERO_HParking_Row0_Divider_5",
-        "old_dims": [
+        "source": "HERO_HParking_Row0_Divider_5",
+        "decal": "PARKING_DECAL_027_HERO_HParking_Row0_Divider_5",
+        "source_dims": [
           0.075,
           3.4671,
           0.0
         ]
       },
       {
-        "old": "HERO_HParking_Row0_Divider_6",
-        "decal": "PARKING_DECAL_037_HERO_HParking_Row0_Divider_6",
-        "old_dims": [
+        "source": "HERO_HParking_Row0_Divider_6",
+        "decal": "PARKING_DECAL_028_HERO_HParking_Row0_Divider_6",
+        "source_dims": [
           0.075,
           3.4671,
           0.0
         ]
       },
       {
-        "old": "HERO_HParking_Row0_Divider_7",
-        "decal": "PARKING_DECAL_038_HERO_HParking_Row0_Divider_7",
-        "old_dims": [
+        "source": "HERO_HParking_Row0_Divider_7",
+        "decal": "PARKING_DECAL_029_HERO_HParking_Row0_Divider_7",
+        "source_dims": [
           0.075,
           3.4671,
           0.0
         ]
       },
       {
-        "old": "HERO_HParking_Row1_Divider_0",
-        "decal": "PARKING_DECAL_039_HERO_HParking_Row1_Divider_0",
-        "old_dims": [
+        "source": "HERO_HParking_Row1_Divider_0",
+        "decal": "PARKING_DECAL_030_HERO_HParking_Row1_Divider_0",
+        "source_dims": [
           0.075,
           3.4671,
           0.0
         ]
       },
       {
-        "old": "HERO_HParking_Row1_Divider_1",
-        "decal": "PARKING_DECAL_040_HERO_HParking_Row1_Divider_1",
-        "old_dims": [
+        "source": "HERO_HParking_Row1_Divider_1",
+        "decal": "PARKING_DECAL_031_HERO_HParking_Row1_Divider_1",
+        "source_dims": [
           0.075,
           3.4671,
           0.0
         ]
       },
       {
-        "old": "HERO_HParking_Row1_Divider_2",
-        "decal": "PARKING_DECAL_041_HERO_HParking_Row1_Divider_2",
-        "old_dims": [
+        "source": "HERO_HParking_Row1_Divider_2",
+        "decal": "PARKING_DECAL_032_HERO_HParking_Row1_Divider_2",
+        "source_dims": [
           0.075,
           3.4671,
           0.0
         ]
       },
       {
-        "old": "HERO_HParking_Row1_Divider_3",
-        "decal": "PARKING_DECAL_042_HERO_HParking_Row1_Divider_3",
-        "old_dims": [
+        "source": "HERO_HParking_Row1_Divider_3",
+        "decal": "PARKING_DECAL_033_HERO_HParking_Row1_Divider_3",
+        "source_dims": [
           0.075,
           3.4671,
           0.0
         ]
       },
       {
-        "old": "HERO_HParking_Row1_Divider_4",
-        "decal": "PARKING_DECAL_043_HERO_HParking_Row1_Divider_4",
-        "old_dims": [
+        "source": "HERO_HParking_Row1_Divider_4",
+        "decal": "PARKING_DECAL_034_HERO_HParking_Row1_Divider_4",
+        "source_dims": [
           0.075,
           3.4671,
           0.0
         ]
       },
       {
-        "old": "HERO_HParking_Row1_Divider_5",
-        "decal": "PARKING_DECAL_044_HERO_HParking_Row1_Divider_5",
-        "old_dims": [
+        "source": "HERO_HParking_Row1_Divider_5",
+        "decal": "PARKING_DECAL_035_HERO_HParking_Row1_Divider_5",
+        "source_dims": [
           0.075,
           3.4671,
           0.0
         ]
       },
       {
-        "old": "HERO_HParking_Row1_Divider_6",
-        "decal": "PARKING_DECAL_045_HERO_HParking_Row1_Divider_6",
-        "old_dims": [
+        "source": "HERO_HParking_Row1_Divider_6",
+        "decal": "PARKING_DECAL_036_HERO_HParking_Row1_Divider_6",
+        "source_dims": [
           0.075,
           3.4671,
           0.0
         ]
       },
       {
-        "old": "HERO_HParking_Row1_Divider_7",
-        "decal": "PARKING_DECAL_046_HERO_HParking_Row1_Divider_7",
-        "old_dims": [
+        "source": "HERO_HParking_Row1_Divider_7",
+        "decal": "PARKING_DECAL_037_HERO_HParking_Row1_Divider_7",
+        "source_dims": [
           0.075,
           3.4671,
-          0.0
-        ]
-      },
-      {
-        "old": "HERO_Underglow_FrontHiddenStrip",
-        "decal": "PARKING_DECAL_047_HERO_Underglow_FrontHiddenStrip",
-        "old_dims": [
-          1.8683,
-          0.9935,
-          0.0
-        ]
-      },
-      {
-        "old": "HERO_Underglow_RearHiddenStrip",
-        "decal": "PARKING_DECAL_048_HERO_Underglow_RearHiddenStrip",
-        "old_dims": [
-          1.8007,
-          0.9039,
           0.0
         ]
       }
     ]
   },
-  "hatch": [
+  "hatch_repair": [
     {
       "name": "Plane.029",
-      "min_z": 0.302254,
-      "max_z": 0.310639
+      "min_z": 1.63962,
+      "max_z": 1.648005
     }
   ],
-  "lights_scanned_preserved": [
+  "underglow_restore": {
+    "name": "HERO_CyanUnderglow_Area",
+    "before": [
+      -1.522953,
+      5.177517,
+      0.075276
+    ],
+    "after": [
+      -1.522953,
+      5.177517,
+      0.075276
+    ],
+    "target": [
+      -1.522953,
+      5.177517,
+      0.075276
+    ]
+  },
+  "lights_scanned_after_restore": [
     {
       "name": "HERO_CarAmberHoodRead",
       "type": "SPOT",
@@ -595,11 +537,7 @@
       {
         "name": "F2",
         "status": "present",
-        "type": "MESH",
         "visible": true,
-        "collections": [
-          "CHAR_Meshy_LeftCandidate_Refined"
-        ],
         "location": [
           2.688858,
           -0.249535,
@@ -616,17 +554,15 @@
         ],
         "vertices": 30549,
         "faces": 60930,
+        "collections": [
+          "CHAR_Meshy_LeftCandidate_Refined"
+        ],
         "modifiers": []
       },
       {
         "name": "Apricot Pullover Hoodie",
         "status": "present",
-        "type": "MESH",
         "visible": true,
-        "collections": [
-          "Apricot Pullover Hoodie",
-          "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS"
-        ],
         "location": [
           -2.816514,
           0.012429,
@@ -643,6 +579,10 @@
         ],
         "vertices": 257116,
         "faces": 489064,
+        "collections": [
+          "Apricot Pullover Hoodie",
+          "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS"
+        ],
         "modifiers": [
           {
             "name": "OPT_PREVIEW_DECIMATE",
@@ -654,11 +594,7 @@
       {
         "name": "Cargo pants",
         "status": "present",
-        "type": "MESH",
         "visible": true,
-        "collections": [
-          "Cargo pants"
-        ],
         "location": [
           -2.80222,
           -0.00521,
@@ -675,6 +611,9 @@
         ],
         "vertices": 16507,
         "faces": 16424,
+        "collections": [
+          "Cargo pants"
+        ],
         "modifiers": [
           {
             "name": "Collision",
@@ -686,11 +625,7 @@
       {
         "name": "Plane.001",
         "status": "present",
-        "type": "MESH",
         "visible": true,
-        "collections": [
-          "Shoes"
-        ],
         "location": [
           -0.064073,
           0.0,
@@ -707,16 +642,15 @@
         ],
         "vertices": 10292,
         "faces": 10800,
+        "collections": [
+          "Shoes"
+        ],
         "modifiers": []
       },
       {
         "name": "Plane.022",
         "status": "present",
-        "type": "MESH",
         "visible": true,
-        "collections": [
-          "Shoes"
-        ],
         "location": [
           0.065381,
           0.0,
@@ -733,6 +667,9 @@
         ],
         "vertices": 10292,
         "faces": 10800,
+        "collections": [
+          "Shoes"
+        ],
         "modifiers": [
           {
             "name": "WeightedNormal",
@@ -748,17 +685,21 @@
       }
     ]
   },
-  "feedback_notes": {
-    "imported_asphalt": "Imported Asphalt ground is now the active visible surface and was flattened instead of hidden.",
-    "paint_strips": "Old raised strip meshes are hidden; flat zero-thickness decal planes replace them.",
-    "reflection_lighting": "Future reflection package should use red, white, amber, and green spotlights only, not blue.",
-    "fit_plan": "Next body/clothing work should refine Sackboy proportions first, then deform clothing, then rig."
+  "reflection_lighting_plan": {
+    "status": "not_added_in_this_repair_pass",
+    "approved_colors": [
+      "red",
+      "white",
+      "amber",
+      "green"
+    ],
+    "note": "The far-end reflection lights are approved conceptually but intentionally not added during this repair pass."
   },
   "locked": {
-    "existing_lights": "scanned only, not modified",
-    "car": "not modified",
+    "car": "not moved",
+    "existing_amber_lights": "not modified except underglow location restore",
     "storefront": "not modified",
     "sky_world_hdri": "not modified",
-    "character": "scan only"
+    "character": "not modified"
   }
 }

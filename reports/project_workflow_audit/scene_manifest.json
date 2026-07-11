@@ -145,9 +145,9 @@
         4.915334
       ],
       "dimensions": [
-        70.782417,
-        70.332678,
-        4.032169
+        70.766048,
+        70.315695,
+        3.844296
       ],
       "modifiers": [],
       "vertices": 16441,
@@ -236,9 +236,9 @@
         1.0
       ],
       "dimensions": [
-        0.165023,
-        0.178251,
-        0.009311
+        0.168475,
+        0.004881,
+        0.00023
       ],
       "modifiers": [
         {
@@ -780,9 +780,9 @@
         1.0
       ],
       "dimensions": [
-        0.046797,
-        0.046814,
-        1.989299
+        0.048209,
+        0.276449,
+        0.417184
       ],
       "modifiers": [
         {
@@ -5255,8 +5255,8 @@
         1.0
       ],
       "dimensions": [
-        1.868341,
-        0.993543,
+        3.867387,
+        0.05,
         0.0
       ],
       "modifiers": [
@@ -5296,8 +5296,8 @@
         1.0
       ],
       "dimensions": [
-        1.80072,
-        0.903876,
+        3.867387,
+        0.050001,
         0.0
       ],
       "modifiers": [
@@ -5591,9 +5591,9 @@
         0.005831
       ],
       "dimensions": [
-        0.059259,
-        0.057907,
-        0.027551
+        0.059319,
+        0.00145,
+        7.2e-05
       ],
       "modifiers": [
         {
@@ -5749,9 +5749,9 @@
         4.915334
       ],
       "dimensions": [
-        70.782417,
-        70.332678,
-        4.032169
+        10.71452,
+        9.61478,
+        0.38728
       ],
       "modifiers": [],
       "vertices": 16441,
@@ -7206,8 +7206,8 @@
         1.0
       ],
       "dimensions": [
-        1.868341,
-        0.993543,
+        3.867387,
+        0.05,
         0.0
       ],
       "modifiers": [],
@@ -7237,8 +7237,8 @@
         1.0
       ],
       "dimensions": [
-        1.80072,
-        0.903876,
+        3.867387,
+        0.050001,
         0.0
       ],
       "modifiers": [],
@@ -7897,286 +7897,7 @@
       "faces": 1
     },
     {
-      "name": "PARKING_DECAL_022_ENV_Glass_-1",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        2.84,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_023_ENV_Glass_-2",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        2.84,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_024_ENV_Glass_-3",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        2.84,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_025_ENV_Glass_0",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        2.84,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_026_ENV_Glass_1",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        2.84,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_027_ENV_Glass_2",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        2.84,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_028_ENV_Glass_3",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        2.84,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_029_ENV_PlazaShell",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        28.0,
-        2.4,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_030_HERO_HParking_CenterSpine",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        18.509418,
-        0.075,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_031_HERO_HParking_Row0_Divider_0",
+      "name": "PARKING_DECAL_022_HERO_HParking_Row0_Divider_0",
       "type": "MESH",
       "collections": [
         "PARKING_PAINT_DECALS_FLAT"
@@ -8207,7 +7928,7 @@
       "faces": 1
     },
     {
-      "name": "PARKING_DECAL_032_HERO_HParking_Row0_Divider_1",
+      "name": "PARKING_DECAL_023_HERO_HParking_Row0_Divider_1",
       "type": "MESH",
       "collections": [
         "PARKING_PAINT_DECALS_FLAT"
@@ -8238,7 +7959,7 @@
       "faces": 1
     },
     {
-      "name": "PARKING_DECAL_033_HERO_HParking_Row0_Divider_2",
+      "name": "PARKING_DECAL_024_HERO_HParking_Row0_Divider_2",
       "type": "MESH",
       "collections": [
         "PARKING_PAINT_DECALS_FLAT"
@@ -8269,7 +7990,7 @@
       "faces": 1
     },
     {
-      "name": "PARKING_DECAL_034_HERO_HParking_Row0_Divider_3",
+      "name": "PARKING_DECAL_025_HERO_HParking_Row0_Divider_3",
       "type": "MESH",
       "collections": [
         "PARKING_PAINT_DECALS_FLAT"
@@ -8300,7 +8021,7 @@
       "faces": 1
     },
     {
-      "name": "PARKING_DECAL_035_HERO_HParking_Row0_Divider_4",
+      "name": "PARKING_DECAL_026_HERO_HParking_Row0_Divider_4",
       "type": "MESH",
       "collections": [
         "PARKING_PAINT_DECALS_FLAT"
@@ -8331,7 +8052,7 @@
       "faces": 1
     },
     {
-      "name": "PARKING_DECAL_036_HERO_HParking_Row0_Divider_5",
+      "name": "PARKING_DECAL_027_HERO_HParking_Row0_Divider_5",
       "type": "MESH",
       "collections": [
         "PARKING_PAINT_DECALS_FLAT"
@@ -8362,7 +8083,7 @@
       "faces": 1
     },
     {
-      "name": "PARKING_DECAL_037_HERO_HParking_Row0_Divider_6",
+      "name": "PARKING_DECAL_028_HERO_HParking_Row0_Divider_6",
       "type": "MESH",
       "collections": [
         "PARKING_PAINT_DECALS_FLAT"
@@ -8393,7 +8114,7 @@
       "faces": 1
     },
     {
-      "name": "PARKING_DECAL_038_HERO_HParking_Row0_Divider_7",
+      "name": "PARKING_DECAL_029_HERO_HParking_Row0_Divider_7",
       "type": "MESH",
       "collections": [
         "PARKING_PAINT_DECALS_FLAT"
@@ -8424,7 +8145,7 @@
       "faces": 1
     },
     {
-      "name": "PARKING_DECAL_039_HERO_HParking_Row1_Divider_0",
+      "name": "PARKING_DECAL_030_HERO_HParking_Row1_Divider_0",
       "type": "MESH",
       "collections": [
         "PARKING_PAINT_DECALS_FLAT"
@@ -8455,7 +8176,7 @@
       "faces": 1
     },
     {
-      "name": "PARKING_DECAL_040_HERO_HParking_Row1_Divider_1",
+      "name": "PARKING_DECAL_031_HERO_HParking_Row1_Divider_1",
       "type": "MESH",
       "collections": [
         "PARKING_PAINT_DECALS_FLAT"
@@ -8486,7 +8207,7 @@
       "faces": 1
     },
     {
-      "name": "PARKING_DECAL_041_HERO_HParking_Row1_Divider_2",
+      "name": "PARKING_DECAL_032_HERO_HParking_Row1_Divider_2",
       "type": "MESH",
       "collections": [
         "PARKING_PAINT_DECALS_FLAT"
@@ -8517,7 +8238,7 @@
       "faces": 1
     },
     {
-      "name": "PARKING_DECAL_042_HERO_HParking_Row1_Divider_3",
+      "name": "PARKING_DECAL_033_HERO_HParking_Row1_Divider_3",
       "type": "MESH",
       "collections": [
         "PARKING_PAINT_DECALS_FLAT"
@@ -8548,7 +8269,7 @@
       "faces": 1
     },
     {
-      "name": "PARKING_DECAL_043_HERO_HParking_Row1_Divider_4",
+      "name": "PARKING_DECAL_034_HERO_HParking_Row1_Divider_4",
       "type": "MESH",
       "collections": [
         "PARKING_PAINT_DECALS_FLAT"
@@ -8579,7 +8300,7 @@
       "faces": 1
     },
     {
-      "name": "PARKING_DECAL_044_HERO_HParking_Row1_Divider_5",
+      "name": "PARKING_DECAL_035_HERO_HParking_Row1_Divider_5",
       "type": "MESH",
       "collections": [
         "PARKING_PAINT_DECALS_FLAT"
@@ -8610,7 +8331,7 @@
       "faces": 1
     },
     {
-      "name": "PARKING_DECAL_045_HERO_HParking_Row1_Divider_6",
+      "name": "PARKING_DECAL_036_HERO_HParking_Row1_Divider_6",
       "type": "MESH",
       "collections": [
         "PARKING_PAINT_DECALS_FLAT"
@@ -8641,7 +8362,7 @@
       "faces": 1
     },
     {
-      "name": "PARKING_DECAL_046_HERO_HParking_Row1_Divider_7",
+      "name": "PARKING_DECAL_037_HERO_HParking_Row1_Divider_7",
       "type": "MESH",
       "collections": [
         "PARKING_PAINT_DECALS_FLAT"
@@ -8672,43 +8393,43 @@
       "faces": 1
     },
     {
-      "name": "PARKING_DECAL_047_HERO_Underglow_FrontHiddenStrip",
+      "name": "PARKING_HEIGHT_BACKUP_before_height_repair_Asphalt_ground",
       "type": "MESH",
       "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
       ],
-      "visible": true,
+      "visible": false,
       "location": [
         0.0,
-        0.0,
-        0.0
+        4.780939,
+        -0.876001
       ],
       "rotation": [
-        0.0,
-        0.0,
-        0.0
+        -0.009999,
+        0.031474,
+        0.72616
       ],
       "scale": [
-        1.0,
-        1.0,
-        1.0
+        4.915334,
+        4.915334,
+        4.915334
       ],
       "dimensions": [
-        1.868341,
-        0.993543,
-        0.0
+        70.766048,
+        70.315695,
+        3.844296
       ],
       "modifiers": [],
-      "vertices": 4,
-      "faces": 1
+      "vertices": 16441,
+      "faces": 16154
     },
     {
-      "name": "PARKING_DECAL_048_HERO_Underglow_RearHiddenStrip",
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameL_-1",
       "type": "MESH",
       "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
       ],
-      "visible": true,
+      "visible": false,
       "location": [
         0.0,
         0.0,
@@ -8716,7 +8437,7 @@
       ],
       "rotation": [
         0.0,
-        0.0,
+        -0.0,
         0.0
       ],
       "scale": [
@@ -8725,13 +8446,1129 @@
         1.0
       ],
       "dimensions": [
-        1.80072,
-        0.903876,
+        0.11,
+        0.16,
         0.0
       ],
       "modifiers": [],
-      "vertices": 4,
-      "faces": 1
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameL_-2",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameL_-3",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameL_0",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameL_1",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameL_2",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameL_3",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameR_-1",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameR_-2",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameR_-3",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameR_0",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameR_1",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameR_2",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameR_3",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameTop_-1",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.2,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameTop_-2",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.2,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameTop_-3",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.2,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameTop_0",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.2,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameTop_1",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.2,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameTop_2",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.2,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameTop_3",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.2,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row0_Divider_0",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075001,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row0_Divider_1",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row0_Divider_2",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row0_Divider_3",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row0_Divider_4",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row0_Divider_5",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row0_Divider_6",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row0_Divider_7",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075001,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row1_Divider_0",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075001,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row1_Divider_1",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row1_Divider_2",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row1_Divider_3",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row1_Divider_4",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row1_Divider_5",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row1_Divider_6",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row1_Divider_7",
+      "type": "MESH",
+      "collections": [
+        "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075001,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
     },
     {
       "name": "Plane",
@@ -9583,9 +10420,9 @@
         1.0
       ],
       "dimensions": [
-        0.267585,
-        0.267584,
-        0.019996
+        0.272451,
+        0.007893,
+        0.000335
       ],
       "modifiers": [
         {
@@ -9793,7 +10630,7 @@
       "location": [
         0.0,
         0.0,
-        1.617125
+        0.280759
       ],
       "rotation": [
         0.0,
@@ -14038,10 +14875,17 @@
       "child_count": 0
     },
     {
+      "name": "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN",
+      "hide_viewport": true,
+      "hide_render": true,
+      "object_count": 38,
+      "child_count": 0
+    },
+    {
       "name": "PARKING_PAINT_DECALS_FLAT",
       "hide_viewport": false,
       "hide_render": false,
-      "object_count": 48,
+      "object_count": 37,
       "child_count": 0
     },
     {

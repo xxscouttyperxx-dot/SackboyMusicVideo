@@ -1,10 +1,9 @@
 # Scene Layout Summary
 
-Updated by Parking Texture Decal / Fit Prep v1.
+Updated by Parking Height / Underglow Repair v1.
 
-- Imported Asphalt ground is visible and flattened.
-- ENV_Asphalt is hidden to avoid z-fighting.
+- Imported Asphalt ground is visible and flattened/lowered to the previous clean parking surface height.
+- Bad PARKING_DECAL_*ENV_PlazaShell decal was removed by rebuilding paint decals from filtered paint sources.
 - Old raised paint-strip meshes are hidden and replaced with flat decal planes.
-- Hatch/manhole was placed back on the asphalt surface.
-- Current lighting was scanned and preserved.
-- Character/clothing fit measurements were recorded; no body or clothing deformation was applied.
+- HERO_CyanUnderglow_Area was restored to its locked location under the car.
+- No far-end reflection lights were added in this repair pass.
