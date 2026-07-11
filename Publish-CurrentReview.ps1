@@ -19,15 +19,7 @@ function GitAddExistingOrDeleted {
 }
 
 Write-Host "[Publish] Cleaning stale package files..."
-$Keep=@(
-    "Apply-DecimatePreviewPaintSnap.ps1",
-    "Validate-DecimatePreviewPaintSnap.ps1",
-    "Publish-CurrentReview.ps1",
-    "README-DecimatePreviewPaintSnap.txt",
-    "README_FIRST.txt",
-    "Run-BuildAll.ps1",
-    "Run-DiagnosticRenders.ps1"
-)
+$Keep=@("Apply-SceneCleanupFlatAsphalt.ps1","Validate-SceneCleanupFlatAsphalt.ps1","Publish-CurrentReview.ps1","README-SceneCleanupFlatAsphalt.txt","README_FIRST.txt","Run-BuildAll.ps1","Run-DiagnosticRenders.ps1")
 $Patterns=@("Apply-*.ps1","Validate-*.ps1","README-*.txt")
 foreach($Pattern in $Patterns){
     Get-ChildItem -Path $Root -Filter $Pattern -File -ErrorAction SilentlyContinue |
@@ -45,16 +37,17 @@ GitAddExistingOrDeleted @(
     "NightSkyHDRI003_1K",
     "scene_manifest.json",
     "reports\project_workflow_audit",
+    "reports\scene_cleanup_flat_asphalt_v1B",
     "reports\decimate_preview_paint_snap_v1B",
     "reports\mesh_audit_optimization_preview",
     "renders\current_review",
+    "Apply-SceneCleanupFlatAsphalt.ps1",
+    "Validate-SceneCleanupFlatAsphalt.ps1",
+    "Publish-CurrentReview.ps1",
+    "README-SceneCleanupFlatAsphalt.txt",
     "Apply-DecimatePreviewPaintSnap.ps1",
     "Validate-DecimatePreviewPaintSnap.ps1",
-    "Publish-CurrentReview.ps1",
-    "README-DecimatePreviewPaintSnap.txt",
-    "Apply-MeshAuditOptimizationPreview.ps1",
-    "Validate-MeshAuditOptimizationPreview.ps1",
-    "README-MeshAuditOptimizationPreview.txt"
+    "README-DecimatePreviewPaintSnap.txt"
 )
 
 git -C $Root status --short
@@ -62,7 +55,7 @@ $Status = git -C $Root status --porcelain
 if([string]::IsNullOrWhiteSpace($Status)){
     Write-Host "[Publish] Nothing to commit."
 } else {
-    git -C $Root commit -m "Preview decimation targets and improve parking paint snap"
+    git -C $Root commit -m "Clean scene and flatten parking asphalt"
     if($LASTEXITCODE -ne 0){throw "git commit failed"}
 }
 git -C $Root push origin main

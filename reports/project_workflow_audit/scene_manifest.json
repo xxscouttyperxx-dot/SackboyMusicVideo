@@ -1,329 +1,5 @@
 {
   "blend_file": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\blender\\sackboy_scene.blend",
-  "collections": [
-    {
-      "name": "Apricot Pullover Hoodie",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 1,
-      "child_count": 0
-    },
-    {
-      "name": "Asphalt ground",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 1,
-      "child_count": 0
-    },
-    {
-      "name": "Audi e-tron GT quattro Black",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 80,
-      "child_count": 0
-    },
-    {
-      "name": "BASE_Meshy_LeftCandidate_Source",
-      "hide_viewport": true,
-      "hide_render": true,
-      "object_count": 1,
-      "child_count": 0
-    },
-    {
-      "name": "CAM_Rigs",
-      "hide_viewport": true,
-      "hide_render": true,
-      "object_count": 1,
-      "child_count": 0
-    },
-    {
-      "name": "CHAR_HandRefine_J2B",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 1,
-      "child_count": 0
-    },
-    {
-      "name": "CHAR_Meshy_LeftCandidate_Refined",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 5,
-      "child_count": 0
-    },
-    {
-      "name": "CHAR_SackDoll",
-      "hide_viewport": true,
-      "hide_render": true,
-      "object_count": 19,
-      "child_count": 0
-    },
-    {
-      "name": "Cargo pants",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 1,
-      "child_count": 0
-    },
-    {
-      "name": "Cast iron sewer hatch",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 2,
-      "child_count": 0
-    },
-    {
-      "name": "Collection",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 0,
-      "child_count": 0
-    },
-    {
-      "name": "ENV_ParkingLot",
-      "hide_viewport": true,
-      "hide_render": true,
-      "object_count": 30,
-      "child_count": 0
-    },
-    {
-      "name": "FINAL_CAMERAS",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 0,
-      "child_count": 0
-    },
-    {
-      "name": "FINAL_HELPERS",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 1,
-      "child_count": 0
-    },
-    {
-      "name": "FINAL_LIGHTS_Minimal",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 0,
-      "child_count": 0
-    },
-    {
-      "name": "HERO_CAR_AMBER_READ",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 3,
-      "child_count": 0
-    },
-    {
-      "name": "HERO_CAR_UNDERGLOW",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 3,
-      "child_count": 0
-    },
-    {
-      "name": "HERO_CHARACTER_MATERIAL_GUIDES",
-      "hide_viewport": true,
-      "hide_render": true,
-      "object_count": 6,
-      "child_count": 0
-    },
-    {
-      "name": "HERO_CHARACTER_WARDROBE_V1",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 8,
-      "child_count": 0
-    },
-    {
-      "name": "HERO_ENV_CORRECTIONS",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 0,
-      "child_count": 0
-    },
-    {
-      "name": "HERO_H_PARKING_LAYOUT",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 17,
-      "child_count": 0
-    },
-    {
-      "name": "HERO_IMPORTED_CLOTHING_CANDIDATES",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 0,
-      "child_count": 10
-    },
-    {
-      "name": "HERO_REVIEW_CAMERAS",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 3,
-      "child_count": 0
-    },
-    {
-      "name": "HERO_REVIEW_CAMERAS_MESH_AUDIT",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 3,
-      "child_count": 0
-    },
-    {
-      "name": "HERO_SHOE_GRAPHIC_GUIDES",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 0,
-      "child_count": 0
-    },
-    {
-      "name": "HERO_SIDEWALK_CURB_REBUILD",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 9,
-      "child_count": 0
-    },
-    {
-      "name": "HERO_STOREFRONT_REBUILD",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 39,
-      "child_count": 0
-    },
-    {
-      "name": "HERO_VISIBLE_LAMPPOSTS",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 8,
-      "child_count": 0
-    },
-    {
-      "name": "LGT_Night",
-      "hide_viewport": true,
-      "hide_render": true,
-      "object_count": 0,
-      "child_count": 0
-    },
-    {
-      "name": "Large Trash Can",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 8,
-      "child_count": 0
-    },
-    {
-      "name": "MESHY_GalleryTemp",
-      "hide_viewport": true,
-      "hide_render": true,
-      "object_count": 0,
-      "child_count": 0
-    },
-    {
-      "name": "MESHY_TempAnalysis",
-      "hide_viewport": true,
-      "hide_render": true,
-      "object_count": 0,
-      "child_count": 0
-    },
-    {
-      "name": "No Parking Sign Board",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 9,
-      "child_count": 0
-    },
-    {
-      "name": "OPTIMIZATION_PREVIEW_BACKUP_LINKED_ORIGINALS",
-      "hide_viewport": true,
-      "hide_render": true,
-      "object_count": 3,
-      "child_count": 0
-    },
-    {
-      "name": "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 3,
-      "child_count": 0
-    },
-    {
-      "name": "PROD_RECON_V2B",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 0,
-      "child_count": 1
-    },
-    {
-      "name": "PROD_RECON_V2C",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 0,
-      "child_count": 3
-    },
-    {
-      "name": "Shoes",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 3,
-      "child_count": 0
-    },
-    {
-      "name": "Stop road sign",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 1,
-      "child_count": 0
-    },
-    {
-      "name": "Traffic Cone (Photoscanned)",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 1,
-      "child_count": 0
-    },
-    {
-      "name": "Utility Box (Photoscanned)",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 1,
-      "child_count": 0
-    },
-    {
-      "name": "V2B_HELPERS",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 0,
-      "child_count": 0
-    },
-    {
-      "name": "V2B_LIGHTS_OVERHEAD",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 2,
-      "child_count": 0
-    },
-    {
-      "name": "V2C_CAMERAS",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 0,
-      "child_count": 0
-    },
-    {
-      "name": "V2C_ENVIRONMENT",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 0,
-      "child_count": 0
-    },
-    {
-      "name": "V2C_HELPERS",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 0,
-      "child_count": 0
-    }
-  ],
   "objects": [
     {
       "name": "177d920ddde57c74f8e1ef18863ab511",
@@ -434,8 +110,8 @@
       ],
       "dimensions": [
         2.277528,
-        1.091278,
-        1.549808
+        1.091159,
+        1.549869
       ],
       "modifiers": [
         {
@@ -452,7 +128,7 @@
       "collections": [
         "Asphalt ground"
       ],
-      "visible": true,
+      "visible": false,
       "location": [
         0.0,
         4.780939,
@@ -1150,12 +826,12 @@
       "dimensions": [
         36.0,
         36.0,
-        0.2
+        0.0
       ],
       "modifiers": [
         {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
+          "name": "FLAT_ASPHALT_VISUAL_THICKNESS",
+          "type": "SOLIDIFY"
         }
       ],
       "vertices": 8,
@@ -1171,7 +847,7 @@
       "location": [
         -5.05,
         6.6,
-        2.25
+        4.084754
       ],
       "rotation": [
         0.0,
@@ -1188,12 +864,7 @@
         0.16,
         3.3
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1207,7 +878,7 @@
       "location": [
         -8.55,
         6.6,
-        2.25
+        4.084754
       ],
       "rotation": [
         0.0,
@@ -1224,12 +895,7 @@
         0.16,
         3.3
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1243,7 +909,7 @@
       "location": [
         -12.05,
         6.6,
-        2.25
+        4.084754
       ],
       "rotation": [
         0.0,
@@ -1260,12 +926,7 @@
         0.16,
         3.3
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1279,7 +940,7 @@
       "location": [
         -1.55,
         6.6,
-        2.25
+        4.084754
       ],
       "rotation": [
         0.0,
@@ -1296,12 +957,7 @@
         0.16,
         3.3
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1315,7 +971,7 @@
       "location": [
         1.95,
         6.6,
-        2.25
+        4.084754
       ],
       "rotation": [
         0.0,
@@ -1332,12 +988,7 @@
         0.16,
         3.3
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1351,7 +1002,7 @@
       "location": [
         5.45,
         6.6,
-        2.25
+        4.084754
       ],
       "rotation": [
         0.0,
@@ -1368,12 +1019,7 @@
         0.16,
         3.3
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1387,7 +1033,7 @@
       "location": [
         8.95,
         6.6,
-        2.25
+        4.084754
       ],
       "rotation": [
         0.0,
@@ -1404,12 +1050,7 @@
         0.16,
         3.3
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1423,7 +1064,7 @@
       "location": [
         -1.95,
         6.6,
-        2.25
+        4.084754
       ],
       "rotation": [
         0.0,
@@ -1440,12 +1081,7 @@
         0.16,
         3.3
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1459,7 +1095,7 @@
       "location": [
         -5.45,
         6.6,
-        2.25
+        4.084754
       ],
       "rotation": [
         0.0,
@@ -1476,12 +1112,7 @@
         0.16,
         3.3
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1495,7 +1126,7 @@
       "location": [
         -8.95,
         6.6,
-        2.25
+        4.084754
       ],
       "rotation": [
         0.0,
@@ -1512,12 +1143,7 @@
         0.16,
         3.3
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1531,7 +1157,7 @@
       "location": [
         1.55,
         6.6,
-        2.25
+        4.084754
       ],
       "rotation": [
         0.0,
@@ -1548,12 +1174,7 @@
         0.16,
         3.3
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1567,7 +1188,7 @@
       "location": [
         5.05,
         6.6,
-        2.25
+        4.084754
       ],
       "rotation": [
         0.0,
@@ -1584,12 +1205,7 @@
         0.16,
         3.3
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1603,7 +1219,7 @@
       "location": [
         8.55,
         6.6,
-        2.25
+        4.084754
       ],
       "rotation": [
         0.0,
@@ -1620,12 +1236,7 @@
         0.16,
         3.3
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1639,7 +1250,7 @@
       "location": [
         12.05,
         6.6,
-        2.25
+        4.084754
       ],
       "rotation": [
         0.0,
@@ -1656,12 +1267,7 @@
         0.16,
         3.3
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1675,7 +1281,7 @@
       "location": [
         -3.5,
         6.6,
-        3.9
+        4.139754
       ],
       "rotation": [
         0.0,
@@ -1692,12 +1298,7 @@
         0.16,
         0.11
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1711,7 +1312,7 @@
       "location": [
         -7.0,
         6.6,
-        3.9
+        4.139754
       ],
       "rotation": [
         0.0,
@@ -1728,12 +1329,7 @@
         0.16,
         0.11
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1747,7 +1343,7 @@
       "location": [
         -10.5,
         6.6,
-        3.9
+        4.139754
       ],
       "rotation": [
         0.0,
@@ -1764,12 +1360,7 @@
         0.16,
         0.11
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1783,7 +1374,7 @@
       "location": [
         0.0,
         6.6,
-        3.9
+        4.139754
       ],
       "rotation": [
         0.0,
@@ -1800,12 +1391,7 @@
         0.16,
         0.11
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1819,7 +1405,7 @@
       "location": [
         3.5,
         6.6,
-        3.9
+        4.139754
       ],
       "rotation": [
         0.0,
@@ -1836,12 +1422,7 @@
         0.16,
         0.11
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1855,7 +1436,7 @@
       "location": [
         7.0,
         6.6,
-        3.9
+        4.139754
       ],
       "rotation": [
         0.0,
@@ -1872,12 +1453,7 @@
         0.16,
         0.11
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1891,7 +1467,7 @@
       "location": [
         10.5,
         6.6,
-        3.9
+        4.139754
       ],
       "rotation": [
         0.0,
@@ -1908,12 +1484,7 @@
         0.16,
         0.11
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1927,7 +1498,7 @@
       "location": [
         -3.5,
         6.72,
-        2.25
+        3.984754
       ],
       "rotation": [
         0.0,
@@ -1944,12 +1515,7 @@
         0.16,
         3.1
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1963,7 +1529,7 @@
       "location": [
         -7.0,
         6.72,
-        2.25
+        3.984754
       ],
       "rotation": [
         0.0,
@@ -1980,12 +1546,7 @@
         0.16,
         3.1
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1999,7 +1560,7 @@
       "location": [
         -10.5,
         6.72,
-        2.25
+        3.984754
       ],
       "rotation": [
         0.0,
@@ -2016,12 +1577,7 @@
         0.16,
         3.1
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -2035,7 +1591,7 @@
       "location": [
         0.0,
         6.72,
-        2.25
+        3.984754
       ],
       "rotation": [
         0.0,
@@ -2052,12 +1608,7 @@
         0.16,
         3.1
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -2071,7 +1622,7 @@
       "location": [
         3.5,
         6.72,
-        2.25
+        3.984754
       ],
       "rotation": [
         0.0,
@@ -2088,12 +1639,7 @@
         0.16,
         3.1
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -2107,7 +1653,7 @@
       "location": [
         7.0,
         6.72,
-        2.25
+        3.984754
       ],
       "rotation": [
         0.0,
@@ -2124,12 +1670,7 @@
         0.16,
         3.1
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -2143,7 +1684,7 @@
       "location": [
         10.5,
         6.72,
-        2.25
+        3.984754
       ],
       "rotation": [
         0.0,
@@ -2160,12 +1701,7 @@
         0.16,
         3.1
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -2179,7 +1715,7 @@
       "location": [
         0.0,
         8.0,
-        2.4
+        5.084754
       ],
       "rotation": [
         0.0,
@@ -2196,12 +1732,7 @@
         2.4,
         5.0
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -2648,180 +2179,6 @@
       "faces": 6
     },
     {
-      "name": "HERO_CAM_ImportedAssetsAudit",
-      "type": "CAMERA",
-      "collections": [
-        "HERO_REVIEW_CAMERAS_MESH_AUDIT"
-      ],
-      "visible": true,
-      "location": [
-        101.485466,
-        -147.42424,
-        5.606687
-      ],
-      "rotation": [
-        1.553757,
-        -0.0,
-        0.56962
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "modifiers": []
-    },
-    {
-      "name": "HERO_CAM_ImportedClothingCandidates",
-      "type": "CAMERA",
-      "collections": [
-        "HERO_REVIEW_CAMERAS"
-      ],
-      "visible": true,
-      "location": [
-        8.691236,
-        -7.409224,
-        3.162411
-      ],
-      "rotation": [
-        1.400642,
-        0.0,
-        0.596746
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "modifiers": []
-    },
-    {
-      "name": "HERO_CAM_MeshAuditOverview",
-      "type": "CAMERA",
-      "collections": [
-        "HERO_REVIEW_CAMERAS_MESH_AUDIT"
-      ],
-      "visible": true,
-      "location": [
-        4.794517,
-        -5.00199,
-        2.887471
-      ],
-      "rotation": [
-        1.42828,
-        0.0,
-        0.78479
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "modifiers": []
-    },
-    {
-      "name": "HERO_CAM_ParkingPaintSnap",
-      "type": "CAMERA",
-      "collections": [
-        "HERO_REVIEW_CAMERAS_MESH_AUDIT"
-      ],
-      "visible": true,
-      "location": [
-        10.883969,
-        -12.385505,
-        -1.157815
-      ],
-      "rotation": [
-        1.515496,
-        0.0,
-        0.407205
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "modifiers": []
-    },
-    {
-      "name": "HERO_CAM_ShoeGraphicCleanup",
-      "type": "CAMERA",
-      "collections": [
-        "HERO_REVIEW_CAMERAS"
-      ],
-      "visible": true,
-      "location": [
-        2.150314,
-        -3.010171,
-        0.687944
-      ],
-      "rotation": [
-        1.456729,
-        -0.0,
-        0.663838
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "modifiers": []
-    },
-    {
-      "name": "HERO_CAM_WardrobeCleanupFront",
-      "type": "CAMERA",
-      "collections": [
-        "HERO_REVIEW_CAMERAS"
-      ],
-      "visible": true,
-      "location": [
-        3.820337,
-        -6.03452,
-        2.61253
-      ],
-      "rotation": [
-        1.439224,
-        -0.0,
-        0.588394
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "modifiers": []
-    },
-    {
       "name": "HERO_CarAmberHoodRead",
       "type": "LIGHT",
       "collections": [
@@ -2849,12 +2206,11 @@
         0.0
       ],
       "modifiers": [],
-      "light_type": "SPOT",
-      "energy": 150.0,
+      "energy": 100.0,
       "color": [
         1.0,
-        0.3799999952316284,
-        0.07999999821186066
+        0.257203,
+        0.006592
       ]
     },
     {
@@ -2885,12 +2241,11 @@
         0.0
       ],
       "modifiers": [],
-      "light_type": "SPOT",
-      "energy": 260.0,
+      "energy": 100.00001525878906,
       "color": [
         1.0,
-        0.3799999952316284,
-        0.07999999821186066
+        0.216022,
+        0.00379
       ]
     },
     {
@@ -2921,12 +2276,11 @@
         0.0
       ],
       "modifiers": [],
-      "light_type": "SPOT",
       "energy": 90.0,
       "color": [
         1.0,
-        0.3799999952316284,
-        0.07999999821186066
+        0.38,
+        0.08
       ]
     },
     {
@@ -2997,11 +2351,10 @@
         0.0
       ],
       "modifiers": [],
-      "light_type": "AREA",
       "energy": 160.0,
       "color": [
         0.0,
-        0.550000011920929,
+        0.55,
         1.0
       ]
     },
@@ -3495,7 +2848,7 @@
       "location": [
         0.0,
         2.65,
-        0.1085
+        0.187254
       ],
       "rotation": [
         0.0,
@@ -3509,15 +2862,10 @@
       ],
       "dimensions": [
         18.509418,
-        0.075001,
+        0.075,
         0.005
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -3531,7 +2879,7 @@
       "location": [
         -9.254709,
         1.15,
-        0.1085
+        0.187254
       ],
       "rotation": [
         0.0,
@@ -3548,12 +2896,7 @@
         3.467057,
         0.005
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -3567,7 +2910,7 @@
       "location": [
         -6.610507,
         1.15,
-        0.1085
+        0.187254
       ],
       "rotation": [
         0.0,
@@ -3580,16 +2923,11 @@
         1.0
       ],
       "dimensions": [
-        0.075001,
-        3.467058,
+        0.075,
+        3.467057,
         0.005
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -3603,7 +2941,7 @@
       "location": [
         -3.966304,
         1.15,
-        0.1085
+        0.187254
       ],
       "rotation": [
         0.0,
@@ -3616,16 +2954,11 @@
         1.0
       ],
       "dimensions": [
-        0.075001,
+        0.075,
         3.467057,
         0.005
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -3639,7 +2972,7 @@
       "location": [
         -1.322101,
         1.15,
-        0.1085
+        0.187254
       ],
       "rotation": [
         0.0,
@@ -3656,12 +2989,7 @@
         3.467057,
         0.005
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -3675,7 +3003,7 @@
       "location": [
         1.322101,
         1.15,
-        0.1085
+        0.187254
       ],
       "rotation": [
         0.0,
@@ -3692,12 +3020,7 @@
         3.467057,
         0.005
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -3711,7 +3034,7 @@
       "location": [
         3.966304,
         1.15,
-        0.1085
+        0.187254
       ],
       "rotation": [
         0.0,
@@ -3728,12 +3051,7 @@
         3.467057,
         0.005
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -3747,7 +3065,7 @@
       "location": [
         6.610507,
         1.15,
-        0.1085
+        0.187254
       ],
       "rotation": [
         0.0,
@@ -3760,16 +3078,11 @@
         1.0
       ],
       "dimensions": [
-        0.075001,
-        3.467058,
+        0.075,
+        3.467057,
         0.005
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -3783,7 +3096,7 @@
       "location": [
         9.254709,
         1.15,
-        0.1085
+        0.187254
       ],
       "rotation": [
         0.0,
@@ -3796,16 +3109,11 @@
         1.0
       ],
       "dimensions": [
-        0.075002,
-        3.467058,
+        0.075001,
+        3.467057,
         0.005
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -3819,7 +3127,7 @@
       "location": [
         -9.254709,
         4.15,
-        0.1085
+        0.187254
       ],
       "rotation": [
         0.0,
@@ -3832,16 +3140,11 @@
         1.0
       ],
       "dimensions": [
-        0.075002,
+        0.075001,
         3.467057,
         0.005
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -3855,7 +3158,7 @@
       "location": [
         -6.610507,
         4.15,
-        0.1085
+        0.187254
       ],
       "rotation": [
         0.0,
@@ -3868,16 +3171,11 @@
         1.0
       ],
       "dimensions": [
-        0.075001,
+        0.075,
         3.467057,
         0.005
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -3891,7 +3189,7 @@
       "location": [
         -3.966304,
         4.15,
-        0.1085
+        0.187254
       ],
       "rotation": [
         0.0,
@@ -3904,16 +3202,11 @@
         1.0
       ],
       "dimensions": [
-        0.075001,
+        0.075,
         3.467057,
         0.005
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -3927,7 +3220,7 @@
       "location": [
         -1.322101,
         4.15,
-        0.1085
+        0.187254
       ],
       "rotation": [
         0.0,
@@ -3944,12 +3237,7 @@
         3.467057,
         0.005
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -3963,7 +3251,7 @@
       "location": [
         1.322101,
         4.15,
-        0.1085
+        0.187254
       ],
       "rotation": [
         0.0,
@@ -3980,12 +3268,7 @@
         3.467057,
         0.005
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -3999,43 +3282,7 @@
       "location": [
         3.966304,
         4.15,
-        0.1085
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.075001,
-        3.467057,
-        0.005
-      ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
-      "vertices": 8,
-      "faces": 6
-    },
-    {
-      "name": "HERO_HParking_Row1_Divider_6",
-      "type": "MESH",
-      "collections": [
-        "HERO_H_PARKING_LAYOUT"
-      ],
-      "visible": true,
-      "location": [
-        6.610507,
-        4.15,
-        0.1085
+        0.187254
       ],
       "rotation": [
         0.0,
@@ -4052,12 +3299,38 @@
         3.467057,
         0.005
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_6",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
       ],
+      "visible": true,
+      "location": [
+        6.610507,
+        4.15,
+        0.187254
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -4071,7 +3344,7 @@
       "location": [
         9.254709,
         4.15,
-        0.1085
+        0.187254
       ],
       "rotation": [
         0.0,
@@ -4088,12 +3361,7 @@
         3.467057,
         0.005
       ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -5932,7 +5200,7 @@
       "location": [
         -0.419602,
         3.300874,
-        0.114
+        0.192754
       ],
       "rotation": [
         0.0,
@@ -5957,10 +5225,6 @@
         {
           "name": "WeightedNormals",
           "type": "WEIGHTED_NORMAL"
-        },
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
         }
       ],
       "vertices": 8,
@@ -5976,7 +5240,7 @@
       "location": [
         -2.454135,
         7.081832,
-        0.114
+        0.192754
       ],
       "rotation": [
         0.0,
@@ -6001,10 +5265,6 @@
         {
           "name": "WeightedNormals",
           "type": "WEIGHTED_NORMAL"
-        },
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
         }
       ],
       "vertices": 8,
@@ -6125,7 +5385,7 @@
         1.0
       ],
       "dimensions": [
-        1.053915,
+        1.053914,
         1.260361,
         0.138174
       ],
@@ -6353,9 +5613,9 @@
         1.550946
       ],
       "dimensions": [
-        2.277528,
-        1.091278,
-        1.549808
+        0.585074,
+        0.293957,
+        0.999266
       ],
       "modifiers": [],
       "vertices": 257116,
@@ -6384,9 +5644,9 @@
         1.524537
       ],
       "dimensions": [
-        1.053915,
-        1.260361,
-        0.138174
+        0.691301,
+        0.826718,
+        0.090634
       ],
       "modifiers": [],
       "vertices": 21254,
@@ -6415,9 +5675,9 @@
         1.517162
       ],
       "dimensions": [
-        1.20927,
-        0.534925,
-        1.615221
+        0.79706,
+        0.352583,
+        1.064633
       ],
       "modifiers": [],
       "vertices": 12028,
@@ -8995,6 +8255,68 @@
       "faces": 11940
     },
     {
+      "name": "SCENE_BACKUP_before_flatten_ENV_Asphalt",
+      "type": "MESH",
+      "collections": [
+        "SCENE_CLEANUP_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        -0.12
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        36.0,
+        36.0,
+        0.2
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SCENE_BACKUP_hidden_imported_asphalt_Asphalt_ground",
+      "type": "MESH",
+      "collections": [
+        "SCENE_CLEANUP_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        4.780939,
+        -0.876001
+      ],
+      "rotation": [
+        -0.009999,
+        0.031474,
+        0.72616
+      ],
+      "scale": [
+        4.915334,
+        4.915334,
+        4.915334
+      ],
+      "dimensions": [
+        70.782417,
+        70.332678,
+        4.032169
+      ],
+      "modifiers": [],
+      "vertices": 16441,
+      "faces": 16154
+    },
+    {
       "name": "SK_Eye_L",
       "type": "MESH",
       "collections": [
@@ -9762,9 +9084,9 @@
         1.517162
       ],
       "dimensions": [
-        1.20927,
+        1.209123,
         0.534925,
-        1.615221
+        1.615272
       ],
       "modifiers": [
         {
@@ -9807,12 +9129,11 @@
         0.0
       ],
       "modifiers": [],
-      "light_type": "AREA",
       "energy": 520.0,
       "color": [
         1.0,
-        0.3700000047683716,
-        0.054999999701976776
+        0.37,
+        0.055
       ]
     },
     {
@@ -9843,12 +9164,11 @@
         0.0
       ],
       "modifiers": [],
-      "light_type": "AREA",
       "energy": 300.0,
       "color": [
         1.0,
-        0.3700000047683716,
-        0.054999999701976776
+        0.37,
+        0.055
       ]
     },
     {
@@ -9921,6 +9241,323 @@
       "modifiers": [],
       "vertices": 33484,
       "faces": 66916
+    }
+  ],
+  "collections": [
+    {
+      "name": "Apricot Pullover Hoodie",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 1,
+      "child_count": 0
+    },
+    {
+      "name": "Asphalt ground",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 1,
+      "child_count": 0
+    },
+    {
+      "name": "Audi e-tron GT quattro Black",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 80,
+      "child_count": 0
+    },
+    {
+      "name": "BASE_Meshy_LeftCandidate_Source",
+      "hide_viewport": true,
+      "hide_render": true,
+      "object_count": 1,
+      "child_count": 0
+    },
+    {
+      "name": "CAM_Rigs",
+      "hide_viewport": true,
+      "hide_render": true,
+      "object_count": 1,
+      "child_count": 0
+    },
+    {
+      "name": "CHAR_HandRefine_J2B",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 1,
+      "child_count": 0
+    },
+    {
+      "name": "CHAR_Meshy_LeftCandidate_Refined",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 5,
+      "child_count": 0
+    },
+    {
+      "name": "CHAR_SackDoll",
+      "hide_viewport": true,
+      "hide_render": true,
+      "object_count": 19,
+      "child_count": 0
+    },
+    {
+      "name": "Cargo pants",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 1,
+      "child_count": 0
+    },
+    {
+      "name": "Cast iron sewer hatch",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 2,
+      "child_count": 0
+    },
+    {
+      "name": "Collection",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "ENV_ParkingLot",
+      "hide_viewport": true,
+      "hide_render": true,
+      "object_count": 30,
+      "child_count": 0
+    },
+    {
+      "name": "FINAL_CAMERAS",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "FINAL_HELPERS",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 1,
+      "child_count": 0
+    },
+    {
+      "name": "FINAL_LIGHTS_Minimal",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "HERO_CAR_AMBER_READ",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 3,
+      "child_count": 0
+    },
+    {
+      "name": "HERO_CAR_UNDERGLOW",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 3,
+      "child_count": 0
+    },
+    {
+      "name": "HERO_CHARACTER_MATERIAL_GUIDES",
+      "hide_viewport": true,
+      "hide_render": true,
+      "object_count": 6,
+      "child_count": 0
+    },
+    {
+      "name": "HERO_CHARACTER_WARDROBE_V1",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 8,
+      "child_count": 0
+    },
+    {
+      "name": "HERO_ENV_CORRECTIONS",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "HERO_H_PARKING_LAYOUT",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 17,
+      "child_count": 0
+    },
+    {
+      "name": "HERO_IMPORTED_CLOTHING_CANDIDATES",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 0,
+      "child_count": 10
+    },
+    {
+      "name": "HERO_SHOE_GRAPHIC_GUIDES",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "HERO_SIDEWALK_CURB_REBUILD",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 9,
+      "child_count": 0
+    },
+    {
+      "name": "HERO_STOREFRONT_REBUILD",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 39,
+      "child_count": 0
+    },
+    {
+      "name": "HERO_VISIBLE_LAMPPOSTS",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 8,
+      "child_count": 0
+    },
+    {
+      "name": "LGT_Night",
+      "hide_viewport": true,
+      "hide_render": true,
+      "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "Large Trash Can",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 8,
+      "child_count": 0
+    },
+    {
+      "name": "MESHY_GalleryTemp",
+      "hide_viewport": true,
+      "hide_render": true,
+      "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "MESHY_TempAnalysis",
+      "hide_viewport": true,
+      "hide_render": true,
+      "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "No Parking Sign Board",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 9,
+      "child_count": 0
+    },
+    {
+      "name": "OPTIMIZATION_PREVIEW_BACKUP_LINKED_ORIGINALS",
+      "hide_viewport": true,
+      "hide_render": true,
+      "object_count": 3,
+      "child_count": 0
+    },
+    {
+      "name": "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 3,
+      "child_count": 0
+    },
+    {
+      "name": "PROD_RECON_V2B",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 0,
+      "child_count": 1
+    },
+    {
+      "name": "PROD_RECON_V2C",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 0,
+      "child_count": 3
+    },
+    {
+      "name": "SCENE_CLEANUP_BACKUPS_HIDDEN",
+      "hide_viewport": true,
+      "hide_render": true,
+      "object_count": 2,
+      "child_count": 0
+    },
+    {
+      "name": "Shoes",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 3,
+      "child_count": 0
+    },
+    {
+      "name": "Stop road sign",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 1,
+      "child_count": 0
+    },
+    {
+      "name": "Traffic Cone (Photoscanned)",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 1,
+      "child_count": 0
+    },
+    {
+      "name": "Utility Box (Photoscanned)",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 1,
+      "child_count": 0
+    },
+    {
+      "name": "V2B_HELPERS",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "V2B_LIGHTS_OVERHEAD",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 2,
+      "child_count": 0
+    },
+    {
+      "name": "V2C_CAMERAS",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "V2C_ENVIRONMENT",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "V2C_HELPERS",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 0,
+      "child_count": 0
     }
   ]
 }

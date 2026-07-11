@@ -1,8 +1,0 @@
-[lock] preserving lights, car, storefront, sky/world/HDRI, no-parking sign, traffic cone, cargo pants, and shoes
-[decimate] Apricot Pullover Hoodie: faces 489064 -> estimated 122266 using preview ratio 0.25
-[decimate] Utility Box (Photoscanned): faces 23700 -> estimated 16590 using preview ratio 0.7
-[decimate] Lid.001: faces 23160 -> estimated 16211 using preview ratio 0.7
-[paint] moved/snap-previewed 19 parking paint object(s) to ENV_Asphalt top z 0.100000
-[render] 01_DecimatePreviewOverview.png
-[render] 02_SelectedMeshesPreview.png
-[render] 03_ParkingPaintSnapImproved.png

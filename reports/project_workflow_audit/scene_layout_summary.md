@@ -1,7 +1,9 @@
 # Scene Layout Summary
 
-Updated by Decimate Preview / Paint Snap v1B.
+Updated by Scene Cleanup / Flat Asphalt v1B.
 
-- Heavy mesh decimation is preview-only through modifiers.
-- Parking paint snap was improved and remains preview/modifier based.
-- Locked lights, car, storefront, and world/HDRI were not edited.
+- Existing manually tuned lights were scanned and preserved.
+- Active parking asphalt was flattened for paint placement.
+- Bumpy duplicate imported asphalt was hidden after material transfer where available.
+- Temporary review cameras were cleaned.
+- Decimate preview modifiers were verified.
