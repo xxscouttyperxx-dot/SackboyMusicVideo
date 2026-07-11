@@ -1,11 +1,6 @@
 {
-  "generated_by": "mesh_audit_optimization_preview_v1",
-  "project_root": "C:\\BlenderProjects\\SackboyMusicVideo\\Project",
-  "key_outputs": {
-    "renders": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\mesh_audit_optimization_preview_v1",
-    "current_review": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\current_review",
-    "mesh_report": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\mesh_audit_optimization_preview\\Mesh_Audit_Optimization_Preview.md",
-    "mesh_json": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\mesh_audit_optimization_preview\\mesh_audit_optimization_preview.json",
-    "scene_manifest": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\scene_manifest.json"
-  }
+  "generated_by": "decimate_preview_paint_snap_v1B",
+  "reports": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\decimate_preview_paint_snap_v1B",
+  "renders": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\decimate_preview_paint_snap_v1B",
+  "current_review": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\current_review"
 }

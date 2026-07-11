@@ -20,10 +20,10 @@ function GitAddExistingOrDeleted {
 
 Write-Host "[Publish] Cleaning stale package files..."
 $Keep=@(
-    "Apply-MeshAuditOptimizationPreview.ps1",
-    "Validate-MeshAuditOptimizationPreview.ps1",
+    "Apply-DecimatePreviewPaintSnap.ps1",
+    "Validate-DecimatePreviewPaintSnap.ps1",
     "Publish-CurrentReview.ps1",
-    "README-MeshAuditOptimizationPreview.txt",
+    "README-DecimatePreviewPaintSnap.txt",
     "README_FIRST.txt",
     "Run-BuildAll.ps1",
     "Run-DiagnosticRenders.ps1"
@@ -45,11 +45,15 @@ GitAddExistingOrDeleted @(
     "NightSkyHDRI003_1K",
     "scene_manifest.json",
     "reports\project_workflow_audit",
+    "reports\decimate_preview_paint_snap_v1B",
     "reports\mesh_audit_optimization_preview",
     "renders\current_review",
+    "Apply-DecimatePreviewPaintSnap.ps1",
+    "Validate-DecimatePreviewPaintSnap.ps1",
+    "Publish-CurrentReview.ps1",
+    "README-DecimatePreviewPaintSnap.txt",
     "Apply-MeshAuditOptimizationPreview.ps1",
     "Validate-MeshAuditOptimizationPreview.ps1",
-    "Publish-CurrentReview.ps1",
     "README-MeshAuditOptimizationPreview.txt"
 )
 
@@ -58,7 +62,7 @@ $Status = git -C $Root status --porcelain
 if([string]::IsNullOrWhiteSpace($Status)){
     Write-Host "[Publish] Nothing to commit."
 } else {
-    git -C $Root commit -m "Add mesh audit optimization preview and parking paint snap"
+    git -C $Root commit -m "Preview decimation targets and improve parking paint snap"
     if($LASTEXITCODE -ne 0){throw "git commit failed"}
 }
 git -C $Root push origin main
