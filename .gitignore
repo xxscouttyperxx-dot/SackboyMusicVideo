@@ -1,6 +1,15 @@
+﻿# Generated project convention for SackboyMusicVideo
 Backups/
 Archive/
-renders/
 __pycache__/
 *.pyc
 *.zip
+
+# Render policy: track only current review renders.
+renders/*
+!renders/current_review/
+!renders/current_review/**
+
+# Track reports.
+!reports/
+!reports/**

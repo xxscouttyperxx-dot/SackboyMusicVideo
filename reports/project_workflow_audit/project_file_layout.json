@@ -1,0 +1,250 @@
+[
+  {
+    "path": "blender\\sackboy_scene.blend",
+    "size_bytes": 14132496
+  },
+  {
+    "path": "blender\\sackboy_scene.blend1",
+    "size_bytes": 14127298
+  },
+  {
+    "path": "blender\\sackboy_scene.zip",
+    "size_bytes": 62852810
+  },
+  {
+    "path": "blender\\scripts\\build_all.py",
+    "size_bytes": 526
+  },
+  {
+    "path": "blender\\scripts\\build_character.py",
+    "size_bytes": 6640
+  },
+  {
+    "path": "blender\\scripts\\build_lighting.py",
+    "size_bytes": 949
+  },
+  {
+    "path": "blender\\scripts\\build_parking_lot.py",
+    "size_bytes": 1422
+  },
+  {
+    "path": "blender\\scripts\\build_production_preview_integrated.py",
+    "size_bytes": 22690
+  },
+  {
+    "path": "blender\\scripts\\build_production_reconstruction_v2.py",
+    "size_bytes": 17730
+  },
+  {
+    "path": "blender\\scripts\\build_production_reconstruction_v2b.py",
+    "size_bytes": 20287
+  },
+  {
+    "path": "blender\\scripts\\build_production_reconstruction_v2c.py",
+    "size_bytes": 22973
+  },
+  {
+    "path": "blender\\scripts\\character_config.py",
+    "size_bytes": 1533
+  },
+  {
+    "path": "blender\\scripts\\cleanup_reset_scene.py",
+    "size_bytes": 11641
+  },
+  {
+    "path": "blender\\scripts\\common.py",
+    "size_bytes": 1527
+  },
+  {
+    "path": "blender\\scripts\\compact_meshy_hands_controlled.py",
+    "size_bytes": 5314
+  },
+  {
+    "path": "blender\\scripts\\export_hand_geometry_diagnostics.py",
+    "size_bytes": 7689
+  },
+  {
+    "path": "blender\\scripts\\export_project_layout_and_scene.py",
+    "size_bytes": 5506
+  },
+  {
+    "path": "blender\\scripts\\export_scene_manifest.py",
+    "size_bytes": 3393
+  },
+  {
+    "path": "blender\\scripts\\import_meshy_baseline.py",
+    "size_bytes": 4465
+  },
+  {
+    "path": "blender\\scripts\\import_meshy_left_candidate.py",
+    "size_bytes": 3733
+  },
+  {
+    "path": "blender\\scripts\\isolate_meshy_candidate.py",
+    "size_bytes": 7619
+  },
+  {
+    "path": "blender\\scripts\\prepare_hand_refinement_branch.py",
+    "size_bytes": 5134
+  },
+  {
+    "path": "blender\\scripts\\prepare_left_hand_guide.py",
+    "size_bytes": 7712
+  },
+  {
+    "path": "blender\\scripts\\prepare_left_hand_guide_v2.py",
+    "size_bytes": 7869
+  },
+  {
+    "path": "blender\\scripts\\reconstruct_clean_hand_j4.py",
+    "size_bytes": 9594
+  },
+  {
+    "path": "blender\\scripts\\refine_hand_j3_finger_separation.py",
+    "size_bytes": 10452
+  },
+  {
+    "path": "blender\\scripts\\refine_left_hand_j2.py",
+    "size_bytes": 9597
+  },
+  {
+    "path": "blender\\scripts\\refine_meshy_left_candidate.py",
+    "size_bytes": 9975
+  },
+  {
+    "path": "blender\\scripts\\refine_meshy_left_candidate_structural.py",
+    "size_bytes": 13615
+  },
+  {
+    "path": "blender\\scripts\\render_character_diagnostics.py",
+    "size_bytes": 3718
+  },
+  {
+    "path": "blender\\scripts\\render_manual_progress_diagnostics.py",
+    "size_bytes": 8204
+  },
+  {
+    "path": "blender\\scripts\\render_manual_progress_diagnostics_i3.py",
+    "size_bytes": 6627
+  },
+  {
+    "path": "blender\\scripts\\render_manual_progress_diagnostics_v2.py",
+    "size_bytes": 10048
+  },
+  {
+    "path": "blender\\scripts\\render_meshy_candidate_gallery.py",
+    "size_bytes": 10451
+  },
+  {
+    "path": "blender\\scripts\\render_meshy_diagnostics.py",
+    "size_bytes": 4274
+  },
+  {
+    "path": "blender\\scripts\\render_meshy_handcompact_topology_diagnostics.py",
+    "size_bytes": 6206
+  },
+  {
+    "path": "blender\\scripts\\render_meshy_isolated_diagnostics.py",
+    "size_bytes": 4306
+  },
+  {
+    "path": "blender\\scripts\\render_meshy_left_candidate_diagnostics.py",
+    "size_bytes": 4013
+  },
+  {
+    "path": "blender\\scripts\\render_meshy_refinement_diagnostics.py",
+    "size_bytes": 4895
+  },
+  {
+    "path": "blender\\scripts\\render_meshy_repair_diagnostics.py",
+    "size_bytes": 4470
+  },
+  {
+    "path": "blender\\scripts\\render_meshy_structural_diagnostics.py",
+    "size_bytes": 5119
+  },
+  {
+    "path": "blender\\scripts\\render_orange_xray_topology_diagnostics.py",
+    "size_bytes": 5014
+  },
+  {
+    "path": "blender\\scripts\\render_shots.py",
+    "size_bytes": 2038
+  },
+  {
+    "path": "blender\\scripts\\repair_meshy_left_candidate.py",
+    "size_bytes": 4840
+  },
+  {
+    "path": "blender\\scripts\\reshape_hand_j2b_data_driven.py",
+    "size_bytes": 8798
+  },
+  {
+    "path": "blender\\scripts\\setup_camera_orbit.py",
+    "size_bytes": 2100
+  },
+  {
+    "path": "blender\\scripts\\setup_low_camera.py",
+    "size_bytes": 642
+  },
+  {
+    "path": "blender\\assets\\models\\audi-e-tron-gt-q_dbb92b61-1147-491e-b136-50da4ee5f98b\\audi-e-tron-gt-quattro-black_f4223b16-a2d8-4237-b861-8e33a1756f47.blend",
+    "size_bytes": 5583957
+  },
+  {
+    "path": "NightSkyHDRI003_1K\\NightSkyHDRI003.png",
+    "size_bytes": 211865
+  },
+  {
+    "path": "NightSkyHDRI003_1K\\NightSkyHDRI003_1K.blend",
+    "size_bytes": 1140392
+  },
+  {
+    "path": "NightSkyHDRI003_1K\\NightSkyHDRI003_1K.tres",
+    "size_bytes": 336
+  },
+  {
+    "path": "NightSkyHDRI003_1K\\NightSkyHDRI003_1K.usdc",
+    "size_bytes": 1963
+  },
+  {
+    "path": "NightSkyHDRI003_1K\\NightSkyHDRI003_1K_HDR.exr",
+    "size_bytes": 1694181
+  },
+  {
+    "path": "NightSkyHDRI003_1K\\NightSkyHDRI003_1K_TONEMAPPED.jpg",
+    "size_bytes": 262612
+  },
+  {
+    "path": "renders\\current_review\\01_Hero_F2_OverheadAmber.png",
+    "size_bytes": 358846
+  },
+  {
+    "path": "renders\\current_review\\02_HighOrbit_RoofParkingCar.png",
+    "size_bytes": 260777
+  },
+  {
+    "path": "renders\\current_review\\03_LowAngle_CarStorefront.png",
+    "size_bytes": 327903
+  },
+  {
+    "path": "renders\\current_review\\ProductionReconV2C_build_report.txt",
+    "size_bytes": 504
+  },
+  {
+    "path": "renders\\current_review\\ProductionReconV2C_status.json",
+    "size_bytes": 899
+  },
+  {
+    "path": "renders\\current_review\\scene_manifest.json",
+    "size_bytes": 245714
+  },
+  {
+    "path": "reports\\project_workflow_audit\\scene_layout_summary.md",
+    "size_bytes": 9084
+  },
+  {
+    "path": "reports\\project_workflow_audit\\scene_manifest.json",
+    "size_bytes": 327149
+  }
+]

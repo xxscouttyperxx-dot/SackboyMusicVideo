@@ -1,0 +1,11 @@
+{
+  "lighting": "PRESERVED - existing V2B overhead amber light objects retained unchanged",
+  "character": "F2 source retained; no character geometry changes",
+  "hand": "J2B retained hidden as reference; no hand changes",
+  "clean_puppet": "rejected direction removed",
+  "strip_mall": "moved much farther back; added real depth, flat roof, parapet, HVAC, large floor-reaching glass panels, door frames, signs, sidewalk",
+  "parking_lot": "expanded lot, thicker painted lines",
+  "car": "rebuilt as larger sloped drift-coupe placeholder with windows, doors, spoiler, hidden underglow strips, modern tail bands, exhaust smoke, thicker rim spokes",
+  "sky": "dark world plus moon and clustered smoky cloud geometry; no oval star rows",
+  "remaining_limit": "car is still scripted geometry; true hero-car quality likely requires imported licensed model or a dedicated manual/modeling pass"
+}
