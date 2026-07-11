@@ -1,0 +1,6 @@
+Backups/
+Archive/
+renders/
+__pycache__/
+*.pyc
+*.zip
