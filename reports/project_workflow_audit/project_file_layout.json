@@ -1,15 +1,19 @@
 [
   {
     "path": "blender\\sackboy_scene.blend",
-    "size_bytes": 13964339
+    "size_bytes": 13938964
   },
   {
     "path": "blender\\sackboy_scene.blend1",
-    "size_bytes": 13965668
+    "size_bytes": 13941326
   },
   {
     "path": "blender\\sackboy_scene.zip",
     "size_bytes": 62852810
+  },
+  {
+    "path": "blender\\scripts\\ambient_car_glass_polish_v1.py",
+    "size_bytes": 14302
   },
   {
     "path": "blender\\scripts\\build_all.py",
@@ -232,31 +236,31 @@
     "size_bytes": 262612
   },
   {
-    "path": "renders\\current_review\\01_StorefrontScale.png",
-    "size_bytes": 820067
+    "path": "renders\\current_review\\01_CarAmberRead.png",
+    "size_bytes": 797245
   },
   {
-    "path": "renders\\current_review\\02_ParkingLampLayout.png",
-    "size_bytes": 885874
+    "path": "renders\\current_review\\02_WindowReflectionPolish.png",
+    "size_bytes": 843938
   },
   {
-    "path": "renders\\current_review\\03_SkyStoreHero.png",
-    "size_bytes": 822986
+    "path": "renders\\current_review\\03_StableSceneMood.png",
+    "size_bytes": 857417
   },
   {
-    "path": "renders\\current_review\\StorefrontParkingV1C_report.txt",
-    "size_bytes": 446
+    "path": "renders\\current_review\\AmbientCarGlassPolish_report.txt",
+    "size_bytes": 276
   },
   {
     "path": "reports\\project_workflow_audit\\project_file_layout.json",
-    "size_bytes": 6483
+    "size_bytes": 6579
   },
   {
     "path": "reports\\project_workflow_audit\\scene_layout_summary.md",
-    "size_bytes": 14726
+    "size_bytes": 15813
   },
   {
     "path": "reports\\project_workflow_audit\\scene_manifest.json",
-    "size_bytes": 258094
+    "size_bytes": 280700
   }
 ]

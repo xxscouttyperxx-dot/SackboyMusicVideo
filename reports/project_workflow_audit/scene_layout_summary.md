@@ -15,13 +15,15 @@ Blend: `C:\BlenderProjects\SackboyMusicVideo\Project\blender\sackboy_scene.blend
 - **FINAL_CAMERAS** | hidden viewport=False render=False | objects=0 | children=0
 - **FINAL_HELPERS** | hidden viewport=False render=False | objects=1 | children=0
 - **FINAL_LIGHTS_Minimal** | hidden viewport=False render=False | objects=0 | children=0
+- **HERO_CAR_AMBER_READ** | hidden viewport=False render=False | objects=5 | children=0
 - **HERO_CAR_UNDERGLOW** | hidden viewport=False render=False | objects=3 | children=0
 - **HERO_ENV_CORRECTIONS** | hidden viewport=False render=False | objects=0 | children=0
 - **HERO_H_PARKING_LAYOUT** | hidden viewport=False render=False | objects=17 | children=0
 - **HERO_REVIEW_CAMERAS** | hidden viewport=False render=False | objects=3 | children=0
-- **HERO_SIDEWALK_CURB_REBUILD** | hidden viewport=False render=False | objects=11 | children=0
+- **HERO_SIDEWALK_CURB_REBUILD** | hidden viewport=False render=False | objects=9 | children=0
 - **HERO_STOREFRONT_REBUILD** | hidden viewport=False render=False | objects=39 | children=0
 - **HERO_VISIBLE_LAMPPOSTS** | hidden viewport=False render=False | objects=8 | children=0
+- **HERO_WINDOW_TRAFFIC_REFLECTIONS** | hidden viewport=False render=False | objects=14 | children=0
 - **LGT_Night** | hidden viewport=True render=True | objects=0 | children=0
 - **MESHY_GalleryTemp** | hidden viewport=True render=True | objects=0 | children=0
 - **MESHY_TempAnalysis** | hidden viewport=True render=True | objects=0 | children=0
@@ -39,9 +41,14 @@ Blend: `C:\BlenderProjects\SackboyMusicVideo\Project\blender\sackboy_scene.blend
 - **F2** (MESH) collections=['CHAR_Meshy_LeftCandidate_Refined'] visible=True dims={'x': 2.783371090888977, 'y': 1.475343406200409, 'z': 2.7494077712181024} loc=[2.688858, -0.249535, 0.01029]
 - **F2.001** (MESH) collections=['CHAR_Meshy_LeftCandidate_Refined'] visible=False dims={'x': 0.6475932598114014, 'y': 0.6396911726333201, 'z': 0.34326086193323135} loc=[2.688858, -0.249535, 0.01029]
 - **HANDREFINE_J2B_Working** (MESH) collections=['CHAR_HandRefine_J2B'] visible=False dims={'x': 0.611403226852417, 'y': 0.6396911726333201, 'z': 0.34326086193323135} loc=[2.688858, -0.249535, 0.01029]
-- **HERO_CAM_ParkingLampLayout** (CAMERA) collections=['HERO_REVIEW_CAMERAS'] visible=True dims={'x': 0.0, 'y': 0.0, 'z': 0.0} loc=[8.784449, -8.485823, 7.375297]
-- **HERO_CAM_SkyStoreHero** (CAMERA) collections=['HERO_REVIEW_CAMERAS'] visible=True dims={'x': 0.0, 'y': 0.0, 'z': 0.0} loc=[7.584449, -9.485823, 5.375297]
-- **HERO_CAM_StorefrontScale** (CAMERA) collections=['HERO_REVIEW_CAMERAS'] visible=True dims={'x': 0.0, 'y': 0.0, 'z': 0.0} loc=[8.284449, -8.485823, 4.575296]
+- **HERO_CAM_CarAmberRead** (CAMERA) collections=['HERO_REVIEW_CAMERAS'] visible=True dims={'x': 0.0, 'y': 0.0, 'z': 0.0} loc=[3.277047, -1.022483, 3.511171]
+- **HERO_CAM_StableSceneMood** (CAMERA) collections=['HERO_REVIEW_CAMERAS'] visible=True dims={'x': 0.0, 'y': 0.0, 'z': 0.0} loc=[7.784449, -8.985823, 4.975296]
+- **HERO_CAM_WindowReflectionPolish** (CAMERA) collections=['HERO_REVIEW_CAMERAS'] visible=True dims={'x': 0.0, 'y': 0.0, 'z': 0.0} loc=[2.5, 16.0, 2.6]
+- **HERO_CarAmberHoodRead** (LIGHT) collections=['HERO_CAR_AMBER_READ'] visible=True dims={'x': 0.0, 'y': 0.0, 'z': 0.0} loc=[-0.556106, -0.111205, 3.778694]
+- **HERO_CarAmberReflectionCard_Hood** (MESH) collections=['HERO_CAR_AMBER_READ'] visible=True dims={'x': 3.093909740447998, 'y': 0.019999980926513672, 'z': 0.016000032424926758} loc=[-1.20067, 2.789062, 1.422382]
+- **HERO_CarAmberReflectionCard_Roof** (MESH) collections=['HERO_CAR_AMBER_READ'] visible=True dims={'x': 3.3517355918884277, 'y': 0.020000457763671875, 'z': 0.019999980926513672} loc=[-1.522953, 4.153893, 2.267639]
+- **HERO_CarAmberRoofRead** (LIGHT) collections=['HERO_CAR_AMBER_READ'] visible=True dims={'x': 0.0, 'y': 0.0, 'z': 0.0} loc=[-2.167517, 4.324497, 4.334428]
+- **HERO_CarWarmSideGlint** (LIGHT) collections=['HERO_CAR_AMBER_READ'] visible=True dims={'x': 0.0, 'y': 0.0, 'z': 0.0} loc=[-6.034904, 5.177517, 1.666905]
 - **HERO_CyanUnderglow_Area** (LIGHT) collections=['HERO_CAR_UNDERGLOW'] visible=True dims={'x': 0.0, 'y': 0.0, 'z': 0.0} loc=[-1.522953, 5.177517, 0.075276]
 - **HERO_GlassStorefront_Bay_0** (MESH) collections=['HERO_STOREFRONT_REBUILD'] visible=True dims={'x': 4.175056457519531, 'y': 0.035999298095703125, 'z': 3.8716529607772827} loc=[-8.14136, 23.870001, 1.995827]
 - **HERO_GlassStorefront_Bay_1** (MESH) collections=['HERO_STOREFRONT_REBUILD'] visible=True dims={'x': 4.17505669593811, 'y': 0.035999298095703125, 'z': 3.8716529607772827} loc=[-2.713787, 23.870001, 1.995827]
@@ -64,14 +71,14 @@ Blend: `C:\BlenderProjects\SackboyMusicVideo\Project\blender\sackboy_scene.blend
 - **HERO_HParking_Row1_Divider_5** (MESH) collections=['HERO_H_PARKING_LAYOUT'] visible=True dims={'x': 0.07499980926513672, 'y': 3.467057228088379, 'z': 0.004999999888241291} loc=[3.966304, 4.15, 0.0045]
 - **HERO_HParking_Row1_Divider_6** (MESH) collections=['HERO_H_PARKING_LAYOUT'] visible=True dims={'x': 0.07499980926513672, 'y': 3.467057228088379, 'z': 0.004999999888241291} loc=[6.610507, 4.15, 0.0045]
 - **HERO_HParking_Row1_Divider_7** (MESH) collections=['HERO_H_PARKING_LAYOUT'] visible=True dims={'x': 0.07500076293945312, 'y': 3.467057228088379, 'z': 0.004999999888241291} loc=[9.254709, 4.15, 0.0045]
-- **HERO_LampArm_0** (MESH) collections=['HERO_VISIBLE_LAMPPOSTS'] visible=True dims={'x': 0.05121040344238281, 'y': 0.6399998664855957, 'z': 0.05200004577636719} loc=[-4.627355, 2.563529, 5.278863]
-- **HERO_LampArm_1** (MESH) collections=['HERO_VISIBLE_LAMPPOSTS'] visible=True dims={'x': 0.05121040344238281, 'y': 0.6399998664855957, 'z': 0.05200004577636719} loc=[4.627355, 2.736471, 5.278863]
-- **HERO_LampFixture_0** (MESH) collections=['HERO_VISIBLE_LAMPPOSTS'] visible=True dims={'x': 0.8400001525878906, 'y': 0.3400001525878906, 'z': 0.11999988555908203} loc=[-4.627355, 2.223528, 5.278863]
-- **HERO_LampFixture_1** (MESH) collections=['HERO_VISIBLE_LAMPPOSTS'] visible=True dims={'x': 0.8400001525878906, 'y': 0.3400001525878906, 'z': 0.11999988555908203} loc=[4.627355, 3.076472, 5.278863]
-- **HERO_LampGlass_0** (MESH) collections=['HERO_VISIBLE_LAMPPOSTS'] visible=True dims={'x': 0.7200002670288086, 'y': 0.26000022888183594, 'z': 0.0279998779296875} loc=[-4.627355, 2.223528, 5.238863]
-- **HERO_LampGlass_1** (MESH) collections=['HERO_VISIBLE_LAMPPOSTS'] visible=True dims={'x': 0.7200002670288086, 'y': 0.25999975204467773, 'z': 0.0279998779296875} loc=[4.627355, 3.076472, 5.238863]
-- **HERO_LampPole_0** (MESH) collections=['HERO_VISIBLE_LAMPPOSTS'] visible=True dims={'x': 0.09000015258789062, 'y': 0.09000015258789062, 'z': 5.278862953186035} loc=[-4.627355, 2.883528, 2.639431]
-- **HERO_LampPole_1** (MESH) collections=['HERO_VISIBLE_LAMPPOSTS'] visible=True dims={'x': 0.09000015258789062, 'y': 0.09000015258789062, 'z': 5.278862953186035} loc=[4.627355, 2.416471, 2.639431]
+- **HERO_LampArm_0** (MESH) collections=['HERO_VISIBLE_LAMPPOSTS'] visible=True dims={'x': 0.05121040344238281, 'y': 0.6399998664855957, 'z': 0.05200004577636719} loc=[-5.222266, 2.329782, 5.278863]
+- **HERO_LampArm_1** (MESH) collections=['HERO_VISIBLE_LAMPPOSTS'] visible=True dims={'x': 0.05121040344238281, 'y': 0.6399998664855957, 'z': 0.05200004577636719} loc=[5.219407, 2.965095, 5.278863]
+- **HERO_LampFixture_0** (MESH) collections=['HERO_VISIBLE_LAMPPOSTS'] visible=True dims={'x': 0.8400001525878906, 'y': 0.3399999141693115, 'z': 0.11999988555908203} loc=[-5.222266, 1.989782, 5.278863]
+- **HERO_LampFixture_1** (MESH) collections=['HERO_VISIBLE_LAMPPOSTS'] visible=True dims={'x': 0.8400001525878906, 'y': 0.3400001525878906, 'z': 0.11999988555908203} loc=[5.219407, 3.305095, 5.278863]
+- **HERO_LampGlass_0** (MESH) collections=['HERO_VISIBLE_LAMPPOSTS'] visible=True dims={'x': 0.7200002670288086, 'y': 0.25999999046325684, 'z': 0.0279998779296875} loc=[-5.222266, 1.989782, 5.238863]
+- **HERO_LampGlass_1** (MESH) collections=['HERO_VISIBLE_LAMPPOSTS'] visible=True dims={'x': 0.7200002670288086, 'y': 0.25999975204467773, 'z': 0.0279998779296875} loc=[5.219407, 3.305095, 5.238863]
+- **HERO_LampPole_0** (MESH) collections=['HERO_VISIBLE_LAMPPOSTS'] visible=True dims={'x': 0.09000015258789062, 'y': 0.09000015258789062, 'z': 5.278862953186035} loc=[-5.222266, 2.649782, 2.639431]
+- **HERO_LampPole_1** (MESH) collections=['HERO_VISIBLE_LAMPPOSTS'] visible=True dims={'x': 0.09000015258789062, 'y': 0.09000015258789062, 'z': 5.278862953186035} loc=[5.219407, 2.645095, 2.639431]
 - **HERO_Storefront_CenterMullion_0** (MESH) collections=['HERO_STOREFRONT_REBUILD'] visible=True dims={'x': 0.034999847412109375, 'y': 0.09999847412109375, 'z': 3.8716529607772827} loc=[-8.14136, 23.834999, 1.995827]
 - **HERO_Storefront_CenterMullion_3** (MESH) collections=['HERO_STOREFRONT_REBUILD'] visible=True dims={'x': 0.034999847412109375, 'y': 0.09999847412109375, 'z': 3.8716529607772827} loc=[8.14136, 23.834999, 1.995827]
 - **HERO_Storefront_ContinuousBottomFrame** (MESH) collections=['HERO_STOREFRONT_REBUILD'] visible=True dims={'x': 20.657777786254883, 'y': 0.09999847412109375, 'z': 0.07000000029802322} loc=[0.0, 23.834999, 0.06]
@@ -93,5 +100,5 @@ Blend: `C:\BlenderProjects\SackboyMusicVideo\Project\blender\sackboy_scene.blend
 - **HERO_StoreMall_FrontParapet** (MESH) collections=['HERO_STOREFRONT_REBUILD'] visible=True dims={'x': 26.50701332092285, 'y': 0.20000076293945312, 'z': 0.6598577499389648} loc=[0.0, 23.92, 6.488602]
 - **HERO_Underglow_FrontHiddenStrip** (MESH) collections=['HERO_CAR_UNDERGLOW'] visible=True dims={'x': 1.8683414459228516, 'y': 0.9935431480407715, 'z': 0.01600000262260437} loc=[-0.419602, 3.300874, 0.209762]
 - **HERO_Underglow_RearHiddenStrip** (MESH) collections=['HERO_CAR_UNDERGLOW'] visible=True dims={'x': 1.8007196187973022, 'y': 0.9038753509521484, 'z': 0.01600000262260437} loc=[-2.454135, 7.081832, 0.212028]
-- **V2B_OverheadAmber_0** (LIGHT) collections=['V2B_LIGHTS_OVERHEAD'] visible=True dims={'x': 0.0, 'y': 0.0, 'z': 0.0} loc=[-4.627355, 2.883528, 5.278863]
-- **V2B_OverheadAmber_1** (LIGHT) collections=['V2B_LIGHTS_OVERHEAD'] visible=True dims={'x': 0.0, 'y': 0.0, 'z': 0.0} loc=[4.627355, 2.416471, 5.278863]
+- **V2B_OverheadAmber_0** (LIGHT) collections=['V2B_LIGHTS_OVERHEAD'] visible=True dims={'x': 0.0, 'y': 0.0, 'z': 0.0} loc=[-5.222266, 2.649782, 5.278863]
+- **V2B_OverheadAmber_1** (LIGHT) collections=['V2B_LIGHTS_OVERHEAD'] visible=True dims={'x': 0.0, 'y': 0.0, 'z': 0.0} loc=[5.219407, 2.645095, 5.278863]

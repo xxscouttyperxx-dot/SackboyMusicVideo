@@ -1,0 +1,5 @@
+[car] added subtle amber read/helper lights and reflection cards for car roof/hood/body
+[glass] polished 4 glass bays and added night traffic reflection streaks to 4 bays
+[render] 01_CarAmberRead.png
+[render] 02_WindowReflectionPolish.png
+[render] 03_StableSceneMood.png

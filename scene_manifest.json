@@ -225,6 +225,19 @@
       "children": []
     },
     {
+      "name": "HERO_CAR_AMBER_READ",
+      "hide_viewport": false,
+      "hide_render": false,
+      "objects": [
+        "HERO_CarAmberRoofRead",
+        "HERO_CarAmberHoodRead",
+        "HERO_CarWarmSideGlint",
+        "HERO_CarAmberReflectionCard_Roof",
+        "HERO_CarAmberReflectionCard_Hood"
+      ],
+      "children": []
+    },
+    {
       "name": "HERO_CAR_UNDERGLOW",
       "hide_viewport": false,
       "hide_render": false,
@@ -272,9 +285,9 @@
       "hide_viewport": false,
       "hide_render": false,
       "objects": [
-        "HERO_CAM_StorefrontScale",
-        "HERO_CAM_ParkingLampLayout",
-        "HERO_CAM_SkyStoreHero"
+        "HERO_CAM_CarAmberRead",
+        "HERO_CAM_WindowReflectionPolish",
+        "HERO_CAM_StableSceneMood"
       ],
       "children": []
     },
@@ -285,15 +298,13 @@
       "objects": [
         "HERO_Sidewalk_WideTop",
         "HERO_Curb_VerticalFace",
-        "HERO_Curb_TopLip",
         "HERO_Sidewalk_ExpansionJoint_X_1",
         "HERO_Sidewalk_ExpansionJoint_X_2",
         "HERO_Sidewalk_ExpansionJoint_X_3",
         "HERO_Sidewalk_ExpansionJoint_X_4",
         "HERO_Sidewalk_ExpansionJoint_X_5",
         "HERO_Sidewalk_ExpansionJoint_X_6",
-        "HERO_Sidewalk_ExpansionJoint_X_7",
-        "HERO_Sidewalk_CurbIndentLine"
+        "HERO_Sidewalk_ExpansionJoint_X_7"
       ],
       "children": []
     },
@@ -357,6 +368,28 @@
         "HERO_LampArm_1",
         "HERO_LampFixture_1",
         "HERO_LampGlass_1"
+      ],
+      "children": []
+    },
+    {
+      "name": "HERO_WINDOW_TRAFFIC_REFLECTIONS",
+      "hide_viewport": false,
+      "hide_render": false,
+      "objects": [
+        "HERO_WindowTrafficAmberStreak_0",
+        "HERO_WindowTrafficWhiteStreak_0",
+        "HERO_WindowTrafficRedStreak_0",
+        "HERO_WindowTrafficBlueStreak_0",
+        "HERO_WindowTrafficAmberStreak_1",
+        "HERO_WindowTrafficWhiteStreak_1",
+        "HERO_WindowTrafficRedStreak_1",
+        "HERO_WindowTrafficAmberStreak_2",
+        "HERO_WindowTrafficWhiteStreak_2",
+        "HERO_WindowTrafficRedStreak_2",
+        "HERO_WindowTrafficBlueStreak_2",
+        "HERO_WindowTrafficAmberStreak_3",
+        "HERO_WindowTrafficWhiteStreak_3",
+        "HERO_WindowTrafficRedStreak_3"
       ],
       "children": []
     },
@@ -2649,7 +2682,7 @@
       ]
     },
     {
-      "name": "HERO_CAM_ParkingLampLayout",
+      "name": "HERO_CAM_CarAmberRead",
       "type": "CAMERA",
       "collections": [
         "HERO_REVIEW_CAMERAS"
@@ -2659,14 +2692,14 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        8.784449,
-        -8.485823,
-        7.375297
+        3.277047,
+        -1.022483,
+        3.511171
       ],
       "rotation_euler": [
-        1.155542,
+        1.363388,
         0.0,
-        0.652911
+        0.658806
       ],
       "scale": [
         1.0,
@@ -2679,12 +2712,12 @@
         0.0
       ],
       "world_bounds": {
-        "xmin": 8.784448623657227,
-        "xmax": 8.784448623657227,
-        "ymin": -8.485822677612305,
-        "ymax": -8.485822677612305,
-        "zmin": 7.375296592712402,
-        "zmax": 7.375296592712402
+        "xmin": 3.2770473957061768,
+        "xmax": 3.2770473957061768,
+        "ymin": -1.0224831104278564,
+        "ymax": -1.0224831104278564,
+        "zmin": 3.5111706256866455,
+        "zmax": 3.5111706256866455
       },
       "world_dimensions": {
         "x": 0.0,
@@ -2694,13 +2727,13 @@
       "modifiers": [],
       "materials": [],
       "camera": {
-        "lens": 36.0,
+        "lens": 44.0,
         "clip_start": 0.10000000149011612,
         "clip_end": 1000.0
       }
     },
     {
-      "name": "HERO_CAM_SkyStoreHero",
+      "name": "HERO_CAM_StableSceneMood",
       "type": "CAMERA",
       "collections": [
         "HERO_REVIEW_CAMERAS"
@@ -2710,14 +2743,14 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        7.584449,
-        -9.485823,
-        5.375297
+        7.784449,
+        -8.985823,
+        4.975296
       ],
       "rotation_euler": [
-        1.590807,
+        1.3869,
         0.0,
-        0.222739
+        0.429727
       ],
       "scale": [
         1.0,
@@ -2730,63 +2763,12 @@
         0.0
       ],
       "world_bounds": {
-        "xmin": 7.58444881439209,
-        "xmax": 7.58444881439209,
-        "ymin": -9.485822677612305,
-        "ymax": -9.485822677612305,
-        "zmin": 5.375296592712402,
-        "zmax": 5.375296592712402
-      },
-      "world_dimensions": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modifiers": [],
-      "materials": [],
-      "camera": {
-        "lens": 40.0,
-        "clip_start": 0.10000000149011612,
-        "clip_end": 1000.0
-      }
-    },
-    {
-      "name": "HERO_CAM_StorefrontScale",
-      "type": "CAMERA",
-      "collections": [
-        "HERO_REVIEW_CAMERAS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        8.284449,
-        -8.485823,
-        4.575296
-      ],
-      "rotation_euler": [
-        1.545163,
-        -0.0,
-        0.261252
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "world_bounds": {
-        "xmin": 8.284448623657227,
-        "xmax": 8.284448623657227,
-        "ymin": -8.485822677612305,
-        "ymax": -8.485822677612305,
-        "zmin": 4.575296401977539,
-        "zmax": 4.575296401977539
+        "xmin": 7.784449100494385,
+        "xmax": 7.784449100494385,
+        "ymin": -8.985822677612305,
+        "ymax": -8.985822677612305,
+        "zmin": 4.975296497344971,
+        "zmax": 4.975296497344971
       },
       "world_dimensions": {
         "x": 0.0,
@@ -2802,19 +2784,126 @@
       }
     },
     {
-      "name": "HERO_Curb_TopLip",
-      "type": "MESH",
+      "name": "HERO_CAM_WindowReflectionPolish",
+      "type": "CAMERA",
       "collections": [
-        "HERO_SIDEWALK_CURB_REBUILD"
+        "HERO_REVIEW_CAMERAS"
       ],
       "hide_viewport": false,
       "hide_render": false,
       "visible_get": true,
       "parent": null,
       "location": [
+        2.5,
+        16.0,
+        2.6
+      ],
+      "rotation_euler": [
+        1.51018,
+        -0.0,
+        0.308316
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
         0.0,
-        19.0776,
-        0.05
+        0.0,
+        0.0
+      ],
+      "world_bounds": {
+        "xmin": 2.5,
+        "xmax": 2.5,
+        "ymin": 16.0,
+        "ymax": 16.0,
+        "zmin": 2.5999999046325684,
+        "zmax": 2.5999999046325684
+      },
+      "world_dimensions": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modifiers": [],
+      "materials": [],
+      "camera": {
+        "lens": 50.0,
+        "clip_start": 0.10000000149011612,
+        "clip_end": 1000.0
+      }
+    },
+    {
+      "name": "HERO_CarAmberHoodRead",
+      "type": "LIGHT",
+      "collections": [
+        "HERO_CAR_AMBER_READ"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -0.556106,
+        -0.111205,
+        3.778694
+      ],
+      "rotation_euler": [
+        0.874376,
+        -0.0,
+        0.321779
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_bounds": {
+        "xmin": -0.5561057329177856,
+        "xmax": -0.5561057329177856,
+        "ymin": -0.11120522767305374,
+        "ymax": -0.11120522767305374,
+        "zmin": 3.778693675994873,
+        "zmax": 3.778693675994873
+      },
+      "world_dimensions": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modifiers": [],
+      "materials": [],
+      "light": {
+        "type": "SPOT",
+        "energy": 150.0,
+        "color": [
+          1.0,
+          0.3799999952316284,
+          0.07999999821186066
+        ],
+        "size": null
+      }
+    },
+    {
+      "name": "HERO_CarAmberReflectionCard_Hood",
+      "type": "MESH",
+      "collections": [
+        "HERO_CAR_AMBER_READ"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -1.20067,
+        2.789062,
+        1.422382
       ],
       "rotation_euler": [
         0.0,
@@ -2827,22 +2916,22 @@
         1.0
       ],
       "dimensions": [
-        26.907015,
-        0.17,
-        0.036
+        3.09391,
+        0.02,
+        0.016
       ],
       "world_bounds": {
-        "xmin": -13.453507423400879,
-        "xmax": 13.453507423400879,
-        "ymin": 18.99260139465332,
-        "ymax": 19.162599563598633,
-        "zmin": 0.03200000151991844,
-        "zmax": 0.06800000369548798
+        "xmin": -2.7476251125335693,
+        "xmax": 0.3462846279144287,
+        "ymin": 2.779061794281006,
+        "ymax": 2.7990617752075195,
+        "zmin": 1.4143816232681274,
+        "zmax": 1.4303816556930542
       },
       "world_dimensions": {
-        "x": 26.907014846801758,
-        "y": 0.1699981689453125,
-        "z": 0.036000002175569534
+        "x": 3.093909740447998,
+        "y": 0.019999980926513672,
+        "z": 0.016000032424926758
       },
       "modifiers": [
         {
@@ -2855,8 +2944,177 @@
         }
       ],
       "materials": [
-        "HERO_MAT_SidewalkConcrete"
+        "HERO_MAT_SubtleAmberCarReflection"
       ]
+    },
+    {
+      "name": "HERO_CarAmberReflectionCard_Roof",
+      "type": "MESH",
+      "collections": [
+        "HERO_CAR_AMBER_READ"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -1.522953,
+        4.153893,
+        2.267639
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.351736,
+        0.02,
+        0.02
+      ],
+      "world_bounds": {
+        "xmin": -3.1988203525543213,
+        "xmax": 0.15291523933410645,
+        "ymin": 4.143893241882324,
+        "ymax": 4.163893699645996,
+        "zmin": 2.257638692855835,
+        "zmax": 2.2776386737823486
+      },
+      "world_dimensions": {
+        "x": 3.3517355918884277,
+        "y": 0.020000457763671875,
+        "z": 0.019999980926513672
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_SubtleAmberCarReflection"
+      ]
+    },
+    {
+      "name": "HERO_CarAmberRoofRead",
+      "type": "LIGHT",
+      "collections": [
+        "HERO_CAR_AMBER_READ"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -2.167517,
+        4.324497,
+        4.334428
+      ],
+      "rotation_euler": [
+        0.320282,
+        -0.0,
+        -0.647093
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_bounds": {
+        "xmin": -2.1675171852111816,
+        "xmax": -2.1675171852111816,
+        "ymin": 4.324497222900391,
+        "ymax": 4.324497222900391,
+        "zmin": 4.334427833557129,
+        "zmax": 4.334427833557129
+      },
+      "world_dimensions": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modifiers": [],
+      "materials": [],
+      "light": {
+        "type": "SPOT",
+        "energy": 260.0,
+        "color": [
+          1.0,
+          0.3799999952316284,
+          0.07999999821186066
+        ],
+        "size": null
+      }
+    },
+    {
+      "name": "HERO_CarWarmSideGlint",
+      "type": "LIGHT",
+      "collections": [
+        "HERO_CAR_AMBER_READ"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -6.034904,
+        5.177517,
+        1.666905
+      ],
+      "rotation_euler": [
+        1.472578,
+        -0.0,
+        -1.570796
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_bounds": {
+        "xmin": -6.034904479980469,
+        "xmax": -6.034904479980469,
+        "ymin": 5.177516937255859,
+        "ymax": 5.177516937255859,
+        "zmin": 1.6669045686721802,
+        "zmax": 1.6669045686721802
+      },
+      "world_dimensions": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modifiers": [],
+      "materials": [],
+      "light": {
+        "type": "SPOT",
+        "energy": 90.0,
+        "color": [
+          1.0,
+          0.3799999952316284,
+          0.07999999821186066
+        ],
+        "size": null
+      }
     },
     {
       "name": "HERO_Curb_VerticalFace",
@@ -2871,7 +3129,7 @@
       "location": [
         0.0,
         19.0226,
-        0.005
+        -0.015452
       ],
       "rotation_euler": [
         0.0,
@@ -2885,21 +3143,21 @@
       ],
       "dimensions": [
         26.907015,
-        0.08,
-        0.15
+        0.191421,
+        0.182741
       ],
       "world_bounds": {
         "xmin": -13.453507423400879,
         "xmax": 13.453507423400879,
-        "ymin": 18.98259925842285,
+        "ymin": 18.871179580688477,
         "ymax": 19.06260108947754,
-        "zmin": -0.07000000029802322,
-        "zmax": 0.08000000566244125
+        "zmin": -0.12319360673427582,
+        "zmax": 0.05954761430621147
       },
       "world_dimensions": {
         "x": 26.907014846801758,
-        "y": 0.0800018310546875,
-        "z": 0.15000000596046448
+        "y": 0.1914215087890625,
+        "z": 0.1827412210404873
       },
       "modifiers": [
         {
@@ -3481,7 +3739,7 @@
         }
       ],
       "materials": [
-        "HERO_MAT_GlossyFloorGlass"
+        "HERO_MAT_Glass_NightGlossy"
       ]
     },
     {
@@ -3538,7 +3796,7 @@
         }
       ],
       "materials": [
-        "HERO_MAT_GlossyFloorGlass"
+        "HERO_MAT_Glass_NightGlossy"
       ]
     },
     {
@@ -3595,7 +3853,7 @@
         }
       ],
       "materials": [
-        "HERO_MAT_GlossyFloorGlass"
+        "HERO_MAT_Glass_NightGlossy"
       ]
     },
     {
@@ -3652,7 +3910,7 @@
         }
       ],
       "materials": [
-        "HERO_MAT_GlossyFloorGlass"
+        "HERO_MAT_Glass_NightGlossy"
       ]
     },
     {
@@ -4482,8 +4740,8 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        -4.627355,
-        2.563529,
+        -5.222266,
+        2.329782,
         5.278863
       ],
       "rotation_euler": [
@@ -4502,10 +4760,10 @@
         0.64
       ],
       "world_bounds": {
-        "xmin": -4.652959823608398,
-        "xmax": -4.601749420166016,
-        "ymin": 2.2435286045074463,
-        "ymax": 2.883528470993042,
+        "xmin": -5.247871398925781,
+        "xmax": -5.196660995483398,
+        "ymin": 2.009782314300537,
+        "ymax": 2.649782180786133,
         "zmin": 5.252862930297852,
         "zmax": 5.304862976074219
       },
@@ -4530,8 +4788,8 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        4.627355,
-        2.736471,
+        5.219407,
+        2.965095,
         5.278863
       ],
       "rotation_euler": [
@@ -4550,10 +4808,10 @@
         0.64
       ],
       "world_bounds": {
-        "xmin": 4.601749420166016,
-        "xmax": 4.652959823608398,
-        "ymin": 2.416471481323242,
-        "ymax": 3.056471347808838,
+        "xmin": 5.193801403045654,
+        "xmax": 5.245011806488037,
+        "ymin": 2.645094871520996,
+        "ymax": 3.285094738006592,
         "zmin": 5.252862930297852,
         "zmax": 5.304862976074219
       },
@@ -4578,8 +4836,8 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        -4.627355,
-        2.223528,
+        -5.222266,
+        1.989782,
         5.278863
       ],
       "rotation_euler": [
@@ -4598,16 +4856,16 @@
         0.12
       ],
       "world_bounds": {
-        "xmin": -5.047354698181152,
-        "xmax": -4.207354545593262,
-        "ymin": 2.053528308868408,
-        "ymax": 2.393528461456299,
+        "xmin": -5.642266273498535,
+        "xmax": -4.8022661209106445,
+        "ymin": 1.819782018661499,
+        "ymax": 2.1597819328308105,
         "zmin": 5.218863010406494,
         "zmax": 5.338862895965576
       },
       "world_dimensions": {
         "x": 0.8400001525878906,
-        "y": 0.3400001525878906,
+        "y": 0.3399999141693115,
         "z": 0.11999988555908203
       },
       "modifiers": [
@@ -4635,8 +4893,8 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        4.627355,
-        3.076472,
+        5.219407,
+        3.305095,
         5.278863
       ],
       "rotation_euler": [
@@ -4655,10 +4913,10 @@
         0.12
       ],
       "world_bounds": {
-        "xmin": 4.207354545593262,
-        "xmax": 5.047354698181152,
-        "ymin": 2.9064714908599854,
-        "ymax": 3.246471643447876,
+        "xmin": 4.7994065284729,
+        "xmax": 5.639406681060791,
+        "ymin": 3.1350948810577393,
+        "ymax": 3.47509503364563,
         "zmin": 5.218863010406494,
         "zmax": 5.338862895965576
       },
@@ -4692,8 +4950,8 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        -4.627355,
-        2.223528,
+        -5.222266,
+        1.989782,
         5.238863
       ],
       "rotation_euler": [
@@ -4712,16 +4970,16 @@
         0.028
       ],
       "world_bounds": {
-        "xmin": -4.987354755401611,
-        "xmax": -4.267354488372803,
-        "ymin": 2.0935282707214355,
-        "ymax": 2.3535284996032715,
+        "xmin": -5.582266330718994,
+        "xmax": -4.8622660636901855,
+        "ymin": 1.8597819805145264,
+        "ymax": 2.119781970977783,
         "zmin": 5.224863052368164,
         "zmax": 5.252862930297852
       },
       "world_dimensions": {
         "x": 0.7200002670288086,
-        "y": 0.26000022888183594,
+        "y": 0.25999999046325684,
         "z": 0.0279998779296875
       },
       "modifiers": [
@@ -4749,8 +5007,8 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        4.627355,
-        3.076472,
+        5.219407,
+        3.305095,
         5.238863
       ],
       "rotation_euler": [
@@ -4769,10 +5027,10 @@
         0.028
       ],
       "world_bounds": {
-        "xmin": 4.267354488372803,
-        "xmax": 4.987354755401611,
-        "ymin": 2.946471691131592,
-        "ymax": 3.2064714431762695,
+        "xmin": 4.859406471252441,
+        "xmax": 5.57940673828125,
+        "ymin": 3.1750950813293457,
+        "ymax": 3.4350948333740234,
         "zmin": 5.224863052368164,
         "zmax": 5.252862930297852
       },
@@ -4806,8 +5064,8 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        -4.627355,
-        2.883528,
+        -5.222266,
+        2.649782,
         2.639431
       ],
       "rotation_euler": [
@@ -4826,10 +5084,10 @@
         5.278863
       ],
       "world_bounds": {
-        "xmin": -4.672354698181152,
-        "xmax": -4.582354545593262,
-        "ymin": 2.8385283946990967,
-        "ymax": 2.9285285472869873,
+        "xmin": -5.267266273498535,
+        "xmax": -5.1772661209106445,
+        "ymin": 2.6047821044921875,
+        "ymax": 2.694782257080078,
         "zmin": 0.0,
         "zmax": 5.278862953186035
       },
@@ -4854,8 +5112,8 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        4.627355,
-        2.416471,
+        5.219407,
+        2.645095,
         2.639431
       ],
       "rotation_euler": [
@@ -4874,10 +5132,10 @@
         5.278863
       ],
       "world_bounds": {
-        "xmin": 4.582354545593262,
-        "xmax": 4.672354698181152,
-        "ymin": 2.371471405029297,
-        "ymax": 2.4614715576171875,
+        "xmin": 5.1744065284729,
+        "xmax": 5.264406681060791,
+        "ymin": 2.6000945568084717,
+        "ymax": 2.6900947093963623,
         "zmin": 0.0,
         "zmax": 5.278862953186035
       },
@@ -5312,54 +5570,6 @@
       ]
     },
     {
-      "name": "HERO_Sidewalk_CurbIndentLine",
-      "type": "MESH",
-      "collections": [
-        "HERO_SIDEWALK_CURB_REBUILD"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        19.142599,
-        0.06
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        26.707014,
-        0.024,
-        0.008
-      ],
-      "world_bounds": {
-        "xmin": -13.353507041931152,
-        "xmax": 13.353507041931152,
-        "ymin": 19.130599975585938,
-        "ymax": 19.154598236083984,
-        "zmin": 0.0559999980032444,
-        "zmax": 0.06399999558925629
-      },
-      "world_dimensions": {
-        "x": 26.707014083862305,
-        "y": 0.023998260498046875,
-        "z": 0.007999997586011887
-      },
-      "modifiers": [],
-      "materials": [
-        "HERO_MAT_SidewalkGroove"
-      ]
-    },
-    {
       "name": "HERO_Sidewalk_ExpansionJoint_X_1",
       "type": "MESH",
       "collections": [
@@ -5723,20 +5933,20 @@
       "dimensions": [
         26.907015,
         4.9424,
-        0.08
+        0.182911
       ],
       "world_bounds": {
         "xmin": -13.453507423400879,
         "xmax": 13.453507423400879,
         "ymin": 19.057598114013672,
         "ymax": 24.0,
-        "zmin": -0.019999999552965164,
+        "zmin": -0.12291078269481659,
         "zmax": 0.05999999865889549
       },
       "world_dimensions": {
         "x": 26.907014846801758,
         "y": 4.942401885986328,
-        "z": 0.07999999821186066
+        "z": 0.18291078135371208
       },
       "modifiers": [
         {
@@ -6947,6 +7157,804 @@
       ],
       "materials": [
         "HERO_MAT_CyanUnderglow"
+      ]
+    },
+    {
+      "name": "HERO_WindowTrafficAmberStreak_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -8.558866,
+        23.842001,
+        2.925023
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.839038,
+        0.006,
+        0.024
+      ],
+      "world_bounds": {
+        "xmin": -9.978384971618652,
+        "xmax": -7.139346122741699,
+        "ymin": 23.839000701904297,
+        "ymax": 23.845001220703125,
+        "zmin": 2.9130232334136963,
+        "zmax": 2.937023401260376
+      },
+      "world_dimensions": {
+        "x": 2.839038848876953,
+        "y": 0.006000518798828125,
+        "z": 0.024000167846679688
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_WindowReflection_Amber"
+      ]
+    },
+    {
+      "name": "HERO_WindowTrafficAmberStreak_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -3.131293,
+        23.842001,
+        2.925023
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.839039,
+        0.006,
+        0.024
+      ],
+      "world_bounds": {
+        "xmin": -4.550811767578125,
+        "xmax": -1.7117732763290405,
+        "ymin": 23.839000701904297,
+        "ymax": 23.845001220703125,
+        "zmin": 2.9130232334136963,
+        "zmax": 2.937023401260376
+      },
+      "world_dimensions": {
+        "x": 2.8390384912490845,
+        "y": 0.006000518798828125,
+        "z": 0.024000167846679688
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_WindowReflection_Amber"
+      ]
+    },
+    {
+      "name": "HERO_WindowTrafficAmberStreak_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        2.296281,
+        23.842001,
+        2.925023
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.839039,
+        0.006,
+        0.024
+      ],
+      "world_bounds": {
+        "xmin": 0.8767620325088501,
+        "xmax": 3.7158007621765137,
+        "ymin": 23.839000701904297,
+        "ymax": 23.845001220703125,
+        "zmin": 2.9130232334136963,
+        "zmax": 2.937023401260376
+      },
+      "world_dimensions": {
+        "x": 2.8390387296676636,
+        "y": 0.006000518798828125,
+        "z": 0.024000167846679688
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_WindowReflection_Amber"
+      ]
+    },
+    {
+      "name": "HERO_WindowTrafficAmberStreak_3",
+      "type": "MESH",
+      "collections": [
+        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        7.723855,
+        23.842001,
+        2.925023
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.839038,
+        0.006,
+        0.024
+      ],
+      "world_bounds": {
+        "xmin": 6.304335594177246,
+        "xmax": 9.143373489379883,
+        "ymin": 23.839000701904297,
+        "ymax": 23.845001220703125,
+        "zmin": 2.9130232334136963,
+        "zmax": 2.937023401260376
+      },
+      "world_dimensions": {
+        "x": 2.8390378952026367,
+        "y": 0.006000518798828125,
+        "z": 0.024000167846679688
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_WindowReflection_Amber"
+      ]
+    },
+    {
+      "name": "HERO_WindowTrafficBlueStreak_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -6.972344,
+        23.842001,
+        1.879677
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.002014,
+        0.006,
+        0.016
+      ],
+      "world_bounds": {
+        "xmin": -7.473351001739502,
+        "xmax": -6.471337795257568,
+        "ymin": 23.839000701904297,
+        "ymax": 23.845001220703125,
+        "zmin": 1.8716769218444824,
+        "zmax": 1.8876769542694092
+      },
+      "world_dimensions": {
+        "x": 1.0020132064819336,
+        "y": 0.006000518798828125,
+        "z": 0.016000032424926758
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_WindowReflection_Blue"
+      ]
+    },
+    {
+      "name": "HERO_WindowTrafficBlueStreak_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        3.882803,
+        23.842001,
+        1.879677
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.002014,
+        0.006,
+        0.016
+      ],
+      "world_bounds": {
+        "xmin": 3.381795883178711,
+        "xmax": 4.383809566497803,
+        "ymin": 23.839000701904297,
+        "ymax": 23.845001220703125,
+        "zmin": 1.8716769218444824,
+        "zmax": 1.8876769542694092
+      },
+      "world_dimensions": {
+        "x": 1.0020136833190918,
+        "y": 0.006000518798828125,
+        "z": 0.016000032424926758
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_WindowReflection_Blue"
+      ]
+    },
+    {
+      "name": "HERO_WindowTrafficRedStreak_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -9.143373,
+        23.842001,
+        1.298929
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.50302,
+        0.006,
+        0.016
+      ],
+      "world_bounds": {
+        "xmin": -9.89488410949707,
+        "xmax": -8.391862869262695,
+        "ymin": 23.839000701904297,
+        "ymax": 23.845001220703125,
+        "zmin": 1.2909289598464966,
+        "zmax": 1.3069289922714233
+      },
+      "world_dimensions": {
+        "x": 1.503021240234375,
+        "y": 0.006000518798828125,
+        "z": 0.016000032424926758
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_WindowReflection_Red"
+      ]
+    },
+    {
+      "name": "HERO_WindowTrafficRedStreak_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -3.715801,
+        23.842001,
+        1.298929
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.50302,
+        0.006,
+        0.016
+      ],
+      "world_bounds": {
+        "xmin": -4.467310905456543,
+        "xmax": -2.9642903804779053,
+        "ymin": 23.839000701904297,
+        "ymax": 23.845001220703125,
+        "zmin": 1.2909289598464966,
+        "zmax": 1.3069289922714233
+      },
+      "world_dimensions": {
+        "x": 1.5030205249786377,
+        "y": 0.006000518798828125,
+        "z": 0.016000032424926758
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_WindowReflection_Red"
+      ]
+    },
+    {
+      "name": "HERO_WindowTrafficRedStreak_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        1.711773,
+        23.842001,
+        1.298929
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.50302,
+        0.006,
+        0.016
+      ],
+      "world_bounds": {
+        "xmin": 0.960263192653656,
+        "xmax": 2.4632835388183594,
+        "ymin": 23.839000701904297,
+        "ymax": 23.845001220703125,
+        "zmin": 1.2909289598464966,
+        "zmax": 1.3069289922714233
+      },
+      "world_dimensions": {
+        "x": 1.5030203461647034,
+        "y": 0.006000518798828125,
+        "z": 0.016000032424926758
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_WindowReflection_Red"
+      ]
+    },
+    {
+      "name": "HERO_WindowTrafficRedStreak_3",
+      "type": "MESH",
+      "collections": [
+        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        7.139347,
+        23.842001,
+        1.298929
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.50302,
+        0.006,
+        0.016
+      ],
+      "world_bounds": {
+        "xmin": 6.387836456298828,
+        "xmax": 7.890856742858887,
+        "ymin": 23.839000701904297,
+        "ymax": 23.845001220703125,
+        "zmin": 1.2909289598464966,
+        "zmax": 1.3069289922714233
+      },
+      "world_dimensions": {
+        "x": 1.5030202865600586,
+        "y": 0.006000518798828125,
+        "z": 0.016000032424926758
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_WindowReflection_Red"
+      ]
+    },
+    {
+      "name": "HERO_WindowTrafficWhiteStreak_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -7.640354,
+        23.842001,
+        2.228126
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.087528,
+        0.006,
+        0.018
+      ],
+      "world_bounds": {
+        "xmin": -8.684118270874023,
+        "xmax": -6.5965895652771,
+        "ymin": 23.839000701904297,
+        "ymax": 23.845001220703125,
+        "zmin": 2.219125747680664,
+        "zmax": 2.237125873565674
+      },
+      "world_dimensions": {
+        "x": 2.087528705596924,
+        "y": 0.006000518798828125,
+        "z": 0.018000125885009766
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_WindowReflection_White"
+      ]
+    },
+    {
+      "name": "HERO_WindowTrafficWhiteStreak_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -2.21278,
+        23.842001,
+        2.228126
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.087528,
+        0.006,
+        0.018
+      ],
+      "world_bounds": {
+        "xmin": -3.256544351577759,
+        "xmax": -1.1690161228179932,
+        "ymin": 23.839000701904297,
+        "ymax": 23.845001220703125,
+        "zmin": 2.219125747680664,
+        "zmax": 2.237125873565674
+      },
+      "world_dimensions": {
+        "x": 2.0875282287597656,
+        "y": 0.006000518798828125,
+        "z": 0.018000125885009766
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_WindowReflection_White"
+      ]
+    },
+    {
+      "name": "HERO_WindowTrafficWhiteStreak_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        3.214794,
+        23.842001,
+        2.228126
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.087528,
+        0.006,
+        0.018
+      ],
+      "world_bounds": {
+        "xmin": 2.171029567718506,
+        "xmax": 4.2585577964782715,
+        "ymin": 23.839000701904297,
+        "ymax": 23.845001220703125,
+        "zmin": 2.219125747680664,
+        "zmax": 2.237125873565674
+      },
+      "world_dimensions": {
+        "x": 2.0875282287597656,
+        "y": 0.006000518798828125,
+        "z": 0.018000125885009766
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_WindowReflection_White"
+      ]
+    },
+    {
+      "name": "HERO_WindowTrafficWhiteStreak_3",
+      "type": "MESH",
+      "collections": [
+        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        8.642367,
+        23.842001,
+        2.228126
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.087528,
+        0.006,
+        0.018
+      ],
+      "world_bounds": {
+        "xmin": 7.598603248596191,
+        "xmax": 9.686131477355957,
+        "ymin": 23.839000701904297,
+        "ymax": 23.845001220703125,
+        "zmin": 2.219125747680664,
+        "zmax": 2.237125873565674
+      },
+      "world_dimensions": {
+        "x": 2.0875282287597656,
+        "y": 0.006000518798828125,
+        "z": 0.018000125885009766
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_WindowReflection_White"
       ]
     },
     {
@@ -11690,8 +12698,8 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        -4.627355,
-        2.883528,
+        -5.222266,
+        2.649782,
         5.278863
       ],
       "rotation_euler": [
@@ -11710,10 +12718,10 @@
         0.0
       ],
       "world_bounds": {
-        "xmin": -4.627354621887207,
-        "xmax": -4.627354621887207,
-        "ymin": 2.883528470993042,
-        "ymax": 2.883528470993042,
+        "xmin": -5.22226619720459,
+        "xmax": -5.22226619720459,
+        "ymin": 2.649782180786133,
+        "ymax": 2.649782180786133,
         "zmin": 5.278862953186035,
         "zmax": 5.278862953186035
       },
@@ -11746,8 +12754,8 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        4.627355,
-        2.416471,
+        5.219407,
+        2.645095,
         5.278863
       ],
       "rotation_euler": [
@@ -11766,10 +12774,10 @@
         0.0
       ],
       "world_bounds": {
-        "xmin": 4.627354621887207,
-        "xmax": 4.627354621887207,
-        "ymin": 2.416471481323242,
-        "ymax": 2.416471481323242,
+        "xmin": 5.219406604766846,
+        "xmax": 5.219406604766846,
+        "ymin": 2.645094633102417,
+        "ymax": 2.645094633102417,
         "zmin": 5.278862953186035,
         "zmax": 5.278862953186035
       },
