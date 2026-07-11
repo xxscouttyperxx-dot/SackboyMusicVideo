@@ -20,11 +20,11 @@ function GitAddExistingOrDeleted {
 
 Write-Host "[Publish] Cleaning stale package files..."
 $Keep=@(
-    "Apply-AmbientCarGlassPolish.ps1",
-    "Validate-AmbientCarGlassPolish.ps1",
+    "Apply-CharacterWardrobePrep.ps1",
+    "Validate-CharacterWardrobePrep.ps1",
     "Publish-CurrentReview.ps1",
     "Clean-PackageRoot.ps1",
-    "README-AmbientCarGlassPolish.txt",
+    "README-CharacterWardrobePrep.txt",
     "README_FIRST.txt",
     "Run-BuildAll.ps1",
     "Run-DiagnosticRenders.ps1"
@@ -48,6 +48,9 @@ $Patterns=@(
     "Apply-StorefrontParking*.ps1",
     "Validate-StorefrontParking*.ps1",
     "README-StorefrontParking*.txt",
+    "Apply-AmbientCarGlassPolish.ps1",
+    "Validate-AmbientCarGlassPolish.ps1",
+    "README-AmbientCarGlassPolish.txt",
     "Apply-PublishFix.ps1",
     "README-PublishFix.txt"
 )
@@ -66,17 +69,14 @@ GitAddExistingOrDeleted @(
     "scene_manifest.json",
     "reports\project_workflow_audit",
     "renders\current_review",
-    "Apply-AmbientCarGlassPolish.ps1",
-    "Validate-AmbientCarGlassPolish.ps1",
+    "Apply-CharacterWardrobePrep.ps1",
+    "Validate-CharacterWardrobePrep.ps1",
     "Publish-CurrentReview.ps1",
     "Clean-PackageRoot.ps1",
-    "README-AmbientCarGlassPolish.txt",
-    "Apply-StorefrontParkingV1C.ps1",
-    "Validate-StorefrontParkingV1C.ps1",
-    "README-StorefrontParkingV1C.txt",
-    "Apply-StorefrontParkingSkyV1B.ps1",
-    "Validate-StorefrontParkingSkyV1B.ps1",
-    "README-StorefrontParkingSkyV1B.txt"
+    "README-CharacterWardrobePrep.txt",
+    "Apply-AmbientCarGlassPolish.ps1",
+    "Validate-AmbientCarGlassPolish.ps1",
+    "README-AmbientCarGlassPolish.txt"
 )
 
 if(Test-Path (Join-Path $Root "NightSkyHDRI003_1K")){
@@ -93,7 +93,7 @@ $Status = git -C $Root status --porcelain
 if([string]::IsNullOrWhiteSpace($Status)){
     Write-Host "[Publish] Nothing to commit."
 } else {
-    git -C $Root commit -m "Polish car amber lighting and storefront glass"
+    git -C $Root commit -m "Add character wardrobe prep and current review"
     if($LASTEXITCODE -ne 0){throw "git commit failed"}
 }
 git -C $Root push origin main

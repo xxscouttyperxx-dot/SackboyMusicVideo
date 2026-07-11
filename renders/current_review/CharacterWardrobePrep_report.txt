@@ -1,0 +1,6 @@
+[lock] scene layout, car, sky/world, and lighting preserved; no light edits made
+[character] applied procedural yarn material to F2 material slot 0
+[wardrobe] created non-destructive hoodie/jeans/black-skate-shoe fit guides and material swatches
+[render] 01_CharacterWardrobeFront.png
+[render] 02_ShoeCloseup.png
+[render] 03_WardrobeSceneContext.png

@@ -1,11 +1,11 @@
 [
   {
     "path": "blender\\sackboy_scene.blend",
-    "size_bytes": 13938964
+    "size_bytes": 13947608
   },
   {
     "path": "blender\\sackboy_scene.blend1",
-    "size_bytes": 13941326
+    "size_bytes": 13944325
   },
   {
     "path": "blender\\sackboy_scene.zip",
@@ -50,6 +50,10 @@
   {
     "path": "blender\\scripts\\character_config.py",
     "size_bytes": 1533
+  },
+  {
+    "path": "blender\\scripts\\character_wardrobe_prep_v1.py",
+    "size_bytes": 16277
   },
   {
     "path": "blender\\scripts\\cleanup_reset_scene.py",
@@ -236,31 +240,31 @@
     "size_bytes": 262612
   },
   {
-    "path": "renders\\current_review\\01_CarAmberRead.png",
-    "size_bytes": 797245
+    "path": "renders\\current_review\\01_CharacterWardrobeFront.png",
+    "size_bytes": 863036
   },
   {
-    "path": "renders\\current_review\\02_WindowReflectionPolish.png",
-    "size_bytes": 843938
+    "path": "renders\\current_review\\02_ShoeCloseup.png",
+    "size_bytes": 872318
   },
   {
-    "path": "renders\\current_review\\03_StableSceneMood.png",
-    "size_bytes": 857417
+    "path": "renders\\current_review\\03_WardrobeSceneContext.png",
+    "size_bytes": 886925
   },
   {
-    "path": "renders\\current_review\\AmbientCarGlassPolish_report.txt",
-    "size_bytes": 276
+    "path": "renders\\current_review\\CharacterWardrobePrep_report.txt",
+    "size_bytes": 356
   },
   {
     "path": "reports\\project_workflow_audit\\project_file_layout.json",
-    "size_bytes": 6579
+    "size_bytes": 6686
   },
   {
     "path": "reports\\project_workflow_audit\\scene_layout_summary.md",
-    "size_bytes": 15813
+    "size_bytes": 15491
   },
   {
     "path": "reports\\project_workflow_audit\\scene_manifest.json",
-    "size_bytes": 280700
+    "size_bytes": 300818
   }
 ]

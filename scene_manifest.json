@@ -231,9 +231,7 @@
       "objects": [
         "HERO_CarAmberRoofRead",
         "HERO_CarAmberHoodRead",
-        "HERO_CarWarmSideGlint",
-        "HERO_CarAmberReflectionCard_Roof",
-        "HERO_CarAmberReflectionCard_Hood"
+        "HERO_CarWarmSideGlint"
       ],
       "children": []
     },
@@ -245,6 +243,56 @@
         "HERO_Underglow_FrontHiddenStrip",
         "HERO_Underglow_RearHiddenStrip",
         "HERO_CyanUnderglow_Area"
+      ],
+      "children": []
+    },
+    {
+      "name": "HERO_CHARACTER_MATERIAL_GUIDES",
+      "hide_viewport": false,
+      "hide_render": false,
+      "objects": [
+        "HERO_MaterialSwatch_Yarn",
+        "HERO_MaterialSwatch_Hoodie",
+        "HERO_MaterialSwatch_Denim",
+        "HERO_MaterialSwatch_ShoeBlack",
+        "HERO_MaterialSwatch_ShoeWhite",
+        "HERO_MaterialSwatch_Flame"
+      ],
+      "children": []
+    },
+    {
+      "name": "HERO_CHARACTER_WARDROBE_V1",
+      "hide_viewport": false,
+      "hide_render": false,
+      "objects": [
+        "HERO_Hoodie_Torso_FitGuide",
+        "HERO_Hoodie_Hood_FitGuide",
+        "HERO_Hoodie_Sleeve_L_FitGuide",
+        "HERO_BaggyJean_Leg_L_FitGuide",
+        "HERO_BlackSkateShoe_L_Main",
+        "HERO_BlackSkateShoe_L_WhiteToe",
+        "HERO_BlackSkateShoe_L_WhiteSole",
+        "HERO_BlackSkateShoe_L_FlameAccent_0",
+        "HERO_BlackSkateShoe_L_FlameAccent_1",
+        "HERO_BlackSkateShoe_L_FlameAccent_2",
+        "HERO_BlackSkateShoe_L_Lace_0",
+        "HERO_BlackSkateShoe_L_Lace_1",
+        "HERO_BlackSkateShoe_L_Lace_2",
+        "HERO_BlackSkateShoe_L_Lace_3",
+        "HERO_Hoodie_Sleeve_R_FitGuide",
+        "HERO_BaggyJean_Leg_R_FitGuide",
+        "HERO_BlackSkateShoe_R_Main",
+        "HERO_BlackSkateShoe_R_WhiteToe",
+        "HERO_BlackSkateShoe_R_WhiteSole",
+        "HERO_BlackSkateShoe_R_FlameAccent_0",
+        "HERO_BlackSkateShoe_R_FlameAccent_1",
+        "HERO_BlackSkateShoe_R_FlameAccent_2",
+        "HERO_BlackSkateShoe_R_Lace_0",
+        "HERO_BlackSkateShoe_R_Lace_1",
+        "HERO_BlackSkateShoe_R_Lace_2",
+        "HERO_BlackSkateShoe_R_Lace_3",
+        "HERO_Hoodie_CenterZip_Guide",
+        "HERO_Hoodie_Hem_Guide"
       ],
       "children": []
     },
@@ -285,9 +333,9 @@
       "hide_viewport": false,
       "hide_render": false,
       "objects": [
-        "HERO_CAM_CarAmberRead",
-        "HERO_CAM_WindowReflectionPolish",
-        "HERO_CAM_StableSceneMood"
+        "HERO_CAM_CharacterWardrobeFront",
+        "HERO_CAM_ShoeCloseup",
+        "HERO_CAM_WardrobeSceneContext"
       ],
       "children": []
     },
@@ -368,28 +416,6 @@
         "HERO_LampArm_1",
         "HERO_LampFixture_1",
         "HERO_LampGlass_1"
-      ],
-      "children": []
-    },
-    {
-      "name": "HERO_WINDOW_TRAFFIC_REFLECTIONS",
-      "hide_viewport": false,
-      "hide_render": false,
-      "objects": [
-        "HERO_WindowTrafficAmberStreak_0",
-        "HERO_WindowTrafficWhiteStreak_0",
-        "HERO_WindowTrafficRedStreak_0",
-        "HERO_WindowTrafficBlueStreak_0",
-        "HERO_WindowTrafficAmberStreak_1",
-        "HERO_WindowTrafficWhiteStreak_1",
-        "HERO_WindowTrafficRedStreak_1",
-        "HERO_WindowTrafficAmberStreak_2",
-        "HERO_WindowTrafficWhiteStreak_2",
-        "HERO_WindowTrafficRedStreak_2",
-        "HERO_WindowTrafficBlueStreak_2",
-        "HERO_WindowTrafficAmberStreak_3",
-        "HERO_WindowTrafficWhiteStreak_3",
-        "HERO_WindowTrafficRedStreak_3"
       ],
       "children": []
     },
@@ -2536,7 +2562,7 @@
       },
       "modifiers": [],
       "materials": [
-        "FINAL_MAT_CrochetYarn"
+        "HERO_MAT_SackboyYarn_Procedural"
       ]
     },
     {
@@ -2584,7 +2610,7 @@
       },
       "modifiers": [],
       "materials": [
-        "FINAL_MAT_CrochetYarn"
+        "HERO_MAT_SackboyYarn_Procedural"
       ]
     },
     {
@@ -2682,7 +2708,1135 @@
       ]
     },
     {
-      "name": "HERO_CAM_CarAmberRead",
+      "name": "HERO_BaggyJean_Leg_L_FitGuide",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -0.549556,
+        0.014177,
+        0.495486
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.668009,
+        0.56063,
+        0.934799
+      ],
+      "world_bounds": {
+        "xmin": -0.8835599422454834,
+        "xmax": -0.21555113792419434,
+        "ymin": -0.26613783836364746,
+        "ymax": 0.29449233412742615,
+        "zmin": 0.028086543083190918,
+        "zmax": 0.9628852009773254
+      },
+      "world_dimensions": {
+        "x": 0.6680088043212891,
+        "y": 0.5606301724910736,
+        "z": 0.9347986578941345
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_BaggyDenim_DarkBlue"
+      ]
+    },
+    {
+      "name": "HERO_BaggyJean_Leg_R_FitGuide",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.118453,
+        0.014177,
+        0.495486
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.668009,
+        0.56063,
+        0.934799
+      ],
+      "world_bounds": {
+        "xmin": -0.21555086970329285,
+        "xmax": 0.45245790481567383,
+        "ymin": -0.26613783836364746,
+        "ymax": 0.29449233412742615,
+        "zmin": 0.028086543083190918,
+        "zmax": 0.9628852009773254
+      },
+      "world_dimensions": {
+        "x": 0.6680087745189667,
+        "y": 0.5606301724910736,
+        "z": 0.9347986578941345
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_BaggyDenim_DarkBlue"
+      ]
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_FlameAccent_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -0.967061,
+        -0.133357,
+        0.110569
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.077934,
+        0.088521,
+        0.098979
+      ],
+      "world_bounds": {
+        "xmin": -1.0060285329818726,
+        "xmax": -0.9280940890312195,
+        "ymin": -0.17761734127998352,
+        "ymax": -0.08909674733877182,
+        "zmin": 0.06107943505048752,
+        "zmax": 0.16005811095237732
+      },
+      "world_dimensions": {
+        "x": 0.07793444395065308,
+        "y": 0.0885205939412117,
+        "z": 0.0989786759018898
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ShoeFlameOrangeYellow"
+      ]
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_FlameAccent_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -0.967061,
+        -0.184994,
+        0.14906
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.077934,
+        0.088521,
+        0.098979
+      ],
+      "world_bounds": {
+        "xmin": -1.0060285329818726,
+        "xmax": -0.9280940890312195,
+        "ymin": -0.2292543649673462,
+        "ymax": -0.1407337784767151,
+        "zmin": 0.09957114607095718,
+        "zmax": 0.19854983687400818
+      },
+      "world_dimensions": {
+        "x": 0.07793444395065308,
+        "y": 0.0885205864906311,
+        "z": 0.098978690803051
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ShoeFlameOrangeYellow"
+      ]
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_FlameAccent_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -0.967061,
+        -0.236631,
+        0.187552
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.077934,
+        0.088521,
+        0.098979
+      ],
+      "world_bounds": {
+        "xmin": -1.0060285329818726,
+        "xmax": -0.9280940890312195,
+        "ymin": -0.28089138865470886,
+        "ymax": -0.19237077236175537,
+        "zmin": 0.13806286454200745,
+        "zmax": 0.23704153299331665
+      },
+      "world_dimensions": {
+        "x": 0.07793444395065308,
+        "y": 0.08852061629295349,
+        "z": 0.0989786684513092
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ShoeFlameOrangeYellow"
+      ]
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_Lace_0",
+      "type": "CURVE",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.306633,
+        0.025691,
+        0.008
+      ],
+      "world_bounds": {
+        "xmin": -0.7307056188583374,
+        "xmax": -0.4240730106830597,
+        "ymin": -0.16685724258422852,
+        "ymax": -0.14116646349430084,
+        "zmin": 0.23029214143753052,
+        "zmax": 0.2382921278476715
+      },
+      "world_dimensions": {
+        "x": 0.3066326081752777,
+        "y": 0.025690779089927673,
+        "z": 0.007999986410140991
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_SkateShoeWhitePanels"
+      ]
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_Lace_1",
+      "type": "CURVE",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.306633,
+        0.025691,
+        0.008
+      ],
+      "world_bounds": {
+        "xmin": -0.7307056188583374,
+        "xmax": -0.4240730106830597,
+        "ymin": -0.2184942662715912,
+        "ymax": -0.1928034871816635,
+        "zmin": 0.23029214143753052,
+        "zmax": 0.2382921278476715
+      },
+      "world_dimensions": {
+        "x": 0.3066326081752777,
+        "y": 0.025690779089927673,
+        "z": 0.007999986410140991
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_SkateShoeWhitePanels"
+      ]
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_Lace_2",
+      "type": "CURVE",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.306633,
+        0.025691,
+        0.008
+      ],
+      "world_bounds": {
+        "xmin": -0.7307056188583374,
+        "xmax": -0.4240730106830597,
+        "ymin": -0.27013128995895386,
+        "ymax": -0.244440495967865,
+        "zmin": 0.23029214143753052,
+        "zmax": 0.2382921278476715
+      },
+      "world_dimensions": {
+        "x": 0.3066326081752777,
+        "y": 0.025690793991088867,
+        "z": 0.007999986410140991
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_SkateShoeWhitePanels"
+      ]
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_Lace_3",
+      "type": "CURVE",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.306633,
+        0.025691,
+        0.008
+      ],
+      "world_bounds": {
+        "xmin": -0.7307056188583374,
+        "xmax": -0.4240730106830597,
+        "ymin": -0.32176831364631653,
+        "ymax": -0.29607751965522766,
+        "zmin": 0.23029214143753052,
+        "zmax": 0.2382921278476715
+      },
+      "world_dimensions": {
+        "x": 0.3066326081752777,
+        "y": 0.025690793991088867,
+        "z": 0.007999986410140991
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_SkateShoeWhitePanels"
+      ]
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_Main",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -0.577389,
+        -0.089097,
+        0.096822
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.946347,
+        0.826193,
+        0.302435
+      ],
+      "world_bounds": {
+        "xmin": -1.050562858581543,
+        "xmax": -0.10421603918075562,
+        "ymin": -0.5021932721138,
+        "ymax": 0.32399994134902954,
+        "zmin": -0.05439569056034088,
+        "zmax": 0.24803917109966278
+      },
+      "world_dimensions": {
+        "x": 0.9463468194007874,
+        "y": 0.8261932134628296,
+        "z": 0.30243486166000366
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_BlackSkateShoe"
+      ]
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_WhiteSole",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -0.577389,
+        -0.089097,
+        0.019838
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.002014,
+        0.855699,
+        0.098979
+      ],
+      "world_bounds": {
+        "xmin": -1.0783960819244385,
+        "xmax": -0.07638251781463623,
+        "ymin": -0.5169463157653809,
+        "ymax": 0.3387528359889984,
+        "zmin": -0.029651019722223282,
+        "zmax": 0.06932766735553741
+      },
+      "world_dimensions": {
+        "x": 1.0020135641098022,
+        "y": 0.8556991517543793,
+        "z": 0.0989786870777607
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_SkateShoeWhitePanels"
+      ]
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_WhiteToe",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -0.577389,
+        -0.369412,
+        0.124316
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.501006,
+        0.177041,
+        0.148468
+      ],
+      "world_bounds": {
+        "xmin": -0.8278924226760864,
+        "xmax": -0.32688599824905396,
+        "ymin": -0.4579325318336487,
+        "ymax": -0.2808915078639984,
+        "zmin": 0.050081804394721985,
+        "zmax": 0.19854982197284698
+      },
+      "world_dimensions": {
+        "x": 0.5010064244270325,
+        "y": 0.17704102396965027,
+        "z": 0.148468017578125
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_SkateShoeWhitePanels"
+      ]
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_FlameAccent_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.535959,
+        -0.133357,
+        0.110569
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.077934,
+        0.088521,
+        0.098979
+      ],
+      "world_bounds": {
+        "xmin": 0.49699193239212036,
+        "xmax": 0.5749263167381287,
+        "ymin": -0.17761734127998352,
+        "ymax": -0.08909674733877182,
+        "zmin": 0.06107943505048752,
+        "zmax": 0.16005811095237732
+      },
+      "world_dimensions": {
+        "x": 0.0779343843460083,
+        "y": 0.0885205939412117,
+        "z": 0.0989786759018898
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ShoeFlameOrangeYellow"
+      ]
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_FlameAccent_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.535959,
+        -0.184994,
+        0.14906
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.077934,
+        0.088521,
+        0.098979
+      ],
+      "world_bounds": {
+        "xmin": 0.49699193239212036,
+        "xmax": 0.5749263167381287,
+        "ymin": -0.2292543649673462,
+        "ymax": -0.1407337784767151,
+        "zmin": 0.09957114607095718,
+        "zmax": 0.19854983687400818
+      },
+      "world_dimensions": {
+        "x": 0.0779343843460083,
+        "y": 0.0885205864906311,
+        "z": 0.098978690803051
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ShoeFlameOrangeYellow"
+      ]
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_FlameAccent_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.535959,
+        -0.236631,
+        0.187552
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.077934,
+        0.088521,
+        0.098979
+      ],
+      "world_bounds": {
+        "xmin": 0.49699193239212036,
+        "xmax": 0.5749263167381287,
+        "ymin": -0.28089138865470886,
+        "ymax": -0.19237077236175537,
+        "zmin": 0.13806286454200745,
+        "zmax": 0.23704153299331665
+      },
+      "world_dimensions": {
+        "x": 0.0779343843460083,
+        "y": 0.08852061629295349,
+        "z": 0.0989786684513092
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ShoeFlameOrangeYellow"
+      ]
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_Lace_0",
+      "type": "CURVE",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.306633,
+        0.025691,
+        0.008
+      ],
+      "world_bounds": {
+        "xmin": -0.007029158528894186,
+        "xmax": 0.29960349202156067,
+        "ymin": -0.16685724258422852,
+        "ymax": -0.14116646349430084,
+        "zmin": 0.23029214143753052,
+        "zmax": 0.2382921278476715
+      },
+      "world_dimensions": {
+        "x": 0.30663265055045485,
+        "y": 0.025690779089927673,
+        "z": 0.007999986410140991
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_SkateShoeWhitePanels"
+      ]
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_Lace_1",
+      "type": "CURVE",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.306633,
+        0.025691,
+        0.008
+      ],
+      "world_bounds": {
+        "xmin": -0.007029158528894186,
+        "xmax": 0.29960349202156067,
+        "ymin": -0.2184942662715912,
+        "ymax": -0.1928034871816635,
+        "zmin": 0.23029214143753052,
+        "zmax": 0.2382921278476715
+      },
+      "world_dimensions": {
+        "x": 0.30663265055045485,
+        "y": 0.025690779089927673,
+        "z": 0.007999986410140991
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_SkateShoeWhitePanels"
+      ]
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_Lace_2",
+      "type": "CURVE",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.306633,
+        0.025691,
+        0.008
+      ],
+      "world_bounds": {
+        "xmin": -0.007029158528894186,
+        "xmax": 0.29960349202156067,
+        "ymin": -0.27013128995895386,
+        "ymax": -0.244440495967865,
+        "zmin": 0.23029214143753052,
+        "zmax": 0.2382921278476715
+      },
+      "world_dimensions": {
+        "x": 0.30663265055045485,
+        "y": 0.025690793991088867,
+        "z": 0.007999986410140991
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_SkateShoeWhitePanels"
+      ]
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_Lace_3",
+      "type": "CURVE",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.306633,
+        0.025691,
+        0.008
+      ],
+      "world_bounds": {
+        "xmin": -0.007029158528894186,
+        "xmax": 0.29960349202156067,
+        "ymin": -0.32176831364631653,
+        "ymax": -0.29607751965522766,
+        "zmin": 0.23029214143753052,
+        "zmax": 0.2382921278476715
+      },
+      "world_dimensions": {
+        "x": 0.30663265055045485,
+        "y": 0.025690793991088867,
+        "z": 0.007999986410140991
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_SkateShoeWhitePanels"
+      ]
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_Main",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.146287,
+        -0.089097,
+        0.096822
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.946347,
+        0.826193,
+        0.302435
+      ],
+      "world_bounds": {
+        "xmin": -0.3268864154815674,
+        "xmax": 0.61946040391922,
+        "ymin": -0.5021932721138,
+        "ymax": 0.32399994134902954,
+        "zmin": -0.05439569056034088,
+        "zmax": 0.24803917109966278
+      },
+      "world_dimensions": {
+        "x": 0.9463468194007874,
+        "y": 0.8261932134628296,
+        "z": 0.30243486166000366
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_BlackSkateShoe"
+      ]
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_WhiteSole",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.146287,
+        -0.089097,
+        0.019838
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.002014,
+        0.855699,
+        0.098979
+      ],
+      "world_bounds": {
+        "xmin": -0.3547196388244629,
+        "xmax": 0.6472939252853394,
+        "ymin": -0.5169463157653809,
+        "ymax": 0.3387528359889984,
+        "zmin": -0.029651019722223282,
+        "zmax": 0.06932766735553741
+      },
+      "world_dimensions": {
+        "x": 1.0020135641098022,
+        "y": 0.8556991517543793,
+        "z": 0.0989786870777607
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_SkateShoeWhitePanels"
+      ]
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_WhiteToe",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.146287,
+        -0.369412,
+        0.124316
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.501006,
+        0.177041,
+        0.148468
+      ],
+      "world_bounds": {
+        "xmin": -0.10421599447727203,
+        "xmax": 0.39679044485092163,
+        "ymin": -0.4579325318336487,
+        "ymax": -0.2808915078639984,
+        "zmin": 0.050081804394721985,
+        "zmax": 0.19854982197284698
+      },
+      "world_dimensions": {
+        "x": 0.5010064393281937,
+        "y": 0.17704102396965027,
+        "z": 0.148468017578125
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_SkateShoeWhitePanels"
+      ]
+    },
+    {
+      "name": "HERO_CAM_CharacterWardrobeFront",
       "type": "CAMERA",
       "collections": [
         "HERO_REVIEW_CAMERAS"
@@ -2692,14 +3846,14 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        3.277047,
-        -1.022483,
-        3.511171
+        3.820337,
+        -6.03452,
+        2.61253
       ],
       "rotation_euler": [
-        1.363388,
-        0.0,
-        0.658806
+        1.439224,
+        -0.0,
+        0.588394
       ],
       "scale": [
         1.0,
@@ -2712,12 +3866,12 @@
         0.0
       ],
       "world_bounds": {
-        "xmin": 3.2770473957061768,
-        "xmax": 3.2770473957061768,
-        "ymin": -1.0224831104278564,
-        "ymax": -1.0224831104278564,
-        "zmin": 3.5111706256866455,
-        "zmax": 3.5111706256866455
+        "xmin": 3.8203370571136475,
+        "xmax": 3.8203370571136475,
+        "ymin": -6.034519672393799,
+        "ymax": -6.034519672393799,
+        "zmin": 2.612529754638672,
+        "zmax": 2.612529754638672
       },
       "world_dimensions": {
         "x": 0.0,
@@ -2727,13 +3881,64 @@
       "modifiers": [],
       "materials": [],
       "camera": {
-        "lens": 44.0,
+        "lens": 70.0,
         "clip_start": 0.10000000149011612,
         "clip_end": 1000.0
       }
     },
     {
-      "name": "HERO_CAM_StableSceneMood",
+      "name": "HERO_CAM_ShoeCloseup",
+      "type": "CAMERA",
+      "collections": [
+        "HERO_REVIEW_CAMERAS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        2.150314,
+        -3.010171,
+        0.687944
+      ],
+      "rotation_euler": [
+        1.456729,
+        -0.0,
+        0.663838
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_bounds": {
+        "xmin": 2.1503143310546875,
+        "xmax": 2.1503143310546875,
+        "ymin": -3.0101711750030518,
+        "ymax": -3.0101711750030518,
+        "zmin": 0.6879444122314453,
+        "zmax": 0.6879444122314453
+      },
+      "world_dimensions": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modifiers": [],
+      "materials": [],
+      "camera": {
+        "lens": 75.0,
+        "clip_start": 0.10000000149011612,
+        "clip_end": 1000.0
+      }
+    },
+    {
+      "name": "HERO_CAM_WardrobeSceneContext",
       "type": "CAMERA",
       "collections": [
         "HERO_REVIEW_CAMERAS"
@@ -2784,57 +3989,6 @@
       }
     },
     {
-      "name": "HERO_CAM_WindowReflectionPolish",
-      "type": "CAMERA",
-      "collections": [
-        "HERO_REVIEW_CAMERAS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        2.5,
-        16.0,
-        2.6
-      ],
-      "rotation_euler": [
-        1.51018,
-        -0.0,
-        0.308316
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "world_bounds": {
-        "xmin": 2.5,
-        "xmax": 2.5,
-        "ymin": 16.0,
-        "ymax": 16.0,
-        "zmin": 2.5999999046325684,
-        "zmax": 2.5999999046325684
-      },
-      "world_dimensions": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modifiers": [],
-      "materials": [],
-      "camera": {
-        "lens": 50.0,
-        "clip_start": 0.10000000149011612,
-        "clip_end": 1000.0
-      }
-    },
-    {
       "name": "HERO_CarAmberHoodRead",
       "type": "LIGHT",
       "collections": [
@@ -2845,19 +3999,19 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        -0.556106,
-        -0.111205,
-        3.778694
+        5.21181,
+        3.320432,
+        5.190777
       ],
       "rotation_euler": [
-        0.874376,
-        -0.0,
-        0.321779
+        -0.018607,
+        0.020346,
+        0.205071
       ],
       "scale": [
-        1.0,
-        1.0,
-        1.0
+        3.526878,
+        3.526988,
+        1.004339
       ],
       "dimensions": [
         0.0,
@@ -2865,12 +4019,12 @@
         0.0
       ],
       "world_bounds": {
-        "xmin": -0.5561057329177856,
-        "xmax": -0.5561057329177856,
-        "ymin": -0.11120522767305374,
-        "ymax": -0.11120522767305374,
-        "zmin": 3.778693675994873,
-        "zmax": 3.778693675994873
+        "xmin": 5.211810111999512,
+        "xmax": 5.211810111999512,
+        "ymin": 3.320432186126709,
+        "ymax": 3.320432186126709,
+        "zmin": 5.190776824951172,
+        "zmax": 5.190776824951172
       },
       "world_dimensions": {
         "x": 0.0,
@@ -2891,120 +4045,6 @@
       }
     },
     {
-      "name": "HERO_CarAmberReflectionCard_Hood",
-      "type": "MESH",
-      "collections": [
-        "HERO_CAR_AMBER_READ"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -1.20067,
-        2.789062,
-        1.422382
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        3.09391,
-        0.02,
-        0.016
-      ],
-      "world_bounds": {
-        "xmin": -2.7476251125335693,
-        "xmax": 0.3462846279144287,
-        "ymin": 2.779061794281006,
-        "ymax": 2.7990617752075195,
-        "zmin": 1.4143816232681274,
-        "zmax": 1.4303816556930542
-      },
-      "world_dimensions": {
-        "x": 3.093909740447998,
-        "y": 0.019999980926513672,
-        "z": 0.016000032424926758
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "HERO_MAT_SubtleAmberCarReflection"
-      ]
-    },
-    {
-      "name": "HERO_CarAmberReflectionCard_Roof",
-      "type": "MESH",
-      "collections": [
-        "HERO_CAR_AMBER_READ"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -1.522953,
-        4.153893,
-        2.267639
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        3.351736,
-        0.02,
-        0.02
-      ],
-      "world_bounds": {
-        "xmin": -3.1988203525543213,
-        "xmax": 0.15291523933410645,
-        "ymin": 4.143893241882324,
-        "ymax": 4.163893699645996,
-        "zmin": 2.257638692855835,
-        "zmax": 2.2776386737823486
-      },
-      "world_dimensions": {
-        "x": 3.3517355918884277,
-        "y": 0.020000457763671875,
-        "z": 0.019999980926513672
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "HERO_MAT_SubtleAmberCarReflection"
-      ]
-    },
-    {
       "name": "HERO_CarAmberRoofRead",
       "type": "LIGHT",
       "collections": [
@@ -3015,19 +4055,19 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        -2.167517,
-        4.324497,
-        4.334428
+        -5.186506,
+        1.995343,
+        5.201615
       ],
       "rotation_euler": [
-        0.320282,
-        -0.0,
-        -0.647093
+        0.040737,
+        0.029514,
+        -0.631302
       ],
       "scale": [
-        1.0,
-        1.0,
-        1.0
+        2.981391,
+        2.981224,
+        1.018181
       ],
       "dimensions": [
         0.0,
@@ -3035,12 +4075,12 @@
         0.0
       ],
       "world_bounds": {
-        "xmin": -2.1675171852111816,
-        "xmax": -2.1675171852111816,
-        "ymin": 4.324497222900391,
-        "ymax": 4.324497222900391,
-        "zmin": 4.334427833557129,
-        "zmax": 4.334427833557129
+        "xmin": -5.1865057945251465,
+        "xmax": -5.1865057945251465,
+        "ymin": 1.9953433275222778,
+        "ymax": 1.9953433275222778,
+        "zmin": 5.201615333557129,
+        "zmax": 5.201615333557129
       },
       "world_dimensions": {
         "x": 0.0,
@@ -3071,19 +4111,19 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        -6.034904,
-        5.177517,
-        1.666905
+        -0.435747,
+        22.906092,
+        7.155601
       ],
       "rotation_euler": [
-        1.472578,
+        -0.00862,
         -0.0,
         -1.570796
       ],
       "scale": [
-        1.0,
-        1.0,
-        1.0
+        2.471237,
+        2.47116,
+        1.00019
       ],
       "dimensions": [
         0.0,
@@ -3091,12 +4131,12 @@
         0.0
       ],
       "world_bounds": {
-        "xmin": -6.034904479980469,
-        "xmax": -6.034904479980469,
-        "ymin": 5.177516937255859,
-        "ymax": 5.177516937255859,
-        "zmin": 1.6669045686721802,
-        "zmax": 1.6669045686721802
+        "xmin": -0.43574726581573486,
+        "xmax": -0.43574726581573486,
+        "ymin": 22.906091690063477,
+        "ymax": 22.906091690063477,
+        "zmin": 7.155600547790527,
+        "zmax": 7.155600547790527
       },
       "world_dimensions": {
         "x": 0.0,
@@ -3911,6 +4951,294 @@
       ],
       "materials": [
         "HERO_MAT_Glass_NightGlossy"
+      ]
+    },
+    {
+      "name": "HERO_Hoodie_CenterZip_Guide",
+      "type": "CURVE",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.012,
+        0.041501,
+        0.907695
+      ],
+      "world_bounds": {
+        "xmin": -0.2215510755777359,
+        "xmax": -0.20955108106136322,
+        "ymin": -0.6262171864509583,
+        "ymax": -0.5847166776657104,
+        "zmin": 0.7702316045761108,
+        "zmax": 1.6779261827468872
+      },
+      "world_dimensions": {
+        "x": 0.01199999451637268,
+        "y": 0.0415005087852478,
+        "z": 0.9076945781707764
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ClothingSeams"
+      ]
+    },
+    {
+      "name": "HERO_Hoodie_Hem_Guide",
+      "type": "CURVE",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.224683,
+        0.012,
+        0.012
+      ],
+      "world_bounds": {
+        "xmin": -0.8278927206993103,
+        "xmax": 0.3967905640602112,
+        "ymin": -0.6114669442176819,
+        "ymax": -0.5994669795036316,
+        "zmin": 0.7369325757026672,
+        "zmax": 0.7489325404167175
+      },
+      "world_dimensions": {
+        "x": 1.2246832847595215,
+        "y": 0.011999964714050293,
+        "z": 0.011999964714050293
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ClothingSeams"
+      ]
+    },
+    {
+      "name": "HERO_Hoodie_Hood_FitGuide",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -0.215551,
+        -0.010823,
+        2.00766
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.338034,
+        1.357317,
+        1.319716
+      ],
+      "world_bounds": {
+        "xmin": -1.384568214416504,
+        "xmax": 0.9534652829170227,
+        "ymin": -0.689481258392334,
+        "ymax": 0.6678361296653748,
+        "zmin": 1.3478022813796997,
+        "zmax": 2.667518138885498
+      },
+      "world_dimensions": {
+        "x": 2.3380334973335266,
+        "y": 1.3573173880577087,
+        "z": 1.3197158575057983
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_BlackHoodie_Cloth"
+      ]
+    },
+    {
+      "name": "HERO_Hoodie_Sleeve_L_FitGuide",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -1.384567,
+        0.014177,
+        1.292814
+      ],
+      "rotation_euler": [
+        0.0,
+        1.570796,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.389672,
+        0.389672,
+        1.113348
+      ],
+      "world_bounds": {
+        "xmin": -1.9412411451339722,
+        "xmax": -0.8278926610946655,
+        "ymin": -0.18065868318080902,
+        "ymax": 0.20901326835155487,
+        "zmin": 1.097978115081787,
+        "zmax": 1.4876501560211182
+      },
+      "world_dimensions": {
+        "x": 1.1133484840393066,
+        "y": 0.3896719515323639,
+        "z": 0.38967204093933105
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_BlackHoodie_Cloth"
+      ]
+    },
+    {
+      "name": "HERO_Hoodie_Sleeve_R_FitGuide",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.953465,
+        0.014177,
+        1.292814
+      ],
+      "rotation_euler": [
+        0.0,
+        1.570796,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.389672,
+        0.389672,
+        1.113348
+      ],
+      "world_bounds": {
+        "xmin": 0.3967905640602112,
+        "xmax": 1.5101391077041626,
+        "ymin": -0.18065868318080902,
+        "ymax": 0.20901326835155487,
+        "zmin": 1.097978115081787,
+        "zmax": 1.4876501560211182
+      },
+      "world_dimensions": {
+        "x": 1.1133485436439514,
+        "y": 0.3896719515323639,
+        "z": 0.38967204093933105
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_BlackHoodie_Cloth"
+      ]
+    },
+    {
+      "name": "HERO_Hoodie_Torso_FitGuide",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -0.215551,
+        0.014177,
+        1.182838
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.503021,
+        1.268797,
+        0.989787
+      ],
+      "world_bounds": {
+        "xmin": -0.9670621156692505,
+        "xmax": 0.5359594225883484,
+        "ymin": -0.6202208995819092,
+        "ymax": 0.6485757827758789,
+        "zmin": 0.6879444122314453,
+        "zmax": 1.6777312755584717
+      },
+      "world_dimensions": {
+        "x": 1.5030215382575989,
+        "y": 1.268796682357788,
+        "z": 0.9897868633270264
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_BlackHoodie_Cloth"
       ]
     },
     {
@@ -5147,6 +6475,348 @@
       "modifiers": [],
       "materials": [
         "HERO_MAT_LampPostDarkMetal"
+      ]
+    },
+    {
+      "name": "HERO_MaterialSwatch_Denim",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_MATERIAL_GUIDES"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        2.150314,
+        0.374177,
+        0.330521
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.11,
+        0.11
+      ],
+      "world_bounds": {
+        "xmin": 2.0953142642974854,
+        "xmax": 2.2053143978118896,
+        "ymin": 0.3191772997379303,
+        "ymax": 0.42917731404304504,
+        "zmin": 0.2755213975906372,
+        "zmax": 0.38552141189575195
+      },
+      "world_dimensions": {
+        "x": 0.1100001335144043,
+        "y": 0.11000001430511475,
+        "z": 0.11000001430511475
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_BaggyDenim_DarkBlue"
+      ]
+    },
+    {
+      "name": "HERO_MaterialSwatch_Flame",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_MATERIAL_GUIDES"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        2.150314,
+        0.914177,
+        0.330521
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.11,
+        0.11
+      ],
+      "world_bounds": {
+        "xmin": 2.0953142642974854,
+        "xmax": 2.2053143978118896,
+        "ymin": 0.85917729139328,
+        "ymax": 0.9691773056983948,
+        "zmin": 0.2755213975906372,
+        "zmax": 0.38552141189575195
+      },
+      "world_dimensions": {
+        "x": 0.1100001335144043,
+        "y": 0.11000001430511475,
+        "z": 0.11000001430511475
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ShoeFlameOrangeYellow"
+      ]
+    },
+    {
+      "name": "HERO_MaterialSwatch_Hoodie",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_MATERIAL_GUIDES"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        2.150314,
+        0.194177,
+        0.330521
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.11,
+        0.11
+      ],
+      "world_bounds": {
+        "xmin": 2.0953142642974854,
+        "xmax": 2.2053143978118896,
+        "ymin": 0.13917729258537292,
+        "ymax": 0.24917730689048767,
+        "zmin": 0.2755213975906372,
+        "zmax": 0.38552141189575195
+      },
+      "world_dimensions": {
+        "x": 0.1100001335144043,
+        "y": 0.11000001430511475,
+        "z": 0.11000001430511475
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_BlackHoodie_Cloth"
+      ]
+    },
+    {
+      "name": "HERO_MaterialSwatch_ShoeBlack",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_MATERIAL_GUIDES"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        2.150314,
+        0.554177,
+        0.330521
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.11,
+        0.11
+      ],
+      "world_bounds": {
+        "xmin": 2.0953142642974854,
+        "xmax": 2.2053143978118896,
+        "ymin": 0.4991772770881653,
+        "ymax": 0.60917729139328,
+        "zmin": 0.2755213975906372,
+        "zmax": 0.38552141189575195
+      },
+      "world_dimensions": {
+        "x": 0.1100001335144043,
+        "y": 0.11000001430511475,
+        "z": 0.11000001430511475
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_BlackSkateShoe"
+      ]
+    },
+    {
+      "name": "HERO_MaterialSwatch_ShoeWhite",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_MATERIAL_GUIDES"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        2.150314,
+        0.734177,
+        0.330521
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.11,
+        0.11
+      ],
+      "world_bounds": {
+        "xmin": 2.0953142642974854,
+        "xmax": 2.2053143978118896,
+        "ymin": 0.6791772842407227,
+        "ymax": 0.7891772985458374,
+        "zmin": 0.2755213975906372,
+        "zmax": 0.38552141189575195
+      },
+      "world_dimensions": {
+        "x": 0.1100001335144043,
+        "y": 0.11000001430511475,
+        "z": 0.11000001430511475
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_SkateShoeWhitePanels"
+      ]
+    },
+    {
+      "name": "HERO_MaterialSwatch_Yarn",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_MATERIAL_GUIDES"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        2.150314,
+        0.014177,
+        0.330521
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.11,
+        0.11
+      ],
+      "world_bounds": {
+        "xmin": 2.0953142642974854,
+        "xmax": 2.2053143978118896,
+        "ymin": -0.04082270711660385,
+        "ymax": 0.0691772922873497,
+        "zmin": 0.2755213975906372,
+        "zmax": 0.38552141189575195
+      },
+      "world_dimensions": {
+        "x": 0.1100001335144043,
+        "y": 0.10999999940395355,
+        "z": 0.11000001430511475
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_SackboyYarn_Procedural"
       ]
     },
     {
@@ -7157,804 +8827,6 @@
       ],
       "materials": [
         "HERO_MAT_CyanUnderglow"
-      ]
-    },
-    {
-      "name": "HERO_WindowTrafficAmberStreak_0",
-      "type": "MESH",
-      "collections": [
-        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -8.558866,
-        23.842001,
-        2.925023
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        2.839038,
-        0.006,
-        0.024
-      ],
-      "world_bounds": {
-        "xmin": -9.978384971618652,
-        "xmax": -7.139346122741699,
-        "ymin": 23.839000701904297,
-        "ymax": 23.845001220703125,
-        "zmin": 2.9130232334136963,
-        "zmax": 2.937023401260376
-      },
-      "world_dimensions": {
-        "x": 2.839038848876953,
-        "y": 0.006000518798828125,
-        "z": 0.024000167846679688
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "HERO_MAT_WindowReflection_Amber"
-      ]
-    },
-    {
-      "name": "HERO_WindowTrafficAmberStreak_1",
-      "type": "MESH",
-      "collections": [
-        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -3.131293,
-        23.842001,
-        2.925023
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        2.839039,
-        0.006,
-        0.024
-      ],
-      "world_bounds": {
-        "xmin": -4.550811767578125,
-        "xmax": -1.7117732763290405,
-        "ymin": 23.839000701904297,
-        "ymax": 23.845001220703125,
-        "zmin": 2.9130232334136963,
-        "zmax": 2.937023401260376
-      },
-      "world_dimensions": {
-        "x": 2.8390384912490845,
-        "y": 0.006000518798828125,
-        "z": 0.024000167846679688
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "HERO_MAT_WindowReflection_Amber"
-      ]
-    },
-    {
-      "name": "HERO_WindowTrafficAmberStreak_2",
-      "type": "MESH",
-      "collections": [
-        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        2.296281,
-        23.842001,
-        2.925023
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        2.839039,
-        0.006,
-        0.024
-      ],
-      "world_bounds": {
-        "xmin": 0.8767620325088501,
-        "xmax": 3.7158007621765137,
-        "ymin": 23.839000701904297,
-        "ymax": 23.845001220703125,
-        "zmin": 2.9130232334136963,
-        "zmax": 2.937023401260376
-      },
-      "world_dimensions": {
-        "x": 2.8390387296676636,
-        "y": 0.006000518798828125,
-        "z": 0.024000167846679688
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "HERO_MAT_WindowReflection_Amber"
-      ]
-    },
-    {
-      "name": "HERO_WindowTrafficAmberStreak_3",
-      "type": "MESH",
-      "collections": [
-        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        7.723855,
-        23.842001,
-        2.925023
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        2.839038,
-        0.006,
-        0.024
-      ],
-      "world_bounds": {
-        "xmin": 6.304335594177246,
-        "xmax": 9.143373489379883,
-        "ymin": 23.839000701904297,
-        "ymax": 23.845001220703125,
-        "zmin": 2.9130232334136963,
-        "zmax": 2.937023401260376
-      },
-      "world_dimensions": {
-        "x": 2.8390378952026367,
-        "y": 0.006000518798828125,
-        "z": 0.024000167846679688
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "HERO_MAT_WindowReflection_Amber"
-      ]
-    },
-    {
-      "name": "HERO_WindowTrafficBlueStreak_0",
-      "type": "MESH",
-      "collections": [
-        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -6.972344,
-        23.842001,
-        1.879677
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.002014,
-        0.006,
-        0.016
-      ],
-      "world_bounds": {
-        "xmin": -7.473351001739502,
-        "xmax": -6.471337795257568,
-        "ymin": 23.839000701904297,
-        "ymax": 23.845001220703125,
-        "zmin": 1.8716769218444824,
-        "zmax": 1.8876769542694092
-      },
-      "world_dimensions": {
-        "x": 1.0020132064819336,
-        "y": 0.006000518798828125,
-        "z": 0.016000032424926758
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "HERO_MAT_WindowReflection_Blue"
-      ]
-    },
-    {
-      "name": "HERO_WindowTrafficBlueStreak_2",
-      "type": "MESH",
-      "collections": [
-        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        3.882803,
-        23.842001,
-        1.879677
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.002014,
-        0.006,
-        0.016
-      ],
-      "world_bounds": {
-        "xmin": 3.381795883178711,
-        "xmax": 4.383809566497803,
-        "ymin": 23.839000701904297,
-        "ymax": 23.845001220703125,
-        "zmin": 1.8716769218444824,
-        "zmax": 1.8876769542694092
-      },
-      "world_dimensions": {
-        "x": 1.0020136833190918,
-        "y": 0.006000518798828125,
-        "z": 0.016000032424926758
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "HERO_MAT_WindowReflection_Blue"
-      ]
-    },
-    {
-      "name": "HERO_WindowTrafficRedStreak_0",
-      "type": "MESH",
-      "collections": [
-        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -9.143373,
-        23.842001,
-        1.298929
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.50302,
-        0.006,
-        0.016
-      ],
-      "world_bounds": {
-        "xmin": -9.89488410949707,
-        "xmax": -8.391862869262695,
-        "ymin": 23.839000701904297,
-        "ymax": 23.845001220703125,
-        "zmin": 1.2909289598464966,
-        "zmax": 1.3069289922714233
-      },
-      "world_dimensions": {
-        "x": 1.503021240234375,
-        "y": 0.006000518798828125,
-        "z": 0.016000032424926758
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "HERO_MAT_WindowReflection_Red"
-      ]
-    },
-    {
-      "name": "HERO_WindowTrafficRedStreak_1",
-      "type": "MESH",
-      "collections": [
-        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -3.715801,
-        23.842001,
-        1.298929
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.50302,
-        0.006,
-        0.016
-      ],
-      "world_bounds": {
-        "xmin": -4.467310905456543,
-        "xmax": -2.9642903804779053,
-        "ymin": 23.839000701904297,
-        "ymax": 23.845001220703125,
-        "zmin": 1.2909289598464966,
-        "zmax": 1.3069289922714233
-      },
-      "world_dimensions": {
-        "x": 1.5030205249786377,
-        "y": 0.006000518798828125,
-        "z": 0.016000032424926758
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "HERO_MAT_WindowReflection_Red"
-      ]
-    },
-    {
-      "name": "HERO_WindowTrafficRedStreak_2",
-      "type": "MESH",
-      "collections": [
-        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        1.711773,
-        23.842001,
-        1.298929
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.50302,
-        0.006,
-        0.016
-      ],
-      "world_bounds": {
-        "xmin": 0.960263192653656,
-        "xmax": 2.4632835388183594,
-        "ymin": 23.839000701904297,
-        "ymax": 23.845001220703125,
-        "zmin": 1.2909289598464966,
-        "zmax": 1.3069289922714233
-      },
-      "world_dimensions": {
-        "x": 1.5030203461647034,
-        "y": 0.006000518798828125,
-        "z": 0.016000032424926758
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "HERO_MAT_WindowReflection_Red"
-      ]
-    },
-    {
-      "name": "HERO_WindowTrafficRedStreak_3",
-      "type": "MESH",
-      "collections": [
-        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        7.139347,
-        23.842001,
-        1.298929
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.50302,
-        0.006,
-        0.016
-      ],
-      "world_bounds": {
-        "xmin": 6.387836456298828,
-        "xmax": 7.890856742858887,
-        "ymin": 23.839000701904297,
-        "ymax": 23.845001220703125,
-        "zmin": 1.2909289598464966,
-        "zmax": 1.3069289922714233
-      },
-      "world_dimensions": {
-        "x": 1.5030202865600586,
-        "y": 0.006000518798828125,
-        "z": 0.016000032424926758
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "HERO_MAT_WindowReflection_Red"
-      ]
-    },
-    {
-      "name": "HERO_WindowTrafficWhiteStreak_0",
-      "type": "MESH",
-      "collections": [
-        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -7.640354,
-        23.842001,
-        2.228126
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        2.087528,
-        0.006,
-        0.018
-      ],
-      "world_bounds": {
-        "xmin": -8.684118270874023,
-        "xmax": -6.5965895652771,
-        "ymin": 23.839000701904297,
-        "ymax": 23.845001220703125,
-        "zmin": 2.219125747680664,
-        "zmax": 2.237125873565674
-      },
-      "world_dimensions": {
-        "x": 2.087528705596924,
-        "y": 0.006000518798828125,
-        "z": 0.018000125885009766
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "HERO_MAT_WindowReflection_White"
-      ]
-    },
-    {
-      "name": "HERO_WindowTrafficWhiteStreak_1",
-      "type": "MESH",
-      "collections": [
-        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -2.21278,
-        23.842001,
-        2.228126
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        2.087528,
-        0.006,
-        0.018
-      ],
-      "world_bounds": {
-        "xmin": -3.256544351577759,
-        "xmax": -1.1690161228179932,
-        "ymin": 23.839000701904297,
-        "ymax": 23.845001220703125,
-        "zmin": 2.219125747680664,
-        "zmax": 2.237125873565674
-      },
-      "world_dimensions": {
-        "x": 2.0875282287597656,
-        "y": 0.006000518798828125,
-        "z": 0.018000125885009766
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "HERO_MAT_WindowReflection_White"
-      ]
-    },
-    {
-      "name": "HERO_WindowTrafficWhiteStreak_2",
-      "type": "MESH",
-      "collections": [
-        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        3.214794,
-        23.842001,
-        2.228126
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        2.087528,
-        0.006,
-        0.018
-      ],
-      "world_bounds": {
-        "xmin": 2.171029567718506,
-        "xmax": 4.2585577964782715,
-        "ymin": 23.839000701904297,
-        "ymax": 23.845001220703125,
-        "zmin": 2.219125747680664,
-        "zmax": 2.237125873565674
-      },
-      "world_dimensions": {
-        "x": 2.0875282287597656,
-        "y": 0.006000518798828125,
-        "z": 0.018000125885009766
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "HERO_MAT_WindowReflection_White"
-      ]
-    },
-    {
-      "name": "HERO_WindowTrafficWhiteStreak_3",
-      "type": "MESH",
-      "collections": [
-        "HERO_WINDOW_TRAFFIC_REFLECTIONS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        8.642367,
-        23.842001,
-        2.228126
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        2.087528,
-        0.006,
-        0.018
-      ],
-      "world_bounds": {
-        "xmin": 7.598603248596191,
-        "xmax": 9.686131477355957,
-        "ymin": 23.839000701904297,
-        "ymax": 23.845001220703125,
-        "zmin": 2.219125747680664,
-        "zmax": 2.237125873565674
-      },
-      "world_dimensions": {
-        "x": 2.0875282287597656,
-        "y": 0.006000518798828125,
-        "z": 0.018000125885009766
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "HERO_MAT_WindowReflection_White"
       ]
     },
     {
