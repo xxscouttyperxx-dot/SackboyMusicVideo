@@ -1,0 +1,5 @@
+[lock] current scene baseline preserved; no light/car/storefront/world edits will be made
+[parking] added/updated preview snap modifier on 55 parking paint object(s) targeting Asphalt ground
+[render] 01_MeshAuditOverview.png
+[render] 02_ImportedAssetsAudit.png
+[render] 03_ParkingPaintSnap.png
