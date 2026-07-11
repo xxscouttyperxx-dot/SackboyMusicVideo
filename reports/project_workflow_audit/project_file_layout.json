@@ -1,11 +1,11 @@
 [
   {
     "path": "blender\\sackboy_scene.blend",
-    "size_bytes": 13947608
+    "size_bytes": 14082341
   },
   {
     "path": "blender\\sackboy_scene.blend1",
-    "size_bytes": 13944325
+    "size_bytes": 13947608
   },
   {
     "path": "blender\\sackboy_scene.zip",
@@ -212,8 +212,28 @@
     "size_bytes": 19234
   },
   {
+    "path": "blender\\scripts\\wardrobe_cleanup_asset_intake_v1.py",
+    "size_bytes": 17612
+  },
+  {
     "path": "blender\\assets\\models\\audi-e-tron-gt-q_dbb92b61-1147-491e-b136-50da4ee5f98b\\audi-e-tron-gt-quattro-black_f4223b16-a2d8-4237-b861-8e33a1756f47.blend",
     "size_bytes": 5583957
+  },
+  {
+    "path": "blender\\assets\\models\\clothing\\hoodie\\PUT_GLB_OR_FBX_HERE.txt",
+    "size_bytes": 277
+  },
+  {
+    "path": "blender\\assets\\models\\clothing\\jeans\\PUT_GLB_OR_FBX_HERE.txt",
+    "size_bytes": 277
+  },
+  {
+    "path": "blender\\assets\\models\\clothing\\misc\\PUT_GLB_OR_FBX_HERE.txt",
+    "size_bytes": 277
+  },
+  {
+    "path": "blender\\assets\\models\\clothing\\sneakers\\PUT_GLB_OR_FBX_HERE.txt",
+    "size_bytes": 277
   },
   {
     "path": "NightSkyHDRI003_1K\\NightSkyHDRI003.png",
@@ -240,31 +260,35 @@
     "size_bytes": 262612
   },
   {
-    "path": "renders\\current_review\\01_CharacterWardrobeFront.png",
-    "size_bytes": 863036
+    "path": "renders\\current_review\\01_WardrobeCleanupFront.png",
+    "size_bytes": 826862
   },
   {
-    "path": "renders\\current_review\\02_ShoeCloseup.png",
-    "size_bytes": 872318
+    "path": "renders\\current_review\\02_ShoeGraphicCleanup.png",
+    "size_bytes": 865432
   },
   {
-    "path": "renders\\current_review\\03_WardrobeSceneContext.png",
-    "size_bytes": 886925
+    "path": "renders\\current_review\\03_ImportedClothingCandidates.png",
+    "size_bytes": 876547
   },
   {
-    "path": "renders\\current_review\\CharacterWardrobePrep_report.txt",
-    "size_bytes": 356
+    "path": "renders\\current_review\\WardrobeCleanupAssetIntake_report.txt",
+    "size_bytes": 815
   },
   {
     "path": "reports\\project_workflow_audit\\project_file_layout.json",
-    "size_bytes": 6686
+    "size_bytes": 6790
   },
   {
     "path": "reports\\project_workflow_audit\\scene_layout_summary.md",
-    "size_bytes": 15491
+    "size_bytes": 15697
   },
   {
     "path": "reports\\project_workflow_audit\\scene_manifest.json",
-    "size_bytes": 300818
+    "size_bytes": 305646
+  },
+  {
+    "path": "reports\\wardrobe_asset_notes\\Wardrobe_Asset_Intake_Notes.txt",
+    "size_bytes": 1073
   }
 ]

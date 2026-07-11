@@ -20,11 +20,11 @@ function GitAddExistingOrDeleted {
 
 Write-Host "[Publish] Cleaning stale package files..."
 $Keep=@(
-    "Apply-CharacterWardrobePrep.ps1",
-    "Validate-CharacterWardrobePrep.ps1",
+    "Apply-WardrobeCleanupAssetIntake.ps1",
+    "Validate-WardrobeCleanupAssetIntake.ps1",
     "Publish-CurrentReview.ps1",
     "Clean-PackageRoot.ps1",
-    "README-CharacterWardrobePrep.txt",
+    "README-WardrobeCleanupAssetIntake.txt",
     "README_FIRST.txt",
     "Run-BuildAll.ps1",
     "Run-DiagnosticRenders.ps1"
@@ -51,6 +51,9 @@ $Patterns=@(
     "Apply-AmbientCarGlassPolish.ps1",
     "Validate-AmbientCarGlassPolish.ps1",
     "README-AmbientCarGlassPolish.txt",
+    "Apply-CharacterWardrobePrep.ps1",
+    "Validate-CharacterWardrobePrep.ps1",
+    "README-CharacterWardrobePrep.txt",
     "Apply-PublishFix.ps1",
     "README-PublishFix.txt"
 )
@@ -66,17 +69,19 @@ GitAddExistingOrDeleted @(
     "blender\sackboy_scene.blend",
     "blender\sackboy_scene.blend1",
     "blender\scripts",
+    "blender\assets\models\clothing",
     "scene_manifest.json",
     "reports\project_workflow_audit",
+    "reports\wardrobe_asset_notes",
     "renders\current_review",
-    "Apply-CharacterWardrobePrep.ps1",
-    "Validate-CharacterWardrobePrep.ps1",
+    "Apply-WardrobeCleanupAssetIntake.ps1",
+    "Validate-WardrobeCleanupAssetIntake.ps1",
     "Publish-CurrentReview.ps1",
     "Clean-PackageRoot.ps1",
-    "README-CharacterWardrobePrep.txt",
-    "Apply-AmbientCarGlassPolish.ps1",
-    "Validate-AmbientCarGlassPolish.ps1",
-    "README-AmbientCarGlassPolish.txt"
+    "README-WardrobeCleanupAssetIntake.txt",
+    "Apply-CharacterWardrobePrep.ps1",
+    "Validate-CharacterWardrobePrep.ps1",
+    "README-CharacterWardrobePrep.txt"
 )
 
 if(Test-Path (Join-Path $Root "NightSkyHDRI003_1K")){
@@ -93,7 +98,7 @@ $Status = git -C $Root status --porcelain
 if([string]::IsNullOrWhiteSpace($Status)){
     Write-Host "[Publish] Nothing to commit."
 } else {
-    git -C $Root commit -m "Add character wardrobe prep and current review"
+    git -C $Root commit -m "Clean wardrobe guides and prepare clothing asset intake"
     if($LASTEXITCODE -ne 0){throw "git commit failed"}
 }
 git -C $Root push origin main

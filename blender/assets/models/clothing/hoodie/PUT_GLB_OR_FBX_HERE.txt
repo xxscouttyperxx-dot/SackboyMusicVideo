@@ -1,0 +1,1 @@
+Put downloaded clothing model files here. Preferred: .glb. Also supported by the import script: .gltf, .fbx, .blend.\nThe script will import candidate models into HERO_IMPORTED_CLOTHING_CANDIDATES for comparison; it will not replace the current clothing guides automatically.\n

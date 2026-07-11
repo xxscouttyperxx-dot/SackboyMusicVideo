@@ -248,8 +248,8 @@
     },
     {
       "name": "HERO_CHARACTER_MATERIAL_GUIDES",
-      "hide_viewport": false,
-      "hide_render": false,
+      "hide_viewport": true,
+      "hide_render": true,
       "objects": [
         "HERO_MaterialSwatch_Yarn",
         "HERO_MaterialSwatch_Hoodie",
@@ -329,13 +329,32 @@
       "children": []
     },
     {
+      "name": "HERO_IMPORTED_CLOTHING_CANDIDATES",
+      "hide_viewport": false,
+      "hide_render": false,
+      "objects": [],
+      "children": []
+    },
+    {
       "name": "HERO_REVIEW_CAMERAS",
       "hide_viewport": false,
       "hide_render": false,
       "objects": [
-        "HERO_CAM_CharacterWardrobeFront",
-        "HERO_CAM_ShoeCloseup",
-        "HERO_CAM_WardrobeSceneContext"
+        "HERO_CAM_WardrobeCleanupFront",
+        "HERO_CAM_ShoeGraphicCleanup",
+        "HERO_CAM_ImportedClothingCandidates"
+      ],
+      "children": []
+    },
+    {
+      "name": "HERO_SHOE_GRAPHIC_GUIDES",
+      "hide_viewport": false,
+      "hide_render": false,
+      "objects": [
+        "HERO_ShoeGraphic_L_OrangeSweep",
+        "HERO_ShoeGraphic_L_YellowSweep",
+        "HERO_ShoeGraphic_R_OrangeSweep",
+        "HERO_ShoeGraphic_R_YellowSweep"
       ],
       "children": []
     },
@@ -2809,9 +2828,9 @@
       "collections": [
         "HERO_CHARACTER_WARDROBE_V1"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         -0.967061,
@@ -2866,9 +2885,9 @@
       "collections": [
         "HERO_CHARACTER_WARDROBE_V1"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         -0.967061,
@@ -2923,9 +2942,9 @@
       "collections": [
         "HERO_CHARACTER_WARDROBE_V1"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         -0.967061,
@@ -3325,9 +3344,9 @@
       "collections": [
         "HERO_CHARACTER_WARDROBE_V1"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         0.535959,
@@ -3382,9 +3401,9 @@
       "collections": [
         "HERO_CHARACTER_WARDROBE_V1"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         0.535959,
@@ -3439,9 +3458,9 @@
       "collections": [
         "HERO_CHARACTER_WARDROBE_V1"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         0.535959,
@@ -3836,7 +3855,7 @@
       ]
     },
     {
-      "name": "HERO_CAM_CharacterWardrobeFront",
+      "name": "HERO_CAM_ImportedClothingCandidates",
       "type": "CAMERA",
       "collections": [
         "HERO_REVIEW_CAMERAS"
@@ -3846,14 +3865,14 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        3.820337,
-        -6.03452,
-        2.61253
+        8.691236,
+        -7.409224,
+        3.162411
       ],
       "rotation_euler": [
-        1.439224,
-        -0.0,
-        0.588394
+        1.400642,
+        0.0,
+        0.596746
       ],
       "scale": [
         1.0,
@@ -3866,12 +3885,12 @@
         0.0
       ],
       "world_bounds": {
-        "xmin": 3.8203370571136475,
-        "xmax": 3.8203370571136475,
-        "ymin": -6.034519672393799,
-        "ymax": -6.034519672393799,
-        "zmin": 2.612529754638672,
-        "zmax": 2.612529754638672
+        "xmin": 8.69123649597168,
+        "xmax": 8.69123649597168,
+        "ymin": -7.409223556518555,
+        "ymax": -7.409223556518555,
+        "zmin": 3.1624114513397217,
+        "zmax": 3.1624114513397217
       },
       "world_dimensions": {
         "x": 0.0,
@@ -3881,13 +3900,13 @@
       "modifiers": [],
       "materials": [],
       "camera": {
-        "lens": 70.0,
+        "lens": 55.0,
         "clip_start": 0.10000000149011612,
         "clip_end": 1000.0
       }
     },
     {
-      "name": "HERO_CAM_ShoeCloseup",
+      "name": "HERO_CAM_ShoeGraphicCleanup",
       "type": "CAMERA",
       "collections": [
         "HERO_REVIEW_CAMERAS"
@@ -3938,7 +3957,7 @@
       }
     },
     {
-      "name": "HERO_CAM_WardrobeSceneContext",
+      "name": "HERO_CAM_WardrobeCleanupFront",
       "type": "CAMERA",
       "collections": [
         "HERO_REVIEW_CAMERAS"
@@ -3948,14 +3967,14 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        7.784449,
-        -8.985823,
-        4.975296
+        3.820337,
+        -6.03452,
+        2.61253
       ],
       "rotation_euler": [
-        1.3869,
-        0.0,
-        0.429727
+        1.439224,
+        -0.0,
+        0.588394
       ],
       "scale": [
         1.0,
@@ -3968,12 +3987,12 @@
         0.0
       ],
       "world_bounds": {
-        "xmin": 7.784449100494385,
-        "xmax": 7.784449100494385,
-        "ymin": -8.985822677612305,
-        "ymax": -8.985822677612305,
-        "zmin": 4.975296497344971,
-        "zmax": 4.975296497344971
+        "xmin": 3.8203370571136475,
+        "xmax": 3.8203370571136475,
+        "ymin": -6.034519672393799,
+        "ymax": -6.034519672393799,
+        "zmin": 2.612529754638672,
+        "zmax": 2.612529754638672
       },
       "world_dimensions": {
         "x": 0.0,
@@ -3983,7 +4002,7 @@
       "modifiers": [],
       "materials": [],
       "camera": {
-        "lens": 42.0,
+        "lens": 70.0,
         "clip_start": 0.10000000149011612,
         "clip_end": 1000.0
       }
@@ -6483,9 +6502,9 @@
       "collections": [
         "HERO_CHARACTER_MATERIAL_GUIDES"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         2.150314,
@@ -6540,9 +6559,9 @@
       "collections": [
         "HERO_CHARACTER_MATERIAL_GUIDES"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         2.150314,
@@ -6597,9 +6616,9 @@
       "collections": [
         "HERO_CHARACTER_MATERIAL_GUIDES"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         2.150314,
@@ -6654,9 +6673,9 @@
       "collections": [
         "HERO_CHARACTER_MATERIAL_GUIDES"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         2.150314,
@@ -6711,9 +6730,9 @@
       "collections": [
         "HERO_CHARACTER_MATERIAL_GUIDES"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         2.150314,
@@ -6768,9 +6787,9 @@
       "collections": [
         "HERO_CHARACTER_MATERIAL_GUIDES"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         2.150314,
@@ -7237,6 +7256,198 @@
       "modifiers": [],
       "materials": [
         "HERO_MAT_RooftopHVAC"
+      ]
+    },
+    {
+      "name": "HERO_ShoeGraphic_L_OrangeSweep",
+      "type": "CURVE",
+      "collections": [
+        "HERO_SHOE_GRAPHIC_GUIDES"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.15977,
+        0.125876,
+        0.058915
+      ],
+      "world_bounds": {
+        "xmin": -1.23495352268219,
+        "xmax": -1.0751830339431763,
+        "ymin": -0.4621851444244385,
+        "ymax": -0.3363094627857208,
+        "zmin": 0.22982731461524963,
+        "zmax": 0.28874194622039795
+      },
+      "world_dimensions": {
+        "x": 0.15977048873901367,
+        "y": 0.12587568163871765,
+        "z": 0.058914631605148315
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ShoeGraphicSoftOrange"
+      ]
+    },
+    {
+      "name": "HERO_ShoeGraphic_L_YellowSweep",
+      "type": "CURVE",
+      "collections": [
+        "HERO_SHOE_GRAPHIC_GUIDES"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.212327,
+        0.116817,
+        0.04804
+      ],
+      "world_bounds": {
+        "xmin": -1.2193821668624878,
+        "xmax": -1.007055401802063,
+        "ymin": -0.4316008388996124,
+        "ymax": -0.31478410959243774,
+        "zmin": 0.25846850872039795,
+        "zmax": 0.3065088093280792
+      },
+      "world_dimensions": {
+        "x": 0.2123267650604248,
+        "y": 0.11681672930717468,
+        "z": 0.048040300607681274
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ShoeGraphicSoftYellow"
+      ]
+    },
+    {
+      "name": "HERO_ShoeGraphic_R_OrangeSweep",
+      "type": "CURVE",
+      "collections": [
+        "HERO_SHOE_GRAPHIC_GUIDES"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.15977,
+        0.125876,
+        0.058915
+      ],
+      "world_bounds": {
+        "xmin": 0.6440809369087219,
+        "xmax": 0.803851306438446,
+        "ymin": -0.4621851444244385,
+        "ymax": -0.3363094627857208,
+        "zmin": 0.22982731461524963,
+        "zmax": 0.28874194622039795
+      },
+      "world_dimensions": {
+        "x": 0.15977036952972412,
+        "y": 0.12587568163871765,
+        "z": 0.058914631605148315
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ShoeGraphicSoftOrange"
+      ]
+    },
+    {
+      "name": "HERO_ShoeGraphic_R_YellowSweep",
+      "type": "CURVE",
+      "collections": [
+        "HERO_SHOE_GRAPHIC_GUIDES"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.212327,
+        0.116817,
+        0.04804
+      ],
+      "world_bounds": {
+        "xmin": 0.5759531855583191,
+        "xmax": 0.7882799506187439,
+        "ymin": -0.4316008388996124,
+        "ymax": -0.31478410959243774,
+        "zmin": 0.25846850872039795,
+        "zmax": 0.3065088093280792
+      },
+      "world_dimensions": {
+        "x": 0.2123267650604248,
+        "y": 0.11681672930717468,
+        "z": 0.048040300607681274
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ShoeGraphicSoftYellow"
       ]
     },
     {
