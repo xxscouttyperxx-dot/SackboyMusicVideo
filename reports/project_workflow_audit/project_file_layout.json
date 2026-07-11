@@ -1,11 +1,11 @@
 [
   {
     "path": "blender\\sackboy_scene.blend",
-    "size_bytes": 14048044
+    "size_bytes": 13934507
   },
   {
     "path": "blender\\sackboy_scene.blend1",
-    "size_bytes": 14132496
+    "size_bytes": 13934568
   },
   {
     "path": "blender\\sackboy_scene.zip",
@@ -196,6 +196,10 @@
     "size_bytes": 642
   },
   {
+    "path": "blender\\scripts\\storefront_parking_sky_v1.py",
+    "size_bytes": 19954
+  },
+  {
     "path": "blender\\assets\\models\\audi-e-tron-gt-q_dbb92b61-1147-491e-b136-50da4ee5f98b\\audi-e-tron-gt-quattro-black_f4223b16-a2d8-4237-b861-8e33a1756f47.blend",
     "size_bytes": 5583957
   },
@@ -224,31 +228,31 @@
     "size_bytes": 262612
   },
   {
-    "path": "renders\\current_review\\01_LampSidewalk_Hero.png",
-    "size_bytes": 603210
+    "path": "renders\\current_review\\01_StorefrontScale.png",
+    "size_bytes": 831989
   },
   {
-    "path": "renders\\current_review\\02_LampVisibility.png",
-    "size_bytes": 528079
+    "path": "renders\\current_review\\02_ParkingLampLayout.png",
+    "size_bytes": 776158
   },
   {
-    "path": "renders\\current_review\\03_HighLayout.png",
-    "size_bytes": 570799
+    "path": "renders\\current_review\\03_SkyStoreHero.png",
+    "size_bytes": 845406
   },
   {
-    "path": "renders\\current_review\\LampSidewalkSkyCleanup_report.txt",
-    "size_bytes": 484
+    "path": "renders\\current_review\\StorefrontParkingSky_report.txt",
+    "size_bytes": 657
   },
   {
     "path": "reports\\project_workflow_audit\\project_file_layout.json",
-    "size_bytes": 6515
+    "size_bytes": 6383
   },
   {
     "path": "reports\\project_workflow_audit\\scene_layout_summary.md",
-    "size_bytes": 11101
+    "size_bytes": 19766
   },
   {
     "path": "reports\\project_workflow_audit\\scene_manifest.json",
-    "size_bytes": 262905
+    "size_bytes": 342852
   }
 ]

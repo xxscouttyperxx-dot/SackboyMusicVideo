@@ -254,13 +254,116 @@
       "children": []
     },
     {
+      "name": "HERO_H_PARKING_LAYOUT",
+      "hide_viewport": false,
+      "hide_render": false,
+      "objects": [
+        "HERO_HParking_Row0_BackBar",
+        "HERO_HParking_Row0_FrontBar",
+        "HERO_HParking_Row0_Divider_0",
+        "HERO_HParking_Row0_Divider_1",
+        "HERO_HParking_Row0_Divider_2",
+        "HERO_HParking_Row0_Divider_3",
+        "HERO_HParking_Row0_Divider_4",
+        "HERO_HParking_Row0_Divider_5",
+        "HERO_HParking_Row0_Divider_6",
+        "HERO_HParking_Row0_Divider_7",
+        "HERO_HParking_Row1_BackBar",
+        "HERO_HParking_Row1_FrontBar",
+        "HERO_HParking_Row1_Divider_0",
+        "HERO_HParking_Row1_Divider_1",
+        "HERO_HParking_Row1_Divider_2",
+        "HERO_HParking_Row1_Divider_3",
+        "HERO_HParking_Row1_Divider_4",
+        "HERO_HParking_Row1_Divider_5",
+        "HERO_HParking_Row1_Divider_6",
+        "HERO_HParking_Row1_Divider_7"
+      ],
+      "children": []
+    },
+    {
       "name": "HERO_REVIEW_CAMERAS",
       "hide_viewport": false,
       "hide_render": false,
       "objects": [
-        "HERO_CAM_LampSidewalkReview",
-        "HERO_CAM_LampVisibility",
-        "HERO_CAM_HighLayout"
+        "HERO_CAM_StorefrontScale",
+        "HERO_CAM_ParkingLampLayout",
+        "HERO_CAM_SkyStoreHero"
+      ],
+      "children": []
+    },
+    {
+      "name": "HERO_SIDEWALK_CURB_REBUILD",
+      "hide_viewport": false,
+      "hide_render": false,
+      "objects": [
+        "HERO_Sidewalk_WideTop",
+        "HERO_Curb_VerticalFace",
+        "HERO_Curb_TopLip",
+        "HERO_Sidewalk_ExpansionJoint_X_1",
+        "HERO_Sidewalk_ExpansionJoint_X_2",
+        "HERO_Sidewalk_ExpansionJoint_X_3",
+        "HERO_Sidewalk_ExpansionJoint_X_4",
+        "HERO_Sidewalk_ExpansionJoint_X_5",
+        "HERO_Sidewalk_ExpansionJoint_X_6",
+        "HERO_Sidewalk_ExpansionJoint_X_7",
+        "HERO_Sidewalk_CurbIndentLine"
+      ],
+      "children": []
+    },
+    {
+      "name": "HERO_SKY_BACKDROP",
+      "hide_viewport": false,
+      "hide_render": false,
+      "objects": [
+        "HERO_NightSky_Backdrop"
+      ],
+      "children": []
+    },
+    {
+      "name": "HERO_STOREFRONT_REBUILD",
+      "hide_viewport": false,
+      "hide_render": false,
+      "objects": [
+        "HERO_StoreMall_DeepBody",
+        "HERO_StoreMall_FlatRoof",
+        "HERO_StoreMall_FrontParapet",
+        "HERO_Storefront_ContinuousTopFrame",
+        "HERO_Storefront_ContinuousBottomFrame",
+        "HERO_GlassStorefront_Bay_0",
+        "HERO_Storefront_LeftVertical_0",
+        "HERO_Storefront_RightVertical_0",
+        "HERO_Storefront_MidHorizontal_0",
+        "HERO_Storefront_CenterMullion_0",
+        "HERO_GlassStorefront_Bay_1",
+        "HERO_Storefront_LeftVertical_1",
+        "HERO_Storefront_RightVertical_1",
+        "HERO_Storefront_MidHorizontal_1",
+        "HERO_DoubleDoor_LeftSide_1",
+        "HERO_DoubleDoor_CenterMeet_1",
+        "HERO_DoubleDoor_RightSide_1",
+        "HERO_DoubleDoor_TopFrame_1",
+        "HERO_GlassStorefront_Bay_2",
+        "HERO_Storefront_LeftVertical_2",
+        "HERO_Storefront_RightVertical_2",
+        "HERO_Storefront_MidHorizontal_2",
+        "HERO_DoubleDoor_LeftSide_2",
+        "HERO_DoubleDoor_CenterMeet_2",
+        "HERO_DoubleDoor_RightSide_2",
+        "HERO_DoubleDoor_TopFrame_2",
+        "HERO_GlassStorefront_Bay_3",
+        "HERO_Storefront_LeftVertical_3",
+        "HERO_Storefront_RightVertical_3",
+        "HERO_Storefront_MidHorizontal_3",
+        "HERO_Storefront_CenterMullion_3",
+        "HERO_Rooftop_HVAC_0",
+        "HERO_Rooftop_Vent_0",
+        "HERO_Rooftop_HVAC_1",
+        "HERO_Rooftop_Vent_1",
+        "HERO_Rooftop_HVAC_2",
+        "HERO_Rooftop_Vent_2",
+        "HERO_Rooftop_HVAC_3",
+        "HERO_Rooftop_Vent_3"
       ],
       "children": []
     },
@@ -376,35 +479,30 @@
         "V2C_FrameRight_0",
         "V2C_FrameTop_0",
         "V2C_FrameBottom_0",
-        "V2C_StoreSign_0",
         "V2C_GlassPanel_1",
         "V2C_GlassDoor_1",
         "V2C_FrameLeft_1",
         "V2C_FrameRight_1",
         "V2C_FrameTop_1",
         "V2C_FrameBottom_1",
-        "V2C_StoreSign_1",
         "V2C_GlassPanel_2",
         "V2C_GlassDoor_2",
         "V2C_FrameLeft_2",
         "V2C_FrameRight_2",
         "V2C_FrameTop_2",
         "V2C_FrameBottom_2",
-        "V2C_StoreSign_2",
         "V2C_GlassPanel_3",
         "V2C_GlassDoor_3",
         "V2C_FrameLeft_3",
         "V2C_FrameRight_3",
         "V2C_FrameTop_3",
         "V2C_FrameBottom_3",
-        "V2C_StoreSign_3",
         "V2C_GlassPanel_4",
         "V2C_GlassDoor_4",
         "V2C_FrameLeft_4",
         "V2C_FrameRight_4",
         "V2C_FrameTop_4",
         "V2C_FrameBottom_4",
-        "V2C_StoreSign_4",
         "V2C_Roof_HVAC_0",
         "V2C_Roof_Vent_0",
         "V2C_Roof_HVAC_1",
@@ -2633,7 +2731,7 @@
       ]
     },
     {
-      "name": "HERO_CAM_HighLayout",
+      "name": "HERO_CAM_ParkingLampLayout",
       "type": "CAMERA",
       "collections": [
         "HERO_REVIEW_CAMERAS"
@@ -2643,14 +2741,116 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        8.906788,
-        -6.873519,
-        6.048697
+        8.784449,
+        -8.485823,
+        7.375297
       ],
       "rotation_euler": [
-        1.305681,
+        1.155542,
+        0.0,
+        0.652911
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_bounds": {
+        "xmin": 8.784448623657227,
+        "xmax": 8.784448623657227,
+        "ymin": -8.485822677612305,
+        "ymax": -8.485822677612305,
+        "zmin": 7.375296592712402,
+        "zmax": 7.375296592712402
+      },
+      "world_dimensions": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modifiers": [],
+      "materials": [],
+      "camera": {
+        "lens": 36.0,
+        "clip_start": 0.10000000149011612,
+        "clip_end": 1000.0
+      }
+    },
+    {
+      "name": "HERO_CAM_SkyStoreHero",
+      "type": "CAMERA",
+      "collections": [
+        "HERO_REVIEW_CAMERAS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        7.584449,
+        -9.485823,
+        5.375297
+      ],
+      "rotation_euler": [
+        1.590807,
+        0.0,
+        0.222739
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_bounds": {
+        "xmin": 7.58444881439209,
+        "xmax": 7.58444881439209,
+        "ymin": -9.485822677612305,
+        "ymax": -9.485822677612305,
+        "zmin": 5.375296592712402,
+        "zmax": 5.375296592712402
+      },
+      "world_dimensions": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modifiers": [],
+      "materials": [],
+      "camera": {
+        "lens": 40.0,
+        "clip_start": 0.10000000149011612,
+        "clip_end": 1000.0
+      }
+    },
+    {
+      "name": "HERO_CAM_StorefrontScale",
+      "type": "CAMERA",
+      "collections": [
+        "HERO_REVIEW_CAMERAS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        8.284449,
+        -8.485823,
+        4.575296
+      ],
+      "rotation_euler": [
+        1.545163,
         -0.0,
-        0.651764
+        0.261252
       ],
       "scale": [
         1.0,
@@ -2663,114 +2863,12 @@
         0.0
       ],
       "world_bounds": {
-        "xmin": 8.906787872314453,
-        "xmax": 8.906787872314453,
-        "ymin": -6.873519420623779,
-        "ymax": -6.873519420623779,
-        "zmin": 6.048696994781494,
-        "zmax": 6.048696994781494
-      },
-      "world_dimensions": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modifiers": [],
-      "materials": [],
-      "camera": {
-        "lens": 38.0,
-        "clip_start": 0.10000000149011612,
-        "clip_end": 1000.0
-      }
-    },
-    {
-      "name": "HERO_CAM_LampSidewalkReview",
-      "type": "CAMERA",
-      "collections": [
-        "HERO_REVIEW_CAMERAS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        8.071776,
-        -7.423401,
-        3.43676
-      ],
-      "rotation_euler": [
-        1.385913,
-        0.0,
-        0.785482
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "world_bounds": {
-        "xmin": 8.071776390075684,
-        "xmax": 8.071776390075684,
-        "ymin": -7.42340087890625,
-        "ymax": -7.42340087890625,
-        "zmin": 3.4367597103118896,
-        "zmax": 3.4367597103118896
-      },
-      "world_dimensions": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "modifiers": [],
-      "materials": [],
-      "camera": {
-        "lens": 45.0,
-        "clip_start": 0.10000000149011612,
-        "clip_end": 1000.0
-      }
-    },
-    {
-      "name": "HERO_CAM_LampVisibility",
-      "type": "CAMERA",
-      "collections": [
-        "HERO_REVIEW_CAMERAS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        3.061708,
-        -5.773757,
-        5.086404
-      ],
-      "rotation_euler": [
-        1.323938,
-        0.0,
-        0.358401
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "world_bounds": {
-        "xmin": 3.0617082118988037,
-        "xmax": 3.0617082118988037,
-        "ymin": -5.773756504058838,
-        "ymax": -5.773756504058838,
-        "zmin": 5.086404323577881,
-        "zmax": 5.086404323577881
+        "xmin": 8.284448623657227,
+        "xmax": 8.284448623657227,
+        "ymin": -8.485822677612305,
+        "ymax": -8.485822677612305,
+        "zmin": 4.575296401977539,
+        "zmax": 4.575296401977539
       },
       "world_dimensions": {
         "x": 0.0,
@@ -2784,6 +2882,120 @@
         "clip_start": 0.10000000149011612,
         "clip_end": 1000.0
       }
+    },
+    {
+      "name": "HERO_Curb_TopLip",
+      "type": "MESH",
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        18.118626,
+        0.05
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        26.907015,
+        0.17,
+        0.036
+      ],
+      "world_bounds": {
+        "xmin": -13.453507423400879,
+        "xmax": 13.453507423400879,
+        "ymin": 18.033626556396484,
+        "ymax": 18.203624725341797,
+        "zmin": 0.03200000151991844,
+        "zmax": 0.06800000369548798
+      },
+      "world_dimensions": {
+        "x": 26.907014846801758,
+        "y": 0.1699981689453125,
+        "z": 0.036000002175569534
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_SidewalkConcrete"
+      ]
+    },
+    {
+      "name": "HERO_Curb_VerticalFace",
+      "type": "MESH",
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        18.063627,
+        0.005
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        26.907015,
+        0.08,
+        0.15
+      ],
+      "world_bounds": {
+        "xmin": -13.453507423400879,
+        "xmax": 13.453507423400879,
+        "ymin": 18.02362632751465,
+        "ymax": 18.103628158569336,
+        "zmin": -0.07000000029802322,
+        "zmax": 0.08000000566244125
+      },
+      "world_dimensions": {
+        "x": 26.907014846801758,
+        "y": 0.0800018310546875,
+        "z": 0.15000000596046448
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_SidewalkConcrete"
+      ]
     },
     {
       "name": "HERO_CyanUnderglow_Area",
@@ -2802,12 +3014,12 @@
       ],
       "rotation_euler": [
         0.0,
-        0.0,
-        0.0
+        -0.0,
+        -1.090229
       ],
       "scale": [
-        1.0,
-        1.0,
+        2.448478,
+        1.935102,
         1.0
       ],
       "dimensions": [
@@ -2838,8 +3050,464 @@
           0.550000011920929,
           1.0
         ],
-        "size": 4.834234237670898
+        "size": 2.727658987045288
       }
+    },
+    {
+      "name": "HERO_DoubleDoor_CenterMeet_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -2.713787,
+        23.812,
+        1.682151
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.035,
+        0.13,
+        3.244301
+      ],
+      "world_bounds": {
+        "xmin": -2.7312867641448975,
+        "xmax": -2.696286916732788,
+        "ymin": 23.746999740600586,
+        "ymax": 23.87700080871582,
+        "zmin": 0.060000061988830566,
+        "zmax": 3.3043012619018555
+      },
+      "world_dimensions": {
+        "x": 0.034999847412109375,
+        "y": 0.13000106811523438,
+        "z": 3.244301199913025
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ConjoinedBlackMetalFrames"
+      ]
+    },
+    {
+      "name": "HERO_DoubleDoor_CenterMeet_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        2.713787,
+        23.812,
+        1.682151
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.035,
+        0.13,
+        3.244301
+      ],
+      "world_bounds": {
+        "xmin": 2.696286916732788,
+        "xmax": 2.7312867641448975,
+        "ymin": 23.746999740600586,
+        "ymax": 23.87700080871582,
+        "zmin": 0.060000061988830566,
+        "zmax": 3.3043012619018555
+      },
+      "world_dimensions": {
+        "x": 0.034999847412109375,
+        "y": 0.13000106811523438,
+        "z": 3.244301199913025
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ConjoinedBlackMetalFrames"
+      ]
+    },
+    {
+      "name": "HERO_DoubleDoor_LeftSide_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -4.133306,
+        23.815001,
+        1.682151
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.035,
+        0.125,
+        3.244301
+      ],
+      "world_bounds": {
+        "xmin": -4.150805950164795,
+        "xmax": -4.1158061027526855,
+        "ymin": 23.752500534057617,
+        "ymax": 23.877500534057617,
+        "zmin": 0.060000061988830566,
+        "zmax": 3.3043012619018555
+      },
+      "world_dimensions": {
+        "x": 0.034999847412109375,
+        "y": 0.125,
+        "z": 3.244301199913025
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ConjoinedBlackMetalFrames"
+      ]
+    },
+    {
+      "name": "HERO_DoubleDoor_LeftSide_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        1.294268,
+        23.815001,
+        1.682151
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.035,
+        0.125,
+        3.244301
+      ],
+      "world_bounds": {
+        "xmin": 1.2767674922943115,
+        "xmax": 1.311767578125,
+        "ymin": 23.752500534057617,
+        "ymax": 23.877500534057617,
+        "zmin": 0.060000061988830566,
+        "zmax": 3.3043012619018555
+      },
+      "world_dimensions": {
+        "x": 0.03500008583068848,
+        "y": 0.125,
+        "z": 3.244301199913025
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ConjoinedBlackMetalFrames"
+      ]
+    },
+    {
+      "name": "HERO_DoubleDoor_RightSide_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -1.294268,
+        23.815001,
+        1.682151
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.035,
+        0.125,
+        3.244301
+      ],
+      "world_bounds": {
+        "xmin": -1.311767578125,
+        "xmax": -1.2767674922943115,
+        "ymin": 23.752500534057617,
+        "ymax": 23.877500534057617,
+        "zmin": 0.060000061988830566,
+        "zmax": 3.3043012619018555
+      },
+      "world_dimensions": {
+        "x": 0.03500008583068848,
+        "y": 0.125,
+        "z": 3.244301199913025
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ConjoinedBlackMetalFrames"
+      ]
+    },
+    {
+      "name": "HERO_DoubleDoor_RightSide_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        4.133306,
+        23.815001,
+        1.682151
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.035,
+        0.125,
+        3.244301
+      ],
+      "world_bounds": {
+        "xmin": 4.1158061027526855,
+        "xmax": 4.150805950164795,
+        "ymin": 23.752500534057617,
+        "ymax": 23.877500534057617,
+        "zmin": 0.060000061988830566,
+        "zmax": 3.3043012619018555
+      },
+      "world_dimensions": {
+        "x": 0.034999847412109375,
+        "y": 0.125,
+        "z": 3.244301199913025
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ConjoinedBlackMetalFrames"
+      ]
+    },
+    {
+      "name": "HERO_DoubleDoor_TopFrame_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -2.713787,
+        23.812,
+        3.304301
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.839039,
+        0.13,
+        0.035
+      ],
+      "world_bounds": {
+        "xmin": -4.13330602645874,
+        "xmax": -1.2942675352096558,
+        "ymin": 23.746999740600586,
+        "ymax": 23.87700080871582,
+        "zmin": 3.286801338195801,
+        "zmax": 3.32180118560791
+      },
+      "world_dimensions": {
+        "x": 2.8390384912490845,
+        "y": 0.13000106811523438,
+        "z": 0.034999847412109375
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ConjoinedBlackMetalFrames"
+      ]
+    },
+    {
+      "name": "HERO_DoubleDoor_TopFrame_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        2.713787,
+        23.812,
+        3.304301
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.839039,
+        0.13,
+        0.035
+      ],
+      "world_bounds": {
+        "xmin": 1.2942675352096558,
+        "xmax": 4.13330602645874,
+        "ymin": 23.746999740600586,
+        "ymax": 23.87700080871582,
+        "zmin": 3.286801338195801,
+        "zmax": 3.32180118560791
+      },
+      "world_dimensions": {
+        "x": 2.8390384912490845,
+        "y": 0.13000106811523438,
+        "z": 0.034999847412109375
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ConjoinedBlackMetalFrames"
+      ]
     },
     {
       "name": "HERO_FlatBackParkingLine",
@@ -2847,9 +3515,9 @@
       "collections": [
         "HERO_ENV_CORRECTIONS"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         -4.453394,
@@ -2895,9 +3563,9 @@
       "collections": [
         "HERO_ENV_CORRECTIONS"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         -7.515102,
@@ -2943,9 +3611,9 @@
       "collections": [
         "HERO_ENV_CORRECTIONS"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         -5.010068,
@@ -2991,9 +3659,9 @@
       "collections": [
         "HERO_ENV_CORRECTIONS"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         -2.505034,
@@ -3039,9 +3707,9 @@
       "collections": [
         "HERO_ENV_CORRECTIONS"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         0.0,
@@ -3087,9 +3755,9 @@
       "collections": [
         "HERO_ENV_CORRECTIONS"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         2.505034,
@@ -3135,9 +3803,9 @@
       "collections": [
         "HERO_ENV_CORRECTIONS"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         5.010068,
@@ -3183,9 +3851,9 @@
       "collections": [
         "HERO_ENV_CORRECTIONS"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         7.515102,
@@ -3226,6 +3894,1194 @@
       ]
     },
     {
+      "name": "HERO_GlassStorefront_Bay_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -8.14136,
+        23.870001,
+        1.995827
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        4.175056,
+        0.036,
+        3.871653
+      ],
+      "world_bounds": {
+        "xmin": -10.228888511657715,
+        "xmax": -6.053832054138184,
+        "ymin": 23.852001190185547,
+        "ymax": 23.88800048828125,
+        "zmin": 0.060000061988830566,
+        "zmax": 3.9316530227661133
+      },
+      "world_dimensions": {
+        "x": 4.175056457519531,
+        "y": 0.035999298095703125,
+        "z": 3.8716529607772827
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_GlossyFloorGlass"
+      ]
+    },
+    {
+      "name": "HERO_GlassStorefront_Bay_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -2.713787,
+        23.870001,
+        1.995827
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        4.175056,
+        0.036,
+        3.871653
+      ],
+      "world_bounds": {
+        "xmin": -4.8013153076171875,
+        "xmax": -0.6262586116790771,
+        "ymin": 23.852001190185547,
+        "ymax": 23.88800048828125,
+        "zmin": 0.060000061988830566,
+        "zmax": 3.9316530227661133
+      },
+      "world_dimensions": {
+        "x": 4.17505669593811,
+        "y": 0.035999298095703125,
+        "z": 3.8716529607772827
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_GlossyFloorGlass"
+      ]
+    },
+    {
+      "name": "HERO_GlassStorefront_Bay_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        2.713787,
+        23.870001,
+        1.995827
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        4.175056,
+        0.036,
+        3.871653
+      ],
+      "world_bounds": {
+        "xmin": 0.6262586116790771,
+        "xmax": 4.8013153076171875,
+        "ymin": 23.852001190185547,
+        "ymax": 23.88800048828125,
+        "zmin": 0.060000061988830566,
+        "zmax": 3.9316530227661133
+      },
+      "world_dimensions": {
+        "x": 4.17505669593811,
+        "y": 0.035999298095703125,
+        "z": 3.8716529607772827
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_GlossyFloorGlass"
+      ]
+    },
+    {
+      "name": "HERO_GlassStorefront_Bay_3",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        8.14136,
+        23.870001,
+        1.995827
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        4.175056,
+        0.036,
+        3.871653
+      ],
+      "world_bounds": {
+        "xmin": 6.053832054138184,
+        "xmax": 10.228888511657715,
+        "ymin": 23.852001190185547,
+        "ymax": 23.88800048828125,
+        "zmin": 0.060000061988830566,
+        "zmax": 3.9316530227661133
+      },
+      "world_dimensions": {
+        "x": 4.175056457519531,
+        "y": 0.035999298095703125,
+        "z": 3.8716529607772827
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_GlossyFloorGlass"
+      ]
+    },
+    {
+      "name": "HERO_HParking_Row0_BackBar",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        2.883528,
+        0.0045
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        18.509418,
+        0.075,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": -9.254709243774414,
+        "xmax": 9.254709243774414,
+        "ymin": 2.8460285663604736,
+        "ymax": 2.9210283756256104,
+        "zmin": 0.001999999862164259,
+        "zmax": 0.00699999975040555
+      },
+      "world_dimensions": {
+        "x": 18.509418487548828,
+        "y": 0.07499980926513672,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ParkingLinePaint"
+      ]
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -9.254709,
+        1.15,
+        0.0045
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": -9.29220962524414,
+        "xmax": -9.217208862304688,
+        "ymin": -0.5835285186767578,
+        "ymax": 2.883528470993042,
+        "zmin": 0.001999999862164259,
+        "zmax": 0.00699999975040555
+      },
+      "world_dimensions": {
+        "x": 0.07500076293945312,
+        "y": 3.4670569896698,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ParkingLinePaint"
+      ]
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -6.610507,
+        1.15,
+        0.0045
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": -6.648006439208984,
+        "xmax": -6.573006629943848,
+        "ymin": -0.5835285186767578,
+        "ymax": 2.883528470993042,
+        "zmin": 0.001999999862164259,
+        "zmax": 0.00699999975040555
+      },
+      "world_dimensions": {
+        "x": 0.07499980926513672,
+        "y": 3.4670569896698,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ParkingLinePaint"
+      ]
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -3.966304,
+        1.15,
+        0.0045
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": -4.003803730010986,
+        "xmax": -3.9288039207458496,
+        "ymin": -0.5835285186767578,
+        "ymax": 2.883528470993042,
+        "zmin": 0.001999999862164259,
+        "zmax": 0.00699999975040555
+      },
+      "world_dimensions": {
+        "x": 0.07499980926513672,
+        "y": 3.4670569896698,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ParkingLinePaint"
+      ]
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_3",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -1.322101,
+        1.15,
+        0.0045
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": -1.3596012592315674,
+        "xmax": -1.2846012115478516,
+        "ymin": -0.5835285186767578,
+        "ymax": 2.883528470993042,
+        "zmin": 0.001999999862164259,
+        "zmax": 0.00699999975040555
+      },
+      "world_dimensions": {
+        "x": 0.07500004768371582,
+        "y": 3.4670569896698,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ParkingLinePaint"
+      ]
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_4",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        1.322101,
+        1.15,
+        0.0045
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": 1.2846012115478516,
+        "xmax": 1.3596012592315674,
+        "ymin": -0.5835285186767578,
+        "ymax": 2.883528470993042,
+        "zmin": 0.001999999862164259,
+        "zmax": 0.00699999975040555
+      },
+      "world_dimensions": {
+        "x": 0.07500004768371582,
+        "y": 3.4670569896698,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ParkingLinePaint"
+      ]
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_5",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        3.966304,
+        1.15,
+        0.0045
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": 3.9288039207458496,
+        "xmax": 4.003803730010986,
+        "ymin": -0.5835285186767578,
+        "ymax": 2.883528470993042,
+        "zmin": 0.001999999862164259,
+        "zmax": 0.00699999975040555
+      },
+      "world_dimensions": {
+        "x": 0.07499980926513672,
+        "y": 3.4670569896698,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ParkingLinePaint"
+      ]
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_6",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        6.610507,
+        1.15,
+        0.0045
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": 6.573006629943848,
+        "xmax": 6.648006439208984,
+        "ymin": -0.5835285186767578,
+        "ymax": 2.883528470993042,
+        "zmin": 0.001999999862164259,
+        "zmax": 0.00699999975040555
+      },
+      "world_dimensions": {
+        "x": 0.07499980926513672,
+        "y": 3.4670569896698,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ParkingLinePaint"
+      ]
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_7",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        9.254709,
+        1.15,
+        0.0045
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": 9.217208862304688,
+        "xmax": 9.29220962524414,
+        "ymin": -0.5835285186767578,
+        "ymax": 2.883528470993042,
+        "zmin": 0.001999999862164259,
+        "zmax": 0.00699999975040555
+      },
+      "world_dimensions": {
+        "x": 0.07500076293945312,
+        "y": 3.4670569896698,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ParkingLinePaint"
+      ]
+    },
+    {
+      "name": "HERO_HParking_Row0_FrontBar",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        -0.583529,
+        0.0045
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        18.509418,
+        0.075,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": -9.254709243774414,
+        "xmax": 9.254709243774414,
+        "ymin": -0.6210285425186157,
+        "ymax": -0.5460284948348999,
+        "zmin": 0.001999999862164259,
+        "zmax": 0.00699999975040555
+      },
+      "world_dimensions": {
+        "x": 18.509418487548828,
+        "y": 0.07500004768371582,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ParkingLinePaint"
+      ]
+    },
+    {
+      "name": "HERO_HParking_Row1_BackBar",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        5.883529,
+        0.0045
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        18.509418,
+        0.075,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": -9.254709243774414,
+        "xmax": 9.254709243774414,
+        "ymin": 5.846028804779053,
+        "ymax": 5.9210286140441895,
+        "zmin": 0.001999999862164259,
+        "zmax": 0.00699999975040555
+      },
+      "world_dimensions": {
+        "x": 18.509418487548828,
+        "y": 0.07499980926513672,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ParkingLinePaint"
+      ]
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -9.254709,
+        4.15,
+        0.0045
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": -9.29220962524414,
+        "xmax": -9.217208862304688,
+        "ymin": 2.416471481323242,
+        "ymax": 5.883528709411621,
+        "zmin": 0.001999999862164259,
+        "zmax": 0.00699999975040555
+      },
+      "world_dimensions": {
+        "x": 0.07500076293945312,
+        "y": 3.467057228088379,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ParkingLinePaint"
+      ]
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -6.610507,
+        4.15,
+        0.0045
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": -6.648006439208984,
+        "xmax": -6.573006629943848,
+        "ymin": 2.416471481323242,
+        "ymax": 5.883528709411621,
+        "zmin": 0.001999999862164259,
+        "zmax": 0.00699999975040555
+      },
+      "world_dimensions": {
+        "x": 0.07499980926513672,
+        "y": 3.467057228088379,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ParkingLinePaint"
+      ]
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -3.966304,
+        4.15,
+        0.0045
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": -4.003803730010986,
+        "xmax": -3.9288039207458496,
+        "ymin": 2.416471481323242,
+        "ymax": 5.883528709411621,
+        "zmin": 0.001999999862164259,
+        "zmax": 0.00699999975040555
+      },
+      "world_dimensions": {
+        "x": 0.07499980926513672,
+        "y": 3.467057228088379,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ParkingLinePaint"
+      ]
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_3",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -1.322101,
+        4.15,
+        0.0045
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": -1.3596012592315674,
+        "xmax": -1.2846012115478516,
+        "ymin": 2.416471481323242,
+        "ymax": 5.883528709411621,
+        "zmin": 0.001999999862164259,
+        "zmax": 0.00699999975040555
+      },
+      "world_dimensions": {
+        "x": 0.07500004768371582,
+        "y": 3.467057228088379,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ParkingLinePaint"
+      ]
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_4",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        1.322101,
+        4.15,
+        0.0045
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": 1.2846012115478516,
+        "xmax": 1.3596012592315674,
+        "ymin": 2.416471481323242,
+        "ymax": 5.883528709411621,
+        "zmin": 0.001999999862164259,
+        "zmax": 0.00699999975040555
+      },
+      "world_dimensions": {
+        "x": 0.07500004768371582,
+        "y": 3.467057228088379,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ParkingLinePaint"
+      ]
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_5",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        3.966304,
+        4.15,
+        0.0045
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": 3.9288039207458496,
+        "xmax": 4.003803730010986,
+        "ymin": 2.416471481323242,
+        "ymax": 5.883528709411621,
+        "zmin": 0.001999999862164259,
+        "zmax": 0.00699999975040555
+      },
+      "world_dimensions": {
+        "x": 0.07499980926513672,
+        "y": 3.467057228088379,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ParkingLinePaint"
+      ]
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_6",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        6.610507,
+        4.15,
+        0.0045
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": 6.573006629943848,
+        "xmax": 6.648006439208984,
+        "ymin": 2.416471481323242,
+        "ymax": 5.883528709411621,
+        "zmin": 0.001999999862164259,
+        "zmax": 0.00699999975040555
+      },
+      "world_dimensions": {
+        "x": 0.07499980926513672,
+        "y": 3.467057228088379,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ParkingLinePaint"
+      ]
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_7",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        9.254709,
+        4.15,
+        0.0045
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": 9.217208862304688,
+        "xmax": 9.29220962524414,
+        "ymin": 2.416471481323242,
+        "ymax": 5.883528709411621,
+        "zmin": 0.001999999862164259,
+        "zmax": 0.00699999975040555
+      },
+      "world_dimensions": {
+        "x": 0.07500076293945312,
+        "y": 3.467057228088379,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ParkingLinePaint"
+      ]
+    },
+    {
+      "name": "HERO_HParking_Row1_FrontBar",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        2.416471,
+        0.0045
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        18.509418,
+        0.075,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": -9.254709243774414,
+        "xmax": 9.254709243774414,
+        "ymin": 2.378971576690674,
+        "ymax": 2.4539713859558105,
+        "zmin": 0.001999999862164259,
+        "zmax": 0.00699999975040555
+      },
+      "world_dimensions": {
+        "x": 18.509418487548828,
+        "y": 0.07499980926513672,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_ParkingLinePaint"
+      ]
+    },
+    {
       "name": "HERO_LampArm_0",
       "type": "MESH",
       "collections": [
@@ -3236,9 +5092,9 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        -2.365865,
-        1.84,
-        5.114491
+        -4.627355,
+        2.563529,
+        5.278863
       ],
       "rotation_euler": [
         1.570796,
@@ -3251,22 +5107,22 @@
         1.0
       ],
       "dimensions": [
-        0.047271,
-        0.048,
-        0.52
+        0.05121,
+        0.052,
+        0.64
       ],
       "world_bounds": {
-        "xmin": -2.389500856399536,
-        "xmax": -2.3422300815582275,
-        "ymin": 1.5799999237060547,
-        "ymax": 2.0999999046325684,
-        "zmin": 5.090490818023682,
-        "zmax": 5.138491153717041
+        "xmin": -4.652959823608398,
+        "xmax": -4.601749420166016,
+        "ymin": 2.2435286045074463,
+        "ymax": 2.883528470993042,
+        "zmin": 5.252862930297852,
+        "zmax": 5.304862976074219
       },
       "world_dimensions": {
-        "x": 0.047270774841308594,
-        "y": 0.5199999809265137,
-        "z": 0.048000335693359375
+        "x": 0.05121040344238281,
+        "y": 0.6399998664855957,
+        "z": 0.05200004577636719
       },
       "modifiers": [],
       "materials": [
@@ -3284,9 +5140,9 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        2.644202,
-        2.49,
-        5.114491
+        4.627355,
+        2.736471,
+        5.278863
       ],
       "rotation_euler": [
         1.570796,
@@ -3299,22 +5155,22 @@
         1.0
       ],
       "dimensions": [
-        0.047271,
-        0.048,
-        0.52
+        0.05121,
+        0.052,
+        0.64
       ],
       "world_bounds": {
-        "xmin": 2.6205670833587646,
-        "xmax": 2.6678378582000732,
-        "ymin": 2.2300000190734863,
-        "ymax": 2.75,
-        "zmin": 5.090490818023682,
-        "zmax": 5.138491153717041
+        "xmin": 4.601749420166016,
+        "xmax": 4.652959823608398,
+        "ymin": 2.416471481323242,
+        "ymax": 3.056471347808838,
+        "zmin": 5.252862930297852,
+        "zmax": 5.304862976074219
       },
       "world_dimensions": {
-        "x": 0.047270774841308594,
-        "y": 0.5199999809265137,
-        "z": 0.048000335693359375
+        "x": 0.05121040344238281,
+        "y": 0.6399998664855957,
+        "z": 0.05200004577636719
       },
       "modifiers": [],
       "materials": [
@@ -3332,9 +5188,9 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        -2.365865,
-        1.54,
-        5.114491
+        -4.627355,
+        2.223528,
+        5.278863
       ],
       "rotation_euler": [
         0.0,
@@ -3347,22 +5203,22 @@
         1.0
       ],
       "dimensions": [
-        0.68,
-        0.3,
-        0.11
+        0.84,
+        0.34,
+        0.12
       ],
       "world_bounds": {
-        "xmin": -2.7058653831481934,
-        "xmax": -2.0258655548095703,
-        "ymin": 1.3899999856948853,
-        "ymax": 1.6899999380111694,
-        "zmin": 5.059491157531738,
-        "zmax": 5.169490814208984
+        "xmin": -5.047354698181152,
+        "xmax": -4.207354545593262,
+        "ymin": 2.053528308868408,
+        "ymax": 2.393528461456299,
+        "zmin": 5.218863010406494,
+        "zmax": 5.338862895965576
       },
       "world_dimensions": {
-        "x": 0.679999828338623,
-        "y": 0.2999999523162842,
-        "z": 0.1099996566772461
+        "x": 0.8400001525878906,
+        "y": 0.3400001525878906,
+        "z": 0.11999988555908203
       },
       "modifiers": [
         {
@@ -3389,9 +5245,9 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        2.644202,
-        2.19,
-        5.114491
+        4.627355,
+        3.076472,
+        5.278863
       ],
       "rotation_euler": [
         0.0,
@@ -3404,22 +5260,22 @@
         1.0
       ],
       "dimensions": [
-        0.68,
-        0.3,
-        0.11
+        0.84,
+        0.34,
+        0.12
       ],
       "world_bounds": {
-        "xmin": 2.3042025566101074,
-        "xmax": 2.9842023849487305,
-        "ymin": 2.0399999618530273,
-        "ymax": 2.3400001525878906,
-        "zmin": 5.059491157531738,
-        "zmax": 5.169490814208984
+        "xmin": 4.207354545593262,
+        "xmax": 5.047354698181152,
+        "ymin": 2.9064714908599854,
+        "ymax": 3.246471643447876,
+        "zmin": 5.218863010406494,
+        "zmax": 5.338862895965576
       },
       "world_dimensions": {
-        "x": 0.679999828338623,
-        "y": 0.3000001907348633,
-        "z": 0.1099996566772461
+        "x": 0.8400001525878906,
+        "y": 0.3400001525878906,
+        "z": 0.11999988555908203
       },
       "modifiers": [
         {
@@ -3446,9 +5302,9 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        -2.365865,
-        1.54,
-        5.079491
+        -4.627355,
+        2.223528,
+        5.238863
       ],
       "rotation_euler": [
         0.0,
@@ -3461,22 +5317,22 @@
         1.0
       ],
       "dimensions": [
-        0.6,
-        0.24,
-        0.024
+        0.72,
+        0.26,
+        0.028
       ],
       "world_bounds": {
-        "xmin": -2.665865421295166,
-        "xmax": -2.0658655166625977,
-        "ymin": 1.4199999570846558,
-        "ymax": 1.659999966621399,
-        "zmin": 5.067491054534912,
-        "zmax": 5.091491222381592
+        "xmin": -4.987354755401611,
+        "xmax": -4.267354488372803,
+        "ymin": 2.0935282707214355,
+        "ymax": 2.3535284996032715,
+        "zmin": 5.224863052368164,
+        "zmax": 5.252862930297852
       },
       "world_dimensions": {
-        "x": 0.5999999046325684,
-        "y": 0.24000000953674316,
-        "z": 0.024000167846679688
+        "x": 0.7200002670288086,
+        "y": 0.26000022888183594,
+        "z": 0.0279998779296875
       },
       "modifiers": [
         {
@@ -3503,9 +5359,9 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        2.644202,
-        2.19,
-        5.079491
+        4.627355,
+        3.076472,
+        5.238863
       ],
       "rotation_euler": [
         0.0,
@@ -3518,22 +5374,22 @@
         1.0
       ],
       "dimensions": [
-        0.6,
-        0.24,
-        0.024
+        0.72,
+        0.26,
+        0.028
       ],
       "world_bounds": {
-        "xmin": 2.3442025184631348,
-        "xmax": 2.944202423095703,
-        "ymin": 2.070000171661377,
-        "ymax": 2.309999942779541,
-        "zmin": 5.067491054534912,
-        "zmax": 5.091491222381592
+        "xmin": 4.267354488372803,
+        "xmax": 4.987354755401611,
+        "ymin": 2.946471691131592,
+        "ymax": 3.2064714431762695,
+        "zmin": 5.224863052368164,
+        "zmax": 5.252862930297852
       },
       "world_dimensions": {
-        "x": 0.5999999046325684,
-        "y": 0.23999977111816406,
-        "z": 0.024000167846679688
+        "x": 0.7200002670288086,
+        "y": 0.25999975204467773,
+        "z": 0.0279998779296875
       },
       "modifiers": [
         {
@@ -3560,9 +5416,9 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        -2.365865,
-        2.1,
-        2.557542
+        -4.627355,
+        2.883528,
+        2.639431
       ],
       "rotation_euler": [
         0.0,
@@ -3575,22 +5431,22 @@
         1.0
       ],
       "dimensions": [
-        0.084,
-        0.084,
-        5.113899
+        0.09,
+        0.09,
+        5.278863
       ],
       "world_bounds": {
-        "xmin": -2.407865524291992,
-        "xmax": -2.3238654136657715,
-        "ymin": 2.057999849319458,
-        "ymax": 2.1419999599456787,
-        "zmin": 0.0005922317504882812,
-        "zmax": 5.114490985870361
+        "xmin": -4.672354698181152,
+        "xmax": -4.582354545593262,
+        "ymin": 2.8385283946990967,
+        "ymax": 2.9285285472869873,
+        "zmin": 0.0,
+        "zmax": 5.278862953186035
       },
       "world_dimensions": {
-        "x": 0.0840001106262207,
-        "y": 0.0840001106262207,
-        "z": 5.113898754119873
+        "x": 0.09000015258789062,
+        "y": 0.09000015258789062,
+        "z": 5.278862953186035
       },
       "modifiers": [],
       "materials": [
@@ -3608,9 +5464,9 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        2.644202,
-        2.75,
-        2.557542
+        4.627355,
+        2.416471,
+        2.639431
       ],
       "rotation_euler": [
         0.0,
@@ -3623,26 +5479,2018 @@
         1.0
       ],
       "dimensions": [
-        0.084,
-        0.084,
-        5.113899
+        0.09,
+        0.09,
+        5.278863
       ],
       "world_bounds": {
-        "xmin": 2.6022024154663086,
-        "xmax": 2.6862025260925293,
-        "ymin": 2.7079999446868896,
-        "ymax": 2.7920000553131104,
-        "zmin": 0.0005922317504882812,
-        "zmax": 5.114490985870361
+        "xmin": 4.582354545593262,
+        "xmax": 4.672354698181152,
+        "ymin": 2.371471405029297,
+        "ymax": 2.4614715576171875,
+        "zmin": 0.0,
+        "zmax": 5.278862953186035
       },
       "world_dimensions": {
-        "x": 0.0840001106262207,
-        "y": 0.0840001106262207,
-        "z": 5.113898754119873
+        "x": 0.09000015258789062,
+        "y": 0.09000015258789062,
+        "z": 5.278862953186035
       },
       "modifiers": [],
       "materials": [
         "HERO_MAT_LampPostDarkMetal"
+      ]
+    },
+    {
+      "name": "HERO_NightSky_Backdrop",
+      "type": "MESH",
+      "collections": [
+        "HERO_SKY_BACKDROP"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        32.0,
+        6.186168
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        47.31731,
+        0.05,
+        12.647276
+      ],
+      "world_bounds": {
+        "xmin": -23.658655166625977,
+        "xmax": 23.658655166625977,
+        "ymin": 31.975000381469727,
+        "ymax": 32.025001525878906,
+        "zmin": -0.13747024536132812,
+        "zmax": 12.509805679321289
+      },
+      "world_dimensions": {
+        "x": 47.31731033325195,
+        "y": 0.05000114440917969,
+        "z": 12.647275924682617
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_NightSkyBackdrop"
+      ]
+    },
+    {
+      "name": "HERO_Rooftop_HVAC_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -8.194244,
+        27.0,
+        6.323638
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.113348,
+        0.48,
+        0.329929
+      ],
+      "world_bounds": {
+        "xmin": -8.7509183883667,
+        "xmax": -7.637570381164551,
+        "ymin": 26.760000228881836,
+        "ymax": 27.239999771118164,
+        "zmin": 6.158673286437988,
+        "zmax": 6.488602638244629
+      },
+      "world_dimensions": {
+        "x": 1.1133480072021484,
+        "y": 0.4799995422363281,
+        "z": 0.3299293518066406
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_RooftopHVAC"
+      ]
+    },
+    {
+      "name": "HERO_Rooftop_HVAC_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -2.560701,
+        27.0,
+        6.323638
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.113348,
+        0.48,
+        0.329929
+      ],
+      "world_bounds": {
+        "xmin": -3.117375612258911,
+        "xmax": -2.0040271282196045,
+        "ymin": 26.760000228881836,
+        "ymax": 27.239999771118164,
+        "zmin": 6.158673286437988,
+        "zmax": 6.488602638244629
+      },
+      "world_dimensions": {
+        "x": 1.1133484840393066,
+        "y": 0.4799995422363281,
+        "z": 0.3299293518066406
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_RooftopHVAC"
+      ]
+    },
+    {
+      "name": "HERO_Rooftop_HVAC_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        3.072842,
+        27.0,
+        6.323638
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.113348,
+        0.48,
+        0.329929
+      ],
+      "world_bounds": {
+        "xmin": 2.516167402267456,
+        "xmax": 3.6295158863067627,
+        "ymin": 26.760000228881836,
+        "ymax": 27.239999771118164,
+        "zmin": 6.158673286437988,
+        "zmax": 6.488602638244629
+      },
+      "world_dimensions": {
+        "x": 1.1133484840393066,
+        "y": 0.4799995422363281,
+        "z": 0.3299293518066406
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_RooftopHVAC"
+      ]
+    },
+    {
+      "name": "HERO_Rooftop_HVAC_3",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        8.706385,
+        27.0,
+        6.323638
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.113348,
+        0.48,
+        0.329929
+      ],
+      "world_bounds": {
+        "xmin": 8.149710655212402,
+        "xmax": 9.26305866241455,
+        "ymin": 26.760000228881836,
+        "ymax": 27.239999771118164,
+        "zmin": 6.158673286437988,
+        "zmax": 6.488602638244629
+      },
+      "world_dimensions": {
+        "x": 1.1133480072021484,
+        "y": 0.4799995422363281,
+        "z": 0.3299293518066406
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_RooftopHVAC"
+      ]
+    },
+    {
+      "name": "HERO_Rooftop_Vent_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -7.693238,
+        27.059999,
+        6.543591
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.09,
+        0.09,
+        0.13
+      ],
+      "world_bounds": {
+        "xmin": -7.7382378578186035,
+        "xmax": -7.648237705230713,
+        "ymin": 27.014999389648438,
+        "ymax": 27.104999542236328,
+        "zmin": 6.478590488433838,
+        "zmax": 6.608590602874756
+      },
+      "world_dimensions": {
+        "x": 0.09000015258789062,
+        "y": 0.09000015258789062,
+        "z": 0.13000011444091797
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_RooftopHVAC"
+      ]
+    },
+    {
+      "name": "HERO_Rooftop_Vent_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -2.059695,
+        27.059999,
+        6.543591
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.09,
+        0.09,
+        0.13
+      ],
+      "world_bounds": {
+        "xmin": -2.1046946048736572,
+        "xmax": -2.0146944522857666,
+        "ymin": 27.014999389648438,
+        "ymax": 27.104999542236328,
+        "zmin": 6.478590488433838,
+        "zmax": 6.608590602874756
+      },
+      "world_dimensions": {
+        "x": 0.09000015258789062,
+        "y": 0.09000015258789062,
+        "z": 0.13000011444091797
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_RooftopHVAC"
+      ]
+    },
+    {
+      "name": "HERO_Rooftop_Vent_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        3.573848,
+        27.059999,
+        6.543591
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.09,
+        0.09,
+        0.13
+      ],
+      "world_bounds": {
+        "xmin": 3.52884840965271,
+        "xmax": 3.6188485622406006,
+        "ymin": 27.014999389648438,
+        "ymax": 27.104999542236328,
+        "zmin": 6.478590488433838,
+        "zmax": 6.608590602874756
+      },
+      "world_dimensions": {
+        "x": 0.09000015258789062,
+        "y": 0.09000015258789062,
+        "z": 0.13000011444091797
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_RooftopHVAC"
+      ]
+    },
+    {
+      "name": "HERO_Rooftop_Vent_3",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        9.207392,
+        27.059999,
+        6.543591
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.09,
+        0.09,
+        0.13
+      ],
+      "world_bounds": {
+        "xmin": 9.162391662597656,
+        "xmax": 9.252391815185547,
+        "ymin": 27.014999389648438,
+        "ymax": 27.104999542236328,
+        "zmin": 6.478590488433838,
+        "zmax": 6.608590602874756
+      },
+      "world_dimensions": {
+        "x": 0.09000015258789062,
+        "y": 0.09000015258789062,
+        "z": 0.13000011444091797
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_RooftopHVAC"
+      ]
+    },
+    {
+      "name": "HERO_Sidewalk_CurbIndentLine",
+      "type": "MESH",
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        18.183626,
+        0.06
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        26.707014,
+        0.024,
+        0.008
+      ],
+      "world_bounds": {
+        "xmin": -13.353507041931152,
+        "xmax": 13.353507041931152,
+        "ymin": 18.171627044677734,
+        "ymax": 18.19562530517578,
+        "zmin": 0.0559999980032444,
+        "zmax": 0.06399999558925629
+      },
+      "world_dimensions": {
+        "x": 26.707014083862305,
+        "y": 0.023998260498046875,
+        "z": 0.007999997586011887
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_SidewalkGroove"
+      ]
+    },
+    {
+      "name": "HERO_Sidewalk_ExpansionJoint_X_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -9.602631,
+        21.049313,
+        0.046
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.036,
+        5.901374,
+        0.008
+      ],
+      "world_bounds": {
+        "xmin": -9.620630264282227,
+        "xmax": -9.584630966186523,
+        "ymin": 18.09862518310547,
+        "ymax": 24.0,
+        "zmin": 0.041999999433755875,
+        "zmax": 0.05000000074505806
+      },
+      "world_dimensions": {
+        "x": 0.035999298095703125,
+        "y": 5.901374816894531,
+        "z": 0.008000001311302185
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_SidewalkGroove"
+      ]
+    },
+    {
+      "name": "HERO_Sidewalk_ExpansionJoint_X_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -6.401753,
+        21.049313,
+        0.046
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.036,
+        5.901374,
+        0.008
+      ],
+      "world_bounds": {
+        "xmin": -6.419753551483154,
+        "xmax": -6.383753299713135,
+        "ymin": 18.09862518310547,
+        "ymax": 24.0,
+        "zmin": 0.041999999433755875,
+        "zmax": 0.05000000074505806
+      },
+      "world_dimensions": {
+        "x": 0.03600025177001953,
+        "y": 5.901374816894531,
+        "z": 0.008000001311302185
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_SidewalkGroove"
+      ]
+    },
+    {
+      "name": "HERO_Sidewalk_ExpansionJoint_X_3",
+      "type": "MESH",
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -3.200877,
+        21.049313,
+        0.046
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.036,
+        5.901374,
+        0.008
+      ],
+      "world_bounds": {
+        "xmin": -3.218876600265503,
+        "xmax": -3.1828768253326416,
+        "ymin": 18.09862518310547,
+        "ymax": 24.0,
+        "zmin": 0.041999999433755875,
+        "zmax": 0.05000000074505806
+      },
+      "world_dimensions": {
+        "x": 0.03599977493286133,
+        "y": 5.901374816894531,
+        "z": 0.008000001311302185
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_SidewalkGroove"
+      ]
+    },
+    {
+      "name": "HERO_Sidewalk_ExpansionJoint_X_4",
+      "type": "MESH",
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        21.049313,
+        0.046
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.036,
+        5.901374,
+        0.008
+      ],
+      "world_bounds": {
+        "xmin": -0.017999999225139618,
+        "xmax": 0.017999999225139618,
+        "ymin": 18.09862518310547,
+        "ymax": 24.0,
+        "zmin": 0.041999999433755875,
+        "zmax": 0.05000000074505806
+      },
+      "world_dimensions": {
+        "x": 0.035999998450279236,
+        "y": 5.901374816894531,
+        "z": 0.008000001311302185
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_SidewalkGroove"
+      ]
+    },
+    {
+      "name": "HERO_Sidewalk_ExpansionJoint_X_5",
+      "type": "MESH",
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        3.200877,
+        21.049313,
+        0.046
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.036,
+        5.901374,
+        0.008
+      ],
+      "world_bounds": {
+        "xmin": 3.1828768253326416,
+        "xmax": 3.218876600265503,
+        "ymin": 18.09862518310547,
+        "ymax": 24.0,
+        "zmin": 0.041999999433755875,
+        "zmax": 0.05000000074505806
+      },
+      "world_dimensions": {
+        "x": 0.03599977493286133,
+        "y": 5.901374816894531,
+        "z": 0.008000001311302185
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_SidewalkGroove"
+      ]
+    },
+    {
+      "name": "HERO_Sidewalk_ExpansionJoint_X_6",
+      "type": "MESH",
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        6.401753,
+        21.049313,
+        0.046
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.036,
+        5.901374,
+        0.008
+      ],
+      "world_bounds": {
+        "xmin": 6.383753299713135,
+        "xmax": 6.419753551483154,
+        "ymin": 18.09862518310547,
+        "ymax": 24.0,
+        "zmin": 0.041999999433755875,
+        "zmax": 0.05000000074505806
+      },
+      "world_dimensions": {
+        "x": 0.03600025177001953,
+        "y": 5.901374816894531,
+        "z": 0.008000001311302185
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_SidewalkGroove"
+      ]
+    },
+    {
+      "name": "HERO_Sidewalk_ExpansionJoint_X_7",
+      "type": "MESH",
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        9.602631,
+        21.049313,
+        0.046
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.036,
+        5.901374,
+        0.008
+      ],
+      "world_bounds": {
+        "xmin": 9.584630966186523,
+        "xmax": 9.620630264282227,
+        "ymin": 18.09862518310547,
+        "ymax": 24.0,
+        "zmin": 0.041999999433755875,
+        "zmax": 0.05000000074505806
+      },
+      "world_dimensions": {
+        "x": 0.035999298095703125,
+        "y": 5.901374816894531,
+        "z": 0.008000001311302185
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_SidewalkGroove"
+      ]
+    },
+    {
+      "name": "HERO_Sidewalk_WideTop",
+      "type": "MESH",
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        21.049313,
+        0.02
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        26.907015,
+        5.901374,
+        0.08
+      ],
+      "world_bounds": {
+        "xmin": -13.453507423400879,
+        "xmax": 13.453507423400879,
+        "ymin": 18.09862518310547,
+        "ymax": 24.0,
+        "zmin": -0.019999999552965164,
+        "zmax": 0.05999999865889549
+      },
+      "world_dimensions": {
+        "x": 26.907014846801758,
+        "y": 5.901374816894531,
+        "z": 0.07999999821186066
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_SidewalkConcrete"
+      ]
+    },
+    {
+      "name": "HERO_Storefront_CenterMullion_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -8.14136,
+        23.834999,
+        1.995827
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.035,
+        0.1,
+        3.871653
+      ],
+      "world_bounds": {
+        "xmin": -8.158860206604004,
+        "xmax": -8.123860359191895,
+        "ymin": 23.78499984741211,
+        "ymax": 23.884998321533203,
+        "zmin": 0.060000061988830566,
+        "zmax": 3.9316530227661133
+      },
+      "world_dimensions": {
+        "x": 0.034999847412109375,
+        "y": 0.09999847412109375,
+        "z": 3.8716529607772827
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ConjoinedBlackMetalFrames"
+      ]
+    },
+    {
+      "name": "HERO_Storefront_CenterMullion_3",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        8.14136,
+        23.834999,
+        1.995827
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.035,
+        0.1,
+        3.871653
+      ],
+      "world_bounds": {
+        "xmin": 8.123860359191895,
+        "xmax": 8.158860206604004,
+        "ymin": 23.78499984741211,
+        "ymax": 23.884998321533203,
+        "zmin": 0.060000061988830566,
+        "zmax": 3.9316530227661133
+      },
+      "world_dimensions": {
+        "x": 0.034999847412109375,
+        "y": 0.09999847412109375,
+        "z": 3.8716529607772827
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ConjoinedBlackMetalFrames"
+      ]
+    },
+    {
+      "name": "HERO_Storefront_ContinuousBottomFrame",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        23.834999,
+        0.06
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        20.657778,
+        0.1,
+        0.07
+      ],
+      "world_bounds": {
+        "xmin": -10.328888893127441,
+        "xmax": 10.328888893127441,
+        "ymin": 23.78499984741211,
+        "ymax": 23.884998321533203,
+        "zmin": 0.02499999850988388,
+        "zmax": 0.0949999988079071
+      },
+      "world_dimensions": {
+        "x": 20.657777786254883,
+        "y": 0.09999847412109375,
+        "z": 0.07000000029802322
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ConjoinedBlackMetalFrames"
+      ]
+    },
+    {
+      "name": "HERO_Storefront_ContinuousTopFrame",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        23.834999,
+        3.931653
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        20.657778,
+        0.1,
+        0.07
+      ],
+      "world_bounds": {
+        "xmin": -10.328888893127441,
+        "xmax": 10.328888893127441,
+        "ymin": 23.78499984741211,
+        "ymax": 23.884998321533203,
+        "zmin": 3.896652936935425,
+        "zmax": 3.9666531085968018
+      },
+      "world_dimensions": {
+        "x": 20.657777786254883,
+        "y": 0.09999847412109375,
+        "z": 0.07000017166137695
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ConjoinedBlackMetalFrames"
+      ]
+    },
+    {
+      "name": "HERO_Storefront_LeftVertical_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -10.228889,
+        23.834999,
+        1.995827
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.035,
+        0.1,
+        3.871653
+      ],
+      "world_bounds": {
+        "xmin": -10.24638843536377,
+        "xmax": -10.21138858795166,
+        "ymin": 23.78499984741211,
+        "ymax": 23.884998321533203,
+        "zmin": 0.060000061988830566,
+        "zmax": 3.9316530227661133
+      },
+      "world_dimensions": {
+        "x": 0.034999847412109375,
+        "y": 0.09999847412109375,
+        "z": 3.8716529607772827
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ConjoinedBlackMetalFrames"
+      ]
+    },
+    {
+      "name": "HERO_Storefront_LeftVertical_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -4.801315,
+        23.834999,
+        1.995827
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.035,
+        0.1,
+        3.871653
+      ],
+      "world_bounds": {
+        "xmin": -4.818815231323242,
+        "xmax": -4.783815383911133,
+        "ymin": 23.78499984741211,
+        "ymax": 23.884998321533203,
+        "zmin": 0.060000061988830566,
+        "zmax": 3.9316530227661133
+      },
+      "world_dimensions": {
+        "x": 0.034999847412109375,
+        "y": 0.09999847412109375,
+        "z": 3.8716529607772827
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ConjoinedBlackMetalFrames"
+      ]
+    },
+    {
+      "name": "HERO_Storefront_LeftVertical_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.626258,
+        23.834999,
+        1.995827
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.035,
+        0.1,
+        3.871653
+      ],
+      "world_bounds": {
+        "xmin": 0.6087585091590881,
+        "xmax": 0.6437584757804871,
+        "ymin": 23.78499984741211,
+        "ymax": 23.884998321533203,
+        "zmin": 0.060000061988830566,
+        "zmax": 3.9316530227661133
+      },
+      "world_dimensions": {
+        "x": 0.034999966621398926,
+        "y": 0.09999847412109375,
+        "z": 3.8716529607772827
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ConjoinedBlackMetalFrames"
+      ]
+    },
+    {
+      "name": "HERO_Storefront_LeftVertical_3",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        6.053832,
+        23.834999,
+        1.995827
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.035,
+        0.1,
+        3.871653
+      ],
+      "world_bounds": {
+        "xmin": 6.036332130432129,
+        "xmax": 6.071331977844238,
+        "ymin": 23.78499984741211,
+        "ymax": 23.884998321533203,
+        "zmin": 0.060000061988830566,
+        "zmax": 3.9316530227661133
+      },
+      "world_dimensions": {
+        "x": 0.034999847412109375,
+        "y": 0.09999847412109375,
+        "z": 3.8716529607772827
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ConjoinedBlackMetalFrames"
+      ]
+    },
+    {
+      "name": "HERO_Storefront_MidHorizontal_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -8.14136,
+        23.834999,
+        1.995827
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        4.175056,
+        0.1,
+        0.035
+      ],
+      "world_bounds": {
+        "xmin": -10.228888511657715,
+        "xmax": -6.053832054138184,
+        "ymin": 23.78499984741211,
+        "ymax": 23.884998321533203,
+        "zmin": 1.9783265590667725,
+        "zmax": 2.013326644897461
+      },
+      "world_dimensions": {
+        "x": 4.175056457519531,
+        "y": 0.09999847412109375,
+        "z": 0.03500008583068848
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ConjoinedBlackMetalFrames"
+      ]
+    },
+    {
+      "name": "HERO_Storefront_MidHorizontal_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -2.713787,
+        23.834999,
+        1.995827
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        4.175056,
+        0.1,
+        0.035
+      ],
+      "world_bounds": {
+        "xmin": -4.8013153076171875,
+        "xmax": -0.6262586116790771,
+        "ymin": 23.78499984741211,
+        "ymax": 23.884998321533203,
+        "zmin": 1.9783265590667725,
+        "zmax": 2.013326644897461
+      },
+      "world_dimensions": {
+        "x": 4.17505669593811,
+        "y": 0.09999847412109375,
+        "z": 0.03500008583068848
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ConjoinedBlackMetalFrames"
+      ]
+    },
+    {
+      "name": "HERO_Storefront_MidHorizontal_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        2.713787,
+        23.834999,
+        1.995827
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        4.175056,
+        0.1,
+        0.035
+      ],
+      "world_bounds": {
+        "xmin": 0.6262586116790771,
+        "xmax": 4.8013153076171875,
+        "ymin": 23.78499984741211,
+        "ymax": 23.884998321533203,
+        "zmin": 1.9783265590667725,
+        "zmax": 2.013326644897461
+      },
+      "world_dimensions": {
+        "x": 4.17505669593811,
+        "y": 0.09999847412109375,
+        "z": 0.03500008583068848
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ConjoinedBlackMetalFrames"
+      ]
+    },
+    {
+      "name": "HERO_Storefront_MidHorizontal_3",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        8.14136,
+        23.834999,
+        1.995827
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        4.175056,
+        0.1,
+        0.035
+      ],
+      "world_bounds": {
+        "xmin": 6.053832054138184,
+        "xmax": 10.228888511657715,
+        "ymin": 23.78499984741211,
+        "ymax": 23.884998321533203,
+        "zmin": 1.9783265590667725,
+        "zmax": 2.013326644897461
+      },
+      "world_dimensions": {
+        "x": 4.175056457519531,
+        "y": 0.09999847412109375,
+        "z": 0.03500008583068848
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ConjoinedBlackMetalFrames"
+      ]
+    },
+    {
+      "name": "HERO_Storefront_RightVertical_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -6.053832,
+        23.834999,
+        1.995827
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.035,
+        0.1,
+        3.871653
+      ],
+      "world_bounds": {
+        "xmin": -6.071331977844238,
+        "xmax": -6.036332130432129,
+        "ymin": 23.78499984741211,
+        "ymax": 23.884998321533203,
+        "zmin": 0.060000061988830566,
+        "zmax": 3.9316530227661133
+      },
+      "world_dimensions": {
+        "x": 0.034999847412109375,
+        "y": 0.09999847412109375,
+        "z": 3.8716529607772827
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ConjoinedBlackMetalFrames"
+      ]
+    },
+    {
+      "name": "HERO_Storefront_RightVertical_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -0.626258,
+        23.834999,
+        1.995827
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.035,
+        0.1,
+        3.871653
+      ],
+      "world_bounds": {
+        "xmin": -0.6437584757804871,
+        "xmax": -0.6087585091590881,
+        "ymin": 23.78499984741211,
+        "ymax": 23.884998321533203,
+        "zmin": 0.060000061988830566,
+        "zmax": 3.9316530227661133
+      },
+      "world_dimensions": {
+        "x": 0.034999966621398926,
+        "y": 0.09999847412109375,
+        "z": 3.8716529607772827
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ConjoinedBlackMetalFrames"
+      ]
+    },
+    {
+      "name": "HERO_Storefront_RightVertical_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        4.801315,
+        23.834999,
+        1.995827
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.035,
+        0.1,
+        3.871653
+      ],
+      "world_bounds": {
+        "xmin": 4.783815383911133,
+        "xmax": 4.818815231323242,
+        "ymin": 23.78499984741211,
+        "ymax": 23.884998321533203,
+        "zmin": 0.060000061988830566,
+        "zmax": 3.9316530227661133
+      },
+      "world_dimensions": {
+        "x": 0.034999847412109375,
+        "y": 0.09999847412109375,
+        "z": 3.8716529607772827
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ConjoinedBlackMetalFrames"
+      ]
+    },
+    {
+      "name": "HERO_Storefront_RightVertical_3",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        10.228889,
+        23.834999,
+        1.995827
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.035,
+        0.1,
+        3.871653
+      ],
+      "world_bounds": {
+        "xmin": 10.21138858795166,
+        "xmax": 10.24638843536377,
+        "ymin": 23.78499984741211,
+        "ymax": 23.884998321533203,
+        "zmin": 0.060000061988830566,
+        "zmax": 3.9316530227661133
+      },
+      "world_dimensions": {
+        "x": 0.034999847412109375,
+        "y": 0.09999847412109375,
+        "z": 3.8716529607772827
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_ConjoinedBlackMetalFrames"
+      ]
+    },
+    {
+      "name": "HERO_StoreMall_DeepBody",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        27.0,
+        2.886878
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        25.607014,
+        6.0,
+        5.773757
+      ],
+      "world_bounds": {
+        "xmin": -12.803506851196289,
+        "xmax": 12.803506851196289,
+        "ymin": 24.0,
+        "ymax": 30.0,
+        "zmin": 0.0,
+        "zmax": 5.773756504058838
+      },
+      "world_dimensions": {
+        "x": 25.607013702392578,
+        "y": 6.0,
+        "z": 5.773756504058838
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_StoreStucco"
+      ]
+    },
+    {
+      "name": "HERO_StoreMall_FlatRoof",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        27.0,
+        5.966215
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        26.407015,
+        6.5,
+        0.384917
+      ],
+      "world_bounds": {
+        "xmin": -13.203507423400879,
+        "xmax": 13.203507423400879,
+        "ymin": 23.75,
+        "ymax": 30.25,
+        "zmin": 5.77375602722168,
+        "zmax": 6.158673286437988
+      },
+      "world_dimensions": {
+        "x": 26.407014846801758,
+        "y": 6.5,
+        "z": 0.3849172592163086
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_FlatRoof"
+      ]
+    },
+    {
+      "name": "HERO_StoreMall_FrontParapet",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        23.92,
+        6.488602
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        26.507013,
+        0.2,
+        0.659858
+      ],
+      "world_bounds": {
+        "xmin": -13.253506660461426,
+        "xmax": 13.253506660461426,
+        "ymin": 23.81999969482422,
+        "ymax": 24.020000457763672,
+        "zmin": 6.158673286437988,
+        "zmax": 6.818531036376953
+      },
+      "world_dimensions": {
+        "x": 26.50701332092285,
+        "y": 0.20000076293945312,
+        "z": 0.6598577499389648
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_StoreStucco"
       ]
     },
     {
@@ -3656,37 +7504,37 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        -1.522953,
+        -0.419602,
         3.300874,
-        0.055276
+        0.209762
       ],
       "rotation_euler": [
         0.0,
-        0.0,
-        0.0
+        -0.0,
+        0.475001
       ],
       "scale": [
-        1.0,
+        0.536594,
         1.0,
         1.0
       ],
       "dimensions": [
-        3.867387,
+        2.075217,
         0.05,
         0.016
       ],
       "world_bounds": {
-        "xmin": -3.456646203994751,
-        "xmax": 0.41074109077453613,
-        "ymin": 3.2758734226226807,
-        "ymax": 3.325873613357544,
-        "zmin": 0.047276031225919724,
-        "zmax": 0.0632760301232338
+        "xmin": -1.353772759437561,
+        "xmax": 0.5145686864852905,
+        "ymin": 2.8041019439697266,
+        "ymax": 3.797645092010498,
+        "zmin": 0.2017621546983719,
+        "zmax": 0.21776215732097626
       },
       "world_dimensions": {
-        "x": 3.867387294769287,
-        "y": 0.05000019073486328,
-        "z": 0.01599999889731407
+        "x": 1.8683414459228516,
+        "y": 0.9935431480407715,
+        "z": 0.01600000262260437
       },
       "modifiers": [
         {
@@ -3713,37 +7561,37 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        -1.522953,
-        7.05416,
-        0.055276
+        -2.454135,
+        7.081832,
+        0.212028
       ],
       "rotation_euler": [
         0.0,
-        0.0,
-        0.0
+        -0.0,
+        0.449773
       ],
       "scale": [
-        1.0,
+        0.510797,
         1.0,
         1.0
       ],
       "dimensions": [
-        3.867387,
+        1.975448,
         0.05,
         0.016
       ],
       "world_bounds": {
-        "xmin": -3.456646203994751,
-        "xmax": 0.41074109077453613,
-        "ymin": 7.029160022735596,
-        "ymax": 7.079160213470459,
-        "zmin": 0.047276031225919724,
-        "zmax": 0.0632760301232338
+        "xmin": -3.3544952869415283,
+        "xmax": -1.553775668144226,
+        "ymin": 6.629894256591797,
+        "ymax": 7.533769607543945,
+        "zmin": 0.20402777194976807,
+        "zmax": 0.22002777457237244
       },
       "world_dimensions": {
-        "x": 3.867387294769287,
-        "y": 0.05000019073486328,
-        "z": 0.01599999889731407
+        "x": 1.8007196187973022,
+        "y": 0.9038753509521484,
+        "z": 0.01600000262260437
       },
       "modifiers": [
         {
@@ -3765,9 +7613,9 @@
       "collections": [
         "HERO_ENV_CORRECTIONS"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         0.0,
@@ -3822,9 +7670,9 @@
       "collections": [
         "HERO_ENV_CORRECTIONS"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         0.0,
@@ -8614,9 +12462,9 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        -2.365865,
-        2.1,
-        5.114491
+        -4.627355,
+        2.883528,
+        5.278863
       ],
       "rotation_euler": [
         0.0,
@@ -8634,12 +12482,12 @@
         0.0
       ],
       "world_bounds": {
-        "xmin": -2.365865468978882,
-        "xmax": -2.365865468978882,
-        "ymin": 2.0999999046325684,
-        "ymax": 2.0999999046325684,
-        "zmin": 5.114490985870361,
-        "zmax": 5.114490985870361
+        "xmin": -4.627354621887207,
+        "xmax": -4.627354621887207,
+        "ymin": 2.883528470993042,
+        "ymax": 2.883528470993042,
+        "zmin": 5.278862953186035,
+        "zmax": 5.278862953186035
       },
       "world_dimensions": {
         "x": 0.0,
@@ -8656,7 +12504,7 @@
           0.3700000047683716,
           0.054999999701976776
         ],
-        "size": 2.049999952316284
+        "size": 2.200000047683716
       }
     },
     {
@@ -8670,9 +12518,9 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        2.644202,
-        2.75,
-        5.114491
+        4.627355,
+        2.416471,
+        5.278863
       ],
       "rotation_euler": [
         0.0,
@@ -8690,12 +12538,12 @@
         0.0
       ],
       "world_bounds": {
-        "xmin": 2.644202470779419,
-        "xmax": 2.644202470779419,
-        "ymin": 2.75,
-        "ymax": 2.75,
-        "zmin": 5.114490985870361,
-        "zmax": 5.114490985870361
+        "xmin": 4.627354621887207,
+        "xmax": 4.627354621887207,
+        "ymin": 2.416471481323242,
+        "ymax": 2.416471481323242,
+        "zmin": 5.278862953186035,
+        "zmax": 5.278862953186035
       },
       "world_dimensions": {
         "x": 0.0,
@@ -8706,13 +12554,13 @@
       "materials": [],
       "light": {
         "type": "AREA",
-        "energy": 260.0,
+        "energy": 300.0,
         "color": [
           1.0,
           0.3700000047683716,
           0.054999999701976776
         ],
-        "size": 2.0
+        "size": 2.200000047683716
       }
     },
     {
@@ -8798,22 +12646,22 @@
         0.25
       ],
       "dimensions": [
-        10.57681,
+        5.288405,
         0.08,
-        0.0035
+        0.014
       ],
       "world_bounds": {
-        "xmin": -9.602630615234375,
-        "xmax": 0.974179744720459,
-        "ymin": 2.7100000381469727,
-        "ymax": 2.7899999618530273,
-        "zmin": -0.004157532937824726,
-        "zmax": -0.0006575328297913074
+        "xmin": -2.644202470779419,
+        "xmax": 2.644202470779419,
+        "ymin": -0.03999999910593033,
+        "ymax": 0.03999999910593033,
+        "zmin": -0.007000000216066837,
+        "zmax": 0.007000000216066837
       },
       "world_dimensions": {
-        "x": 10.576810359954834,
-        "y": 0.07999992370605469,
-        "z": 0.0035000001080334187
+        "x": 5.288404941558838,
+        "y": 0.07999999821186066,
+        "z": 0.014000000432133675
       },
       "modifiers": [
         {
@@ -9015,14 +12863,14 @@
       "world_bounds": {
         "xmin": -15.586877822875977,
         "xmax": 15.586877822875977,
-        "ymin": 18.06999969482422,
-        "ymax": 18.209999084472656,
-        "zmin": -0.029407531023025513,
-        "zmax": 0.1305924654006958
+        "ymin": -0.07000000029802322,
+        "ymax": 0.07000000029802322,
+        "zmin": -0.07999999821186066,
+        "zmax": 0.07999999821186066
       },
       "world_dimensions": {
         "x": 31.173755645751953,
-        "y": 0.1399993896484375,
+        "y": 0.14000000059604645,
         "z": 0.1599999964237213
       },
       "modifiers": [
@@ -9045,9 +12893,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         -5.678077,
@@ -9102,9 +12950,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         -2.839039,
@@ -9159,9 +13007,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         0.0,
@@ -9216,9 +13064,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         2.839039,
@@ -9273,9 +13121,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         5.678077,
@@ -9330,9 +13178,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         -6.955644,
@@ -9387,9 +13235,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         -4.116606,
@@ -9444,9 +13292,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         -1.277567,
@@ -9501,9 +13349,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         1.561471,
@@ -9558,9 +13406,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         4.40051,
@@ -9615,9 +13463,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         -4.40051,
@@ -9672,9 +13520,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         -1.561471,
@@ -9729,9 +13577,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         1.277567,
@@ -9786,9 +13634,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         4.116606,
@@ -9843,9 +13691,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         6.955644,
@@ -9900,9 +13748,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         -5.678077,
@@ -9957,9 +13805,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         -2.839039,
@@ -10014,9 +13862,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         0.0,
@@ -10071,9 +13919,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         2.839039,
@@ -10128,9 +13976,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         5.678077,
@@ -10185,9 +14033,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         -4.996708,
@@ -10242,9 +14090,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         -2.157669,
@@ -10299,9 +14147,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         0.681369,
@@ -10356,9 +14204,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         3.520408,
@@ -10413,9 +14261,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         6.359446,
@@ -10470,9 +14318,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         -5.678077,
@@ -10527,9 +14375,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         -2.839039,
@@ -10584,9 +14432,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         0.0,
@@ -10641,9 +14489,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         2.839039,
@@ -10698,9 +14546,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         5.678077,
@@ -10821,22 +14669,22 @@
         0.25
       ],
       "dimensions": [
-        0.16,
+        0.08,
         5.773757,
-        0.0035
+        0.014
       ],
       "world_bounds": {
-        "xmin": -7.316764831542969,
-        "xmax": -7.156764984130859,
-        "ymin": -2.186878204345703,
-        "ymax": 3.5868782997131348,
-        "zmin": -0.005157533101737499,
-        "zmax": -0.001657532760873437
+        "xmin": -0.03999999910593033,
+        "xmax": 0.03999999910593033,
+        "ymin": -2.886878252029419,
+        "ymax": 2.886878252029419,
+        "zmin": -0.007000000216066837,
+        "zmax": 0.007000000216066837
       },
       "world_dimensions": {
-        "x": 0.15999984741210938,
+        "x": 0.07999999821186066,
         "y": 5.773756504058838,
-        "z": 0.0035000003408640623
+        "z": 0.014000000432133675
       },
       "modifiers": [
         {
@@ -10878,22 +14726,22 @@
         0.25
       ],
       "dimensions": [
-        0.16,
+        0.08,
         5.773757,
-        0.0035
+        0.014
       ],
       "world_bounds": {
-        "xmin": -4.811730861663818,
-        "xmax": -4.651731014251709,
-        "ymin": -2.186878204345703,
-        "ymax": 3.5868782997131348,
-        "zmin": -0.005157533101737499,
-        "zmax": -0.001657532760873437
+        "xmin": -0.03999999910593033,
+        "xmax": 0.03999999910593033,
+        "ymin": -2.886878252029419,
+        "ymax": 2.886878252029419,
+        "zmin": -0.007000000216066837,
+        "zmax": 0.007000000216066837
       },
       "world_dimensions": {
-        "x": 0.15999984741210938,
+        "x": 0.07999999821186066,
         "y": 5.773756504058838,
-        "z": 0.0035000003408640623
+        "z": 0.014000000432133675
       },
       "modifiers": [
         {
@@ -10935,22 +14783,22 @@
         0.25
       ],
       "dimensions": [
-        0.16,
+        0.08,
         5.773757,
-        0.0035
+        0.014
       ],
       "world_bounds": {
-        "xmin": -2.306696891784668,
-        "xmax": -2.1466970443725586,
-        "ymin": -2.186878204345703,
-        "ymax": 3.5868782997131348,
-        "zmin": -0.005157533101737499,
-        "zmax": -0.001657532760873437
+        "xmin": -0.03999999910593033,
+        "xmax": 0.03999999910593033,
+        "ymin": -2.886878252029419,
+        "ymax": 2.886878252029419,
+        "zmin": -0.007000000216066837,
+        "zmax": 0.007000000216066837
       },
       "world_dimensions": {
-        "x": 0.15999984741210938,
+        "x": 0.07999999821186066,
         "y": 5.773756504058838,
-        "z": 0.0035000003408640623
+        "z": 0.014000000432133675
       },
       "modifiers": [
         {
@@ -10992,22 +14840,22 @@
         0.25
       ],
       "dimensions": [
-        0.16,
+        0.08,
         5.773757,
-        0.0035
+        0.014
       ],
       "world_bounds": {
-        "xmin": 0.198337122797966,
-        "xmax": 0.3583371043205261,
-        "ymin": -2.186878204345703,
-        "ymax": 3.5868782997131348,
-        "zmin": -0.005157533101737499,
-        "zmax": -0.001657532760873437
+        "xmin": -0.03999999910593033,
+        "xmax": 0.03999999910593033,
+        "ymin": -2.886878252029419,
+        "ymax": 2.886878252029419,
+        "zmin": -0.007000000216066837,
+        "zmax": 0.007000000216066837
       },
       "world_dimensions": {
-        "x": 0.15999998152256012,
+        "x": 0.07999999821186066,
         "y": 5.773756504058838,
-        "z": 0.0035000003408640623
+        "z": 0.014000000432133675
       },
       "modifiers": [
         {
@@ -11049,22 +14897,22 @@
         0.25
       ],
       "dimensions": [
-        0.16,
+        0.08,
         5.773757,
-        0.0035
+        0.014
       ],
       "world_bounds": {
-        "xmin": 2.703371047973633,
-        "xmax": 2.863370895385742,
-        "ymin": -2.186878204345703,
-        "ymax": 3.5868782997131348,
-        "zmin": -0.005157533101737499,
-        "zmax": -0.001657532760873437
+        "xmin": -0.03999999910593033,
+        "xmax": 0.03999999910593033,
+        "ymin": -2.886878252029419,
+        "ymax": 2.886878252029419,
+        "zmin": -0.007000000216066837,
+        "zmax": 0.007000000216066837
       },
       "world_dimensions": {
-        "x": 0.15999984741210938,
+        "x": 0.07999999821186066,
         "y": 5.773756504058838,
-        "z": 0.0035000003408640623
+        "z": 0.014000000432133675
       },
       "modifiers": [
         {
@@ -11106,22 +14954,22 @@
         0.25
       ],
       "dimensions": [
-        0.16,
+        0.08,
         5.773757,
-        0.0035
+        0.014
       ],
       "world_bounds": {
-        "xmin": 5.208405017852783,
-        "xmax": 5.368404865264893,
-        "ymin": -2.186878204345703,
-        "ymax": 3.5868782997131348,
-        "zmin": -0.005157533101737499,
-        "zmax": -0.001657532760873437
+        "xmin": -0.03999999910593033,
+        "xmax": 0.03999999910593033,
+        "ymin": -2.886878252029419,
+        "ymax": 2.886878252029419,
+        "zmin": -0.007000000216066837,
+        "zmax": 0.007000000216066837
       },
       "world_dimensions": {
-        "x": 0.15999984741210938,
+        "x": 0.07999999821186066,
         "y": 5.773756504058838,
-        "z": 0.0035000003408640623
+        "z": 0.014000000432133675
       },
       "modifiers": [
         {
@@ -11163,22 +15011,22 @@
         0.25
       ],
       "dimensions": [
-        0.16,
+        0.08,
         5.773757,
-        0.0035
+        0.014
       ],
       "world_bounds": {
-        "xmin": 7.713438987731934,
-        "xmax": 7.873438835144043,
-        "ymin": -2.186878204345703,
-        "ymax": 3.5868782997131348,
-        "zmin": -0.005157533101737499,
-        "zmax": -0.001657532760873437
+        "xmin": -0.03999999910593033,
+        "xmax": 0.03999999910593033,
+        "ymin": -2.886878252029419,
+        "ymax": 2.886878252029419,
+        "zmin": -0.007000000216066837,
+        "zmax": 0.007000000216066837
       },
       "world_dimensions": {
-        "x": 0.15999984741210938,
+        "x": 0.07999999821186066,
         "y": 5.773756504058838,
-        "z": 0.0035000003408640623
+        "z": 0.014000000432133675
       },
       "modifiers": [
         {
@@ -11647,15 +15495,15 @@
       "world_bounds": {
         "xmin": -15.586877822875977,
         "xmax": 15.586877822875977,
-        "ymin": 17.860000610351562,
-        "ymax": 19.299999237060547,
-        "zmin": -0.029407532885670662,
-        "zmax": 0.08059246838092804
+        "ymin": -0.7200000286102295,
+        "ymax": 0.7200000286102295,
+        "zmin": -0.054999999701976776,
+        "zmax": 0.054999999701976776
       },
       "world_dimensions": {
         "x": 31.173755645751953,
-        "y": 1.4399986267089844,
-        "z": 0.1100000012665987
+        "y": 1.440000057220459,
+        "z": 0.10999999940395355
       },
       "modifiers": [
         {
@@ -11669,291 +15517,6 @@
       ],
       "materials": [
         "V2C_MAT_Concrete"
-      ]
-    },
-    {
-      "name": "V2C_StoreSign_0",
-      "type": "MESH",
-      "collections": [
-        "V2C_ENVIRONMENT"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -5.678077,
-        18.775,
-        3.382364
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.703423,
-        0.06,
-        0.329929
-      ],
-      "world_bounds": {
-        "xmin": -6.529788970947266,
-        "xmax": -4.8263654708862305,
-        "ymin": 18.744998931884766,
-        "ymax": 18.80500030517578,
-        "zmin": 3.2173995971679688,
-        "zmax": 3.547328472137451
-      },
-      "world_dimensions": {
-        "x": 1.7034235000610352,
-        "y": 0.060001373291015625,
-        "z": 0.3299288749694824
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "V2C_MAT_SoftSignAmber"
-      ]
-    },
-    {
-      "name": "V2C_StoreSign_1",
-      "type": "MESH",
-      "collections": [
-        "V2C_ENVIRONMENT"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -2.839039,
-        18.775,
-        3.382364
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.703423,
-        0.06,
-        0.329929
-      ],
-      "world_bounds": {
-        "xmin": -3.6907501220703125,
-        "xmax": -1.9873270988464355,
-        "ymin": 18.744998931884766,
-        "ymax": 18.80500030517578,
-        "zmin": 3.2173995971679688,
-        "zmax": 3.547328472137451
-      },
-      "world_dimensions": {
-        "x": 1.703423023223877,
-        "y": 0.060001373291015625,
-        "z": 0.3299288749694824
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "V2C_MAT_SoftSignAmber"
-      ]
-    },
-    {
-      "name": "V2C_StoreSign_2",
-      "type": "MESH",
-      "collections": [
-        "V2C_ENVIRONMENT"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        18.775,
-        3.382364
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.703423,
-        0.06,
-        0.329929
-      ],
-      "world_bounds": {
-        "xmin": -0.8517115712165833,
-        "xmax": 0.8517115712165833,
-        "ymin": 18.744998931884766,
-        "ymax": 18.80500030517578,
-        "zmin": 3.2173995971679688,
-        "zmax": 3.547328472137451
-      },
-      "world_dimensions": {
-        "x": 1.7034231424331665,
-        "y": 0.060001373291015625,
-        "z": 0.3299288749694824
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "V2C_MAT_SoftSignAmber"
-      ]
-    },
-    {
-      "name": "V2C_StoreSign_3",
-      "type": "MESH",
-      "collections": [
-        "V2C_ENVIRONMENT"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        2.839039,
-        18.775,
-        3.382364
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.703423,
-        0.06,
-        0.329929
-      ],
-      "world_bounds": {
-        "xmin": 1.9873270988464355,
-        "xmax": 3.6907501220703125,
-        "ymin": 18.744998931884766,
-        "ymax": 18.80500030517578,
-        "zmin": 3.2173995971679688,
-        "zmax": 3.547328472137451
-      },
-      "world_dimensions": {
-        "x": 1.703423023223877,
-        "y": 0.060001373291015625,
-        "z": 0.3299288749694824
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "V2C_MAT_SoftSignAmber"
-      ]
-    },
-    {
-      "name": "V2C_StoreSign_4",
-      "type": "MESH",
-      "collections": [
-        "V2C_ENVIRONMENT"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        5.678077,
-        18.775,
-        3.382364
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.703423,
-        0.06,
-        0.329929
-      ],
-      "world_bounds": {
-        "xmin": 4.8263654708862305,
-        "xmax": 6.529788970947266,
-        "ymin": 18.744998931884766,
-        "ymax": 18.80500030517578,
-        "zmin": 3.2173995971679688,
-        "zmax": 3.547328472137451
-      },
-      "world_dimensions": {
-        "x": 1.7034235000610352,
-        "y": 0.060001373291015625,
-        "z": 0.3299288749694824
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "V2C_MAT_SoftSignAmber"
       ]
     },
     {
