@@ -1,0 +1,10 @@
+[cleanup] removing collection V2C_SKY_CLOUDS
+[sky] removed 0 old moon/cloud/star duplicate objects
+[lighting] removed 6 old lamp geometry objects
+[lighting] overhead amber lights moved to visible pole positions
+[lighting] rebuilt visible lamp posts/arms/fixtures at overhead light positions
+[sidewalk] hid 2 old narrow sidewalk/curb objects
+[parking] hid 8 old parking line objects
+[render] 01_LampSidewalk_Hero.png
+[render] 02_LampVisibility.png
+[render] 03_HighLayout.png

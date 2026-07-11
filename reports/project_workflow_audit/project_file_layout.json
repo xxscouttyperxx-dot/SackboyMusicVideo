@@ -1,11 +1,11 @@
 [
   {
     "path": "blender\\sackboy_scene.blend",
-    "size_bytes": 14132496
+    "size_bytes": 14048044
   },
   {
     "path": "blender\\sackboy_scene.blend1",
-    "size_bytes": 14127298
+    "size_bytes": 14132496
   },
   {
     "path": "blender\\sackboy_scene.zip",
@@ -86,6 +86,10 @@
   {
     "path": "blender\\scripts\\isolate_meshy_candidate.py",
     "size_bytes": 7619
+  },
+  {
+    "path": "blender\\scripts\\lamp_sidewalk_sky_cleanup.py",
+    "size_bytes": 13555
   },
   {
     "path": "blender\\scripts\\prepare_hand_refinement_branch.py",
@@ -220,39 +224,31 @@
     "size_bytes": 262612
   },
   {
-    "path": "renders\\current_review\\01_Hero_F2_OverheadAmber.png",
-    "size_bytes": 358846
+    "path": "renders\\current_review\\01_LampSidewalk_Hero.png",
+    "size_bytes": 603210
   },
   {
-    "path": "renders\\current_review\\02_HighOrbit_RoofParkingCar.png",
-    "size_bytes": 260777
+    "path": "renders\\current_review\\02_LampVisibility.png",
+    "size_bytes": 528079
   },
   {
-    "path": "renders\\current_review\\03_LowAngle_CarStorefront.png",
-    "size_bytes": 327903
+    "path": "renders\\current_review\\03_HighLayout.png",
+    "size_bytes": 570799
   },
   {
-    "path": "renders\\current_review\\ProductionReconV2C_build_report.txt",
-    "size_bytes": 504
-  },
-  {
-    "path": "renders\\current_review\\ProductionReconV2C_status.json",
-    "size_bytes": 899
-  },
-  {
-    "path": "renders\\current_review\\scene_manifest.json",
-    "size_bytes": 245714
+    "path": "renders\\current_review\\LampSidewalkSkyCleanup_report.txt",
+    "size_bytes": 484
   },
   {
     "path": "reports\\project_workflow_audit\\project_file_layout.json",
-    "size_bytes": 6309
+    "size_bytes": 6515
   },
   {
     "path": "reports\\project_workflow_audit\\scene_layout_summary.md",
-    "size_bytes": 8964
+    "size_bytes": 11101
   },
   {
     "path": "reports\\project_workflow_audit\\scene_manifest.json",
-    "size_bytes": 267068
+    "size_bytes": 262905
   }
 ]

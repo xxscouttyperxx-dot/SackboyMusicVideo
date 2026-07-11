@@ -236,13 +236,47 @@
       "children": []
     },
     {
+      "name": "HERO_ENV_CORRECTIONS",
+      "hide_viewport": false,
+      "hide_render": false,
+      "objects": [
+        "HERO_WideSidewalk",
+        "HERO_WideCurb",
+        "HERO_FlatParkingLine_0",
+        "HERO_FlatParkingLine_1",
+        "HERO_FlatParkingLine_2",
+        "HERO_FlatParkingLine_3",
+        "HERO_FlatParkingLine_4",
+        "HERO_FlatParkingLine_5",
+        "HERO_FlatParkingLine_6",
+        "HERO_FlatBackParkingLine"
+      ],
+      "children": []
+    },
+    {
       "name": "HERO_REVIEW_CAMERAS",
       "hide_viewport": false,
       "hide_render": false,
       "objects": [
-        "HERO_CAM_CurrentReview",
-        "HERO_CAM_CarUnderglow",
+        "HERO_CAM_LampSidewalkReview",
+        "HERO_CAM_LampVisibility",
         "HERO_CAM_HighLayout"
+      ],
+      "children": []
+    },
+    {
+      "name": "HERO_VISIBLE_LAMPPOSTS",
+      "hide_viewport": false,
+      "hide_render": false,
+      "objects": [
+        "HERO_LampPole_0",
+        "HERO_LampArm_0",
+        "HERO_LampFixture_0",
+        "HERO_LampGlass_0",
+        "HERO_LampPole_1",
+        "HERO_LampArm_1",
+        "HERO_LampFixture_1",
+        "HERO_LampGlass_1"
       ],
       "children": []
     },
@@ -284,7 +318,6 @@
       "objects": [],
       "children": [
         "V2C_ENVIRONMENT",
-        "V2C_SKY_CLOUDS",
         "V2C_CAMERAS",
         "V2C_HELPERS"
       ]
@@ -379,13 +412,7 @@
         "V2C_Roof_HVAC_2",
         "V2C_Roof_Vent_2",
         "V2C_Roof_HVAC_3",
-        "V2C_Roof_Vent_3",
-        "V2C_LampPole_0",
-        "V2C_LampArm_0",
-        "V2C_LampFixture_0",
-        "V2C_LampPole_1",
-        "V2C_LampArm_1",
-        "V2C_LampFixture_1"
+        "V2C_Roof_Vent_3"
       ],
       "children": []
     },
@@ -394,31 +421,6 @@
       "hide_viewport": false,
       "hide_render": false,
       "objects": [],
-      "children": []
-    },
-    {
-      "name": "V2C_SKY_CLOUDS",
-      "hide_viewport": false,
-      "hide_render": false,
-      "objects": [
-        "V2C_Moon",
-        "V2C_SmokeCloud_0",
-        "V2C_SmokeCloud_1",
-        "V2C_SmokeCloud_2",
-        "V2C_SmokeCloud_3",
-        "V2C_SmokeCloud_4",
-        "V2C_SmokeCloud_5",
-        "V2C_SmokeCloud_6",
-        "V2C_SmokeCloud_7",
-        "V2C_SmokeCloud_8",
-        "V2C_SmokeCloud_9",
-        "V2C_SmokeCloud_10",
-        "V2C_SmokeCloud_11",
-        "V2C_SmokeCloud_12",
-        "V2C_SmokeCloud_13",
-        "V2C_SmokeCloud_14",
-        "V2C_SmokeCloud_15"
-      ],
       "children": []
     }
   ],
@@ -2631,7 +2633,7 @@
       ]
     },
     {
-      "name": "HERO_CAM_CarUnderglow",
+      "name": "HERO_CAM_HighLayout",
       "type": "CAMERA",
       "collections": [
         "HERO_REVIEW_CAMERAS"
@@ -2641,14 +2643,14 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        2.477047,
-        -0.022483,
-        2.311171
+        8.906788,
+        -6.873519,
+        6.048697
       ],
       "rotation_euler": [
-        1.472041,
+        1.305681,
         -0.0,
-        0.655696
+        0.651764
       ],
       "scale": [
         1.0,
@@ -2661,12 +2663,12 @@
         0.0
       ],
       "world_bounds": {
-        "xmin": 2.4770474433898926,
-        "xmax": 2.4770474433898926,
-        "ymin": -0.022483061999082565,
-        "ymax": -0.022483061999082565,
-        "zmin": 2.3111705780029297,
-        "zmax": 2.3111705780029297
+        "xmin": 8.906787872314453,
+        "xmax": 8.906787872314453,
+        "ymin": -6.873519420623779,
+        "ymax": -6.873519420623779,
+        "zmin": 6.048696994781494,
+        "zmax": 6.048696994781494
       },
       "world_dimensions": {
         "x": 0.0,
@@ -2676,13 +2678,13 @@
       "modifiers": [],
       "materials": [],
       "camera": {
-        "lens": 42.0,
+        "lens": 38.0,
         "clip_start": 0.10000000149011612,
         "clip_end": 1000.0
       }
     },
     {
-      "name": "HERO_CAM_CurrentReview",
+      "name": "HERO_CAM_LampSidewalkReview",
       "type": "CAMERA",
       "collections": [
         "HERO_REVIEW_CAMERAS"
@@ -2692,14 +2694,14 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        7.284449,
-        -7.985823,
-        3.975296
+        8.071776,
+        -7.423401,
+        3.43676
       ],
       "rotation_euler": [
-        1.33825,
+        1.385913,
         0.0,
-        0.694744
+        0.785482
       ],
       "scale": [
         1.0,
@@ -2712,12 +2714,12 @@
         0.0
       ],
       "world_bounds": {
-        "xmin": 7.284449100494385,
-        "xmax": 7.284449100494385,
-        "ymin": -7.985822677612305,
-        "ymax": -7.985822677612305,
-        "zmin": 3.9752962589263916,
-        "zmax": 3.9752962589263916
+        "xmin": 8.071776390075684,
+        "xmax": 8.071776390075684,
+        "ymin": -7.42340087890625,
+        "ymax": -7.42340087890625,
+        "zmin": 3.4367597103118896,
+        "zmax": 3.4367597103118896
       },
       "world_dimensions": {
         "x": 0.0,
@@ -2733,7 +2735,7 @@
       }
     },
     {
-      "name": "HERO_CAM_HighLayout",
+      "name": "HERO_CAM_LampVisibility",
       "type": "CAMERA",
       "collections": [
         "HERO_REVIEW_CAMERAS"
@@ -2743,14 +2745,14 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        8.784449,
-        -7.985823,
-        6.375297
+        3.061708,
+        -5.773757,
+        5.086404
       ],
       "rotation_euler": [
-        1.270571,
+        1.323938,
         0.0,
-        0.68573
+        0.358401
       ],
       "scale": [
         1.0,
@@ -2763,12 +2765,12 @@
         0.0
       ],
       "world_bounds": {
-        "xmin": 8.784448623657227,
-        "xmax": 8.784448623657227,
-        "ymin": -7.985822677612305,
-        "ymax": -7.985822677612305,
-        "zmin": 6.375296592712402,
-        "zmax": 6.375296592712402
+        "xmin": 3.0617082118988037,
+        "xmax": 3.0617082118988037,
+        "ymin": -5.773756504058838,
+        "ymax": -5.773756504058838,
+        "zmin": 5.086404323577881,
+        "zmax": 5.086404323577881
       },
       "world_dimensions": {
         "x": 0.0,
@@ -2778,7 +2780,7 @@
       "modifiers": [],
       "materials": [],
       "camera": {
-        "lens": 38.0,
+        "lens": 42.0,
         "clip_start": 0.10000000149011612,
         "clip_end": 1000.0
       }
@@ -2838,6 +2840,810 @@
         ],
         "size": 4.834234237670898
       }
+    },
+    {
+      "name": "HERO_FlatBackParkingLine",
+      "type": "MESH",
+      "collections": [
+        "HERO_ENV_CORRECTIONS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -4.453394,
+        2.95,
+        0.004
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        5.845079,
+        0.15,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": -7.375933647155762,
+        "xmax": -1.5308542251586914,
+        "ymin": 2.875,
+        "ymax": 3.0250000953674316,
+        "zmin": 0.0015000002458691597,
+        "zmax": 0.006500000134110451
+      },
+      "world_dimensions": {
+        "x": 5.84507942199707,
+        "y": 0.15000009536743164,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_FlatParkingPaint"
+      ]
+    },
+    {
+      "name": "HERO_FlatParkingLine_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_ENV_CORRECTIONS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -7.515102,
+        0.85,
+        0.004
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.15,
+        6.048697,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": -7.590101718902588,
+        "xmax": -7.4401021003723145,
+        "ymin": -2.1743483543395996,
+        "ymax": 3.8743486404418945,
+        "zmin": 0.0015000002458691597,
+        "zmax": 0.006500000134110451
+      },
+      "world_dimensions": {
+        "x": 0.14999961853027344,
+        "y": 6.048696994781494,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_FlatParkingPaint"
+      ]
+    },
+    {
+      "name": "HERO_FlatParkingLine_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_ENV_CORRECTIONS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -5.010068,
+        0.85,
+        0.004
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.15,
+        6.048697,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": -5.0850677490234375,
+        "xmax": -4.935068130493164,
+        "ymin": -2.1743483543395996,
+        "ymax": 3.8743486404418945,
+        "zmin": 0.0015000002458691597,
+        "zmax": 0.006500000134110451
+      },
+      "world_dimensions": {
+        "x": 0.14999961853027344,
+        "y": 6.048696994781494,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_FlatParkingPaint"
+      ]
+    },
+    {
+      "name": "HERO_FlatParkingLine_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_ENV_CORRECTIONS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -2.505034,
+        0.85,
+        0.004
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.15,
+        6.048697,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": -2.580034017562866,
+        "xmax": -2.4300339221954346,
+        "ymin": -2.1743483543395996,
+        "ymax": 3.8743486404418945,
+        "zmin": 0.0015000002458691597,
+        "zmax": 0.006500000134110451
+      },
+      "world_dimensions": {
+        "x": 0.15000009536743164,
+        "y": 6.048696994781494,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_FlatParkingPaint"
+      ]
+    },
+    {
+      "name": "HERO_FlatParkingLine_3",
+      "type": "MESH",
+      "collections": [
+        "HERO_ENV_CORRECTIONS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        0.85,
+        0.004
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.15,
+        6.048697,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": -0.07500000298023224,
+        "xmax": 0.07500000298023224,
+        "ymin": -2.1743483543395996,
+        "ymax": 3.8743486404418945,
+        "zmin": 0.0015000002458691597,
+        "zmax": 0.006500000134110451
+      },
+      "world_dimensions": {
+        "x": 0.15000000596046448,
+        "y": 6.048696994781494,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_FlatParkingPaint"
+      ]
+    },
+    {
+      "name": "HERO_FlatParkingLine_4",
+      "type": "MESH",
+      "collections": [
+        "HERO_ENV_CORRECTIONS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        2.505034,
+        0.85,
+        0.004
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.15,
+        6.048697,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": 2.4300339221954346,
+        "xmax": 2.580034017562866,
+        "ymin": -2.1743483543395996,
+        "ymax": 3.8743486404418945,
+        "zmin": 0.0015000002458691597,
+        "zmax": 0.006500000134110451
+      },
+      "world_dimensions": {
+        "x": 0.15000009536743164,
+        "y": 6.048696994781494,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_FlatParkingPaint"
+      ]
+    },
+    {
+      "name": "HERO_FlatParkingLine_5",
+      "type": "MESH",
+      "collections": [
+        "HERO_ENV_CORRECTIONS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        5.010068,
+        0.85,
+        0.004
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.15,
+        6.048697,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": 4.935068130493164,
+        "xmax": 5.0850677490234375,
+        "ymin": -2.1743483543395996,
+        "ymax": 3.8743486404418945,
+        "zmin": 0.0015000002458691597,
+        "zmax": 0.006500000134110451
+      },
+      "world_dimensions": {
+        "x": 0.14999961853027344,
+        "y": 6.048696994781494,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_FlatParkingPaint"
+      ]
+    },
+    {
+      "name": "HERO_FlatParkingLine_6",
+      "type": "MESH",
+      "collections": [
+        "HERO_ENV_CORRECTIONS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        7.515102,
+        0.85,
+        0.004
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.15,
+        6.048697,
+        0.005
+      ],
+      "world_bounds": {
+        "xmin": 7.4401021003723145,
+        "xmax": 7.590101718902588,
+        "ymin": -2.1743483543395996,
+        "ymax": 3.8743486404418945,
+        "zmin": 0.0015000002458691597,
+        "zmax": 0.006500000134110451
+      },
+      "world_dimensions": {
+        "x": 0.14999961853027344,
+        "y": 6.048696994781494,
+        "z": 0.004999999888241291
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_FlatParkingPaint"
+      ]
+    },
+    {
+      "name": "HERO_LampArm_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_VISIBLE_LAMPPOSTS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -2.365865,
+        1.84,
+        5.114491
+      ],
+      "rotation_euler": [
+        1.570796,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.047271,
+        0.048,
+        0.52
+      ],
+      "world_bounds": {
+        "xmin": -2.389500856399536,
+        "xmax": -2.3422300815582275,
+        "ymin": 1.5799999237060547,
+        "ymax": 2.0999999046325684,
+        "zmin": 5.090490818023682,
+        "zmax": 5.138491153717041
+      },
+      "world_dimensions": {
+        "x": 0.047270774841308594,
+        "y": 0.5199999809265137,
+        "z": 0.048000335693359375
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_LampPostDarkMetal"
+      ]
+    },
+    {
+      "name": "HERO_LampArm_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_VISIBLE_LAMPPOSTS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        2.644202,
+        2.49,
+        5.114491
+      ],
+      "rotation_euler": [
+        1.570796,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.047271,
+        0.048,
+        0.52
+      ],
+      "world_bounds": {
+        "xmin": 2.6205670833587646,
+        "xmax": 2.6678378582000732,
+        "ymin": 2.2300000190734863,
+        "ymax": 2.75,
+        "zmin": 5.090490818023682,
+        "zmax": 5.138491153717041
+      },
+      "world_dimensions": {
+        "x": 0.047270774841308594,
+        "y": 0.5199999809265137,
+        "z": 0.048000335693359375
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_LampPostDarkMetal"
+      ]
+    },
+    {
+      "name": "HERO_LampFixture_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_VISIBLE_LAMPPOSTS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -2.365865,
+        1.54,
+        5.114491
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.68,
+        0.3,
+        0.11
+      ],
+      "world_bounds": {
+        "xmin": -2.7058653831481934,
+        "xmax": -2.0258655548095703,
+        "ymin": 1.3899999856948853,
+        "ymax": 1.6899999380111694,
+        "zmin": 5.059491157531738,
+        "zmax": 5.169490814208984
+      },
+      "world_dimensions": {
+        "x": 0.679999828338623,
+        "y": 0.2999999523162842,
+        "z": 0.1099996566772461
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_LampPostDarkMetal"
+      ]
+    },
+    {
+      "name": "HERO_LampFixture_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_VISIBLE_LAMPPOSTS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        2.644202,
+        2.19,
+        5.114491
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.68,
+        0.3,
+        0.11
+      ],
+      "world_bounds": {
+        "xmin": 2.3042025566101074,
+        "xmax": 2.9842023849487305,
+        "ymin": 2.0399999618530273,
+        "ymax": 2.3400001525878906,
+        "zmin": 5.059491157531738,
+        "zmax": 5.169490814208984
+      },
+      "world_dimensions": {
+        "x": 0.679999828338623,
+        "y": 0.3000001907348633,
+        "z": 0.1099996566772461
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_LampPostDarkMetal"
+      ]
+    },
+    {
+      "name": "HERO_LampGlass_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_VISIBLE_LAMPPOSTS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -2.365865,
+        1.54,
+        5.079491
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.6,
+        0.24,
+        0.024
+      ],
+      "world_bounds": {
+        "xmin": -2.665865421295166,
+        "xmax": -2.0658655166625977,
+        "ymin": 1.4199999570846558,
+        "ymax": 1.659999966621399,
+        "zmin": 5.067491054534912,
+        "zmax": 5.091491222381592
+      },
+      "world_dimensions": {
+        "x": 0.5999999046325684,
+        "y": 0.24000000953674316,
+        "z": 0.024000167846679688
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_LampGlassAmber"
+      ]
+    },
+    {
+      "name": "HERO_LampGlass_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_VISIBLE_LAMPPOSTS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        2.644202,
+        2.19,
+        5.079491
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.6,
+        0.24,
+        0.024
+      ],
+      "world_bounds": {
+        "xmin": 2.3442025184631348,
+        "xmax": 2.944202423095703,
+        "ymin": 2.070000171661377,
+        "ymax": 2.309999942779541,
+        "zmin": 5.067491054534912,
+        "zmax": 5.091491222381592
+      },
+      "world_dimensions": {
+        "x": 0.5999999046325684,
+        "y": 0.23999977111816406,
+        "z": 0.024000167846679688
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_LampGlassAmber"
+      ]
+    },
+    {
+      "name": "HERO_LampPole_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_VISIBLE_LAMPPOSTS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -2.365865,
+        2.1,
+        2.557542
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        5.113899
+      ],
+      "world_bounds": {
+        "xmin": -2.407865524291992,
+        "xmax": -2.3238654136657715,
+        "ymin": 2.057999849319458,
+        "ymax": 2.1419999599456787,
+        "zmin": 0.0005922317504882812,
+        "zmax": 5.114490985870361
+      },
+      "world_dimensions": {
+        "x": 0.0840001106262207,
+        "y": 0.0840001106262207,
+        "z": 5.113898754119873
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_LampPostDarkMetal"
+      ]
+    },
+    {
+      "name": "HERO_LampPole_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_VISIBLE_LAMPPOSTS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        2.644202,
+        2.75,
+        2.557542
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        5.113899
+      ],
+      "world_bounds": {
+        "xmin": 2.6022024154663086,
+        "xmax": 2.6862025260925293,
+        "ymin": 2.7079999446868896,
+        "ymax": 2.7920000553131104,
+        "zmin": 0.0005922317504882812,
+        "zmax": 5.114490985870361
+      },
+      "world_dimensions": {
+        "x": 0.0840001106262207,
+        "y": 0.0840001106262207,
+        "z": 5.113898754119873
+      },
+      "modifiers": [],
+      "materials": [
+        "HERO_MAT_LampPostDarkMetal"
+      ]
     },
     {
       "name": "HERO_Underglow_FrontHiddenStrip",
@@ -2951,6 +3757,120 @@
       ],
       "materials": [
         "HERO_MAT_CyanUnderglow"
+      ]
+    },
+    {
+      "name": "HERO_WideCurb",
+      "type": "MESH",
+      "collections": [
+        "HERO_ENV_CORRECTIONS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        17.640001,
+        0.055
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        32.287106,
+        0.17,
+        0.14
+      ],
+      "world_bounds": {
+        "xmin": -16.143552780151367,
+        "xmax": 16.143552780151367,
+        "ymin": 17.555002212524414,
+        "ymax": 17.725000381469727,
+        "zmin": -0.015000000596046448,
+        "zmax": 0.125
+      },
+      "world_dimensions": {
+        "x": 32.287105560302734,
+        "y": 0.1699981689453125,
+        "z": 0.14000000059604645
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_WideConcrete"
+      ]
+    },
+    {
+      "name": "HERO_WideSidewalk",
+      "type": "MESH",
+      "collections": [
+        "HERO_ENV_CORRECTIONS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        18.260002,
+        0.025
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        32.287106,
+        1.9,
+        0.09
+      ],
+      "world_bounds": {
+        "xmin": -16.143552780151367,
+        "xmax": 16.143552780151367,
+        "ymin": 17.310001373291016,
+        "ymax": 19.210002899169922,
+        "zmin": -0.020000001415610313,
+        "zmax": 0.07000000029802322
+      },
+      "world_dimensions": {
+        "x": 32.287105560302734,
+        "y": 1.9000015258789062,
+        "z": 0.09000000171363354
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "HERO_MAT_WideConcrete"
       ]
     },
     {
@@ -7694,9 +8614,9 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        -3.757551,
-        2.78,
-        4.83955
+        -2.365865,
+        2.1,
+        5.114491
       ],
       "rotation_euler": [
         0.0,
@@ -7714,12 +8634,12 @@
         0.0
       ],
       "world_bounds": {
-        "xmin": -3.7575509548187256,
-        "xmax": -3.7575509548187256,
-        "ymin": 2.7799999713897705,
-        "ymax": 2.7799999713897705,
-        "zmin": 4.839550018310547,
-        "zmax": 4.839550018310547
+        "xmin": -2.365865468978882,
+        "xmax": -2.365865468978882,
+        "ymin": 2.0999999046325684,
+        "ymax": 2.0999999046325684,
+        "zmin": 5.114490985870361,
+        "zmax": 5.114490985870361
       },
       "world_dimensions": {
         "x": 0.0,
@@ -7736,7 +8656,7 @@
           0.3700000047683716,
           0.054999999701976776
         ],
-        "size": 1.850000023841858
+        "size": 2.049999952316284
       }
     },
     {
@@ -7750,9 +8670,9 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        3.757551,
-        2.78,
-        4.83955
+        2.644202,
+        2.75,
+        5.114491
       ],
       "rotation_euler": [
         0.0,
@@ -7770,12 +8690,12 @@
         0.0
       ],
       "world_bounds": {
-        "xmin": 3.7575509548187256,
-        "xmax": 3.7575509548187256,
-        "ymin": 2.7799999713897705,
-        "ymax": 2.7799999713897705,
-        "zmin": 4.839550018310547,
-        "zmax": 4.839550018310547
+        "xmin": 2.644202470779419,
+        "xmax": 2.644202470779419,
+        "ymin": 2.75,
+        "ymax": 2.75,
+        "zmin": 5.114490985870361,
+        "zmax": 5.114490985870361
       },
       "world_dimensions": {
         "x": 0.0,
@@ -7792,7 +8712,7 @@
           0.3700000047683716,
           0.054999999701976776
         ],
-        "size": 1.850000023841858
+        "size": 2.0
       }
     },
     {
@@ -7858,9 +8778,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         -4.314225,
@@ -8068,9 +8988,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         0.0,
@@ -9830,360 +10750,6 @@
       ]
     },
     {
-      "name": "V2C_LampArm_0",
-      "type": "MESH",
-      "collections": [
-        "V2C_ENVIRONMENT"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -3.757551,
-        2.62,
-        4.83955
-      ],
-      "rotation_euler": [
-        1.570796,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.044,
-        0.044,
-        0.36
-      ],
-      "world_bounds": {
-        "xmin": -3.7795510292053223,
-        "xmax": -3.735550880432129,
-        "ymin": 2.43999981880188,
-        "ymax": 2.799999952316284,
-        "zmin": 4.817550182342529,
-        "zmax": 4.8615498542785645
-      },
-      "world_dimensions": {
-        "x": 0.04400014877319336,
-        "y": 0.3600001335144043,
-        "z": 0.043999671936035156
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_LampPole"
-      ]
-    },
-    {
-      "name": "V2C_LampArm_1",
-      "type": "MESH",
-      "collections": [
-        "V2C_ENVIRONMENT"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        3.757551,
-        2.62,
-        4.83955
-      ],
-      "rotation_euler": [
-        1.570796,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.044,
-        0.044,
-        0.36
-      ],
-      "world_bounds": {
-        "xmin": 3.735550880432129,
-        "xmax": 3.7795510292053223,
-        "ymin": 2.43999981880188,
-        "ymax": 2.799999952316284,
-        "zmin": 4.817550182342529,
-        "zmax": 4.8615498542785645
-      },
-      "world_dimensions": {
-        "x": 0.04400014877319336,
-        "y": 0.3600001335144043,
-        "z": 0.043999671936035156
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_LampPole"
-      ]
-    },
-    {
-      "name": "V2C_LampFixture_0",
-      "type": "MESH",
-      "collections": [
-        "V2C_ENVIRONMENT"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -3.757551,
-        2.42,
-        4.83955
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.5,
-        0.26,
-        0.1
-      ],
-      "world_bounds": {
-        "xmin": -4.007551193237305,
-        "xmax": -3.5075509548187256,
-        "ymin": 2.2899999618530273,
-        "ymax": 2.5500001907348633,
-        "zmin": 4.789549827575684,
-        "zmax": 4.88955020904541
-      },
-      "world_dimensions": {
-        "x": 0.5000002384185791,
-        "y": 0.26000022888183594,
-        "z": 0.10000038146972656
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "V2C_MAT_LampPole"
-      ]
-    },
-    {
-      "name": "V2C_LampFixture_1",
-      "type": "MESH",
-      "collections": [
-        "V2C_ENVIRONMENT"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        3.757551,
-        2.42,
-        4.83955
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.5,
-        0.26,
-        0.1
-      ],
-      "world_bounds": {
-        "xmin": 3.5075509548187256,
-        "xmax": 4.007551193237305,
-        "ymin": 2.2899999618530273,
-        "ymax": 2.5500001907348633,
-        "zmin": 4.789549827575684,
-        "zmax": 4.88955020904541
-      },
-      "world_dimensions": {
-        "x": 0.5000002384185791,
-        "y": 0.26000022888183594,
-        "z": 0.10000038146972656
-      },
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "materials": [
-        "V2C_MAT_LampPole"
-      ]
-    },
-    {
-      "name": "V2C_LampPole_0",
-      "type": "MESH",
-      "collections": [
-        "V2C_ENVIRONMENT"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -3.757551,
-        2.78,
-        2.420071
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.076,
-        0.076,
-        4.838958
-      ],
-      "world_bounds": {
-        "xmin": -3.795551061630249,
-        "xmax": -3.719550848007202,
-        "ymin": 2.741999864578247,
-        "ymax": 2.818000078201294,
-        "zmin": 0.0005922317504882812,
-        "zmax": 4.839550018310547
-      },
-      "world_dimensions": {
-        "x": 0.07600021362304688,
-        "y": 0.07600021362304688,
-        "z": 4.838957786560059
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_LampPole"
-      ]
-    },
-    {
-      "name": "V2C_LampPole_1",
-      "type": "MESH",
-      "collections": [
-        "V2C_ENVIRONMENT"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        3.757551,
-        2.78,
-        2.420071
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.076,
-        0.076,
-        4.838958
-      ],
-      "world_bounds": {
-        "xmin": 3.719550848007202,
-        "xmax": 3.795551061630249,
-        "ymin": 2.741999864578247,
-        "ymax": 2.818000078201294,
-        "zmin": 0.0005922317504882812,
-        "zmax": 4.839550018310547
-      },
-      "world_dimensions": {
-        "x": 0.07600021362304688,
-        "y": 0.07600021362304688,
-        "z": 4.838957786560059
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_LampPole"
-      ]
-    },
-    {
-      "name": "V2C_Moon",
-      "type": "MESH",
-      "collections": [
-        "V2C_SKY_CLOUDS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        6.68009,
-        11.5,
-        8.798697
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.64,
-        0.036,
-        0.64
-      ],
-      "world_bounds": {
-        "xmin": 6.360090732574463,
-        "xmax": 7.000090599060059,
-        "ymin": 11.482000350952148,
-        "ymax": 11.517999649047852,
-        "zmin": 8.478697776794434,
-        "zmax": 9.118697166442871
-      },
-      "world_dimensions": {
-        "x": 0.6399998664855957,
-        "y": 0.035999298095703125,
-        "z": 0.6399993896484375
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_Moon"
-      ]
-    },
-    {
       "name": "V2C_ORBIT_RIG",
       "type": "EMPTY",
       "collections": [
@@ -10235,9 +10801,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         -7.236765,
@@ -10292,9 +10858,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         -4.731731,
@@ -10349,9 +10915,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         -2.226697,
@@ -10406,9 +10972,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         0.278337,
@@ -10463,9 +11029,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         2.783371,
@@ -10520,9 +11086,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         5.288405,
@@ -10577,9 +11143,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         7.793439,
@@ -11054,9 +11620,9 @@
       "collections": [
         "V2C_ENVIRONMENT"
       ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
+      "hide_viewport": true,
+      "hide_render": true,
+      "visible_get": false,
       "parent": null,
       "location": [
         0.0,
@@ -11103,774 +11669,6 @@
       ],
       "materials": [
         "V2C_MAT_Concrete"
-      ]
-    },
-    {
-      "name": "V2C_SmokeCloud_0",
-      "type": "MESH",
-      "collections": [
-        "V2C_SKY_CLOUDS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -7.201972,
-        11.6,
-        8.111345
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.636621,
-        0.06,
-        0.254045
-      ],
-      "world_bounds": {
-        "xmin": -8.020282745361328,
-        "xmax": -6.38366174697876,
-        "ymin": 11.570000648498535,
-        "ymax": 11.630000114440918,
-        "zmin": 7.984322547912598,
-        "zmax": 8.238368034362793
-      },
-      "world_dimensions": {
-        "x": 1.6366209983825684,
-        "y": 0.05999946594238281,
-        "z": 0.2540454864501953
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_SmokyClouds"
-      ]
-    },
-    {
-      "name": "V2C_SmokeCloud_1",
-      "type": "MESH",
-      "collections": [
-        "V2C_SKY_CLOUDS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -6.958428,
-        11.6,
-        8.124542
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        2.33803,
-        0.06,
-        0.362922
-      ],
-      "world_bounds": {
-        "xmin": -8.127442359924316,
-        "xmax": -5.789412498474121,
-        "ymin": 11.570000648498535,
-        "ymax": 11.630000114440918,
-        "zmin": 7.943081378936768,
-        "zmax": 8.30600357055664
-      },
-      "world_dimensions": {
-        "x": 2.3380298614501953,
-        "y": 0.05999946594238281,
-        "z": 0.36292219161987305
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_SmokyClouds"
-      ]
-    },
-    {
-      "name": "V2C_SmokeCloud_10",
-      "type": "MESH",
-      "collections": [
-        "V2C_SKY_CLOUDS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.848928,
-        11.5,
-        8.379687
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.757419,
-        0.06,
-        0.272796
-      ],
-      "world_bounds": {
-        "xmin": -0.0297812819480896,
-        "xmax": 1.7276382446289062,
-        "ymin": 11.470000267028809,
-        "ymax": 11.529999732971191,
-        "zmin": 8.24328899383545,
-        "zmax": 8.516085624694824
-      },
-      "world_dimensions": {
-        "x": 1.7574195265769958,
-        "y": 0.05999946594238281,
-        "z": 0.272796630859375
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_SmokyClouds"
-      ]
-    },
-    {
-      "name": "V2C_SmokeCloud_11",
-      "type": "MESH",
-      "collections": [
-        "V2C_SKY_CLOUDS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        1.071598,
-        11.5,
-        8.395084
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.178757,
-        0.06,
-        0.182973
-      ],
-      "world_bounds": {
-        "xmin": 0.48221951723098755,
-        "xmax": 1.6609764099121094,
-        "ymin": 11.470000267028809,
-        "ymax": 11.529999732971191,
-        "zmin": 8.303597450256348,
-        "zmax": 8.486571311950684
-      },
-      "world_dimensions": {
-        "x": 1.1787568926811218,
-        "y": 0.05999946594238281,
-        "z": 0.18297386169433594
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_SmokyClouds"
-      ]
-    },
-    {
-      "name": "V2C_SmokeCloud_12",
-      "type": "MESH",
-      "collections": [
-        "V2C_SKY_CLOUDS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        4.488186,
-        11.7,
-        8.74371
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.091081,
-        0.06,
-        0.169364
-      ],
-      "world_bounds": {
-        "xmin": 3.94264554977417,
-        "xmax": 5.033726692199707,
-        "ymin": 11.670000076293945,
-        "ymax": 11.729999542236328,
-        "zmin": 8.659028053283691,
-        "zmax": 8.828391075134277
-      },
-      "world_dimensions": {
-        "x": 1.091081142425537,
-        "y": 0.05999946594238281,
-        "z": 0.16936302185058594
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_SmokyClouds"
-      ]
-    },
-    {
-      "name": "V2C_SmokeCloud_13",
-      "type": "MESH",
-      "collections": [
-        "V2C_SKY_CLOUDS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        4.731731,
-        11.7,
-        8.756907
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.558687,
-        0.06,
-        0.241948
-      ],
-      "world_bounds": {
-        "xmin": 3.952387809753418,
-        "xmax": 5.511074542999268,
-        "ymin": 11.670000076293945,
-        "ymax": 11.729999542236328,
-        "zmin": 8.635932922363281,
-        "zmax": 8.877880096435547
-      },
-      "world_dimensions": {
-        "x": 1.5586867332458496,
-        "y": 0.05999946594238281,
-        "z": 0.24194717407226562
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_SmokyClouds"
-      ]
-    },
-    {
-      "name": "V2C_SmokeCloud_14",
-      "type": "MESH",
-      "collections": [
-        "V2C_SKY_CLOUDS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        5.023985,
-        11.7,
-        8.73711
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.278123,
-        0.06,
-        0.198397
-      ],
-      "world_bounds": {
-        "xmin": 4.384923458099365,
-        "xmax": 5.663046836853027,
-        "ymin": 11.670000076293945,
-        "ymax": 11.729999542236328,
-        "zmin": 8.637911796569824,
-        "zmax": 8.836308479309082
-      },
-      "world_dimensions": {
-        "x": 1.278123378753662,
-        "y": 0.05999946594238281,
-        "z": 0.1983966827392578
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_SmokyClouds"
-      ]
-    },
-    {
-      "name": "V2C_SmokeCloud_15",
-      "type": "MESH",
-      "collections": [
-        "V2C_SKY_CLOUDS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        5.246655,
-        11.7,
-        8.752507
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.857278,
-        0.06,
-        0.133071
-      ],
-      "world_bounds": {
-        "xmin": 4.8180155754089355,
-        "xmax": 5.675293445587158,
-        "ymin": 11.670000076293945,
-        "ymax": 11.729999542236328,
-        "zmin": 8.6859712600708,
-        "zmax": 8.819043159484863
-      },
-      "world_dimensions": {
-        "x": 0.8572778701782227,
-        "y": 0.05999946594238281,
-        "z": 0.1330718994140625
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_SmokyClouds"
-      ]
-    },
-    {
-      "name": "V2C_SmokeCloud_2",
-      "type": "MESH",
-      "collections": [
-        "V2C_SKY_CLOUDS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -6.666174,
-        11.6,
-        8.104747
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.917185,
-        0.06,
-        0.297596
-      ],
-      "world_bounds": {
-        "xmin": -7.624765872955322,
-        "xmax": -5.707581043243408,
-        "ymin": 11.570000648498535,
-        "ymax": 11.630000114440918,
-        "zmin": 7.955948829650879,
-        "zmax": 8.253544807434082
-      },
-      "world_dimensions": {
-        "x": 1.917184829711914,
-        "y": 0.05999946594238281,
-        "z": 0.2975959777832031
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_SmokyClouds"
-      ]
-    },
-    {
-      "name": "V2C_SmokeCloud_3",
-      "type": "MESH",
-      "collections": [
-        "V2C_SKY_CLOUDS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -6.443504,
-        11.6,
-        8.120144
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.285917,
-        0.06,
-        0.199607
-      ],
-      "world_bounds": {
-        "xmin": -7.086462020874023,
-        "xmax": -5.8005452156066895,
-        "ymin": 11.570000648498535,
-        "ymax": 11.630000114440918,
-        "zmin": 8.020339965820312,
-        "zmax": 8.219947814941406
-      },
-      "world_dimensions": {
-        "x": 1.285916805267334,
-        "y": 0.05999946594238281,
-        "z": 0.19960784912109375
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_SmokyClouds"
-      ]
-    },
-    {
-      "name": "V2C_SmokeCloud_4",
-      "type": "MESH",
-      "collections": [
-        "V2C_SKY_CLOUDS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -3.861927,
-        11.8,
-        8.578745
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.227466,
-        0.06,
-        0.190534
-      ],
-      "world_bounds": {
-        "xmin": -4.4756598472595215,
-        "xmax": -3.2481942176818848,
-        "ymin": 11.770000457763672,
-        "ymax": 11.829999923706055,
-        "zmin": 8.483477592468262,
-        "zmax": 8.674012184143066
-      },
-      "world_dimensions": {
-        "x": 1.2274656295776367,
-        "y": 0.05999946594238281,
-        "z": 0.1905345916748047
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_SmokyClouds"
-      ]
-    },
-    {
-      "name": "V2C_SmokeCloud_5",
-      "type": "MESH",
-      "collections": [
-        "V2C_SKY_CLOUDS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -3.618382,
-        11.8,
-        8.591942
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.753523,
-        0.06,
-        0.272191
-      ],
-      "world_bounds": {
-        "xmin": -4.495143413543701,
-        "xmax": -2.7416207790374756,
-        "ymin": 11.770000457763672,
-        "ymax": 11.829999923706055,
-        "zmin": 8.455845832824707,
-        "zmax": 8.72803783416748
-      },
-      "world_dimensions": {
-        "x": 1.7535226345062256,
-        "y": 0.05999946594238281,
-        "z": 0.27219200134277344
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_SmokyClouds"
-      ]
-    },
-    {
-      "name": "V2C_SmokeCloud_6",
-      "type": "MESH",
-      "collections": [
-        "V2C_SKY_CLOUDS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -3.326128,
-        11.8,
-        8.572146
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.437889,
-        0.06,
-        0.223197
-      ],
-      "world_bounds": {
-        "xmin": -4.045072555541992,
-        "xmax": -2.6071839332580566,
-        "ymin": 11.770000457763672,
-        "ymax": 11.829999923706055,
-        "zmin": 8.460548400878906,
-        "zmax": 8.683744430541992
-      },
-      "world_dimensions": {
-        "x": 1.4378886222839355,
-        "y": 0.05999946594238281,
-        "z": 0.22319602966308594
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_SmokyClouds"
-      ]
-    },
-    {
-      "name": "V2C_SmokeCloud_7",
-      "type": "MESH",
-      "collections": [
-        "V2C_SKY_CLOUDS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -3.103459,
-        11.8,
-        8.587543
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.964437,
-        0.06,
-        0.149705
-      ],
-      "world_bounds": {
-        "xmin": -3.5856773853302,
-        "xmax": -2.6212399005889893,
-        "ymin": 11.770000457763672,
-        "ymax": 11.829999923706055,
-        "zmin": 8.512689590454102,
-        "zmax": 8.662395477294922
-      },
-      "world_dimensions": {
-        "x": 0.9644374847412109,
-        "y": 0.05999946594238281,
-        "z": 0.1497058868408203
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_SmokyClouds"
-      ]
-    },
-    {
-      "name": "V2C_SmokeCloud_8",
-      "type": "MESH",
-      "collections": [
-        "V2C_SKY_CLOUDS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.313129,
-        11.5,
-        8.386286
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.500236,
-        0.06,
-        0.232875
-      ],
-      "world_bounds": {
-        "xmin": -0.4369885325431824,
-        "xmax": 1.0632474422454834,
-        "ymin": 11.470000267028809,
-        "ymax": 11.529999732971191,
-        "zmin": 8.269848823547363,
-        "zmax": 8.50272274017334
-      },
-      "world_dimensions": {
-        "x": 1.5002359747886658,
-        "y": 0.05999946594238281,
-        "z": 0.23287391662597656
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_SmokyClouds"
-      ]
-    },
-    {
-      "name": "V2C_SmokeCloud_9",
-      "type": "MESH",
-      "collections": [
-        "V2C_SKY_CLOUDS"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.556674,
-        11.5,
-        8.399484
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        2.143194,
-        0.06,
-        0.332678
-      ],
-      "world_bounds": {
-        "xmin": -0.5149224996566772,
-        "xmax": 1.6282716989517212,
-        "ymin": 11.470000267028809,
-        "ymax": 11.529999732971191,
-        "zmin": 8.233144760131836,
-        "zmax": 8.56582260131836
-      },
-      "world_dimensions": {
-        "x": 2.1431941986083984,
-        "y": 0.05999946594238281,
-        "z": 0.33267784118652344
-      },
-      "modifiers": [],
-      "materials": [
-        "V2C_MAT_SmokyClouds"
       ]
     },
     {
