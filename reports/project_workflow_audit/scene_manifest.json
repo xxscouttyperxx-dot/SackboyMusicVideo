@@ -2,6 +2,24 @@
   "blend_file": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\blender\\sackboy_scene.blend",
   "collections": [
     {
+      "name": "Apricot Pullover Hoodie",
+      "hide_viewport": false,
+      "hide_render": false,
+      "objects": [
+        "Apricot Pullover Hoodie"
+      ],
+      "children": []
+    },
+    {
+      "name": "Asphalt ground",
+      "hide_viewport": false,
+      "hide_render": false,
+      "objects": [
+        "Asphalt ground"
+      ],
+      "children": []
+    },
+    {
       "name": "Audi e-tron GT quattro Black",
       "hide_viewport": false,
       "hide_render": false,
@@ -104,6 +122,25 @@
       "hide_render": true,
       "objects": [
         "CAM_Target"
+      ],
+      "children": []
+    },
+    {
+      "name": "Cargo pants",
+      "hide_viewport": false,
+      "hide_render": false,
+      "objects": [
+        "Cargo pants"
+      ],
+      "children": []
+    },
+    {
+      "name": "Cast iron sewer hatch",
+      "hide_viewport": false,
+      "hide_render": false,
+      "objects": [
+        "Plane.029",
+        "Cast iron sewer hatch"
       ],
       "children": []
     },
@@ -265,34 +302,14 @@
       "hide_viewport": false,
       "hide_render": false,
       "objects": [
-        "HERO_Hoodie_Torso_FitGuide",
-        "HERO_Hoodie_Hood_FitGuide",
-        "HERO_Hoodie_Sleeve_L_FitGuide",
-        "HERO_BaggyJean_Leg_L_FitGuide",
-        "HERO_BlackSkateShoe_L_Main",
-        "HERO_BlackSkateShoe_L_WhiteToe",
         "HERO_BlackSkateShoe_L_WhiteSole",
         "HERO_BlackSkateShoe_L_FlameAccent_0",
         "HERO_BlackSkateShoe_L_FlameAccent_1",
         "HERO_BlackSkateShoe_L_FlameAccent_2",
-        "HERO_BlackSkateShoe_L_Lace_0",
-        "HERO_BlackSkateShoe_L_Lace_1",
-        "HERO_BlackSkateShoe_L_Lace_2",
-        "HERO_BlackSkateShoe_L_Lace_3",
-        "HERO_Hoodie_Sleeve_R_FitGuide",
-        "HERO_BaggyJean_Leg_R_FitGuide",
-        "HERO_BlackSkateShoe_R_Main",
-        "HERO_BlackSkateShoe_R_WhiteToe",
         "HERO_BlackSkateShoe_R_WhiteSole",
         "HERO_BlackSkateShoe_R_FlameAccent_0",
         "HERO_BlackSkateShoe_R_FlameAccent_1",
-        "HERO_BlackSkateShoe_R_FlameAccent_2",
-        "HERO_BlackSkateShoe_R_Lace_0",
-        "HERO_BlackSkateShoe_R_Lace_1",
-        "HERO_BlackSkateShoe_R_Lace_2",
-        "HERO_BlackSkateShoe_R_Lace_3",
-        "HERO_Hoodie_CenterZip_Guide",
-        "HERO_Hoodie_Hem_Guide"
+        "HERO_BlackSkateShoe_R_FlameAccent_2"
       ],
       "children": []
     },
@@ -333,7 +350,18 @@
       "hide_viewport": false,
       "hide_render": false,
       "objects": [],
-      "children": []
+      "children": [
+        "Cargo pants",
+        "Apricot Pullover Hoodie",
+        "Shoes",
+        "Asphalt ground",
+        "Utility Box (Photoscanned)",
+        "No Parking Sign Board",
+        "Large Trash Can",
+        "Cast iron sewer hatch",
+        "Traffic Cone (Photoscanned)",
+        "Stop road sign"
+      ]
     },
     {
       "name": "HERO_REVIEW_CAMERAS",
@@ -350,12 +378,7 @@
       "name": "HERO_SHOE_GRAPHIC_GUIDES",
       "hide_viewport": false,
       "hide_render": false,
-      "objects": [
-        "HERO_ShoeGraphic_L_OrangeSweep",
-        "HERO_ShoeGraphic_L_YellowSweep",
-        "HERO_ShoeGraphic_R_OrangeSweep",
-        "HERO_ShoeGraphic_R_YellowSweep"
-      ],
+      "objects": [],
       "children": []
     },
     {
@@ -439,6 +462,22 @@
       "children": []
     },
     {
+      "name": "Large Trash Can",
+      "hide_viewport": false,
+      "hide_render": false,
+      "objects": [
+        "Wheel.001",
+        "Ribbing.001",
+        "Lid.001",
+        "Lid Pins.001",
+        "Large Trash Can",
+        "Handlebars.001",
+        "Can.001",
+        "Axle.001"
+      ],
+      "children": []
+    },
+    {
       "name": "LGT_Night",
       "hide_viewport": true,
       "hide_render": true,
@@ -460,6 +499,23 @@
       "children": []
     },
     {
+      "name": "No Parking Sign Board",
+      "hide_viewport": false,
+      "hide_render": false,
+      "objects": [
+        "Plane.023",
+        "No Parking Sign Board",
+        "Mball.011",
+        "Mball.008",
+        "Cylinder",
+        "Bolt.001",
+        "Bolt",
+        "177d920ddde57c74f8e1ef18863ab511.001",
+        "177d920ddde57c74f8e1ef18863ab511"
+      ],
+      "children": []
+    },
+    {
       "name": "PROD_RECON_V2B",
       "hide_viewport": false,
       "hide_render": false,
@@ -478,6 +534,44 @@
         "V2C_CAMERAS",
         "V2C_HELPERS"
       ]
+    },
+    {
+      "name": "Shoes",
+      "hide_viewport": false,
+      "hide_render": false,
+      "objects": [
+        "Shoes",
+        "Plane.001",
+        "Plane.022"
+      ],
+      "children": []
+    },
+    {
+      "name": "Stop road sign",
+      "hide_viewport": false,
+      "hide_render": false,
+      "objects": [
+        "Stop road sign"
+      ],
+      "children": []
+    },
+    {
+      "name": "Traffic Cone (Photoscanned)",
+      "hide_viewport": false,
+      "hide_render": false,
+      "objects": [
+        "Traffic Cone (Photoscanned)"
+      ],
+      "children": []
+    },
+    {
+      "name": "Utility Box (Photoscanned)",
+      "hide_viewport": false,
+      "hide_render": false,
+      "objects": [
+        "Utility Box (Photoscanned)"
+      ],
+      "children": []
     },
     {
       "name": "V2B_HELPERS",
@@ -519,6 +613,217 @@
     }
   ],
   "objects": [
+    {
+      "name": "177d920ddde57c74f8e1ef18863ab511",
+      "type": "MESH",
+      "collections": [
+        "No Parking Sign Board"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": "Plane.023",
+      "location": [
+        0.0,
+        -0.030581,
+        1.878441
+      ],
+      "rotation_euler": [
+        1.559103,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.426578,
+        0.559335,
+        0.02052
+      ],
+      "world_bounds": {
+        "xmin": -11.041898727416992,
+        "xmax": -10.615320205688477,
+        "ymin": 19.15631866455078,
+        "ymax": 19.183378219604492,
+        "zmin": 1.6588990688323975,
+        "zmax": 2.218435764312744
+      },
+      "world_dimensions": {
+        "x": 0.4265785217285156,
+        "y": 0.027059555053710938,
+        "z": 0.5595366954803467
+      },
+      "modifiers": [
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        }
+      ],
+      "materials": [
+        "no parking_board",
+        "no parking_Rusty painted metal"
+      ]
+    },
+    {
+      "name": "177d920ddde57c74f8e1ef18863ab511.001",
+      "type": "MESH",
+      "collections": [
+        "No Parking Sign Board"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": "177d920ddde57c74f8e1ef18863ab511",
+      "location": [
+        0.0,
+        -0.031867,
+        1.867754
+      ],
+      "rotation_euler": [
+        1.570796,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.252639,
+        0.333379,
+        0.009965
+      ],
+      "world_bounds": {
+        "xmin": -10.954967498779297,
+        "xmax": -10.702329635620117,
+        "ymin": 19.17275619506836,
+        "ymax": 19.18661880493164,
+        "zmin": 1.7611066102981567,
+        "zmax": 2.0945792198181152
+      },
+      "world_dimensions": {
+        "x": 0.2526378631591797,
+        "y": 0.01386260986328125,
+        "z": 0.3334726095199585
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormal",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "no parking_Procedural Metal 01"
+      ]
+    },
+    {
+      "name": "Apricot Pullover Hoodie",
+      "type": "MESH",
+      "collections": [
+        "Apricot Pullover Hoodie"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -2.816514,
+        0.012429,
+        0.993742
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        3.892716,
+        3.712367,
+        1.550946
+      ],
+      "dimensions": [
+        2.277528,
+        1.091278,
+        1.549808
+      ],
+      "world_bounds": {
+        "xmin": -3.956373929977417,
+        "xmax": -1.6788463592529297,
+        "ymin": -0.49759361147880554,
+        "ymax": 0.5936841368675232,
+        "zmin": 0.9972134828567505,
+        "zmax": 2.5470211505889893
+      },
+      "world_dimensions": {
+        "x": 2.2775275707244873,
+        "y": 1.0912777483463287,
+        "z": 1.5498076677322388
+      },
+      "modifiers": [],
+      "materials": [
+        "Cloth Black",
+        "Cloth Black",
+        "Cloth Black",
+        "Material107852",
+        "Material118001"
+      ]
+    },
+    {
+      "name": "Asphalt ground",
+      "type": "MESH",
+      "collections": [
+        "Asphalt ground"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        4.780939,
+        -0.876001
+      ],
+      "rotation_euler": [
+        -0.009999,
+        0.031474,
+        0.72616
+      ],
+      "scale": [
+        4.915334,
+        4.915334,
+        4.915334
+      ],
+      "dimensions": [
+        52.665443,
+        47.259861,
+        1.903612
+      ],
+      "world_bounds": {
+        "xmin": -33.001129150390625,
+        "xmax": 37.781288146972656,
+        "ymin": -27.858694076538086,
+        "ymax": 42.47398376464844,
+        "zmin": -2.3950483798980713,
+        "zmax": 1.6371204853057861
+      },
+      "world_dimensions": {
+        "x": 70.78241729736328,
+        "y": 70.33267784118652,
+        "z": 4.032168865203857
+      },
+      "modifiers": [],
+      "materials": [
+        "main.001"
+      ]
+    },
     {
       "name": "Audi e-tron GT quattro Black",
       "type": "EMPTY",
@@ -564,6 +869,172 @@
       },
       "modifiers": [],
       "materials": []
+    },
+    {
+      "name": "Axle.001",
+      "type": "MESH",
+      "collections": [
+        "Large Trash Can"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": "Large Trash Can",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.91977,
+        0.033328,
+        0.033328
+      ],
+      "world_bounds": {
+        "xmin": -0.4598848521709442,
+        "xmax": 0.4598848521709442,
+        "ymin": 23.528108596801758,
+        "ymax": 23.56143569946289,
+        "zmin": 0.17701086401939392,
+        "zmax": 0.21033881604671478
+      },
+      "world_dimensions": {
+        "x": 0.9197697043418884,
+        "y": 0.03332710266113281,
+        "z": 0.03332795202732086
+      },
+      "modifiers": [],
+      "materials": [
+        "Can.001"
+      ]
+    },
+    {
+      "name": "Bolt",
+      "type": "MESH",
+      "collections": [
+        "No Parking Sign Board"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": "Plane.023",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.165021,
+        0.17825,
+        0.009311
+      ],
+      "world_bounds": {
+        "xmin": -10.91115951538086,
+        "xmax": -10.746137619018555,
+        "ymin": 19.11628532409668,
+        "ymax": 19.29453468322754,
+        "zmin": 0.08529675751924515,
+        "zmax": 0.09460757672786713
+      },
+      "world_dimensions": {
+        "x": 0.1650218963623047,
+        "y": 0.17824935913085938,
+        "z": 0.009310819208621979
+      },
+      "modifiers": [
+        {
+          "name": "Mirror",
+          "type": "MIRROR"
+        },
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormal",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "no parking_Procedural Metal 01"
+      ]
+    },
+    {
+      "name": "Bolt.001",
+      "type": "MESH",
+      "collections": [
+        "No Parking Sign Board"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": "Plane.023",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.013002,
+        0.010438,
+        0.20103
+      ],
+      "world_bounds": {
+        "xmin": -10.835000038146973,
+        "xmax": -10.821998596191406,
+        "ymin": 19.217571258544922,
+        "ymax": 19.228010177612305,
+        "zmin": 1.8372187614440918,
+        "zmax": 2.0382485389709473
+      },
+      "world_dimensions": {
+        "x": 0.013001441955566406,
+        "y": 0.010438919067382812,
+        "z": 0.20102977752685547
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "WeightedNormal",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "no parking_Procedural Metal 01"
+      ]
     },
     {
       "name": "Bolt.002",
@@ -648,6 +1119,153 @@
         "xmax": 0.0,
         "ymin": 0.0,
         "ymax": 0.0,
+        "zmin": 0.0,
+        "zmax": 0.0
+      },
+      "world_dimensions": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modifiers": [],
+      "materials": []
+    },
+    {
+      "name": "Can.001",
+      "type": "MESH",
+      "collections": [
+        "Large Trash Can"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": "Large Trash Can",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.133627,
+        1.184645,
+        1.642578
+      ],
+      "world_bounds": {
+        "xmin": -0.566798985004425,
+        "xmax": 0.5668279528617859,
+        "ymin": 22.604984283447266,
+        "ymax": 23.789630889892578,
+        "zmin": 0.035650741308927536,
+        "zmax": 1.6782286167144775
+      },
+      "world_dimensions": {
+        "x": 1.133626937866211,
+        "y": 1.1846466064453125,
+        "z": 1.64257787540555
+      },
+      "modifiers": [],
+      "materials": [
+        "Can.002"
+      ]
+    },
+    {
+      "name": "Cargo pants",
+      "type": "MESH",
+      "collections": [
+        "Cargo pants"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -2.80222,
+        -0.00521,
+        0.329369
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        3.655543,
+        3.607422,
+        1.24191
+      ],
+      "dimensions": [
+        1.559261,
+        0.898337,
+        1.052398
+      ],
+      "world_bounds": {
+        "xmin": -3.581851005554199,
+        "xmax": -2.022589683532715,
+        "ymin": -0.4180755317211151,
+        "ymax": 0.4802611768245697,
+        "zmin": 0.3311687707901001,
+        "zmax": 1.383566975593567
+      },
+      "world_dimensions": {
+        "x": 1.5592613220214844,
+        "y": 0.8983367085456848,
+        "z": 1.0523982048034668
+      },
+      "modifiers": [
+        {
+          "name": "Collision",
+          "type": "COLLISION"
+        }
+      ],
+      "materials": [
+        "Black Denim Jeans Fabric"
+      ]
+    },
+    {
+      "name": "Cast iron sewer hatch",
+      "type": "EMPTY",
+      "collections": [
+        "Cast iron sewer hatch"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        2.427868,
+        -1.920543,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.934548,
+        1.934548,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_bounds": {
+        "xmin": 2.427868127822876,
+        "xmax": 2.427868127822876,
+        "ymin": -1.9205427169799805,
+        "ymax": -1.9205427169799805,
         "zmin": 0.0,
         "zmax": 0.0
       },
@@ -1094,6 +1712,63 @@
       ],
       "materials": [
         "Material"
+      ]
+    },
+    {
+      "name": "Cylinder",
+      "type": "MESH",
+      "collections": [
+        "No Parking Sign Board"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": "Plane.023",
+      "location": [
+        0.0,
+        0.0,
+        1.005406
+      ],
+      "rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.046796,
+        0.046817,
+        1.989299
+      ],
+      "world_bounds": {
+        "xmin": -10.852046966552734,
+        "xmax": -10.80525016784668,
+        "ymin": 19.1820011138916,
+        "ymax": 19.228818893432617,
+        "zmin": 0.07621657848358154,
+        "zmax": 2.0655157566070557
+      },
+      "world_dimensions": {
+        "x": 0.04679679870605469,
+        "y": 0.046817779541015625,
+        "z": 1.9892991781234741
+      },
+      "modifiers": [
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        },
+        {
+          "name": "WeightedNormal",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "no parking_Procedural Metal 01"
       ]
     },
     {
@@ -2581,7 +3256,7 @@
       },
       "modifiers": [],
       "materials": [
-        "HERO_MAT_SackboyYarn_Procedural"
+        "Cloth Brown"
       ]
     },
     {
@@ -2629,7 +3304,7 @@
       },
       "modifiers": [],
       "materials": [
-        "HERO_MAT_SackboyYarn_Procedural"
+        "Cloth Brown"
       ]
     },
     {
@@ -2677,6 +3352,54 @@
       },
       "modifiers": [],
       "materials": []
+    },
+    {
+      "name": "Handlebars.001",
+      "type": "MESH",
+      "collections": [
+        "Large Trash Can"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": "Large Trash Can",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.68882,
+        0.196537,
+        0.211064
+      ],
+      "world_bounds": {
+        "xmin": -0.3443523943424225,
+        "xmax": 0.34446802735328674,
+        "ymin": 23.715375900268555,
+        "ymax": 23.91191291809082,
+        "zmin": 1.5129683017730713,
+        "zmax": 1.7240326404571533
+      },
+      "world_dimensions": {
+        "x": 0.6888204216957092,
+        "y": 0.19653701782226562,
+        "z": 0.21106433868408203
+      },
+      "modifiers": [],
+      "materials": [
+        "Can.002"
+      ]
     },
     {
       "name": "HANDREFINE_J2B_Working",
@@ -2727,102 +3450,6 @@
       ]
     },
     {
-      "name": "HERO_BaggyJean_Leg_L_FitGuide",
-      "type": "MESH",
-      "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -0.549556,
-        0.014177,
-        0.495486
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.668009,
-        0.56063,
-        0.934799
-      ],
-      "world_bounds": {
-        "xmin": -0.8835599422454834,
-        "xmax": -0.21555113792419434,
-        "ymin": -0.26613783836364746,
-        "ymax": 0.29449233412742615,
-        "zmin": 0.028086543083190918,
-        "zmax": 0.9628852009773254
-      },
-      "world_dimensions": {
-        "x": 0.6680088043212891,
-        "y": 0.5606301724910736,
-        "z": 0.9347986578941345
-      },
-      "modifiers": [],
-      "materials": [
-        "HERO_MAT_BaggyDenim_DarkBlue"
-      ]
-    },
-    {
-      "name": "HERO_BaggyJean_Leg_R_FitGuide",
-      "type": "MESH",
-      "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.118453,
-        0.014177,
-        0.495486
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.668009,
-        0.56063,
-        0.934799
-      ],
-      "world_bounds": {
-        "xmin": -0.21555086970329285,
-        "xmax": 0.45245790481567383,
-        "ymin": -0.26613783836364746,
-        "ymax": 0.29449233412742615,
-        "zmin": 0.028086543083190918,
-        "zmax": 0.9628852009773254
-      },
-      "world_dimensions": {
-        "x": 0.6680087745189667,
-        "y": 0.5606301724910736,
-        "z": 0.9347986578941345
-      },
-      "modifiers": [],
-      "materials": [
-        "HERO_MAT_BaggyDenim_DarkBlue"
-      ]
-    },
-    {
       "name": "HERO_BlackSkateShoe_L_FlameAccent_0",
       "type": "MESH",
       "collections": [
@@ -2853,17 +3480,17 @@
         0.098979
       ],
       "world_bounds": {
-        "xmin": -1.0060285329818726,
-        "xmax": -0.9280940890312195,
-        "ymin": -0.17761734127998352,
-        "ymax": -0.08909674733877182,
-        "zmin": 0.06107943505048752,
-        "zmax": 0.16005811095237732
+        "xmin": -0.03896719589829445,
+        "xmax": 0.03896719589829445,
+        "ymin": -0.04426030069589615,
+        "ymax": 0.04426030069589615,
+        "zmin": -0.0494893416762352,
+        "zmax": 0.0494893416762352
       },
       "world_dimensions": {
-        "x": 0.07793444395065308,
-        "y": 0.0885205939412117,
-        "z": 0.0989786759018898
+        "x": 0.0779343917965889,
+        "y": 0.0885206013917923,
+        "z": 0.0989786833524704
       },
       "modifiers": [
         {
@@ -2910,17 +3537,17 @@
         0.098979
       ],
       "world_bounds": {
-        "xmin": -1.0060285329818726,
-        "xmax": -0.9280940890312195,
-        "ymin": -0.2292543649673462,
-        "ymax": -0.1407337784767151,
-        "zmin": 0.09957114607095718,
-        "zmax": 0.19854983687400818
+        "xmin": -0.03896719589829445,
+        "xmax": 0.03896719589829445,
+        "ymin": -0.04426030069589615,
+        "ymax": 0.04426030069589615,
+        "zmin": -0.0494893416762352,
+        "zmax": 0.0494893416762352
       },
       "world_dimensions": {
-        "x": 0.07793444395065308,
-        "y": 0.0885205864906311,
-        "z": 0.098978690803051
+        "x": 0.0779343917965889,
+        "y": 0.0885206013917923,
+        "z": 0.0989786833524704
       },
       "modifiers": [
         {
@@ -2967,17 +3594,17 @@
         0.098979
       ],
       "world_bounds": {
-        "xmin": -1.0060285329818726,
-        "xmax": -0.9280940890312195,
-        "ymin": -0.28089138865470886,
-        "ymax": -0.19237077236175537,
-        "zmin": 0.13806286454200745,
-        "zmax": 0.23704153299331665
+        "xmin": -0.03896719589829445,
+        "xmax": 0.03896719589829445,
+        "ymin": -0.04426030069589615,
+        "ymax": 0.04426030069589615,
+        "zmin": -0.0494893416762352,
+        "zmax": 0.0494893416762352
       },
       "world_dimensions": {
-        "x": 0.07793444395065308,
-        "y": 0.08852061629295349,
-        "z": 0.0989786684513092
+        "x": 0.0779343917965889,
+        "y": 0.0885206013917923,
+        "z": 0.0989786833524704
       },
       "modifiers": [
         {
@@ -2991,246 +3618,6 @@
       ],
       "materials": [
         "HERO_MAT_ShoeFlameOrangeYellow"
-      ]
-    },
-    {
-      "name": "HERO_BlackSkateShoe_L_Lace_0",
-      "type": "CURVE",
-      "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.306633,
-        0.025691,
-        0.008
-      ],
-      "world_bounds": {
-        "xmin": -0.7307056188583374,
-        "xmax": -0.4240730106830597,
-        "ymin": -0.16685724258422852,
-        "ymax": -0.14116646349430084,
-        "zmin": 0.23029214143753052,
-        "zmax": 0.2382921278476715
-      },
-      "world_dimensions": {
-        "x": 0.3066326081752777,
-        "y": 0.025690779089927673,
-        "z": 0.007999986410140991
-      },
-      "modifiers": [],
-      "materials": [
-        "HERO_MAT_SkateShoeWhitePanels"
-      ]
-    },
-    {
-      "name": "HERO_BlackSkateShoe_L_Lace_1",
-      "type": "CURVE",
-      "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.306633,
-        0.025691,
-        0.008
-      ],
-      "world_bounds": {
-        "xmin": -0.7307056188583374,
-        "xmax": -0.4240730106830597,
-        "ymin": -0.2184942662715912,
-        "ymax": -0.1928034871816635,
-        "zmin": 0.23029214143753052,
-        "zmax": 0.2382921278476715
-      },
-      "world_dimensions": {
-        "x": 0.3066326081752777,
-        "y": 0.025690779089927673,
-        "z": 0.007999986410140991
-      },
-      "modifiers": [],
-      "materials": [
-        "HERO_MAT_SkateShoeWhitePanels"
-      ]
-    },
-    {
-      "name": "HERO_BlackSkateShoe_L_Lace_2",
-      "type": "CURVE",
-      "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.306633,
-        0.025691,
-        0.008
-      ],
-      "world_bounds": {
-        "xmin": -0.7307056188583374,
-        "xmax": -0.4240730106830597,
-        "ymin": -0.27013128995895386,
-        "ymax": -0.244440495967865,
-        "zmin": 0.23029214143753052,
-        "zmax": 0.2382921278476715
-      },
-      "world_dimensions": {
-        "x": 0.3066326081752777,
-        "y": 0.025690793991088867,
-        "z": 0.007999986410140991
-      },
-      "modifiers": [],
-      "materials": [
-        "HERO_MAT_SkateShoeWhitePanels"
-      ]
-    },
-    {
-      "name": "HERO_BlackSkateShoe_L_Lace_3",
-      "type": "CURVE",
-      "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.306633,
-        0.025691,
-        0.008
-      ],
-      "world_bounds": {
-        "xmin": -0.7307056188583374,
-        "xmax": -0.4240730106830597,
-        "ymin": -0.32176831364631653,
-        "ymax": -0.29607751965522766,
-        "zmin": 0.23029214143753052,
-        "zmax": 0.2382921278476715
-      },
-      "world_dimensions": {
-        "x": 0.3066326081752777,
-        "y": 0.025690793991088867,
-        "z": 0.007999986410140991
-      },
-      "modifiers": [],
-      "materials": [
-        "HERO_MAT_SkateShoeWhitePanels"
-      ]
-    },
-    {
-      "name": "HERO_BlackSkateShoe_L_Main",
-      "type": "MESH",
-      "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -0.577389,
-        -0.089097,
-        0.096822
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.946347,
-        0.826193,
-        0.302435
-      ],
-      "world_bounds": {
-        "xmin": -1.050562858581543,
-        "xmax": -0.10421603918075562,
-        "ymin": -0.5021932721138,
-        "ymax": 0.32399994134902954,
-        "zmin": -0.05439569056034088,
-        "zmax": 0.24803917109966278
-      },
-      "world_dimensions": {
-        "x": 0.9463468194007874,
-        "y": 0.8261932134628296,
-        "z": 0.30243486166000366
-      },
-      "modifiers": [],
-      "materials": [
-        "HERO_MAT_BlackSkateShoe"
       ]
     },
     {
@@ -3291,54 +3678,6 @@
       ]
     },
     {
-      "name": "HERO_BlackSkateShoe_L_WhiteToe",
-      "type": "MESH",
-      "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -0.577389,
-        -0.369412,
-        0.124316
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.501006,
-        0.177041,
-        0.148468
-      ],
-      "world_bounds": {
-        "xmin": -0.8278924226760864,
-        "xmax": -0.32688599824905396,
-        "ymin": -0.4579325318336487,
-        "ymax": -0.2808915078639984,
-        "zmin": 0.050081804394721985,
-        "zmax": 0.19854982197284698
-      },
-      "world_dimensions": {
-        "x": 0.5010064244270325,
-        "y": 0.17704102396965027,
-        "z": 0.148468017578125
-      },
-      "modifiers": [],
-      "materials": [
-        "HERO_MAT_SkateShoeWhitePanels"
-      ]
-    },
-    {
       "name": "HERO_BlackSkateShoe_R_FlameAccent_0",
       "type": "MESH",
       "collections": [
@@ -3369,17 +3708,17 @@
         0.098979
       ],
       "world_bounds": {
-        "xmin": 0.49699193239212036,
-        "xmax": 0.5749263167381287,
-        "ymin": -0.17761734127998352,
-        "ymax": -0.08909674733877182,
-        "zmin": 0.06107943505048752,
-        "zmax": 0.16005811095237732
+        "xmin": -0.03896719589829445,
+        "xmax": 0.03896719589829445,
+        "ymin": -0.04426030069589615,
+        "ymax": 0.04426030069589615,
+        "zmin": -0.0494893416762352,
+        "zmax": 0.0494893416762352
       },
       "world_dimensions": {
-        "x": 0.0779343843460083,
-        "y": 0.0885205939412117,
-        "z": 0.0989786759018898
+        "x": 0.0779343917965889,
+        "y": 0.0885206013917923,
+        "z": 0.0989786833524704
       },
       "modifiers": [
         {
@@ -3426,17 +3765,17 @@
         0.098979
       ],
       "world_bounds": {
-        "xmin": 0.49699193239212036,
-        "xmax": 0.5749263167381287,
-        "ymin": -0.2292543649673462,
-        "ymax": -0.1407337784767151,
-        "zmin": 0.09957114607095718,
-        "zmax": 0.19854983687400818
+        "xmin": -0.03896719589829445,
+        "xmax": 0.03896719589829445,
+        "ymin": -0.04426030069589615,
+        "ymax": 0.04426030069589615,
+        "zmin": -0.0494893416762352,
+        "zmax": 0.0494893416762352
       },
       "world_dimensions": {
-        "x": 0.0779343843460083,
-        "y": 0.0885205864906311,
-        "z": 0.098978690803051
+        "x": 0.0779343917965889,
+        "y": 0.0885206013917923,
+        "z": 0.0989786833524704
       },
       "modifiers": [
         {
@@ -3483,17 +3822,17 @@
         0.098979
       ],
       "world_bounds": {
-        "xmin": 0.49699193239212036,
-        "xmax": 0.5749263167381287,
-        "ymin": -0.28089138865470886,
-        "ymax": -0.19237077236175537,
-        "zmin": 0.13806286454200745,
-        "zmax": 0.23704153299331665
+        "xmin": -0.03896719589829445,
+        "xmax": 0.03896719589829445,
+        "ymin": -0.04426030069589615,
+        "ymax": 0.04426030069589615,
+        "zmin": -0.0494893416762352,
+        "zmax": 0.0494893416762352
       },
       "world_dimensions": {
-        "x": 0.0779343843460083,
-        "y": 0.08852061629295349,
-        "z": 0.0989786684513092
+        "x": 0.0779343917965889,
+        "y": 0.0885206013917923,
+        "z": 0.0989786833524704
       },
       "modifiers": [
         {
@@ -3507,246 +3846,6 @@
       ],
       "materials": [
         "HERO_MAT_ShoeFlameOrangeYellow"
-      ]
-    },
-    {
-      "name": "HERO_BlackSkateShoe_R_Lace_0",
-      "type": "CURVE",
-      "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.306633,
-        0.025691,
-        0.008
-      ],
-      "world_bounds": {
-        "xmin": -0.007029158528894186,
-        "xmax": 0.29960349202156067,
-        "ymin": -0.16685724258422852,
-        "ymax": -0.14116646349430084,
-        "zmin": 0.23029214143753052,
-        "zmax": 0.2382921278476715
-      },
-      "world_dimensions": {
-        "x": 0.30663265055045485,
-        "y": 0.025690779089927673,
-        "z": 0.007999986410140991
-      },
-      "modifiers": [],
-      "materials": [
-        "HERO_MAT_SkateShoeWhitePanels"
-      ]
-    },
-    {
-      "name": "HERO_BlackSkateShoe_R_Lace_1",
-      "type": "CURVE",
-      "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.306633,
-        0.025691,
-        0.008
-      ],
-      "world_bounds": {
-        "xmin": -0.007029158528894186,
-        "xmax": 0.29960349202156067,
-        "ymin": -0.2184942662715912,
-        "ymax": -0.1928034871816635,
-        "zmin": 0.23029214143753052,
-        "zmax": 0.2382921278476715
-      },
-      "world_dimensions": {
-        "x": 0.30663265055045485,
-        "y": 0.025690779089927673,
-        "z": 0.007999986410140991
-      },
-      "modifiers": [],
-      "materials": [
-        "HERO_MAT_SkateShoeWhitePanels"
-      ]
-    },
-    {
-      "name": "HERO_BlackSkateShoe_R_Lace_2",
-      "type": "CURVE",
-      "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.306633,
-        0.025691,
-        0.008
-      ],
-      "world_bounds": {
-        "xmin": -0.007029158528894186,
-        "xmax": 0.29960349202156067,
-        "ymin": -0.27013128995895386,
-        "ymax": -0.244440495967865,
-        "zmin": 0.23029214143753052,
-        "zmax": 0.2382921278476715
-      },
-      "world_dimensions": {
-        "x": 0.30663265055045485,
-        "y": 0.025690793991088867,
-        "z": 0.007999986410140991
-      },
-      "modifiers": [],
-      "materials": [
-        "HERO_MAT_SkateShoeWhitePanels"
-      ]
-    },
-    {
-      "name": "HERO_BlackSkateShoe_R_Lace_3",
-      "type": "CURVE",
-      "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.306633,
-        0.025691,
-        0.008
-      ],
-      "world_bounds": {
-        "xmin": -0.007029158528894186,
-        "xmax": 0.29960349202156067,
-        "ymin": -0.32176831364631653,
-        "ymax": -0.29607751965522766,
-        "zmin": 0.23029214143753052,
-        "zmax": 0.2382921278476715
-      },
-      "world_dimensions": {
-        "x": 0.30663265055045485,
-        "y": 0.025690793991088867,
-        "z": 0.007999986410140991
-      },
-      "modifiers": [],
-      "materials": [
-        "HERO_MAT_SkateShoeWhitePanels"
-      ]
-    },
-    {
-      "name": "HERO_BlackSkateShoe_R_Main",
-      "type": "MESH",
-      "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.146287,
-        -0.089097,
-        0.096822
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.946347,
-        0.826193,
-        0.302435
-      ],
-      "world_bounds": {
-        "xmin": -0.3268864154815674,
-        "xmax": 0.61946040391922,
-        "ymin": -0.5021932721138,
-        "ymax": 0.32399994134902954,
-        "zmin": -0.05439569056034088,
-        "zmax": 0.24803917109966278
-      },
-      "world_dimensions": {
-        "x": 0.9463468194007874,
-        "y": 0.8261932134628296,
-        "z": 0.30243486166000366
-      },
-      "modifiers": [],
-      "materials": [
-        "HERO_MAT_BlackSkateShoe"
       ]
     },
     {
@@ -3802,54 +3901,6 @@
           "type": "WEIGHTED_NORMAL"
         }
       ],
-      "materials": [
-        "HERO_MAT_SkateShoeWhitePanels"
-      ]
-    },
-    {
-      "name": "HERO_BlackSkateShoe_R_WhiteToe",
-      "type": "MESH",
-      "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.146287,
-        -0.369412,
-        0.124316
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.501006,
-        0.177041,
-        0.148468
-      ],
-      "world_bounds": {
-        "xmin": -0.10421599447727203,
-        "xmax": 0.39679044485092163,
-        "ymin": -0.4579325318336487,
-        "ymax": -0.2808915078639984,
-        "zmin": 0.050081804394721985,
-        "zmax": 0.19854982197284698
-      },
-      "world_dimensions": {
-        "x": 0.5010064393281937,
-        "y": 0.17704102396965027,
-        "z": 0.148468017578125
-      },
-      "modifiers": [],
       "materials": [
         "HERO_MAT_SkateShoeWhitePanels"
       ]
@@ -4018,14 +4069,14 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        5.21181,
-        3.320432,
+        5.265154,
+        1.978295,
         5.190777
       ],
       "rotation_euler": [
         -0.018607,
         0.020346,
-        0.205071
+        3.30697
       ],
       "scale": [
         3.526878,
@@ -4038,10 +4089,10 @@
         0.0
       ],
       "world_bounds": {
-        "xmin": 5.211810111999512,
-        "xmax": 5.211810111999512,
-        "ymin": 3.320432186126709,
-        "ymax": 3.320432186126709,
+        "xmin": 5.265153884887695,
+        "xmax": 5.265153884887695,
+        "ymin": 1.978294849395752,
+        "ymax": 1.978294849395752,
         "zmin": 5.190776824951172,
         "zmax": 5.190776824951172
       },
@@ -4130,7 +4181,7 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        -0.435747,
+        0.007344,
         22.906092,
         7.155601
       ],
@@ -4150,8 +4201,8 @@
         0.0
       ],
       "world_bounds": {
-        "xmin": -0.43574726581573486,
-        "xmax": -0.43574726581573486,
+        "xmin": 0.00734373927116394,
+        "xmax": 0.00734373927116394,
         "ymin": 22.906091690063477,
         "ymax": 22.906091690063477,
         "zmin": 7.155600547790527,
@@ -4970,294 +5021,6 @@
       ],
       "materials": [
         "HERO_MAT_Glass_NightGlossy"
-      ]
-    },
-    {
-      "name": "HERO_Hoodie_CenterZip_Guide",
-      "type": "CURVE",
-      "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.012,
-        0.041501,
-        0.907695
-      ],
-      "world_bounds": {
-        "xmin": -0.2215510755777359,
-        "xmax": -0.20955108106136322,
-        "ymin": -0.6262171864509583,
-        "ymax": -0.5847166776657104,
-        "zmin": 0.7702316045761108,
-        "zmax": 1.6779261827468872
-      },
-      "world_dimensions": {
-        "x": 0.01199999451637268,
-        "y": 0.0415005087852478,
-        "z": 0.9076945781707764
-      },
-      "modifiers": [],
-      "materials": [
-        "HERO_MAT_ClothingSeams"
-      ]
-    },
-    {
-      "name": "HERO_Hoodie_Hem_Guide",
-      "type": "CURVE",
-      "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.224683,
-        0.012,
-        0.012
-      ],
-      "world_bounds": {
-        "xmin": -0.8278927206993103,
-        "xmax": 0.3967905640602112,
-        "ymin": -0.6114669442176819,
-        "ymax": -0.5994669795036316,
-        "zmin": 0.7369325757026672,
-        "zmax": 0.7489325404167175
-      },
-      "world_dimensions": {
-        "x": 1.2246832847595215,
-        "y": 0.011999964714050293,
-        "z": 0.011999964714050293
-      },
-      "modifiers": [],
-      "materials": [
-        "HERO_MAT_ClothingSeams"
-      ]
-    },
-    {
-      "name": "HERO_Hoodie_Hood_FitGuide",
-      "type": "MESH",
-      "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -0.215551,
-        -0.010823,
-        2.00766
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        2.338034,
-        1.357317,
-        1.319716
-      ],
-      "world_bounds": {
-        "xmin": -1.384568214416504,
-        "xmax": 0.9534652829170227,
-        "ymin": -0.689481258392334,
-        "ymax": 0.6678361296653748,
-        "zmin": 1.3478022813796997,
-        "zmax": 2.667518138885498
-      },
-      "world_dimensions": {
-        "x": 2.3380334973335266,
-        "y": 1.3573173880577087,
-        "z": 1.3197158575057983
-      },
-      "modifiers": [],
-      "materials": [
-        "HERO_MAT_BlackHoodie_Cloth"
-      ]
-    },
-    {
-      "name": "HERO_Hoodie_Sleeve_L_FitGuide",
-      "type": "MESH",
-      "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -1.384567,
-        0.014177,
-        1.292814
-      ],
-      "rotation_euler": [
-        0.0,
-        1.570796,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.389672,
-        0.389672,
-        1.113348
-      ],
-      "world_bounds": {
-        "xmin": -1.9412411451339722,
-        "xmax": -0.8278926610946655,
-        "ymin": -0.18065868318080902,
-        "ymax": 0.20901326835155487,
-        "zmin": 1.097978115081787,
-        "zmax": 1.4876501560211182
-      },
-      "world_dimensions": {
-        "x": 1.1133484840393066,
-        "y": 0.3896719515323639,
-        "z": 0.38967204093933105
-      },
-      "modifiers": [],
-      "materials": [
-        "HERO_MAT_BlackHoodie_Cloth"
-      ]
-    },
-    {
-      "name": "HERO_Hoodie_Sleeve_R_FitGuide",
-      "type": "MESH",
-      "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.953465,
-        0.014177,
-        1.292814
-      ],
-      "rotation_euler": [
-        0.0,
-        1.570796,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.389672,
-        0.389672,
-        1.113348
-      ],
-      "world_bounds": {
-        "xmin": 0.3967905640602112,
-        "xmax": 1.5101391077041626,
-        "ymin": -0.18065868318080902,
-        "ymax": 0.20901326835155487,
-        "zmin": 1.097978115081787,
-        "zmax": 1.4876501560211182
-      },
-      "world_dimensions": {
-        "x": 1.1133485436439514,
-        "y": 0.3896719515323639,
-        "z": 0.38967204093933105
-      },
-      "modifiers": [],
-      "materials": [
-        "HERO_MAT_BlackHoodie_Cloth"
-      ]
-    },
-    {
-      "name": "HERO_Hoodie_Torso_FitGuide",
-      "type": "MESH",
-      "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        -0.215551,
-        0.014177,
-        1.182838
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        1.503021,
-        1.268797,
-        0.989787
-      ],
-      "world_bounds": {
-        "xmin": -0.9670621156692505,
-        "xmax": 0.5359594225883484,
-        "ymin": -0.6202208995819092,
-        "ymax": 0.6485757827758789,
-        "zmin": 0.6879444122314453,
-        "zmax": 1.6777312755584717
-      },
-      "world_dimensions": {
-        "x": 1.5030215382575989,
-        "y": 1.268796682357788,
-        "z": 0.9897868633270264
-      },
-      "modifiers": [],
-      "materials": [
-        "HERO_MAT_BlackHoodie_Cloth"
       ]
     },
     {
@@ -6135,14 +5898,14 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        5.219407,
-        2.965095,
+        5.271664,
+        2.333654,
         5.278863
       ],
       "rotation_euler": [
         1.570796,
-        0.0,
-        0.0
+        -0.0,
+        3.101899
       ],
       "scale": [
         1.0,
@@ -6155,16 +5918,16 @@
         0.64
       ],
       "world_bounds": {
-        "xmin": 5.193801403045654,
-        "xmax": 5.245011806488037,
-        "ymin": 2.645094871520996,
-        "ymax": 3.285094738006592,
+        "xmin": 5.2333807945251465,
+        "xmax": 5.309947490692139,
+        "ymin": 2.0128896236419678,
+        "ymax": 2.6544177532196045,
         "zmin": 5.252862930297852,
         "zmax": 5.304862976074219
       },
       "world_dimensions": {
-        "x": 0.05121040344238281,
-        "y": 0.6399998664855957,
+        "x": 0.07656669616699219,
+        "y": 0.6415281295776367,
         "z": 0.05200004577636719
       },
       "modifiers": [],
@@ -6240,14 +6003,14 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        5.219407,
-        3.305095,
+        5.258172,
+        1.993921,
         5.278863
       ],
       "rotation_euler": [
         0.0,
-        0.0,
-        0.0
+        -0.0,
+        3.101899
       ],
       "scale": [
         1.0,
@@ -6260,16 +6023,16 @@
         0.12
       ],
       "world_bounds": {
-        "xmin": 4.7994065284729,
-        "xmax": 5.639406681060791,
-        "ymin": 3.1350948810577393,
-        "ymax": 3.47509503364563,
+        "xmin": 4.831756591796875,
+        "xmax": 5.684587478637695,
+        "ymin": 1.807388424873352,
+        "ymax": 2.1804542541503906,
         "zmin": 5.218863010406494,
         "zmax": 5.338862895965576
       },
       "world_dimensions": {
-        "x": 0.8400001525878906,
-        "y": 0.3400001525878906,
+        "x": 0.8528308868408203,
+        "y": 0.3730658292770386,
         "z": 0.11999988555908203
       },
       "modifiers": [
@@ -6354,14 +6117,14 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        5.219407,
-        3.305095,
+        5.258172,
+        1.993921,
         5.238863
       ],
       "rotation_euler": [
         0.0,
-        0.0,
-        0.0
+        -0.0,
+        3.101899
       ],
       "scale": [
         1.0,
@@ -6374,16 +6137,16 @@
         0.028
       ],
       "world_bounds": {
-        "xmin": 4.859406471252441,
-        "xmax": 5.57940673828125,
-        "ymin": 3.1750950813293457,
-        "ymax": 3.4350948333740234,
+        "xmin": 4.893296718597412,
+        "xmax": 5.623047351837158,
+        "ymin": 1.8497378826141357,
+        "ymax": 2.1381046772003174,
         "zmin": 5.224863052368164,
         "zmax": 5.252862930297852
       },
       "world_dimensions": {
-        "x": 0.7200002670288086,
-        "y": 0.25999975204467773,
+        "x": 0.7297506332397461,
+        "y": 0.28836679458618164,
         "z": 0.0279998779296875
       },
       "modifiers": [
@@ -6459,14 +6222,14 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        5.219407,
-        2.645095,
-        2.639431
+        5.284363,
+        2.653402,
+        2.639432
       ],
       "rotation_euler": [
         0.0,
-        0.0,
-        0.0
+        -0.0,
+        3.101899
       ],
       "scale": [
         1.0,
@@ -6479,17 +6242,17 @@
         5.278863
       ],
       "world_bounds": {
-        "xmin": 5.1744065284729,
-        "xmax": 5.264406681060791,
-        "ymin": 2.6000945568084717,
-        "ymax": 2.6900947093963623,
-        "zmin": 0.0,
+        "xmin": 5.237612724304199,
+        "xmax": 5.331112861633301,
+        "ymin": 2.606651544570923,
+        "ymax": 2.7001521587371826,
+        "zmin": 2.384185791015625e-07,
         "zmax": 5.278862953186035
       },
       "world_dimensions": {
-        "x": 0.09000015258789062,
-        "y": 0.09000015258789062,
-        "z": 5.278862953186035
+        "x": 0.09350013732910156,
+        "y": 0.09350061416625977,
+        "z": 5.278862714767456
       },
       "modifiers": [],
       "materials": [
@@ -6527,17 +6290,17 @@
         0.11
       ],
       "world_bounds": {
-        "xmin": 2.0953142642974854,
-        "xmax": 2.2053143978118896,
-        "ymin": 0.3191772997379303,
-        "ymax": 0.42917731404304504,
-        "zmin": 0.2755213975906372,
-        "zmax": 0.38552141189575195
+        "xmin": -0.054999999701976776,
+        "xmax": 0.054999999701976776,
+        "ymin": -0.054999999701976776,
+        "ymax": 0.054999999701976776,
+        "zmin": -0.054999999701976776,
+        "zmax": 0.054999999701976776
       },
       "world_dimensions": {
-        "x": 0.1100001335144043,
-        "y": 0.11000001430511475,
-        "z": 0.11000001430511475
+        "x": 0.10999999940395355,
+        "y": 0.10999999940395355,
+        "z": 0.10999999940395355
       },
       "modifiers": [
         {
@@ -6584,17 +6347,17 @@
         0.11
       ],
       "world_bounds": {
-        "xmin": 2.0953142642974854,
-        "xmax": 2.2053143978118896,
-        "ymin": 0.85917729139328,
-        "ymax": 0.9691773056983948,
-        "zmin": 0.2755213975906372,
-        "zmax": 0.38552141189575195
+        "xmin": -0.054999999701976776,
+        "xmax": 0.054999999701976776,
+        "ymin": -0.054999999701976776,
+        "ymax": 0.054999999701976776,
+        "zmin": -0.054999999701976776,
+        "zmax": 0.054999999701976776
       },
       "world_dimensions": {
-        "x": 0.1100001335144043,
-        "y": 0.11000001430511475,
-        "z": 0.11000001430511475
+        "x": 0.10999999940395355,
+        "y": 0.10999999940395355,
+        "z": 0.10999999940395355
       },
       "modifiers": [
         {
@@ -6641,17 +6404,17 @@
         0.11
       ],
       "world_bounds": {
-        "xmin": 2.0953142642974854,
-        "xmax": 2.2053143978118896,
-        "ymin": 0.13917729258537292,
-        "ymax": 0.24917730689048767,
-        "zmin": 0.2755213975906372,
-        "zmax": 0.38552141189575195
+        "xmin": -0.054999999701976776,
+        "xmax": 0.054999999701976776,
+        "ymin": -0.054999999701976776,
+        "ymax": 0.054999999701976776,
+        "zmin": -0.054999999701976776,
+        "zmax": 0.054999999701976776
       },
       "world_dimensions": {
-        "x": 0.1100001335144043,
-        "y": 0.11000001430511475,
-        "z": 0.11000001430511475
+        "x": 0.10999999940395355,
+        "y": 0.10999999940395355,
+        "z": 0.10999999940395355
       },
       "modifiers": [
         {
@@ -6698,17 +6461,17 @@
         0.11
       ],
       "world_bounds": {
-        "xmin": 2.0953142642974854,
-        "xmax": 2.2053143978118896,
-        "ymin": 0.4991772770881653,
-        "ymax": 0.60917729139328,
-        "zmin": 0.2755213975906372,
-        "zmax": 0.38552141189575195
+        "xmin": -0.054999999701976776,
+        "xmax": 0.054999999701976776,
+        "ymin": -0.054999999701976776,
+        "ymax": 0.054999999701976776,
+        "zmin": -0.054999999701976776,
+        "zmax": 0.054999999701976776
       },
       "world_dimensions": {
-        "x": 0.1100001335144043,
-        "y": 0.11000001430511475,
-        "z": 0.11000001430511475
+        "x": 0.10999999940395355,
+        "y": 0.10999999940395355,
+        "z": 0.10999999940395355
       },
       "modifiers": [
         {
@@ -6755,17 +6518,17 @@
         0.11
       ],
       "world_bounds": {
-        "xmin": 2.0953142642974854,
-        "xmax": 2.2053143978118896,
-        "ymin": 0.6791772842407227,
-        "ymax": 0.7891772985458374,
-        "zmin": 0.2755213975906372,
-        "zmax": 0.38552141189575195
+        "xmin": -0.054999999701976776,
+        "xmax": 0.054999999701976776,
+        "ymin": -0.054999999701976776,
+        "ymax": 0.054999999701976776,
+        "zmin": -0.054999999701976776,
+        "zmax": 0.054999999701976776
       },
       "world_dimensions": {
-        "x": 0.1100001335144043,
-        "y": 0.11000001430511475,
-        "z": 0.11000001430511475
+        "x": 0.10999999940395355,
+        "y": 0.10999999940395355,
+        "z": 0.10999999940395355
       },
       "modifiers": [
         {
@@ -6812,17 +6575,17 @@
         0.11
       ],
       "world_bounds": {
-        "xmin": 2.0953142642974854,
-        "xmax": 2.2053143978118896,
-        "ymin": -0.04082270711660385,
-        "ymax": 0.0691772922873497,
-        "zmin": 0.2755213975906372,
-        "zmax": 0.38552141189575195
+        "xmin": -0.054999999701976776,
+        "xmax": 0.054999999701976776,
+        "ymin": -0.054999999701976776,
+        "ymax": 0.054999999701976776,
+        "zmin": -0.054999999701976776,
+        "zmax": 0.054999999701976776
       },
       "world_dimensions": {
-        "x": 0.1100001335144043,
+        "x": 0.10999999940395355,
         "y": 0.10999999940395355,
-        "z": 0.11000001430511475
+        "z": 0.10999999940395355
       },
       "modifiers": [
         {
@@ -7256,198 +7019,6 @@
       "modifiers": [],
       "materials": [
         "HERO_MAT_RooftopHVAC"
-      ]
-    },
-    {
-      "name": "HERO_ShoeGraphic_L_OrangeSweep",
-      "type": "CURVE",
-      "collections": [
-        "HERO_SHOE_GRAPHIC_GUIDES"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.15977,
-        0.125876,
-        0.058915
-      ],
-      "world_bounds": {
-        "xmin": -1.23495352268219,
-        "xmax": -1.0751830339431763,
-        "ymin": -0.4621851444244385,
-        "ymax": -0.3363094627857208,
-        "zmin": 0.22982731461524963,
-        "zmax": 0.28874194622039795
-      },
-      "world_dimensions": {
-        "x": 0.15977048873901367,
-        "y": 0.12587568163871765,
-        "z": 0.058914631605148315
-      },
-      "modifiers": [],
-      "materials": [
-        "HERO_MAT_ShoeGraphicSoftOrange"
-      ]
-    },
-    {
-      "name": "HERO_ShoeGraphic_L_YellowSweep",
-      "type": "CURVE",
-      "collections": [
-        "HERO_SHOE_GRAPHIC_GUIDES"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.212327,
-        0.116817,
-        0.04804
-      ],
-      "world_bounds": {
-        "xmin": -1.2193821668624878,
-        "xmax": -1.007055401802063,
-        "ymin": -0.4316008388996124,
-        "ymax": -0.31478410959243774,
-        "zmin": 0.25846850872039795,
-        "zmax": 0.3065088093280792
-      },
-      "world_dimensions": {
-        "x": 0.2123267650604248,
-        "y": 0.11681672930717468,
-        "z": 0.048040300607681274
-      },
-      "modifiers": [],
-      "materials": [
-        "HERO_MAT_ShoeGraphicSoftYellow"
-      ]
-    },
-    {
-      "name": "HERO_ShoeGraphic_R_OrangeSweep",
-      "type": "CURVE",
-      "collections": [
-        "HERO_SHOE_GRAPHIC_GUIDES"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.15977,
-        0.125876,
-        0.058915
-      ],
-      "world_bounds": {
-        "xmin": 0.6440809369087219,
-        "xmax": 0.803851306438446,
-        "ymin": -0.4621851444244385,
-        "ymax": -0.3363094627857208,
-        "zmin": 0.22982731461524963,
-        "zmax": 0.28874194622039795
-      },
-      "world_dimensions": {
-        "x": 0.15977036952972412,
-        "y": 0.12587568163871765,
-        "z": 0.058914631605148315
-      },
-      "modifiers": [],
-      "materials": [
-        "HERO_MAT_ShoeGraphicSoftOrange"
-      ]
-    },
-    {
-      "name": "HERO_ShoeGraphic_R_YellowSweep",
-      "type": "CURVE",
-      "collections": [
-        "HERO_SHOE_GRAPHIC_GUIDES"
-      ],
-      "hide_viewport": false,
-      "hide_render": false,
-      "visible_get": true,
-      "parent": null,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation_euler": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.212327,
-        0.116817,
-        0.04804
-      ],
-      "world_bounds": {
-        "xmin": 0.5759531855583191,
-        "xmax": 0.7882799506187439,
-        "ymin": -0.4316008388996124,
-        "ymax": -0.31478410959243774,
-        "zmin": 0.25846850872039795,
-        "zmax": 0.3065088093280792
-      },
-      "world_dimensions": {
-        "x": 0.2123267650604248,
-        "y": 0.11681672930717468,
-        "z": 0.048040300607681274
-      },
-      "modifiers": [],
-      "materials": [
-        "HERO_MAT_ShoeGraphicSoftYellow"
       ]
     },
     {
@@ -9041,6 +8612,244 @@
       ]
     },
     {
+      "name": "Large Trash Can",
+      "type": "EMPTY",
+      "collections": [
+        "Large Trash Can"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.0,
+        23.245672,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.524537,
+        1.524537,
+        1.524537
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_bounds": {
+        "xmin": 0.0,
+        "xmax": 0.0,
+        "ymin": 23.24567222595215,
+        "ymax": 23.24567222595215,
+        "zmin": 0.0,
+        "zmax": 0.0
+      },
+      "world_dimensions": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modifiers": [],
+      "materials": []
+    },
+    {
+      "name": "Lid Pins.001",
+      "type": "MESH",
+      "collections": [
+        "Large Trash Can"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": "Large Trash Can",
+      "location": [
+        -0.0,
+        0.417478,
+        1.111198
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.747022,
+        0.04281,
+        0.04281
+      ],
+      "world_bounds": {
+        "xmin": -0.3735109567642212,
+        "xmax": 0.3735109567642212,
+        "ymin": 23.860727310180664,
+        "ymax": 23.903535842895508,
+        "zmin": 1.6726596355438232,
+        "zmax": 1.7154700756072998
+      },
+      "world_dimensions": {
+        "x": 0.7470219135284424,
+        "y": 0.04280853271484375,
+        "z": 0.04281044006347656
+      },
+      "modifiers": [],
+      "materials": [
+        "Can.001"
+      ]
+    },
+    {
+      "name": "Lid.001",
+      "type": "MESH",
+      "collections": [
+        "Large Trash Can"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": "Large Trash Can",
+      "location": [
+        -0.0,
+        0.417478,
+        1.111198
+      ],
+      "rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.053915,
+        1.260362,
+        0.138174
+      ],
+      "world_bounds": {
+        "xmin": -0.5269573330879211,
+        "xmax": 0.5269573330879211,
+        "ymin": 22.657508850097656,
+        "ymax": 23.917869567871094,
+        "zmin": 1.659932255744934,
+        "zmax": 1.7981065511703491
+      },
+      "world_dimensions": {
+        "x": 1.0539146661758423,
+        "y": 1.2603607177734375,
+        "z": 0.13817429542541504
+      },
+      "modifiers": [],
+      "materials": [
+        "Can.002"
+      ]
+    },
+    {
+      "name": "Mball.008",
+      "type": "MESH",
+      "collections": [
+        "No Parking Sign Board"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": "177d920ddde57c74f8e1ef18863ab511",
+      "location": [
+        0.127337,
+        -0.030586,
+        2.01407
+      ],
+      "rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        0.004038,
+        0.004038,
+        0.004038
+      ],
+      "dimensions": [
+        0.265476,
+        0.016805,
+        0.341255
+      ],
+      "world_bounds": {
+        "xmin": -10.962285041809082,
+        "xmax": -10.696808815002441,
+        "ymin": 19.16750144958496,
+        "ymax": 19.188295364379883,
+        "zmin": 1.7564797401428223,
+        "zmax": 2.097907543182373
+      },
+      "world_dimensions": {
+        "x": 0.2654762268066406,
+        "y": 0.020793914794921875,
+        "z": 0.3414278030395508
+      },
+      "modifiers": [],
+      "materials": [
+        "no parking_Rusty painted metal"
+      ]
+    },
+    {
+      "name": "Mball.011",
+      "type": "MESH",
+      "collections": [
+        "No Parking Sign Board"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": "Plane.023",
+      "location": [
+        -0.022724,
+        -0.005908,
+        0.025406
+      ],
+      "rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        0.005831,
+        0.005831,
+        0.005831
+      ],
+      "dimensions": [
+        0.059259,
+        0.057906,
+        0.027551
+      ],
+      "world_bounds": {
+        "xmin": -10.858039855957031,
+        "xmax": -10.79878044128418,
+        "ymin": 19.177288055419922,
+        "ymax": 19.23519515991211,
+        "zmin": 0.06451467424631119,
+        "zmax": 0.09206598252058029
+      },
+      "world_dimensions": {
+        "x": 0.05925941467285156,
+        "y": 0.0579071044921875,
+        "z": 0.027551308274269104
+      },
+      "modifiers": [],
+      "materials": [
+        "no parking_Procedural Metal 01"
+      ]
+    },
+    {
       "name": "MESHY_LEFT_REFINED_00",
       "type": "MESH",
       "collections": [
@@ -9181,6 +8990,52 @@
       ]
     },
     {
+      "name": "No Parking Sign Board",
+      "type": "EMPTY",
+      "collections": [
+        "No Parking Sign Board"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -10.828649,
+        19.20541,
+        0.060147
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.558151,
+        0.558151,
+        0.558151
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_bounds": {
+        "xmin": -10.828648567199707,
+        "xmax": -10.828648567199707,
+        "ymin": 19.20541000366211,
+        "ymax": 19.20541000366211,
+        "zmin": 0.060146719217300415,
+        "zmax": 0.060146719217300415
+      },
+      "world_dimensions": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "modifiers": [],
+      "materials": []
+    },
+    {
       "name": "Plane",
       "type": "MESH",
       "collections": [
@@ -9231,6 +9086,60 @@
       ],
       "materials": [
         "Material.002"
+      ]
+    },
+    {
+      "name": "Plane.001",
+      "type": "MESH",
+      "collections": [
+        "Shoes"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": "Shoes",
+      "location": [
+        -0.064073,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        -0.0,
+        1.48353
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.928914,
+        0.506706,
+        0.372303
+      ],
+      "world_bounds": {
+        "xmin": -3.3900463581085205,
+        "xmax": -2.7635300159454346,
+        "ymin": -0.5326597094535828,
+        "ymax": 0.41793522238731384,
+        "zmin": 7.768999057589099e-05,
+        "zmax": 0.37238115072250366
+      },
+      "world_dimensions": {
+        "x": 0.6265163421630859,
+        "y": 0.9505949318408966,
+        "z": 0.37230346073192777
+      },
+      "modifiers": [],
+      "materials": [
+        "Black rubber",
+        "Cloth Black",
+        "Shoes_Leather",
+        "Shoes_Metal",
+        "Shoes_Lace",
+        "Shoes_Interior Pad",
+        "Black rubber"
       ]
     },
     {
@@ -10297,6 +10206,130 @@
       ]
     },
     {
+      "name": "Plane.022",
+      "type": "MESH",
+      "collections": [
+        "Shoes"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": "Shoes",
+      "location": [
+        0.065381,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        3.141593,
+        -0.0,
+        -1.48353
+      ],
+      "scale": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "dimensions": [
+        0.928914,
+        0.506706,
+        0.372303
+      ],
+      "world_bounds": {
+        "xmin": -2.8840830326080322,
+        "xmax": -2.257566213607788,
+        "ymin": -0.5326597094535828,
+        "ymax": 0.41793522238731384,
+        "zmin": 7.766615453874692e-05,
+        "zmax": 0.37238115072250366
+      },
+      "world_dimensions": {
+        "x": 0.6265168190002441,
+        "y": 0.9505949318408966,
+        "z": 0.3723034845679649
+      },
+      "modifiers": [
+        {
+          "name": "WeightedNormal",
+          "type": "WEIGHTED_NORMAL"
+        },
+        {
+          "name": "WeightedNormal.001",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "Black rubber",
+        "Cloth Black",
+        "Shoes_Leather",
+        "Shoes_Metal",
+        "Shoes_Lace",
+        "Shoes_Interior Pad",
+        "Black rubber"
+      ]
+    },
+    {
+      "name": "Plane.023",
+      "type": "MESH",
+      "collections": [
+        "No Parking Sign Board"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": "No Parking Sign Board",
+      "location": [
+        -0.0,
+        0.0,
+        0.005406
+      ],
+      "rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.267584,
+        0.267584,
+        0.019996
+      ],
+      "world_bounds": {
+        "xmin": -10.962440490722656,
+        "xmax": -10.694856643676758,
+        "ymin": 19.071617126464844,
+        "ymax": 19.339202880859375,
+        "zmin": 0.06555668264627457,
+        "zmax": 0.08555261790752411
+      },
+      "world_dimensions": {
+        "x": 0.26758384704589844,
+        "y": 0.26758575439453125,
+        "z": 0.019995935261249542
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        },
+        {
+          "name": "WeightedNormal",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "no parking_Procedural Metal 01"
+      ]
+    },
+    {
       "name": "Plane.024",
       "type": "MESH",
       "collections": [
@@ -10554,6 +10587,54 @@
       ],
       "materials": [
         "Plastic"
+      ]
+    },
+    {
+      "name": "Plane.029",
+      "type": "MESH",
+      "collections": [
+        "Cast iron sewer hatch"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": "Cast iron sewer hatch",
+      "location": [
+        0.0,
+        0.0,
+        -0.260713
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.971477,
+        0.971477,
+        0.008385
+      ],
+      "world_bounds": {
+        "xmin": 1.9443609714508057,
+        "xmax": 2.915837526321411,
+        "ymin": -2.405764579772949,
+        "ymax": -1.4342880249023438,
+        "zmin": -0.23821686208248138,
+        "zmax": -0.22983233630657196
+      },
+      "world_dimensions": {
+        "x": 0.9714765548706055,
+        "y": 0.9714765548706055,
+        "z": 0.008384525775909424
+      },
+      "modifiers": [],
+      "materials": [
+        "Material.004"
       ]
     },
     {
@@ -12763,6 +12844,54 @@
       ]
     },
     {
+      "name": "Ribbing.001",
+      "type": "MESH",
+      "collections": [
+        "Large Trash Can"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": "Large Trash Can",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.1229,
+        1.140149,
+        1.609645
+      ],
+      "world_bounds": {
+        "xmin": -0.5614498257637024,
+        "xmax": 0.5614498257637024,
+        "ymin": 22.610090255737305,
+        "ymax": 23.7502384185791,
+        "zmin": 0.046988703310489655,
+        "zmax": 1.6566338539123535
+      },
+      "world_dimensions": {
+        "x": 1.1228996515274048,
+        "y": 1.1401481628417969,
+        "z": 1.6096451506018639
+      },
+      "modifiers": [],
+      "materials": [
+        "Can.002"
+      ]
+    },
+    {
       "name": "sackboy_scene_manual_v1.blend",
       "type": "MESH",
       "collections": [
@@ -12804,6 +12933,52 @@
         "x": 0.749036967754364,
         "y": 0.6396911726333201,
         "z": 0.34985800087451935
+      },
+      "modifiers": [],
+      "materials": []
+    },
+    {
+      "name": "Shoes",
+      "type": "EMPTY",
+      "collections": [
+        "Shoes"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -2.827274,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.637414,
+        0.425642,
+        0.494705
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_bounds": {
+        "xmin": -2.8272738456726074,
+        "xmax": -2.8272738456726074,
+        "ymin": 0.0,
+        "ymax": 0.0,
+        "zmin": 0.0,
+        "zmax": 0.0
+      },
+      "world_dimensions": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
       },
       "modifiers": [],
       "materials": []
@@ -13771,6 +13946,170 @@
       ]
     },
     {
+      "name": "Stop road sign",
+      "type": "MESH",
+      "collections": [
+        "Stop road sign"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -9.464718,
+        3.741887,
+        0.032826
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.500131,
+        0.196774,
+        4.530157
+      ],
+      "world_bounds": {
+        "xmin": -10.214784622192383,
+        "xmax": -8.714653015136719,
+        "ymin": 3.5071043968200684,
+        "ymax": 3.703878879547119,
+        "zmin": 0.03282596915960312,
+        "zmax": 4.562982559204102
+      },
+      "world_dimensions": {
+        "x": 1.500131607055664,
+        "y": 0.19677448272705078,
+        "z": 4.530156590044498
+      },
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL"
+        },
+        {
+          "name": "Auto Smooth",
+          "type": "NODES"
+        }
+      ],
+      "materials": [
+        "STOP",
+        "Metal.001"
+      ]
+    },
+    {
+      "name": "Traffic Cone (Photoscanned)",
+      "type": "MESH",
+      "collections": [
+        "Traffic Cone (Photoscanned)"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        0.001217,
+        18.626059,
+        0.010688
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.611081,
+        1.611081,
+        1.611081
+      ],
+      "dimensions": [
+        0.456958,
+        0.466836,
+        0.800717
+      ],
+      "world_bounds": {
+        "xmin": -0.23197804391384125,
+        "xmax": 0.22498004138469696,
+        "ymin": 18.39879035949707,
+        "ymax": 18.865625381469727,
+        "zmin": 0.01119938213378191,
+        "zmax": 0.8119165897369385
+      },
+      "world_dimensions": {
+        "x": 0.4569580852985382,
+        "y": 0.46683502197265625,
+        "z": 0.8007172076031566
+      },
+      "modifiers": [
+        {
+          "name": "WeightedNormal",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "Traffic Cone (Photoscanned)"
+      ]
+    },
+    {
+      "name": "Utility Box (Photoscanned)",
+      "type": "MESH",
+      "collections": [
+        "Utility Box (Photoscanned)"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": null,
+      "location": [
+        -12.197587,
+        23.763023,
+        0.064346
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.517162,
+        1.517162,
+        1.517162
+      ],
+      "dimensions": [
+        1.209269,
+        0.534925,
+        1.615221
+      ],
+      "world_bounds": {
+        "xmin": -12.801857948303223,
+        "xmax": -11.592588424682617,
+        "ymin": 23.477731704711914,
+        "ymax": 24.012657165527344,
+        "zmin": 0.06434577703475952,
+        "zmax": 1.6795669794082642
+      },
+      "world_dimensions": {
+        "x": 1.2092695236206055,
+        "y": 0.5349254608154297,
+        "z": 1.6152212023735046
+      },
+      "modifiers": [
+        {
+          "name": "WeightedNormal",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "materials": [
+        "UtilityBox"
+      ]
+    },
+    {
       "name": "V2B_OverheadAmber_0",
       "type": "LIGHT",
       "collections": [
@@ -13837,14 +14176,14 @@
       "visible_get": true,
       "parent": null,
       "location": [
-        5.219407,
-        2.645095,
+        5.284363,
+        2.653402,
         5.278863
       ],
       "rotation_euler": [
         0.0,
-        0.0,
-        0.0
+        -0.0,
+        3.101899
       ],
       "scale": [
         1.0,
@@ -13857,10 +14196,10 @@
         0.0
       ],
       "world_bounds": {
-        "xmin": 5.219406604766846,
-        "xmax": 5.219406604766846,
-        "ymin": 2.645094633102417,
-        "ymax": 2.645094633102417,
+        "xmin": 5.28436279296875,
+        "xmax": 5.28436279296875,
+        "ymin": 2.6534018516540527,
+        "ymax": 2.6534018516540527,
         "zmin": 5.278862953186035,
         "zmax": 5.278862953186035
       },
@@ -13881,6 +14220,63 @@
         ],
         "size": 2.200000047683716
       }
+    },
+    {
+      "name": "Wheel.001",
+      "type": "MESH",
+      "collections": [
+        "Large Trash Can"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "visible_get": true,
+      "parent": "Large Trash Can",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.092931,
+        0.385597,
+        0.385586
+      ],
+      "world_bounds": {
+        "xmin": -0.5464655160903931,
+        "xmax": 0.5464655160903931,
+        "ymin": 23.35263442993164,
+        "ymax": 23.738231658935547,
+        "zmin": 0.0008589272620156407,
+        "zmax": 0.38644540309906006
+      },
+      "world_dimensions": {
+        "x": 1.0929310321807861,
+        "y": 0.38559722900390625,
+        "z": 0.3855864758370444
+      },
+      "modifiers": [
+        {
+          "name": "Subdivision",
+          "type": "SUBSURF"
+        },
+        {
+          "name": "Mirror",
+          "type": "MIRROR"
+        }
+      ],
+      "materials": [
+        "Can.001"
+      ]
     }
   ],
   "render_settings": {
@@ -13891,7 +14287,7 @@
     "fps": 24,
     "frame_start": 1,
     "frame_end": 120,
-    "frame_current": 120,
+    "frame_current": 121,
     "world": "NightSkyHDRI003_World"
   }
 }

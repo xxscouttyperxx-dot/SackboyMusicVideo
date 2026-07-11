@@ -1,0 +1,3698 @@
+{
+  "blend_file": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\blender\\sackboy_scene.blend",
+  "collections": [
+    {
+      "name": "Apricot Pullover Hoodie",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 1,
+      "child_count": 0
+    },
+    {
+      "name": "Asphalt ground",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 1,
+      "child_count": 0
+    },
+    {
+      "name": "Audi e-tron GT quattro Black",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 80,
+      "child_count": 0
+    },
+    {
+      "name": "BASE_Meshy_LeftCandidate_Source",
+      "hide_viewport": true,
+      "hide_render": true,
+      "object_count": 1,
+      "child_count": 0
+    },
+    {
+      "name": "CAM_Rigs",
+      "hide_viewport": true,
+      "hide_render": true,
+      "object_count": 1,
+      "child_count": 0
+    },
+    {
+      "name": "CHAR_HandRefine_J2B",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 1,
+      "child_count": 0
+    },
+    {
+      "name": "CHAR_Meshy_LeftCandidate_Refined",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 5,
+      "child_count": 0
+    },
+    {
+      "name": "CHAR_SackDoll",
+      "hide_viewport": true,
+      "hide_render": true,
+      "object_count": 19,
+      "child_count": 0
+    },
+    {
+      "name": "Cargo pants",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 1,
+      "child_count": 0
+    },
+    {
+      "name": "Cast iron sewer hatch",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 2,
+      "child_count": 0
+    },
+    {
+      "name": "Collection",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "ENV_ParkingLot",
+      "hide_viewport": true,
+      "hide_render": true,
+      "object_count": 30,
+      "child_count": 0
+    },
+    {
+      "name": "FINAL_CAMERAS",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "FINAL_HELPERS",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 1,
+      "child_count": 0
+    },
+    {
+      "name": "FINAL_LIGHTS_Minimal",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "HERO_CAR_AMBER_READ",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 3,
+      "child_count": 0
+    },
+    {
+      "name": "HERO_CAR_UNDERGLOW",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 3,
+      "child_count": 0
+    },
+    {
+      "name": "HERO_CHARACTER_MATERIAL_GUIDES",
+      "hide_viewport": true,
+      "hide_render": true,
+      "object_count": 6,
+      "child_count": 0
+    },
+    {
+      "name": "HERO_CHARACTER_WARDROBE_V1",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 8,
+      "child_count": 0
+    },
+    {
+      "name": "HERO_ENV_CORRECTIONS",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "HERO_H_PARKING_LAYOUT",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 17,
+      "child_count": 0
+    },
+    {
+      "name": "HERO_IMPORTED_CLOTHING_CANDIDATES",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 0,
+      "child_count": 10
+    },
+    {
+      "name": "HERO_REVIEW_CAMERAS",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 3,
+      "child_count": 0
+    },
+    {
+      "name": "HERO_SHOE_GRAPHIC_GUIDES",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "HERO_SIDEWALK_CURB_REBUILD",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 9,
+      "child_count": 0
+    },
+    {
+      "name": "HERO_STOREFRONT_REBUILD",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 39,
+      "child_count": 0
+    },
+    {
+      "name": "HERO_VISIBLE_LAMPPOSTS",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 8,
+      "child_count": 0
+    },
+    {
+      "name": "LGT_Night",
+      "hide_viewport": true,
+      "hide_render": true,
+      "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "Large Trash Can",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 8,
+      "child_count": 0
+    },
+    {
+      "name": "MESHY_GalleryTemp",
+      "hide_viewport": true,
+      "hide_render": true,
+      "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "MESHY_TempAnalysis",
+      "hide_viewport": true,
+      "hide_render": true,
+      "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "No Parking Sign Board",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 9,
+      "child_count": 0
+    },
+    {
+      "name": "PROD_RECON_V2B",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 0,
+      "child_count": 1
+    },
+    {
+      "name": "PROD_RECON_V2C",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 0,
+      "child_count": 3
+    },
+    {
+      "name": "Shoes",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 3,
+      "child_count": 0
+    },
+    {
+      "name": "Stop road sign",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 1,
+      "child_count": 0
+    },
+    {
+      "name": "Traffic Cone (Photoscanned)",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 1,
+      "child_count": 0
+    },
+    {
+      "name": "Utility Box (Photoscanned)",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 1,
+      "child_count": 0
+    },
+    {
+      "name": "V2B_HELPERS",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "V2B_LIGHTS_OVERHEAD",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 2,
+      "child_count": 0
+    },
+    {
+      "name": "V2C_CAMERAS",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "V2C_ENVIRONMENT",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "V2C_HELPERS",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 0,
+      "child_count": 0
+    }
+  ],
+  "key_objects": [
+    {
+      "name": "Audi e-tron GT quattro Black",
+      "type": "EMPTY",
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "visible": true,
+      "location": [
+        -1.511359,
+        5.16917,
+        0.0
+      ],
+      "bounds": {
+        "dim_x": 0.0,
+        "dim_y": 0.0,
+        "dim_z": 0.0,
+        "min_x": -1.5113588571548462,
+        "max_x": -1.5113588571548462,
+        "min_y": 5.169170379638672,
+        "max_y": 5.169170379638672,
+        "min_z": 0.0,
+        "max_z": 0.0
+      }
+    },
+    {
+      "name": "F2",
+      "type": "MESH",
+      "collections": [
+        "CHAR_Meshy_LeftCandidate_Refined"
+      ],
+      "visible": true,
+      "location": [
+        2.688858,
+        -0.249535,
+        0.01029
+      ],
+      "bounds": {
+        "dim_x": 2.783371090888977,
+        "dim_y": 1.475343406200409,
+        "dim_z": 2.7494077712181024,
+        "min_x": -1.607236623764038,
+        "max_x": 1.176134467124939,
+        "min_y": -0.7234944105148315,
+        "max_y": 0.7518489956855774,
+        "min_z": 0.0005924672004766762,
+        "max_z": 2.750000238418579
+      }
+    },
+    {
+      "name": "F2.001",
+      "type": "MESH",
+      "collections": [
+        "CHAR_Meshy_LeftCandidate_Refined"
+      ],
+      "visible": false,
+      "location": [
+        2.688858,
+        -0.249535,
+        0.01029
+      ],
+      "bounds": {
+        "dim_x": 0.6475932598114014,
+        "dim_y": 0.6396911726333201,
+        "dim_z": 0.34326086193323135,
+        "min_x": -0.9995512962341309,
+        "max_x": -0.3519580364227295,
+        "min_y": -0.002256153617054224,
+        "max_y": 0.6374350190162659,
+        "min_z": -0.23298700153827667,
+        "max_z": 0.11027386039495468
+      }
+    },
+    {
+      "name": "HANDREFINE_J2B_Working",
+      "type": "MESH",
+      "collections": [
+        "CHAR_HandRefine_J2B"
+      ],
+      "visible": false,
+      "location": [
+        2.688858,
+        -0.249535,
+        0.01029
+      ],
+      "bounds": {
+        "dim_x": 0.611403226852417,
+        "dim_y": 0.6396911726333201,
+        "dim_z": 0.34326086193323135,
+        "min_x": -0.9633612632751465,
+        "max_x": -0.3519580364227295,
+        "min_y": -0.002256153617054224,
+        "max_y": 0.6374350190162659,
+        "min_z": -0.23298700153827667,
+        "max_z": 0.11027386039495468
+      }
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_FlameAccent_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "visible": false,
+      "location": [
+        -0.967061,
+        -0.133357,
+        0.110569
+      ],
+      "bounds": {
+        "dim_x": 0.0779343917965889,
+        "dim_y": 0.0885206013917923,
+        "dim_z": 0.0989786833524704,
+        "min_x": -0.03896719589829445,
+        "max_x": 0.03896719589829445,
+        "min_y": -0.04426030069589615,
+        "max_y": 0.04426030069589615,
+        "min_z": -0.0494893416762352,
+        "max_z": 0.0494893416762352
+      }
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_FlameAccent_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "visible": false,
+      "location": [
+        -0.967061,
+        -0.184994,
+        0.14906
+      ],
+      "bounds": {
+        "dim_x": 0.0779343917965889,
+        "dim_y": 0.0885206013917923,
+        "dim_z": 0.0989786833524704,
+        "min_x": -0.03896719589829445,
+        "max_x": 0.03896719589829445,
+        "min_y": -0.04426030069589615,
+        "max_y": 0.04426030069589615,
+        "min_z": -0.0494893416762352,
+        "max_z": 0.0494893416762352
+      }
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_FlameAccent_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "visible": false,
+      "location": [
+        -0.967061,
+        -0.236631,
+        0.187552
+      ],
+      "bounds": {
+        "dim_x": 0.0779343917965889,
+        "dim_y": 0.0885206013917923,
+        "dim_z": 0.0989786833524704,
+        "min_x": -0.03896719589829445,
+        "max_x": 0.03896719589829445,
+        "min_y": -0.04426030069589615,
+        "max_y": 0.04426030069589615,
+        "min_z": -0.0494893416762352,
+        "max_z": 0.0494893416762352
+      }
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_WhiteSole",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "visible": true,
+      "location": [
+        -0.577389,
+        -0.089097,
+        0.019838
+      ],
+      "bounds": {
+        "dim_x": 1.0020135641098022,
+        "dim_y": 0.8556991517543793,
+        "dim_z": 0.0989786870777607,
+        "min_x": -1.0783960819244385,
+        "max_x": -0.07638251781463623,
+        "min_y": -0.5169463157653809,
+        "max_y": 0.3387528359889984,
+        "min_z": -0.029651019722223282,
+        "max_z": 0.06932766735553741
+      }
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_FlameAccent_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "visible": false,
+      "location": [
+        0.535959,
+        -0.133357,
+        0.110569
+      ],
+      "bounds": {
+        "dim_x": 0.0779343917965889,
+        "dim_y": 0.0885206013917923,
+        "dim_z": 0.0989786833524704,
+        "min_x": -0.03896719589829445,
+        "max_x": 0.03896719589829445,
+        "min_y": -0.04426030069589615,
+        "max_y": 0.04426030069589615,
+        "min_z": -0.0494893416762352,
+        "max_z": 0.0494893416762352
+      }
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_FlameAccent_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "visible": false,
+      "location": [
+        0.535959,
+        -0.184994,
+        0.14906
+      ],
+      "bounds": {
+        "dim_x": 0.0779343917965889,
+        "dim_y": 0.0885206013917923,
+        "dim_z": 0.0989786833524704,
+        "min_x": -0.03896719589829445,
+        "max_x": 0.03896719589829445,
+        "min_y": -0.04426030069589615,
+        "max_y": 0.04426030069589615,
+        "min_z": -0.0494893416762352,
+        "max_z": 0.0494893416762352
+      }
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_FlameAccent_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "visible": false,
+      "location": [
+        0.535959,
+        -0.236631,
+        0.187552
+      ],
+      "bounds": {
+        "dim_x": 0.0779343917965889,
+        "dim_y": 0.0885206013917923,
+        "dim_z": 0.0989786833524704,
+        "min_x": -0.03896719589829445,
+        "max_x": 0.03896719589829445,
+        "min_y": -0.04426030069589615,
+        "max_y": 0.04426030069589615,
+        "min_z": -0.0494893416762352,
+        "max_z": 0.0494893416762352
+      }
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_WhiteSole",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "visible": true,
+      "location": [
+        0.146287,
+        -0.089097,
+        0.019838
+      ],
+      "bounds": {
+        "dim_x": 1.0020135641098022,
+        "dim_y": 0.8556991517543793,
+        "dim_z": 0.0989786870777607,
+        "min_x": -0.3547196388244629,
+        "max_x": 0.6472939252853394,
+        "min_y": -0.5169463157653809,
+        "max_y": 0.3387528359889984,
+        "min_z": -0.029651019722223282,
+        "max_z": 0.06932766735553741
+      }
+    },
+    {
+      "name": "HERO_CAM_ImportedClothingCandidates",
+      "type": "CAMERA",
+      "collections": [
+        "HERO_REVIEW_CAMERAS"
+      ],
+      "visible": true,
+      "location": [
+        8.691236,
+        -7.409224,
+        3.162411
+      ],
+      "bounds": {
+        "dim_x": 0.0,
+        "dim_y": 0.0,
+        "dim_z": 0.0,
+        "min_x": 8.69123649597168,
+        "max_x": 8.69123649597168,
+        "min_y": -7.409223556518555,
+        "max_y": -7.409223556518555,
+        "min_z": 3.1624114513397217,
+        "max_z": 3.1624114513397217
+      }
+    },
+    {
+      "name": "HERO_CAM_ShoeGraphicCleanup",
+      "type": "CAMERA",
+      "collections": [
+        "HERO_REVIEW_CAMERAS"
+      ],
+      "visible": true,
+      "location": [
+        2.150314,
+        -3.010171,
+        0.687944
+      ],
+      "bounds": {
+        "dim_x": 0.0,
+        "dim_y": 0.0,
+        "dim_z": 0.0,
+        "min_x": 2.1503143310546875,
+        "max_x": 2.1503143310546875,
+        "min_y": -3.0101711750030518,
+        "max_y": -3.0101711750030518,
+        "min_z": 0.6879444122314453,
+        "max_z": 0.6879444122314453
+      }
+    },
+    {
+      "name": "HERO_CAM_WardrobeCleanupFront",
+      "type": "CAMERA",
+      "collections": [
+        "HERO_REVIEW_CAMERAS"
+      ],
+      "visible": true,
+      "location": [
+        3.820337,
+        -6.03452,
+        2.61253
+      ],
+      "bounds": {
+        "dim_x": 0.0,
+        "dim_y": 0.0,
+        "dim_z": 0.0,
+        "min_x": 3.8203370571136475,
+        "max_x": 3.8203370571136475,
+        "min_y": -6.034519672393799,
+        "max_y": -6.034519672393799,
+        "min_z": 2.612529754638672,
+        "max_z": 2.612529754638672
+      }
+    },
+    {
+      "name": "HERO_CarAmberHoodRead",
+      "type": "LIGHT",
+      "collections": [
+        "HERO_CAR_AMBER_READ"
+      ],
+      "visible": true,
+      "location": [
+        5.265154,
+        1.978295,
+        5.190777
+      ],
+      "bounds": {
+        "dim_x": 0.0,
+        "dim_y": 0.0,
+        "dim_z": 0.0,
+        "min_x": 5.265153884887695,
+        "max_x": 5.265153884887695,
+        "min_y": 1.978294849395752,
+        "max_y": 1.978294849395752,
+        "min_z": 5.190776824951172,
+        "max_z": 5.190776824951172
+      },
+      "light_type": "SPOT",
+      "energy": 150.0,
+      "color": [
+        1.0,
+        0.3799999952316284,
+        0.07999999821186066
+      ],
+      "spot_size": 0.949999988079071,
+      "spot_blend": 0.6499999761581421,
+      "size": null
+    },
+    {
+      "name": "HERO_CarAmberRoofRead",
+      "type": "LIGHT",
+      "collections": [
+        "HERO_CAR_AMBER_READ"
+      ],
+      "visible": true,
+      "location": [
+        -5.186506,
+        1.995343,
+        5.201615
+      ],
+      "bounds": {
+        "dim_x": 0.0,
+        "dim_y": 0.0,
+        "dim_z": 0.0,
+        "min_x": -5.1865057945251465,
+        "max_x": -5.1865057945251465,
+        "min_y": 1.9953433275222778,
+        "max_y": 1.9953433275222778,
+        "min_z": 5.201615333557129,
+        "max_z": 5.201615333557129
+      },
+      "light_type": "SPOT",
+      "energy": 260.0,
+      "color": [
+        1.0,
+        0.3799999952316284,
+        0.07999999821186066
+      ],
+      "spot_size": 1.0499999523162842,
+      "spot_blend": 0.7200000286102295,
+      "size": null
+    },
+    {
+      "name": "HERO_CarWarmSideGlint",
+      "type": "LIGHT",
+      "collections": [
+        "HERO_CAR_AMBER_READ"
+      ],
+      "visible": true,
+      "location": [
+        0.007344,
+        22.906092,
+        7.155601
+      ],
+      "bounds": {
+        "dim_x": 0.0,
+        "dim_y": 0.0,
+        "dim_z": 0.0,
+        "min_x": 0.00734373927116394,
+        "max_x": 0.00734373927116394,
+        "min_y": 22.906091690063477,
+        "max_y": 22.906091690063477,
+        "min_z": 7.155600547790527,
+        "max_z": 7.155600547790527
+      },
+      "light_type": "SPOT",
+      "energy": 90.0,
+      "color": [
+        1.0,
+        0.3799999952316284,
+        0.07999999821186066
+      ],
+      "spot_size": 0.8500000238418579,
+      "spot_blend": 0.800000011920929,
+      "size": null
+    },
+    {
+      "name": "HERO_Curb_VerticalFace",
+      "type": "MESH",
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        0.0,
+        19.0226,
+        -0.015452
+      ],
+      "bounds": {
+        "dim_x": 26.907014846801758,
+        "dim_y": 0.1914215087890625,
+        "dim_z": 0.1827412210404873,
+        "min_x": -13.453507423400879,
+        "max_x": 13.453507423400879,
+        "min_y": 18.871179580688477,
+        "max_y": 19.06260108947754,
+        "min_z": -0.12319360673427582,
+        "max_z": 0.05954761430621147
+      }
+    },
+    {
+      "name": "HERO_CyanUnderglow_Area",
+      "type": "LIGHT",
+      "collections": [
+        "HERO_CAR_UNDERGLOW"
+      ],
+      "visible": true,
+      "location": [
+        -1.522953,
+        5.177517,
+        0.075276
+      ],
+      "bounds": {
+        "dim_x": 0.0,
+        "dim_y": 0.0,
+        "dim_z": 0.0,
+        "min_x": -1.5229525566101074,
+        "max_x": -1.5229525566101074,
+        "min_y": 5.177516937255859,
+        "max_y": 5.177516937255859,
+        "min_z": 0.07527603209018707,
+        "max_z": 0.07527603209018707
+      },
+      "light_type": "AREA",
+      "energy": 160.0,
+      "color": [
+        0.0,
+        0.550000011920929,
+        1.0
+      ],
+      "spot_size": null,
+      "spot_blend": null,
+      "size": 2.727658987045288
+    },
+    {
+      "name": "HERO_DoubleDoor_CenterMeet_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        -2.713787,
+        23.812,
+        1.682151
+      ],
+      "bounds": {
+        "dim_x": 0.034999847412109375,
+        "dim_y": 0.13000106811523438,
+        "dim_z": 3.244301199913025,
+        "min_x": -2.7312867641448975,
+        "max_x": -2.696286916732788,
+        "min_y": 23.746999740600586,
+        "max_y": 23.87700080871582,
+        "min_z": 0.060000061988830566,
+        "max_z": 3.3043012619018555
+      }
+    },
+    {
+      "name": "HERO_DoubleDoor_CenterMeet_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        2.713787,
+        23.812,
+        1.682151
+      ],
+      "bounds": {
+        "dim_x": 0.034999847412109375,
+        "dim_y": 0.13000106811523438,
+        "dim_z": 3.244301199913025,
+        "min_x": 2.696286916732788,
+        "max_x": 2.7312867641448975,
+        "min_y": 23.746999740600586,
+        "max_y": 23.87700080871582,
+        "min_z": 0.060000061988830566,
+        "max_z": 3.3043012619018555
+      }
+    },
+    {
+      "name": "HERO_DoubleDoor_LeftSide_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        -4.133306,
+        23.815001,
+        1.682151
+      ],
+      "bounds": {
+        "dim_x": 0.034999847412109375,
+        "dim_y": 0.125,
+        "dim_z": 3.244301199913025,
+        "min_x": -4.150805950164795,
+        "max_x": -4.1158061027526855,
+        "min_y": 23.752500534057617,
+        "max_y": 23.877500534057617,
+        "min_z": 0.060000061988830566,
+        "max_z": 3.3043012619018555
+      }
+    },
+    {
+      "name": "HERO_DoubleDoor_LeftSide_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        1.294268,
+        23.815001,
+        1.682151
+      ],
+      "bounds": {
+        "dim_x": 0.03500008583068848,
+        "dim_y": 0.125,
+        "dim_z": 3.244301199913025,
+        "min_x": 1.2767674922943115,
+        "max_x": 1.311767578125,
+        "min_y": 23.752500534057617,
+        "max_y": 23.877500534057617,
+        "min_z": 0.060000061988830566,
+        "max_z": 3.3043012619018555
+      }
+    },
+    {
+      "name": "HERO_DoubleDoor_RightSide_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        -1.294268,
+        23.815001,
+        1.682151
+      ],
+      "bounds": {
+        "dim_x": 0.03500008583068848,
+        "dim_y": 0.125,
+        "dim_z": 3.244301199913025,
+        "min_x": -1.311767578125,
+        "max_x": -1.2767674922943115,
+        "min_y": 23.752500534057617,
+        "max_y": 23.877500534057617,
+        "min_z": 0.060000061988830566,
+        "max_z": 3.3043012619018555
+      }
+    },
+    {
+      "name": "HERO_DoubleDoor_RightSide_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        4.133306,
+        23.815001,
+        1.682151
+      ],
+      "bounds": {
+        "dim_x": 0.034999847412109375,
+        "dim_y": 0.125,
+        "dim_z": 3.244301199913025,
+        "min_x": 4.1158061027526855,
+        "max_x": 4.150805950164795,
+        "min_y": 23.752500534057617,
+        "max_y": 23.877500534057617,
+        "min_z": 0.060000061988830566,
+        "max_z": 3.3043012619018555
+      }
+    },
+    {
+      "name": "HERO_DoubleDoor_TopFrame_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        -2.713787,
+        23.812,
+        3.304301
+      ],
+      "bounds": {
+        "dim_x": 2.8390384912490845,
+        "dim_y": 0.13000106811523438,
+        "dim_z": 0.034999847412109375,
+        "min_x": -4.13330602645874,
+        "max_x": -1.2942675352096558,
+        "min_y": 23.746999740600586,
+        "max_y": 23.87700080871582,
+        "min_z": 3.286801338195801,
+        "max_z": 3.32180118560791
+      }
+    },
+    {
+      "name": "HERO_DoubleDoor_TopFrame_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        2.713787,
+        23.812,
+        3.304301
+      ],
+      "bounds": {
+        "dim_x": 2.8390384912490845,
+        "dim_y": 0.13000106811523438,
+        "dim_z": 0.034999847412109375,
+        "min_x": 1.2942675352096558,
+        "max_x": 4.13330602645874,
+        "min_y": 23.746999740600586,
+        "max_y": 23.87700080871582,
+        "min_z": 3.286801338195801,
+        "max_z": 3.32180118560791
+      }
+    },
+    {
+      "name": "HERO_GlassStorefront_Bay_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        -8.14136,
+        23.870001,
+        1.995827
+      ],
+      "bounds": {
+        "dim_x": 4.175056457519531,
+        "dim_y": 0.035999298095703125,
+        "dim_z": 3.8716529607772827,
+        "min_x": -10.228888511657715,
+        "max_x": -6.053832054138184,
+        "min_y": 23.852001190185547,
+        "max_y": 23.88800048828125,
+        "min_z": 0.060000061988830566,
+        "max_z": 3.9316530227661133
+      }
+    },
+    {
+      "name": "HERO_GlassStorefront_Bay_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        -2.713787,
+        23.870001,
+        1.995827
+      ],
+      "bounds": {
+        "dim_x": 4.17505669593811,
+        "dim_y": 0.035999298095703125,
+        "dim_z": 3.8716529607772827,
+        "min_x": -4.8013153076171875,
+        "max_x": -0.6262586116790771,
+        "min_y": 23.852001190185547,
+        "max_y": 23.88800048828125,
+        "min_z": 0.060000061988830566,
+        "max_z": 3.9316530227661133
+      }
+    },
+    {
+      "name": "HERO_GlassStorefront_Bay_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        2.713787,
+        23.870001,
+        1.995827
+      ],
+      "bounds": {
+        "dim_x": 4.17505669593811,
+        "dim_y": 0.035999298095703125,
+        "dim_z": 3.8716529607772827,
+        "min_x": 0.6262586116790771,
+        "max_x": 4.8013153076171875,
+        "min_y": 23.852001190185547,
+        "max_y": 23.88800048828125,
+        "min_z": 0.060000061988830566,
+        "max_z": 3.9316530227661133
+      }
+    },
+    {
+      "name": "HERO_GlassStorefront_Bay_3",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        8.14136,
+        23.870001,
+        1.995827
+      ],
+      "bounds": {
+        "dim_x": 4.175056457519531,
+        "dim_y": 0.035999298095703125,
+        "dim_z": 3.8716529607772827,
+        "min_x": 6.053832054138184,
+        "max_x": 10.228888511657715,
+        "min_y": 23.852001190185547,
+        "max_y": 23.88800048828125,
+        "min_z": 0.060000061988830566,
+        "max_z": 3.9316530227661133
+      }
+    },
+    {
+      "name": "HERO_HParking_CenterSpine",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "visible": true,
+      "location": [
+        0.0,
+        2.65,
+        0.0045
+      ],
+      "bounds": {
+        "dim_x": 18.509418487548828,
+        "dim_y": 0.07499980926513672,
+        "dim_z": 0.004999999888241291,
+        "min_x": -9.254709243774414,
+        "max_x": 9.254709243774414,
+        "min_y": 2.6125001907348633,
+        "max_y": 2.6875,
+        "min_z": 0.001999999862164259,
+        "max_z": 0.00699999975040555
+      }
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "visible": true,
+      "location": [
+        -9.254709,
+        1.15,
+        0.0045
+      ],
+      "bounds": {
+        "dim_x": 0.07500076293945312,
+        "dim_y": 3.4670569896698,
+        "dim_z": 0.004999999888241291,
+        "min_x": -9.29220962524414,
+        "max_x": -9.217208862304688,
+        "min_y": -0.5835285186767578,
+        "max_y": 2.883528470993042,
+        "min_z": 0.001999999862164259,
+        "max_z": 0.00699999975040555
+      }
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "visible": true,
+      "location": [
+        -6.610507,
+        1.15,
+        0.0045
+      ],
+      "bounds": {
+        "dim_x": 0.07499980926513672,
+        "dim_y": 3.4670569896698,
+        "dim_z": 0.004999999888241291,
+        "min_x": -6.648006439208984,
+        "max_x": -6.573006629943848,
+        "min_y": -0.5835285186767578,
+        "max_y": 2.883528470993042,
+        "min_z": 0.001999999862164259,
+        "max_z": 0.00699999975040555
+      }
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "visible": true,
+      "location": [
+        -3.966304,
+        1.15,
+        0.0045
+      ],
+      "bounds": {
+        "dim_x": 0.07499980926513672,
+        "dim_y": 3.4670569896698,
+        "dim_z": 0.004999999888241291,
+        "min_x": -4.003803730010986,
+        "max_x": -3.9288039207458496,
+        "min_y": -0.5835285186767578,
+        "max_y": 2.883528470993042,
+        "min_z": 0.001999999862164259,
+        "max_z": 0.00699999975040555
+      }
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_3",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "visible": true,
+      "location": [
+        -1.322101,
+        1.15,
+        0.0045
+      ],
+      "bounds": {
+        "dim_x": 0.07500004768371582,
+        "dim_y": 3.4670569896698,
+        "dim_z": 0.004999999888241291,
+        "min_x": -1.3596012592315674,
+        "max_x": -1.2846012115478516,
+        "min_y": -0.5835285186767578,
+        "max_y": 2.883528470993042,
+        "min_z": 0.001999999862164259,
+        "max_z": 0.00699999975040555
+      }
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_4",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "visible": true,
+      "location": [
+        1.322101,
+        1.15,
+        0.0045
+      ],
+      "bounds": {
+        "dim_x": 0.07500004768371582,
+        "dim_y": 3.4670569896698,
+        "dim_z": 0.004999999888241291,
+        "min_x": 1.2846012115478516,
+        "max_x": 1.3596012592315674,
+        "min_y": -0.5835285186767578,
+        "max_y": 2.883528470993042,
+        "min_z": 0.001999999862164259,
+        "max_z": 0.00699999975040555
+      }
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_5",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "visible": true,
+      "location": [
+        3.966304,
+        1.15,
+        0.0045
+      ],
+      "bounds": {
+        "dim_x": 0.07499980926513672,
+        "dim_y": 3.4670569896698,
+        "dim_z": 0.004999999888241291,
+        "min_x": 3.9288039207458496,
+        "max_x": 4.003803730010986,
+        "min_y": -0.5835285186767578,
+        "max_y": 2.883528470993042,
+        "min_z": 0.001999999862164259,
+        "max_z": 0.00699999975040555
+      }
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_6",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "visible": true,
+      "location": [
+        6.610507,
+        1.15,
+        0.0045
+      ],
+      "bounds": {
+        "dim_x": 0.07499980926513672,
+        "dim_y": 3.4670569896698,
+        "dim_z": 0.004999999888241291,
+        "min_x": 6.573006629943848,
+        "max_x": 6.648006439208984,
+        "min_y": -0.5835285186767578,
+        "max_y": 2.883528470993042,
+        "min_z": 0.001999999862164259,
+        "max_z": 0.00699999975040555
+      }
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_7",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "visible": true,
+      "location": [
+        9.254709,
+        1.15,
+        0.0045
+      ],
+      "bounds": {
+        "dim_x": 0.07500076293945312,
+        "dim_y": 3.4670569896698,
+        "dim_z": 0.004999999888241291,
+        "min_x": 9.217208862304688,
+        "max_x": 9.29220962524414,
+        "min_y": -0.5835285186767578,
+        "max_y": 2.883528470993042,
+        "min_z": 0.001999999862164259,
+        "max_z": 0.00699999975040555
+      }
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "visible": true,
+      "location": [
+        -9.254709,
+        4.15,
+        0.0045
+      ],
+      "bounds": {
+        "dim_x": 0.07500076293945312,
+        "dim_y": 3.467057228088379,
+        "dim_z": 0.004999999888241291,
+        "min_x": -9.29220962524414,
+        "max_x": -9.217208862304688,
+        "min_y": 2.416471481323242,
+        "max_y": 5.883528709411621,
+        "min_z": 0.001999999862164259,
+        "max_z": 0.00699999975040555
+      }
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "visible": true,
+      "location": [
+        -6.610507,
+        4.15,
+        0.0045
+      ],
+      "bounds": {
+        "dim_x": 0.07499980926513672,
+        "dim_y": 3.467057228088379,
+        "dim_z": 0.004999999888241291,
+        "min_x": -6.648006439208984,
+        "max_x": -6.573006629943848,
+        "min_y": 2.416471481323242,
+        "max_y": 5.883528709411621,
+        "min_z": 0.001999999862164259,
+        "max_z": 0.00699999975040555
+      }
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "visible": true,
+      "location": [
+        -3.966304,
+        4.15,
+        0.0045
+      ],
+      "bounds": {
+        "dim_x": 0.07499980926513672,
+        "dim_y": 3.467057228088379,
+        "dim_z": 0.004999999888241291,
+        "min_x": -4.003803730010986,
+        "max_x": -3.9288039207458496,
+        "min_y": 2.416471481323242,
+        "max_y": 5.883528709411621,
+        "min_z": 0.001999999862164259,
+        "max_z": 0.00699999975040555
+      }
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_3",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "visible": true,
+      "location": [
+        -1.322101,
+        4.15,
+        0.0045
+      ],
+      "bounds": {
+        "dim_x": 0.07500004768371582,
+        "dim_y": 3.467057228088379,
+        "dim_z": 0.004999999888241291,
+        "min_x": -1.3596012592315674,
+        "max_x": -1.2846012115478516,
+        "min_y": 2.416471481323242,
+        "max_y": 5.883528709411621,
+        "min_z": 0.001999999862164259,
+        "max_z": 0.00699999975040555
+      }
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_4",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "visible": true,
+      "location": [
+        1.322101,
+        4.15,
+        0.0045
+      ],
+      "bounds": {
+        "dim_x": 0.07500004768371582,
+        "dim_y": 3.467057228088379,
+        "dim_z": 0.004999999888241291,
+        "min_x": 1.2846012115478516,
+        "max_x": 1.3596012592315674,
+        "min_y": 2.416471481323242,
+        "max_y": 5.883528709411621,
+        "min_z": 0.001999999862164259,
+        "max_z": 0.00699999975040555
+      }
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_5",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "visible": true,
+      "location": [
+        3.966304,
+        4.15,
+        0.0045
+      ],
+      "bounds": {
+        "dim_x": 0.07499980926513672,
+        "dim_y": 3.467057228088379,
+        "dim_z": 0.004999999888241291,
+        "min_x": 3.9288039207458496,
+        "max_x": 4.003803730010986,
+        "min_y": 2.416471481323242,
+        "max_y": 5.883528709411621,
+        "min_z": 0.001999999862164259,
+        "max_z": 0.00699999975040555
+      }
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_6",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "visible": true,
+      "location": [
+        6.610507,
+        4.15,
+        0.0045
+      ],
+      "bounds": {
+        "dim_x": 0.07499980926513672,
+        "dim_y": 3.467057228088379,
+        "dim_z": 0.004999999888241291,
+        "min_x": 6.573006629943848,
+        "max_x": 6.648006439208984,
+        "min_y": 2.416471481323242,
+        "max_y": 5.883528709411621,
+        "min_z": 0.001999999862164259,
+        "max_z": 0.00699999975040555
+      }
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_7",
+      "type": "MESH",
+      "collections": [
+        "HERO_H_PARKING_LAYOUT"
+      ],
+      "visible": true,
+      "location": [
+        9.254709,
+        4.15,
+        0.0045
+      ],
+      "bounds": {
+        "dim_x": 0.07500076293945312,
+        "dim_y": 3.467057228088379,
+        "dim_z": 0.004999999888241291,
+        "min_x": 9.217208862304688,
+        "max_x": 9.29220962524414,
+        "min_y": 2.416471481323242,
+        "max_y": 5.883528709411621,
+        "min_z": 0.001999999862164259,
+        "max_z": 0.00699999975040555
+      }
+    },
+    {
+      "name": "HERO_LampArm_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_VISIBLE_LAMPPOSTS"
+      ],
+      "visible": true,
+      "location": [
+        -5.222266,
+        2.329782,
+        5.278863
+      ],
+      "bounds": {
+        "dim_x": 0.05121040344238281,
+        "dim_y": 0.6399998664855957,
+        "dim_z": 0.05200004577636719,
+        "min_x": -5.247871398925781,
+        "max_x": -5.196660995483398,
+        "min_y": 2.009782314300537,
+        "max_y": 2.649782180786133,
+        "min_z": 5.252862930297852,
+        "max_z": 5.304862976074219
+      }
+    },
+    {
+      "name": "HERO_LampArm_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_VISIBLE_LAMPPOSTS"
+      ],
+      "visible": true,
+      "location": [
+        5.271664,
+        2.333654,
+        5.278863
+      ],
+      "bounds": {
+        "dim_x": 0.07656669616699219,
+        "dim_y": 0.6415281295776367,
+        "dim_z": 0.05200004577636719,
+        "min_x": 5.2333807945251465,
+        "max_x": 5.309947490692139,
+        "min_y": 2.0128896236419678,
+        "max_y": 2.6544177532196045,
+        "min_z": 5.252862930297852,
+        "max_z": 5.304862976074219
+      }
+    },
+    {
+      "name": "HERO_LampFixture_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_VISIBLE_LAMPPOSTS"
+      ],
+      "visible": true,
+      "location": [
+        -5.222266,
+        1.989782,
+        5.278863
+      ],
+      "bounds": {
+        "dim_x": 0.8400001525878906,
+        "dim_y": 0.3399999141693115,
+        "dim_z": 0.11999988555908203,
+        "min_x": -5.642266273498535,
+        "max_x": -4.8022661209106445,
+        "min_y": 1.819782018661499,
+        "max_y": 2.1597819328308105,
+        "min_z": 5.218863010406494,
+        "max_z": 5.338862895965576
+      }
+    },
+    {
+      "name": "HERO_LampFixture_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_VISIBLE_LAMPPOSTS"
+      ],
+      "visible": true,
+      "location": [
+        5.258172,
+        1.993921,
+        5.278863
+      ],
+      "bounds": {
+        "dim_x": 0.8528308868408203,
+        "dim_y": 0.3730658292770386,
+        "dim_z": 0.11999988555908203,
+        "min_x": 4.831756591796875,
+        "max_x": 5.684587478637695,
+        "min_y": 1.807388424873352,
+        "max_y": 2.1804542541503906,
+        "min_z": 5.218863010406494,
+        "max_z": 5.338862895965576
+      }
+    },
+    {
+      "name": "HERO_LampGlass_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_VISIBLE_LAMPPOSTS"
+      ],
+      "visible": true,
+      "location": [
+        -5.222266,
+        1.989782,
+        5.238863
+      ],
+      "bounds": {
+        "dim_x": 0.7200002670288086,
+        "dim_y": 0.25999999046325684,
+        "dim_z": 0.0279998779296875,
+        "min_x": -5.582266330718994,
+        "max_x": -4.8622660636901855,
+        "min_y": 1.8597819805145264,
+        "max_y": 2.119781970977783,
+        "min_z": 5.224863052368164,
+        "max_z": 5.252862930297852
+      }
+    },
+    {
+      "name": "HERO_LampGlass_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_VISIBLE_LAMPPOSTS"
+      ],
+      "visible": true,
+      "location": [
+        5.258172,
+        1.993921,
+        5.238863
+      ],
+      "bounds": {
+        "dim_x": 0.7297506332397461,
+        "dim_y": 0.28836679458618164,
+        "dim_z": 0.0279998779296875,
+        "min_x": 4.893296718597412,
+        "max_x": 5.623047351837158,
+        "min_y": 1.8497378826141357,
+        "max_y": 2.1381046772003174,
+        "min_z": 5.224863052368164,
+        "max_z": 5.252862930297852
+      }
+    },
+    {
+      "name": "HERO_LampPole_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_VISIBLE_LAMPPOSTS"
+      ],
+      "visible": true,
+      "location": [
+        -5.222266,
+        2.649782,
+        2.639431
+      ],
+      "bounds": {
+        "dim_x": 0.09000015258789062,
+        "dim_y": 0.09000015258789062,
+        "dim_z": 5.278862953186035,
+        "min_x": -5.267266273498535,
+        "max_x": -5.1772661209106445,
+        "min_y": 2.6047821044921875,
+        "max_y": 2.694782257080078,
+        "min_z": 0.0,
+        "max_z": 5.278862953186035
+      }
+    },
+    {
+      "name": "HERO_LampPole_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_VISIBLE_LAMPPOSTS"
+      ],
+      "visible": true,
+      "location": [
+        5.284363,
+        2.653402,
+        2.639432
+      ],
+      "bounds": {
+        "dim_x": 0.09350013732910156,
+        "dim_y": 0.09350061416625977,
+        "dim_z": 5.278862714767456,
+        "min_x": 5.237612724304199,
+        "max_x": 5.331112861633301,
+        "min_y": 2.606651544570923,
+        "max_y": 2.7001521587371826,
+        "min_z": 2.384185791015625e-07,
+        "max_z": 5.278862953186035
+      }
+    },
+    {
+      "name": "HERO_MaterialSwatch_Denim",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_MATERIAL_GUIDES"
+      ],
+      "visible": false,
+      "location": [
+        2.150314,
+        0.374177,
+        0.330521
+      ],
+      "bounds": {
+        "dim_x": 0.10999999940395355,
+        "dim_y": 0.10999999940395355,
+        "dim_z": 0.10999999940395355,
+        "min_x": -0.054999999701976776,
+        "max_x": 0.054999999701976776,
+        "min_y": -0.054999999701976776,
+        "max_y": 0.054999999701976776,
+        "min_z": -0.054999999701976776,
+        "max_z": 0.054999999701976776
+      }
+    },
+    {
+      "name": "HERO_MaterialSwatch_Flame",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_MATERIAL_GUIDES"
+      ],
+      "visible": false,
+      "location": [
+        2.150314,
+        0.914177,
+        0.330521
+      ],
+      "bounds": {
+        "dim_x": 0.10999999940395355,
+        "dim_y": 0.10999999940395355,
+        "dim_z": 0.10999999940395355,
+        "min_x": -0.054999999701976776,
+        "max_x": 0.054999999701976776,
+        "min_y": -0.054999999701976776,
+        "max_y": 0.054999999701976776,
+        "min_z": -0.054999999701976776,
+        "max_z": 0.054999999701976776
+      }
+    },
+    {
+      "name": "HERO_MaterialSwatch_Hoodie",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_MATERIAL_GUIDES"
+      ],
+      "visible": false,
+      "location": [
+        2.150314,
+        0.194177,
+        0.330521
+      ],
+      "bounds": {
+        "dim_x": 0.10999999940395355,
+        "dim_y": 0.10999999940395355,
+        "dim_z": 0.10999999940395355,
+        "min_x": -0.054999999701976776,
+        "max_x": 0.054999999701976776,
+        "min_y": -0.054999999701976776,
+        "max_y": 0.054999999701976776,
+        "min_z": -0.054999999701976776,
+        "max_z": 0.054999999701976776
+      }
+    },
+    {
+      "name": "HERO_MaterialSwatch_ShoeBlack",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_MATERIAL_GUIDES"
+      ],
+      "visible": false,
+      "location": [
+        2.150314,
+        0.554177,
+        0.330521
+      ],
+      "bounds": {
+        "dim_x": 0.10999999940395355,
+        "dim_y": 0.10999999940395355,
+        "dim_z": 0.10999999940395355,
+        "min_x": -0.054999999701976776,
+        "max_x": 0.054999999701976776,
+        "min_y": -0.054999999701976776,
+        "max_y": 0.054999999701976776,
+        "min_z": -0.054999999701976776,
+        "max_z": 0.054999999701976776
+      }
+    },
+    {
+      "name": "HERO_MaterialSwatch_ShoeWhite",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_MATERIAL_GUIDES"
+      ],
+      "visible": false,
+      "location": [
+        2.150314,
+        0.734177,
+        0.330521
+      ],
+      "bounds": {
+        "dim_x": 0.10999999940395355,
+        "dim_y": 0.10999999940395355,
+        "dim_z": 0.10999999940395355,
+        "min_x": -0.054999999701976776,
+        "max_x": 0.054999999701976776,
+        "min_y": -0.054999999701976776,
+        "max_y": 0.054999999701976776,
+        "min_z": -0.054999999701976776,
+        "max_z": 0.054999999701976776
+      }
+    },
+    {
+      "name": "HERO_MaterialSwatch_Yarn",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_MATERIAL_GUIDES"
+      ],
+      "visible": false,
+      "location": [
+        2.150314,
+        0.014177,
+        0.330521
+      ],
+      "bounds": {
+        "dim_x": 0.10999999940395355,
+        "dim_y": 0.10999999940395355,
+        "dim_z": 0.10999999940395355,
+        "min_x": -0.054999999701976776,
+        "max_x": 0.054999999701976776,
+        "min_y": -0.054999999701976776,
+        "max_y": 0.054999999701976776,
+        "min_z": -0.054999999701976776,
+        "max_z": 0.054999999701976776
+      }
+    },
+    {
+      "name": "HERO_Rooftop_HVAC_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        -8.194244,
+        27.0,
+        6.323638
+      ],
+      "bounds": {
+        "dim_x": 1.1133480072021484,
+        "dim_y": 0.4799995422363281,
+        "dim_z": 0.3299293518066406,
+        "min_x": -8.7509183883667,
+        "max_x": -7.637570381164551,
+        "min_y": 26.760000228881836,
+        "max_y": 27.239999771118164,
+        "min_z": 6.158673286437988,
+        "max_z": 6.488602638244629
+      }
+    },
+    {
+      "name": "HERO_Rooftop_HVAC_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        -2.560701,
+        27.0,
+        6.323638
+      ],
+      "bounds": {
+        "dim_x": 1.1133484840393066,
+        "dim_y": 0.4799995422363281,
+        "dim_z": 0.3299293518066406,
+        "min_x": -3.117375612258911,
+        "max_x": -2.0040271282196045,
+        "min_y": 26.760000228881836,
+        "max_y": 27.239999771118164,
+        "min_z": 6.158673286437988,
+        "max_z": 6.488602638244629
+      }
+    },
+    {
+      "name": "HERO_Rooftop_HVAC_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        3.072842,
+        27.0,
+        6.323638
+      ],
+      "bounds": {
+        "dim_x": 1.1133484840393066,
+        "dim_y": 0.4799995422363281,
+        "dim_z": 0.3299293518066406,
+        "min_x": 2.516167402267456,
+        "max_x": 3.6295158863067627,
+        "min_y": 26.760000228881836,
+        "max_y": 27.239999771118164,
+        "min_z": 6.158673286437988,
+        "max_z": 6.488602638244629
+      }
+    },
+    {
+      "name": "HERO_Rooftop_HVAC_3",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        8.706385,
+        27.0,
+        6.323638
+      ],
+      "bounds": {
+        "dim_x": 1.1133480072021484,
+        "dim_y": 0.4799995422363281,
+        "dim_z": 0.3299293518066406,
+        "min_x": 8.149710655212402,
+        "max_x": 9.26305866241455,
+        "min_y": 26.760000228881836,
+        "max_y": 27.239999771118164,
+        "min_z": 6.158673286437988,
+        "max_z": 6.488602638244629
+      }
+    },
+    {
+      "name": "HERO_Rooftop_Vent_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        -7.693238,
+        27.059999,
+        6.543591
+      ],
+      "bounds": {
+        "dim_x": 0.09000015258789062,
+        "dim_y": 0.09000015258789062,
+        "dim_z": 0.13000011444091797,
+        "min_x": -7.7382378578186035,
+        "max_x": -7.648237705230713,
+        "min_y": 27.014999389648438,
+        "max_y": 27.104999542236328,
+        "min_z": 6.478590488433838,
+        "max_z": 6.608590602874756
+      }
+    },
+    {
+      "name": "HERO_Rooftop_Vent_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        -2.059695,
+        27.059999,
+        6.543591
+      ],
+      "bounds": {
+        "dim_x": 0.09000015258789062,
+        "dim_y": 0.09000015258789062,
+        "dim_z": 0.13000011444091797,
+        "min_x": -2.1046946048736572,
+        "max_x": -2.0146944522857666,
+        "min_y": 27.014999389648438,
+        "max_y": 27.104999542236328,
+        "min_z": 6.478590488433838,
+        "max_z": 6.608590602874756
+      }
+    },
+    {
+      "name": "HERO_Rooftop_Vent_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        3.573848,
+        27.059999,
+        6.543591
+      ],
+      "bounds": {
+        "dim_x": 0.09000015258789062,
+        "dim_y": 0.09000015258789062,
+        "dim_z": 0.13000011444091797,
+        "min_x": 3.52884840965271,
+        "max_x": 3.6188485622406006,
+        "min_y": 27.014999389648438,
+        "max_y": 27.104999542236328,
+        "min_z": 6.478590488433838,
+        "max_z": 6.608590602874756
+      }
+    },
+    {
+      "name": "HERO_Rooftop_Vent_3",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        9.207392,
+        27.059999,
+        6.543591
+      ],
+      "bounds": {
+        "dim_x": 0.09000015258789062,
+        "dim_y": 0.09000015258789062,
+        "dim_z": 0.13000011444091797,
+        "min_x": 9.162391662597656,
+        "max_x": 9.252391815185547,
+        "min_y": 27.014999389648438,
+        "max_y": 27.104999542236328,
+        "min_z": 6.478590488433838,
+        "max_z": 6.608590602874756
+      }
+    },
+    {
+      "name": "HERO_Sidewalk_ExpansionJoint_X_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        -9.602631,
+        21.528799,
+        0.046
+      ],
+      "bounds": {
+        "dim_x": 0.035999298095703125,
+        "dim_y": 4.942401885986328,
+        "dim_z": 0.008000001311302185,
+        "min_x": -9.620630264282227,
+        "max_x": -9.584630966186523,
+        "min_y": 19.057598114013672,
+        "max_y": 24.0,
+        "min_z": 0.041999999433755875,
+        "max_z": 0.05000000074505806
+      }
+    },
+    {
+      "name": "HERO_Sidewalk_ExpansionJoint_X_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        -6.401753,
+        21.528799,
+        0.046
+      ],
+      "bounds": {
+        "dim_x": 0.03600025177001953,
+        "dim_y": 4.942401885986328,
+        "dim_z": 0.008000001311302185,
+        "min_x": -6.419753551483154,
+        "max_x": -6.383753299713135,
+        "min_y": 19.057598114013672,
+        "max_y": 24.0,
+        "min_z": 0.041999999433755875,
+        "max_z": 0.05000000074505806
+      }
+    },
+    {
+      "name": "HERO_Sidewalk_ExpansionJoint_X_3",
+      "type": "MESH",
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        -3.200877,
+        21.528799,
+        0.046
+      ],
+      "bounds": {
+        "dim_x": 0.03599977493286133,
+        "dim_y": 4.942401885986328,
+        "dim_z": 0.008000001311302185,
+        "min_x": -3.218876600265503,
+        "max_x": -3.1828768253326416,
+        "min_y": 19.057598114013672,
+        "max_y": 24.0,
+        "min_z": 0.041999999433755875,
+        "max_z": 0.05000000074505806
+      }
+    },
+    {
+      "name": "HERO_Sidewalk_ExpansionJoint_X_4",
+      "type": "MESH",
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        0.0,
+        21.528799,
+        0.046
+      ],
+      "bounds": {
+        "dim_x": 0.035999998450279236,
+        "dim_y": 4.942401885986328,
+        "dim_z": 0.008000001311302185,
+        "min_x": -0.017999999225139618,
+        "max_x": 0.017999999225139618,
+        "min_y": 19.057598114013672,
+        "max_y": 24.0,
+        "min_z": 0.041999999433755875,
+        "max_z": 0.05000000074505806
+      }
+    },
+    {
+      "name": "HERO_Sidewalk_ExpansionJoint_X_5",
+      "type": "MESH",
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        3.200877,
+        21.528799,
+        0.046
+      ],
+      "bounds": {
+        "dim_x": 0.03599977493286133,
+        "dim_y": 4.942401885986328,
+        "dim_z": 0.008000001311302185,
+        "min_x": 3.1828768253326416,
+        "max_x": 3.218876600265503,
+        "min_y": 19.057598114013672,
+        "max_y": 24.0,
+        "min_z": 0.041999999433755875,
+        "max_z": 0.05000000074505806
+      }
+    },
+    {
+      "name": "HERO_Sidewalk_ExpansionJoint_X_6",
+      "type": "MESH",
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        6.401753,
+        21.528799,
+        0.046
+      ],
+      "bounds": {
+        "dim_x": 0.03600025177001953,
+        "dim_y": 4.942401885986328,
+        "dim_z": 0.008000001311302185,
+        "min_x": 6.383753299713135,
+        "max_x": 6.419753551483154,
+        "min_y": 19.057598114013672,
+        "max_y": 24.0,
+        "min_z": 0.041999999433755875,
+        "max_z": 0.05000000074505806
+      }
+    },
+    {
+      "name": "HERO_Sidewalk_ExpansionJoint_X_7",
+      "type": "MESH",
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        9.602631,
+        21.528799,
+        0.046
+      ],
+      "bounds": {
+        "dim_x": 0.035999298095703125,
+        "dim_y": 4.942401885986328,
+        "dim_z": 0.008000001311302185,
+        "min_x": 9.584630966186523,
+        "max_x": 9.620630264282227,
+        "min_y": 19.057598114013672,
+        "max_y": 24.0,
+        "min_z": 0.041999999433755875,
+        "max_z": 0.05000000074505806
+      }
+    },
+    {
+      "name": "HERO_Sidewalk_WideTop",
+      "type": "MESH",
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        0.0,
+        21.528799,
+        0.02
+      ],
+      "bounds": {
+        "dim_x": 26.907014846801758,
+        "dim_y": 4.942401885986328,
+        "dim_z": 0.18291078135371208,
+        "min_x": -13.453507423400879,
+        "max_x": 13.453507423400879,
+        "min_y": 19.057598114013672,
+        "max_y": 24.0,
+        "min_z": -0.12291078269481659,
+        "max_z": 0.05999999865889549
+      }
+    },
+    {
+      "name": "HERO_StoreMall_DeepBody",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        0.0,
+        27.0,
+        2.886878
+      ],
+      "bounds": {
+        "dim_x": 25.607013702392578,
+        "dim_y": 6.0,
+        "dim_z": 5.773756504058838,
+        "min_x": -12.803506851196289,
+        "max_x": 12.803506851196289,
+        "min_y": 24.0,
+        "max_y": 30.0,
+        "min_z": 0.0,
+        "max_z": 5.773756504058838
+      }
+    },
+    {
+      "name": "HERO_StoreMall_FlatRoof",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        0.0,
+        27.0,
+        5.966215
+      ],
+      "bounds": {
+        "dim_x": 26.407014846801758,
+        "dim_y": 6.5,
+        "dim_z": 0.3849172592163086,
+        "min_x": -13.203507423400879,
+        "max_x": 13.203507423400879,
+        "min_y": 23.75,
+        "max_y": 30.25,
+        "min_z": 5.77375602722168,
+        "max_z": 6.158673286437988
+      }
+    },
+    {
+      "name": "HERO_StoreMall_FrontParapet",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        0.0,
+        23.92,
+        6.488602
+      ],
+      "bounds": {
+        "dim_x": 26.50701332092285,
+        "dim_y": 0.20000076293945312,
+        "dim_z": 0.6598577499389648,
+        "min_x": -13.253506660461426,
+        "max_x": 13.253506660461426,
+        "min_y": 23.81999969482422,
+        "max_y": 24.020000457763672,
+        "min_z": 6.158673286437988,
+        "max_z": 6.818531036376953
+      }
+    },
+    {
+      "name": "HERO_Storefront_CenterMullion_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        -8.14136,
+        23.834999,
+        1.995827
+      ],
+      "bounds": {
+        "dim_x": 0.034999847412109375,
+        "dim_y": 0.09999847412109375,
+        "dim_z": 3.8716529607772827,
+        "min_x": -8.158860206604004,
+        "max_x": -8.123860359191895,
+        "min_y": 23.78499984741211,
+        "max_y": 23.884998321533203,
+        "min_z": 0.060000061988830566,
+        "max_z": 3.9316530227661133
+      }
+    },
+    {
+      "name": "HERO_Storefront_CenterMullion_3",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        8.14136,
+        23.834999,
+        1.995827
+      ],
+      "bounds": {
+        "dim_x": 0.034999847412109375,
+        "dim_y": 0.09999847412109375,
+        "dim_z": 3.8716529607772827,
+        "min_x": 8.123860359191895,
+        "max_x": 8.158860206604004,
+        "min_y": 23.78499984741211,
+        "max_y": 23.884998321533203,
+        "min_z": 0.060000061988830566,
+        "max_z": 3.9316530227661133
+      }
+    },
+    {
+      "name": "HERO_Storefront_ContinuousBottomFrame",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        0.0,
+        23.834999,
+        0.06
+      ],
+      "bounds": {
+        "dim_x": 20.657777786254883,
+        "dim_y": 0.09999847412109375,
+        "dim_z": 0.07000000029802322,
+        "min_x": -10.328888893127441,
+        "max_x": 10.328888893127441,
+        "min_y": 23.78499984741211,
+        "max_y": 23.884998321533203,
+        "min_z": 0.02499999850988388,
+        "max_z": 0.0949999988079071
+      }
+    },
+    {
+      "name": "HERO_Storefront_ContinuousTopFrame",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        0.0,
+        23.834999,
+        3.931653
+      ],
+      "bounds": {
+        "dim_x": 20.657777786254883,
+        "dim_y": 0.09999847412109375,
+        "dim_z": 0.07000017166137695,
+        "min_x": -10.328888893127441,
+        "max_x": 10.328888893127441,
+        "min_y": 23.78499984741211,
+        "max_y": 23.884998321533203,
+        "min_z": 3.896652936935425,
+        "max_z": 3.9666531085968018
+      }
+    },
+    {
+      "name": "HERO_Storefront_LeftVertical_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        -10.228889,
+        23.834999,
+        1.995827
+      ],
+      "bounds": {
+        "dim_x": 0.034999847412109375,
+        "dim_y": 0.09999847412109375,
+        "dim_z": 3.8716529607772827,
+        "min_x": -10.24638843536377,
+        "max_x": -10.21138858795166,
+        "min_y": 23.78499984741211,
+        "max_y": 23.884998321533203,
+        "min_z": 0.060000061988830566,
+        "max_z": 3.9316530227661133
+      }
+    },
+    {
+      "name": "HERO_Storefront_LeftVertical_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        -4.801315,
+        23.834999,
+        1.995827
+      ],
+      "bounds": {
+        "dim_x": 0.034999847412109375,
+        "dim_y": 0.09999847412109375,
+        "dim_z": 3.8716529607772827,
+        "min_x": -4.818815231323242,
+        "max_x": -4.783815383911133,
+        "min_y": 23.78499984741211,
+        "max_y": 23.884998321533203,
+        "min_z": 0.060000061988830566,
+        "max_z": 3.9316530227661133
+      }
+    },
+    {
+      "name": "HERO_Storefront_LeftVertical_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        0.626258,
+        23.834999,
+        1.995827
+      ],
+      "bounds": {
+        "dim_x": 0.034999966621398926,
+        "dim_y": 0.09999847412109375,
+        "dim_z": 3.8716529607772827,
+        "min_x": 0.6087585091590881,
+        "max_x": 0.6437584757804871,
+        "min_y": 23.78499984741211,
+        "max_y": 23.884998321533203,
+        "min_z": 0.060000061988830566,
+        "max_z": 3.9316530227661133
+      }
+    },
+    {
+      "name": "HERO_Storefront_LeftVertical_3",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        6.053832,
+        23.834999,
+        1.995827
+      ],
+      "bounds": {
+        "dim_x": 0.034999847412109375,
+        "dim_y": 0.09999847412109375,
+        "dim_z": 3.8716529607772827,
+        "min_x": 6.036332130432129,
+        "max_x": 6.071331977844238,
+        "min_y": 23.78499984741211,
+        "max_y": 23.884998321533203,
+        "min_z": 0.060000061988830566,
+        "max_z": 3.9316530227661133
+      }
+    },
+    {
+      "name": "HERO_Storefront_MidHorizontal_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        -8.14136,
+        23.834999,
+        1.995827
+      ],
+      "bounds": {
+        "dim_x": 4.175056457519531,
+        "dim_y": 0.09999847412109375,
+        "dim_z": 0.03500008583068848,
+        "min_x": -10.228888511657715,
+        "max_x": -6.053832054138184,
+        "min_y": 23.78499984741211,
+        "max_y": 23.884998321533203,
+        "min_z": 1.9783265590667725,
+        "max_z": 2.013326644897461
+      }
+    },
+    {
+      "name": "HERO_Storefront_MidHorizontal_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        -2.713787,
+        23.834999,
+        1.995827
+      ],
+      "bounds": {
+        "dim_x": 4.17505669593811,
+        "dim_y": 0.09999847412109375,
+        "dim_z": 0.03500008583068848,
+        "min_x": -4.8013153076171875,
+        "max_x": -0.6262586116790771,
+        "min_y": 23.78499984741211,
+        "max_y": 23.884998321533203,
+        "min_z": 1.9783265590667725,
+        "max_z": 2.013326644897461
+      }
+    },
+    {
+      "name": "HERO_Storefront_MidHorizontal_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        2.713787,
+        23.834999,
+        1.995827
+      ],
+      "bounds": {
+        "dim_x": 4.17505669593811,
+        "dim_y": 0.09999847412109375,
+        "dim_z": 0.03500008583068848,
+        "min_x": 0.6262586116790771,
+        "max_x": 4.8013153076171875,
+        "min_y": 23.78499984741211,
+        "max_y": 23.884998321533203,
+        "min_z": 1.9783265590667725,
+        "max_z": 2.013326644897461
+      }
+    },
+    {
+      "name": "HERO_Storefront_MidHorizontal_3",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        8.14136,
+        23.834999,
+        1.995827
+      ],
+      "bounds": {
+        "dim_x": 4.175056457519531,
+        "dim_y": 0.09999847412109375,
+        "dim_z": 0.03500008583068848,
+        "min_x": 6.053832054138184,
+        "max_x": 10.228888511657715,
+        "min_y": 23.78499984741211,
+        "max_y": 23.884998321533203,
+        "min_z": 1.9783265590667725,
+        "max_z": 2.013326644897461
+      }
+    },
+    {
+      "name": "HERO_Storefront_RightVertical_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        -6.053832,
+        23.834999,
+        1.995827
+      ],
+      "bounds": {
+        "dim_x": 0.034999847412109375,
+        "dim_y": 0.09999847412109375,
+        "dim_z": 3.8716529607772827,
+        "min_x": -6.071331977844238,
+        "max_x": -6.036332130432129,
+        "min_y": 23.78499984741211,
+        "max_y": 23.884998321533203,
+        "min_z": 0.060000061988830566,
+        "max_z": 3.9316530227661133
+      }
+    },
+    {
+      "name": "HERO_Storefront_RightVertical_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        -0.626258,
+        23.834999,
+        1.995827
+      ],
+      "bounds": {
+        "dim_x": 0.034999966621398926,
+        "dim_y": 0.09999847412109375,
+        "dim_z": 3.8716529607772827,
+        "min_x": -0.6437584757804871,
+        "max_x": -0.6087585091590881,
+        "min_y": 23.78499984741211,
+        "max_y": 23.884998321533203,
+        "min_z": 0.060000061988830566,
+        "max_z": 3.9316530227661133
+      }
+    },
+    {
+      "name": "HERO_Storefront_RightVertical_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        4.801315,
+        23.834999,
+        1.995827
+      ],
+      "bounds": {
+        "dim_x": 0.034999847412109375,
+        "dim_y": 0.09999847412109375,
+        "dim_z": 3.8716529607772827,
+        "min_x": 4.783815383911133,
+        "max_x": 4.818815231323242,
+        "min_y": 23.78499984741211,
+        "max_y": 23.884998321533203,
+        "min_z": 0.060000061988830566,
+        "max_z": 3.9316530227661133
+      }
+    },
+    {
+      "name": "HERO_Storefront_RightVertical_3",
+      "type": "MESH",
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "visible": true,
+      "location": [
+        10.228889,
+        23.834999,
+        1.995827
+      ],
+      "bounds": {
+        "dim_x": 0.034999847412109375,
+        "dim_y": 0.09999847412109375,
+        "dim_z": 3.8716529607772827,
+        "min_x": 10.21138858795166,
+        "max_x": 10.24638843536377,
+        "min_y": 23.78499984741211,
+        "max_y": 23.884998321533203,
+        "min_z": 0.060000061988830566,
+        "max_z": 3.9316530227661133
+      }
+    },
+    {
+      "name": "HERO_Underglow_FrontHiddenStrip",
+      "type": "MESH",
+      "collections": [
+        "HERO_CAR_UNDERGLOW"
+      ],
+      "visible": true,
+      "location": [
+        -0.419602,
+        3.300874,
+        0.209762
+      ],
+      "bounds": {
+        "dim_x": 1.8683414459228516,
+        "dim_y": 0.9935431480407715,
+        "dim_z": 0.01600000262260437,
+        "min_x": -1.353772759437561,
+        "max_x": 0.5145686864852905,
+        "min_y": 2.8041019439697266,
+        "max_y": 3.797645092010498,
+        "min_z": 0.2017621546983719,
+        "max_z": 0.21776215732097626
+      }
+    },
+    {
+      "name": "HERO_Underglow_RearHiddenStrip",
+      "type": "MESH",
+      "collections": [
+        "HERO_CAR_UNDERGLOW"
+      ],
+      "visible": true,
+      "location": [
+        -2.454135,
+        7.081832,
+        0.212028
+      ],
+      "bounds": {
+        "dim_x": 1.8007196187973022,
+        "dim_y": 0.9038753509521484,
+        "dim_z": 0.01600000262260437,
+        "min_x": -3.3544952869415283,
+        "max_x": -1.553775668144226,
+        "min_y": 6.629894256591797,
+        "max_y": 7.533769607543945,
+        "min_z": 0.20402777194976807,
+        "max_z": 0.22002777457237244
+      }
+    },
+    {
+      "name": "V2B_OverheadAmber_0",
+      "type": "LIGHT",
+      "collections": [
+        "V2B_LIGHTS_OVERHEAD"
+      ],
+      "visible": true,
+      "location": [
+        -5.222266,
+        2.649782,
+        5.278863
+      ],
+      "bounds": {
+        "dim_x": 0.0,
+        "dim_y": 0.0,
+        "dim_z": 0.0,
+        "min_x": -5.22226619720459,
+        "max_x": -5.22226619720459,
+        "min_y": 2.649782180786133,
+        "max_y": 2.649782180786133,
+        "min_z": 5.278862953186035,
+        "max_z": 5.278862953186035
+      },
+      "light_type": "AREA",
+      "energy": 520.0,
+      "color": [
+        1.0,
+        0.3700000047683716,
+        0.054999999701976776
+      ],
+      "spot_size": null,
+      "spot_blend": null,
+      "size": 2.200000047683716
+    },
+    {
+      "name": "V2B_OverheadAmber_1",
+      "type": "LIGHT",
+      "collections": [
+        "V2B_LIGHTS_OVERHEAD"
+      ],
+      "visible": true,
+      "location": [
+        5.284363,
+        2.653402,
+        5.278863
+      ],
+      "bounds": {
+        "dim_x": 0.0,
+        "dim_y": 0.0,
+        "dim_z": 0.0,
+        "min_x": 5.28436279296875,
+        "max_x": 5.28436279296875,
+        "min_y": 2.6534018516540527,
+        "max_y": 2.6534018516540527,
+        "min_z": 5.278862953186035,
+        "max_z": 5.278862953186035
+      },
+      "light_type": "AREA",
+      "energy": 300.0,
+      "color": [
+        1.0,
+        0.3700000047683716,
+        0.054999999701976776
+      ],
+      "spot_size": null,
+      "spot_blend": null,
+      "size": 2.200000047683716
+    }
+  ],
+  "clothing_related_objects": [
+    {
+      "name": "Apricot Pullover Hoodie",
+      "type": "MESH",
+      "collections": [
+        "Apricot Pullover Hoodie"
+      ],
+      "visible": true,
+      "location": [
+        -2.816514,
+        0.012429,
+        0.993742
+      ],
+      "bounds": {
+        "dim_x": 2.2775275707244873,
+        "dim_y": 1.0912777483463287,
+        "dim_z": 1.5498076677322388,
+        "min_x": -3.956373929977417,
+        "max_x": -1.6788463592529297,
+        "min_y": -0.49759361147880554,
+        "max_y": 0.5936841368675232,
+        "min_z": 0.9972134828567505,
+        "max_z": 2.5470211505889893
+      }
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_FlameAccent_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "visible": false,
+      "location": [
+        -0.967061,
+        -0.133357,
+        0.110569
+      ],
+      "bounds": {
+        "dim_x": 0.0779343917965889,
+        "dim_y": 0.0885206013917923,
+        "dim_z": 0.0989786833524704,
+        "min_x": -0.03896719589829445,
+        "max_x": 0.03896719589829445,
+        "min_y": -0.04426030069589615,
+        "max_y": 0.04426030069589615,
+        "min_z": -0.0494893416762352,
+        "max_z": 0.0494893416762352
+      }
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_FlameAccent_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "visible": false,
+      "location": [
+        -0.967061,
+        -0.184994,
+        0.14906
+      ],
+      "bounds": {
+        "dim_x": 0.0779343917965889,
+        "dim_y": 0.0885206013917923,
+        "dim_z": 0.0989786833524704,
+        "min_x": -0.03896719589829445,
+        "max_x": 0.03896719589829445,
+        "min_y": -0.04426030069589615,
+        "max_y": 0.04426030069589615,
+        "min_z": -0.0494893416762352,
+        "max_z": 0.0494893416762352
+      }
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_FlameAccent_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "visible": false,
+      "location": [
+        -0.967061,
+        -0.236631,
+        0.187552
+      ],
+      "bounds": {
+        "dim_x": 0.0779343917965889,
+        "dim_y": 0.0885206013917923,
+        "dim_z": 0.0989786833524704,
+        "min_x": -0.03896719589829445,
+        "max_x": 0.03896719589829445,
+        "min_y": -0.04426030069589615,
+        "max_y": 0.04426030069589615,
+        "min_z": -0.0494893416762352,
+        "max_z": 0.0494893416762352
+      }
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_WhiteSole",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "visible": true,
+      "location": [
+        -0.577389,
+        -0.089097,
+        0.019838
+      ],
+      "bounds": {
+        "dim_x": 1.0020135641098022,
+        "dim_y": 0.8556991517543793,
+        "dim_z": 0.0989786870777607,
+        "min_x": -1.0783960819244385,
+        "max_x": -0.07638251781463623,
+        "min_y": -0.5169463157653809,
+        "max_y": 0.3387528359889984,
+        "min_z": -0.029651019722223282,
+        "max_z": 0.06932766735553741
+      }
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_FlameAccent_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "visible": false,
+      "location": [
+        0.535959,
+        -0.133357,
+        0.110569
+      ],
+      "bounds": {
+        "dim_x": 0.0779343917965889,
+        "dim_y": 0.0885206013917923,
+        "dim_z": 0.0989786833524704,
+        "min_x": -0.03896719589829445,
+        "max_x": 0.03896719589829445,
+        "min_y": -0.04426030069589615,
+        "max_y": 0.04426030069589615,
+        "min_z": -0.0494893416762352,
+        "max_z": 0.0494893416762352
+      }
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_FlameAccent_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "visible": false,
+      "location": [
+        0.535959,
+        -0.184994,
+        0.14906
+      ],
+      "bounds": {
+        "dim_x": 0.0779343917965889,
+        "dim_y": 0.0885206013917923,
+        "dim_z": 0.0989786833524704,
+        "min_x": -0.03896719589829445,
+        "max_x": 0.03896719589829445,
+        "min_y": -0.04426030069589615,
+        "max_y": 0.04426030069589615,
+        "min_z": -0.0494893416762352,
+        "max_z": 0.0494893416762352
+      }
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_FlameAccent_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "visible": false,
+      "location": [
+        0.535959,
+        -0.236631,
+        0.187552
+      ],
+      "bounds": {
+        "dim_x": 0.0779343917965889,
+        "dim_y": 0.0885206013917923,
+        "dim_z": 0.0989786833524704,
+        "min_x": -0.03896719589829445,
+        "max_x": 0.03896719589829445,
+        "min_y": -0.04426030069589615,
+        "max_y": 0.04426030069589615,
+        "min_z": -0.0494893416762352,
+        "max_z": 0.0494893416762352
+      }
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_WhiteSole",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "visible": true,
+      "location": [
+        0.146287,
+        -0.089097,
+        0.019838
+      ],
+      "bounds": {
+        "dim_x": 1.0020135641098022,
+        "dim_y": 0.8556991517543793,
+        "dim_z": 0.0989786870777607,
+        "min_x": -0.3547196388244629,
+        "max_x": 0.6472939252853394,
+        "min_y": -0.5169463157653809,
+        "max_y": 0.3387528359889984,
+        "min_z": -0.029651019722223282,
+        "max_z": 0.06932766735553741
+      }
+    },
+    {
+      "name": "HERO_CAM_ImportedClothingCandidates",
+      "type": "CAMERA",
+      "collections": [
+        "HERO_REVIEW_CAMERAS"
+      ],
+      "visible": true,
+      "location": [
+        8.691236,
+        -7.409224,
+        3.162411
+      ],
+      "bounds": {
+        "dim_x": 0.0,
+        "dim_y": 0.0,
+        "dim_z": 0.0,
+        "min_x": 8.69123649597168,
+        "max_x": 8.69123649597168,
+        "min_y": -7.409223556518555,
+        "max_y": -7.409223556518555,
+        "min_z": 3.1624114513397217,
+        "max_z": 3.1624114513397217
+      }
+    },
+    {
+      "name": "HERO_CAM_ShoeGraphicCleanup",
+      "type": "CAMERA",
+      "collections": [
+        "HERO_REVIEW_CAMERAS"
+      ],
+      "visible": true,
+      "location": [
+        2.150314,
+        -3.010171,
+        0.687944
+      ],
+      "bounds": {
+        "dim_x": 0.0,
+        "dim_y": 0.0,
+        "dim_z": 0.0,
+        "min_x": 2.1503143310546875,
+        "max_x": 2.1503143310546875,
+        "min_y": -3.0101711750030518,
+        "max_y": -3.0101711750030518,
+        "min_z": 0.6879444122314453,
+        "max_z": 0.6879444122314453
+      }
+    },
+    {
+      "name": "HERO_MaterialSwatch_Hoodie",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_MATERIAL_GUIDES"
+      ],
+      "visible": false,
+      "location": [
+        2.150314,
+        0.194177,
+        0.330521
+      ],
+      "bounds": {
+        "dim_x": 0.10999999940395355,
+        "dim_y": 0.10999999940395355,
+        "dim_z": 0.10999999940395355,
+        "min_x": -0.054999999701976776,
+        "max_x": 0.054999999701976776,
+        "min_y": -0.054999999701976776,
+        "max_y": 0.054999999701976776,
+        "min_z": -0.054999999701976776,
+        "max_z": 0.054999999701976776
+      }
+    },
+    {
+      "name": "HERO_MaterialSwatch_ShoeBlack",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_MATERIAL_GUIDES"
+      ],
+      "visible": false,
+      "location": [
+        2.150314,
+        0.554177,
+        0.330521
+      ],
+      "bounds": {
+        "dim_x": 0.10999999940395355,
+        "dim_y": 0.10999999940395355,
+        "dim_z": 0.10999999940395355,
+        "min_x": -0.054999999701976776,
+        "max_x": 0.054999999701976776,
+        "min_y": -0.054999999701976776,
+        "max_y": 0.054999999701976776,
+        "min_z": -0.054999999701976776,
+        "max_z": 0.054999999701976776
+      }
+    },
+    {
+      "name": "HERO_MaterialSwatch_ShoeWhite",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_MATERIAL_GUIDES"
+      ],
+      "visible": false,
+      "location": [
+        2.150314,
+        0.734177,
+        0.330521
+      ],
+      "bounds": {
+        "dim_x": 0.10999999940395355,
+        "dim_y": 0.10999999940395355,
+        "dim_z": 0.10999999940395355,
+        "min_x": -0.054999999701976776,
+        "max_x": 0.054999999701976776,
+        "min_y": -0.054999999701976776,
+        "max_y": 0.054999999701976776,
+        "min_z": -0.054999999701976776,
+        "max_z": 0.054999999701976776
+      }
+    },
+    {
+      "name": "Shoes",
+      "type": "EMPTY",
+      "collections": [
+        "Shoes"
+      ],
+      "visible": true,
+      "location": [
+        -2.827274,
+        0.0,
+        0.0
+      ],
+      "bounds": {
+        "dim_x": 0.0,
+        "dim_y": 0.0,
+        "dim_z": 0.0,
+        "min_x": -2.8272738456726074,
+        "max_x": -2.8272738456726074,
+        "min_y": 0.0,
+        "max_y": 0.0,
+        "min_z": 0.0,
+        "max_z": 0.0
+      }
+    }
+  ],
+  "lights": [
+    {
+      "name": "HERO_CarAmberHoodRead",
+      "type": "LIGHT",
+      "collections": [
+        "HERO_CAR_AMBER_READ"
+      ],
+      "visible": true,
+      "location": [
+        5.265154,
+        1.978295,
+        5.190777
+      ],
+      "bounds": {
+        "dim_x": 0.0,
+        "dim_y": 0.0,
+        "dim_z": 0.0,
+        "min_x": 5.265153884887695,
+        "max_x": 5.265153884887695,
+        "min_y": 1.978294849395752,
+        "max_y": 1.978294849395752,
+        "min_z": 5.190776824951172,
+        "max_z": 5.190776824951172
+      },
+      "light_type": "SPOT",
+      "energy": 150.0,
+      "color": [
+        1.0,
+        0.3799999952316284,
+        0.07999999821186066
+      ],
+      "spot_size": 0.949999988079071,
+      "spot_blend": 0.6499999761581421,
+      "size": null
+    },
+    {
+      "name": "HERO_CarAmberRoofRead",
+      "type": "LIGHT",
+      "collections": [
+        "HERO_CAR_AMBER_READ"
+      ],
+      "visible": true,
+      "location": [
+        -5.186506,
+        1.995343,
+        5.201615
+      ],
+      "bounds": {
+        "dim_x": 0.0,
+        "dim_y": 0.0,
+        "dim_z": 0.0,
+        "min_x": -5.1865057945251465,
+        "max_x": -5.1865057945251465,
+        "min_y": 1.9953433275222778,
+        "max_y": 1.9953433275222778,
+        "min_z": 5.201615333557129,
+        "max_z": 5.201615333557129
+      },
+      "light_type": "SPOT",
+      "energy": 260.0,
+      "color": [
+        1.0,
+        0.3799999952316284,
+        0.07999999821186066
+      ],
+      "spot_size": 1.0499999523162842,
+      "spot_blend": 0.7200000286102295,
+      "size": null
+    },
+    {
+      "name": "HERO_CarWarmSideGlint",
+      "type": "LIGHT",
+      "collections": [
+        "HERO_CAR_AMBER_READ"
+      ],
+      "visible": true,
+      "location": [
+        0.007344,
+        22.906092,
+        7.155601
+      ],
+      "bounds": {
+        "dim_x": 0.0,
+        "dim_y": 0.0,
+        "dim_z": 0.0,
+        "min_x": 0.00734373927116394,
+        "max_x": 0.00734373927116394,
+        "min_y": 22.906091690063477,
+        "max_y": 22.906091690063477,
+        "min_z": 7.155600547790527,
+        "max_z": 7.155600547790527
+      },
+      "light_type": "SPOT",
+      "energy": 90.0,
+      "color": [
+        1.0,
+        0.3799999952316284,
+        0.07999999821186066
+      ],
+      "spot_size": 0.8500000238418579,
+      "spot_blend": 0.800000011920929,
+      "size": null
+    },
+    {
+      "name": "HERO_CyanUnderglow_Area",
+      "type": "LIGHT",
+      "collections": [
+        "HERO_CAR_UNDERGLOW"
+      ],
+      "visible": true,
+      "location": [
+        -1.522953,
+        5.177517,
+        0.075276
+      ],
+      "bounds": {
+        "dim_x": 0.0,
+        "dim_y": 0.0,
+        "dim_z": 0.0,
+        "min_x": -1.5229525566101074,
+        "max_x": -1.5229525566101074,
+        "min_y": 5.177516937255859,
+        "max_y": 5.177516937255859,
+        "min_z": 0.07527603209018707,
+        "max_z": 0.07527603209018707
+      },
+      "light_type": "AREA",
+      "energy": 160.0,
+      "color": [
+        0.0,
+        0.550000011920929,
+        1.0
+      ],
+      "spot_size": null,
+      "spot_blend": null,
+      "size": 2.727658987045288
+    },
+    {
+      "name": "V2B_OverheadAmber_0",
+      "type": "LIGHT",
+      "collections": [
+        "V2B_LIGHTS_OVERHEAD"
+      ],
+      "visible": true,
+      "location": [
+        -5.222266,
+        2.649782,
+        5.278863
+      ],
+      "bounds": {
+        "dim_x": 0.0,
+        "dim_y": 0.0,
+        "dim_z": 0.0,
+        "min_x": -5.22226619720459,
+        "max_x": -5.22226619720459,
+        "min_y": 2.649782180786133,
+        "max_y": 2.649782180786133,
+        "min_z": 5.278862953186035,
+        "max_z": 5.278862953186035
+      },
+      "light_type": "AREA",
+      "energy": 520.0,
+      "color": [
+        1.0,
+        0.3700000047683716,
+        0.054999999701976776
+      ],
+      "spot_size": null,
+      "spot_blend": null,
+      "size": 2.200000047683716
+    },
+    {
+      "name": "V2B_OverheadAmber_1",
+      "type": "LIGHT",
+      "collections": [
+        "V2B_LIGHTS_OVERHEAD"
+      ],
+      "visible": true,
+      "location": [
+        5.284363,
+        2.653402,
+        5.278863
+      ],
+      "bounds": {
+        "dim_x": 0.0,
+        "dim_y": 0.0,
+        "dim_z": 0.0,
+        "min_x": 5.28436279296875,
+        "max_x": 5.28436279296875,
+        "min_y": 2.6534018516540527,
+        "max_y": 2.6534018516540527,
+        "min_z": 5.278862953186035,
+        "max_z": 5.278862953186035
+      },
+      "light_type": "AREA",
+      "energy": 300.0,
+      "color": [
+        1.0,
+        0.3700000047683716,
+        0.054999999701976776
+      ],
+      "spot_size": null,
+      "spot_blend": null,
+      "size": 2.200000047683716
+    }
+  ],
+  "suspect_leftover_objects": [
+    {
+      "name": "HERO_BlackSkateShoe_L_FlameAccent_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "visible": false,
+      "location": [
+        -0.967061,
+        -0.133357,
+        0.110569
+      ],
+      "bounds": {
+        "dim_x": 0.0779343917965889,
+        "dim_y": 0.0885206013917923,
+        "dim_z": 0.0989786833524704,
+        "min_x": -0.03896719589829445,
+        "max_x": 0.03896719589829445,
+        "min_y": -0.04426030069589615,
+        "max_y": 0.04426030069589615,
+        "min_z": -0.0494893416762352,
+        "max_z": 0.0494893416762352
+      }
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_FlameAccent_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "visible": false,
+      "location": [
+        -0.967061,
+        -0.184994,
+        0.14906
+      ],
+      "bounds": {
+        "dim_x": 0.0779343917965889,
+        "dim_y": 0.0885206013917923,
+        "dim_z": 0.0989786833524704,
+        "min_x": -0.03896719589829445,
+        "max_x": 0.03896719589829445,
+        "min_y": -0.04426030069589615,
+        "max_y": 0.04426030069589615,
+        "min_z": -0.0494893416762352,
+        "max_z": 0.0494893416762352
+      }
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_FlameAccent_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "visible": false,
+      "location": [
+        -0.967061,
+        -0.236631,
+        0.187552
+      ],
+      "bounds": {
+        "dim_x": 0.0779343917965889,
+        "dim_y": 0.0885206013917923,
+        "dim_z": 0.0989786833524704,
+        "min_x": -0.03896719589829445,
+        "max_x": 0.03896719589829445,
+        "min_y": -0.04426030069589615,
+        "max_y": 0.04426030069589615,
+        "min_z": -0.0494893416762352,
+        "max_z": 0.0494893416762352
+      }
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_FlameAccent_0",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "visible": false,
+      "location": [
+        0.535959,
+        -0.133357,
+        0.110569
+      ],
+      "bounds": {
+        "dim_x": 0.0779343917965889,
+        "dim_y": 0.0885206013917923,
+        "dim_z": 0.0989786833524704,
+        "min_x": -0.03896719589829445,
+        "max_x": 0.03896719589829445,
+        "min_y": -0.04426030069589615,
+        "max_y": 0.04426030069589615,
+        "min_z": -0.0494893416762352,
+        "max_z": 0.0494893416762352
+      }
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_FlameAccent_1",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "visible": false,
+      "location": [
+        0.535959,
+        -0.184994,
+        0.14906
+      ],
+      "bounds": {
+        "dim_x": 0.0779343917965889,
+        "dim_y": 0.0885206013917923,
+        "dim_z": 0.0989786833524704,
+        "min_x": -0.03896719589829445,
+        "max_x": 0.03896719589829445,
+        "min_y": -0.04426030069589615,
+        "max_y": 0.04426030069589615,
+        "min_z": -0.0494893416762352,
+        "max_z": 0.0494893416762352
+      }
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_FlameAccent_2",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_WARDROBE_V1"
+      ],
+      "visible": false,
+      "location": [
+        0.535959,
+        -0.236631,
+        0.187552
+      ],
+      "bounds": {
+        "dim_x": 0.0779343917965889,
+        "dim_y": 0.0885206013917923,
+        "dim_z": 0.0989786833524704,
+        "min_x": -0.03896719589829445,
+        "max_x": 0.03896719589829445,
+        "min_y": -0.04426030069589615,
+        "max_y": 0.04426030069589615,
+        "min_z": -0.0494893416762352,
+        "max_z": 0.0494893416762352
+      }
+    },
+    {
+      "name": "HERO_MaterialSwatch_Denim",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_MATERIAL_GUIDES"
+      ],
+      "visible": false,
+      "location": [
+        2.150314,
+        0.374177,
+        0.330521
+      ],
+      "bounds": {
+        "dim_x": 0.10999999940395355,
+        "dim_y": 0.10999999940395355,
+        "dim_z": 0.10999999940395355,
+        "min_x": -0.054999999701976776,
+        "max_x": 0.054999999701976776,
+        "min_y": -0.054999999701976776,
+        "max_y": 0.054999999701976776,
+        "min_z": -0.054999999701976776,
+        "max_z": 0.054999999701976776
+      }
+    },
+    {
+      "name": "HERO_MaterialSwatch_Flame",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_MATERIAL_GUIDES"
+      ],
+      "visible": false,
+      "location": [
+        2.150314,
+        0.914177,
+        0.330521
+      ],
+      "bounds": {
+        "dim_x": 0.10999999940395355,
+        "dim_y": 0.10999999940395355,
+        "dim_z": 0.10999999940395355,
+        "min_x": -0.054999999701976776,
+        "max_x": 0.054999999701976776,
+        "min_y": -0.054999999701976776,
+        "max_y": 0.054999999701976776,
+        "min_z": -0.054999999701976776,
+        "max_z": 0.054999999701976776
+      }
+    },
+    {
+      "name": "HERO_MaterialSwatch_Hoodie",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_MATERIAL_GUIDES"
+      ],
+      "visible": false,
+      "location": [
+        2.150314,
+        0.194177,
+        0.330521
+      ],
+      "bounds": {
+        "dim_x": 0.10999999940395355,
+        "dim_y": 0.10999999940395355,
+        "dim_z": 0.10999999940395355,
+        "min_x": -0.054999999701976776,
+        "max_x": 0.054999999701976776,
+        "min_y": -0.054999999701976776,
+        "max_y": 0.054999999701976776,
+        "min_z": -0.054999999701976776,
+        "max_z": 0.054999999701976776
+      }
+    },
+    {
+      "name": "HERO_MaterialSwatch_ShoeBlack",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_MATERIAL_GUIDES"
+      ],
+      "visible": false,
+      "location": [
+        2.150314,
+        0.554177,
+        0.330521
+      ],
+      "bounds": {
+        "dim_x": 0.10999999940395355,
+        "dim_y": 0.10999999940395355,
+        "dim_z": 0.10999999940395355,
+        "min_x": -0.054999999701976776,
+        "max_x": 0.054999999701976776,
+        "min_y": -0.054999999701976776,
+        "max_y": 0.054999999701976776,
+        "min_z": -0.054999999701976776,
+        "max_z": 0.054999999701976776
+      }
+    },
+    {
+      "name": "HERO_MaterialSwatch_ShoeWhite",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_MATERIAL_GUIDES"
+      ],
+      "visible": false,
+      "location": [
+        2.150314,
+        0.734177,
+        0.330521
+      ],
+      "bounds": {
+        "dim_x": 0.10999999940395355,
+        "dim_y": 0.10999999940395355,
+        "dim_z": 0.10999999940395355,
+        "min_x": -0.054999999701976776,
+        "max_x": 0.054999999701976776,
+        "min_y": -0.054999999701976776,
+        "max_y": 0.054999999701976776,
+        "min_z": -0.054999999701976776,
+        "max_z": 0.054999999701976776
+      }
+    },
+    {
+      "name": "HERO_MaterialSwatch_Yarn",
+      "type": "MESH",
+      "collections": [
+        "HERO_CHARACTER_MATERIAL_GUIDES"
+      ],
+      "visible": false,
+      "location": [
+        2.150314,
+        0.014177,
+        0.330521
+      ],
+      "bounds": {
+        "dim_x": 0.10999999940395355,
+        "dim_y": 0.10999999940395355,
+        "dim_z": 0.10999999940395355,
+        "min_x": -0.054999999701976776,
+        "max_x": 0.054999999701976776,
+        "min_y": -0.054999999701976776,
+        "max_y": 0.054999999701976776,
+        "min_z": -0.054999999701976776,
+        "max_z": 0.054999999701976776
+      }
+    },
+    {
+      "name": "Traffic Cone (Photoscanned)",
+      "type": "MESH",
+      "collections": [
+        "Traffic Cone (Photoscanned)"
+      ],
+      "visible": true,
+      "location": [
+        0.001217,
+        18.626059,
+        0.010688
+      ],
+      "bounds": {
+        "dim_x": 0.4569580852985382,
+        "dim_y": 0.46683502197265625,
+        "dim_z": 0.8007172076031566,
+        "min_x": -0.23197804391384125,
+        "max_x": 0.22498004138469696,
+        "min_y": 18.39879035949707,
+        "max_y": 18.865625381469727,
+        "min_z": 0.01119938213378191,
+        "max_z": 0.8119165897369385
+      }
+    }
+  ]
+}

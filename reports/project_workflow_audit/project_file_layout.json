@@ -1,11 +1,11 @@
 [
   {
     "path": "blender\\sackboy_scene.blend",
-    "size_bytes": 14082341
+    "size_bytes": 115132947
   },
   {
     "path": "blender\\sackboy_scene.blend1",
-    "size_bytes": 13947608
+    "size_bytes": 115140620
   },
   {
     "path": "blender\\sackboy_scene.zip",
@@ -14,6 +14,10 @@
   {
     "path": "blender\\scripts\\ambient_car_glass_polish_v1.py",
     "size_bytes": 14302
+  },
+  {
+    "path": "blender\\scripts\\baseline_capture_scan_v1.py",
+    "size_bytes": 7831
   },
   {
     "path": "blender\\scripts\\build_all.py",
@@ -216,8 +220,48 @@
     "size_bytes": 17612
   },
   {
+    "path": "blender\\assets\\models\\apricot-pullover_b2f78781-cee0-4e35-a114-b0d71585c622\\apricot-pullover-hoodie_2K_8e5502ad-7548-4910-b816-e7a57a427487.blend",
+    "size_bytes": 35156776
+  },
+  {
+    "path": "blender\\assets\\models\\asphalt-ground_f3ceb568-49d5-4455-822f-52389b95d658\\asphalt-ground_2K_46f57466-cd63-49d1-ba8a-8581c55e1a76.blend",
+    "size_bytes": 2103304
+  },
+  {
     "path": "blender\\assets\\models\\audi-e-tron-gt-q_dbb92b61-1147-491e-b136-50da4ee5f98b\\audi-e-tron-gt-quattro-black_f4223b16-a2d8-4237-b861-8e33a1756f47.blend",
     "size_bytes": 5583957
+  },
+  {
+    "path": "blender\\assets\\models\\cargo-pants_1aaf05aa-c788-46f4-9143-4c2b735f95a2\\cargo-pants_2K_43a6cddb-dc71-4eae-979d-0127330ddea2.blend",
+    "size_bytes": 4832197
+  },
+  {
+    "path": "blender\\assets\\models\\cast-iron-sewer-_22ae1c62-6a01-445a-ad28-a8705aa4b44e\\cast-iron-sewer-hatch_2K_6b0722d8-5083-437c-af05-215e65f202a1.blend",
+    "size_bytes": 7086418
+  },
+  {
+    "path": "blender\\assets\\models\\large-trash-can_4077ae78-6dbc-4e86-abf3-472a5e6e9fe3\\large-trash-can_1K_1a93761a-bfff-430e-9699-2f43c1c73a4b.blend",
+    "size_bytes": 4238787
+  },
+  {
+    "path": "blender\\assets\\models\\no-parking-sign-_a3485c33-d9d3-4ee4-b83a-ef3d263f26de\\no-parking-sign-board_2K_88c57b1a-98b9-4daa-8303-387b45e9bef7.blend",
+    "size_bytes": 1106690
+  },
+  {
+    "path": "blender\\assets\\models\\shoes_0d743631-3d77-4d91-a01a-1bc7b1724188\\shoes_2K_64e85bf1-7fac-4165-9acf-417d890468c0.blend",
+    "size_bytes": 23435521
+  },
+  {
+    "path": "blender\\assets\\models\\stop-road-sign_f05b07cb-87b3-4142-87f5-165a5d05c2d3\\stop-road-sign_2K_d1960206-9089-48b6-9213-50c02111d2b9.blend",
+    "size_bytes": 3076043
+  },
+  {
+    "path": "blender\\assets\\models\\traffic-cone-pho_c476aac0-44af-4dcf-b110-b48aca461084\\traffic-cone-photoscanned_2K_feaf4b00-b46c-4ae6-ac58-83220fd96706.blend",
+    "size_bytes": 2430980
+  },
+  {
+    "path": "blender\\assets\\models\\utility-box-phot_e0ae03e0-2f71-4d55-8720-729d613b8c08\\utility-box-photoscanned_2K_63a62343-c802-4ca1-a1c9-c4c1a6ec6056.blend",
+    "size_bytes": 3151159
   },
   {
     "path": "blender\\assets\\models\\clothing\\hoodie\\PUT_GLB_OR_FBX_HERE.txt",
@@ -234,6 +278,22 @@
   {
     "path": "blender\\assets\\models\\clothing\\sneakers\\PUT_GLB_OR_FBX_HERE.txt",
     "size_bytes": 277
+  },
+  {
+    "path": "blender\\assets\\materials\\black-denim-jean_4a7a6306-30a8-4ec5-88e9-6b1cfaf59bd6\\black-denim-jeans-fabric_2K_8f029153-13ad-47ad-9e4f-5b45894443f8.blend",
+    "size_bytes": 8153566
+  },
+  {
+    "path": "blender\\assets\\materials\\black-rubber_c0f1ba6b-4188-48e9-85f1-628be2f0d5c1\\black-rubber_2K_08a95cd7-f02d-4df8-bb87-3dd62d9a4028.blend",
+    "size_bytes": 2491647
+  },
+  {
+    "path": "blender\\assets\\materials\\cloth-black_bb279836-2d6c-46f0-a9b6-5d19fb5b65df\\cloth-black_1K_543c1632-87bd-47f3-ae1d-8886e08dabdf.blend",
+    "size_bytes": 1190106
+  },
+  {
+    "path": "blender\\assets\\materials\\cloth-brown_58c87daa-a820-481f-9326-78335237efa2\\cloth-brown_1K_71448b91-01e6-4fde-bb1b-b925d1205c57.blend",
+    "size_bytes": 1190389
   },
   {
     "path": "NightSkyHDRI003_1K\\NightSkyHDRI003.png",
@@ -260,32 +320,40 @@
     "size_bytes": 262612
   },
   {
-    "path": "renders\\current_review\\01_WardrobeCleanupFront.png",
-    "size_bytes": 826862
+    "path": "renders\\current_review\\01_HERO_CAM_ImportedClothingCandidates.png",
+    "size_bytes": 1101236
   },
   {
-    "path": "renders\\current_review\\02_ShoeGraphicCleanup.png",
-    "size_bytes": 865432
+    "path": "renders\\current_review\\02_HERO_CAM_ShoeGraphicCleanup.png",
+    "size_bytes": 971442
   },
   {
-    "path": "renders\\current_review\\03_ImportedClothingCandidates.png",
-    "size_bytes": 876547
+    "path": "renders\\current_review\\03_HERO_CAM_WardrobeCleanupFront.png",
+    "size_bytes": 857169
   },
   {
-    "path": "renders\\current_review\\WardrobeCleanupAssetIntake_report.txt",
-    "size_bytes": 815
+    "path": "renders\\current_review\\BaselineCaptureScan_report.txt",
+    "size_bytes": 215
+  },
+  {
+    "path": "reports\\baseline_capture_scan_v1\\baseline_capture_scan_v1.json",
+    "size_bytes": 95529
+  },
+  {
+    "path": "reports\\baseline_capture_scan_v1\\Baseline_Capture_Scan_v1.md",
+    "size_bytes": 10138
   },
   {
     "path": "reports\\project_workflow_audit\\project_file_layout.json",
-    "size_bytes": 6790
+    "size_bytes": 7493
   },
   {
     "path": "reports\\project_workflow_audit\\scene_layout_summary.md",
-    "size_bytes": 15697
+    "size_bytes": 16918
   },
   {
     "path": "reports\\project_workflow_audit\\scene_manifest.json",
-    "size_bytes": 305646
+    "size_bytes": 313162
   },
   {
     "path": "reports\\wardrobe_asset_notes\\Wardrobe_Asset_Intake_Notes.txt",

@@ -1,0 +1,4 @@
+[baseline] read-only scan started; no scene objects will be modified
+[render] 01_HERO_CAM_ImportedClothingCandidates.png
+[render] 02_HERO_CAM_ShoeGraphicCleanup.png
+[render] 03_HERO_CAM_WardrobeCleanupFront.png
