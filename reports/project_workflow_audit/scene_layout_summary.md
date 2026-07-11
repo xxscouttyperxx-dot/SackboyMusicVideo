@@ -1,9 +1,9 @@
 # Scene Layout Summary
 
-Updated by Parking Height / Underglow Repair v1.
+Updated by Grid Parking / Reflection Lights v1.
 
-- Imported Asphalt ground is visible and flattened/lowered to the previous clean parking surface height.
-- Bad PARKING_DECAL_*ENV_PlazaShell decal was removed by rebuilding paint decals from filtered paint sources.
-- Old raised paint-strip meshes are hidden and replaced with flat decal planes.
-- HERO_CyanUnderglow_Area was restored to its locked location under the car.
-- No far-end reflection lights were added in this repair pass.
+- Imported Asphalt ground is visible and flattened at grid level.
+- Original parking paint strip meshes are restored at grid level; generated decal objects are removed.
+- HERO_CyanUnderglow_Area is locked at its under-car location.
+- Far-end red/white/amber/green spotlights were added for window reflection tests.
+- Character deformation was not applied in this pass; fit scan and plan were recorded.

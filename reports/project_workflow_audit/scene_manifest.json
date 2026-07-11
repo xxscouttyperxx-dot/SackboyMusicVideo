@@ -145,8 +145,8 @@
         4.915334
       ],
       "dimensions": [
-        70.766048,
-        70.315695,
+        70.766045,
+        70.315693,
         3.844296
       ],
       "modifiers": [],
@@ -236,9 +236,9 @@
         1.0
       ],
       "dimensions": [
-        0.168475,
-        0.004881,
-        0.00023
+        0.168511,
+        0.006456,
+        0.003463
       ],
       "modifiers": [
         {
@@ -780,9 +780,9 @@
         1.0
       ],
       "dimensions": [
-        0.048209,
-        0.276449,
-        0.417184
+        0.05033,
+        0.284628,
+        1.757066
       ],
       "modifiers": [
         {
@@ -837,9 +837,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         -5.05,
         6.6,
@@ -869,9 +870,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         -8.55,
         6.6,
@@ -901,9 +903,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         -12.05,
         6.6,
@@ -933,9 +936,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         -1.55,
         6.6,
@@ -965,9 +969,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         1.95,
         6.6,
@@ -997,9 +1002,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         5.45,
         6.6,
@@ -1029,9 +1035,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         8.95,
         6.6,
@@ -1061,9 +1068,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         -1.95,
         6.6,
@@ -1093,9 +1101,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         -5.45,
         6.6,
@@ -1125,9 +1134,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         -8.95,
         6.6,
@@ -1157,9 +1167,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         1.55,
         6.6,
@@ -1189,9 +1200,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         5.05,
         6.6,
@@ -1221,9 +1233,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         8.55,
         6.6,
@@ -1253,9 +1266,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         12.05,
         6.6,
@@ -1285,9 +1299,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         -3.5,
         6.6,
@@ -1317,9 +1332,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         -7.0,
         6.6,
@@ -1349,9 +1365,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         -10.5,
         6.6,
@@ -1381,9 +1398,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         0.0,
         6.6,
@@ -1413,9 +1431,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         3.5,
         6.6,
@@ -1445,9 +1464,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         7.0,
         6.6,
@@ -1477,9 +1497,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         10.5,
         6.6,
@@ -1509,9 +1530,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         -3.5,
         6.72,
@@ -1541,9 +1563,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         -7.0,
         6.72,
@@ -1573,9 +1596,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         -10.5,
         6.72,
@@ -1605,9 +1629,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         0.0,
         6.72,
@@ -1637,9 +1662,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         3.5,
         6.72,
@@ -1669,9 +1695,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         7.0,
         6.72,
@@ -1701,9 +1728,10 @@
       "type": "MESH",
       "collections": [
         "ENV_ParkingLot",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         10.5,
         6.72,
@@ -1850,6 +1878,1494 @@
         0.0
       ],
       "modifiers": []
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameL_-1",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameL_-2",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameL_-3",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameL_0",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameL_1",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameL_2",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameL_3",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameR_-1",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameR_-2",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameR_-3",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameR_0",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameR_1",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameR_2",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameR_3",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameTop_-1",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.2,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameTop_-2",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.2,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameTop_-3",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.2,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameTop_0",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.2,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameTop_1",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.2,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameTop_2",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.2,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameTop_3",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.2,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_Glass_-1",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.84,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_Glass_-2",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.84,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_Glass_-3",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.84,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_Glass_0",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.84,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_Glass_1",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.84,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_Glass_2",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.84,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_Glass_3",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.84,
+        0.16,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_CenterSpine",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        18.509418,
+        0.075,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row0_Divider_0",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075001,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row0_Divider_1",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row0_Divider_2",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row0_Divider_3",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row0_Divider_4",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row0_Divider_5",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row0_Divider_6",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row0_Divider_7",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075001,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row1_Divider_0",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075001,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row1_Divider_1",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row1_Divider_2",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row1_Divider_3",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row1_Divider_4",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row1_Divider_5",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row1_Divider_6",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row1_Divider_7",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075001,
+        3.467057,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_Underglow_FrontHiddenStrip",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.867387,
+        0.05,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_Underglow_RearHiddenStrip",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.867387,
+        0.050001,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "GRID_REPAIR_BACKUP_before_grid_lower_Asphalt_ground",
+      "type": "MESH",
+      "collections": [
+        "GRID_PARKING_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        4.780939,
+        -0.876001
+      ],
+      "rotation": [
+        -0.009999,
+        0.031474,
+        0.72616
+      ],
+      "scale": [
+        4.915334,
+        4.915334,
+        4.915334
+      ],
+      "dimensions": [
+        70.766045,
+        70.315693,
+        3.844296
+      ],
+      "modifiers": [],
+      "vertices": 16441,
+      "faces": 16154
     },
     {
       "name": "HANDREFINE_J2B_Working",
@@ -2867,9 +4383,10 @@
       "type": "MESH",
       "collections": [
         "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         0.0,
         2.65,
@@ -2899,9 +4416,10 @@
       "type": "MESH",
       "collections": [
         "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         -9.254709,
         1.15,
@@ -2931,9 +4449,10 @@
       "type": "MESH",
       "collections": [
         "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         -6.610507,
         1.15,
@@ -2963,9 +4482,10 @@
       "type": "MESH",
       "collections": [
         "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         -3.966304,
         1.15,
@@ -2995,9 +4515,10 @@
       "type": "MESH",
       "collections": [
         "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         -1.322101,
         1.15,
@@ -3027,9 +4548,10 @@
       "type": "MESH",
       "collections": [
         "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         1.322101,
         1.15,
@@ -3059,9 +4581,10 @@
       "type": "MESH",
       "collections": [
         "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         3.966304,
         1.15,
@@ -3091,9 +4614,10 @@
       "type": "MESH",
       "collections": [
         "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         6.610507,
         1.15,
@@ -3123,9 +4647,10 @@
       "type": "MESH",
       "collections": [
         "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         9.254709,
         1.15,
@@ -3155,9 +4680,10 @@
       "type": "MESH",
       "collections": [
         "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         -9.254709,
         4.15,
@@ -3187,9 +4713,10 @@
       "type": "MESH",
       "collections": [
         "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         -6.610507,
         4.15,
@@ -3219,9 +4746,10 @@
       "type": "MESH",
       "collections": [
         "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         -3.966304,
         4.15,
@@ -3251,9 +4779,10 @@
       "type": "MESH",
       "collections": [
         "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         -1.322101,
         4.15,
@@ -3283,9 +4812,10 @@
       "type": "MESH",
       "collections": [
         "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         1.322101,
         4.15,
@@ -3315,9 +4845,10 @@
       "type": "MESH",
       "collections": [
         "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         3.966304,
         4.15,
@@ -3347,9 +4878,10 @@
       "type": "MESH",
       "collections": [
         "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         6.610507,
         4.15,
@@ -3379,9 +4911,10 @@
       "type": "MESH",
       "collections": [
         "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         9.254709,
         4.15,
@@ -5236,9 +6769,10 @@
       "type": "MESH",
       "collections": [
         "HERO_CAR_UNDERGLOW",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         -0.419602,
         3.300874,
@@ -5277,9 +6811,10 @@
       "type": "MESH",
       "collections": [
         "HERO_CAR_UNDERGLOW",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         -2.454135,
         7.081832,
@@ -5591,9 +7126,9 @@
         0.005831
       ],
       "dimensions": [
-        0.059319,
-        0.00145,
-        7.2e-05
+        0.059098,
+        0.001711,
+        0.001139
       ],
       "modifiers": [
         {
@@ -7246,1153 +8781,6 @@
       "faces": 6
     },
     {
-      "name": "PARKING_DECAL_001_ENV_FrameL_-1",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.11,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_002_ENV_FrameL_-2",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.11,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_003_ENV_FrameL_-3",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.11,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_004_ENV_FrameL_0",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.11,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_005_ENV_FrameL_1",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.11,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_006_ENV_FrameL_2",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.11,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_007_ENV_FrameL_3",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.11,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_008_ENV_FrameR_-1",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.11,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_009_ENV_FrameR_-2",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.11,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_010_ENV_FrameR_-3",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.11,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_011_ENV_FrameR_0",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.11,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_012_ENV_FrameR_1",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.11,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_013_ENV_FrameR_2",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.11,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_014_ENV_FrameR_3",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.11,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_015_ENV_FrameTop_-1",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        3.2,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_016_ENV_FrameTop_-2",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        3.2,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_017_ENV_FrameTop_-3",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        3.2,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_018_ENV_FrameTop_0",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        3.2,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_019_ENV_FrameTop_1",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        3.2,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_020_ENV_FrameTop_2",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        3.2,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_021_ENV_FrameTop_3",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        3.2,
-        0.16,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_022_HERO_HParking_Row0_Divider_0",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.075001,
-        3.467057,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_023_HERO_HParking_Row0_Divider_1",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.075,
-        3.467057,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_024_HERO_HParking_Row0_Divider_2",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.075,
-        3.467057,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_025_HERO_HParking_Row0_Divider_3",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.075,
-        3.467057,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_026_HERO_HParking_Row0_Divider_4",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.075,
-        3.467057,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_027_HERO_HParking_Row0_Divider_5",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.075,
-        3.467057,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_028_HERO_HParking_Row0_Divider_6",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.075,
-        3.467057,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_029_HERO_HParking_Row0_Divider_7",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.075001,
-        3.467057,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_030_HERO_HParking_Row1_Divider_0",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.075001,
-        3.467057,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_031_HERO_HParking_Row1_Divider_1",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.075,
-        3.467057,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_032_HERO_HParking_Row1_Divider_2",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.075,
-        3.467057,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_033_HERO_HParking_Row1_Divider_3",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.075,
-        3.467057,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_034_HERO_HParking_Row1_Divider_4",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.075,
-        3.467057,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_035_HERO_HParking_Row1_Divider_5",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.075,
-        3.467057,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_036_HERO_HParking_Row1_Divider_6",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.075,
-        3.467057,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "PARKING_DECAL_037_HERO_HParking_Row1_Divider_7",
-      "type": "MESH",
-      "collections": [
-        "PARKING_PAINT_DECALS_FLAT"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.075001,
-        3.467057,
-        0.0
-      ],
-      "modifiers": [],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
       "name": "PARKING_HEIGHT_BACKUP_before_height_repair_Asphalt_ground",
       "type": "MESH",
       "collections": [
@@ -8415,9 +8803,9 @@
         4.915334
       ],
       "dimensions": [
-        70.766048,
-        70.315695,
-        3.844296
+        10.710857,
+        9.614857,
+        0.349152
       ],
       "modifiers": [],
       "vertices": 16441,
@@ -10420,9 +10808,9 @@
         1.0
       ],
       "dimensions": [
-        0.272451,
-        0.007893,
-        0.000335
+        0.272506,
+        0.010826,
+        0.004928
       ],
       "modifiers": [
         {
@@ -10630,7 +11018,7 @@
       "location": [
         0.0,
         0.0,
-        0.280759
+        -0.018496
       ],
       "rotation": [
         0.0,
@@ -14431,6 +14819,146 @@
       "faces": 267
     },
     {
+      "name": "TRAFFIC_REFLECT_Amber_StreetTurn",
+      "type": "LIGHT",
+      "collections": [
+        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
+      ],
+      "visible": true,
+      "location": [
+        3.2,
+        -18.5,
+        2.5
+      ],
+      "rotation": [
+        1.585616,
+        -0.0,
+        0.094994
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modifiers": [],
+      "energy": 75.0,
+      "color": [
+        1.0,
+        0.42,
+        0.06
+      ]
+    },
+    {
+      "name": "TRAFFIC_REFLECT_Green_SignalBounce",
+      "type": "LIGHT",
+      "collections": [
+        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
+      ],
+      "visible": true,
+      "location": [
+        8.2,
+        -20.0,
+        2.6
+      ],
+      "rotation": [
+        1.581898,
+        0.0,
+        0.229597
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modifiers": [],
+      "energy": 45.0,
+      "color": [
+        0.08,
+        1.0,
+        0.2
+      ]
+    },
+    {
+      "name": "TRAFFIC_REFLECT_Red_BrakeLight",
+      "type": "LIGHT",
+      "collections": [
+        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
+      ],
+      "visible": true,
+      "location": [
+        -8.0,
+        -18.0,
+        2.4
+      ],
+      "rotation": [
+        1.588422,
+        -0.0,
+        -0.237248
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modifiers": [],
+      "energy": 70.0,
+      "color": [
+        1.0,
+        0.05,
+        0.02
+      ]
+    },
+    {
+      "name": "TRAFFIC_REFLECT_White_Headlight",
+      "type": "LIGHT",
+      "collections": [
+        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
+      ],
+      "visible": true,
+      "location": [
+        -2.5,
+        -19.5,
+        2.2
+      ],
+      "rotation": [
+        1.593863,
+        0.0,
+        -0.07216
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "modifiers": [],
+      "energy": 95.0,
+      "color": [
+        1.0,
+        0.92,
+        0.78
+      ]
+    },
+    {
       "name": "Traffic Cone (Photoscanned)",
       "type": "MESH",
       "collections": [
@@ -14756,6 +15284,13 @@
       "child_count": 0
     },
     {
+      "name": "GRID_PARKING_REPAIR_BACKUPS_HIDDEN",
+      "hide_viewport": true,
+      "hide_render": true,
+      "object_count": 48,
+      "child_count": 0
+    },
+    {
       "name": "HERO_CAR_AMBER_READ",
       "hide_viewport": false,
       "hide_render": false,
@@ -14885,7 +15420,14 @@
       "name": "PARKING_PAINT_DECALS_FLAT",
       "hide_viewport": false,
       "hide_render": false,
-      "object_count": 37,
+      "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 47,
       "child_count": 0
     },
     {
@@ -14984,6 +15526,13 @@
       "hide_viewport": false,
       "hide_render": false,
       "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 4,
       "child_count": 0
     }
   ]
