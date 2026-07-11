@@ -807,7 +807,7 @@
       "collections": [
         "ENV_ParkingLot"
       ],
-      "visible": false,
+      "visible": true,
       "location": [
         0.0,
         0.0,
@@ -828,12 +828,7 @@
         36.0,
         0.0
       ],
-      "modifiers": [
-        {
-          "name": "FLAT_ASPHALT_VISUAL_THICKNESS",
-          "type": "SOLIDIFY"
-        }
-      ],
+      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -862,7 +857,7 @@
       "dimensions": [
         0.11,
         0.16,
-        3.3
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -893,7 +888,7 @@
       "dimensions": [
         0.11,
         0.16,
-        3.3
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -924,7 +919,7 @@
       "dimensions": [
         0.11,
         0.16,
-        3.3
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -955,7 +950,7 @@
       "dimensions": [
         0.11,
         0.16,
-        3.3
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -986,7 +981,7 @@
       "dimensions": [
         0.11,
         0.16,
-        3.3
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1017,7 +1012,7 @@
       "dimensions": [
         0.11,
         0.16,
-        3.3
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1048,7 +1043,7 @@
       "dimensions": [
         0.11,
         0.16,
-        3.3
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1079,7 +1074,7 @@
       "dimensions": [
         0.11,
         0.16,
-        3.3
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1110,7 +1105,7 @@
       "dimensions": [
         0.11,
         0.16,
-        3.3
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1141,7 +1136,7 @@
       "dimensions": [
         0.11,
         0.16,
-        3.3
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1172,7 +1167,7 @@
       "dimensions": [
         0.11,
         0.16,
-        3.3
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1203,7 +1198,7 @@
       "dimensions": [
         0.11,
         0.16,
-        3.3
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1234,7 +1229,7 @@
       "dimensions": [
         0.11,
         0.16,
-        3.3
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1265,7 +1260,7 @@
       "dimensions": [
         0.11,
         0.16,
-        3.3
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1296,7 +1291,7 @@
       "dimensions": [
         3.2,
         0.16,
-        0.11
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1327,7 +1322,7 @@
       "dimensions": [
         3.2,
         0.16,
-        0.11
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1358,7 +1353,7 @@
       "dimensions": [
         3.2,
         0.16,
-        0.11
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1389,7 +1384,7 @@
       "dimensions": [
         3.2,
         0.16,
-        0.11
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1420,7 +1415,7 @@
       "dimensions": [
         3.2,
         0.16,
-        0.11
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1451,7 +1446,7 @@
       "dimensions": [
         3.2,
         0.16,
-        0.11
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1482,7 +1477,7 @@
       "dimensions": [
         3.2,
         0.16,
-        0.11
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1513,7 +1508,7 @@
       "dimensions": [
         2.84,
         0.16,
-        3.1
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1544,7 +1539,7 @@
       "dimensions": [
         2.84,
         0.16,
-        3.1
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1575,7 +1570,7 @@
       "dimensions": [
         2.84,
         0.16,
-        3.1
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1606,7 +1601,7 @@
       "dimensions": [
         2.84,
         0.16,
-        3.1
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1637,7 +1632,7 @@
       "dimensions": [
         2.84,
         0.16,
-        3.1
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1668,7 +1663,7 @@
       "dimensions": [
         2.84,
         0.16,
-        3.1
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1699,7 +1694,7 @@
       "dimensions": [
         2.84,
         0.16,
-        3.1
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1730,7 +1725,7 @@
       "dimensions": [
         28.0,
         2.4,
-        5.0
+        0.0
       ],
       "modifiers": [],
       "vertices": 8,
@@ -1862,7 +1857,7 @@
       "name": "HERO_BlackSkateShoe_L_FlameAccent_0",
       "type": "MESH",
       "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
+        "Scene Collection"
       ],
       "visible": false,
       "location": [
@@ -1902,7 +1897,7 @@
       "name": "HERO_BlackSkateShoe_L_FlameAccent_1",
       "type": "MESH",
       "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
+        "Scene Collection"
       ],
       "visible": false,
       "location": [
@@ -1942,7 +1937,7 @@
       "name": "HERO_BlackSkateShoe_L_FlameAccent_2",
       "type": "MESH",
       "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
+        "Scene Collection"
       ],
       "visible": false,
       "location": [
@@ -1982,7 +1977,7 @@
       "name": "HERO_BlackSkateShoe_L_WhiteSole",
       "type": "MESH",
       "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
+        "Scene Collection"
       ],
       "visible": true,
       "location": [
@@ -2022,7 +2017,7 @@
       "name": "HERO_BlackSkateShoe_R_FlameAccent_0",
       "type": "MESH",
       "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
+        "Scene Collection"
       ],
       "visible": false,
       "location": [
@@ -2062,7 +2057,7 @@
       "name": "HERO_BlackSkateShoe_R_FlameAccent_1",
       "type": "MESH",
       "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
+        "Scene Collection"
       ],
       "visible": false,
       "location": [
@@ -2102,7 +2097,7 @@
       "name": "HERO_BlackSkateShoe_R_FlameAccent_2",
       "type": "MESH",
       "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
+        "Scene Collection"
       ],
       "visible": false,
       "location": [
@@ -2142,7 +2137,7 @@
       "name": "HERO_BlackSkateShoe_R_WhiteSole",
       "type": "MESH",
       "collections": [
-        "HERO_CHARACTER_WARDROBE_V1"
+        "Scene Collection"
       ],
       "visible": true,
       "location": [
@@ -3653,7 +3648,7 @@
       "name": "HERO_MaterialSwatch_Denim",
       "type": "MESH",
       "collections": [
-        "HERO_CHARACTER_MATERIAL_GUIDES"
+        "Scene Collection"
       ],
       "visible": false,
       "location": [
@@ -3693,7 +3688,7 @@
       "name": "HERO_MaterialSwatch_Flame",
       "type": "MESH",
       "collections": [
-        "HERO_CHARACTER_MATERIAL_GUIDES"
+        "Scene Collection"
       ],
       "visible": false,
       "location": [
@@ -3733,7 +3728,7 @@
       "name": "HERO_MaterialSwatch_Hoodie",
       "type": "MESH",
       "collections": [
-        "HERO_CHARACTER_MATERIAL_GUIDES"
+        "Scene Collection"
       ],
       "visible": false,
       "location": [
@@ -3773,7 +3768,7 @@
       "name": "HERO_MaterialSwatch_ShoeBlack",
       "type": "MESH",
       "collections": [
-        "HERO_CHARACTER_MATERIAL_GUIDES"
+        "Scene Collection"
       ],
       "visible": false,
       "location": [
@@ -3813,7 +3808,7 @@
       "name": "HERO_MaterialSwatch_ShoeWhite",
       "type": "MESH",
       "collections": [
-        "HERO_CHARACTER_MATERIAL_GUIDES"
+        "Scene Collection"
       ],
       "visible": false,
       "location": [
@@ -3853,7 +3848,7 @@
       "name": "HERO_MaterialSwatch_Yarn",
       "type": "MESH",
       "collections": [
-        "HERO_CHARACTER_MATERIAL_GUIDES"
+        "Scene Collection"
       ],
       "visible": false,
       "location": [
@@ -6743,7 +6738,7 @@
       "location": [
         0.0,
         0.0,
-        -0.260713
+        0.279759
       ],
       "rotation": [
         0.0,
@@ -8308,9 +8303,9 @@
         4.915334
       ],
       "dimensions": [
-        70.782417,
-        70.332678,
-        4.032169
+        10.71452,
+        9.61478,
+        0.38728
       ],
       "modifiers": [],
       "vertices": 16441,
@@ -8956,6 +8951,1525 @@
       "faces": 1152
     },
     {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_FrameL_-1",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        3.3
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_FrameL_-2",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        3.3
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_FrameL_-3",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        3.3
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_FrameL_0",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        3.3
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_FrameL_1",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        3.3
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_FrameL_2",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        3.3
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_FrameL_3",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        3.3
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_FrameR_-1",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        3.3
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_FrameR_-2",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        3.3
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_FrameR_-3",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        3.3
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_FrameR_0",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        3.3
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_FrameR_1",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        3.3
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_FrameR_2",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        3.3
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_FrameR_3",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11,
+        0.16,
+        3.3
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_FrameTop_-1",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.2,
+        0.16,
+        0.11
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_FrameTop_-2",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.2,
+        0.16,
+        0.11
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_FrameTop_-3",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.2,
+        0.16,
+        0.11
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_FrameTop_0",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.2,
+        0.16,
+        0.11
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_FrameTop_1",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.2,
+        0.16,
+        0.11
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_FrameTop_2",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.2,
+        0.16,
+        0.11
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_FrameTop_3",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.2,
+        0.16,
+        0.11
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_Glass_-1",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.84,
+        0.16,
+        3.1
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_Glass_-2",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.84,
+        0.16,
+        3.1
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_Glass_-3",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.84,
+        0.16,
+        3.1
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_Glass_0",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.84,
+        0.16,
+        3.1
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_Glass_1",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.84,
+        0.16,
+        3.1
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_Glass_2",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.84,
+        0.16,
+        3.1
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_Glass_3",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.84,
+        0.16,
+        3.1
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_ENV_PlazaShell",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        28.0,
+        2.4,
+        5.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_CenterSpine",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        2.65,
+        0.187254
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        18.509418,
+        0.075,
+        0.005
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row0_Divider_0",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        -9.254709,
+        1.15,
+        0.187254
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075001,
+        3.467057,
+        0.005
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row0_Divider_1",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        -6.610507,
+        1.15,
+        0.187254
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row0_Divider_2",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        -3.966304,
+        1.15,
+        0.187254
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row0_Divider_3",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        -1.322101,
+        1.15,
+        0.187254
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row0_Divider_4",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        1.322101,
+        1.15,
+        0.187254
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row0_Divider_5",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        3.966304,
+        1.15,
+        0.187254
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row0_Divider_6",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        6.610507,
+        1.15,
+        0.187254
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row0_Divider_7",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        9.254709,
+        1.15,
+        0.187254
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075001,
+        3.467057,
+        0.005
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row1_Divider_0",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        -9.254709,
+        4.15,
+        0.187254
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075001,
+        3.467057,
+        0.005
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row1_Divider_1",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        -6.610507,
+        4.15,
+        0.187254
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row1_Divider_2",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        -3.966304,
+        4.15,
+        0.187254
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row1_Divider_3",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        -1.322101,
+        4.15,
+        0.187254
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row1_Divider_4",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        1.322101,
+        4.15,
+        0.187254
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row1_Divider_5",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        3.966304,
+        4.15,
+        0.187254
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row1_Divider_6",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        6.610507,
+        4.15,
+        0.187254
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075,
+        3.467057,
+        0.005
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row1_Divider_7",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        9.254709,
+        4.15,
+        0.187254
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.075001,
+        3.467057,
+        0.005
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_HERO_Underglow_FrontHiddenStrip",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        -0.419602,
+        3.300874,
+        0.192754
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.475001
+      ],
+      "scale": [
+        0.536594,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.868341,
+        0.993543,
+        0.016
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_paint_flatten_HERO_Underglow_RearHiddenStrip",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        -2.454135,
+        7.081832,
+        0.192754
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.449773
+      ],
+      "scale": [
+        0.510797,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.80072,
+        0.903875,
+        0.016
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "SURFACE_BACKUP_before_surface_repair_ENV_Asphalt",
+      "type": "MESH",
+      "collections": [
+        "SURFACE_REPAIR_BACKUPS_HIDDEN"
+      ],
+      "visible": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        36.0,
+        36.0,
+        0.0
+      ],
+      "modifiers": [],
+      "vertices": 8,
+      "faces": 6
+    },
+    {
       "name": "Shoes",
       "type": "EMPTY",
       "collections": [
@@ -9323,8 +10837,8 @@
     },
     {
       "name": "ENV_ParkingLot",
-      "hide_viewport": true,
-      "hide_render": true,
+      "hide_viewport": false,
+      "hide_render": false,
       "object_count": 30,
       "child_count": 0
     },
@@ -9361,20 +10875,6 @@
       "hide_viewport": false,
       "hide_render": false,
       "object_count": 3,
-      "child_count": 0
-    },
-    {
-      "name": "HERO_CHARACTER_MATERIAL_GUIDES",
-      "hide_viewport": true,
-      "hide_render": true,
-      "object_count": 6,
-      "child_count": 0
-    },
-    {
-      "name": "HERO_CHARACTER_WARDROBE_V1",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 8,
       "child_count": 0
     },
     {
@@ -9494,6 +10994,13 @@
       "hide_viewport": true,
       "hide_render": true,
       "object_count": 2,
+      "child_count": 0
+    },
+    {
+      "name": "SURFACE_REPAIR_BACKUPS_HIDDEN",
+      "hide_viewport": true,
+      "hide_render": true,
+      "object_count": 49,
       "child_count": 0
     },
     {

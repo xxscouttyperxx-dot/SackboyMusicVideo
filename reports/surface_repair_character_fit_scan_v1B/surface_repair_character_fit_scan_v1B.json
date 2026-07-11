@@ -1,0 +1,714 @@
+{
+  "surface_repair": {
+    "env_asphalt": "ENV_Asphalt",
+    "flat_plane_z": 0.3007543087005615,
+    "asphalt_material": "ENV_MAT_Flat_Dark_Asphalt",
+    "imported_bumpy_asphalt_hidden": "Asphalt ground",
+    "paint_z": 0.3019543087005615,
+    "paint_objects_adjusted": 48,
+    "paint_objects": [
+      {
+        "name": "ENV_FrameL_-1",
+        "old_min_z": -1.65,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_FrameL_-2",
+        "old_min_z": -1.65,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_FrameL_-3",
+        "old_min_z": -1.65,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_FrameL_0",
+        "old_min_z": -1.65,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_FrameL_1",
+        "old_min_z": -1.65,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_FrameL_2",
+        "old_min_z": -1.65,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_FrameL_3",
+        "old_min_z": -1.65,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_FrameR_-1",
+        "old_min_z": -1.65,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_FrameR_-2",
+        "old_min_z": -1.65,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_FrameR_-3",
+        "old_min_z": -1.65,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_FrameR_0",
+        "old_min_z": -1.65,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_FrameR_1",
+        "old_min_z": -1.65,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_FrameR_2",
+        "old_min_z": -1.65,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_FrameR_3",
+        "old_min_z": -1.65,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_FrameTop_-1",
+        "old_min_z": -0.055,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_FrameTop_-2",
+        "old_min_z": -0.055,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_FrameTop_-3",
+        "old_min_z": -0.055,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_FrameTop_0",
+        "old_min_z": -0.055,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_FrameTop_1",
+        "old_min_z": -0.055,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_FrameTop_2",
+        "old_min_z": -0.055,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_FrameTop_3",
+        "old_min_z": -0.055,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_Glass_-1",
+        "old_min_z": -1.55,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_Glass_-2",
+        "old_min_z": -1.55,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_Glass_-3",
+        "old_min_z": -1.55,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_Glass_0",
+        "old_min_z": -1.55,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_Glass_1",
+        "old_min_z": -1.55,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_Glass_2",
+        "old_min_z": -1.55,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_Glass_3",
+        "old_min_z": -1.55,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "ENV_PlazaShell",
+        "old_min_z": -2.5,
+        "new_min_z": 0.301954
+      },
+      {
+        "name": "HERO_HParking_CenterSpine",
+        "old_min_z": 0.184754,
+        "new_min_z": 0.184754
+      },
+      {
+        "name": "HERO_HParking_Row0_Divider_0",
+        "old_min_z": 0.184754,
+        "new_min_z": 0.184754
+      },
+      {
+        "name": "HERO_HParking_Row0_Divider_1",
+        "old_min_z": 0.184754,
+        "new_min_z": 0.184754
+      },
+      {
+        "name": "HERO_HParking_Row0_Divider_2",
+        "old_min_z": 0.184754,
+        "new_min_z": 0.184754
+      },
+      {
+        "name": "HERO_HParking_Row0_Divider_3",
+        "old_min_z": 0.184754,
+        "new_min_z": 0.184754
+      },
+      {
+        "name": "HERO_HParking_Row0_Divider_4",
+        "old_min_z": 0.184754,
+        "new_min_z": 0.184754
+      },
+      {
+        "name": "HERO_HParking_Row0_Divider_5",
+        "old_min_z": 0.184754,
+        "new_min_z": 0.184754
+      },
+      {
+        "name": "HERO_HParking_Row0_Divider_6",
+        "old_min_z": 0.184754,
+        "new_min_z": 0.184754
+      },
+      {
+        "name": "HERO_HParking_Row0_Divider_7",
+        "old_min_z": 0.184754,
+        "new_min_z": 0.184754
+      },
+      {
+        "name": "HERO_HParking_Row1_Divider_0",
+        "old_min_z": 0.184754,
+        "new_min_z": 0.184754
+      },
+      {
+        "name": "HERO_HParking_Row1_Divider_1",
+        "old_min_z": 0.184754,
+        "new_min_z": 0.184754
+      },
+      {
+        "name": "HERO_HParking_Row1_Divider_2",
+        "old_min_z": 0.184754,
+        "new_min_z": 0.184754
+      },
+      {
+        "name": "HERO_HParking_Row1_Divider_3",
+        "old_min_z": 0.184754,
+        "new_min_z": 0.184754
+      },
+      {
+        "name": "HERO_HParking_Row1_Divider_4",
+        "old_min_z": 0.184754,
+        "new_min_z": 0.184754
+      },
+      {
+        "name": "HERO_HParking_Row1_Divider_5",
+        "old_min_z": 0.184754,
+        "new_min_z": 0.184754
+      },
+      {
+        "name": "HERO_HParking_Row1_Divider_6",
+        "old_min_z": 0.184754,
+        "new_min_z": 0.184754
+      },
+      {
+        "name": "HERO_HParking_Row1_Divider_7",
+        "old_min_z": 0.184754,
+        "new_min_z": 0.184754
+      },
+      {
+        "name": "HERO_Underglow_FrontHiddenStrip",
+        "old_min_z": 0.184754,
+        "new_min_z": 0.184754
+      },
+      {
+        "name": "HERO_Underglow_RearHiddenStrip",
+        "old_min_z": 0.184754,
+        "new_min_z": 0.184754
+      }
+    ],
+    "hatch_objects_adjusted": 1,
+    "hatch_objects": [
+      {
+        "name": "Plane.029",
+        "new_min_z": -0.238217,
+        "new_max_z": -0.229832
+      }
+    ]
+  },
+  "lights_scanned_preserved": [
+    {
+      "name": "HERO_CarAmberHoodRead",
+      "type": "SPOT",
+      "location": [
+        5.265154,
+        1.978295,
+        5.190777
+      ],
+      "rotation": [
+        -0.018607,
+        0.020346,
+        3.30697
+      ],
+      "energy": 100.0,
+      "color": [
+        1.0,
+        0.257203,
+        0.006592
+      ],
+      "size": null,
+      "spot_size": 0.949999988079071,
+      "spot_blend": 0.6499999761581421
+    },
+    {
+      "name": "HERO_CarAmberRoofRead",
+      "type": "SPOT",
+      "location": [
+        -5.186506,
+        1.995343,
+        5.201615
+      ],
+      "rotation": [
+        0.040737,
+        0.029514,
+        -0.631302
+      ],
+      "energy": 100.00001525878906,
+      "color": [
+        1.0,
+        0.216022,
+        0.00379
+      ],
+      "size": null,
+      "spot_size": 1.0499999523162842,
+      "spot_blend": 0.7200000286102295
+    },
+    {
+      "name": "HERO_CarWarmSideGlint",
+      "type": "SPOT",
+      "location": [
+        0.007344,
+        22.906092,
+        7.155601
+      ],
+      "rotation": [
+        -0.00862,
+        -0.0,
+        -1.570796
+      ],
+      "energy": 90.0,
+      "color": [
+        1.0,
+        0.38,
+        0.08
+      ],
+      "size": null,
+      "spot_size": 0.8500000238418579,
+      "spot_blend": 0.800000011920929
+    },
+    {
+      "name": "HERO_CyanUnderglow_Area",
+      "type": "AREA",
+      "location": [
+        -1.522953,
+        5.177517,
+        0.075276
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        -1.090229
+      ],
+      "energy": 160.0,
+      "color": [
+        0.0,
+        0.55,
+        1.0
+      ],
+      "size": 2.727658987045288,
+      "spot_size": null,
+      "spot_blend": null
+    },
+    {
+      "name": "V2B_OverheadAmber_0",
+      "type": "AREA",
+      "location": [
+        -5.222266,
+        2.649782,
+        5.278863
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "energy": 520.0,
+      "color": [
+        1.0,
+        0.37,
+        0.055
+      ],
+      "size": 2.200000047683716,
+      "spot_size": null,
+      "spot_blend": null
+    },
+    {
+      "name": "V2B_OverheadAmber_1",
+      "type": "AREA",
+      "location": [
+        5.284363,
+        2.653402,
+        5.278863
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        3.101899
+      ],
+      "energy": 300.0,
+      "color": [
+        1.0,
+        0.37,
+        0.055
+      ],
+      "size": 2.200000047683716,
+      "spot_size": null,
+      "spot_blend": null
+    }
+  ],
+  "character_fit_scan": {
+    "key_objects": [
+      {
+        "name": "F2",
+        "status": "present",
+        "type": "MESH",
+        "collections": [
+          "CHAR_Meshy_LeftCandidate_Refined"
+        ],
+        "visible": true,
+        "location": [
+          2.688858,
+          -0.249535,
+          0.01029
+        ],
+        "dimensions": [
+          2.783371,
+          1.475343,
+          2.749408
+        ],
+        "minmax_z": [
+          0.000592,
+          2.75
+        ],
+        "vertices": 30549,
+        "faces": 60930,
+        "modifiers": []
+      },
+      {
+        "name": "Apricot Pullover Hoodie",
+        "status": "present",
+        "type": "MESH",
+        "collections": [
+          "Apricot Pullover Hoodie",
+          "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS"
+        ],
+        "visible": true,
+        "location": [
+          -2.816514,
+          0.012429,
+          0.993742
+        ],
+        "dimensions": [
+          2.277528,
+          1.091159,
+          1.549869
+        ],
+        "minmax_z": [
+          0.997261,
+          2.547129
+        ],
+        "vertices": 257116,
+        "faces": 489064,
+        "modifiers": [
+          {
+            "name": "OPT_PREVIEW_DECIMATE",
+            "type": "DECIMATE",
+            "ratio": 0.25
+          }
+        ]
+      },
+      {
+        "name": "Cargo pants",
+        "status": "present",
+        "type": "MESH",
+        "collections": [
+          "Cargo pants"
+        ],
+        "visible": true,
+        "location": [
+          -2.80222,
+          -0.00521,
+          0.329369
+        ],
+        "dimensions": [
+          1.559261,
+          0.898337,
+          1.052398
+        ],
+        "minmax_z": [
+          0.331169,
+          1.383567
+        ],
+        "vertices": 16507,
+        "faces": 16424,
+        "modifiers": [
+          {
+            "name": "Collision",
+            "type": "COLLISION",
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "name": "Plane.001",
+        "status": "present",
+        "type": "MESH",
+        "collections": [
+          "Shoes"
+        ],
+        "visible": true,
+        "location": [
+          -0.064073,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.626516,
+          0.950595,
+          0.372303
+        ],
+        "minmax_z": [
+          7.8e-05,
+          0.372381
+        ],
+        "vertices": 10292,
+        "faces": 10800,
+        "modifiers": []
+      },
+      {
+        "name": "Plane.022",
+        "status": "present",
+        "type": "MESH",
+        "collections": [
+          "Shoes"
+        ],
+        "visible": true,
+        "location": [
+          0.065381,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.626517,
+          0.950595,
+          0.372303
+        ],
+        "minmax_z": [
+          7.8e-05,
+          0.372381
+        ],
+        "vertices": 10292,
+        "faces": 10800,
+        "modifiers": [
+          {
+            "name": "WeightedNormal",
+            "type": "WEIGHTED_NORMAL",
+            "ratio": null
+          },
+          {
+            "name": "WeightedNormal.001",
+            "type": "WEIGHTED_NORMAL",
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "name": "Utility Box (Photoscanned)",
+        "status": "present",
+        "type": "MESH",
+        "collections": [
+          "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS",
+          "Utility Box (Photoscanned)"
+        ],
+        "visible": true,
+        "location": [
+          -12.197587,
+          23.763023,
+          0.064346
+        ],
+        "dimensions": [
+          1.209123,
+          0.534925,
+          1.615272
+        ],
+        "minmax_z": [
+          0.064295,
+          1.679567
+        ],
+        "vertices": 12028,
+        "faces": 23700,
+        "modifiers": [
+          {
+            "name": "WeightedNormal",
+            "type": "WEIGHTED_NORMAL",
+            "ratio": null
+          },
+          {
+            "name": "OPT_PREVIEW_DECIMATE",
+            "type": "DECIMATE",
+            "ratio": 0.699999988079071
+          }
+        ]
+      },
+      {
+        "name": "Lid.001",
+        "status": "present",
+        "type": "MESH",
+        "collections": [
+          "Large Trash Can",
+          "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS"
+        ],
+        "visible": true,
+        "location": [
+          -0.0,
+          0.417478,
+          1.111198
+        ],
+        "dimensions": [
+          1.053914,
+          1.260361,
+          0.138174
+        ],
+        "minmax_z": [
+          1.659932,
+          1.798107
+        ],
+        "vertices": 21254,
+        "faces": 23160,
+        "modifiers": [
+          {
+            "name": "OPT_PREVIEW_DECIMATE",
+            "type": "DECIMATE",
+            "ratio": 0.699999988079071
+          }
+        ]
+      }
+    ],
+    "shoe_collection_meshes": [
+      {
+        "name": "Plane.001",
+        "status": "present",
+        "type": "MESH",
+        "collections": [
+          "Shoes"
+        ],
+        "visible": true,
+        "location": [
+          -0.064073,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.626516,
+          0.950595,
+          0.372303
+        ],
+        "minmax_z": [
+          7.8e-05,
+          0.372381
+        ],
+        "vertices": 10292,
+        "faces": 10800,
+        "modifiers": []
+      },
+      {
+        "name": "Plane.022",
+        "status": "present",
+        "type": "MESH",
+        "collections": [
+          "Shoes"
+        ],
+        "visible": true,
+        "location": [
+          0.065381,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.626517,
+          0.950595,
+          0.372303
+        ],
+        "minmax_z": [
+          7.8e-05,
+          0.372381
+        ],
+        "vertices": 10292,
+        "faces": 10800,
+        "modifiers": [
+          {
+            "name": "WeightedNormal",
+            "type": "WEIGHTED_NORMAL",
+            "ratio": null
+          },
+          {
+            "name": "WeightedNormal.001",
+            "type": "WEIGHTED_NORMAL",
+            "ratio": null
+          }
+        ]
+      }
+    ]
+  },
+  "reflection_light_plan": {
+    "approved_palette": [
+      "red",
+      "white",
+      "amber",
+      "green"
+    ],
+    "rejected_palette": [
+      "blue"
+    ],
+    "note": "Future package can add off-scene spotlights aimed at glossy storefront glass only. This package does not add lights."
+  },
+  "locked": {
+    "existing_lights": "scanned only, not modified",
+    "car": "not modified",
+    "storefront": "not modified",
+    "sky_world_hdri": "not modified",
+    "character_body": "not modified",
+    "clothing_fit": "scan only"
+  }
+}

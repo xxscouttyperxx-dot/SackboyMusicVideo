@@ -1,6 +1,0 @@
-[lock] scanning current light changes; not modifying lights
-[cleanup] removed 6 temp review cameras
-[asphalt] hid bumpy imported Asphalt ground
-[paint] flattened ENV_Asphalt at z=0.180754 and adjusted 48 paint objects
-[render] 01_FlatAsphaltPaintCheck.png
-[render] 02_DecimatePreviewCheck.png

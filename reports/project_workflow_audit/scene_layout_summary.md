@@ -1,9 +1,9 @@
 # Scene Layout Summary
 
-Updated by Scene Cleanup / Flat Asphalt v1B.
+Updated by Surface Repair / Character Fit Scan v1B.
 
-- Existing manually tuned lights were scanned and preserved.
-- Active parking asphalt was flattened for paint placement.
-- Bumpy duplicate imported asphalt was hidden after material transfer where available.
-- Temporary review cameras were cleaned.
-- Decimate preview modifiers were verified.
+- ENV_Asphalt is visible and flat.
+- Parking paint strips are zero-height planes just above asphalt.
+- Manhole/hatch objects were raised back onto asphalt.
+- Current lights were scanned and preserved.
+- Character/clothing fit measurements were recorded; no body or clothing deformation was applied.
