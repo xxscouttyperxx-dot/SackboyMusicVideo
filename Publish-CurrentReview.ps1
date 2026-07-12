@@ -1,6 +1,5 @@
 $ErrorActionPreference = "Stop"
 $Root = Split-Path -Parent $MyInvocation.MyCommand.Path
-
 git -C $Root config http.postBuffer 1048576000
 git -C $Root config http.version HTTP/1.1
 git -C $Root checkout -- "blender/sackboy_scene.blend1" 2>$null
@@ -23,7 +22,7 @@ function GitAddExistingOrDeleted {
 }
 
 Write-Host "[Publish] Cleaning stale package files..."
-$Keep=@("Apply-HoodieSurfaceRelaxSpikeAudit_v1E.ps1","Validate-HoodieSurfaceRelaxSpikeAudit_v1E.ps1","Publish-CurrentReview.ps1","README-HoodieSurfaceRelaxSpikeAudit_v1E.txt","README_FIRST.txt","Run-BuildAll.ps1","Run-DiagnosticRenders.ps1")
+$Keep=@("Apply-HoodieSurfaceDataRepair_v1F.ps1","Validate-HoodieSurfaceDataRepair_v1F.ps1","Publish-CurrentReview.ps1","README-HoodieSurfaceDataRepair_v1F.txt","README_FIRST.txt","Run-BuildAll.ps1","Run-DiagnosticRenders.ps1")
 $Patterns=@("Apply-*.ps1","Validate-*.ps1","README-*.txt")
 foreach($Pattern in $Patterns){
     Get-ChildItem -Path $Root -Filter $Pattern -File -ErrorAction SilentlyContinue |
@@ -39,14 +38,13 @@ GitAddExistingOrDeleted @(
     "scene_manifest.json",
     "reports",
     "renders\current_review",
-    "renders\Project changes",
+    "Apply-HoodieSurfaceDataRepair_v1F.ps1",
+    "Validate-HoodieSurfaceDataRepair_v1F.ps1",
+    "Publish-CurrentReview.ps1",
+    "README-HoodieSurfaceDataRepair_v1F.txt",
     "Apply-HoodieSurfaceRelaxSpikeAudit_v1E.ps1",
     "Validate-HoodieSurfaceRelaxSpikeAudit_v1E.ps1",
-    "Publish-CurrentReview.ps1",
-    "README-HoodieSurfaceRelaxSpikeAudit_v1E.txt",
-    "Apply-HoodieReportsAndDomeFix_v1D.ps1",
-    "Validate-HoodieReportsAndDomeFix_v1D.ps1",
-    "README-HoodieReportsAndDomeFix_v1D.txt"
+    "README-HoodieSurfaceRelaxSpikeAudit_v1E.txt"
 )
 
 git -C $Root status --short
@@ -54,10 +52,9 @@ $Status = git -C $Root status --porcelain
 if([string]::IsNullOrWhiteSpace($Status)){
     Write-Host "[Publish] Nothing to commit."
 } else {
-    git -C $Root commit -m "Audit hoodie wire spikes and relax hood surface"
+    git -C $Root commit -m "Measure and repair hoodie surface irregularities"
     if($LASTEXITCODE -ne 0){throw "git commit failed"}
 }
-
 git -C $Root lfs push origin main
 if($LASTEXITCODE -ne 0){
     Write-Host "[Publish] git lfs push failed once; retrying..."

@@ -1,0 +1,25 @@
+# Hoodie Surface Data Repair v1F
+
+## Latest numbers
+- Smoothed vertices: 657329
+- Max local vertex movement: 0.022048
+
+## Depression / ridge disparity
+- Max depression before: -0.002672
+- Max depression after: -0.002554
+- Max ridge before: 0.001997
+- Max ridge after: 0.001398
+
+## Long edge / spike audit
+- Long edge count before: 1065
+- Long edge count after: 895
+- Median edge length: 0.004167
+- `06_ActualLongEdgeAudit.png` visualizes actual long topology edges directly, without using the Wireframe modifier.
+- `05_DepressionRidgeMarkers.png` visualizes remaining red ridge and blue depression extremes after this pass.
+
+## Repair approach
+- Measured local radial disparity between each hood-side vertex and its neighbors.
+- Pushed inward depression extremes outward toward the dome silhouette.
+- Pulled outward ridge extremes toward their local neighbor average.
+- Applied masked multi-pass relaxation to remove hard valley boundaries.
+- Preserved the front rim/opening and did not deform F2.

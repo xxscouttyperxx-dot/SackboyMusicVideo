@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "smoothed_vertices": 657329,
+  "max_local_vertex_movement": 0.022048066268362122,
+  "max_depression_before": -0.0026721260019779277,
+  "max_depression_after": -0.0025537796901341763,
+  "max_ridge_before": 0.001996765197847519,
+  "max_ridge_after": 0.0013980009472644578,
+  "long_edge_count_before": 1065,
+  "long_edge_count_after": 895
+}
