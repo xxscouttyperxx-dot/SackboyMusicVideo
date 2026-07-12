@@ -1,0 +1,10 @@
+[pass] hoodie bowl ridge polish v1
+[rename] hoodie objects renamed/standardized: [{'old': 'Apricot Pullover Hoodie', 'new': 'SACKBOY_Hoodie_Main', 'role': 'main'}]
+[lock] underglow locked [-1.522953, 5.177517, 0.075276] -> [-1.522953, 5.177517, 0.075276]
+[character] F2 baseline preserved; BODYFIT keys kept disabled
+[render] focused hoodie cameras: hood top, overhead, rim/bowl, and one scene preservation view
+[hoodie] added active shape key HOODIEFIT_BowlRidgePolish_v1; source=HOODIEFIT_TopArtifactFix_v1; touched_vertices=79890; max_delta_local=0.156494; vertices=257116->257116; faces=489064->489064
+[render] 01_HoodieTopClose.png
+[render] 02_HoodieTopOverhead.png
+[render] 03_HoodieBowlRimProfile.png
+[render] 04_HoodieScenePreserved.png

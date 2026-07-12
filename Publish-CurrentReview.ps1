@@ -23,7 +23,7 @@ function GitAddExistingOrDeleted {
 }
 
 Write-Host "[Publish] Cleaning stale package files..."
-$Keep=@("Apply-HoodTopArtifactFix.ps1","Validate-HoodTopArtifactFix.ps1","Publish-CurrentReview.ps1","README-HoodTopArtifactFix.txt","README_FIRST.txt","Run-BuildAll.ps1","Run-DiagnosticRenders.ps1")
+$Keep=@("Apply-HoodieBowlRidgePolish.ps1","Validate-HoodieBowlRidgePolish.ps1","Publish-CurrentReview.ps1","README-HoodieBowlRidgePolish.txt","README_FIRST.txt","Run-BuildAll.ps1","Run-DiagnosticRenders.ps1")
 $Patterns=@("Apply-*.ps1","Validate-*.ps1","README-*.txt")
 foreach($Pattern in $Patterns){
     Get-ChildItem -Path $Root -Filter $Pattern -File -ErrorAction SilentlyContinue |
@@ -38,16 +38,16 @@ GitAddExistingOrDeleted @(
     "blender\scripts",
     "scene_manifest.json",
     "reports\project_workflow_audit",
+    "reports\hoodie_bowl_ridge_polish_v1",
     "reports\hood_top_artifact_fix_v1",
-    "reports\hoodie_rim_crown_contain_v1",
     "renders\current_review",
+    "Apply-HoodieBowlRidgePolish.ps1",
+    "Validate-HoodieBowlRidgePolish.ps1",
+    "Publish-CurrentReview.ps1",
+    "README-HoodieBowlRidgePolish.txt",
     "Apply-HoodTopArtifactFix.ps1",
     "Validate-HoodTopArtifactFix.ps1",
-    "Publish-CurrentReview.ps1",
-    "README-HoodTopArtifactFix.txt",
-    "Apply-HoodieRimCrownContain.ps1",
-    "Validate-HoodieRimCrownContain.ps1",
-    "README-HoodieRimCrownContain.txt"
+    "README-HoodTopArtifactFix.txt"
 )
 
 git -C $Root status --short
@@ -55,7 +55,7 @@ $Status = git -C $Root status --porcelain
 if([string]::IsNullOrWhiteSpace($Status)){
     Write-Host "[Publish] Nothing to commit."
 } else {
-    git -C $Root commit -m "Fix hood top artifact with focused clearance pass"
+    git -C $Root commit -m "Polish hoodie bowl ridge and rename hoodie"
     if($LASTEXITCODE -ne 0){throw "git commit failed"}
 }
 

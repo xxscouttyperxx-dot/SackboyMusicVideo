@@ -42,54 +42,6 @@
       "faces": 6
     },
     {
-      "name": "Apricot Pullover Hoodie",
-      "type": "MESH",
-      "collections": [
-        "Apricot Pullover Hoodie",
-        "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS",
-        "WARDROBE_IMPORTED"
-      ],
-      "visible": true,
-      "location": [
-        -2.816514,
-        0.012429,
-        0.993742
-      ],
-      "dimensions": [
-        2.277528,
-        1.099294,
-        2.06258
-      ],
-      "vertices": 257116,
-      "faces": 489064,
-      "shape_keys": [
-        {
-          "name": "Basis",
-          "value": 1.0
-        },
-        {
-          "name": "HOODIEFIT_NarrowSackboy_v1",
-          "value": 0.0
-        },
-        {
-          "name": "HOODIEFIT_CrownSleeveTaper_v1",
-          "value": 0.0
-        },
-        {
-          "name": "HOODIEFIT_CrownSmoothExpand_v1",
-          "value": 0.0
-        },
-        {
-          "name": "HOODIEFIT_RimCrownContain_v1",
-          "value": 0.0
-        },
-        {
-          "name": "HOODIEFIT_TopArtifactFix_v1",
-          "value": 1.0
-        }
-      ]
-    },
-    {
       "name": "Asphalt ground",
       "type": "MESH",
       "collections": [
@@ -456,6 +408,25 @@
       "review_camera": true
     },
     {
+      "name": "CAM_REVIEW_HoodieBowl_RimProfile",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        -0.06761,
+        -0.383182,
+        3.17969
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
       "name": "CAM_REVIEW_HoodieCrown_Front",
       "type": "CAMERA",
       "collections": [
@@ -542,6 +513,63 @@
         3.184449,
         -5.685822,
         2.190261
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_HoodieScenePreserved",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        1.98239,
+        -7.133182,
+        3.282423
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_HoodieTop_Close",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        -2.36761,
+        -1.983182,
+        3.726957
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_HoodieTop_Overhead",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        -2.76761,
+        -0.283182,
+        5.626957
       ],
       "dimensions": [
         0.0,
@@ -4877,6 +4905,58 @@
       ],
       "vertices": 11332,
       "faces": 11940
+    },
+    {
+      "name": "SACKBOY_Hoodie_Main",
+      "type": "MESH",
+      "collections": [
+        "Apricot Pullover Hoodie",
+        "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS",
+        "WARDROBE_IMPORTED"
+      ],
+      "visible": true,
+      "location": [
+        -2.816514,
+        0.012429,
+        0.993742
+      ],
+      "dimensions": [
+        2.277528,
+        1.115151,
+        2.170456
+      ],
+      "vertices": 257116,
+      "faces": 489064,
+      "shape_keys": [
+        {
+          "name": "Basis",
+          "value": 1.0
+        },
+        {
+          "name": "HOODIEFIT_NarrowSackboy_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_CrownSleeveTaper_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_CrownSmoothExpand_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_RimCrownContain_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_TopArtifactFix_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_BowlRidgePolish_v1",
+          "value": 1.0
+        }
+      ]
     },
     {
       "name": "SK_Eye_L",
