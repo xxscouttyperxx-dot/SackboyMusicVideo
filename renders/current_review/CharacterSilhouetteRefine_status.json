@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "shape_key": "BODYFIT_SilhouetteRefine_v1",
+  "touched_vertices": 29528,
+  "review_cameras": [
+    "CAM_REVIEW_Silhouette_Front",
+    "CAM_REVIEW_Silhouette_Profile",
+    "CAM_REVIEW_Face_Hands",
+    "CAM_REVIEW_StorefrontReflection"
+  ]
+}

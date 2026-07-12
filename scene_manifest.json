@@ -240,6 +240,63 @@
       "review_camera": true
     },
     {
+      "name": "CAM_REVIEW_Face_Hands",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        1.434449,
+        -3.235823,
+        2.79486
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_Silhouette_Front",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        -0.215551,
+        -5.985823,
+        1.82486
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_Silhouette_Profile",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        4.984449,
+        -0.785823,
+        1.79486
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
       "name": "CAM_REVIEW_StorefrontReflection",
       "type": "CAMERA",
       "collections": [
@@ -249,7 +306,7 @@
       "location": [
         7.584449,
         -9.985823,
-        2.82783
+        2.77486
       ],
       "dimensions": [
         0.0,
@@ -550,9 +607,9 @@
         0.01029
       ],
       "dimensions": [
-        2.783371,
+        2.782415,
         1.475343,
-        2.603331
+        2.578342
       ],
       "vertices": 30549,
       "faces": 60930,
@@ -567,6 +624,10 @@
         },
         {
           "name": "BODYFIT_TorsoHoodFit_v1",
+          "value": 0.0
+        },
+        {
+          "name": "BODYFIT_SilhouetteRefine_v1",
           "value": 1.0
         }
       ]
@@ -602,6 +663,10 @@
         },
         {
           "name": "BODYFIT_TorsoHoodFit_v1",
+          "value": 0.0
+        },
+        {
+          "name": "BODYFIT_SilhouetteRefine_v1",
           "value": 1.0
         }
       ]

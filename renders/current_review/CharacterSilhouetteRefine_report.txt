@@ -1,0 +1,8 @@
+[pass] character silhouette refine v1
+[lock] underglow locked [-1.522953, 5.177517, 0.075276] -> [-1.522953, 5.177517, 0.075276]
+[render] kept Cycles for review; preview samples remain lowered for viewport sanity
+[body] added active shape key BODYFIT_SilhouetteRefine_v1; source_key=BODYFIT_TorsoHoodFit_v1; touched_vertices=29528; max_delta_local=0.089147
+[render] 01_SilhouetteFront.png
+[render] 02_ProfileGutLegHand.png
+[render] 03_FaceHandCheck.png
+[render] 04_StorefrontReflectionCamera.png
