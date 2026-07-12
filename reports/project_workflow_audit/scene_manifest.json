@@ -183,6 +183,82 @@
       "faces": 5688
     },
     {
+      "name": "CAM_REVIEW_BodyFit_Front",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        -0.215551,
+        -6.185822,
+        1.87783
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_BodyFit_Profile",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        4.784449,
+        -1.185823,
+        1.87783
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_ClothingClearance",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        3.184449,
+        -5.985823,
+        2.12783
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_StorefrontReflection",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        7.584449,
+        -9.985823,
+        2.82783
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
       "name": "CAM_Target",
       "type": "EMPTY",
       "collections": [
@@ -476,17 +552,21 @@
       "dimensions": [
         2.783371,
         1.475343,
-        2.729204
+        2.603331
       ],
       "vertices": 30549,
       "faces": 60930,
       "shape_keys": [
         {
           "name": "Basis",
-          "value": 1.0
+          "value": 0.0
         },
         {
           "name": "BODYFIT_HoodiePantsPrep_v1",
+          "value": 0.0
+        },
+        {
+          "name": "BODYFIT_TorsoHoodFit_v1",
           "value": 1.0
         }
       ]
@@ -514,10 +594,14 @@
       "shape_keys": [
         {
           "name": "Basis",
-          "value": 1.0
+          "value": 0.0
         },
         {
           "name": "BODYFIT_HoodiePantsPrep_v1",
+          "value": 0.0
+        },
+        {
+          "name": "BODYFIT_TorsoHoodFit_v1",
           "value": 1.0
         }
       ]

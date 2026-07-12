@@ -1,7 +1,7 @@
 # Scene Layout Summary
 
-Updated by Character Body Fit Prep v1.
+Updated by Character Torso Hood Fit v1.
 
-- Added an active non-destructive body-fit shape key to F2.
-- Protected hands; clothing deformation not applied yet.
-- Preserved current Cycles reflection setup and scene lighting.
+- Added stronger active F2 body-fit shape key for hoodie/pants prep.
+- Added persistent review cameras, including storefront reflection review.
+- Preserved current reflection setup and scene lighting.
