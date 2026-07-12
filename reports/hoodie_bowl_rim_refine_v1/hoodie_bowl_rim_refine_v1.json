@@ -1,0 +1,469 @@
+{
+  "pass": "hoodie_bowl_rim_refine_v1",
+  "hoodie_fit": {
+    "shape_key": "HOODIEFIT_BowlRimRefine_v1",
+    "source_key": "HOODIEFIT_BowlRidgePolish_v1",
+    "value": 1.0,
+    "touched_vertices": 99829,
+    "max_delta_local": 0.19183869459163233,
+    "vertex_count_before": 257116,
+    "vertex_count_after": 257116,
+    "vertex_count_delta": 0,
+    "face_count_before": 489064,
+    "face_count_after": 489064,
+    "face_count_delta": 0,
+    "world_dimensions_before": [
+      2.277528,
+      1.115166,
+      2.170419
+    ],
+    "world_dimensions_after": [
+      2.277528,
+      1.136009,
+      2.25433
+    ],
+    "world_dimension_delta": [
+      0.0,
+      0.020843,
+      0.083911
+    ],
+    "region_counts": {
+      "ridge_lifted": 19620,
+      "ridge_feathered": 61674,
+      "rim_vertically_widened": 74231,
+      "lower_sides_concaved": 15026,
+      "top_rim_unflattened": 52108
+    }
+  },
+  "disabled_bodyfit_keys": [
+    {
+      "name": "BODYFIT_HoodiePantsPrep_v1",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "name": "BODYFIT_TorsoHoodFit_v1",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "name": "BODYFIT_SilhouetteRefine_v1",
+      "before": 0.0,
+      "after": 0.0
+    }
+  ],
+  "underglow_lock": {
+    "name": "HERO_CyanUnderglow_Area",
+    "before": [
+      -1.522953,
+      5.177517,
+      0.075276
+    ],
+    "after": [
+      -1.522953,
+      5.177517,
+      0.075276
+    ]
+  },
+  "review_cameras": [
+    {
+      "name": "CAM_REVIEW_Hoodie_MaterialPreview",
+      "render": "01_HoodieMaterialPreviewShape.png",
+      "loc": [
+        -2.16761,
+        -3.272761,
+        3.995764
+      ],
+      "lens": 58,
+      "mode": "WORKBENCH_MATERIAL"
+    },
+    {
+      "name": "CAM_REVIEW_Hoodie_SolidGray",
+      "render": "02_HoodieSolidGrayShape.png",
+      "loc": [
+        -2.61761,
+        -3.022761,
+        4.495764
+      ],
+      "lens": 58,
+      "mode": "WORKBENCH_SINGLE"
+    },
+    {
+      "name": "CAM_REVIEW_Hoodie_WireEdges",
+      "render": "03_HoodieWireEdgeShape.png",
+      "loc": [
+        -2.36761,
+        -3.17276,
+        4.245764
+      ],
+      "lens": 60,
+      "mode": "WORKBENCH_SINGLE_WIREFRAME"
+    },
+    {
+      "name": "CAM_REVIEW_Hoodie_ScenePreserved",
+      "render": "04_HoodieScenePreserved.png",
+      "loc": [
+        2.18239,
+        -7.42276,
+        3.474378
+      ],
+      "lens": 44,
+      "mode": "WORKBENCH_MATERIAL"
+    }
+  ],
+  "key_objects": [
+    {
+      "name": "F2",
+      "status": "present",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        2.688858,
+        -0.249535,
+        0.01029
+      ],
+      "dims": [
+        2.783371,
+        1.475343,
+        2.749408
+      ],
+      "vertices": 30549,
+      "faces": 60930,
+      "shape_keys": [
+        {
+          "name": "Basis",
+          "value": 0.0
+        },
+        {
+          "name": "BODYFIT_HoodiePantsPrep_v1",
+          "value": 0.0
+        },
+        {
+          "name": "BODYFIT_TorsoHoodFit_v1",
+          "value": 0.0
+        },
+        {
+          "name": "BODYFIT_SilhouetteRefine_v1",
+          "value": 0.0
+        }
+      ],
+      "collections": [
+        "CHAR_F2",
+        "CHAR_Meshy_LeftCandidate_Refined"
+      ]
+    },
+    {
+      "name": "SACKBOY_Hoodie_Main",
+      "status": "present",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        -2.816514,
+        0.012429,
+        0.993742
+      ],
+      "dims": [
+        2.277528,
+        1.136019,
+        2.254445
+      ],
+      "vertices": 257116,
+      "faces": 489064,
+      "shape_keys": [
+        {
+          "name": "Basis",
+          "value": 1.0
+        },
+        {
+          "name": "HOODIEFIT_NarrowSackboy_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_CrownSleeveTaper_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_CrownSmoothExpand_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_RimCrownContain_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_TopArtifactFix_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_BowlRidgePolish_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_BowlRimRefine_v1",
+          "value": 1.0
+        }
+      ],
+      "collections": [
+        "Apricot Pullover Hoodie",
+        "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS",
+        "WARDROBE_IMPORTED"
+      ]
+    },
+    {
+      "name": "Cargo pants",
+      "status": "present",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        -2.80222,
+        -0.00521,
+        0.329369
+      ],
+      "dims": [
+        1.559261,
+        0.898337,
+        1.052398
+      ],
+      "vertices": 16507,
+      "faces": 16424,
+      "shape_keys": [],
+      "collections": [
+        "Cargo pants",
+        "WARDROBE_IMPORTED"
+      ]
+    },
+    {
+      "name": "Plane.001",
+      "status": "present",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        -0.064073,
+        0.0,
+        0.0
+      ],
+      "dims": [
+        0.626516,
+        0.950595,
+        0.372303
+      ],
+      "vertices": 10292,
+      "faces": 10800,
+      "shape_keys": [],
+      "collections": [
+        "Shoes",
+        "WARDROBE_IMPORTED"
+      ]
+    },
+    {
+      "name": "Plane.022",
+      "status": "present",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        0.065381,
+        0.0,
+        0.0
+      ],
+      "dims": [
+        0.626517,
+        0.950595,
+        0.372303
+      ],
+      "vertices": 10292,
+      "faces": 10800,
+      "shape_keys": [],
+      "collections": [
+        "Shoes",
+        "WARDROBE_IMPORTED"
+      ]
+    },
+    {
+      "name": "Asphalt ground",
+      "status": "present",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        0.0,
+        4.780939,
+        -0.876001
+      ],
+      "dims": [
+        70.766041,
+        70.315693,
+        3.844296
+      ],
+      "vertices": 16441,
+      "faces": 16154,
+      "shape_keys": [],
+      "collections": [
+        "Asphalt ground",
+        "ENV_PARKING"
+      ]
+    },
+    {
+      "name": "Audi e-tron GT quattro Black",
+      "status": "present",
+      "type": "EMPTY",
+      "visible": true,
+      "loc": [
+        -1.511359,
+        5.16917,
+        0.0
+      ],
+      "dims": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 0,
+      "faces": 0,
+      "shape_keys": [],
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ]
+    }
+  ],
+  "lights_scan": [
+    {
+      "name": "FX_TrafficLight_Green",
+      "type": "SPOT",
+      "loc": [
+        5.728178,
+        -4.716946,
+        2.426358
+      ],
+      "energy": 360.0,
+      "color": [
+        0.05,
+        1.0,
+        0.16
+      ]
+    },
+    {
+      "name": "FX_TrafficLight_Red",
+      "type": "SPOT",
+      "loc": [
+        -5.728178,
+        -4.716946,
+        2.426358
+      ],
+      "energy": 450.0,
+      "color": [
+        1.0,
+        0.02,
+        0.01
+      ]
+    },
+    {
+      "name": "FX_TrafficLight_Yellow",
+      "type": "SPOT",
+      "loc": [
+        0.0,
+        -4.966946,
+        2.505584
+      ],
+      "energy": 420.0,
+      "color": [
+        1.0,
+        0.82,
+        0.05
+      ]
+    },
+    {
+      "name": "HERO_CarAmberHoodRead",
+      "type": "SPOT",
+      "loc": [
+        5.265154,
+        1.978295,
+        5.190777
+      ],
+      "energy": 100.0,
+      "color": [
+        1.0,
+        0.257203,
+        0.006592
+      ]
+    },
+    {
+      "name": "HERO_CarAmberRoofRead",
+      "type": "SPOT",
+      "loc": [
+        -5.186506,
+        1.995343,
+        5.201615
+      ],
+      "energy": 100.00001525878906,
+      "color": [
+        1.0,
+        0.216022,
+        0.00379
+      ]
+    },
+    {
+      "name": "HERO_CarWarmSideGlint",
+      "type": "SPOT",
+      "loc": [
+        0.007344,
+        22.906092,
+        7.155601
+      ],
+      "energy": 90.0,
+      "color": [
+        1.0,
+        0.38,
+        0.08
+      ]
+    },
+    {
+      "name": "HERO_CyanUnderglow_Area",
+      "type": "AREA",
+      "loc": [
+        -1.522953,
+        5.177517,
+        0.075276
+      ],
+      "energy": 160.0,
+      "color": [
+        0.0,
+        0.55,
+        1.0
+      ]
+    },
+    {
+      "name": "V2B_OverheadAmber_0",
+      "type": "AREA",
+      "loc": [
+        -5.222266,
+        2.649782,
+        5.278863
+      ],
+      "energy": 520.0,
+      "color": [
+        1.0,
+        0.37,
+        0.055
+      ]
+    },
+    {
+      "name": "V2B_OverheadAmber_1",
+      "type": "AREA",
+      "loc": [
+        5.284363,
+        2.653402,
+        5.278863
+      ],
+      "energy": 300.0,
+      "color": [
+        1.0,
+        0.37,
+        0.055
+      ]
+    }
+  ],
+  "notes": [
+    "Vertex is singular; vertices is plural.",
+    "This shape-key pass does not add/remove topology, so vertex and face counts should remain unchanged.",
+    "Review renders are 960x540 Workbench/material/solid/wire-style views to show shape irregularities more clearly."
+  ]
+}

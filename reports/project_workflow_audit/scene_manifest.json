@@ -579,6 +579,82 @@
       "review_camera": true
     },
     {
+      "name": "CAM_REVIEW_Hoodie_MaterialPreview",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        -2.16761,
+        -3.272761,
+        3.995764
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_Hoodie_ScenePreserved",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        2.18239,
+        -7.42276,
+        3.474378
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_Hoodie_SolidGray",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        -2.61761,
+        -3.022761,
+        4.495764
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_Hoodie_WireEdges",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        -2.36761,
+        -3.17276,
+        4.245764
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
       "name": "CAM_REVIEW_RestoredCharacter_Front",
       "type": "CAMERA",
       "collections": [
@@ -4922,8 +4998,8 @@
       ],
       "dimensions": [
         2.277528,
-        1.115151,
-        2.170456
+        1.136019,
+        2.254445
       ],
       "vertices": 257116,
       "faces": 489064,
@@ -4954,6 +5030,10 @@
         },
         {
           "name": "HOODIEFIT_BowlRidgePolish_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_BowlRimRefine_v1",
           "value": 1.0
         }
       ]
