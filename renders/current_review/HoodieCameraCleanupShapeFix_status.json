@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "shape_key": "HOODIEFIT_CameraCleanupShapeFix_v1",
+  "removed_old_cameras": 37,
+  "touched_vertices": 103613,
+  "smoothed_vertices": 102252,
+  "vertex_delta": 0,
+  "face_delta": 0
+}

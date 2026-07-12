@@ -1,0 +1,12 @@
+[pass] hoodie camera cleanup shape fix v1
+[camera] removed 37 old CAM_REVIEW_* camera object(s): ['CAM_REVIEW_BodyFit_Front', 'CAM_REVIEW_BodyFit_Profile', 'CAM_REVIEW_CharacterScenePreserved', 'CAM_REVIEW_ClothingClearance', 'CAM_REVIEW_Face_Hands', 'CAM_REVIEW_Hoodie_LeftGray', 'CAM_REVIEW_Hoodie_MaterialPreview', 'CAM_REVIEW_Hoodie_RightGray', 'CAM_REVIEW_Hoodie_Scene', 'CAM_REVIEW_Hoodie_SolidGray', 'CAM_REVIEW_Hoodie_Wire', 'CAM_REVIEW_Hoodie_WireEdges', 'CAM_REVIEW_HoodieBowl_RimProfile', 'CAM_REVIEW_HoodieCrown_Front', 'CAM_REVIEW_HoodieCrown_Profile', 'CAM_REVIEW_HoodieFit_Front', 'CAM_REVIEW_HoodieFit_Profile', 'CAM_REVIEW_HoodieFit_ThreeQuarter', 'CAM_REVIEW_HoodieScenePreserved', 'CAM_REVIEW_HoodieTop_Close', 'CAM_REVIEW_HoodieTop_Overhead', 'CAM_REVIEW_HoodRim_ProfileClose', 'CAM_REVIEW_HoodRimFront', 'CAM_REVIEW_HoodRimProfile', 'CAM_REVIEW_HoodTop_Artifact_Close', 'CAM_REVIEW_HoodTop_Overhead', 'CAM_REVIEW_HoodTopArtifactCheck', 'CAM_REVIEW_HoodTopFront', 'CAM_REVIEW_HoodTopProfile', 'CAM_REVIEW_RestoredCharacter_Front', 'CAM_REVIEW_RestoredCharacter_Profile', 'CAM_REVIEW_RestoredFaceHands', 'CAM_REVIEW_Silhouette_Front', 'CAM_REVIEW_Silhouette_Profile', 'CAM_REVIEW_SleeveElbowCheck', 'CAM_REVIEW_SleeveTaper_Check', 'CAM_REVIEW_StorefrontReflection']
+[lock] underglow locked [-1.522953, 5.177517, 0.075276] -> [-1.522953, 5.177517, 0.075276]
+[character] F2 baseline preserved; BODYFIT keys kept disabled
+[hoodie] active shape key HOODIEFIT_CameraCleanupShapeFix_v1; source=HOODIEFIT_SpikeSleeveSideFix_v1; touched_vertices=103613; smoothed_vertices=102252; max_delta_local=0.050728; vertices=257116->257116; faces=489064->489064
+[camera] retained/created minimal reference cameras: ['CAM_REVIEW_F2_Front', 'CAM_REVIEW_F2_ThreeQuarter', 'CAM_REVIEW_F2_Profile', 'CAM_REVIEW_StorefrontReflection_A', 'CAM_REVIEW_StorefrontReflection_B', 'CAM_REVIEW_StorefrontReflection_C']
+[render] 960x540 Workbench evidence renders; isolated wire view hides non-hoodie objects
+[render] 01_HoodieMaterialShape.png
+[render] 02_HoodieLeftSideGray.png
+[render] 03_HoodieRightSideGray.png
+[render] 04_HoodieIsolatedWireCheck.png
+[render] 05_HoodieScenePreserved.png

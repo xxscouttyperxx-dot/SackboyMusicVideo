@@ -161,7 +161,7 @@
       "faces": 5688
     },
     {
-      "name": "CAM_REVIEW_BodyFit_Front",
+      "name": "CAM_REVIEW_F2_Front",
       "type": "CAMERA",
       "collections": [
         "Scene Collection"
@@ -169,65 +169,8 @@
       "visible": true,
       "location": [
         -0.215551,
-        -6.185822,
-        1.87783
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_BodyFit_Profile",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        4.784449,
-        -1.185823,
-        1.87783
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_CharacterScenePreserved",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        4.384449,
-        -7.785823,
-        3.175178
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_ClothingClearance",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        3.184449,
         -5.985823,
-        2.12783
+        2.112767
       ],
       "dimensions": [
         0.0,
@@ -237,54 +180,16 @@
       "review_camera": true
     },
     {
-      "name": "CAM_REVIEW_Face_Hands",
+      "name": "CAM_REVIEW_F2_Profile",
       "type": "CAMERA",
       "collections": [
         "Scene Collection"
       ],
       "visible": true,
       "location": [
-        1.434449,
-        -3.235823,
-        2.79486
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_HoodRimFront",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        -0.215551,
-        -5.785823,
-        2.655225
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_HoodRimProfile",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        4.584449,
+        5.384449,
         -0.785823,
-        2.655225
+        2.212767
       ],
       "dimensions": [
         0.0,
@@ -294,16 +199,16 @@
       "review_camera": true
     },
     {
-      "name": "CAM_REVIEW_HoodRim_ProfileClose",
+      "name": "CAM_REVIEW_F2_ThreeQuarter",
       "type": "CAMERA",
       "collections": [
         "Scene Collection"
       ],
       "visible": true,
       "location": [
-        2.934449,
-        -0.635823,
-        2.775178
+        3.884449,
+        -5.585823,
+        2.412767
       ],
       "dimensions": [
         0.0,
@@ -313,235 +218,7 @@
       "review_camera": true
     },
     {
-      "name": "CAM_REVIEW_HoodTopArtifactCheck",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        0.784449,
-        -3.785823,
-        3.255225
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_HoodTopFront",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        -0.215551,
-        -5.785823,
-        2.550237
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_HoodTopProfile",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        4.584449,
-        -0.785823,
-        2.600237
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_HoodTop_Artifact_Close",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        0.334449,
-        -2.185823,
-        3.175178
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_HoodTop_Overhead",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        -0.065551,
-        -0.885823,
-        4.975178
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_HoodieBowl_RimProfile",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        -0.06761,
-        -0.383182,
-        3.17969
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_HoodieCrown_Front",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        -0.215551,
-        -5.985823,
-        2.145249
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_HoodieCrown_Profile",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        4.984449,
-        -0.985823,
-        2.145249
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_HoodieFit_Front",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        -0.215551,
-        -5.985823,
-        1.990261
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_HoodieFit_Profile",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        4.884449,
-        -0.985823,
-        1.990261
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_HoodieFit_ThreeQuarter",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        3.184449,
-        -5.685822,
-        2.190261
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_HoodieScenePreserved",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        1.98239,
-        -7.133182,
-        3.282423
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_HoodieTop_Close",
+      "name": "CAM_REVIEW_Hoodie_IsolatedWire",
       "type": "CAMERA",
       "collections": [
         "Scene Collection"
@@ -549,8 +226,8 @@
       "visible": true,
       "location": [
         -2.36761,
-        -1.983182,
-        3.726957
+        -4.372395,
+        4.398234
       ],
       "dimensions": [
         0.0,
@@ -560,35 +237,16 @@
       "review_camera": true
     },
     {
-      "name": "CAM_REVIEW_HoodieTop_Overhead",
+      "name": "CAM_REVIEW_Hoodie_LeftSide",
       "type": "CAMERA",
       "collections": [
         "Scene Collection"
       ],
       "visible": true,
       "location": [
-        -2.76761,
-        -0.283182,
-        5.626957
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_Hoodie_LeftGray",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        -5.26761,
-        -2.571946,
-        3.710916
+        -5.46761,
+        -2.772395,
+        3.698234
       ],
       "dimensions": [
         0.0,
@@ -605,9 +263,9 @@
       ],
       "visible": true,
       "location": [
-        -2.11761,
-        -3.571946,
-        3.760916
+        -2.06761,
+        -3.672395,
+        3.798234
       ],
       "dimensions": [
         0.0,
@@ -617,54 +275,16 @@
       "review_camera": true
     },
     {
-      "name": "CAM_REVIEW_Hoodie_MaterialPreview",
+      "name": "CAM_REVIEW_Hoodie_RightSide",
       "type": "CAMERA",
       "collections": [
         "Scene Collection"
       ],
       "visible": true,
       "location": [
-        -2.16761,
-        -3.272761,
-        3.995764
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_Hoodie_RightGray",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        -0.36761,
-        -2.571946,
-        3.710916
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_Hoodie_Scene",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        2.18239,
-        -7.521946,
-        3.407544
+        -0.16761,
+        -2.772395,
+        3.698234
       ],
       "dimensions": [
         0.0,
@@ -682,8 +302,8 @@
       "visible": true,
       "location": [
         2.18239,
-        -7.42276,
-        3.474378
+        -7.522395,
+        3.430336
       ],
       "dimensions": [
         0.0,
@@ -693,16 +313,16 @@
       "review_camera": true
     },
     {
-      "name": "CAM_REVIEW_Hoodie_SolidGray",
+      "name": "CAM_REVIEW_StorefrontReflection_A",
       "type": "CAMERA",
       "collections": [
         "Scene Collection"
       ],
       "visible": true,
       "location": [
-        -2.61761,
-        -3.022761,
-        4.495764
+        4.98239,
+        -9.922395,
+        3.580336
       ],
       "dimensions": [
         0.0,
@@ -712,16 +332,16 @@
       "review_camera": true
     },
     {
-      "name": "CAM_REVIEW_Hoodie_Wire",
+      "name": "CAM_REVIEW_StorefrontReflection_B",
       "type": "CAMERA",
       "collections": [
         "Scene Collection"
       ],
       "visible": true,
       "location": [
-        -2.51761,
-        -2.971946,
-        4.060915
+        1.78239,
+        -8.322395,
+        3.380336
       ],
       "dimensions": [
         0.0,
@@ -731,168 +351,16 @@
       "review_camera": true
     },
     {
-      "name": "CAM_REVIEW_Hoodie_WireEdges",
+      "name": "CAM_REVIEW_StorefrontReflection_C",
       "type": "CAMERA",
       "collections": [
         "Scene Collection"
       ],
       "visible": true,
       "location": [
-        -2.36761,
-        -3.17276,
-        4.245764
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_RestoredCharacter_Front",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        -0.215441,
-        -5.985823,
-        1.874388
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_RestoredCharacter_Profile",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        4.884559,
-        -0.885823,
-        1.874388
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_RestoredFaceHands",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        1.434559,
-        -3.285823,
-        2.844388
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_Silhouette_Front",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        -0.215551,
-        -5.985823,
-        1.82486
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_Silhouette_Profile",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        4.984449,
-        -0.785823,
-        1.79486
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_SleeveElbowCheck",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        2.984449,
-        -5.185822,
-        2.200237
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_SleeveTaper_Check",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        3.184449,
-        -5.485823,
-        2.245249
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_StorefrontReflection",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        7.584449,
-        -9.985823,
-        3.105225
+        -6.81761,
+        -7.922395,
+        3.280335
       ],
       "dimensions": [
         0.0,
@@ -5093,8 +4561,8 @@
       ],
       "dimensions": [
         2.277528,
-        1.141959,
-        2.320687
+        1.145366,
+        2.366212
       ],
       "vertices": 257116,
       "faces": 489064,
@@ -5133,6 +4601,10 @@
         },
         {
           "name": "HOODIEFIT_SpikeSleeveSideFix_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_CameraCleanupShapeFix_v1",
           "value": 1.0
         }
       ]

@@ -1,7 +1,7 @@
 # Scene Layout Summary
 
-Updated by Hoodie Spike Sleeve Side Fix v1.
+Updated by Hoodie Camera Cleanup Shape Fix v1.
 
-- Focused hoodie corrective shape key added.
-- Review renders use pulled-back Workbench/material/gray/wire views at 960x540.
-- Render engine is restored after evidence renders.
+- Old review camera duplicates deleted and a minimal camera set recreated.
+- Focused hoodie shape fix added.
+- Isolated wire render avoids scene/camera/light overlay confusion.

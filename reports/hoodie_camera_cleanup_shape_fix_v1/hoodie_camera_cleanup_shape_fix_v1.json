@@ -1,0 +1,508 @@
+{
+  "pass": "hoodie_camera_cleanup_shape_fix_v1",
+  "hoodie_fit": {
+    "shape_key": "HOODIEFIT_CameraCleanupShapeFix_v1",
+    "source_key": "HOODIEFIT_SpikeSleeveSideFix_v1",
+    "value": 1.0,
+    "touched_vertices": 103613,
+    "smoothed_vertices": 102252,
+    "max_delta_local": 0.05072838363548581,
+    "vertex_count_before": 257116,
+    "vertex_count_after": 257116,
+    "vertex_count_delta": 0,
+    "face_count_before": 489064,
+    "face_count_after": 489064,
+    "face_count_delta": 0,
+    "world_dimensions_before": [
+      2.277528,
+      1.141722,
+      2.32066
+    ],
+    "world_dimensions_after": [
+      2.277528,
+      1.144981,
+      2.366244
+    ],
+    "world_dimension_delta": [
+      0.0,
+      0.003259,
+      0.045584
+    ],
+    "region_counts": {
+      "top_ridge_rounded": 23899,
+      "lower_sides_pulled_out_down": 12298,
+      "shoulder_collar_raised": 39187,
+      "sleeve_uniform_thickness": 55158,
+      "back_protrusion_feathered": 16755,
+      "spike_smoothing_vertices": 102252
+    }
+  },
+  "disabled_bodyfit_keys": [
+    {
+      "name": "BODYFIT_HoodiePantsPrep_v1",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "name": "BODYFIT_TorsoHoodFit_v1",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "name": "BODYFIT_SilhouetteRefine_v1",
+      "before": 0.0,
+      "after": 0.0
+    }
+  ],
+  "underglow_lock": {
+    "name": "HERO_CyanUnderglow_Area",
+    "before": [
+      -1.522953,
+      5.177517,
+      0.075276
+    ],
+    "after": [
+      -1.522953,
+      5.177517,
+      0.075276
+    ]
+  },
+  "review_cameras": [
+    {
+      "name": "CAM_REVIEW_Hoodie_Material",
+      "render": "01_HoodieMaterialShape.png",
+      "loc": [
+        -2.06761,
+        -3.672395,
+        3.798234
+      ],
+      "lens": 55,
+      "mode": "WORKBENCH_MATERIAL"
+    },
+    {
+      "name": "CAM_REVIEW_Hoodie_LeftSide",
+      "render": "02_HoodieLeftSideGray.png",
+      "loc": [
+        -5.46761,
+        -2.772395,
+        3.698234
+      ],
+      "lens": 58,
+      "mode": "WORKBENCH_SINGLE"
+    },
+    {
+      "name": "CAM_REVIEW_Hoodie_RightSide",
+      "render": "03_HoodieRightSideGray.png",
+      "loc": [
+        -0.16761,
+        -2.772395,
+        3.698234
+      ],
+      "lens": 58,
+      "mode": "WORKBENCH_SINGLE"
+    },
+    {
+      "name": "CAM_REVIEW_Hoodie_IsolatedWire",
+      "render": "04_HoodieIsolatedWireCheck.png",
+      "loc": [
+        -2.36761,
+        -4.372395,
+        4.398234
+      ],
+      "lens": 48,
+      "mode": "WORKBENCH_SINGLE_ISOLATED_WIRE"
+    },
+    {
+      "name": "CAM_REVIEW_Hoodie_ScenePreserved",
+      "render": "05_HoodieScenePreserved.png",
+      "loc": [
+        2.18239,
+        -7.522395,
+        3.430336
+      ],
+      "lens": 44,
+      "mode": "WORKBENCH_MATERIAL"
+    }
+  ],
+  "removed_old_review_cameras": [
+    "CAM_REVIEW_BodyFit_Front",
+    "CAM_REVIEW_BodyFit_Profile",
+    "CAM_REVIEW_CharacterScenePreserved",
+    "CAM_REVIEW_ClothingClearance",
+    "CAM_REVIEW_Face_Hands",
+    "CAM_REVIEW_Hoodie_LeftGray",
+    "CAM_REVIEW_Hoodie_MaterialPreview",
+    "CAM_REVIEW_Hoodie_RightGray",
+    "CAM_REVIEW_Hoodie_Scene",
+    "CAM_REVIEW_Hoodie_SolidGray",
+    "CAM_REVIEW_Hoodie_Wire",
+    "CAM_REVIEW_Hoodie_WireEdges",
+    "CAM_REVIEW_HoodieBowl_RimProfile",
+    "CAM_REVIEW_HoodieCrown_Front",
+    "CAM_REVIEW_HoodieCrown_Profile",
+    "CAM_REVIEW_HoodieFit_Front",
+    "CAM_REVIEW_HoodieFit_Profile",
+    "CAM_REVIEW_HoodieFit_ThreeQuarter",
+    "CAM_REVIEW_HoodieScenePreserved",
+    "CAM_REVIEW_HoodieTop_Close",
+    "CAM_REVIEW_HoodieTop_Overhead",
+    "CAM_REVIEW_HoodRim_ProfileClose",
+    "CAM_REVIEW_HoodRimFront",
+    "CAM_REVIEW_HoodRimProfile",
+    "CAM_REVIEW_HoodTop_Artifact_Close",
+    "CAM_REVIEW_HoodTop_Overhead",
+    "CAM_REVIEW_HoodTopArtifactCheck",
+    "CAM_REVIEW_HoodTopFront",
+    "CAM_REVIEW_HoodTopProfile",
+    "CAM_REVIEW_RestoredCharacter_Front",
+    "CAM_REVIEW_RestoredCharacter_Profile",
+    "CAM_REVIEW_RestoredFaceHands",
+    "CAM_REVIEW_Silhouette_Front",
+    "CAM_REVIEW_Silhouette_Profile",
+    "CAM_REVIEW_SleeveElbowCheck",
+    "CAM_REVIEW_SleeveTaper_Check",
+    "CAM_REVIEW_StorefrontReflection"
+  ],
+  "retained_reference_cameras": [
+    "CAM_REVIEW_F2_Front",
+    "CAM_REVIEW_F2_ThreeQuarter",
+    "CAM_REVIEW_F2_Profile",
+    "CAM_REVIEW_StorefrontReflection_A",
+    "CAM_REVIEW_StorefrontReflection_B",
+    "CAM_REVIEW_StorefrontReflection_C"
+  ],
+  "key_objects": [
+    {
+      "name": "F2",
+      "status": "present",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        2.688858,
+        -0.249535,
+        0.01029
+      ],
+      "dims": [
+        2.783371,
+        1.475343,
+        2.749408
+      ],
+      "vertices": 30549,
+      "faces": 60930,
+      "shape_keys": [
+        {
+          "name": "Basis",
+          "value": 0.0
+        },
+        {
+          "name": "BODYFIT_HoodiePantsPrep_v1",
+          "value": 0.0
+        },
+        {
+          "name": "BODYFIT_TorsoHoodFit_v1",
+          "value": 0.0
+        },
+        {
+          "name": "BODYFIT_SilhouetteRefine_v1",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "name": "SACKBOY_Hoodie_Main",
+      "status": "present",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        -2.816514,
+        0.012429,
+        0.993742
+      ],
+      "dims": [
+        2.277528,
+        1.145366,
+        2.366212
+      ],
+      "vertices": 257116,
+      "faces": 489064,
+      "shape_keys": [
+        {
+          "name": "Basis",
+          "value": 1.0
+        },
+        {
+          "name": "HOODIEFIT_NarrowSackboy_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_CrownSleeveTaper_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_CrownSmoothExpand_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_RimCrownContain_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_TopArtifactFix_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_BowlRidgePolish_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_BowlRimRefine_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_SpikeSleeveSideFix_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_CameraCleanupShapeFix_v1",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Cargo pants",
+      "status": "present",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        -2.80222,
+        -0.00521,
+        0.329369
+      ],
+      "dims": [
+        1.559261,
+        0.898337,
+        1.052398
+      ],
+      "vertices": 16507,
+      "faces": 16424,
+      "shape_keys": []
+    },
+    {
+      "name": "Plane.001",
+      "status": "present",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        -0.064073,
+        0.0,
+        0.0
+      ],
+      "dims": [
+        0.626516,
+        0.950595,
+        0.372303
+      ],
+      "vertices": 10292,
+      "faces": 10800,
+      "shape_keys": []
+    },
+    {
+      "name": "Plane.022",
+      "status": "present",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        0.065381,
+        0.0,
+        0.0
+      ],
+      "dims": [
+        0.626517,
+        0.950595,
+        0.372303
+      ],
+      "vertices": 10292,
+      "faces": 10800,
+      "shape_keys": []
+    },
+    {
+      "name": "Asphalt ground",
+      "status": "present",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        0.0,
+        4.780939,
+        -0.876001
+      ],
+      "dims": [
+        70.766041,
+        70.315693,
+        3.844296
+      ],
+      "vertices": 16441,
+      "faces": 16154,
+      "shape_keys": []
+    },
+    {
+      "name": "Audi e-tron GT quattro Black",
+      "status": "present",
+      "type": "EMPTY",
+      "visible": true,
+      "loc": [
+        -1.511359,
+        5.16917,
+        0.0
+      ],
+      "dims": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 0,
+      "faces": 0,
+      "shape_keys": []
+    }
+  ],
+  "lights_scan": [
+    {
+      "name": "FX_TrafficLight_Green",
+      "type": "SPOT",
+      "loc": [
+        5.728178,
+        -4.716946,
+        2.426358
+      ],
+      "energy": 360.0,
+      "color": [
+        0.05,
+        1.0,
+        0.16
+      ]
+    },
+    {
+      "name": "FX_TrafficLight_Red",
+      "type": "SPOT",
+      "loc": [
+        -5.728178,
+        -4.716946,
+        2.426358
+      ],
+      "energy": 450.0,
+      "color": [
+        1.0,
+        0.02,
+        0.01
+      ]
+    },
+    {
+      "name": "FX_TrafficLight_Yellow",
+      "type": "SPOT",
+      "loc": [
+        0.0,
+        -4.966946,
+        2.505584
+      ],
+      "energy": 420.0,
+      "color": [
+        1.0,
+        0.82,
+        0.05
+      ]
+    },
+    {
+      "name": "HERO_CarAmberHoodRead",
+      "type": "SPOT",
+      "loc": [
+        5.265154,
+        1.978295,
+        5.190777
+      ],
+      "energy": 100.0,
+      "color": [
+        1.0,
+        0.257203,
+        0.006592
+      ]
+    },
+    {
+      "name": "HERO_CarAmberRoofRead",
+      "type": "SPOT",
+      "loc": [
+        -5.186506,
+        1.995343,
+        5.201615
+      ],
+      "energy": 100.00001525878906,
+      "color": [
+        1.0,
+        0.216022,
+        0.00379
+      ]
+    },
+    {
+      "name": "HERO_CarWarmSideGlint",
+      "type": "SPOT",
+      "loc": [
+        0.007344,
+        22.906092,
+        7.155601
+      ],
+      "energy": 90.0,
+      "color": [
+        1.0,
+        0.38,
+        0.08
+      ]
+    },
+    {
+      "name": "HERO_CyanUnderglow_Area",
+      "type": "AREA",
+      "loc": [
+        -1.522953,
+        5.177517,
+        0.075276
+      ],
+      "energy": 160.0,
+      "color": [
+        0.0,
+        0.55,
+        1.0
+      ]
+    },
+    {
+      "name": "V2B_OverheadAmber_0",
+      "type": "AREA",
+      "loc": [
+        -5.222266,
+        2.649782,
+        5.278863
+      ],
+      "energy": 520.0,
+      "color": [
+        1.0,
+        0.37,
+        0.055
+      ]
+    },
+    {
+      "name": "V2B_OverheadAmber_1",
+      "type": "AREA",
+      "loc": [
+        5.284363,
+        2.653402,
+        5.278863
+      ],
+      "energy": 300.0,
+      "color": [
+        1.0,
+        0.37,
+        0.055
+      ]
+    }
+  ],
+  "notes": [
+    "Wire spikes in the user screenshot were likely viewport/camera/light/frustum/other-scene wire overlays, not hoodie mesh spikes, since the user did not see them in the actual viewport after the pass. This package still smooths local hoodie outliers and renders an isolated hoodie wire check.",
+    "Old CAM_REVIEW_* duplicates were deleted, then a small review-camera set was recreated."
+  ]
+}
