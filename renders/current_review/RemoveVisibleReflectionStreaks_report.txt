@@ -1,7 +1,0 @@
-[pass] remove visible reflection streak fallback geometry
-[remove] removed 6 visible reflection streak/window-glow overlay object(s)
-[cards] preserved/hardened 6 reflection-only card(s)
-[lock] underglow locked [-1.522953, 5.177517, 0.075276] -> [-1.522953, 5.177517, 0.075276]
-[render] 01_StorefrontNoFloatingStreaks.png
-[render] 02_ReflectionCardsOnlyCheck.png
-[render] 03_CharacterNoStreakIntersections.png

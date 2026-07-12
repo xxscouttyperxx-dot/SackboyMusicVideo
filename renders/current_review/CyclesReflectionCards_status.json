@@ -1,140 +1,29 @@
 {
-  "removed_visible_streaks": [
-    {
-      "name": "FX_GlassStreak_Green_01",
-      "visible": true,
-      "collections": [
-        "FX_REFLECTION_TRAFFIC"
-      ]
-    },
-    {
-      "name": "FX_GlassStreak_Green_02",
-      "visible": true,
-      "collections": [
-        "FX_REFLECTION_TRAFFIC"
-      ]
-    },
-    {
-      "name": "FX_GlassStreak_Red_01",
-      "visible": true,
-      "collections": [
-        "FX_REFLECTION_TRAFFIC"
-      ]
-    },
-    {
-      "name": "FX_GlassStreak_Red_02",
-      "visible": true,
-      "collections": [
-        "FX_REFLECTION_TRAFFIC"
-      ]
-    },
-    {
-      "name": "FX_GlassStreak_Yellow_01",
-      "visible": true,
-      "collections": [
-        "FX_REFLECTION_TRAFFIC"
-      ]
-    },
-    {
-      "name": "FX_GlassStreak_Yellow_02",
-      "visible": true,
-      "collections": [
-        "FX_REFLECTION_TRAFFIC"
-      ]
-    }
+  "removed_visible_overlays": [],
+  "glass_objects": [
+    "HERO_BlackSkateShoe_L_WhiteSole",
+    "HERO_BlackSkateShoe_R_WhiteSole",
+    "HERO_GlassStorefront_Bay_0",
+    "HERO_GlassStorefront_Bay_1",
+    "HERO_GlassStorefront_Bay_2",
+    "HERO_GlassStorefront_Bay_3",
+    "Plane.024",
+    "Plane.037",
+    "Plane.038",
+    "Plane.040",
+    "Plane.061"
   ],
-  "reflection_cards_preserved": [
-    {
-      "name": "FX_ReflectCard_Green_01",
-      "visible_camera": false,
-      "visible_glossy": true,
-      "loc": [
-        6.546489,
-        -0.866946,
-        2.267905
-      ],
-      "dims": [
-        3.6824,
-        0.14,
-        0.0
-      ]
-    },
-    {
-      "name": "FX_ReflectCard_Green_02",
-      "visible_camera": false,
-      "visible_glossy": true,
-      "loc": [
-        5.5236,
-        -0.906946,
-        2.743262
-      ],
-      "dims": [
-        2.045778,
-        0.08,
-        0.0
-      ]
-    },
-    {
-      "name": "FX_ReflectCard_Red_01",
-      "visible_camera": false,
-      "visible_glossy": true,
-      "loc": [
-        -6.955644,
-        -0.866946,
-        2.267905
-      ],
-      "dims": [
-        3.886977,
-        0.16,
-        0.0
-      ]
-    },
-    {
-      "name": "FX_ReflectCard_Red_02",
-      "visible_camera": false,
-      "visible_glossy": true,
-      "loc": [
-        -5.728178,
-        -0.906946,
-        2.743262
-      ],
-      "dims": [
-        2.045777,
-        0.09,
-        0.0
-      ]
-    },
-    {
-      "name": "FX_ReflectCard_Yellow_01",
-      "visible_camera": false,
-      "visible_glossy": true,
-      "loc": [
-        0.0,
-        -0.866946,
-        2.267905
-      ],
-      "dims": [
-        3.6824,
-        0.14,
-        0.0
-      ]
-    },
-    {
-      "name": "FX_ReflectCard_Yellow_02",
-      "visible_camera": false,
-      "visible_glossy": true,
-      "loc": [
-        -1.227467,
-        -0.906946,
-        1.67371
-      ],
-      "dims": [
-        2.045778,
-        0.08,
-        0.0
-      ]
-    }
-  ],
+  "glass_bounds": {
+    "min_x": -10.228888511657715,
+    "max_x": 10.228888511657715,
+    "min_y": -0.5169463157653809,
+    "max_y": 23.88800048828125,
+    "min_z": -0.029651019722223282,
+    "max_z": 3.9316530227661133,
+    "dim_x": 20.45777702331543,
+    "dim_y": 24.40494680404663,
+    "dim_z": 3.9613040424883366
+  },
   "underglow_lock": {
     "name": "HERO_CyanUnderglow_Area",
     "before": [
@@ -148,25 +37,189 @@
       0.075276
     ]
   },
-  "fx_scan_after": [
+  "cycles_reflection_cards": [
+    {
+      "name": "FX_ReflectCard_Red_01",
+      "color": "red",
+      "loc": [
+        -6.546489,
+        -1.066946,
+        2.267905
+      ],
+      "width": 3.886978,
+      "height": 0.18,
+      "visible_camera": false
+    },
+    {
+      "name": "FX_ReflectCard_Red_02",
+      "color": "red",
+      "loc": [
+        -5.114444,
+        -1.106946,
+        2.822488
+      ],
+      "width": 2.045778,
+      "height": 0.1,
+      "visible_camera": false
+    },
+    {
+      "name": "FX_ReflectCard_Yellow_01",
+      "color": "yellow",
+      "loc": [
+        0.0,
+        -1.066946,
+        2.188679
+      ],
+      "width": 3.6824,
+      "height": 0.16,
+      "visible_camera": false
+    },
+    {
+      "name": "FX_ReflectCard_Yellow_02",
+      "color": "yellow",
+      "loc": [
+        -1.227467,
+        -1.106946,
+        1.634097
+      ],
+      "width": 2.045778,
+      "height": 0.09,
+      "visible_camera": false
+    },
+    {
+      "name": "FX_ReflectCard_Green_01",
+      "color": "green",
+      "loc": [
+        6.546489,
+        -1.066946,
+        2.267905
+      ],
+      "width": 3.6824,
+      "height": 0.16,
+      "visible_camera": false
+    },
+    {
+      "name": "FX_ReflectCard_Green_02",
+      "color": "green",
+      "loc": [
+        5.114444,
+        -1.106946,
+        2.822488
+      ],
+      "width": 2.045778,
+      "height": 0.09,
+      "visible_camera": false
+    }
+  ],
+  "traffic_lights": [
+    {
+      "name": "FX_TrafficLight_Red",
+      "loc": [
+        -5.728178,
+        -4.716946,
+        2.426358
+      ],
+      "energy": 450.0,
+      "color": [
+        1.0,
+        0.02,
+        0.01
+      ]
+    },
+    {
+      "name": "FX_TrafficLight_Yellow",
+      "loc": [
+        0.0,
+        -4.966946,
+        2.505584
+      ],
+      "energy": 420.0,
+      "color": [
+        1.0,
+        0.78,
+        0.04
+      ]
+    },
+    {
+      "name": "FX_TrafficLight_Green",
+      "loc": [
+        5.728178,
+        -4.716946,
+        2.426358
+      ],
+      "energy": 360.0,
+      "color": [
+        0.03,
+        1.0,
+        0.12
+      ]
+    }
+  ],
+  "glass_materials_updated": [
+    {
+      "object": "HERO_BlackSkateShoe_L_WhiteSole",
+      "material": "HERO_MAT_SkateShoeWhitePanels"
+    },
+    {
+      "object": "HERO_BlackSkateShoe_R_WhiteSole",
+      "material": "HERO_MAT_SkateShoeWhitePanels"
+    },
+    {
+      "object": "HERO_GlassStorefront_Bay_0",
+      "material": "HERO_MAT_Glass_NightGlossy"
+    },
+    {
+      "object": "HERO_GlassStorefront_Bay_1",
+      "material": "HERO_MAT_Glass_NightGlossy"
+    },
+    {
+      "object": "HERO_GlassStorefront_Bay_2",
+      "material": "HERO_MAT_Glass_NightGlossy"
+    },
+    {
+      "object": "HERO_GlassStorefront_Bay_3",
+      "material": "HERO_MAT_Glass_NightGlossy"
+    },
+    {
+      "object": "Plane.024",
+      "material": "Glass"
+    },
+    {
+      "object": "Plane.037",
+      "material": "Window"
+    },
+    {
+      "object": "Plane.038",
+      "material": "Window"
+    },
+    {
+      "object": "Plane.040",
+      "material": "Window Glass Cycle"
+    },
+    {
+      "object": "Plane.061",
+      "material": "Glass.001"
+    }
+  ],
+  "fx_scan": [
     {
       "name": "FX_ReflectCard_Green_01",
       "type": "MESH",
       "visible": true,
       "loc": [
         6.546489,
-        -0.866946,
+        -1.066946,
         2.267905
       ],
       "dims": [
         3.6824,
-        0.14,
-        0.0
+        0.0,
+        0.16
       ],
-      "intent": "reflection-only emissive source; not a visible render prop",
       "collections": [
         "FX_REFLECTION_TRAFFIC"
       ],
+      "intent": "Cycles reflection-only traffic source; not direct camera prop",
       "visible_camera": false,
       "visible_glossy": true
     },
@@ -175,19 +228,19 @@
       "type": "MESH",
       "visible": true,
       "loc": [
-        5.5236,
-        -0.906946,
-        2.743262
+        5.114444,
+        -1.106946,
+        2.822488
       ],
       "dims": [
         2.045778,
-        0.08,
-        0.0
+        0.0,
+        0.09
       ],
-      "intent": "reflection-only emissive source; not a visible render prop",
       "collections": [
         "FX_REFLECTION_TRAFFIC"
       ],
+      "intent": "Cycles reflection-only traffic source; not direct camera prop",
       "visible_camera": false,
       "visible_glossy": true
     },
@@ -196,19 +249,19 @@
       "type": "MESH",
       "visible": true,
       "loc": [
-        -6.955644,
-        -0.866946,
+        -6.546489,
+        -1.066946,
         2.267905
       ],
       "dims": [
-        3.886977,
-        0.16,
-        0.0
+        3.886978,
+        0.0,
+        0.18
       ],
-      "intent": "reflection-only emissive source; not a visible render prop",
       "collections": [
         "FX_REFLECTION_TRAFFIC"
       ],
+      "intent": "Cycles reflection-only traffic source; not direct camera prop",
       "visible_camera": false,
       "visible_glossy": true
     },
@@ -217,19 +270,19 @@
       "type": "MESH",
       "visible": true,
       "loc": [
-        -5.728178,
-        -0.906946,
-        2.743262
+        -5.114444,
+        -1.106946,
+        2.822488
       ],
       "dims": [
-        2.045777,
-        0.09,
-        0.0
+        2.045778,
+        0.0,
+        0.1
       ],
-      "intent": "reflection-only emissive source; not a visible render prop",
       "collections": [
         "FX_REFLECTION_TRAFFIC"
       ],
+      "intent": "Cycles reflection-only traffic source; not direct camera prop",
       "visible_camera": false,
       "visible_glossy": true
     },
@@ -239,18 +292,18 @@
       "visible": true,
       "loc": [
         0.0,
-        -0.866946,
-        2.267905
+        -1.066946,
+        2.188679
       ],
       "dims": [
         3.6824,
-        0.14,
-        0.0
+        0.0,
+        0.16
       ],
-      "intent": "reflection-only emissive source; not a visible render prop",
       "collections": [
         "FX_REFLECTION_TRAFFIC"
       ],
+      "intent": "Cycles reflection-only traffic source; not direct camera prop",
       "visible_camera": false,
       "visible_glossy": true
     },
@@ -260,18 +313,18 @@
       "visible": true,
       "loc": [
         -1.227467,
-        -0.906946,
-        1.67371
+        -1.106946,
+        1.634097
       ],
       "dims": [
         2.045778,
-        0.08,
-        0.0
+        0.0,
+        0.09
       ],
-      "intent": "reflection-only emissive source; not a visible render prop",
       "collections": [
         "FX_REFLECTION_TRAFFIC"
       ],
+      "intent": "Cycles reflection-only traffic source; not direct camera prop",
       "visible_camera": false,
       "visible_glossy": true
     },
@@ -289,12 +342,12 @@
         0.0,
         0.0
       ],
-      "intent": "",
       "collections": [
         "FX_REFLECTION_TRAFFIC",
         "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
       ],
-      "energy": 380.0,
+      "intent": "",
+      "energy": 360.0,
       "color": [
         0.03,
         1.0,
@@ -315,12 +368,12 @@
         0.0,
         0.0
       ],
-      "intent": "",
       "collections": [
         "FX_REFLECTION_TRAFFIC",
         "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
       ],
-      "energy": 520.0,
+      "intent": "",
+      "energy": 450.0,
       "color": [
         1.0,
         0.02,
@@ -341,12 +394,12 @@
         0.0,
         0.0
       ],
-      "intent": "",
       "collections": [
         "FX_REFLECTION_TRAFFIC",
         "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
       ],
-      "energy": 480.0,
+      "intent": "",
+      "energy": 420.0,
       "color": [
         1.0,
         0.78,
@@ -363,7 +416,7 @@
         -4.716946,
         2.426358
       ],
-      "energy": 380.0,
+      "energy": 360.0,
       "color": [
         0.03,
         1.0,
@@ -378,7 +431,7 @@
         -4.716946,
         2.426358
       ],
-      "energy": 520.0,
+      "energy": 450.0,
       "color": [
         1.0,
         0.02,
@@ -393,7 +446,7 @@
         -4.966946,
         2.505584
       ],
-      "energy": 480.0,
+      "energy": 420.0,
       "color": [
         1.0,
         0.78,
@@ -507,11 +560,7 @@
           1.475343,
           2.749408
         ],
-        "faces": 60930,
-        "collections": [
-          "CHAR_F2",
-          "CHAR_Meshy_LeftCandidate_Refined"
-        ]
+        "faces": 60930
       },
       {
         "name": "Apricot Pullover Hoodie",
@@ -527,12 +576,7 @@
           1.091159,
           1.549869
         ],
-        "faces": 489064,
-        "collections": [
-          "Apricot Pullover Hoodie",
-          "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS",
-          "WARDROBE_IMPORTED"
-        ]
+        "faces": 489064
       },
       {
         "name": "Cargo pants",
@@ -548,11 +592,7 @@
           0.898337,
           1.052398
         ],
-        "faces": 16424,
-        "collections": [
-          "Cargo pants",
-          "WARDROBE_IMPORTED"
-        ]
+        "faces": 16424
       },
       {
         "name": "Plane.001",
@@ -568,11 +608,7 @@
           0.950595,
           0.372303
         ],
-        "faces": 10800,
-        "collections": [
-          "Shoes",
-          "WARDROBE_IMPORTED"
-        ]
+        "faces": 10800
       },
       {
         "name": "Plane.022",
@@ -588,11 +624,7 @@
           0.950595,
           0.372303
         ],
-        "faces": 10800,
-        "collections": [
-          "Shoes",
-          "WARDROBE_IMPORTED"
-        ]
+        "faces": 10800
       },
       {
         "name": "Asphalt ground",
@@ -608,11 +640,7 @@
           70.315693,
           3.844296
         ],
-        "faces": 16154,
-        "collections": [
-          "Asphalt ground",
-          "ENV_PARKING"
-        ]
+        "faces": 16154
       },
       {
         "name": "Audi e-tron GT quattro Black",
@@ -628,12 +656,9 @@
           0.0,
           0.0
         ],
-        "faces": 0,
-        "collections": [
-          "Audi e-tron GT quattro Black"
-        ]
+        "faces": 0
       }
     ]
   },
-  "note": "The visible FX_GlassStreak overlays were a fallback draft to force reflections in Eevee. They were removed because they showed as floating/scene-intersecting lines. Reflection-only cards remain."
+  "note": "This pass does not use visible streak overlays. It uses Cycles-compatible reflection-only emissive cards hidden from direct camera and visible to glossy rays."
 }

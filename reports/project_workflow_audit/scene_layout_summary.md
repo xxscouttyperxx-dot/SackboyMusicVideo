@@ -1,7 +1,7 @@
 # Scene Layout Summary
 
-Updated by Remove Visible Reflection Streaks v1.
+Updated by Cycles Reflection Cards v1.
 
-- Removed visible FX_GlassStreak/FX_WindowGlow overlay objects that were showing as floating lines in renders.
-- Preserved FX_ReflectCard reflection-only cards and red/yellow/green traffic lights.
-- Preserved car, asphalt, parking strips, approved lighting, sky/HDRI, character, and clothing.
+- Removed visible reflection-streak overlays.
+- Rebuilt red/yellow/green reflection cards as Cycles camera-invisible/glossy-visible sources near storefront glass.
+- Preserved car, asphalt, parking strips, approved lights, sky/HDRI, character, and clothing.
