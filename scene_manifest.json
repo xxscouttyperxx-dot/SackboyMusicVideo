@@ -13,30 +13,10 @@
         -0.030581,
         1.878441
       ],
-      "rotation": [
-        1.559103,
-        -0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.426485,
         0.02647,
         0.559453
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        },
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
       ],
       "vertices": 874,
       "faces": 872
@@ -53,34 +33,10 @@
         -0.031867,
         1.867754
       ],
-      "rotation": [
-        1.570796,
-        -0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.252639,
         0.013865,
         0.333473
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormal",
-          "type": "WEIGHTED_NORMAL"
-        },
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -90,7 +46,8 @@
       "type": "MESH",
       "collections": [
         "Apricot Pullover Hoodie",
-        "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS"
+        "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS",
+        "WARDROBE_IMPORTED"
       ],
       "visible": true,
       "location": [
@@ -98,26 +55,10 @@
         0.012429,
         0.993742
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        3.892716,
-        3.712367,
-        1.550946
-      ],
       "dimensions": [
         2.277528,
         1.091159,
         1.549869
-      ],
-      "modifiers": [
-        {
-          "name": "OPT_PREVIEW_DECIMATE",
-          "type": "DECIMATE"
-        }
       ],
       "vertices": 257116,
       "faces": 489064
@@ -126,7 +67,8 @@
       "name": "Asphalt ground",
       "type": "MESH",
       "collections": [
-        "Asphalt ground"
+        "Asphalt ground",
+        "ENV_PARKING"
       ],
       "visible": true,
       "location": [
@@ -134,22 +76,11 @@
         4.780939,
         -0.876001
       ],
-      "rotation": [
-        -0.009999,
-        0.031474,
-        0.72616
-      ],
-      "scale": [
-        4.915334,
-        4.915334,
-        4.915334
-      ],
       "dimensions": [
         70.766041,
         70.315693,
         3.844296
       ],
-      "modifiers": [],
       "vertices": 16441,
       "faces": 16154
     },
@@ -165,22 +96,11 @@
         5.16917,
         0.0
       ],
-      "rotation": [
-        0.0,
-        -0.0,
-        3.620709
-      ],
-      "scale": [
-        1.604431,
-        1.604431,
-        1.604431
-      ],
       "dimensions": [
         0.0,
         0.0,
         0.0
-      ],
-      "modifiers": []
+      ]
     },
     {
       "name": "Axle.001",
@@ -194,22 +114,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.91977,
         0.033327,
         0.033328
       ],
-      "modifiers": [],
       "vertices": 302,
       "faces": 320
     },
@@ -225,38 +134,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        -0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.165023,
         0.178251,
         0.009311
-      ],
-      "modifiers": [
-        {
-          "name": "Mirror",
-          "type": "MIRROR"
-        },
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormal",
-          "type": "WEIGHTED_NORMAL"
-        },
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
       ],
       "vertices": 293,
       "faces": 304
@@ -273,34 +154,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        -0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.013003,
         0.010439,
         0.20103
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormal",
-          "type": "WEIGHTED_NORMAL"
-        },
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
       ],
       "vertices": 586,
       "faces": 608
@@ -317,22 +174,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         4.962028,
         5.743917,
         0.227209
       ],
-      "modifiers": [],
       "vertices": 5440,
       "faces": 5688
     },
@@ -348,22 +194,11 @@
         0.0,
         1.45
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.0,
         0.0,
         0.0
-      ],
-      "modifiers": []
+      ]
     },
     {
       "name": "Can.001",
@@ -377,22 +212,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         1.133627,
         1.184647,
         1.642578
       ],
-      "modifiers": [],
       "vertices": 11142,
       "faces": 12327
     },
@@ -400,7 +224,8 @@
       "name": "Cargo pants",
       "type": "MESH",
       "collections": [
-        "Cargo pants"
+        "Cargo pants",
+        "WARDROBE_IMPORTED"
       ],
       "visible": true,
       "location": [
@@ -408,26 +233,10 @@
         -0.00521,
         0.329369
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        3.655543,
-        3.607422,
-        1.24191
-      ],
       "dimensions": [
         1.559261,
         0.898337,
         1.052398
-      ],
-      "modifiers": [
-        {
-          "name": "Collision",
-          "type": "COLLISION"
-        }
       ],
       "vertices": 16507,
       "faces": 16424
@@ -436,7 +245,8 @@
       "name": "Cast iron sewer hatch",
       "type": "EMPTY",
       "collections": [
-        "Cast iron sewer hatch"
+        "Cast iron sewer hatch",
+        "ENV_PARKING"
       ],
       "visible": true,
       "location": [
@@ -444,22 +254,11 @@
         -1.920543,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.934548,
-        1.934548,
-        1.0
-      ],
       "dimensions": [
         0.0,
         0.0,
         0.0
-      ],
-      "modifiers": []
+      ]
     },
     {
       "name": "Circle",
@@ -473,26 +272,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.032937,
         0.039333,
         0.019298
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 161,
       "faces": 156
@@ -509,30 +292,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.353115,
         0.224175,
         0.11716
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        },
-        {
-          "name": "WeightedNormal",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 1402,
       "faces": 1280
@@ -549,26 +312,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.059894,
         1.35899,
         0.136498
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 4324,
       "faces": 4282
@@ -585,26 +332,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         5.083015,
         6.088898,
         0.673795
-      ],
-      "modifiers": [
-        {
-          "name": "Smooth by Angle",
-          "type": "NODES"
-        }
       ],
       "vertices": 24792,
       "faces": 20464
@@ -621,30 +352,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.298755,
         0.205074,
         0.078579
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        },
-        {
-          "name": "WeightedNormal",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 1408,
       "faces": 1280
@@ -661,26 +372,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.453302,
         0.370829,
         0.13842
-      ],
-      "modifiers": [
-        {
-          "name": "WeightedNormal",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 690,
       "faces": 624
@@ -697,26 +392,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         5.372815,
         6.450598,
         0.995147
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 23528,
       "faces": 24192
@@ -733,26 +412,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         4.90317,
         5.624327,
         0.036681
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 5632,
       "faces": 5120
@@ -769,34 +432,10 @@
         0.0,
         1.005406
       ],
-      "rotation": [
-        0.0,
-        -0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.046797,
         0.046814,
         1.989299
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        },
-        {
-          "name": "WeightedNormal",
-          "type": "WEIGHTED_NORMAL"
-        },
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
       ],
       "vertices": 60,
       "faces": 51
@@ -813,22 +452,11 @@
         0.0,
         -0.12
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         36.0,
         36.0,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -846,22 +474,11 @@
         6.6,
         4.139754
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         3.2,
         0.16,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -879,22 +496,11 @@
         6.6,
         4.139754
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         3.2,
         0.16,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -912,22 +518,11 @@
         6.6,
         4.139754
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         3.200001,
         0.16,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -945,22 +540,11 @@
         6.6,
         4.139754
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         3.2,
         0.16,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -978,22 +562,11 @@
         6.6,
         4.139754
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         3.2,
         0.16,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1011,22 +584,11 @@
         6.6,
         4.139754
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         3.2,
         0.16,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1044,22 +606,11 @@
         6.6,
         4.139754
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         3.200001,
         0.16,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1077,22 +628,11 @@
         6.72,
         3.984754
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.84,
         0.16,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1110,22 +650,11 @@
         6.72,
         3.984754
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.84,
         0.16,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1143,22 +672,11 @@
         6.72,
         3.984754
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.84,
         0.16,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1176,22 +694,11 @@
         6.72,
         3.984754
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.84,
         0.16,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1209,22 +716,11 @@
         6.72,
         3.984754
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.84,
         0.16,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1242,22 +738,11 @@
         6.72,
         3.984754
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.84,
         0.16,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1275,22 +760,11 @@
         6.72,
         3.984754
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.84,
         0.16,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -1298,6 +772,7 @@
       "name": "F2",
       "type": "MESH",
       "collections": [
+        "CHAR_F2",
         "CHAR_Meshy_LeftCandidate_Refined"
       ],
       "visible": true,
@@ -1306,22 +781,11 @@
         -0.249535,
         0.01029
       ],
-      "rotation": [
-        1.570796,
-        -0.0,
-        0.0
-      ],
-      "scale": [
-        4.298023,
-        4.298023,
-        4.298023
-      ],
       "dimensions": [
         2.783371,
         1.475343,
         2.749408
       ],
-      "modifiers": [],
       "vertices": 30549,
       "faces": 60930
     },
@@ -1329,6 +793,7 @@
       "name": "F2.001",
       "type": "MESH",
       "collections": [
+        "CHAR_F2",
         "CHAR_Meshy_LeftCandidate_Refined"
       ],
       "visible": false,
@@ -1337,22 +802,11 @@
         -0.249535,
         0.01029
       ],
-      "rotation": [
-        1.570796,
-        -0.0,
-        0.0
-      ],
-      "scale": [
-        4.298023,
-        4.298023,
-        4.298023
-      ],
       "dimensions": [
         0.647593,
         0.639691,
         0.343261
       ],
-      "modifiers": [],
       "vertices": 30549,
       "faces": 60930
     },
@@ -1368,22 +822,212 @@
         0.317589,
         -0.061357
       ],
-      "rotation": [
+      "dimensions": [
         0.0,
         0.0,
-        1.35
+        0.0
+      ]
+    },
+    {
+      "name": "FX_ReflectCard_Green_01",
+      "type": "MESH",
+      "collections": [
+        "FX_REFLECTION_TRAFFIC",
+        "Scene Collection"
       ],
-      "scale": [
+      "visible": true,
+      "location": [
+        6.5,
+        -16.5,
+        2.25
+      ],
+      "dimensions": [
         1.0,
-        1.0,
+        0.0,
         1.0
+      ],
+      "vertices": 4,
+      "faces": 1
+    },
+    {
+      "name": "FX_ReflectCard_Green_02",
+      "type": "MESH",
+      "collections": [
+        "FX_REFLECTION_TRAFFIC",
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        5.0,
+        -16.1,
+        2.62
+      ],
+      "dimensions": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "vertices": 4,
+      "faces": 1
+    },
+    {
+      "name": "FX_ReflectCard_Red_01",
+      "type": "MESH",
+      "collections": [
+        "FX_REFLECTION_TRAFFIC",
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        -6.8,
+        -16.5,
+        2.2
+      ],
+      "dimensions": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "vertices": 4,
+      "faces": 1
+    },
+    {
+      "name": "FX_ReflectCard_Red_02",
+      "type": "MESH",
+      "collections": [
+        "FX_REFLECTION_TRAFFIC",
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        -5.2,
+        -16.200001,
+        2.55
+      ],
+      "dimensions": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "vertices": 4,
+      "faces": 1
+    },
+    {
+      "name": "FX_ReflectCard_Yellow_01",
+      "type": "MESH",
+      "collections": [
+        "FX_REFLECTION_TRAFFIC",
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        0.0,
+        -16.9,
+        2.35
+      ],
+      "dimensions": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "vertices": 4,
+      "faces": 1
+    },
+    {
+      "name": "FX_ReflectCard_Yellow_02",
+      "type": "MESH",
+      "collections": [
+        "FX_REFLECTION_TRAFFIC",
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        1.5,
+        -16.4,
+        2.7
+      ],
+      "dimensions": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "vertices": 4,
+      "faces": 1
+    },
+    {
+      "name": "FX_TrafficLight_Green",
+      "type": "LIGHT",
+      "collections": [
+        "FX_REFLECTION_TRAFFIC",
+        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
+      ],
+      "visible": true,
+      "location": [
+        7.5,
+        -18.5,
+        2.55
       ],
       "dimensions": [
         0.0,
         0.0,
         0.0
       ],
-      "modifiers": []
+      "energy": 420.0,
+      "color": [
+        0.02,
+        1.0,
+        0.16
+      ]
+    },
+    {
+      "name": "FX_TrafficLight_Red",
+      "type": "LIGHT",
+      "collections": [
+        "FX_REFLECTION_TRAFFIC",
+        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
+      ],
+      "visible": true,
+      "location": [
+        -7.5,
+        -18.5,
+        2.55
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "energy": 650.0,
+      "color": [
+        1.0,
+        0.025,
+        0.01
+      ]
+    },
+    {
+      "name": "FX_TrafficLight_Yellow",
+      "type": "LIGHT",
+      "collections": [
+        "FX_REFLECTION_TRAFFIC",
+        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
+      ],
+      "visible": true,
+      "location": [
+        0.0,
+        -19.0,
+        2.55
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "energy": 560.0,
+      "color": [
+        1.0,
+        0.82,
+        0.05
+      ]
     },
     {
       "name": "HANDREFINE_J2B_Working",
@@ -1397,22 +1041,11 @@
         -0.249535,
         0.01029
       ],
-      "rotation": [
-        1.570796,
-        -0.0,
-        0.0
-      ],
-      "scale": [
-        4.298023,
-        4.298023,
-        4.298023
-      ],
       "dimensions": [
         0.611403,
         0.639691,
         0.343261
       ],
-      "modifiers": [],
       "vertices": 30549,
       "faces": 60930
     },
@@ -1428,30 +1061,10 @@
         -0.133357,
         0.110569
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.077934,
         0.088521,
         0.098979
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -1468,30 +1081,10 @@
         -0.184994,
         0.14906
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.077934,
         0.088521,
         0.098979
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -1508,30 +1101,10 @@
         -0.236631,
         0.187552
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.077934,
         0.088521,
         0.098979
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -1548,30 +1121,10 @@
         -0.089097,
         0.019838
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         1.002014,
         0.855699,
         0.098979
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -1588,30 +1141,10 @@
         -0.133357,
         0.110569
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.077934,
         0.088521,
         0.098979
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -1628,30 +1161,10 @@
         -0.184994,
         0.14906
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.077934,
         0.088521,
         0.098979
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -1668,30 +1181,10 @@
         -0.236631,
         0.187552
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.077934,
         0.088521,
         0.098979
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -1708,30 +1201,10 @@
         -0.089097,
         0.019838
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         1.002014,
         0.855699,
         0.098979
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -1740,6 +1213,7 @@
       "name": "HERO_CarAmberHoodRead",
       "type": "LIGHT",
       "collections": [
+        "ENV_LIGHTING_APPROVED",
         "HERO_CAR_AMBER_READ"
       ],
       "visible": true,
@@ -1748,22 +1222,11 @@
         1.978295,
         5.190777
       ],
-      "rotation": [
-        -0.018607,
-        0.020346,
-        3.30697
-      ],
-      "scale": [
-        3.526878,
-        3.526988,
-        1.004339
-      ],
       "dimensions": [
         0.0,
         0.0,
         0.0
       ],
-      "modifiers": [],
       "energy": 100.0,
       "color": [
         1.0,
@@ -1775,6 +1238,7 @@
       "name": "HERO_CarAmberRoofRead",
       "type": "LIGHT",
       "collections": [
+        "ENV_LIGHTING_APPROVED",
         "HERO_CAR_AMBER_READ"
       ],
       "visible": true,
@@ -1783,22 +1247,11 @@
         1.995343,
         5.201615
       ],
-      "rotation": [
-        0.040737,
-        0.029514,
-        -0.631302
-      ],
-      "scale": [
-        2.981391,
-        2.981224,
-        1.018181
-      ],
       "dimensions": [
         0.0,
         0.0,
         0.0
       ],
-      "modifiers": [],
       "energy": 100.00001525878906,
       "color": [
         1.0,
@@ -1810,6 +1263,7 @@
       "name": "HERO_CarWarmSideGlint",
       "type": "LIGHT",
       "collections": [
+        "ENV_LIGHTING_APPROVED",
         "HERO_CAR_AMBER_READ"
       ],
       "visible": true,
@@ -1818,22 +1272,11 @@
         22.906092,
         7.155601
       ],
-      "rotation": [
-        -0.00862,
-        -0.0,
-        -1.570796
-      ],
-      "scale": [
-        2.471237,
-        2.47116,
-        1.00019
-      ],
       "dimensions": [
         0.0,
         0.0,
         0.0
       ],
-      "modifiers": [],
       "energy": 90.0,
       "color": [
         1.0,
@@ -1853,30 +1296,10 @@
         19.0226,
         -0.015452
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         26.907015,
         0.191422,
         0.182741
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -1885,6 +1308,7 @@
       "name": "HERO_CyanUnderglow_Area",
       "type": "LIGHT",
       "collections": [
+        "ENV_LIGHTING_APPROVED",
         "HERO_CAR_UNDERGLOW"
       ],
       "visible": true,
@@ -1893,22 +1317,11 @@
         5.177517,
         0.075276
       ],
-      "rotation": [
-        0.0,
-        -0.0,
-        -1.090229
-      ],
-      "scale": [
-        2.448478,
-        1.935102,
-        1.0
-      ],
       "dimensions": [
         0.0,
         0.0,
         0.0
       ],
-      "modifiers": [],
       "energy": 160.0,
       "color": [
         0.0,
@@ -1928,30 +1341,10 @@
         23.812,
         1.682151
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.035,
         0.130001,
         3.244301
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -1968,30 +1361,10 @@
         23.812,
         1.682151
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.035,
         0.130001,
         3.244301
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -2008,30 +1381,10 @@
         23.815001,
         1.682151
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.035,
         0.125,
         3.244301
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -2048,30 +1401,10 @@
         23.815001,
         1.682151
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.035,
         0.125,
         3.244301
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -2088,30 +1421,10 @@
         23.815001,
         1.682151
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.035,
         0.125,
         3.244301
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -2128,30 +1441,10 @@
         23.815001,
         1.682151
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.035,
         0.125,
         3.244301
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -2168,30 +1461,10 @@
         23.812,
         3.304301
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.839038,
         0.130001,
         0.035
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -2208,30 +1481,10 @@
         23.812,
         3.304301
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.839038,
         0.130001,
         0.035
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -2248,30 +1501,10 @@
         23.870001,
         1.995827
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         4.175056,
         0.035999,
         3.871653
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -2288,30 +1521,10 @@
         23.870001,
         1.995827
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         4.175057,
         0.035999,
         3.871653
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -2328,30 +1541,10 @@
         23.870001,
         1.995827
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         4.175057,
         0.035999,
         3.871653
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -2368,30 +1561,10 @@
         23.870001,
         1.995827
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         4.175056,
         0.035999,
         3.871653
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -2400,6 +1573,7 @@
       "name": "HERO_HParking_CenterSpine",
       "type": "MESH",
       "collections": [
+        "ENV_PARKING",
         "HERO_H_PARKING_LAYOUT",
         "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
@@ -2410,22 +1584,11 @@
         2.65,
         0.187254
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         18.509418,
         0.075,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -2433,6 +1596,7 @@
       "name": "HERO_HParking_Row0_Divider_0",
       "type": "MESH",
       "collections": [
+        "ENV_PARKING",
         "HERO_H_PARKING_LAYOUT",
         "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
@@ -2443,22 +1607,11 @@
         1.15,
         0.187254
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.075001,
         3.467057,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -2466,6 +1619,7 @@
       "name": "HERO_HParking_Row0_Divider_1",
       "type": "MESH",
       "collections": [
+        "ENV_PARKING",
         "HERO_H_PARKING_LAYOUT",
         "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
@@ -2476,22 +1630,11 @@
         1.15,
         0.187254
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.075,
         3.467057,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -2499,6 +1642,7 @@
       "name": "HERO_HParking_Row0_Divider_2",
       "type": "MESH",
       "collections": [
+        "ENV_PARKING",
         "HERO_H_PARKING_LAYOUT",
         "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
@@ -2509,22 +1653,11 @@
         1.15,
         0.187254
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.075,
         3.467057,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -2532,6 +1665,7 @@
       "name": "HERO_HParking_Row0_Divider_3",
       "type": "MESH",
       "collections": [
+        "ENV_PARKING",
         "HERO_H_PARKING_LAYOUT",
         "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
@@ -2542,22 +1676,11 @@
         1.15,
         0.187254
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.075,
         3.467057,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -2565,6 +1688,7 @@
       "name": "HERO_HParking_Row0_Divider_4",
       "type": "MESH",
       "collections": [
+        "ENV_PARKING",
         "HERO_H_PARKING_LAYOUT",
         "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
@@ -2575,22 +1699,11 @@
         1.15,
         0.187254
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.075,
         3.467057,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -2598,6 +1711,7 @@
       "name": "HERO_HParking_Row0_Divider_5",
       "type": "MESH",
       "collections": [
+        "ENV_PARKING",
         "HERO_H_PARKING_LAYOUT",
         "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
@@ -2608,22 +1722,11 @@
         1.15,
         0.187254
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.075,
         3.467057,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -2631,6 +1734,7 @@
       "name": "HERO_HParking_Row0_Divider_6",
       "type": "MESH",
       "collections": [
+        "ENV_PARKING",
         "HERO_H_PARKING_LAYOUT",
         "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
@@ -2641,22 +1745,11 @@
         1.15,
         0.187254
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.075,
         3.467057,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -2664,6 +1757,7 @@
       "name": "HERO_HParking_Row0_Divider_7",
       "type": "MESH",
       "collections": [
+        "ENV_PARKING",
         "HERO_H_PARKING_LAYOUT",
         "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
@@ -2674,22 +1768,11 @@
         1.15,
         0.187254
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.075001,
         3.467057,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -2697,6 +1780,7 @@
       "name": "HERO_HParking_Row1_Divider_0",
       "type": "MESH",
       "collections": [
+        "ENV_PARKING",
         "HERO_H_PARKING_LAYOUT",
         "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
@@ -2707,22 +1791,11 @@
         4.15,
         0.187254
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.075001,
         3.467057,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -2730,6 +1803,7 @@
       "name": "HERO_HParking_Row1_Divider_1",
       "type": "MESH",
       "collections": [
+        "ENV_PARKING",
         "HERO_H_PARKING_LAYOUT",
         "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
@@ -2740,22 +1814,11 @@
         4.15,
         0.187254
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.075,
         3.467057,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -2763,6 +1826,7 @@
       "name": "HERO_HParking_Row1_Divider_2",
       "type": "MESH",
       "collections": [
+        "ENV_PARKING",
         "HERO_H_PARKING_LAYOUT",
         "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
@@ -2773,22 +1837,11 @@
         4.15,
         0.187254
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.075,
         3.467057,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -2796,6 +1849,7 @@
       "name": "HERO_HParking_Row1_Divider_3",
       "type": "MESH",
       "collections": [
+        "ENV_PARKING",
         "HERO_H_PARKING_LAYOUT",
         "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
@@ -2806,22 +1860,11 @@
         4.15,
         0.187254
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.075,
         3.467057,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -2829,6 +1872,7 @@
       "name": "HERO_HParking_Row1_Divider_4",
       "type": "MESH",
       "collections": [
+        "ENV_PARKING",
         "HERO_H_PARKING_LAYOUT",
         "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
@@ -2839,22 +1883,11 @@
         4.15,
         0.187254
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.075,
         3.467057,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -2862,6 +1895,7 @@
       "name": "HERO_HParking_Row1_Divider_5",
       "type": "MESH",
       "collections": [
+        "ENV_PARKING",
         "HERO_H_PARKING_LAYOUT",
         "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
@@ -2872,22 +1906,11 @@
         4.15,
         0.187254
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.075,
         3.467057,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -2895,6 +1918,7 @@
       "name": "HERO_HParking_Row1_Divider_6",
       "type": "MESH",
       "collections": [
+        "ENV_PARKING",
         "HERO_H_PARKING_LAYOUT",
         "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
@@ -2905,22 +1929,11 @@
         4.15,
         0.187254
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.075,
         3.467057,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -2928,6 +1941,7 @@
       "name": "HERO_HParking_Row1_Divider_7",
       "type": "MESH",
       "collections": [
+        "ENV_PARKING",
         "HERO_H_PARKING_LAYOUT",
         "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
@@ -2938,22 +1952,11 @@
         4.15,
         0.187254
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.075001,
         3.467057,
         0.0
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -2969,22 +1972,11 @@
         2.329782,
         5.278863
       ],
-      "rotation": [
-        1.570796,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.05121,
         0.64,
         0.052
       ],
-      "modifiers": [],
       "vertices": 36,
       "faces": 20
     },
@@ -3000,22 +1992,11 @@
         2.333654,
         5.278863
       ],
-      "rotation": [
-        1.570796,
-        -0.0,
-        3.101899
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.076567,
         0.641528,
         0.052
       ],
-      "modifiers": [],
       "vertices": 36,
       "faces": 20
     },
@@ -3031,30 +2012,10 @@
         1.989782,
         5.278863
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.84,
         0.34,
         0.12
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -3071,30 +2032,10 @@
         1.993921,
         5.278863
       ],
-      "rotation": [
-        0.0,
-        -0.0,
-        3.101899
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.852831,
         0.373066,
         0.12
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -3111,30 +2052,10 @@
         1.989782,
         5.238863
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.72,
         0.26,
         0.028
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -3151,30 +2072,10 @@
         1.993921,
         5.238863
       ],
-      "rotation": [
-        0.0,
-        -0.0,
-        3.101899
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.729751,
         0.288367,
         0.028
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -3191,22 +2092,11 @@
         2.649782,
         2.639431
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.09,
         0.09,
         5.278863
       ],
-      "modifiers": [],
       "vertices": 56,
       "faces": 30
     },
@@ -3222,264 +2112,13 @@
         2.653402,
         2.639432
       ],
-      "rotation": [
-        0.0,
-        -0.0,
-        3.101899
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.0935,
         0.093501,
         5.278863
       ],
-      "modifiers": [],
       "vertices": 56,
       "faces": 30
-    },
-    {
-      "name": "HERO_MaterialSwatch_Denim",
-      "type": "MESH",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": false,
-      "location": [
-        2.150314,
-        0.374177,
-        0.330521
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.11,
-        0.11,
-        0.11
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "vertices": 8,
-      "faces": 6
-    },
-    {
-      "name": "HERO_MaterialSwatch_Flame",
-      "type": "MESH",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": false,
-      "location": [
-        2.150314,
-        0.914177,
-        0.330521
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.11,
-        0.11,
-        0.11
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "vertices": 8,
-      "faces": 6
-    },
-    {
-      "name": "HERO_MaterialSwatch_Hoodie",
-      "type": "MESH",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": false,
-      "location": [
-        2.150314,
-        0.194177,
-        0.330521
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.11,
-        0.11,
-        0.11
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "vertices": 8,
-      "faces": 6
-    },
-    {
-      "name": "HERO_MaterialSwatch_ShoeBlack",
-      "type": "MESH",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": false,
-      "location": [
-        2.150314,
-        0.554177,
-        0.330521
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.11,
-        0.11,
-        0.11
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "vertices": 8,
-      "faces": 6
-    },
-    {
-      "name": "HERO_MaterialSwatch_ShoeWhite",
-      "type": "MESH",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": false,
-      "location": [
-        2.150314,
-        0.734177,
-        0.330521
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.11,
-        0.11,
-        0.11
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "vertices": 8,
-      "faces": 6
-    },
-    {
-      "name": "HERO_MaterialSwatch_Yarn",
-      "type": "MESH",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": false,
-      "location": [
-        2.150314,
-        0.014177,
-        0.330521
-      ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.11,
-        0.11,
-        0.11
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
-      ],
-      "vertices": 8,
-      "faces": 6
     },
     {
       "name": "HERO_Rooftop_HVAC_0",
@@ -3493,30 +2132,10 @@
         27.0,
         6.323638
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         1.113348,
         0.48,
         0.329929
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -3533,30 +2152,10 @@
         27.0,
         6.323638
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         1.113348,
         0.48,
         0.329929
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -3573,30 +2172,10 @@
         27.0,
         6.323638
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         1.113348,
         0.48,
         0.329929
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -3613,30 +2192,10 @@
         27.0,
         6.323638
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         1.113348,
         0.48,
         0.329929
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -3653,22 +2212,11 @@
         27.059999,
         6.543591
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.09,
         0.09,
         0.13
       ],
-      "modifiers": [],
       "vertices": 40,
       "faces": 22
     },
@@ -3684,22 +2232,11 @@
         27.059999,
         6.543591
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.09,
         0.09,
         0.13
       ],
-      "modifiers": [],
       "vertices": 40,
       "faces": 22
     },
@@ -3715,22 +2252,11 @@
         27.059999,
         6.543591
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.09,
         0.09,
         0.13
       ],
-      "modifiers": [],
       "vertices": 40,
       "faces": 22
     },
@@ -3746,22 +2272,11 @@
         27.059999,
         6.543591
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.09,
         0.09,
         0.13
       ],
-      "modifiers": [],
       "vertices": 40,
       "faces": 22
     },
@@ -3777,22 +2292,11 @@
         21.528799,
         0.046
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.035999,
         4.942402,
         0.008
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -3808,22 +2312,11 @@
         21.528799,
         0.046
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.036,
         4.942402,
         0.008
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -3839,22 +2332,11 @@
         21.528799,
         0.046
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.036,
         4.942402,
         0.008
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -3870,22 +2352,11 @@
         21.528799,
         0.046
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.036,
         4.942402,
         0.008
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -3901,22 +2372,11 @@
         21.528799,
         0.046
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.036,
         4.942402,
         0.008
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -3932,22 +2392,11 @@
         21.528799,
         0.046
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.036,
         4.942402,
         0.008
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -3963,22 +2412,11 @@
         21.528799,
         0.046
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.035999,
         4.942402,
         0.008
       ],
-      "modifiers": [],
       "vertices": 8,
       "faces": 6
     },
@@ -3994,30 +2432,10 @@
         21.528799,
         0.02
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         26.907015,
         4.942402,
         0.182911
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -4034,30 +2452,10 @@
         27.0,
         2.886878
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         25.607014,
         6.0,
         5.773757
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -4074,30 +2472,10 @@
         27.0,
         5.966215
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         26.407015,
         6.5,
         0.384917
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -4114,30 +2492,10 @@
         23.92,
         6.488602
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         26.507013,
         0.200001,
         0.659858
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -4154,30 +2512,10 @@
         23.834999,
         1.995827
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.035,
         0.099998,
         3.871653
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -4194,30 +2532,10 @@
         23.834999,
         1.995827
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.035,
         0.099998,
         3.871653
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -4234,30 +2552,10 @@
         23.834999,
         0.06
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         20.657778,
         0.099998,
         0.07
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -4274,30 +2572,10 @@
         23.834999,
         3.931653
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         20.657778,
         0.099998,
         0.07
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -4314,30 +2592,10 @@
         23.834999,
         1.995827
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.035,
         0.099998,
         3.871653
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -4354,30 +2612,10 @@
         23.834999,
         1.995827
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.035,
         0.099998,
         3.871653
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -4394,30 +2632,10 @@
         23.834999,
         1.995827
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.035,
         0.099998,
         3.871653
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -4434,30 +2652,10 @@
         23.834999,
         1.995827
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.035,
         0.099998,
         3.871653
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -4474,30 +2672,10 @@
         23.834999,
         1.995827
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         4.175056,
         0.099998,
         0.035
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -4514,30 +2692,10 @@
         23.834999,
         1.995827
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         4.175057,
         0.099998,
         0.035
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -4554,30 +2712,10 @@
         23.834999,
         1.995827
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         4.175057,
         0.099998,
         0.035
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -4594,30 +2732,10 @@
         23.834999,
         1.995827
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         4.175056,
         0.099998,
         0.035
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -4634,30 +2752,10 @@
         23.834999,
         1.995827
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.035,
         0.099998,
         3.871653
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -4674,30 +2772,10 @@
         23.834999,
         1.995827
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.035,
         0.099998,
         3.871653
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -4714,30 +2792,10 @@
         23.834999,
         1.995827
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.035,
         0.099998,
         3.871653
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -4754,30 +2812,10 @@
         23.834999,
         1.995827
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.035,
         0.099998,
         3.871653
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -4786,6 +2824,7 @@
       "name": "HERO_Underglow_FrontHiddenStrip",
       "type": "MESH",
       "collections": [
+        "ENV_PARKING",
         "HERO_CAR_UNDERGLOW",
         "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
@@ -4796,30 +2835,10 @@
         3.300874,
         0.192754
       ],
-      "rotation": [
-        0.0,
-        -0.0,
-        0.475001
-      ],
-      "scale": [
-        0.536594,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         1.868341,
         0.993543,
         0.0
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -4828,6 +2847,7 @@
       "name": "HERO_Underglow_RearHiddenStrip",
       "type": "MESH",
       "collections": [
+        "ENV_PARKING",
         "HERO_CAR_UNDERGLOW",
         "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
         "PARKING_PAINT_ORIGINALS_HIDDEN"
@@ -4838,30 +2858,10 @@
         7.081832,
         0.192754
       ],
-      "rotation": [
-        0.0,
-        -0.0,
-        0.449773
-      ],
-      "scale": [
-        0.510797,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         1.80072,
         0.903876,
         0.0
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "WeightedNormals",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 8,
       "faces": 6
@@ -4878,22 +2878,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.68882,
         0.196537,
         0.211064
       ],
-      "modifiers": [],
       "vertices": 4352,
       "faces": 4791
     },
@@ -4909,22 +2898,11 @@
         23.245672,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.524537,
-        1.524537,
-        1.524537
-      ],
       "dimensions": [
         0.0,
         0.0,
         0.0
-      ],
-      "modifiers": []
+      ]
     },
     {
       "name": "Lid Pins.001",
@@ -4938,22 +2916,11 @@
         0.417478,
         1.111198
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.747022,
         0.042809,
         0.04281
       ],
-      "modifiers": [],
       "vertices": 2780,
       "faces": 2970
     },
@@ -4970,26 +2937,10 @@
         0.417478,
         1.111198
       ],
-      "rotation": [
-        0.0,
-        -0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         1.053914,
         1.260361,
         0.138174
-      ],
-      "modifiers": [
-        {
-          "name": "OPT_PREVIEW_DECIMATE",
-          "type": "DECIMATE"
-        }
       ],
       "vertices": 21254,
       "faces": 23160
@@ -5006,22 +2957,11 @@
         -0.249535,
         0.01029
       ],
-      "rotation": [
-        1.570796,
-        -0.0,
-        0.0
-      ],
-      "scale": [
-        4.298023,
-        4.298023,
-        4.298023
-      ],
       "dimensions": [
         0.749037,
         0.639691,
         0.349858
       ],
-      "modifiers": [],
       "vertices": 33486,
       "faces": 66924
     },
@@ -5037,22 +2977,11 @@
         -0.249535,
         0.01029
       ],
-      "rotation": [
-        1.570796,
-        -0.0,
-        0.0
-      ],
-      "scale": [
-        4.298023,
-        4.298023,
-        4.298023
-      ],
       "dimensions": [
         0.751085,
         0.639829,
         0.349858
       ],
-      "modifiers": [],
       "vertices": 33504,
       "faces": 66959
     },
@@ -5068,22 +2997,11 @@
         -0.006094,
         0.04515
       ],
-      "rotation": [
-        1.5708,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.158167,
         0.014303,
         0.005243
-      ],
-      "modifiers": []
+      ]
     },
     {
       "name": "Mball.008",
@@ -5097,26 +3015,10 @@
         -0.030586,
         2.01407
       ],
-      "rotation": [
-        0.0,
-        -0.0,
-        0.0
-      ],
-      "scale": [
-        0.004038,
-        0.004038,
-        0.004038
-      ],
       "dimensions": [
         0.265476,
         0.020794,
         0.341428
-      ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
       ],
       "vertices": 1510,
       "faces": 1893
@@ -5133,26 +3035,10 @@
         -0.005908,
         0.025406
       ],
-      "rotation": [
-        0.0,
-        -0.0,
-        0.0
-      ],
-      "scale": [
-        0.005831,
-        0.005831,
-        0.005831
-      ],
       "dimensions": [
         0.059259,
         0.057907,
         0.027551
-      ],
-      "modifiers": [
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
       ],
       "vertices": 1930,
       "faces": 2419
@@ -5161,6 +3047,7 @@
       "name": "No Parking Sign Board",
       "type": "EMPTY",
       "collections": [
+        "ENV_PARKING",
         "No Parking Sign Board"
       ],
       "visible": true,
@@ -5169,22 +3056,11 @@
         19.20541,
         0.060147
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        0.558151,
-        0.558151,
-        0.558151
-      ],
       "dimensions": [
         0.0,
         0.0,
         0.0
-      ],
-      "modifiers": []
+      ]
     },
     {
       "name": "Plane",
@@ -5198,26 +3074,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         3.18126,
         3.141149,
         0.462971
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 405,
       "faces": 372
@@ -5226,7 +3086,8 @@
       "name": "Plane.001",
       "type": "MESH",
       "collections": [
-        "Shoes"
+        "Shoes",
+        "WARDROBE_IMPORTED"
       ],
       "visible": true,
       "location": [
@@ -5234,22 +3095,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        -0.0,
-        1.48353
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.626516,
         0.950595,
         0.372303
       ],
-      "modifiers": [],
       "vertices": 10292,
       "faces": 10800
     },
@@ -5265,26 +3115,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         3.407207,
         2.653353,
         0.857004
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 1114,
       "faces": 1018
@@ -5301,26 +3135,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.920681,
         2.014244,
         0.752486
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 2285,
       "faces": 2198
@@ -5337,26 +3155,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         3.597764,
         3.084245,
         1.199847
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 1370,
       "faces": 1292
@@ -5373,26 +3175,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         3.648615,
         3.091781,
         1.233271
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 1268,
       "faces": 1186
@@ -5409,26 +3195,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         5.047075,
         5.794346,
         1.285091
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 1438,
       "faces": 1310
@@ -5445,26 +3215,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         4.378591,
         4.467309,
         0.180267
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 668,
       "faces": 596
@@ -5481,26 +3235,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.902925,
         3.179534,
         0.280723
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 411,
       "faces": 352
@@ -5517,26 +3255,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         1.743563,
         1.143356,
         0.773281
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 481,
       "faces": 436
@@ -5553,26 +3275,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.193757,
         1.773015,
         0.334834
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 714,
       "faces": 626
@@ -5589,26 +3295,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         1.551346,
         0.907192,
         0.321124
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 128,
       "faces": 110
@@ -5625,26 +3315,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         1.808538,
         1.297402,
         0.17708
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 234,
       "faces": 206
@@ -5661,26 +3335,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         3.262776,
         2.431212,
         0.596203
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 675,
       "faces": 622
@@ -5697,26 +3355,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         3.133461,
         2.288276,
         0.529348
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 582,
       "faces": 522
@@ -5733,26 +3375,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.059358,
         1.307454,
         0.311959
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 443,
       "faces": 384
@@ -5769,26 +3395,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.289762,
         1.705429,
         0.234528
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 116,
       "faces": 92
@@ -5805,26 +3415,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.113891,
         1.620678,
         0.388741
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 624,
       "faces": 552
@@ -5841,26 +3435,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         1.508734,
         1.25697,
         0.444716
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 336,
       "faces": 258
@@ -5877,26 +3455,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         3.162104,
         2.292806,
         0.113002
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 320,
       "faces": 276
@@ -5913,26 +3475,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.459338,
         1.498135,
         0.517814
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 64,
       "faces": 42
@@ -5949,26 +3495,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.309491,
         1.439219,
         0.266746
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 240,
       "faces": 168
@@ -5977,7 +3507,8 @@
       "name": "Plane.022",
       "type": "MESH",
       "collections": [
-        "Shoes"
+        "Shoes",
+        "WARDROBE_IMPORTED"
       ],
       "visible": true,
       "location": [
@@ -5985,30 +3516,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        3.141593,
-        -0.0,
-        -1.48353
-      ],
-      "scale": [
-        -1.0,
-        -1.0,
-        -1.0
-      ],
       "dimensions": [
         0.626517,
         0.950595,
         0.372303
-      ],
-      "modifiers": [
-        {
-          "name": "WeightedNormal",
-          "type": "WEIGHTED_NORMAL"
-        },
-        {
-          "name": "WeightedNormal.001",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 10292,
       "faces": 10800
@@ -6025,38 +3536,10 @@
         0.0,
         0.005406
       ],
-      "rotation": [
-        0.0,
-        -0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.267585,
         0.267584,
         0.019996
-      ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        },
-        {
-          "name": "WeightedNormal",
-          "type": "WEIGHTED_NORMAL"
-        },
-        {
-          "name": "PARKING_TO_ASPHALT_PREVIEW",
-          "type": "SHRINKWRAP"
-        }
       ],
       "vertices": 132,
       "faces": 126
@@ -6073,26 +3556,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         4.619956,
         5.608452,
         0.70085
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 827,
       "faces": 726
@@ -6109,26 +3576,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         3.953485,
         4.298723,
         0.607281
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 778,
       "faces": 662
@@ -6145,26 +3596,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         1.401062,
         0.88293,
         0.200792
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 352,
       "faces": 308
@@ -6181,22 +3616,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         6.060659,
         7.745157,
         0.994757
       ],
-      "modifiers": [],
       "vertices": 818,
       "faces": 738
     },
@@ -6212,26 +3636,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         1.353342,
         0.872962,
         0.1228
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 136,
       "faces": 98
@@ -6248,22 +3656,11 @@
         0.0,
         -0.018496
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.971477,
         0.971477,
         0.008385
       ],
-      "modifiers": [],
       "vertices": 545,
       "faces": 512
     },
@@ -6279,26 +3676,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.833996,
         0.604236,
         0.126049
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 643,
       "faces": 560
@@ -6315,26 +3696,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.104465,
         0.094461,
         0.065702
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 48,
       "faces": 40
@@ -6351,26 +3716,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.775446,
         1.603065,
         0.428971
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 530,
       "faces": 462
@@ -6387,26 +3736,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         3.681785,
         3.193502,
         0.123089
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 1144,
       "faces": 1052
@@ -6423,26 +3756,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         3.229456,
         1.906515,
         0.327856
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 1874,
       "faces": 1752
@@ -6459,26 +3776,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.524132,
         1.608474,
         0.15532
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 266,
       "faces": 218
@@ -6495,26 +3796,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.295025,
         1.375324,
         0.40279
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 180,
       "faces": 144
@@ -6531,26 +3816,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.810511,
         1.928159,
         0.332472
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 979,
       "faces": 886
@@ -6567,26 +3836,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.90456,
         1.976458,
         0.279866
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 226,
       "faces": 190
@@ -6603,22 +3856,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         1.290713,
         0.670511,
         0.200792
       ],
-      "modifiers": [],
       "vertices": 32,
       "faces": 30
     },
@@ -6634,22 +3876,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         3.079275,
         1.662402,
         0.212717
       ],
-      "modifiers": [],
       "vertices": 162,
       "faces": 128
     },
@@ -6665,26 +3896,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         1.200482,
         0.713297,
         0.098014
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 68,
       "faces": 48
@@ -6701,26 +3916,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.11092,
         1.28221,
         0.188978
-      ],
-      "modifiers": [
-        {
-          "name": "Smooth by Angle",
-          "type": "NODES"
-        }
       ],
       "vertices": 76,
       "faces": 56
@@ -6737,22 +3936,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         1.448743,
         0.857288,
         0.022524
       ],
-      "modifiers": [],
       "vertices": 42,
       "faces": 20
     },
@@ -6768,26 +3956,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.620227,
         1.828115,
         0.102553
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 84,
       "faces": 60
@@ -6804,22 +3976,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.862259,
         2.03985,
         0.34751
       ],
-      "modifiers": [],
       "vertices": 1040,
       "faces": 910
     },
@@ -6835,22 +3996,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.76549,
         1.883227,
         0.330633
       ],
-      "modifiers": [],
       "vertices": 98,
       "faces": 50
     },
@@ -6866,22 +4016,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.765114,
         2.017748,
         0.224
       ],
-      "modifiers": [],
       "vertices": 3136,
       "faces": 2847
     },
@@ -6897,22 +4036,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.756282,
         1.942394,
         0.259093
       ],
-      "modifiers": [],
       "vertices": 440,
       "faces": 382
     },
@@ -6928,26 +4056,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.511614,
         1.676124,
         0.129082
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 656,
       "faces": 558
@@ -6964,22 +4076,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.327899,
         1.440327,
         0.107783
       ],
-      "modifiers": [],
       "vertices": 688,
       "faces": 602
     },
@@ -6995,26 +4096,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.309229,
         1.396087,
         0.107998
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 564,
       "faces": 462
@@ -7031,22 +4116,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.536843,
         1.459589,
         0.072075
       ],
-      "modifiers": [],
       "vertices": 392,
       "faces": 194
     },
@@ -7062,22 +4136,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.119414,
         1.202733,
         0.094893
       ],
-      "modifiers": [],
       "vertices": 72,
       "faces": 36
     },
@@ -7093,22 +4156,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         3.036253,
         2.232702,
         0.271541
       ],
-      "modifiers": [],
       "vertices": 772,
       "faces": 744
     },
@@ -7124,22 +4176,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.601479,
         1.453259,
         0.128432
       ],
-      "modifiers": [],
       "vertices": 282,
       "faces": 140
     },
@@ -7155,22 +4196,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.760767,
         1.73149,
         0.191906
       ],
-      "modifiers": [],
       "vertices": 128,
       "faces": 112
     },
@@ -7186,26 +4216,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.511296,
         1.414055,
         0.086678
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 528,
       "faces": 480
@@ -7222,22 +4236,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.884162,
         2.04316,
         0.141528
       ],
-      "modifiers": [],
       "vertices": 162,
       "faces": 128
     },
@@ -7253,22 +4256,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.417875,
         1.265083,
         0.063443
       ],
-      "modifiers": [],
       "vertices": 120,
       "faces": 88
     },
@@ -7284,26 +4276,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.116791,
         1.297871,
         0.09284
-      ],
-      "modifiers": [
-        {
-          "name": "Smooth by Angle",
-          "type": "NODES"
-        }
       ],
       "vertices": 368,
       "faces": 326
@@ -7320,22 +4296,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.222176,
         1.490107,
         0.10073
       ],
-      "modifiers": [],
       "vertices": 72,
       "faces": 54
     },
@@ -7351,22 +4316,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.703604,
         1.730586,
         0.129817
       ],
-      "modifiers": [],
       "vertices": 48,
       "faces": 36
     },
@@ -7382,22 +4336,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.574204,
         1.557535,
         0.120151
       ],
-      "modifiers": [],
       "vertices": 156,
       "faces": 140
     },
@@ -7413,22 +4356,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.360613,
         1.466117,
         0.093428
       ],
-      "modifiers": [],
       "vertices": 192,
       "faces": 144
     },
@@ -7444,22 +4376,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.819869,
         1.999782,
         0.123939
       ],
-      "modifiers": [],
       "vertices": 240,
       "faces": 192
     },
@@ -7475,22 +4396,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.42244,
         1.582986,
         0.102264
       ],
-      "modifiers": [],
       "vertices": 192,
       "faces": 144
     },
@@ -7506,22 +4416,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.525618,
         1.64777,
         0.084177
       ],
-      "modifiers": [],
       "vertices": 36,
       "faces": 16
     },
@@ -7537,22 +4436,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         1.862912,
         1.025428,
         0.068208
       ],
-      "modifiers": [],
       "vertices": 2016,
       "faces": 1920
     },
@@ -7568,22 +4456,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         1.812208,
         0.945842,
         0.049998
       ],
-      "modifiers": [],
       "vertices": 414,
       "faces": 352
     },
@@ -7599,22 +4476,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.933166,
         2.078957,
         0.069931
       ],
-      "modifiers": [],
       "vertices": 234,
       "faces": 194
     },
@@ -7630,26 +4496,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         5.463704,
         6.615914,
         1.177511
-      ],
-      "modifiers": [
-        {
-          "name": "WeightedNormal",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 62832,
       "faces": 67320
@@ -7666,26 +4516,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         3.993265,
         3.781497,
         1.200035
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 1409,
       "faces": 1319
@@ -7702,26 +4536,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         4.690357,
         5.328498,
         0.6239
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 14992,
       "faces": 14168
@@ -7738,22 +4556,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         1.1229,
         1.140148,
         1.609645
       ],
-      "modifiers": [],
       "vertices": 11332,
       "faces": 11940
     },
@@ -7769,22 +4576,11 @@
         -0.615,
         2.15
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.25,
         0.1911,
         0.3
       ],
-      "modifiers": [],
       "vertices": 1106,
       "faces": 1152
     },
@@ -7800,22 +4596,11 @@
         -0.615,
         2.15
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.25,
         0.1911,
         0.3
       ],
-      "modifiers": [],
       "vertices": 1106,
       "faces": 1152
     },
@@ -7831,22 +4616,11 @@
         -0.13,
         0.12
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.599626,
         0.740001,
         0.1848
       ],
-      "modifiers": [],
       "vertices": 1106,
       "faces": 1152
     },
@@ -7862,22 +4636,11 @@
         -0.13,
         0.12
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.599626,
         0.740001,
         0.1848
       ],
-      "modifiers": [],
       "vertices": 1106,
       "faces": 1152
     },
@@ -7893,26 +4656,10 @@
         0.0,
         1.03
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.29,
         0.26,
         0.64
-      ],
-      "modifiers": [
-        {
-          "name": "Subsurf",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 1106,
       "faces": 1152
@@ -7929,26 +4676,10 @@
         0.0,
         1.03
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.29,
         0.26,
         0.64
-      ],
-      "modifiers": [
-        {
-          "name": "Subsurf",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 1106,
       "faces": 1152
@@ -7965,22 +4696,11 @@
         -0.01,
         0.76
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.515,
         0.2772,
         0.27
       ],
-      "modifiers": [],
       "vertices": 1106,
       "faces": 1152
     },
@@ -7996,22 +4716,11 @@
         -0.05125,
         0.75325
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.165,
         0.1518,
         0.1404
       ],
-      "modifiers": [],
       "vertices": 482,
       "faces": 512
     },
@@ -8027,22 +4736,11 @@
         -0.01,
         0.76
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.515,
         0.2772,
         0.27
       ],
-      "modifiers": [],
       "vertices": 1106,
       "faces": 1152
     },
@@ -8058,22 +4756,11 @@
         -0.05125,
         0.75325
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.165,
         0.1518,
         0.1404
       ],
-      "modifiers": [],
       "vertices": 482,
       "faces": 512
     },
@@ -8089,26 +4776,10 @@
         0.0,
         2.08
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         2.0776,
         1.3104,
         1.52
-      ],
-      "modifiers": [
-        {
-          "name": "Subsurf",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 1986,
       "faces": 2048
@@ -8125,22 +4796,11 @@
         -0.635,
         1.985
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.68,
         0.08525,
         0.15225
       ],
-      "modifiers": [],
       "vertices": 1986,
       "faces": 2048
     },
@@ -8156,26 +4816,10 @@
         0.0,
         0.3
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.36,
         0.33,
         0.55
-      ],
-      "modifiers": [
-        {
-          "name": "Subsurf",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 1106,
       "faces": 1152
@@ -8192,26 +4836,10 @@
         0.0,
         0.3
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.36,
         0.33,
         0.55
-      ],
-      "modifiers": [
-        {
-          "name": "Subsurf",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 1106,
       "faces": 1152
@@ -8228,26 +4856,10 @@
         0.0,
         0.6
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.38,
         0.35,
         0.6
-      ],
-      "modifiers": [
-        {
-          "name": "Subsurf",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 1106,
       "faces": 1152
@@ -8264,26 +4876,10 @@
         0.0,
         0.6
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.38,
         0.35,
         0.6
-      ],
-      "modifiers": [
-        {
-          "name": "Subsurf",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 1106,
       "faces": 1152
@@ -8300,26 +4896,10 @@
         0.03,
         1.16
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.94,
         0.78,
         1.292
-      ],
-      "modifiers": [
-        {
-          "name": "Subsurf",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 1986,
       "faces": 2048
@@ -8336,26 +4916,10 @@
         0.0,
         1.37
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.32,
         0.28,
         0.72
-      ],
-      "modifiers": [
-        {
-          "name": "Subsurf",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 1106,
       "faces": 1152
@@ -8372,26 +4936,10 @@
         0.0,
         1.37
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.32,
         0.28,
         0.72
-      ],
-      "modifiers": [
-        {
-          "name": "Subsurf",
-          "type": "SUBSURF"
-        }
       ],
       "vertices": 1106,
       "faces": 1152
@@ -8408,22 +4956,11 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        0.637414,
-        0.425642,
-        0.494705
-      ],
       "dimensions": [
         0.0,
         0.0,
         0.0
-      ],
-      "modifiers": []
+      ]
     },
     {
       "name": "Stop road sign",
@@ -8437,173 +4974,13 @@
         3.741887,
         0.032826
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         1.500132,
         0.196774,
         4.530157
       ],
-      "modifiers": [
-        {
-          "name": "Bevel",
-          "type": "BEVEL"
-        },
-        {
-          "name": "Auto Smooth",
-          "type": "NODES"
-        }
-      ],
       "vertices": 253,
       "faces": 267
-    },
-    {
-      "name": "TRAFFIC_REFLECT_Amber_StreetTurn",
-      "type": "LIGHT",
-      "collections": [
-        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
-      ],
-      "visible": true,
-      "location": [
-        3.2,
-        -18.5,
-        2.5
-      ],
-      "rotation": [
-        1.591766,
-        0.0,
-        0.13463
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "modifiers": [],
-      "energy": 500.0,
-      "color": [
-        1.0,
-        0.38,
-        0.04
-      ]
-    },
-    {
-      "name": "TRAFFIC_REFLECT_Green_SignalBounce",
-      "type": "LIGHT",
-      "collections": [
-        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
-      ],
-      "visible": true,
-      "location": [
-        8.2,
-        -20.0,
-        2.6
-      ],
-      "rotation": [
-        1.58593,
-        0.0,
-        0.315469
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "modifiers": [],
-      "energy": 330.0,
-      "color": [
-        0.05,
-        1.0,
-        0.18
-      ]
-    },
-    {
-      "name": "TRAFFIC_REFLECT_Red_BrakeLight",
-      "type": "LIGHT",
-      "collections": [
-        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
-      ],
-      "visible": true,
-      "location": [
-        -8.0,
-        -18.0,
-        2.4
-      ],
-      "rotation": [
-        1.595312,
-        0.0,
-        -0.333059
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "modifiers": [],
-      "energy": 480.0,
-      "color": [
-        1.0,
-        0.03,
-        0.015
-      ]
-    },
-    {
-      "name": "TRAFFIC_REFLECT_White_Headlight",
-      "type": "LIGHT",
-      "collections": [
-        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
-      ],
-      "visible": true,
-      "location": [
-        -2.5,
-        -19.5,
-        2.2
-      ],
-      "rotation": [
-        1.603106,
-        0.0,
-        -0.101176
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "modifiers": [],
-      "energy": 620.0,
-      "color": [
-        1.0,
-        0.92,
-        0.76
-      ]
     },
     {
       "name": "Traffic Cone (Photoscanned)",
@@ -8617,26 +4994,10 @@
         18.626059,
         0.010688
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.611081,
-        1.611081,
-        1.611081
-      ],
       "dimensions": [
         0.456958,
         0.466835,
         0.800717
-      ],
-      "modifiers": [
-        {
-          "name": "WeightedNormal",
-          "type": "WEIGHTED_NORMAL"
-        }
       ],
       "vertices": 6658,
       "faces": 12802
@@ -8654,30 +5015,10 @@
         23.763023,
         0.064346
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.517162,
-        1.517162,
-        1.517162
-      ],
       "dimensions": [
         1.209123,
         0.534925,
         1.615272
-      ],
-      "modifiers": [
-        {
-          "name": "WeightedNormal",
-          "type": "WEIGHTED_NORMAL"
-        },
-        {
-          "name": "OPT_PREVIEW_DECIMATE",
-          "type": "DECIMATE"
-        }
       ],
       "vertices": 12028,
       "faces": 23700
@@ -8686,6 +5027,7 @@
       "name": "V2B_OverheadAmber_0",
       "type": "LIGHT",
       "collections": [
+        "ENV_LIGHTING_APPROVED",
         "V2B_LIGHTS_OVERHEAD"
       ],
       "visible": true,
@@ -8694,22 +5036,11 @@
         2.649782,
         5.278863
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.0,
         0.0,
         0.0
       ],
-      "modifiers": [],
       "energy": 520.0,
       "color": [
         1.0,
@@ -8721,6 +5052,7 @@
       "name": "V2B_OverheadAmber_1",
       "type": "LIGHT",
       "collections": [
+        "ENV_LIGHTING_APPROVED",
         "V2B_LIGHTS_OVERHEAD"
       ],
       "visible": true,
@@ -8729,22 +5061,11 @@
         2.653402,
         5.278863
       ],
-      "rotation": [
-        0.0,
-        -0.0,
-        3.101899
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         0.0,
         0.0,
         0.0
       ],
-      "modifiers": [],
       "energy": 300.0,
       "color": [
         1.0,
@@ -8764,30 +5085,10 @@
         0.0,
         0.0
       ],
-      "rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
       "dimensions": [
         1.092931,
         0.385597,
         0.385586
-      ],
-      "modifiers": [
-        {
-          "name": "Subdivision",
-          "type": "SUBSURF"
-        },
-        {
-          "name": "Mirror",
-          "type": "MIRROR"
-        }
       ],
       "vertices": 3143,
       "faces": 3346
@@ -8804,22 +5105,11 @@
         -0.249535,
         0.01029
       ],
-      "rotation": [
-        1.570796,
-        -0.0,
-        0.0
-      ],
-      "scale": [
-        4.298023,
-        4.298023,
-        4.298023
-      ],
       "dimensions": [
         0.749037,
         0.639691,
         0.349858
       ],
-      "modifiers": [],
       "vertices": 33484,
       "faces": 66916
     }
@@ -8858,6 +5148,13 @@
       "hide_viewport": true,
       "hide_render": true,
       "object_count": 1,
+      "child_count": 0
+    },
+    {
+      "name": "CHAR_F2",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 2,
       "child_count": 0
     },
     {
@@ -8903,6 +5200,20 @@
       "child_count": 0
     },
     {
+      "name": "ENV_LIGHTING_APPROVED",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 6,
+      "child_count": 0
+    },
+    {
+      "name": "ENV_PARKING",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 22,
+      "child_count": 0
+    },
+    {
       "name": "ENV_ParkingLot",
       "hide_viewport": false,
       "hide_render": false,
@@ -8928,6 +5239,13 @@
       "hide_viewport": false,
       "hide_render": false,
       "object_count": 0,
+      "child_count": 0
+    },
+    {
+      "name": "FX_REFLECTION_TRAFFIC",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 9,
       "child_count": 0
     },
     {
@@ -9120,10 +5438,17 @@
       "child_count": 0
     },
     {
-      "name": "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END",
+      "name": "WARDROBE_IMPORTED",
       "hide_viewport": false,
       "hide_render": false,
       "object_count": 4,
+      "child_count": 0
+    },
+    {
+      "name": "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END",
+      "hide_viewport": false,
+      "hide_render": false,
+      "object_count": 3,
       "child_count": 0
     }
   ]

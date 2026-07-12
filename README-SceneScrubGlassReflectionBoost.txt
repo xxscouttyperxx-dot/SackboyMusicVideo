@@ -1,20 +1,24 @@
-SCENE SCRUB / GLASS REFLECTION BOOST V1
+SCENE SCRUB / GLASS REFLECTION BOOST V1B
 
-This package:
-- removes targeted ENV_Frame* black/glossy parking-edge objects
-- preserves the white parking paint strips
-- removes hidden/generated duplicate backup objects and clutter collections
+This corrected package is named v1B so it will not collide with earlier downloads.
+
+It:
+- removes rejected ENV_Frame* parking-edge objects
+- preserves white parking paint strips
+- scrubs stale hidden/generated helper duplicates and clutter
 - locks HERO_CyanUnderglow_Area to [-1.522953, 5.177517, 0.075276]
-- boosts far-end red/white/amber/green reflection spotlights
-- tunes storefront/window glass materials for sharper reflections
-- does not add blue lighting
+- changes the reflection setup to red / yellow / green
+- removes the extra fourth/white reflection light
+- creates camera-invisible emissive reflection cards/strips for the storefront glass
+- tunes glass/window materials for stronger reflections
+- prepares the setup for later keyframing of red/yellow/green intensity
 - does not deform Sackboy or clothing yet
-- avoids staging blender/sackboy_scene.blend1 in the publish step to reduce LFS uploads
+- avoids staging blender/sackboy_scene.blend1 to reduce unnecessary LFS uploads
 
 Run:
 cd "C:\BlenderProjects\SackboyMusicVideo\Project"
 Remove-Item ".\patch" -Recurse -Force -ErrorAction SilentlyContinue
-Expand-Archive -Path "$env:USERPROFILE\Downloads\Sackboy_Blender_SceneScrub_GlassReflectionBoost_v1.zip" -DestinationPath "C:\BlenderProjects\SackboyMusicVideo\Project" -Force
+Expand-Archive -Path "$env:USERPROFILE\Downloads\Sackboy_Blender_SceneScrub_GlassReflectionBoost_v1B.zip" -DestinationPath "C:\BlenderProjects\SackboyMusicVideo\Project" -Force
 Set-ExecutionPolicy -Scope Process Bypass
 Unblock-File .\Apply-SceneScrubGlassReflectionBoost.ps1
 .\Apply-SceneScrubGlassReflectionBoost.ps1
