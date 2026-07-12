@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\BlenderProjects\SackboyMusicVideo\Project\blender\scripts\decimate_preview_paint_snap_v1.py", line 400, in <module>
+    main()
+    ~~~~^^
+  File "C:\BlenderProjects\SackboyMusicVideo\Project\blender\scripts\decimate_preview_paint_snap_v1.py", line 390, in main
+    paint = improve_paint_snap()
+  File "C:\BlenderProjects\SackboyMusicVideo\Project\blender\scripts\decimate_preview_paint_snap_v1.py", line 227, in improve_paint_snap
+    mod.target = target
+    ^^^^^^^^^^
+TypeError: bpy_struct: item.attr = val: ShrinkwrapModifier.target ID type does not support assignment to itself

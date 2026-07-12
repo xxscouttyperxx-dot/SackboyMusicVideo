@@ -1,0 +1,17 @@
+{
+  "hero_car": "Preserved user-placed Audi e-tron GT quattro Black collection/object",
+  "old_scripted_car": "Removed",
+  "underglow": "Rebuilt under hero Audi using hidden strips + cyan area light",
+  "hdri": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\NightSkyHDRI003_1K\\NightSkyHDRI003_1K_HDR.exr",
+  "overhead_lighting": "V2B overhead amber lights preserved unchanged",
+  "strip_mall": "Existing V2C strip mall/sidewalk/roof/frame objects moved farther back +8 Y",
+  "parking_lines": "V2C parking lines doubled in width and flattened vertically",
+  "audi_bounds": {
+    "xmin": -4.74577522277832,
+    "xmax": 1.6998701095581055,
+    "ymin": 0.9124184250831604,
+    "ymax": 9.442615509033203,
+    "zmin": -0.0002973662631120533,
+    "zmax": 2.2226386070251465
+  }
+}

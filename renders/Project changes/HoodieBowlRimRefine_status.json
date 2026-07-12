@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "hoodie_shape_key": "HOODIEFIT_BowlRimRefine_v1",
+  "touched_vertices": 99829,
+  "vertex_delta": 0,
+  "face_delta": 0,
+  "review_cameras": [
+    "CAM_REVIEW_Hoodie_MaterialPreview",
+    "CAM_REVIEW_Hoodie_SolidGray",
+    "CAM_REVIEW_Hoodie_WireEdges",
+    "CAM_REVIEW_Hoodie_ScenePreserved"
+  ]
+}

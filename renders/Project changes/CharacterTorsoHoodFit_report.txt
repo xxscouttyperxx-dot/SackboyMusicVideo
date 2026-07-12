@@ -1,0 +1,9 @@
+[pass] character torso hood fit v1
+[lock] underglow locked [-1.522953, 5.177517, 0.075276] -> [-1.522953, 5.177517, 0.075276]
+[render] Cycles review renders enabled; viewport preview samples lowered to 12
+[body] added active shape key BODYFIT_TorsoHoodFit_v1; included_previous_v1=True; touched_vertices=26072; max_delta_local=0.095090
+[render] 01_BodyFitStrongerFront.png
+[render] 02_BodyFitProfileThickness.png
+[render] 03_HoodiePantsClearance.png
+[render] 04_StorefrontReflectionCamera.png
+[save] C:\BlenderProjects\SackboyMusicVideo\Project\blender\sackboy_scene.blend

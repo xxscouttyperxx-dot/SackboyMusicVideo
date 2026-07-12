@@ -8,6 +8,7 @@
         "No Parking Sign Board"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         -0.030581,
@@ -28,6 +29,7 @@
         "No Parking Sign Board"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         -0.031867,
@@ -49,6 +51,7 @@
         "ENV_PARKING"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         4.780939,
@@ -69,6 +72,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -1.511359,
         5.16917,
@@ -87,6 +91,7 @@
         "Large Trash Can"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -107,6 +112,7 @@
         "No Parking Sign Board"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -127,6 +133,7 @@
         "No Parking Sign Board"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -147,6 +154,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -161,213 +169,244 @@
       "faces": 5688
     },
     {
-      "name": "CAM_REVIEW_F2_Front",
+      "name": "CAM_ANIM_Close",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": false,
+      "hidden": true,
+      "location": [
+        -0.61761,
+        -3.922625,
+        3.694221
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "camera": true
+    },
+    {
+      "name": "CAM_ANIM_Medium",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": false,
+      "hidden": true,
+      "location": [
+        2.18239,
+        -6.922625,
+        4.494222
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "camera": true
+    },
+    {
+      "name": "CAM_ANIM_Wide",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": false,
+      "hidden": true,
+      "location": [
+        6.18239,
+        -11.422626,
+        6.194221
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "camera": true
+    },
+    {
+      "name": "CAM_F2_Front",
       "type": "CAMERA",
       "collections": [
         "Scene Collection"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -0.215551,
         -5.985823,
-        2.112767
+        1.980284
       ],
       "dimensions": [
         0.0,
         0.0,
         0.0
       ],
-      "review_camera": true
+      "camera": true
     },
     {
-      "name": "CAM_REVIEW_F2_Profile",
+      "name": "CAM_F2_Profile",
       "type": "CAMERA",
       "collections": [
         "Scene Collection"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
-        5.384449,
-        -0.785823,
-        2.212767
+        5.284449,
+        -0.585823,
+        1.980284
       ],
       "dimensions": [
         0.0,
         0.0,
         0.0
       ],
-      "review_camera": true
+      "camera": true
     },
     {
-      "name": "CAM_REVIEW_F2_ThreeQuarter",
+      "name": "CAM_F2_ThreeQuarter",
       "type": "CAMERA",
       "collections": [
         "Scene Collection"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
-        3.884449,
-        -5.585823,
-        2.412767
+        3.584449,
+        -5.785823,
+        2.180285
       ],
       "dimensions": [
         0.0,
         0.0,
         0.0
       ],
-      "review_camera": true
+      "camera": true
     },
     {
-      "name": "CAM_REVIEW_Hoodie_IsolatedWire",
+      "name": "CAM_Hood_Front",
       "type": "CAMERA",
       "collections": [
         "Scene Collection"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
-        -2.36761,
-        -4.372395,
-        4.398234
+        -2.56761,
+        -3.472625,
+        3.525145
       ],
       "dimensions": [
         0.0,
         0.0,
         0.0
       ],
-      "review_camera": true
+      "camera": true
     },
     {
-      "name": "CAM_REVIEW_Hoodie_LeftSide",
+      "name": "CAM_Hood_LeftSide",
       "type": "CAMERA",
       "collections": [
         "Scene Collection"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
-        -5.46761,
-        -2.772395,
-        3.698234
+        -5.96761,
+        0.077375,
+        2.925144
       ],
       "dimensions": [
         0.0,
         0.0,
         0.0
       ],
-      "review_camera": true
+      "camera": true
     },
     {
-      "name": "CAM_REVIEW_Hoodie_Material",
+      "name": "CAM_Hood_RightSide",
       "type": "CAMERA",
       "collections": [
         "Scene Collection"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
-        -2.06761,
-        -3.672395,
-        3.798234
+        0.33239,
+        0.077375,
+        2.925144
       ],
       "dimensions": [
         0.0,
         0.0,
         0.0
       ],
-      "review_camera": true
+      "camera": true
     },
     {
-      "name": "CAM_REVIEW_Hoodie_RightSide",
+      "name": "CAM_Hood_Top",
       "type": "CAMERA",
       "collections": [
         "Scene Collection"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
-        -0.16761,
-        -2.772395,
-        3.698234
+        -2.76761,
+        -0.172625,
+        6.110307
       ],
       "dimensions": [
         0.0,
         0.0,
         0.0
       ],
-      "review_camera": true
+      "camera": true
     },
     {
-      "name": "CAM_REVIEW_Hoodie_ScenePreserved",
+      "name": "CAM_SceneWide",
       "type": "CAMERA",
       "collections": [
         "Scene Collection"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
-        2.18239,
-        -7.522395,
-        3.430336
+        5.68239,
+        -10.422626,
+        6.394221
       ],
       "dimensions": [
         0.0,
         0.0,
         0.0
       ],
-      "review_camera": true
+      "camera": true
     },
     {
-      "name": "CAM_REVIEW_StorefrontReflection_A",
+      "name": "CAM_StorefrontReflection",
       "type": "CAMERA",
       "collections": [
         "Scene Collection"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         4.98239,
-        -9.922395,
-        3.580336
+        -9.922626,
+        3.644222
       ],
       "dimensions": [
         0.0,
         0.0,
         0.0
       ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_StorefrontReflection_B",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        1.78239,
-        -8.322395,
-        3.380336
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
-    },
-    {
-      "name": "CAM_REVIEW_StorefrontReflection_C",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        -6.81761,
-        -7.922395,
-        3.280335
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "review_camera": true
+      "camera": true
     },
     {
       "name": "CAM_Target",
@@ -376,6 +415,7 @@
         "CAM_Rigs"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -394,6 +434,7 @@
         "Large Trash Can"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -415,6 +456,7 @@
         "WARDROBE_IMPORTED"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -2.80222,
         -0.00521,
@@ -436,6 +478,7 @@
         "ENV_PARKING"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         2.427868,
         -1.920543,
@@ -454,6 +497,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -474,6 +518,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -494,6 +539,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -514,6 +560,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -534,6 +581,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -554,6 +602,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -574,6 +623,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -594,6 +644,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -614,6 +665,7 @@
         "No Parking Sign Board"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -634,6 +686,7 @@
         "ENV_ParkingLot"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         0.0,
         0.0,
@@ -655,6 +708,7 @@
         "CHAR_Meshy_LeftCandidate_Refined"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         2.688858,
         -0.249535,
@@ -694,6 +748,7 @@
         "CHAR_Meshy_LeftCandidate_Refined"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         2.688858,
         -0.249535,
@@ -732,6 +787,7 @@
         "FINAL_HELPERS"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -0.675755,
         0.317589,
@@ -750,6 +806,7 @@
         "FX_REFLECTION_TRAFFIC"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         5.319022,
         -0.936946,
@@ -770,6 +827,7 @@
         "FX_REFLECTION_TRAFFIC"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         4.091556,
         -0.956946,
@@ -790,6 +848,7 @@
         "FX_REFLECTION_TRAFFIC"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -5.728178,
         -0.936946,
@@ -810,6 +869,7 @@
         "FX_REFLECTION_TRAFFIC"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -4.500711,
         -0.956946,
@@ -830,6 +890,7 @@
         "FX_REFLECTION_TRAFFIC"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         -0.936946,
@@ -850,6 +911,7 @@
         "FX_REFLECTION_TRAFFIC"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         1.227467,
         -0.956946,
@@ -871,6 +933,7 @@
         "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         5.728178,
         -4.716946,
@@ -880,12 +943,6 @@
         0.0,
         0.0,
         0.0
-      ],
-      "energy": 360.0,
-      "color": [
-        0.05,
-        1.0,
-        0.16
       ]
     },
     {
@@ -896,6 +953,7 @@
         "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -5.728178,
         -4.716946,
@@ -905,12 +963,6 @@
         0.0,
         0.0,
         0.0
-      ],
-      "energy": 450.0,
-      "color": [
-        1.0,
-        0.02,
-        0.01
       ]
     },
     {
@@ -921,6 +973,7 @@
         "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         -4.966946,
@@ -930,12 +983,6 @@
         0.0,
         0.0,
         0.0
-      ],
-      "energy": 420.0,
-      "color": [
-        1.0,
-        0.82,
-        0.05
       ]
     },
     {
@@ -945,6 +992,7 @@
         "CHAR_HandRefine_J2B"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         2.688858,
         -0.249535,
@@ -965,6 +1013,7 @@
         "Scene Collection"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         -0.967061,
         -0.133357,
@@ -985,6 +1034,7 @@
         "Scene Collection"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         -0.967061,
         -0.184994,
@@ -1005,6 +1055,7 @@
         "Scene Collection"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         -0.967061,
         -0.236631,
@@ -1025,6 +1076,7 @@
         "Scene Collection"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -0.577389,
         -0.089097,
@@ -1045,6 +1097,7 @@
         "Scene Collection"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         0.535959,
         -0.133357,
@@ -1065,6 +1118,7 @@
         "Scene Collection"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         0.535959,
         -0.184994,
@@ -1085,6 +1139,7 @@
         "Scene Collection"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         0.535959,
         -0.236631,
@@ -1105,6 +1160,7 @@
         "Scene Collection"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.146287,
         -0.089097,
@@ -1126,6 +1182,7 @@
         "HERO_CAR_AMBER_READ"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         5.265154,
         1.978295,
@@ -1135,12 +1192,6 @@
         0.0,
         0.0,
         0.0
-      ],
-      "energy": 100.0,
-      "color": [
-        1.0,
-        0.257203,
-        0.006592
       ]
     },
     {
@@ -1151,6 +1202,7 @@
         "HERO_CAR_AMBER_READ"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -5.186506,
         1.995343,
@@ -1160,12 +1212,6 @@
         0.0,
         0.0,
         0.0
-      ],
-      "energy": 100.00001525878906,
-      "color": [
-        1.0,
-        0.216022,
-        0.00379
       ]
     },
     {
@@ -1176,6 +1222,7 @@
         "HERO_CAR_AMBER_READ"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.007344,
         22.906092,
@@ -1185,12 +1232,6 @@
         0.0,
         0.0,
         0.0
-      ],
-      "energy": 90.0,
-      "color": [
-        1.0,
-        0.38,
-        0.08
       ]
     },
     {
@@ -1200,6 +1241,7 @@
         "HERO_SIDEWALK_CURB_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         19.0226,
@@ -1221,6 +1263,7 @@
         "HERO_CAR_UNDERGLOW"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -1.522953,
         5.177517,
@@ -1230,12 +1273,6 @@
         0.0,
         0.0,
         0.0
-      ],
-      "energy": 160.0,
-      "color": [
-        0.0,
-        0.55,
-        1.0
       ]
     },
     {
@@ -1245,6 +1282,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -2.713787,
         23.812,
@@ -1265,6 +1303,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         2.713787,
         23.812,
@@ -1285,6 +1324,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -4.133306,
         23.815001,
@@ -1305,6 +1345,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         1.294268,
         23.815001,
@@ -1325,6 +1366,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -1.294268,
         23.815001,
@@ -1345,6 +1387,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         4.133306,
         23.815001,
@@ -1365,6 +1408,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -2.713787,
         23.812,
@@ -1385,6 +1429,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         2.713787,
         23.812,
@@ -1405,6 +1450,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -8.14136,
         23.870001,
@@ -1425,6 +1471,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -2.713787,
         23.870001,
@@ -1445,6 +1492,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         2.713787,
         23.870001,
@@ -1465,6 +1513,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         8.14136,
         23.870001,
@@ -1488,6 +1537,7 @@
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         2.65,
@@ -1511,6 +1561,7 @@
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -9.254709,
         1.15,
@@ -1534,6 +1585,7 @@
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -6.610507,
         1.15,
@@ -1557,6 +1609,7 @@
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -3.966304,
         1.15,
@@ -1580,6 +1633,7 @@
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -1.322101,
         1.15,
@@ -1603,6 +1657,7 @@
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         1.322101,
         1.15,
@@ -1626,6 +1681,7 @@
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         3.966304,
         1.15,
@@ -1649,6 +1705,7 @@
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         6.610507,
         1.15,
@@ -1672,6 +1729,7 @@
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         9.254709,
         1.15,
@@ -1695,6 +1753,7 @@
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -9.254709,
         4.15,
@@ -1718,6 +1777,7 @@
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -6.610507,
         4.15,
@@ -1741,6 +1801,7 @@
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -3.966304,
         4.15,
@@ -1764,6 +1825,7 @@
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -1.322101,
         4.15,
@@ -1787,6 +1849,7 @@
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         1.322101,
         4.15,
@@ -1810,6 +1873,7 @@
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         3.966304,
         4.15,
@@ -1833,6 +1897,7 @@
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         6.610507,
         4.15,
@@ -1856,6 +1921,7 @@
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         9.254709,
         4.15,
@@ -1876,6 +1942,7 @@
         "HERO_VISIBLE_LAMPPOSTS"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -5.222266,
         2.329782,
@@ -1896,6 +1963,7 @@
         "HERO_VISIBLE_LAMPPOSTS"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         5.271664,
         2.333654,
@@ -1916,6 +1984,7 @@
         "HERO_VISIBLE_LAMPPOSTS"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -5.222266,
         1.989782,
@@ -1936,6 +2005,7 @@
         "HERO_VISIBLE_LAMPPOSTS"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         5.258172,
         1.993921,
@@ -1956,6 +2026,7 @@
         "HERO_VISIBLE_LAMPPOSTS"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -5.222266,
         1.989782,
@@ -1976,6 +2047,7 @@
         "HERO_VISIBLE_LAMPPOSTS"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         5.258172,
         1.993921,
@@ -1996,6 +2068,7 @@
         "HERO_VISIBLE_LAMPPOSTS"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -5.222266,
         2.649782,
@@ -2016,6 +2089,7 @@
         "HERO_VISIBLE_LAMPPOSTS"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         5.284363,
         2.653402,
@@ -2036,6 +2110,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -8.194244,
         27.0,
@@ -2056,6 +2131,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -2.560701,
         27.0,
@@ -2076,6 +2152,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         3.072842,
         27.0,
@@ -2096,6 +2173,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         8.706385,
         27.0,
@@ -2116,6 +2194,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -7.693238,
         27.059999,
@@ -2136,6 +2215,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -2.059695,
         27.059999,
@@ -2156,6 +2236,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         3.573848,
         27.059999,
@@ -2176,6 +2257,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         9.207392,
         27.059999,
@@ -2196,6 +2278,7 @@
         "HERO_SIDEWALK_CURB_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -9.602631,
         21.528799,
@@ -2216,6 +2299,7 @@
         "HERO_SIDEWALK_CURB_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -6.401753,
         21.528799,
@@ -2236,6 +2320,7 @@
         "HERO_SIDEWALK_CURB_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -3.200877,
         21.528799,
@@ -2256,6 +2341,7 @@
         "HERO_SIDEWALK_CURB_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         21.528799,
@@ -2276,6 +2362,7 @@
         "HERO_SIDEWALK_CURB_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         3.200877,
         21.528799,
@@ -2296,6 +2383,7 @@
         "HERO_SIDEWALK_CURB_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         6.401753,
         21.528799,
@@ -2316,6 +2404,7 @@
         "HERO_SIDEWALK_CURB_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         9.602631,
         21.528799,
@@ -2336,6 +2425,7 @@
         "HERO_SIDEWALK_CURB_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         21.528799,
@@ -2356,6 +2446,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         27.0,
@@ -2376,6 +2467,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         27.0,
@@ -2396,6 +2488,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         23.92,
@@ -2416,6 +2509,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -8.14136,
         23.834999,
@@ -2436,6 +2530,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         8.14136,
         23.834999,
@@ -2456,6 +2551,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         23.834999,
@@ -2476,6 +2572,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         23.834999,
@@ -2496,6 +2593,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -10.228889,
         23.834999,
@@ -2516,6 +2614,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -4.801315,
         23.834999,
@@ -2536,6 +2635,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.626258,
         23.834999,
@@ -2556,6 +2656,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         6.053832,
         23.834999,
@@ -2576,6 +2677,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -8.14136,
         23.834999,
@@ -2596,6 +2698,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -2.713787,
         23.834999,
@@ -2616,6 +2719,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         2.713787,
         23.834999,
@@ -2636,6 +2740,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         8.14136,
         23.834999,
@@ -2656,6 +2761,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -6.053832,
         23.834999,
@@ -2676,6 +2782,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -0.626258,
         23.834999,
@@ -2696,6 +2803,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         4.801315,
         23.834999,
@@ -2716,6 +2824,7 @@
         "HERO_STOREFRONT_REBUILD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         10.228889,
         23.834999,
@@ -2739,6 +2848,7 @@
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -0.419602,
         3.300874,
@@ -2762,6 +2872,7 @@
         "PARKING_PAINT_ORIGINALS_HIDDEN"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -2.454135,
         7.081832,
@@ -2782,6 +2893,7 @@
         "Large Trash Can"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -2802,6 +2914,7 @@
         "Large Trash Can"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         23.245672,
@@ -2820,6 +2933,7 @@
         "Large Trash Can"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -0.0,
         0.417478,
@@ -2841,6 +2955,7 @@
         "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -0.0,
         0.417478,
@@ -2861,6 +2976,7 @@
         "CHAR_Meshy_LeftCandidate_Refined"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         2.688858,
         -0.249535,
@@ -2881,6 +2997,7 @@
         "BASE_Meshy_LeftCandidate_Source"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         2.688858,
         -0.249535,
@@ -2901,6 +3018,7 @@
         "CHAR_Meshy_LeftCandidate_Refined"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -0.626627,
         -0.006094,
@@ -2919,6 +3037,7 @@
         "No Parking Sign Board"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.127337,
         -0.030586,
@@ -2939,6 +3058,7 @@
         "No Parking Sign Board"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -0.022724,
         -0.005908,
@@ -2960,6 +3080,7 @@
         "No Parking Sign Board"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -10.828649,
         19.20541,
@@ -2978,6 +3099,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -2999,6 +3121,7 @@
         "WARDROBE_IMPORTED"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -0.064073,
         0.0,
@@ -3019,6 +3142,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3039,6 +3163,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3059,6 +3184,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3079,6 +3205,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3099,6 +3226,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3119,6 +3247,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3139,6 +3268,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3159,6 +3289,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3179,6 +3310,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3199,6 +3331,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3219,6 +3352,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3239,6 +3373,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3259,6 +3394,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3279,6 +3415,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3299,6 +3436,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3319,6 +3457,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3339,6 +3478,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3359,6 +3499,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3379,6 +3520,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3399,6 +3541,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3420,6 +3563,7 @@
         "WARDROBE_IMPORTED"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.065381,
         0.0,
@@ -3440,6 +3584,7 @@
         "No Parking Sign Board"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -0.0,
         0.0,
@@ -3460,6 +3605,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3480,6 +3626,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3500,6 +3647,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3520,6 +3668,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3540,6 +3689,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3560,6 +3710,7 @@
         "Cast iron sewer hatch"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3580,6 +3731,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3600,6 +3752,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3620,6 +3773,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3640,6 +3794,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3660,6 +3815,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3680,6 +3836,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3700,6 +3857,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3720,6 +3878,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3740,6 +3899,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3760,6 +3920,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3780,6 +3941,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3800,6 +3962,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3820,6 +3983,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3840,6 +4004,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3860,6 +4025,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3880,6 +4046,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3900,6 +4067,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3920,6 +4088,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3940,6 +4109,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3960,6 +4130,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -3980,6 +4151,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4000,6 +4172,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4020,6 +4193,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4040,6 +4214,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4060,6 +4235,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4080,6 +4256,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4100,6 +4277,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4120,6 +4298,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4140,6 +4319,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4160,6 +4340,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4180,6 +4361,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4200,6 +4382,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4220,6 +4403,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4240,6 +4424,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4260,6 +4445,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4280,6 +4466,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4300,6 +4487,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4320,6 +4508,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4340,6 +4529,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4360,6 +4550,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4380,6 +4571,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4400,6 +4592,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4420,6 +4613,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4440,6 +4634,7 @@
         "Audi e-tron GT quattro Black"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4454,84 +4649,13 @@
       "faces": 14168
     },
     {
-      "name": "REVIEW_Character_Ready",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        -1.4,
-        0.8,
-        1.4
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ]
-    },
-    {
-      "name": "REVIEW_CircularReflection_Close",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        2.1,
-        1.9
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ]
-    },
-    {
-      "name": "REVIEW_CircularReflection_Oblique",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        -4.2,
-        1.8,
-        2.0
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ]
-    },
-    {
-      "name": "REVIEW_ReflectionSource_Layout",
-      "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        -0.8,
-        4.8
-      ],
-      "dimensions": [
-        0.0,
-        0.0,
-        0.0
-      ]
-    },
-    {
       "name": "Ribbing.001",
       "type": "MESH",
       "collections": [
         "Large Trash Can"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -4554,6 +4678,7 @@
         "WARDROBE_IMPORTED"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -2.816514,
         0.012429,
@@ -4561,8 +4686,8 @@
       ],
       "dimensions": [
         2.277528,
-        1.145366,
-        2.366212
+        1.144753,
+        2.394088
       ],
       "vertices": 257116,
       "faces": 489064,
@@ -4605,6 +4730,10 @@
         },
         {
           "name": "HOODIEFIT_CameraCleanupShapeFix_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_SideBackBowlFix_v1",
           "value": 1.0
         }
       ]
@@ -4616,6 +4745,7 @@
         "CHAR_SackDoll"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         -0.31,
         -0.615,
@@ -4636,6 +4766,7 @@
         "CHAR_SackDoll"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         0.31,
         -0.615,
@@ -4656,6 +4787,7 @@
         "CHAR_SackDoll"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         -0.18,
         -0.13,
@@ -4676,6 +4808,7 @@
         "CHAR_SackDoll"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         0.18,
         -0.13,
@@ -4696,6 +4829,7 @@
         "CHAR_SackDoll"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         -0.64,
         0.0,
@@ -4716,6 +4850,7 @@
         "CHAR_SackDoll"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         0.64,
         0.0,
@@ -4736,6 +4871,7 @@
         "CHAR_SackDoll"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         -0.76,
         -0.01,
@@ -4756,6 +4892,7 @@
         "CHAR_SackDoll"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         -0.885,
         -0.05125,
@@ -4776,6 +4913,7 @@
         "CHAR_SackDoll"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         0.76,
         -0.01,
@@ -4796,6 +4934,7 @@
         "CHAR_SackDoll"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         0.885,
         -0.05125,
@@ -4816,6 +4955,7 @@
         "CHAR_SackDoll"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         0.0,
         0.0,
@@ -4836,6 +4976,7 @@
         "CHAR_SackDoll"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         0.0,
         -0.635,
@@ -4856,6 +4997,7 @@
         "CHAR_SackDoll"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         -0.18,
         0.0,
@@ -4876,6 +5018,7 @@
         "CHAR_SackDoll"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         0.18,
         0.0,
@@ -4896,6 +5039,7 @@
         "CHAR_SackDoll"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         -0.18,
         0.0,
@@ -4916,6 +5060,7 @@
         "CHAR_SackDoll"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         0.18,
         0.0,
@@ -4936,6 +5081,7 @@
         "CHAR_SackDoll"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         0.0,
         0.03,
@@ -4956,6 +5102,7 @@
         "CHAR_SackDoll"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         -0.5,
         0.0,
@@ -4976,6 +5123,7 @@
         "CHAR_SackDoll"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         0.5,
         0.0,
@@ -4996,6 +5144,7 @@
         "Shoes"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -2.827274,
         0.0,
@@ -5014,6 +5163,7 @@
         "Stop road sign"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -9.464718,
         3.741887,
@@ -5034,6 +5184,7 @@
         "Traffic Cone (Photoscanned)"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.001217,
         18.626059,
@@ -5055,6 +5206,7 @@
         "Utility Box (Photoscanned)"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -12.197587,
         23.763023,
@@ -5076,6 +5228,7 @@
         "V2B_LIGHTS_OVERHEAD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         -5.222266,
         2.649782,
@@ -5085,12 +5238,6 @@
         0.0,
         0.0,
         0.0
-      ],
-      "energy": 520.0,
-      "color": [
-        1.0,
-        0.37,
-        0.055
       ]
     },
     {
@@ -5101,6 +5248,7 @@
         "V2B_LIGHTS_OVERHEAD"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         5.284363,
         2.653402,
@@ -5110,12 +5258,6 @@
         0.0,
         0.0,
         0.0
-      ],
-      "energy": 300.0,
-      "color": [
-        1.0,
-        0.37,
-        0.055
       ]
     },
     {
@@ -5125,6 +5267,7 @@
         "Large Trash Can"
       ],
       "visible": true,
+      "hidden": false,
       "location": [
         0.0,
         0.0,
@@ -5145,6 +5288,7 @@
         "CHAR_Meshy_LeftCandidate_Refined"
       ],
       "visible": false,
+      "hidden": true,
       "location": [
         2.688858,
         -0.249535,

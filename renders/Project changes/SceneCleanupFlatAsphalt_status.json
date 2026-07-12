@@ -1,0 +1,477 @@
+{
+  "asphalt_and_paint": {
+    "material_transferred_from_imported_asphalt": true,
+    "imported_asphalt_hidden": "Asphalt ground",
+    "flat_asphalt_target": "ENV_Asphalt",
+    "flat_plane_z": 0.18075430393218994,
+    "paint_objects_adjusted": 48,
+    "paint_objects": [
+      {
+        "name": "ENV_FrameL_-1",
+        "old_location_z": 2.25,
+        "new_location_z": 4.084754,
+        "new_min_z": -1.65
+      },
+      {
+        "name": "ENV_FrameL_-2",
+        "old_location_z": 2.25,
+        "new_location_z": 4.084754,
+        "new_min_z": -1.65
+      },
+      {
+        "name": "ENV_FrameL_-3",
+        "old_location_z": 2.25,
+        "new_location_z": 4.084754,
+        "new_min_z": -1.65
+      },
+      {
+        "name": "ENV_FrameL_0",
+        "old_location_z": 2.25,
+        "new_location_z": 4.084754,
+        "new_min_z": -1.65
+      },
+      {
+        "name": "ENV_FrameL_1",
+        "old_location_z": 2.25,
+        "new_location_z": 4.084754,
+        "new_min_z": -1.65
+      },
+      {
+        "name": "ENV_FrameL_2",
+        "old_location_z": 2.25,
+        "new_location_z": 4.084754,
+        "new_min_z": -1.65
+      },
+      {
+        "name": "ENV_FrameL_3",
+        "old_location_z": 2.25,
+        "new_location_z": 4.084754,
+        "new_min_z": -1.65
+      },
+      {
+        "name": "ENV_FrameR_-1",
+        "old_location_z": 2.25,
+        "new_location_z": 4.084754,
+        "new_min_z": -1.65
+      },
+      {
+        "name": "ENV_FrameR_-2",
+        "old_location_z": 2.25,
+        "new_location_z": 4.084754,
+        "new_min_z": -1.65
+      },
+      {
+        "name": "ENV_FrameR_-3",
+        "old_location_z": 2.25,
+        "new_location_z": 4.084754,
+        "new_min_z": -1.65
+      },
+      {
+        "name": "ENV_FrameR_0",
+        "old_location_z": 2.25,
+        "new_location_z": 4.084754,
+        "new_min_z": -1.65
+      },
+      {
+        "name": "ENV_FrameR_1",
+        "old_location_z": 2.25,
+        "new_location_z": 4.084754,
+        "new_min_z": -1.65
+      },
+      {
+        "name": "ENV_FrameR_2",
+        "old_location_z": 2.25,
+        "new_location_z": 4.084754,
+        "new_min_z": -1.65
+      },
+      {
+        "name": "ENV_FrameR_3",
+        "old_location_z": 2.25,
+        "new_location_z": 4.084754,
+        "new_min_z": -1.65
+      },
+      {
+        "name": "ENV_FrameTop_-1",
+        "old_location_z": 3.9,
+        "new_location_z": 4.139754,
+        "new_min_z": -0.055
+      },
+      {
+        "name": "ENV_FrameTop_-2",
+        "old_location_z": 3.9,
+        "new_location_z": 4.139754,
+        "new_min_z": -0.055
+      },
+      {
+        "name": "ENV_FrameTop_-3",
+        "old_location_z": 3.9,
+        "new_location_z": 4.139754,
+        "new_min_z": -0.055
+      },
+      {
+        "name": "ENV_FrameTop_0",
+        "old_location_z": 3.9,
+        "new_location_z": 4.139754,
+        "new_min_z": -0.055
+      },
+      {
+        "name": "ENV_FrameTop_1",
+        "old_location_z": 3.9,
+        "new_location_z": 4.139754,
+        "new_min_z": -0.055
+      },
+      {
+        "name": "ENV_FrameTop_2",
+        "old_location_z": 3.9,
+        "new_location_z": 4.139754,
+        "new_min_z": -0.055
+      },
+      {
+        "name": "ENV_FrameTop_3",
+        "old_location_z": 3.9,
+        "new_location_z": 4.139754,
+        "new_min_z": -0.055
+      },
+      {
+        "name": "ENV_Glass_-1",
+        "old_location_z": 2.25,
+        "new_location_z": 3.984754,
+        "new_min_z": -1.55
+      },
+      {
+        "name": "ENV_Glass_-2",
+        "old_location_z": 2.25,
+        "new_location_z": 3.984754,
+        "new_min_z": -1.55
+      },
+      {
+        "name": "ENV_Glass_-3",
+        "old_location_z": 2.25,
+        "new_location_z": 3.984754,
+        "new_min_z": -1.55
+      },
+      {
+        "name": "ENV_Glass_0",
+        "old_location_z": 2.25,
+        "new_location_z": 3.984754,
+        "new_min_z": -1.55
+      },
+      {
+        "name": "ENV_Glass_1",
+        "old_location_z": 2.25,
+        "new_location_z": 3.984754,
+        "new_min_z": -1.55
+      },
+      {
+        "name": "ENV_Glass_2",
+        "old_location_z": 2.25,
+        "new_location_z": 3.984754,
+        "new_min_z": -1.55
+      },
+      {
+        "name": "ENV_Glass_3",
+        "old_location_z": 2.25,
+        "new_location_z": 3.984754,
+        "new_min_z": -1.55
+      },
+      {
+        "name": "ENV_PlazaShell",
+        "old_location_z": 2.4,
+        "new_location_z": 5.084754,
+        "new_min_z": -2.5
+      },
+      {
+        "name": "HERO_HParking_CenterSpine",
+        "old_location_z": 0.1085,
+        "new_location_z": 0.187254,
+        "new_min_z": 0.106
+      },
+      {
+        "name": "HERO_HParking_Row0_Divider_0",
+        "old_location_z": 0.1085,
+        "new_location_z": 0.187254,
+        "new_min_z": 0.106
+      },
+      {
+        "name": "HERO_HParking_Row0_Divider_1",
+        "old_location_z": 0.1085,
+        "new_location_z": 0.187254,
+        "new_min_z": 0.106
+      },
+      {
+        "name": "HERO_HParking_Row0_Divider_2",
+        "old_location_z": 0.1085,
+        "new_location_z": 0.187254,
+        "new_min_z": 0.106
+      },
+      {
+        "name": "HERO_HParking_Row0_Divider_3",
+        "old_location_z": 0.1085,
+        "new_location_z": 0.187254,
+        "new_min_z": 0.106
+      },
+      {
+        "name": "HERO_HParking_Row0_Divider_4",
+        "old_location_z": 0.1085,
+        "new_location_z": 0.187254,
+        "new_min_z": 0.106
+      },
+      {
+        "name": "HERO_HParking_Row0_Divider_5",
+        "old_location_z": 0.1085,
+        "new_location_z": 0.187254,
+        "new_min_z": 0.106
+      },
+      {
+        "name": "HERO_HParking_Row0_Divider_6",
+        "old_location_z": 0.1085,
+        "new_location_z": 0.187254,
+        "new_min_z": 0.106
+      },
+      {
+        "name": "HERO_HParking_Row0_Divider_7",
+        "old_location_z": 0.1085,
+        "new_location_z": 0.187254,
+        "new_min_z": 0.106
+      },
+      {
+        "name": "HERO_HParking_Row1_Divider_0",
+        "old_location_z": 0.1085,
+        "new_location_z": 0.187254,
+        "new_min_z": 0.106
+      },
+      {
+        "name": "HERO_HParking_Row1_Divider_1",
+        "old_location_z": 0.1085,
+        "new_location_z": 0.187254,
+        "new_min_z": 0.106
+      },
+      {
+        "name": "HERO_HParking_Row1_Divider_2",
+        "old_location_z": 0.1085,
+        "new_location_z": 0.187254,
+        "new_min_z": 0.106
+      },
+      {
+        "name": "HERO_HParking_Row1_Divider_3",
+        "old_location_z": 0.1085,
+        "new_location_z": 0.187254,
+        "new_min_z": 0.106
+      },
+      {
+        "name": "HERO_HParking_Row1_Divider_4",
+        "old_location_z": 0.1085,
+        "new_location_z": 0.187254,
+        "new_min_z": 0.106
+      },
+      {
+        "name": "HERO_HParking_Row1_Divider_5",
+        "old_location_z": 0.1085,
+        "new_location_z": 0.187254,
+        "new_min_z": 0.106
+      },
+      {
+        "name": "HERO_HParking_Row1_Divider_6",
+        "old_location_z": 0.1085,
+        "new_location_z": 0.187254,
+        "new_min_z": 0.106
+      },
+      {
+        "name": "HERO_HParking_Row1_Divider_7",
+        "old_location_z": 0.1085,
+        "new_location_z": 0.187254,
+        "new_min_z": 0.106
+      },
+      {
+        "name": "HERO_Underglow_FrontHiddenStrip",
+        "old_location_z": 0.114,
+        "new_location_z": 0.192754,
+        "new_min_z": 0.106
+      },
+      {
+        "name": "HERO_Underglow_RearHiddenStrip",
+        "old_location_z": 0.114,
+        "new_location_z": 0.192754,
+        "new_min_z": 0.106
+      }
+    ]
+  },
+  "removed_temp_review_cameras": [
+    "HERO_CAM_MeshAuditOverview",
+    "HERO_CAM_ImportedAssetsAudit",
+    "HERO_CAM_ParkingPaintSnap",
+    "HERO_CAM_WardrobeCleanupFront",
+    "HERO_CAM_ShoeGraphicCleanup",
+    "HERO_CAM_ImportedClothingCandidates"
+  ],
+  "lights_scanned_preserved": [
+    {
+      "name": "HERO_CarAmberHoodRead",
+      "type": "SPOT",
+      "location": [
+        5.265154,
+        1.978295,
+        5.190777
+      ],
+      "rotation": [
+        -0.018607,
+        0.020346,
+        3.30697
+      ],
+      "energy": 100.0,
+      "color": [
+        1.0,
+        0.257203,
+        0.006592
+      ],
+      "size": null,
+      "spot_size": 0.949999988079071,
+      "spot_blend": 0.6499999761581421
+    },
+    {
+      "name": "HERO_CarAmberRoofRead",
+      "type": "SPOT",
+      "location": [
+        -5.186506,
+        1.995343,
+        5.201615
+      ],
+      "rotation": [
+        0.040737,
+        0.029514,
+        -0.631302
+      ],
+      "energy": 100.00001525878906,
+      "color": [
+        1.0,
+        0.216022,
+        0.00379
+      ],
+      "size": null,
+      "spot_size": 1.0499999523162842,
+      "spot_blend": 0.7200000286102295
+    },
+    {
+      "name": "HERO_CarWarmSideGlint",
+      "type": "SPOT",
+      "location": [
+        0.007344,
+        22.906092,
+        7.155601
+      ],
+      "rotation": [
+        -0.00862,
+        -0.0,
+        -1.570796
+      ],
+      "energy": 90.0,
+      "color": [
+        1.0,
+        0.38,
+        0.08
+      ],
+      "size": null,
+      "spot_size": 0.8500000238418579,
+      "spot_blend": 0.800000011920929
+    },
+    {
+      "name": "HERO_CyanUnderglow_Area",
+      "type": "AREA",
+      "location": [
+        -1.522953,
+        5.177517,
+        0.075276
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        -1.090229
+      ],
+      "energy": 160.0,
+      "color": [
+        0.0,
+        0.55,
+        1.0
+      ],
+      "size": 2.727658987045288,
+      "spot_size": null,
+      "spot_blend": null
+    },
+    {
+      "name": "V2B_OverheadAmber_0",
+      "type": "AREA",
+      "location": [
+        -5.222266,
+        2.649782,
+        5.278863
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "energy": 520.0,
+      "color": [
+        1.0,
+        0.37,
+        0.055
+      ],
+      "size": 2.200000047683716,
+      "spot_size": null,
+      "spot_blend": null
+    },
+    {
+      "name": "V2B_OverheadAmber_1",
+      "type": "AREA",
+      "location": [
+        5.284363,
+        2.653402,
+        5.278863
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        3.101899
+      ],
+      "energy": 300.0,
+      "color": [
+        1.0,
+        0.37,
+        0.055
+      ],
+      "size": 2.200000047683716,
+      "spot_size": null,
+      "spot_blend": null
+    }
+  ],
+  "decimate_targets_verified": [
+    {
+      "name": "Apricot Pullover Hoodie",
+      "vertices": 257116,
+      "faces": 489064,
+      "decimate_modifier_present": true,
+      "ratio": 0.25
+    },
+    {
+      "name": "Utility Box (Photoscanned)",
+      "vertices": 12028,
+      "faces": 23700,
+      "decimate_modifier_present": true,
+      "ratio": 0.699999988079071
+    },
+    {
+      "name": "Lid.001",
+      "vertices": 21254,
+      "faces": 23160,
+      "decimate_modifier_present": true,
+      "ratio": 0.699999988079071
+    }
+  ],
+  "locked": {
+    "lights": "scanned only, not modified",
+    "car": "not modified",
+    "storefront": "not modified",
+    "sky_world_hdri": "not modified",
+    "reflection_lights": "not added"
+  }
+}

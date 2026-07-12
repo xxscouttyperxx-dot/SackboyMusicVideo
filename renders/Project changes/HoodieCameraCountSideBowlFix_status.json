@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "camera_total": 12,
+  "visible_cameras": 9,
+  "hidden_cameras": 3,
+  "hoodie_shape_key": "HOODIEFIT_SideBackBowlFix_v1",
+  "touched_vertices": 66170,
+  "vertex_delta": 0,
+  "face_delta": 0
+}

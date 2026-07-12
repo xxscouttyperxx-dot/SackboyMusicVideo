@@ -1,0 +1,8 @@
+[cleanup] removed 68 old scripted environment items and hid 0 stray legacy objects
+[storefront] rebuilt larger storefronts, conjoined frames, double-door frame sections, moderately wide sidewalk and curb
+[parking] cleaner H-like spaces with quarter-intersection lamp posts rebuilt
+[sky] existing user-managed world sky/HDRI preserved unchanged
+[render] 01_StorefrontScale.png
+[render] 02_ParkingLampLayout.png
+[render] 03_SkyStoreHero.png
+[save] C:\BlenderProjects\SackboyMusicVideo\Project\blender\sackboy_scene.blend

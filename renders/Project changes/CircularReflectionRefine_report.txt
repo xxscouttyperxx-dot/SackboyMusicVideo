@@ -1,0 +1,12 @@
+[pass] circular reflection refine v1
+[render] scene render engine set to Cycles for reflection refinement
+[cleanup] removed old reflection cards/overlays: ['FX_ReflectCard_Green_01', 'FX_ReflectCard_Green_02', 'FX_ReflectCard_Red_01', 'FX_ReflectCard_Red_02', 'FX_ReflectCard_Yellow_01', 'FX_ReflectCard_Yellow_02']
+[lock] underglow locked [-1.522953, 5.177517, 0.075276] -> [-1.522953, 5.177517, 0.075276]
+[cards] created 6 circular reflection-only cards
+[lights] preserved/tuned red-yellow-green spotlights
+[glass] tuned 11 glass/window material slots for tighter reflections
+[render] 01_CircularReflectionClose.png
+[render] 02_CircularReflectionOblique.png
+[render] 03_ReflectionSourceLayout.png
+[render] 04_CharacterReadyUnchanged.png
+[save] C:\BlenderProjects\SackboyMusicVideo\Project\blender\sackboy_scene.blend

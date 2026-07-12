@@ -1,0 +1,7 @@
+[pass] remove hidden rejected glass/frame leftovers only
+[remove] removed 14 hidden rejected ENV_Glass/ENV_Frame object(s); removed empty collection=False
+[lock] underglow locked [-1.522953, 5.177517, 0.075276] -> [-1.522953, 5.177517, 0.075276]
+[render] 01_CleanupOverview.png
+[render] 02_ReflectionSetupIntentionalCards.png
+[render] 03_CharacterReadyUnchanged.png
+[save] C:\BlenderProjects\SackboyMusicVideo\Project\blender\sackboy_scene.blend

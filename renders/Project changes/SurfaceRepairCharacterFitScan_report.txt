@@ -1,0 +1,6 @@
+[lock] preserving existing lights; no reflection lights added
+[surface] ENV_Asphalt visible, flattened at z=0.300754; paint planes=48; hatch objects=1
+[render] 01_SurfacePaintLowAngle.png
+[render] 02_SurfacePaintTopCheck.png
+[render] 03_CharacterFitScan.png
+[save] C:\BlenderProjects\SackboyMusicVideo\Project\blender\sackboy_scene.blend

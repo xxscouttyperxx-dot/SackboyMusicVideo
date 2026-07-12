@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "disabled_bodyfit_keys": 3,
+  "review_cameras": [
+    "CAM_REVIEW_RestoredCharacter_Front",
+    "CAM_REVIEW_RestoredCharacter_Profile",
+    "CAM_REVIEW_RestoredFaceHands",
+    "CAM_REVIEW_StorefrontReflection"
+  ]
+}

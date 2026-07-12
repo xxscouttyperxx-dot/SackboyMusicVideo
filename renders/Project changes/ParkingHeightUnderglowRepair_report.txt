@@ -1,0 +1,10 @@
+[repair] lowering imported asphalt and restoring locked underglow
+[asphalt] lowered/flattened imported Asphalt ground from old z 3.498125 to z=0.300754; ENV_Asphalt hidden
+[paint] removed 48 prior parking decal objects
+[paint] rebuilt 37 flat decals at z=0.302754; bad plaza decals removed after rebuild=0
+[hatch] adjusted 1 hatch/manhole object(s)
+[underglow] restored HERO_CyanUnderglow_Area from [-1.522953, 5.177517, 0.075276] to [-1.522953, 5.177517, 0.075276]
+[render] 01_LoweredAsphaltPaintDecals.png
+[render] 02_UnderglowRestoredCheck.png
+[render] 03_CharacterHeightCheck.png
+[save] C:\BlenderProjects\SackboyMusicVideo\Project\blender\sackboy_scene.blend

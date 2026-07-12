@@ -1,0 +1,988 @@
+{
+  "asphalt_grid_repair": {
+    "name": "Asphalt ground",
+    "old_bounds": {
+      "min_x": -32.99189758300781,
+      "max_x": 37.774147033691406,
+      "min_y": -27.84234046936035,
+      "max_y": 42.47335433959961,
+      "min_z": -1.9832922220230103,
+      "max_z": 1.8610039949417114,
+      "dim_x": 70.76604461669922,
+      "dim_y": 70.31569480895996,
+      "dim_z": 3.8442962169647217
+    },
+    "new_bounds": {
+      "min_x": -32.99189758300781,
+      "max_x": 37.774147033691406,
+      "min_y": -27.84234046936035,
+      "max_y": 42.47335433959961,
+      "min_z": -1.9832922220230103,
+      "max_z": 1.8610039949417114,
+      "dim_x": 70.76604461669922,
+      "dim_y": 70.31569480895996,
+      "dim_z": 3.8442962169647217
+    },
+    "grid_z": 0.0,
+    "env_asphalt_hidden": true
+  },
+  "paint_restore": {
+    "generated_decals_removed": 0,
+    "original_paint_restored": 47,
+    "paint_z": 0.003,
+    "objects": [
+      {
+        "name": "ENV_FrameL_-1",
+        "min_z": 4.087754,
+        "max_z": 4.087754,
+        "dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_FrameL_-2",
+        "min_z": 4.087754,
+        "max_z": 4.087754,
+        "dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_FrameL_-3",
+        "min_z": 4.087754,
+        "max_z": 4.087754,
+        "dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_FrameL_0",
+        "min_z": 4.087754,
+        "max_z": 4.087754,
+        "dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_FrameL_1",
+        "min_z": 4.087754,
+        "max_z": 4.087754,
+        "dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_FrameL_2",
+        "min_z": 4.087754,
+        "max_z": 4.087754,
+        "dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_FrameL_3",
+        "min_z": 4.087754,
+        "max_z": 4.087754,
+        "dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_FrameR_-1",
+        "min_z": 4.087754,
+        "max_z": 4.087754,
+        "dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_FrameR_-2",
+        "min_z": 4.087754,
+        "max_z": 4.087754,
+        "dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_FrameR_-3",
+        "min_z": 4.087754,
+        "max_z": 4.087754,
+        "dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_FrameR_0",
+        "min_z": 4.087754,
+        "max_z": 4.087754,
+        "dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_FrameR_1",
+        "min_z": 4.087754,
+        "max_z": 4.087754,
+        "dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_FrameR_2",
+        "min_z": 4.087754,
+        "max_z": 4.087754,
+        "dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_FrameR_3",
+        "min_z": 4.087754,
+        "max_z": 4.087754,
+        "dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_FrameTop_-1",
+        "min_z": 4.142754,
+        "max_z": 4.142754,
+        "dims": [
+          3.2,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_FrameTop_-2",
+        "min_z": 4.142754,
+        "max_z": 4.142754,
+        "dims": [
+          3.2,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_FrameTop_-3",
+        "min_z": 4.142754,
+        "max_z": 4.142754,
+        "dims": [
+          3.2,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_FrameTop_0",
+        "min_z": 4.142754,
+        "max_z": 4.142754,
+        "dims": [
+          3.2,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_FrameTop_1",
+        "min_z": 4.142754,
+        "max_z": 4.142754,
+        "dims": [
+          3.2,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_FrameTop_2",
+        "min_z": 4.142754,
+        "max_z": 4.142754,
+        "dims": [
+          3.2,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_FrameTop_3",
+        "min_z": 4.142754,
+        "max_z": 4.142754,
+        "dims": [
+          3.2,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_Glass_-1",
+        "min_z": 3.987754,
+        "max_z": 3.987754,
+        "dims": [
+          2.84,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_Glass_-2",
+        "min_z": 3.987754,
+        "max_z": 3.987754,
+        "dims": [
+          2.84,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_Glass_-3",
+        "min_z": 3.987754,
+        "max_z": 3.987754,
+        "dims": [
+          2.84,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_Glass_0",
+        "min_z": 3.987754,
+        "max_z": 3.987754,
+        "dims": [
+          2.84,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_Glass_1",
+        "min_z": 3.987754,
+        "max_z": 3.987754,
+        "dims": [
+          2.84,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_Glass_2",
+        "min_z": 3.987754,
+        "max_z": 3.987754,
+        "dims": [
+          2.84,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "ENV_Glass_3",
+        "min_z": 3.987754,
+        "max_z": 3.987754,
+        "dims": [
+          2.84,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "name": "HERO_HParking_CenterSpine",
+        "min_z": 0.190254,
+        "max_z": 0.190254,
+        "dims": [
+          18.5094,
+          0.075,
+          0.0
+        ]
+      },
+      {
+        "name": "HERO_HParking_Row0_Divider_0",
+        "min_z": 0.190254,
+        "max_z": 0.190254,
+        "dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "name": "HERO_HParking_Row0_Divider_1",
+        "min_z": 0.190254,
+        "max_z": 0.190254,
+        "dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "name": "HERO_HParking_Row0_Divider_2",
+        "min_z": 0.190254,
+        "max_z": 0.190254,
+        "dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "name": "HERO_HParking_Row0_Divider_3",
+        "min_z": 0.190254,
+        "max_z": 0.190254,
+        "dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "name": "HERO_HParking_Row0_Divider_4",
+        "min_z": 0.190254,
+        "max_z": 0.190254,
+        "dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "name": "HERO_HParking_Row0_Divider_5",
+        "min_z": 0.190254,
+        "max_z": 0.190254,
+        "dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "name": "HERO_HParking_Row0_Divider_6",
+        "min_z": 0.190254,
+        "max_z": 0.190254,
+        "dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "name": "HERO_HParking_Row0_Divider_7",
+        "min_z": 0.190254,
+        "max_z": 0.190254,
+        "dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "name": "HERO_HParking_Row1_Divider_0",
+        "min_z": 0.190254,
+        "max_z": 0.190254,
+        "dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "name": "HERO_HParking_Row1_Divider_1",
+        "min_z": 0.190254,
+        "max_z": 0.190254,
+        "dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "name": "HERO_HParking_Row1_Divider_2",
+        "min_z": 0.190254,
+        "max_z": 0.190254,
+        "dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "name": "HERO_HParking_Row1_Divider_3",
+        "min_z": 0.190254,
+        "max_z": 0.190254,
+        "dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "name": "HERO_HParking_Row1_Divider_4",
+        "min_z": 0.190254,
+        "max_z": 0.190254,
+        "dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "name": "HERO_HParking_Row1_Divider_5",
+        "min_z": 0.190254,
+        "max_z": 0.190254,
+        "dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "name": "HERO_HParking_Row1_Divider_6",
+        "min_z": 0.190254,
+        "max_z": 0.190254,
+        "dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "name": "HERO_HParking_Row1_Divider_7",
+        "min_z": 0.190254,
+        "max_z": 0.190254,
+        "dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "name": "HERO_Underglow_FrontHiddenStrip",
+        "min_z": 0.195754,
+        "max_z": 0.195754,
+        "dims": [
+          1.8683,
+          0.9935,
+          0.0
+        ]
+      },
+      {
+        "name": "HERO_Underglow_RearHiddenStrip",
+        "min_z": 0.195754,
+        "max_z": 0.195754,
+        "dims": [
+          1.8007,
+          0.9039,
+          0.0
+        ]
+      }
+    ]
+  },
+  "hatch_repair": [
+    {
+      "name": "Plane.029",
+      "min_z": 0.004,
+      "max_z": 0.012385
+    }
+  ],
+  "underglow_lock": {
+    "name": "HERO_CyanUnderglow_Area",
+    "before": [
+      -1.522953,
+      5.177517,
+      0.075276
+    ],
+    "after": [
+      -1.522953,
+      5.177517,
+      0.075276
+    ],
+    "target": [
+      -1.522953,
+      5.177517,
+      0.075276
+    ]
+  },
+  "reflection_lights_added": [
+    {
+      "name": "TRAFFIC_REFLECT_Red_BrakeLight",
+      "location": [
+        -8.0,
+        -18.0,
+        2.4
+      ],
+      "target": [
+        0.0,
+        5.125,
+        3.0
+      ],
+      "energy": 70.0,
+      "color": [
+        1.0,
+        0.05,
+        0.02
+      ],
+      "spot_size": 0.55
+    },
+    {
+      "name": "TRAFFIC_REFLECT_White_Headlight",
+      "location": [
+        -2.5,
+        -19.5,
+        2.2
+      ],
+      "target": [
+        0.0,
+        5.125,
+        3.0
+      ],
+      "energy": 95.0,
+      "color": [
+        1.0,
+        0.92,
+        0.78
+      ],
+      "spot_size": 0.5
+    },
+    {
+      "name": "TRAFFIC_REFLECT_Amber_StreetTurn",
+      "location": [
+        3.2,
+        -18.5,
+        2.5
+      ],
+      "target": [
+        0.0,
+        5.125,
+        3.0
+      ],
+      "energy": 75.0,
+      "color": [
+        1.0,
+        0.42,
+        0.06
+      ],
+      "spot_size": 0.58
+    },
+    {
+      "name": "TRAFFIC_REFLECT_Green_SignalBounce",
+      "location": [
+        8.2,
+        -20.0,
+        2.6
+      ],
+      "target": [
+        0.0,
+        5.125,
+        3.0
+      ],
+      "energy": 45.0,
+      "color": [
+        0.08,
+        1.0,
+        0.2
+      ],
+      "spot_size": 0.6
+    }
+  ],
+  "lights_scan_after": [
+    {
+      "name": "HERO_CarAmberHoodRead",
+      "type": "SPOT",
+      "location": [
+        5.265154,
+        1.978295,
+        5.190777
+      ],
+      "rotation": [
+        -0.018607,
+        0.020346,
+        3.30697
+      ],
+      "energy": 100.0,
+      "color": [
+        1.0,
+        0.257203,
+        0.006592
+      ],
+      "size": null,
+      "spot_size": 0.949999988079071,
+      "spot_blend": 0.6499999761581421
+    },
+    {
+      "name": "HERO_CarAmberRoofRead",
+      "type": "SPOT",
+      "location": [
+        -5.186506,
+        1.995343,
+        5.201615
+      ],
+      "rotation": [
+        0.040737,
+        0.029514,
+        -0.631302
+      ],
+      "energy": 100.00001525878906,
+      "color": [
+        1.0,
+        0.216022,
+        0.00379
+      ],
+      "size": null,
+      "spot_size": 1.0499999523162842,
+      "spot_blend": 0.7200000286102295
+    },
+    {
+      "name": "HERO_CarWarmSideGlint",
+      "type": "SPOT",
+      "location": [
+        0.007344,
+        22.906092,
+        7.155601
+      ],
+      "rotation": [
+        -0.00862,
+        -0.0,
+        -1.570796
+      ],
+      "energy": 90.0,
+      "color": [
+        1.0,
+        0.38,
+        0.08
+      ],
+      "size": null,
+      "spot_size": 0.8500000238418579,
+      "spot_blend": 0.800000011920929
+    },
+    {
+      "name": "HERO_CyanUnderglow_Area",
+      "type": "AREA",
+      "location": [
+        -1.522953,
+        5.177517,
+        0.075276
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        -1.090229
+      ],
+      "energy": 160.0,
+      "color": [
+        0.0,
+        0.55,
+        1.0
+      ],
+      "size": 2.727658987045288,
+      "spot_size": null,
+      "spot_blend": null
+    },
+    {
+      "name": "TRAFFIC_REFLECT_Amber_StreetTurn",
+      "type": "SPOT",
+      "location": [
+        3.2,
+        -18.5,
+        2.5
+      ],
+      "rotation": [
+        1.591766,
+        0.0,
+        0.13463
+      ],
+      "energy": 75.0,
+      "color": [
+        1.0,
+        0.42,
+        0.06
+      ],
+      "size": null,
+      "spot_size": 0.5799999833106995,
+      "spot_blend": 0.8199999928474426
+    },
+    {
+      "name": "TRAFFIC_REFLECT_Green_SignalBounce",
+      "type": "SPOT",
+      "location": [
+        8.2,
+        -20.0,
+        2.6
+      ],
+      "rotation": [
+        1.58593,
+        0.0,
+        0.315469
+      ],
+      "energy": 45.0,
+      "color": [
+        0.08,
+        1.0,
+        0.2
+      ],
+      "size": null,
+      "spot_size": 0.6000000238418579,
+      "spot_blend": 0.8199999928474426
+    },
+    {
+      "name": "TRAFFIC_REFLECT_Red_BrakeLight",
+      "type": "SPOT",
+      "location": [
+        -8.0,
+        -18.0,
+        2.4
+      ],
+      "rotation": [
+        1.595312,
+        0.0,
+        -0.333059
+      ],
+      "energy": 70.0,
+      "color": [
+        1.0,
+        0.05,
+        0.02
+      ],
+      "size": null,
+      "spot_size": 0.550000011920929,
+      "spot_blend": 0.8199999928474426
+    },
+    {
+      "name": "TRAFFIC_REFLECT_White_Headlight",
+      "type": "SPOT",
+      "location": [
+        -2.5,
+        -19.5,
+        2.2
+      ],
+      "rotation": [
+        1.603106,
+        0.0,
+        -0.101176
+      ],
+      "energy": 95.0,
+      "color": [
+        1.0,
+        0.92,
+        0.78
+      ],
+      "size": null,
+      "spot_size": 0.5,
+      "spot_blend": 0.8199999928474426
+    },
+    {
+      "name": "V2B_OverheadAmber_0",
+      "type": "AREA",
+      "location": [
+        -5.222266,
+        2.649782,
+        5.278863
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "energy": 520.0,
+      "color": [
+        1.0,
+        0.37,
+        0.055
+      ],
+      "size": 2.200000047683716,
+      "spot_size": null,
+      "spot_blend": null
+    },
+    {
+      "name": "V2B_OverheadAmber_1",
+      "type": "AREA",
+      "location": [
+        5.284363,
+        2.653402,
+        5.278863
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        3.101899
+      ],
+      "energy": 300.0,
+      "color": [
+        1.0,
+        0.37,
+        0.055
+      ],
+      "size": 2.200000047683716,
+      "spot_size": null,
+      "spot_blend": null
+    }
+  ],
+  "character_fit_scan": {
+    "key_objects": [
+      {
+        "name": "F2",
+        "status": "present",
+        "visible": true,
+        "location": [
+          2.688858,
+          -0.249535,
+          0.01029
+        ],
+        "dimensions": [
+          2.783371,
+          1.475343,
+          2.749408
+        ],
+        "minmax_z": [
+          0.000592,
+          2.75
+        ],
+        "vertices": 30549,
+        "faces": 60930,
+        "modifiers": []
+      },
+      {
+        "name": "Apricot Pullover Hoodie",
+        "status": "present",
+        "visible": true,
+        "location": [
+          -2.816514,
+          0.012429,
+          0.993742
+        ],
+        "dimensions": [
+          2.277528,
+          1.091159,
+          1.549869
+        ],
+        "minmax_z": [
+          0.997261,
+          2.547129
+        ],
+        "vertices": 257116,
+        "faces": 489064,
+        "modifiers": [
+          {
+            "name": "OPT_PREVIEW_DECIMATE",
+            "type": "DECIMATE",
+            "ratio": 0.25
+          }
+        ]
+      },
+      {
+        "name": "Cargo pants",
+        "status": "present",
+        "visible": true,
+        "location": [
+          -2.80222,
+          -0.00521,
+          0.329369
+        ],
+        "dimensions": [
+          1.559261,
+          0.898337,
+          1.052398
+        ],
+        "minmax_z": [
+          0.331169,
+          1.383567
+        ],
+        "vertices": 16507,
+        "faces": 16424,
+        "modifiers": [
+          {
+            "name": "Collision",
+            "type": "COLLISION",
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "name": "Plane.001",
+        "status": "present",
+        "visible": true,
+        "location": [
+          -0.064073,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.626516,
+          0.950595,
+          0.372303
+        ],
+        "minmax_z": [
+          7.8e-05,
+          0.372381
+        ],
+        "vertices": 10292,
+        "faces": 10800,
+        "modifiers": []
+      },
+      {
+        "name": "Plane.022",
+        "status": "present",
+        "visible": true,
+        "location": [
+          0.065381,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.626517,
+          0.950595,
+          0.372303
+        ],
+        "minmax_z": [
+          7.8e-05,
+          0.372381
+        ],
+        "vertices": 10292,
+        "faces": 10800,
+        "modifiers": [
+          {
+            "name": "WeightedNormal",
+            "type": "WEIGHTED_NORMAL",
+            "ratio": null
+          },
+          {
+            "name": "WeightedNormal.001",
+            "type": "WEIGHTED_NORMAL",
+            "ratio": null
+          }
+        ]
+      }
+    ]
+  },
+  "next_character_deformation_plan": {
+    "step_1": "Refine Sackboy body/head/torso proportions before dressing.",
+    "step_2": "Use non-destructive body backups and controlled mesh deformation.",
+    "step_3": "Deform hoodie, pants, and shoes around finalized proportions.",
+    "step_4": "Rig after clothing/body fit is visually approved."
+  }
+}

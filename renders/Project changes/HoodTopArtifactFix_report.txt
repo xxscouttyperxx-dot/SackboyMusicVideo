@@ -1,0 +1,10 @@
+[pass] hood top artifact fix v1
+[lock] underglow locked [-1.522953, 5.177517, 0.075276] -> [-1.522953, 5.177517, 0.075276]
+[character] F2 baseline preserved; BODYFIT keys kept disabled
+[render] focused hood artifact review renders; one preservation camera kept
+[hoodie] added active shape key HOODIEFIT_TopArtifactFix_v1; source=HOODIEFIT_RimCrownContain_v1; touched_vertices=76395; max_delta_local=0.071737; clearance_before=None; clearance_after=None
+[render] 01_HoodArtifactClose.png
+[render] 02_HoodTopOverhead.png
+[render] 03_HoodRimProfileClose.png
+[render] 04_CharacterScenePreserved.png
+[save] C:\BlenderProjects\SackboyMusicVideo\Project\blender\sackboy_scene.blend

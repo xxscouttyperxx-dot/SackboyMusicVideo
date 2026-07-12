@@ -1,0 +1,10 @@
+[pass] hoodie bowl rim refine v1
+[lock] underglow locked [-1.522953, 5.177517, 0.075276] -> [-1.522953, 5.177517, 0.075276]
+[character] F2 baseline preserved; BODYFIT keys kept disabled
+[hoodie] active shape key HOODIEFIT_BowlRimRefine_v1; source=HOODIEFIT_BowlRidgePolish_v1; touched_vertices=99829; max_delta_local=0.191839; vertices=257116->257116; faces=489064->489064
+[render] smaller 960x540 Workbench/solid/wire evidence renders for clearer shape reading
+[render] 01_HoodieMaterialPreviewShape.png
+[render] 02_HoodieSolidGrayShape.png
+[render] 03_HoodieWireEdgeShape.png
+[render] 04_HoodieScenePreserved.png
+[save] C:\BlenderProjects\SackboyMusicVideo\Project\blender\sackboy_scene.blend

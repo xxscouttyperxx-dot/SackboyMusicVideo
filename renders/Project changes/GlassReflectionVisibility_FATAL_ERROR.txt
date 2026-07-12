@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\BlenderProjects\SackboyMusicVideo\Project\blender\scripts\glass_reflection_visibility_v1.py", line 474, in <module>
+    main()
+    ~~~~^^
+  File "C:\BlenderProjects\SackboyMusicVideo\Project\blender\scripts\glass_reflection_visibility_v1.py", line 456, in main
+    removed = remove_old_reflection_fx()
+  File "C:\BlenderProjects\SackboyMusicVideo\Project\blender\scripts\glass_reflection_visibility_v1.py", line 173, in remove_old_reflection_fx
+    if "White_Headlight" in o.name:
+                            ^^^^^^
+ReferenceError: StructRNA of type Object has been removed

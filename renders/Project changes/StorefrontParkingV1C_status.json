@@ -1,0 +1,23 @@
+{
+  "storefront": "rebuilt large floor-to-sidewalk glass with conjoined frames and double-door frame sections",
+  "signs": "removed",
+  "sidewalk": "wide sidewalk with curb face/lip and indent grooves",
+  "parking": "cleaner H-like layout with no boxed stall caps",
+  "lamp_posts": "quarter intersections",
+  "sky": "user-managed existing world sky preserved",
+  "store_info": {
+    "front_y": 24.0,
+    "width": 25.607014036178587,
+    "body_height": 5.773756319558015,
+    "sidewalk_depth": 4.94240041077137
+  },
+  "parking_info": {
+    "total_width": 18.509417754411697,
+    "row_y": [
+      1.15,
+      4.15
+    ],
+    "stall_width": 2.6442025363445283,
+    "stall_depth": 3.467057004570961
+  }
+}

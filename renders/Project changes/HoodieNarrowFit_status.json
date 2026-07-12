@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "hoodie_shape_key": "HOODIEFIT_NarrowSackboy_v1",
+  "touched_vertices": 244022,
+  "review_cameras": [
+    "CAM_REVIEW_HoodieFit_Front",
+    "CAM_REVIEW_HoodieFit_Profile",
+    "CAM_REVIEW_HoodieFit_ThreeQuarter",
+    "CAM_REVIEW_StorefrontReflection"
+  ]
+}

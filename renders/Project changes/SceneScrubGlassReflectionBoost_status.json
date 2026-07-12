@@ -1,0 +1,777 @@
+{
+  "edge_frame_objects_removed": [
+    "ENV_FrameL_-1",
+    "ENV_FrameL_-2",
+    "ENV_FrameL_-3",
+    "ENV_FrameL_0",
+    "ENV_FrameL_1",
+    "ENV_FrameL_2",
+    "ENV_FrameL_3",
+    "ENV_FrameR_-1",
+    "ENV_FrameR_-2",
+    "ENV_FrameR_-3",
+    "ENV_FrameR_0",
+    "ENV_FrameR_1",
+    "ENV_FrameR_2",
+    "ENV_FrameR_3"
+  ],
+  "hidden_duplicate_scrub": {
+    "removed_objects": [
+      "GRID_REPAIR_BACKUP_before_grid_lower_Asphalt_ground",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameL_-1",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameL_-2",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameL_-3",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameL_0",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameL_1",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameL_2",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameL_3",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameR_-1",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameR_-2",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameR_-3",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameR_0",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameR_1",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameR_2",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameR_3",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameTop_-1",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameTop_-2",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameTop_-3",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameTop_0",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameTop_1",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameTop_2",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_FrameTop_3",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_Glass_-1",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_Glass_-2",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_Glass_-3",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_Glass_0",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_Glass_1",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_Glass_2",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_ENV_Glass_3",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_CenterSpine",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row0_Divider_0",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row0_Divider_1",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row0_Divider_2",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row0_Divider_3",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row0_Divider_4",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row0_Divider_5",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row0_Divider_6",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row0_Divider_7",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row1_Divider_0",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row1_Divider_1",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row1_Divider_2",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row1_Divider_3",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row1_Divider_4",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row1_Divider_5",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row1_Divider_6",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_HParking_Row1_Divider_7",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_Underglow_FrontHiddenStrip",
+      "GRID_REPAIR_BACKUP_before_flat_grid_restore_HERO_Underglow_RearHiddenStrip",
+      "OPT_BACKUP_ORIGINAL_Apricot_Pullover_Hoodie",
+      "OPT_BACKUP_ORIGINAL_Utility_Box_Photoscanned",
+      "OPT_BACKUP_ORIGINAL_Lid.001",
+      "PARKING_BACKUP_before_flatten_visible_imported_asphalt_Asphalt_ground",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_FrameL_-1",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_FrameL_-2",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_FrameL_-3",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_FrameL_0",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_FrameL_1",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_FrameL_2",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_FrameL_3",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_FrameR_-1",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_FrameR_-2",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_FrameR_-3",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_FrameR_0",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_FrameR_1",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_FrameR_2",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_FrameR_3",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_FrameTop_-1",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_FrameTop_-2",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_FrameTop_-3",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_FrameTop_0",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_FrameTop_1",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_FrameTop_2",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_FrameTop_3",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_Glass_-1",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_Glass_-2",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_Glass_-3",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_Glass_0",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_Glass_1",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_Glass_2",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_Glass_3",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_ENV_PlazaShell",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_HERO_HParking_CenterSpine",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_HERO_HParking_Row0_Divider_0",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_HERO_HParking_Row0_Divider_1",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_HERO_HParking_Row0_Divider_2",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_HERO_HParking_Row0_Divider_3",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_HERO_HParking_Row0_Divider_4",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_HERO_HParking_Row0_Divider_5",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_HERO_HParking_Row0_Divider_6",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_HERO_HParking_Row0_Divider_7",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_HERO_HParking_Row1_Divider_0",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_HERO_HParking_Row1_Divider_1",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_HERO_HParking_Row1_Divider_2",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_HERO_HParking_Row1_Divider_3",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_HERO_HParking_Row1_Divider_4",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_HERO_HParking_Row1_Divider_5",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_HERO_HParking_Row1_Divider_6",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_HERO_HParking_Row1_Divider_7",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_HERO_Underglow_FrontHiddenStrip",
+      "PARKING_BACKUP_old_paint_before_decal_rebuild_HERO_Underglow_RearHiddenStrip",
+      "PARKING_HEIGHT_BACKUP_before_height_repair_Asphalt_ground",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameL_-1",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameL_-2",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameL_-3",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameL_0",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameL_1",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameL_2",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameL_3",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameR_-1",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameR_-2",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameR_-3",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameR_0",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameR_1",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameR_2",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameR_3",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameTop_-1",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameTop_-2",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameTop_-3",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameTop_0",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameTop_1",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameTop_2",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_ENV_FrameTop_3",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row0_Divider_0",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row0_Divider_1",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row0_Divider_2",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row0_Divider_3",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row0_Divider_4",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row0_Divider_5",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row0_Divider_6",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row0_Divider_7",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row1_Divider_0",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row1_Divider_1",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row1_Divider_2",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row1_Divider_3",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row1_Divider_4",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row1_Divider_5",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row1_Divider_6",
+      "PARKING_HEIGHT_BACKUP_old_paint_before_low_decal_rebuild_HERO_HParking_Row1_Divider_7",
+      "SCENE_BACKUP_before_flatten_ENV_Asphalt",
+      "SCENE_BACKUP_hidden_imported_asphalt_Asphalt_ground",
+      "SURFACE_BACKUP_before_surface_repair_ENV_Asphalt",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_FrameL_-1",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_FrameL_-2",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_FrameL_-3",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_FrameL_0",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_FrameL_1",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_FrameL_2",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_FrameL_3",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_FrameR_-1",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_FrameR_-2",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_FrameR_-3",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_FrameR_0",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_FrameR_1",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_FrameR_2",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_FrameR_3",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_FrameTop_-1",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_FrameTop_-2",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_FrameTop_-3",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_FrameTop_0",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_FrameTop_1",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_FrameTop_2",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_FrameTop_3",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_Glass_-1",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_Glass_-2",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_Glass_-3",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_Glass_0",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_Glass_1",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_Glass_2",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_Glass_3",
+      "SURFACE_BACKUP_before_paint_flatten_ENV_PlazaShell",
+      "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_CenterSpine",
+      "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row0_Divider_0",
+      "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row0_Divider_1",
+      "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row0_Divider_2",
+      "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row0_Divider_3",
+      "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row0_Divider_4",
+      "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row0_Divider_5",
+      "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row0_Divider_6",
+      "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row0_Divider_7",
+      "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row1_Divider_0",
+      "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row1_Divider_1",
+      "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row1_Divider_2",
+      "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row1_Divider_3",
+      "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row1_Divider_4",
+      "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row1_Divider_5",
+      "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row1_Divider_6",
+      "SURFACE_BACKUP_before_paint_flatten_HERO_HParking_Row1_Divider_7",
+      "SURFACE_BACKUP_before_paint_flatten_HERO_Underglow_FrontHiddenStrip",
+      "SURFACE_BACKUP_before_paint_flatten_HERO_Underglow_RearHiddenStrip",
+      "ENV_PlazaShell"
+    ],
+    "removed_collections": [
+      "GRID_PARKING_REPAIR_BACKUPS_HIDDEN",
+      "OPTIMIZATION_PREVIEW_BACKUP_LINKED_ORIGINALS",
+      "PARKING_DECAL_BACKUPS_HIDDEN",
+      "PARKING_HEIGHT_REPAIR_BACKUPS_HIDDEN",
+      "SCENE_CLEANUP_BACKUPS_HIDDEN",
+      "SURFACE_REPAIR_BACKUPS_HIDDEN",
+      "HERO_SHOE_GRAPHIC_GUIDES",
+      "PARKING_PAINT_DECALS_FLAT"
+    ]
+  },
+  "underglow_lock": {
+    "name": "HERO_CyanUnderglow_Area",
+    "before": [
+      -1.522953,
+      5.177517,
+      0.075276
+    ],
+    "after": [
+      -1.522953,
+      5.177517,
+      0.075276
+    ]
+  },
+  "reflection_lights_boosted": [
+    {
+      "name": "TRAFFIC_REFLECT_Red_BrakeLight",
+      "location": [
+        -8.0,
+        -18.0,
+        2.4
+      ],
+      "energy": 480.0,
+      "color": [
+        1.0,
+        0.03,
+        0.015
+      ],
+      "spot_size": 0.38,
+      "target": [
+        0.0,
+        5.125,
+        3.0
+      ]
+    },
+    {
+      "name": "TRAFFIC_REFLECT_White_Headlight",
+      "location": [
+        -2.5,
+        -19.5,
+        2.2
+      ],
+      "energy": 620.0,
+      "color": [
+        1.0,
+        0.92,
+        0.76
+      ],
+      "spot_size": 0.34,
+      "target": [
+        0.0,
+        5.125,
+        3.0
+      ]
+    },
+    {
+      "name": "TRAFFIC_REFLECT_Amber_StreetTurn",
+      "location": [
+        3.2,
+        -18.5,
+        2.5
+      ],
+      "energy": 500.0,
+      "color": [
+        1.0,
+        0.38,
+        0.04
+      ],
+      "spot_size": 0.38,
+      "target": [
+        0.0,
+        5.125,
+        3.0
+      ]
+    },
+    {
+      "name": "TRAFFIC_REFLECT_Green_SignalBounce",
+      "location": [
+        8.2,
+        -20.0,
+        2.6
+      ],
+      "energy": 330.0,
+      "color": [
+        0.05,
+        1.0,
+        0.18
+      ],
+      "spot_size": 0.4,
+      "target": [
+        0.0,
+        5.125,
+        3.0
+      ]
+    }
+  ],
+  "glass_materials_updated": [
+    {
+      "object": "ENV_Glass_-1",
+      "material": "MAT_DarkGlass"
+    },
+    {
+      "object": "ENV_Glass_-2",
+      "material": "MAT_DarkGlass"
+    },
+    {
+      "object": "ENV_Glass_-3",
+      "material": "MAT_DarkGlass"
+    },
+    {
+      "object": "ENV_Glass_0",
+      "material": "MAT_DarkGlass"
+    },
+    {
+      "object": "ENV_Glass_1",
+      "material": "MAT_DarkGlass"
+    },
+    {
+      "object": "ENV_Glass_2",
+      "material": "MAT_DarkGlass"
+    },
+    {
+      "object": "ENV_Glass_3",
+      "material": "MAT_DarkGlass"
+    },
+    {
+      "object": "HERO_BlackSkateShoe_L_WhiteSole",
+      "material": "HERO_MAT_SkateShoeWhitePanels"
+    },
+    {
+      "object": "HERO_BlackSkateShoe_R_WhiteSole",
+      "material": "HERO_MAT_SkateShoeWhitePanels"
+    },
+    {
+      "object": "HERO_GlassStorefront_Bay_0",
+      "material": "HERO_MAT_Glass_NightGlossy"
+    },
+    {
+      "object": "HERO_GlassStorefront_Bay_1",
+      "material": "HERO_MAT_Glass_NightGlossy"
+    },
+    {
+      "object": "HERO_GlassStorefront_Bay_2",
+      "material": "HERO_MAT_Glass_NightGlossy"
+    },
+    {
+      "object": "HERO_GlassStorefront_Bay_3",
+      "material": "HERO_MAT_Glass_NightGlossy"
+    },
+    {
+      "object": "HERO_LampGlass_0",
+      "material": "HERO_MAT_LampGlassAmber"
+    },
+    {
+      "object": "HERO_LampGlass_1",
+      "material": "HERO_MAT_LampGlassAmber"
+    },
+    {
+      "object": "HERO_MaterialSwatch_ShoeWhite",
+      "material": "HERO_MAT_SkateShoeWhitePanels"
+    },
+    {
+      "object": "Plane.024",
+      "material": "Glass"
+    },
+    {
+      "object": "Plane.037",
+      "material": "Window"
+    },
+    {
+      "object": "Plane.038",
+      "material": "Window"
+    },
+    {
+      "object": "Plane.040",
+      "material": "Window Glass Cycle"
+    },
+    {
+      "object": "Plane.061",
+      "material": "Glass.001"
+    }
+  ],
+  "lights_scan_after": [
+    {
+      "name": "HERO_CarAmberHoodRead",
+      "type": "SPOT",
+      "location": [
+        5.265154,
+        1.978295,
+        5.190777
+      ],
+      "rotation": [
+        -0.018607,
+        0.020346,
+        3.30697
+      ],
+      "energy": 100.0,
+      "color": [
+        1.0,
+        0.257203,
+        0.006592
+      ],
+      "size": null,
+      "spot_size": 0.949999988079071,
+      "spot_blend": 0.6499999761581421
+    },
+    {
+      "name": "HERO_CarAmberRoofRead",
+      "type": "SPOT",
+      "location": [
+        -5.186506,
+        1.995343,
+        5.201615
+      ],
+      "rotation": [
+        0.040737,
+        0.029514,
+        -0.631302
+      ],
+      "energy": 100.00001525878906,
+      "color": [
+        1.0,
+        0.216022,
+        0.00379
+      ],
+      "size": null,
+      "spot_size": 1.0499999523162842,
+      "spot_blend": 0.7200000286102295
+    },
+    {
+      "name": "HERO_CarWarmSideGlint",
+      "type": "SPOT",
+      "location": [
+        0.007344,
+        22.906092,
+        7.155601
+      ],
+      "rotation": [
+        -0.00862,
+        -0.0,
+        -1.570796
+      ],
+      "energy": 90.0,
+      "color": [
+        1.0,
+        0.38,
+        0.08
+      ],
+      "size": null,
+      "spot_size": 0.8500000238418579,
+      "spot_blend": 0.800000011920929
+    },
+    {
+      "name": "HERO_CyanUnderglow_Area",
+      "type": "AREA",
+      "location": [
+        -1.522953,
+        5.177517,
+        0.075276
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        -1.090229
+      ],
+      "energy": 160.0,
+      "color": [
+        0.0,
+        0.55,
+        1.0
+      ],
+      "size": 2.727658987045288,
+      "spot_size": null,
+      "spot_blend": null
+    },
+    {
+      "name": "TRAFFIC_REFLECT_Amber_StreetTurn",
+      "type": "SPOT",
+      "location": [
+        3.2,
+        -18.5,
+        2.5
+      ],
+      "rotation": [
+        1.591766,
+        0.0,
+        0.13463
+      ],
+      "energy": 500.0,
+      "color": [
+        1.0,
+        0.38,
+        0.04
+      ],
+      "size": null,
+      "spot_size": 0.3799999952316284,
+      "spot_blend": 0.8999999761581421
+    },
+    {
+      "name": "TRAFFIC_REFLECT_Green_SignalBounce",
+      "type": "SPOT",
+      "location": [
+        8.2,
+        -20.0,
+        2.6
+      ],
+      "rotation": [
+        1.58593,
+        0.0,
+        0.315469
+      ],
+      "energy": 330.0,
+      "color": [
+        0.05,
+        1.0,
+        0.18
+      ],
+      "size": null,
+      "spot_size": 0.4000000059604645,
+      "spot_blend": 0.8999999761581421
+    },
+    {
+      "name": "TRAFFIC_REFLECT_Red_BrakeLight",
+      "type": "SPOT",
+      "location": [
+        -8.0,
+        -18.0,
+        2.4
+      ],
+      "rotation": [
+        1.595312,
+        0.0,
+        -0.333059
+      ],
+      "energy": 480.0,
+      "color": [
+        1.0,
+        0.03,
+        0.015
+      ],
+      "size": null,
+      "spot_size": 0.3799999952316284,
+      "spot_blend": 0.8999999761581421
+    },
+    {
+      "name": "TRAFFIC_REFLECT_White_Headlight",
+      "type": "SPOT",
+      "location": [
+        -2.5,
+        -19.5,
+        2.2
+      ],
+      "rotation": [
+        1.603106,
+        0.0,
+        -0.101176
+      ],
+      "energy": 620.0,
+      "color": [
+        1.0,
+        0.92,
+        0.76
+      ],
+      "size": null,
+      "spot_size": 0.3400000035762787,
+      "spot_blend": 0.8999999761581421
+    },
+    {
+      "name": "V2B_OverheadAmber_0",
+      "type": "AREA",
+      "location": [
+        -5.222266,
+        2.649782,
+        5.278863
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "energy": 520.0,
+      "color": [
+        1.0,
+        0.37,
+        0.055
+      ],
+      "size": 2.200000047683716,
+      "spot_size": null,
+      "spot_blend": null
+    },
+    {
+      "name": "V2B_OverheadAmber_1",
+      "type": "AREA",
+      "location": [
+        5.284363,
+        2.653402,
+        5.278863
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        3.101899
+      ],
+      "energy": 300.0,
+      "color": [
+        1.0,
+        0.37,
+        0.055
+      ],
+      "size": 2.200000047683716,
+      "spot_size": null,
+      "spot_blend": null
+    }
+  ],
+  "character_fit_scan": {
+    "key_objects": [
+      {
+        "name": "F2",
+        "status": "present",
+        "visible": true,
+        "location": [
+          2.688858,
+          -0.249535,
+          0.01029
+        ],
+        "dimensions": [
+          2.783371,
+          1.475343,
+          2.749408
+        ],
+        "minmax_z": [
+          0.000592,
+          2.75
+        ],
+        "vertices": 30549,
+        "faces": 60930,
+        "modifiers": []
+      },
+      {
+        "name": "Apricot Pullover Hoodie",
+        "status": "present",
+        "visible": true,
+        "location": [
+          -2.816514,
+          0.012429,
+          0.993742
+        ],
+        "dimensions": [
+          2.277528,
+          1.091159,
+          1.549869
+        ],
+        "minmax_z": [
+          0.997261,
+          2.547129
+        ],
+        "vertices": 257116,
+        "faces": 489064,
+        "modifiers": [
+          {
+            "name": "OPT_PREVIEW_DECIMATE",
+            "type": "DECIMATE",
+            "ratio": 0.25
+          }
+        ]
+      },
+      {
+        "name": "Cargo pants",
+        "status": "present",
+        "visible": true,
+        "location": [
+          -2.80222,
+          -0.00521,
+          0.329369
+        ],
+        "dimensions": [
+          1.559261,
+          0.898337,
+          1.052398
+        ],
+        "minmax_z": [
+          0.331169,
+          1.383567
+        ],
+        "vertices": 16507,
+        "faces": 16424,
+        "modifiers": [
+          {
+            "name": "Collision",
+            "type": "COLLISION",
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "name": "Plane.001",
+        "status": "present",
+        "visible": true,
+        "location": [
+          -0.064073,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.626516,
+          0.950595,
+          0.372303
+        ],
+        "minmax_z": [
+          7.8e-05,
+          0.372381
+        ],
+        "vertices": 10292,
+        "faces": 10800,
+        "modifiers": []
+      },
+      {
+        "name": "Plane.022",
+        "status": "present",
+        "visible": true,
+        "location": [
+          0.065381,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.626517,
+          0.950595,
+          0.372303
+        ],
+        "minmax_z": [
+          7.8e-05,
+          0.372381
+        ],
+        "vertices": 10292,
+        "faces": 10800,
+        "modifiers": [
+          {
+            "name": "WeightedNormal",
+            "type": "WEIGHTED_NORMAL",
+            "ratio": null
+          },
+          {
+            "name": "WeightedNormal.001",
+            "type": "WEIGHTED_NORMAL",
+            "ratio": null
+          }
+        ]
+      }
+    ]
+  },
+  "notes": {
+    "white_parking_strips": "Preserved. Only black/glossy ENV_Frame* edge objects were targeted.",
+    "large_blend_pushes": "Future publish scripts should avoid staging blender/sackboy_scene.blend1 when possible, but scene-changing commits still need sackboy_scene.blend in Git LFS.",
+    "character_deformation": "Not performed in this scrub/lighting pass. Next package can start body/head/torso proportion refinement."
+  }
+}

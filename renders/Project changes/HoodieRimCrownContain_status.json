@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "hoodie_shape_key": "HOODIEFIT_RimCrownContain_v1",
+  "touched_vertices": 128572,
+  "review_cameras": [
+    "CAM_REVIEW_HoodRimFront",
+    "CAM_REVIEW_HoodRimProfile",
+    "CAM_REVIEW_HoodTopArtifactCheck",
+    "CAM_REVIEW_StorefrontReflection"
+  ]
+}

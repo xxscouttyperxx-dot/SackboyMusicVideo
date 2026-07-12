@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "C:\BlenderProjects\SackboyMusicVideo\Project\blender\scripts\scene_cleanup_flat_asphalt_v1.py", line 149, in <module>
+    try: main()
+         ~~~~^^
+  File "C:\BlenderProjects\SackboyMusicVideo\Project\blender\scripts\scene_cleanup_flat_asphalt_v1.py", line 147, in main
+    reset(); log('[lock] scanning current light changes; not modifying lights'); rm=cleanup_cams(); asph=prep_asphalt(); lights=scan_lights(); dec=scan_decimate(); reports(asph,rm,lights,dec); manifest(); render(); out=ROOT/'blender'/'sackboy_scene.blend'; bpy.ops.wm.save_as_mainfile(filepath=str(out)); log('[save] '+str(out))
+                                                                                                         ~~~~~~~~~~~~^^
+  File "C:\BlenderProjects\SackboyMusicVideo\Project\blender\scripts\scene_cleanup_flat_asphalt_v1.py", line 66, in prep_asphalt
+    backup(imp,'hidden_imported_asphalt'); changes['material_transferred_from_imported_asphalt']=transfer(imp,env); imp.hide_viewport=True; imp.hide_render=True; changes['imported_asphalt_hidden']=imp.name; log('[asphalt] hid bumpy imported Asphalt ground')
+                                                                                                 ~~~~~~~~^^^^^^^^^
+  File "C:\BlenderProjects\SackboyMusicVideo\Project\blender\scripts\scene_cleanup_flat_asphalt_v1.py", line 40, in transfer
+    while len(dst.material_slots)>0: dst.data.materials.pop(index=0)
+                                     ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+RuntimeError: Error: Index out of range
+

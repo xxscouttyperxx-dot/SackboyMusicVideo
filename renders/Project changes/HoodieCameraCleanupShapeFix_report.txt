@@ -10,3 +10,4 @@
 [render] 03_HoodieRightSideGray.png
 [render] 04_HoodieIsolatedWireCheck.png
 [render] 05_HoodieScenePreserved.png
+[save] C:\BlenderProjects\SackboyMusicVideo\Project\blender\sackboy_scene.blend

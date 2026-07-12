@@ -1,0 +1,9 @@
+[pass] character body fit prep v1
+[lock] underglow locked [-1.522953, 5.177517, 0.075276] -> [-1.522953, 5.177517, 0.075276]
+[render] kept Cycles for review renders; lowered preview samples to reduce harsh viewport noise
+[body] added active shape key BODYFIT_HoodiePantsPrep_v1; touched_vertices=26004; max_delta_local=0.039856
+[render] 01_BodyFitFront.png
+[render] 02_BodyFitThreeQuarter.png
+[render] 03_ClothingFitContext.png
+[render] 04_ReflectionScenePreserved.png
+[save] C:\BlenderProjects\SackboyMusicVideo\Project\blender\sackboy_scene.blend

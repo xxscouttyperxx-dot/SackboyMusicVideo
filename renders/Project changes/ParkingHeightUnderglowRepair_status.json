@@ -1,0 +1,705 @@
+{
+  "asphalt_height_repair": {
+    "name": "Asphalt ground",
+    "old_bounds": {
+      "min_x": -32.99190139770508,
+      "max_x": 37.774147033691406,
+      "min_y": -27.842344284057617,
+      "max_y": 42.473350524902344,
+      "min_z": -0.3461715877056122,
+      "max_z": 3.498124837875366,
+      "dim_x": 70.76604843139648,
+      "dim_y": 70.31569480895996,
+      "dim_z": 3.8442964255809784
+    },
+    "new_bounds": {
+      "min_x": -32.99190139770508,
+      "max_x": 37.774147033691406,
+      "min_y": -27.842344284057617,
+      "max_y": 42.473350524902344,
+      "min_z": -0.3461715877056122,
+      "max_z": 3.498124837875366,
+      "dim_x": 70.76604843139648,
+      "dim_y": 70.31569480895996,
+      "dim_z": 3.8442964255809784
+    },
+    "target_z": 0.3007543087005615,
+    "env_asphalt_hidden": true
+  },
+  "paint_decal_repair": {
+    "prior_decals_removed": 48,
+    "flat_decals_created": 37,
+    "decal_z": 0.3027543087005615,
+    "bad_plaza_decals_removed": [],
+    "objects": [
+      {
+        "source": "ENV_FrameL_-1",
+        "decal": "PARKING_DECAL_001_ENV_FrameL_-1",
+        "source_dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "source": "ENV_FrameL_-2",
+        "decal": "PARKING_DECAL_002_ENV_FrameL_-2",
+        "source_dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "source": "ENV_FrameL_-3",
+        "decal": "PARKING_DECAL_003_ENV_FrameL_-3",
+        "source_dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "source": "ENV_FrameL_0",
+        "decal": "PARKING_DECAL_004_ENV_FrameL_0",
+        "source_dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "source": "ENV_FrameL_1",
+        "decal": "PARKING_DECAL_005_ENV_FrameL_1",
+        "source_dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "source": "ENV_FrameL_2",
+        "decal": "PARKING_DECAL_006_ENV_FrameL_2",
+        "source_dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "source": "ENV_FrameL_3",
+        "decal": "PARKING_DECAL_007_ENV_FrameL_3",
+        "source_dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "source": "ENV_FrameR_-1",
+        "decal": "PARKING_DECAL_008_ENV_FrameR_-1",
+        "source_dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "source": "ENV_FrameR_-2",
+        "decal": "PARKING_DECAL_009_ENV_FrameR_-2",
+        "source_dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "source": "ENV_FrameR_-3",
+        "decal": "PARKING_DECAL_010_ENV_FrameR_-3",
+        "source_dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "source": "ENV_FrameR_0",
+        "decal": "PARKING_DECAL_011_ENV_FrameR_0",
+        "source_dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "source": "ENV_FrameR_1",
+        "decal": "PARKING_DECAL_012_ENV_FrameR_1",
+        "source_dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "source": "ENV_FrameR_2",
+        "decal": "PARKING_DECAL_013_ENV_FrameR_2",
+        "source_dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "source": "ENV_FrameR_3",
+        "decal": "PARKING_DECAL_014_ENV_FrameR_3",
+        "source_dims": [
+          0.11,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "source": "ENV_FrameTop_-1",
+        "decal": "PARKING_DECAL_015_ENV_FrameTop_-1",
+        "source_dims": [
+          3.2,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "source": "ENV_FrameTop_-2",
+        "decal": "PARKING_DECAL_016_ENV_FrameTop_-2",
+        "source_dims": [
+          3.2,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "source": "ENV_FrameTop_-3",
+        "decal": "PARKING_DECAL_017_ENV_FrameTop_-3",
+        "source_dims": [
+          3.2,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "source": "ENV_FrameTop_0",
+        "decal": "PARKING_DECAL_018_ENV_FrameTop_0",
+        "source_dims": [
+          3.2,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "source": "ENV_FrameTop_1",
+        "decal": "PARKING_DECAL_019_ENV_FrameTop_1",
+        "source_dims": [
+          3.2,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "source": "ENV_FrameTop_2",
+        "decal": "PARKING_DECAL_020_ENV_FrameTop_2",
+        "source_dims": [
+          3.2,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "source": "ENV_FrameTop_3",
+        "decal": "PARKING_DECAL_021_ENV_FrameTop_3",
+        "source_dims": [
+          3.2,
+          0.16,
+          0.0
+        ]
+      },
+      {
+        "source": "HERO_HParking_Row0_Divider_0",
+        "decal": "PARKING_DECAL_022_HERO_HParking_Row0_Divider_0",
+        "source_dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "source": "HERO_HParking_Row0_Divider_1",
+        "decal": "PARKING_DECAL_023_HERO_HParking_Row0_Divider_1",
+        "source_dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "source": "HERO_HParking_Row0_Divider_2",
+        "decal": "PARKING_DECAL_024_HERO_HParking_Row0_Divider_2",
+        "source_dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "source": "HERO_HParking_Row0_Divider_3",
+        "decal": "PARKING_DECAL_025_HERO_HParking_Row0_Divider_3",
+        "source_dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "source": "HERO_HParking_Row0_Divider_4",
+        "decal": "PARKING_DECAL_026_HERO_HParking_Row0_Divider_4",
+        "source_dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "source": "HERO_HParking_Row0_Divider_5",
+        "decal": "PARKING_DECAL_027_HERO_HParking_Row0_Divider_5",
+        "source_dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "source": "HERO_HParking_Row0_Divider_6",
+        "decal": "PARKING_DECAL_028_HERO_HParking_Row0_Divider_6",
+        "source_dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "source": "HERO_HParking_Row0_Divider_7",
+        "decal": "PARKING_DECAL_029_HERO_HParking_Row0_Divider_7",
+        "source_dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "source": "HERO_HParking_Row1_Divider_0",
+        "decal": "PARKING_DECAL_030_HERO_HParking_Row1_Divider_0",
+        "source_dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "source": "HERO_HParking_Row1_Divider_1",
+        "decal": "PARKING_DECAL_031_HERO_HParking_Row1_Divider_1",
+        "source_dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "source": "HERO_HParking_Row1_Divider_2",
+        "decal": "PARKING_DECAL_032_HERO_HParking_Row1_Divider_2",
+        "source_dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "source": "HERO_HParking_Row1_Divider_3",
+        "decal": "PARKING_DECAL_033_HERO_HParking_Row1_Divider_3",
+        "source_dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "source": "HERO_HParking_Row1_Divider_4",
+        "decal": "PARKING_DECAL_034_HERO_HParking_Row1_Divider_4",
+        "source_dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "source": "HERO_HParking_Row1_Divider_5",
+        "decal": "PARKING_DECAL_035_HERO_HParking_Row1_Divider_5",
+        "source_dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "source": "HERO_HParking_Row1_Divider_6",
+        "decal": "PARKING_DECAL_036_HERO_HParking_Row1_Divider_6",
+        "source_dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      },
+      {
+        "source": "HERO_HParking_Row1_Divider_7",
+        "decal": "PARKING_DECAL_037_HERO_HParking_Row1_Divider_7",
+        "source_dims": [
+          0.075,
+          3.4671,
+          0.0
+        ]
+      }
+    ]
+  },
+  "hatch_repair": [
+    {
+      "name": "Plane.029",
+      "min_z": 1.63962,
+      "max_z": 1.648005
+    }
+  ],
+  "underglow_restore": {
+    "name": "HERO_CyanUnderglow_Area",
+    "before": [
+      -1.522953,
+      5.177517,
+      0.075276
+    ],
+    "after": [
+      -1.522953,
+      5.177517,
+      0.075276
+    ],
+    "target": [
+      -1.522953,
+      5.177517,
+      0.075276
+    ]
+  },
+  "lights_scanned_after_restore": [
+    {
+      "name": "HERO_CarAmberHoodRead",
+      "type": "SPOT",
+      "location": [
+        5.265154,
+        1.978295,
+        5.190777
+      ],
+      "rotation": [
+        -0.018607,
+        0.020346,
+        3.30697
+      ],
+      "energy": 100.0,
+      "color": [
+        1.0,
+        0.257203,
+        0.006592
+      ],
+      "size": null,
+      "spot_size": 0.949999988079071,
+      "spot_blend": 0.6499999761581421
+    },
+    {
+      "name": "HERO_CarAmberRoofRead",
+      "type": "SPOT",
+      "location": [
+        -5.186506,
+        1.995343,
+        5.201615
+      ],
+      "rotation": [
+        0.040737,
+        0.029514,
+        -0.631302
+      ],
+      "energy": 100.00001525878906,
+      "color": [
+        1.0,
+        0.216022,
+        0.00379
+      ],
+      "size": null,
+      "spot_size": 1.0499999523162842,
+      "spot_blend": 0.7200000286102295
+    },
+    {
+      "name": "HERO_CarWarmSideGlint",
+      "type": "SPOT",
+      "location": [
+        0.007344,
+        22.906092,
+        7.155601
+      ],
+      "rotation": [
+        -0.00862,
+        -0.0,
+        -1.570796
+      ],
+      "energy": 90.0,
+      "color": [
+        1.0,
+        0.38,
+        0.08
+      ],
+      "size": null,
+      "spot_size": 0.8500000238418579,
+      "spot_blend": 0.800000011920929
+    },
+    {
+      "name": "HERO_CyanUnderglow_Area",
+      "type": "AREA",
+      "location": [
+        -1.522953,
+        5.177517,
+        0.075276
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        -1.090229
+      ],
+      "energy": 160.0,
+      "color": [
+        0.0,
+        0.55,
+        1.0
+      ],
+      "size": 2.727658987045288,
+      "spot_size": null,
+      "spot_blend": null
+    },
+    {
+      "name": "V2B_OverheadAmber_0",
+      "type": "AREA",
+      "location": [
+        -5.222266,
+        2.649782,
+        5.278863
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "energy": 520.0,
+      "color": [
+        1.0,
+        0.37,
+        0.055
+      ],
+      "size": 2.200000047683716,
+      "spot_size": null,
+      "spot_blend": null
+    },
+    {
+      "name": "V2B_OverheadAmber_1",
+      "type": "AREA",
+      "location": [
+        5.284363,
+        2.653402,
+        5.278863
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        3.101899
+      ],
+      "energy": 300.0,
+      "color": [
+        1.0,
+        0.37,
+        0.055
+      ],
+      "size": 2.200000047683716,
+      "spot_size": null,
+      "spot_blend": null
+    }
+  ],
+  "character_fit_scan": {
+    "key_objects": [
+      {
+        "name": "F2",
+        "status": "present",
+        "visible": true,
+        "location": [
+          2.688858,
+          -0.249535,
+          0.01029
+        ],
+        "dimensions": [
+          2.783371,
+          1.475343,
+          2.749408
+        ],
+        "minmax_z": [
+          0.000592,
+          2.75
+        ],
+        "vertices": 30549,
+        "faces": 60930,
+        "collections": [
+          "CHAR_Meshy_LeftCandidate_Refined"
+        ],
+        "modifiers": []
+      },
+      {
+        "name": "Apricot Pullover Hoodie",
+        "status": "present",
+        "visible": true,
+        "location": [
+          -2.816514,
+          0.012429,
+          0.993742
+        ],
+        "dimensions": [
+          2.277528,
+          1.091159,
+          1.549869
+        ],
+        "minmax_z": [
+          0.997261,
+          2.547129
+        ],
+        "vertices": 257116,
+        "faces": 489064,
+        "collections": [
+          "Apricot Pullover Hoodie",
+          "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS"
+        ],
+        "modifiers": [
+          {
+            "name": "OPT_PREVIEW_DECIMATE",
+            "type": "DECIMATE",
+            "ratio": 0.25
+          }
+        ]
+      },
+      {
+        "name": "Cargo pants",
+        "status": "present",
+        "visible": true,
+        "location": [
+          -2.80222,
+          -0.00521,
+          0.329369
+        ],
+        "dimensions": [
+          1.559261,
+          0.898337,
+          1.052398
+        ],
+        "minmax_z": [
+          0.331169,
+          1.383567
+        ],
+        "vertices": 16507,
+        "faces": 16424,
+        "collections": [
+          "Cargo pants"
+        ],
+        "modifiers": [
+          {
+            "name": "Collision",
+            "type": "COLLISION",
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "name": "Plane.001",
+        "status": "present",
+        "visible": true,
+        "location": [
+          -0.064073,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.626516,
+          0.950595,
+          0.372303
+        ],
+        "minmax_z": [
+          7.8e-05,
+          0.372381
+        ],
+        "vertices": 10292,
+        "faces": 10800,
+        "collections": [
+          "Shoes"
+        ],
+        "modifiers": []
+      },
+      {
+        "name": "Plane.022",
+        "status": "present",
+        "visible": true,
+        "location": [
+          0.065381,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.626517,
+          0.950595,
+          0.372303
+        ],
+        "minmax_z": [
+          7.8e-05,
+          0.372381
+        ],
+        "vertices": 10292,
+        "faces": 10800,
+        "collections": [
+          "Shoes"
+        ],
+        "modifiers": [
+          {
+            "name": "WeightedNormal",
+            "type": "WEIGHTED_NORMAL",
+            "ratio": null
+          },
+          {
+            "name": "WeightedNormal.001",
+            "type": "WEIGHTED_NORMAL",
+            "ratio": null
+          }
+        ]
+      }
+    ]
+  },
+  "reflection_lighting_plan": {
+    "status": "not_added_in_this_repair_pass",
+    "approved_colors": [
+      "red",
+      "white",
+      "amber",
+      "green"
+    ],
+    "note": "The far-end reflection lights are approved conceptually but intentionally not added during this repair pass."
+  },
+  "locked": {
+    "car": "not moved",
+    "existing_amber_lights": "not modified except underglow location restore",
+    "storefront": "not modified",
+    "sky_world_hdri": "not modified",
+    "character": "not modified"
+  }
+}

@@ -1,0 +1,24 @@
+# Hoodie Camera Count Side Bowl Fix v1
+
+## Changes
+- Added active hoodie shape key: **HOODIEFIT_SideBackBowlFix_v1**.
+- Deleted all existing camera objects and recreated exactly the requested camera inventory.
+- Raised shoulder collars.
+- Pulled lower hood sides out/down to restore the bowl silhouette.
+- Rounded the back hood droop and feathered rear protrusion.
+- Pushed the isolated wire view back for more context.
+- Text/json change files were written to `renders/Project changes`; current review contains images only.
+
+## Camera count
+- Total cameras: 12
+- Non-hidden cameras: 9
+- Hidden animation cameras: 3
+- Camera names: CAM_ANIM_Close, CAM_ANIM_Medium, CAM_ANIM_Wide, CAM_F2_Front, CAM_F2_Profile, CAM_F2_ThreeQuarter, CAM_Hood_Front, CAM_Hood_LeftSide, CAM_Hood_RightSide, CAM_Hood_Top, CAM_SceneWide, CAM_StorefrontReflection
+
+## Counts
+- Vertices: 257116 -> 257116 (delta 0)
+- Faces: 489064 -> 489064 (delta 0)
+- Touched vertices: 66170
+- Smoothed vertices: 64454
+- Max local vertex movement: 0.050432
+- World dimension delta: [0.0, -0.00047, 0.027772]

@@ -1,0 +1,10 @@
+[pass] scrub edge clutter, boost glass reflections, preserve white paint and locked lights
+[scrub] removed 14 black/glossy edge frame object(s): ['ENV_FrameL_-1', 'ENV_FrameL_-2', 'ENV_FrameL_-3', 'ENV_FrameL_0', 'ENV_FrameL_1', 'ENV_FrameL_2', 'ENV_FrameL_3', 'ENV_FrameR_-1', 'ENV_FrameR_-2', 'ENV_FrameR_-3', 'ENV_FrameR_0', 'ENV_FrameR_1', 'ENV_FrameR_2', 'ENV_FrameR_3']
+[scrub] removed 190 hidden/generated duplicate object(s) and 8 clutter collection(s)
+[underglow] locked HERO_CyanUnderglow_Area: [-1.522953, 5.177517, 0.075276] -> [-1.522953, 5.177517, 0.075276]
+[reflection] boosted 4 red/white/amber/green far-end spotlights and aimed at storefront glass
+[glass] updated 21 glass/window material slot(s) for sharper spotlight reflections
+[render] 01_ParkingEdgeScrubCheck.png
+[render] 02_GlassReflectionBoostCheck.png
+[render] 03_CharacterFitReadyCheck.png
+[save] C:\BlenderProjects\SackboyMusicVideo\Project\blender\sackboy_scene.blend

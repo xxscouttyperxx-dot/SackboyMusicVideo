@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "hoodie_shape_key": "HOODIEFIT_SpikeSleeveSideFix_v1",
+  "touched_vertices": 84153,
+  "smoothed_vertices": 83146,
+  "vertex_delta": 0,
+  "face_delta": 0,
+  "review_cameras": [
+    "CAM_REVIEW_Hoodie_Material",
+    "CAM_REVIEW_Hoodie_LeftGray",
+    "CAM_REVIEW_Hoodie_RightGray",
+    "CAM_REVIEW_Hoodie_Wire",
+    "CAM_REVIEW_Hoodie_Scene"
+  ]
+}
