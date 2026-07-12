@@ -1,9 +1,0 @@
-[pass] hoodie crown smooth expand v1
-[lock] underglow locked [-1.522953, 5.177517, 0.075276] -> [-1.522953, 5.177517, 0.075276]
-[character] F2 baseline preserved; BODYFIT keys kept disabled
-[render] Cycles review renders retained; viewport preview samples remain low
-[hoodie] added active shape key HOODIEFIT_CrownSmoothExpand_v1; source=HOODIEFIT_CrownSleeveTaper_v1; touched_vertices=166236; max_delta_local=0.087325
-[render] 01_HoodTopFront.png
-[render] 02_HoodTopProfile.png
-[render] 03_SleeveElbowCheck.png
-[render] 04_StorefrontReflectionPreserved.png

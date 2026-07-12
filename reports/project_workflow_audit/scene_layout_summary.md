@@ -1,7 +1,7 @@
 # Scene Layout Summary
 
-Updated by Hoodie Crown Smooth Expand v1.
+Updated by Hoodie Rim Crown Contain v1.
 
-- Added hoodie crown smoothing/expansion and sleeve elbow smoothing shape key.
+- Added hoodie rim/crown containment shape key.
 - F2 remains restored baseline; BODYFIT keys disabled.
 - Preserved reflection setup and approved scene lighting.

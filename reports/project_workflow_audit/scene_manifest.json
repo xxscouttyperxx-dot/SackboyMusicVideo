@@ -57,8 +57,8 @@
       ],
       "dimensions": [
         2.277528,
-        1.071129,
-        1.72993
+        1.0901,
+        1.957913
       ],
       "vertices": 257116,
       "faces": 489064,
@@ -77,6 +77,10 @@
         },
         {
           "name": "HOODIEFIT_CrownSmoothExpand_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_RimCrownContain_v1",
           "value": 1.0
         }
       ]
@@ -268,6 +272,63 @@
         1.434449,
         -3.235823,
         2.79486
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_HoodRimFront",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        -0.215551,
+        -5.785823,
+        2.655225
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_HoodRimProfile",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        4.584449,
+        -0.785823,
+        2.655225
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_HoodTopArtifactCheck",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        0.784449,
+        -3.785823,
+        3.255225
       ],
       "dimensions": [
         0.0,
@@ -552,7 +613,7 @@
       "location": [
         7.584449,
         -9.985823,
-        3.050237
+        3.105225
       ],
       "dimensions": [
         0.0,
