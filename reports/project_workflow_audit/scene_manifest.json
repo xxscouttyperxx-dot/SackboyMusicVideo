@@ -476,10 +476,20 @@
       "dimensions": [
         2.783371,
         1.475343,
-        2.749408
+        2.729204
       ],
       "vertices": 30549,
-      "faces": 60930
+      "faces": 60930,
+      "shape_keys": [
+        {
+          "name": "Basis",
+          "value": 1.0
+        },
+        {
+          "name": "BODYFIT_HoodiePantsPrep_v1",
+          "value": 1.0
+        }
+      ]
     },
     {
       "name": "F2.001",
@@ -500,7 +510,17 @@
         0.343261
       ],
       "vertices": 30549,
-      "faces": 60930
+      "faces": 60930,
+      "shape_keys": [
+        {
+          "name": "Basis",
+          "value": 1.0
+        },
+        {
+          "name": "BODYFIT_HoodiePantsPrep_v1",
+          "value": 1.0
+        }
+      ]
     },
     {
       "name": "FINAL_ORBIT_RIG",
@@ -528,16 +548,16 @@
       ],
       "visible": true,
       "location": [
-        6.546489,
-        -1.066946,
-        2.267905
+        5.319022,
+        -0.936946,
+        2.465971
       ],
       "dimensions": [
-        3.6824,
-        0.0,
-        0.16
+        0.22,
+        0.22,
+        0.0
       ],
-      "vertices": 4,
+      "vertices": 33,
       "faces": 1
     },
     {
@@ -548,16 +568,16 @@
       ],
       "visible": true,
       "location": [
-        5.114444,
-        -1.106946,
-        2.822488
+        4.091556,
+        -0.956946,
+        1.951001
       ],
       "dimensions": [
-        2.045778,
-        0.0,
-        0.09
+        0.14,
+        0.14,
+        0.0
       ],
-      "vertices": 4,
+      "vertices": 33,
       "faces": 1
     },
     {
@@ -568,16 +588,16 @@
       ],
       "visible": true,
       "location": [
-        -6.546489,
-        -1.066946,
-        2.267905
+        -5.728178,
+        -0.936946,
+        2.505584
       ],
       "dimensions": [
-        3.886978,
-        0.0,
-        0.18
+        0.22,
+        0.22,
+        0.0
       ],
-      "vertices": 4,
+      "vertices": 33,
       "faces": 1
     },
     {
@@ -588,16 +608,16 @@
       ],
       "visible": true,
       "location": [
-        -5.114444,
-        -1.106946,
-        2.822488
+        -4.500711,
+        -0.956946,
+        1.990614
       ],
       "dimensions": [
-        2.045778,
-        0.0,
-        0.1
+        0.14,
+        0.14,
+        0.0
       ],
-      "vertices": 4,
+      "vertices": 33,
       "faces": 1
     },
     {
@@ -609,15 +629,15 @@
       "visible": true,
       "location": [
         0.0,
-        -1.066946,
-        2.188679
+        -0.936946,
+        2.426358
       ],
       "dimensions": [
-        3.6824,
-        0.0,
-        0.16
+        0.2,
+        0.2,
+        0.0
       ],
-      "vertices": 4,
+      "vertices": 33,
       "faces": 1
     },
     {
@@ -628,16 +648,16 @@
       ],
       "visible": true,
       "location": [
-        -1.227467,
-        -1.106946,
-        1.634097
+        1.227467,
+        -0.956946,
+        1.871775
       ],
       "dimensions": [
-        2.045778,
-        0.0,
-        0.09
+        0.13,
+        0.13,
+        0.0
       ],
-      "vertices": 4,
+      "vertices": 33,
       "faces": 1
     },
     {
@@ -660,9 +680,9 @@
       ],
       "energy": 360.0,
       "color": [
-        0.03,
+        0.05,
         1.0,
-        0.12
+        0.16
       ]
     },
     {
@@ -711,8 +731,8 @@
       "energy": 420.0,
       "color": [
         1.0,
-        0.78,
-        0.04
+        0.82,
+        0.05
       ]
     },
     {
@@ -4229,6 +4249,78 @@
       ],
       "vertices": 14992,
       "faces": 14168
+    },
+    {
+      "name": "REVIEW_Character_Ready",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        -1.4,
+        0.8,
+        1.4
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "REVIEW_CircularReflection_Close",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        0.0,
+        2.1,
+        1.9
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "REVIEW_CircularReflection_Oblique",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        -4.2,
+        1.8,
+        2.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "REVIEW_ReflectionSource_Layout",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        0.0,
+        -0.8,
+        4.8
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ]
     },
     {
       "name": "Ribbing.001",
