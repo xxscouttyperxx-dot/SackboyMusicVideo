@@ -8,10 +8,10 @@ $Expected=@(
 "renders\current_review\04_HoodTopGray.png",
 "renders\current_review\05_HoodIsolatedWireCheck.png",
 "renders\current_review\06_ScenePreserved.png",
-"reports\hoodie_dome_side_depression_fix_v1B\HoodieDomeSideDepressionFix_v1B_report.txt",
-"reports\hoodie_dome_side_depression_fix_v1B\HoodieDomeSideDepressionFix_v1B_status.json",
-"reports\hoodie_dome_side_depression_fix_v1B\Hoodie_Dome_Side_Depression_Fix_v1B.md",
-"reports\hoodie_dome_side_depression_fix_v1B\hoodie_dome_side_depression_fix_v1B.json"
+"reports\hoodie_side_dome_correction_v1C\HoodieSideDomeCorrection_v1C_report.txt",
+"reports\hoodie_side_dome_correction_v1C\HoodieSideDomeCorrection_v1C_status.json",
+"reports\hoodie_side_dome_correction_v1C\Hoodie_Side_Dome_Correction_v1C.md",
+"reports\hoodie_side_dome_correction_v1C\hoodie_side_dome_correction_v1C.json"
 )
 foreach($Rel in $Expected){
     if(-not(Test-Path (Join-Path $Root $Rel))){throw "Missing expected output: $Rel"}
@@ -23,4 +23,4 @@ if($BadFiles.Count -gt 0){
     throw "current_review contains text/json/md files; expected images only: $($BadFiles.Name -join ', ')"
 }
 
-Write-Host "=== HOODIE DOME SIDE DEPRESSION FIX v1B VALIDATION PASS ==="
+Write-Host "=== HOODIE SIDE DOME CORRECTION v1C VALIDATION PASS ==="

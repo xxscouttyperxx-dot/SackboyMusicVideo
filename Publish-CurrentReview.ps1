@@ -23,7 +23,7 @@ function GitAddExistingOrDeleted {
 }
 
 Write-Host "[Publish] Cleaning stale package files..."
-$Keep=@("Apply-HoodieDomeSideDepressionFix_v1B.ps1","Validate-HoodieDomeSideDepressionFix_v1B.ps1","Publish-CurrentReview.ps1","README-HoodieDomeSideDepressionFix_v1B.txt","README_FIRST.txt","Run-BuildAll.ps1","Run-DiagnosticRenders.ps1")
+$Keep=@("Apply-HoodieSideDomeCorrection_v1C.ps1","Validate-HoodieSideDomeCorrection_v1C.ps1","Publish-CurrentReview.ps1","README-HoodieSideDomeCorrection_v1C.txt","README_FIRST.txt","Run-BuildAll.ps1","Run-DiagnosticRenders.ps1")
 $Patterns=@("Apply-*.ps1","Validate-*.ps1","README-*.txt")
 foreach($Pattern in $Patterns){
     Get-ChildItem -Path $Root -Filter $Pattern -File -ErrorAction SilentlyContinue |
@@ -38,16 +38,16 @@ GitAddExistingOrDeleted @(
     "blender\scripts",
     "scene_manifest.json",
     "reports\project_workflow_audit",
+    "reports\hoodie_side_dome_correction_v1C",
     "reports\hoodie_dome_side_depression_fix_v1B",
-    "reports\hoodie_camera_count_side_bowl_fix_v1",
     "renders\current_review",
+    "Apply-HoodieSideDomeCorrection_v1C.ps1",
+    "Validate-HoodieSideDomeCorrection_v1C.ps1",
+    "Publish-CurrentReview.ps1",
+    "README-HoodieSideDomeCorrection_v1C.txt",
     "Apply-HoodieDomeSideDepressionFix_v1B.ps1",
     "Validate-HoodieDomeSideDepressionFix_v1B.ps1",
-    "Publish-CurrentReview.ps1",
-    "README-HoodieDomeSideDepressionFix_v1B.txt",
-    "Apply-HoodieDomeSideDepressionFix.ps1",
-    "Validate-HoodieDomeSideDepressionFix.ps1",
-    "README-HoodieDomeSideDepressionFix.txt"
+    "README-HoodieDomeSideDepressionFix_v1B.txt"
 )
 
 git -C $Root status --short
@@ -55,7 +55,7 @@ $Status = git -C $Root status --porcelain
 if([string]::IsNullOrWhiteSpace($Status)){
     Write-Host "[Publish] Nothing to commit."
 } else {
-    git -C $Root commit -m "Fix hoodie side depressions into dome shape"
+    git -C $Root commit -m "Correct hoodie side dome direction and raised reviews"
     if($LASTEXITCODE -ne 0){throw "git commit failed"}
 }
 
