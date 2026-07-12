@@ -4,16 +4,8 @@
     {
       "name": "177d920ddde57c74f8e1ef18863ab511",
       "type": "MESH",
-      "collections": [
-        "No Parking Sign Board"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        -0.030581,
-        1.878441
-      ],
       "dimensions": [
         0.426485,
         0.02647,
@@ -25,16 +17,8 @@
     {
       "name": "177d920ddde57c74f8e1ef18863ab511.001",
       "type": "MESH",
-      "collections": [
-        "No Parking Sign Board"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        -0.031867,
-        1.867754
-      ],
       "dimensions": [
         0.252639,
         0.013865,
@@ -46,17 +30,8 @@
     {
       "name": "Asphalt ground",
       "type": "MESH",
-      "collections": [
-        "Asphalt ground",
-        "ENV_PARKING"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        4.780939,
-        -0.876001
-      ],
       "dimensions": [
         70.766041,
         70.315693,
@@ -68,16 +43,8 @@
     {
       "name": "Audi e-tron GT quattro Black",
       "type": "EMPTY",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -1.511359,
-        5.16917,
-        0.0
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -87,16 +54,8 @@
     {
       "name": "Axle.001",
       "type": "MESH",
-      "collections": [
-        "Large Trash Can"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         0.91977,
         0.033327,
@@ -108,16 +67,8 @@
     {
       "name": "Bolt",
       "type": "MESH",
-      "collections": [
-        "No Parking Sign Board"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         0.165023,
         0.178251,
@@ -129,16 +80,8 @@
     {
       "name": "Bolt.001",
       "type": "MESH",
-      "collections": [
-        "No Parking Sign Board"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         0.013003,
         0.010439,
@@ -150,16 +93,8 @@
     {
       "name": "Bolt.002",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         4.962028,
         5.743917,
@@ -171,16 +106,8 @@
     {
       "name": "CAM_ANIM_Close",
       "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        -0.61761,
-        -3.923847,
-        3.903624
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -191,16 +118,8 @@
     {
       "name": "CAM_ANIM_Medium",
       "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        2.18239,
-        -6.923847,
-        4.703624
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -211,16 +130,8 @@
     {
       "name": "CAM_ANIM_Wide",
       "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        6.18239,
-        -11.423847,
-        6.403624
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -231,16 +142,8 @@
     {
       "name": "CAM_F2_Front",
       "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -0.215551,
-        -5.985823,
-        2.080285
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -251,16 +154,8 @@
     {
       "name": "CAM_F2_Profile",
       "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        5.284449,
-        -0.585823,
-        2.080285
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -271,16 +166,8 @@
     {
       "name": "CAM_F2_ThreeQuarter",
       "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        3.584449,
-        -5.785823,
-        2.280284
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -291,16 +178,8 @@
     {
       "name": "CAM_Hood_Front",
       "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -2.63761,
-        -3.773847,
-        3.817932
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -311,16 +190,8 @@
     {
       "name": "CAM_Hood_LeftSide",
       "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -6.26761,
-        0.076153,
-        3.557932
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -331,16 +202,8 @@
     {
       "name": "CAM_Hood_RightSide",
       "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.63239,
-        0.076153,
-        3.557932
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -351,16 +214,8 @@
     {
       "name": "CAM_Hood_Top",
       "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -2.76761,
-        -0.143847,
-        6.422239
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -371,16 +226,8 @@
     {
       "name": "CAM_SceneWide",
       "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        5.68239,
-        -10.423847,
-        6.803624
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -391,16 +238,8 @@
     {
       "name": "CAM_StorefrontReflection",
       "type": "CAMERA",
-      "collections": [
-        "Scene Collection"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        4.98239,
-        -9.923847,
-        3.853624
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -411,16 +250,8 @@
     {
       "name": "CAM_Target",
       "type": "EMPTY",
-      "collections": [
-        "CAM_Rigs"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        1.45
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -430,16 +261,8 @@
     {
       "name": "Can.001",
       "type": "MESH",
-      "collections": [
-        "Large Trash Can"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         1.133627,
         1.184647,
@@ -451,17 +274,8 @@
     {
       "name": "Cargo pants",
       "type": "MESH",
-      "collections": [
-        "Cargo pants",
-        "WARDROBE_IMPORTED"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -2.80222,
-        -0.00521,
-        0.329369
-      ],
       "dimensions": [
         1.559261,
         0.898337,
@@ -473,17 +287,8 @@
     {
       "name": "Cast iron sewer hatch",
       "type": "EMPTY",
-      "collections": [
-        "Cast iron sewer hatch",
-        "ENV_PARKING"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        2.427868,
-        -1.920543,
-        0.0
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -493,16 +298,8 @@
     {
       "name": "Circle",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         0.032937,
         0.039333,
@@ -514,16 +311,8 @@
     {
       "name": "Circle.001",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         0.353115,
         0.224175,
@@ -535,16 +324,8 @@
     {
       "name": "Circle.002",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.059894,
         1.35899,
@@ -556,16 +337,8 @@
     {
       "name": "Circle.003",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         5.083015,
         6.088898,
@@ -577,16 +350,8 @@
     {
       "name": "Circle.006",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         0.298755,
         0.205074,
@@ -598,16 +363,8 @@
     {
       "name": "Circle.007",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         0.453302,
         0.370829,
@@ -619,16 +376,8 @@
     {
       "name": "Circle.009",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         5.372815,
         6.450598,
@@ -640,16 +389,8 @@
     {
       "name": "Circle.011",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         4.90317,
         5.624327,
@@ -661,16 +402,8 @@
     {
       "name": "Cylinder",
       "type": "MESH",
-      "collections": [
-        "No Parking Sign Board"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        1.005406
-      ],
       "dimensions": [
         0.046797,
         0.046814,
@@ -682,16 +415,8 @@
     {
       "name": "ENV_Asphalt",
       "type": "MESH",
-      "collections": [
-        "ENV_ParkingLot"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        0.0,
-        0.0,
-        -0.12
-      ],
       "dimensions": [
         36.0,
         36.0,
@@ -703,96 +428,34 @@
     {
       "name": "F2",
       "type": "MESH",
-      "collections": [
-        "CHAR_F2",
-        "CHAR_Meshy_LeftCandidate_Refined"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        2.688858,
-        -0.249535,
-        0.01029
-      ],
       "dimensions": [
         2.783371,
         1.475343,
         2.749408
       ],
       "vertices": 30549,
-      "faces": 60930,
-      "shape_keys": [
-        {
-          "name": "Basis",
-          "value": 0.0
-        },
-        {
-          "name": "BODYFIT_HoodiePantsPrep_v1",
-          "value": 0.0
-        },
-        {
-          "name": "BODYFIT_TorsoHoodFit_v1",
-          "value": 0.0
-        },
-        {
-          "name": "BODYFIT_SilhouetteRefine_v1",
-          "value": 0.0
-        }
-      ]
+      "faces": 60930
     },
     {
       "name": "F2.001",
       "type": "MESH",
-      "collections": [
-        "CHAR_F2",
-        "CHAR_Meshy_LeftCandidate_Refined"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        2.688858,
-        -0.249535,
-        0.01029
-      ],
       "dimensions": [
         0.647593,
         0.639691,
         0.343261
       ],
       "vertices": 30549,
-      "faces": 60930,
-      "shape_keys": [
-        {
-          "name": "Basis",
-          "value": 0.0
-        },
-        {
-          "name": "BODYFIT_HoodiePantsPrep_v1",
-          "value": 0.0
-        },
-        {
-          "name": "BODYFIT_TorsoHoodFit_v1",
-          "value": 0.0
-        },
-        {
-          "name": "BODYFIT_SilhouetteRefine_v1",
-          "value": 0.0
-        }
-      ]
+      "faces": 60930
     },
     {
       "name": "FINAL_ORBIT_RIG",
       "type": "EMPTY",
-      "collections": [
-        "FINAL_HELPERS"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -0.675755,
-        0.317589,
-        -0.061357
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -802,16 +465,8 @@
     {
       "name": "FX_ReflectCard_Green_01",
       "type": "MESH",
-      "collections": [
-        "FX_REFLECTION_TRAFFIC"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        5.319022,
-        -0.936946,
-        2.465971
-      ],
       "dimensions": [
         0.22,
         0.22,
@@ -823,16 +478,8 @@
     {
       "name": "FX_ReflectCard_Green_02",
       "type": "MESH",
-      "collections": [
-        "FX_REFLECTION_TRAFFIC"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        4.091556,
-        -0.956946,
-        1.951001
-      ],
       "dimensions": [
         0.14,
         0.14,
@@ -844,16 +491,8 @@
     {
       "name": "FX_ReflectCard_Red_01",
       "type": "MESH",
-      "collections": [
-        "FX_REFLECTION_TRAFFIC"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -5.728178,
-        -0.936946,
-        2.505584
-      ],
       "dimensions": [
         0.22,
         0.22,
@@ -865,16 +504,8 @@
     {
       "name": "FX_ReflectCard_Red_02",
       "type": "MESH",
-      "collections": [
-        "FX_REFLECTION_TRAFFIC"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -4.500711,
-        -0.956946,
-        1.990614
-      ],
       "dimensions": [
         0.14,
         0.14,
@@ -886,16 +517,8 @@
     {
       "name": "FX_ReflectCard_Yellow_01",
       "type": "MESH",
-      "collections": [
-        "FX_REFLECTION_TRAFFIC"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        -0.936946,
-        2.426358
-      ],
       "dimensions": [
         0.2,
         0.2,
@@ -907,16 +530,8 @@
     {
       "name": "FX_ReflectCard_Yellow_02",
       "type": "MESH",
-      "collections": [
-        "FX_REFLECTION_TRAFFIC"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        1.227467,
-        -0.956946,
-        1.871775
-      ],
       "dimensions": [
         0.13,
         0.13,
@@ -928,17 +543,8 @@
     {
       "name": "FX_TrafficLight_Green",
       "type": "LIGHT",
-      "collections": [
-        "FX_REFLECTION_TRAFFIC",
-        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        5.728178,
-        -4.716946,
-        2.426358
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -948,17 +554,8 @@
     {
       "name": "FX_TrafficLight_Red",
       "type": "LIGHT",
-      "collections": [
-        "FX_REFLECTION_TRAFFIC",
-        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -5.728178,
-        -4.716946,
-        2.426358
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -968,17 +565,8 @@
     {
       "name": "FX_TrafficLight_Yellow",
       "type": "LIGHT",
-      "collections": [
-        "FX_REFLECTION_TRAFFIC",
-        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        -4.966946,
-        2.505584
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -988,16 +576,8 @@
     {
       "name": "HANDREFINE_J2B_Working",
       "type": "MESH",
-      "collections": [
-        "CHAR_HandRefine_J2B"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        2.688858,
-        -0.249535,
-        0.01029
-      ],
       "dimensions": [
         0.611403,
         0.639691,
@@ -1009,16 +589,8 @@
     {
       "name": "HERO_BlackSkateShoe_L_FlameAccent_0",
       "type": "MESH",
-      "collections": [
-        "Scene Collection"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        -0.967061,
-        -0.133357,
-        0.110569
-      ],
       "dimensions": [
         0.077934,
         0.088521,
@@ -1030,16 +602,8 @@
     {
       "name": "HERO_BlackSkateShoe_L_FlameAccent_1",
       "type": "MESH",
-      "collections": [
-        "Scene Collection"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        -0.967061,
-        -0.184994,
-        0.14906
-      ],
       "dimensions": [
         0.077934,
         0.088521,
@@ -1051,16 +615,8 @@
     {
       "name": "HERO_BlackSkateShoe_L_FlameAccent_2",
       "type": "MESH",
-      "collections": [
-        "Scene Collection"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        -0.967061,
-        -0.236631,
-        0.187552
-      ],
       "dimensions": [
         0.077934,
         0.088521,
@@ -1072,16 +628,8 @@
     {
       "name": "HERO_BlackSkateShoe_L_WhiteSole",
       "type": "MESH",
-      "collections": [
-        "Scene Collection"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -0.577389,
-        -0.089097,
-        0.019838
-      ],
       "dimensions": [
         1.002014,
         0.855699,
@@ -1093,16 +641,8 @@
     {
       "name": "HERO_BlackSkateShoe_R_FlameAccent_0",
       "type": "MESH",
-      "collections": [
-        "Scene Collection"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        0.535959,
-        -0.133357,
-        0.110569
-      ],
       "dimensions": [
         0.077934,
         0.088521,
@@ -1114,16 +654,8 @@
     {
       "name": "HERO_BlackSkateShoe_R_FlameAccent_1",
       "type": "MESH",
-      "collections": [
-        "Scene Collection"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        0.535959,
-        -0.184994,
-        0.14906
-      ],
       "dimensions": [
         0.077934,
         0.088521,
@@ -1135,16 +667,8 @@
     {
       "name": "HERO_BlackSkateShoe_R_FlameAccent_2",
       "type": "MESH",
-      "collections": [
-        "Scene Collection"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        0.535959,
-        -0.236631,
-        0.187552
-      ],
       "dimensions": [
         0.077934,
         0.088521,
@@ -1156,16 +680,8 @@
     {
       "name": "HERO_BlackSkateShoe_R_WhiteSole",
       "type": "MESH",
-      "collections": [
-        "Scene Collection"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.146287,
-        -0.089097,
-        0.019838
-      ],
       "dimensions": [
         1.002014,
         0.855699,
@@ -1177,17 +693,8 @@
     {
       "name": "HERO_CarAmberHoodRead",
       "type": "LIGHT",
-      "collections": [
-        "ENV_LIGHTING_APPROVED",
-        "HERO_CAR_AMBER_READ"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        5.265154,
-        1.978295,
-        5.190777
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -1197,17 +704,8 @@
     {
       "name": "HERO_CarAmberRoofRead",
       "type": "LIGHT",
-      "collections": [
-        "ENV_LIGHTING_APPROVED",
-        "HERO_CAR_AMBER_READ"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -5.186506,
-        1.995343,
-        5.201615
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -1217,17 +715,8 @@
     {
       "name": "HERO_CarWarmSideGlint",
       "type": "LIGHT",
-      "collections": [
-        "ENV_LIGHTING_APPROVED",
-        "HERO_CAR_AMBER_READ"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.007344,
-        22.906092,
-        7.155601
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -1237,16 +726,8 @@
     {
       "name": "HERO_Curb_VerticalFace",
       "type": "MESH",
-      "collections": [
-        "HERO_SIDEWALK_CURB_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        19.0226,
-        -0.015452
-      ],
       "dimensions": [
         26.907015,
         0.191422,
@@ -1258,17 +739,8 @@
     {
       "name": "HERO_CyanUnderglow_Area",
       "type": "LIGHT",
-      "collections": [
-        "ENV_LIGHTING_APPROVED",
-        "HERO_CAR_UNDERGLOW"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -1.522953,
-        5.177517,
-        0.075276
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -1278,16 +750,8 @@
     {
       "name": "HERO_DoubleDoor_CenterMeet_1",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -2.713787,
-        23.812,
-        1.682151
-      ],
       "dimensions": [
         0.035,
         0.130001,
@@ -1299,16 +763,8 @@
     {
       "name": "HERO_DoubleDoor_CenterMeet_2",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        2.713787,
-        23.812,
-        1.682151
-      ],
       "dimensions": [
         0.035,
         0.130001,
@@ -1320,16 +776,8 @@
     {
       "name": "HERO_DoubleDoor_LeftSide_1",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -4.133306,
-        23.815001,
-        1.682151
-      ],
       "dimensions": [
         0.035,
         0.125,
@@ -1341,16 +789,8 @@
     {
       "name": "HERO_DoubleDoor_LeftSide_2",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        1.294268,
-        23.815001,
-        1.682151
-      ],
       "dimensions": [
         0.035,
         0.125,
@@ -1362,16 +802,8 @@
     {
       "name": "HERO_DoubleDoor_RightSide_1",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -1.294268,
-        23.815001,
-        1.682151
-      ],
       "dimensions": [
         0.035,
         0.125,
@@ -1383,16 +815,8 @@
     {
       "name": "HERO_DoubleDoor_RightSide_2",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        4.133306,
-        23.815001,
-        1.682151
-      ],
       "dimensions": [
         0.035,
         0.125,
@@ -1404,16 +828,8 @@
     {
       "name": "HERO_DoubleDoor_TopFrame_1",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -2.713787,
-        23.812,
-        3.304301
-      ],
       "dimensions": [
         2.839038,
         0.130001,
@@ -1425,16 +841,8 @@
     {
       "name": "HERO_DoubleDoor_TopFrame_2",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        2.713787,
-        23.812,
-        3.304301
-      ],
       "dimensions": [
         2.839038,
         0.130001,
@@ -1446,16 +854,8 @@
     {
       "name": "HERO_GlassStorefront_Bay_0",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -8.14136,
-        23.870001,
-        1.995827
-      ],
       "dimensions": [
         4.175056,
         0.035999,
@@ -1467,16 +867,8 @@
     {
       "name": "HERO_GlassStorefront_Bay_1",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -2.713787,
-        23.870001,
-        1.995827
-      ],
       "dimensions": [
         4.175057,
         0.035999,
@@ -1488,16 +880,8 @@
     {
       "name": "HERO_GlassStorefront_Bay_2",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        2.713787,
-        23.870001,
-        1.995827
-      ],
       "dimensions": [
         4.175057,
         0.035999,
@@ -1509,16 +893,8 @@
     {
       "name": "HERO_GlassStorefront_Bay_3",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        8.14136,
-        23.870001,
-        1.995827
-      ],
       "dimensions": [
         4.175056,
         0.035999,
@@ -1530,19 +906,8 @@
     {
       "name": "HERO_HParking_CenterSpine",
       "type": "MESH",
-      "collections": [
-        "ENV_PARKING",
-        "HERO_H_PARKING_LAYOUT",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        2.65,
-        0.187254
-      ],
       "dimensions": [
         18.509418,
         0.075,
@@ -1554,19 +919,8 @@
     {
       "name": "HERO_HParking_Row0_Divider_0",
       "type": "MESH",
-      "collections": [
-        "ENV_PARKING",
-        "HERO_H_PARKING_LAYOUT",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -9.254709,
-        1.15,
-        0.187254
-      ],
       "dimensions": [
         0.075001,
         3.467057,
@@ -1578,19 +932,8 @@
     {
       "name": "HERO_HParking_Row0_Divider_1",
       "type": "MESH",
-      "collections": [
-        "ENV_PARKING",
-        "HERO_H_PARKING_LAYOUT",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -6.610507,
-        1.15,
-        0.187254
-      ],
       "dimensions": [
         0.075,
         3.467057,
@@ -1602,19 +945,8 @@
     {
       "name": "HERO_HParking_Row0_Divider_2",
       "type": "MESH",
-      "collections": [
-        "ENV_PARKING",
-        "HERO_H_PARKING_LAYOUT",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -3.966304,
-        1.15,
-        0.187254
-      ],
       "dimensions": [
         0.075,
         3.467057,
@@ -1626,19 +958,8 @@
     {
       "name": "HERO_HParking_Row0_Divider_3",
       "type": "MESH",
-      "collections": [
-        "ENV_PARKING",
-        "HERO_H_PARKING_LAYOUT",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -1.322101,
-        1.15,
-        0.187254
-      ],
       "dimensions": [
         0.075,
         3.467057,
@@ -1650,19 +971,8 @@
     {
       "name": "HERO_HParking_Row0_Divider_4",
       "type": "MESH",
-      "collections": [
-        "ENV_PARKING",
-        "HERO_H_PARKING_LAYOUT",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        1.322101,
-        1.15,
-        0.187254
-      ],
       "dimensions": [
         0.075,
         3.467057,
@@ -1674,19 +984,8 @@
     {
       "name": "HERO_HParking_Row0_Divider_5",
       "type": "MESH",
-      "collections": [
-        "ENV_PARKING",
-        "HERO_H_PARKING_LAYOUT",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        3.966304,
-        1.15,
-        0.187254
-      ],
       "dimensions": [
         0.075,
         3.467057,
@@ -1698,19 +997,8 @@
     {
       "name": "HERO_HParking_Row0_Divider_6",
       "type": "MESH",
-      "collections": [
-        "ENV_PARKING",
-        "HERO_H_PARKING_LAYOUT",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        6.610507,
-        1.15,
-        0.187254
-      ],
       "dimensions": [
         0.075,
         3.467057,
@@ -1722,19 +1010,8 @@
     {
       "name": "HERO_HParking_Row0_Divider_7",
       "type": "MESH",
-      "collections": [
-        "ENV_PARKING",
-        "HERO_H_PARKING_LAYOUT",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        9.254709,
-        1.15,
-        0.187254
-      ],
       "dimensions": [
         0.075001,
         3.467057,
@@ -1746,19 +1023,8 @@
     {
       "name": "HERO_HParking_Row1_Divider_0",
       "type": "MESH",
-      "collections": [
-        "ENV_PARKING",
-        "HERO_H_PARKING_LAYOUT",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -9.254709,
-        4.15,
-        0.187254
-      ],
       "dimensions": [
         0.075001,
         3.467057,
@@ -1770,19 +1036,8 @@
     {
       "name": "HERO_HParking_Row1_Divider_1",
       "type": "MESH",
-      "collections": [
-        "ENV_PARKING",
-        "HERO_H_PARKING_LAYOUT",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -6.610507,
-        4.15,
-        0.187254
-      ],
       "dimensions": [
         0.075,
         3.467057,
@@ -1794,19 +1049,8 @@
     {
       "name": "HERO_HParking_Row1_Divider_2",
       "type": "MESH",
-      "collections": [
-        "ENV_PARKING",
-        "HERO_H_PARKING_LAYOUT",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -3.966304,
-        4.15,
-        0.187254
-      ],
       "dimensions": [
         0.075,
         3.467057,
@@ -1818,19 +1062,8 @@
     {
       "name": "HERO_HParking_Row1_Divider_3",
       "type": "MESH",
-      "collections": [
-        "ENV_PARKING",
-        "HERO_H_PARKING_LAYOUT",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -1.322101,
-        4.15,
-        0.187254
-      ],
       "dimensions": [
         0.075,
         3.467057,
@@ -1842,19 +1075,8 @@
     {
       "name": "HERO_HParking_Row1_Divider_4",
       "type": "MESH",
-      "collections": [
-        "ENV_PARKING",
-        "HERO_H_PARKING_LAYOUT",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        1.322101,
-        4.15,
-        0.187254
-      ],
       "dimensions": [
         0.075,
         3.467057,
@@ -1866,19 +1088,8 @@
     {
       "name": "HERO_HParking_Row1_Divider_5",
       "type": "MESH",
-      "collections": [
-        "ENV_PARKING",
-        "HERO_H_PARKING_LAYOUT",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        3.966304,
-        4.15,
-        0.187254
-      ],
       "dimensions": [
         0.075,
         3.467057,
@@ -1890,19 +1101,8 @@
     {
       "name": "HERO_HParking_Row1_Divider_6",
       "type": "MESH",
-      "collections": [
-        "ENV_PARKING",
-        "HERO_H_PARKING_LAYOUT",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        6.610507,
-        4.15,
-        0.187254
-      ],
       "dimensions": [
         0.075,
         3.467057,
@@ -1914,19 +1114,8 @@
     {
       "name": "HERO_HParking_Row1_Divider_7",
       "type": "MESH",
-      "collections": [
-        "ENV_PARKING",
-        "HERO_H_PARKING_LAYOUT",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        9.254709,
-        4.15,
-        0.187254
-      ],
       "dimensions": [
         0.075001,
         3.467057,
@@ -1938,16 +1127,8 @@
     {
       "name": "HERO_LampArm_0",
       "type": "MESH",
-      "collections": [
-        "HERO_VISIBLE_LAMPPOSTS"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -5.222266,
-        2.329782,
-        5.278863
-      ],
       "dimensions": [
         0.05121,
         0.64,
@@ -1959,16 +1140,8 @@
     {
       "name": "HERO_LampArm_1",
       "type": "MESH",
-      "collections": [
-        "HERO_VISIBLE_LAMPPOSTS"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        5.271664,
-        2.333654,
-        5.278863
-      ],
       "dimensions": [
         0.076567,
         0.641528,
@@ -1980,16 +1153,8 @@
     {
       "name": "HERO_LampFixture_0",
       "type": "MESH",
-      "collections": [
-        "HERO_VISIBLE_LAMPPOSTS"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -5.222266,
-        1.989782,
-        5.278863
-      ],
       "dimensions": [
         0.84,
         0.34,
@@ -2001,16 +1166,8 @@
     {
       "name": "HERO_LampFixture_1",
       "type": "MESH",
-      "collections": [
-        "HERO_VISIBLE_LAMPPOSTS"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        5.258172,
-        1.993921,
-        5.278863
-      ],
       "dimensions": [
         0.852831,
         0.373066,
@@ -2022,16 +1179,8 @@
     {
       "name": "HERO_LampGlass_0",
       "type": "MESH",
-      "collections": [
-        "HERO_VISIBLE_LAMPPOSTS"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -5.222266,
-        1.989782,
-        5.238863
-      ],
       "dimensions": [
         0.72,
         0.26,
@@ -2043,16 +1192,8 @@
     {
       "name": "HERO_LampGlass_1",
       "type": "MESH",
-      "collections": [
-        "HERO_VISIBLE_LAMPPOSTS"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        5.258172,
-        1.993921,
-        5.238863
-      ],
       "dimensions": [
         0.729751,
         0.288367,
@@ -2064,16 +1205,8 @@
     {
       "name": "HERO_LampPole_0",
       "type": "MESH",
-      "collections": [
-        "HERO_VISIBLE_LAMPPOSTS"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -5.222266,
-        2.649782,
-        2.639431
-      ],
       "dimensions": [
         0.09,
         0.09,
@@ -2085,16 +1218,8 @@
     {
       "name": "HERO_LampPole_1",
       "type": "MESH",
-      "collections": [
-        "HERO_VISIBLE_LAMPPOSTS"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        5.284363,
-        2.653402,
-        2.639432
-      ],
       "dimensions": [
         0.0935,
         0.093501,
@@ -2106,16 +1231,8 @@
     {
       "name": "HERO_Rooftop_HVAC_0",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -8.194244,
-        27.0,
-        6.323638
-      ],
       "dimensions": [
         1.113348,
         0.48,
@@ -2127,16 +1244,8 @@
     {
       "name": "HERO_Rooftop_HVAC_1",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -2.560701,
-        27.0,
-        6.323638
-      ],
       "dimensions": [
         1.113348,
         0.48,
@@ -2148,16 +1257,8 @@
     {
       "name": "HERO_Rooftop_HVAC_2",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        3.072842,
-        27.0,
-        6.323638
-      ],
       "dimensions": [
         1.113348,
         0.48,
@@ -2169,16 +1270,8 @@
     {
       "name": "HERO_Rooftop_HVAC_3",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        8.706385,
-        27.0,
-        6.323638
-      ],
       "dimensions": [
         1.113348,
         0.48,
@@ -2190,16 +1283,8 @@
     {
       "name": "HERO_Rooftop_Vent_0",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -7.693238,
-        27.059999,
-        6.543591
-      ],
       "dimensions": [
         0.09,
         0.09,
@@ -2211,16 +1296,8 @@
     {
       "name": "HERO_Rooftop_Vent_1",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -2.059695,
-        27.059999,
-        6.543591
-      ],
       "dimensions": [
         0.09,
         0.09,
@@ -2232,16 +1309,8 @@
     {
       "name": "HERO_Rooftop_Vent_2",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        3.573848,
-        27.059999,
-        6.543591
-      ],
       "dimensions": [
         0.09,
         0.09,
@@ -2253,16 +1322,8 @@
     {
       "name": "HERO_Rooftop_Vent_3",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        9.207392,
-        27.059999,
-        6.543591
-      ],
       "dimensions": [
         0.09,
         0.09,
@@ -2274,16 +1335,8 @@
     {
       "name": "HERO_Sidewalk_ExpansionJoint_X_1",
       "type": "MESH",
-      "collections": [
-        "HERO_SIDEWALK_CURB_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -9.602631,
-        21.528799,
-        0.046
-      ],
       "dimensions": [
         0.035999,
         4.942402,
@@ -2295,16 +1348,8 @@
     {
       "name": "HERO_Sidewalk_ExpansionJoint_X_2",
       "type": "MESH",
-      "collections": [
-        "HERO_SIDEWALK_CURB_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -6.401753,
-        21.528799,
-        0.046
-      ],
       "dimensions": [
         0.036,
         4.942402,
@@ -2316,16 +1361,8 @@
     {
       "name": "HERO_Sidewalk_ExpansionJoint_X_3",
       "type": "MESH",
-      "collections": [
-        "HERO_SIDEWALK_CURB_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -3.200877,
-        21.528799,
-        0.046
-      ],
       "dimensions": [
         0.036,
         4.942402,
@@ -2337,16 +1374,8 @@
     {
       "name": "HERO_Sidewalk_ExpansionJoint_X_4",
       "type": "MESH",
-      "collections": [
-        "HERO_SIDEWALK_CURB_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        21.528799,
-        0.046
-      ],
       "dimensions": [
         0.036,
         4.942402,
@@ -2358,16 +1387,8 @@
     {
       "name": "HERO_Sidewalk_ExpansionJoint_X_5",
       "type": "MESH",
-      "collections": [
-        "HERO_SIDEWALK_CURB_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        3.200877,
-        21.528799,
-        0.046
-      ],
       "dimensions": [
         0.036,
         4.942402,
@@ -2379,16 +1400,8 @@
     {
       "name": "HERO_Sidewalk_ExpansionJoint_X_6",
       "type": "MESH",
-      "collections": [
-        "HERO_SIDEWALK_CURB_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        6.401753,
-        21.528799,
-        0.046
-      ],
       "dimensions": [
         0.036,
         4.942402,
@@ -2400,16 +1413,8 @@
     {
       "name": "HERO_Sidewalk_ExpansionJoint_X_7",
       "type": "MESH",
-      "collections": [
-        "HERO_SIDEWALK_CURB_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        9.602631,
-        21.528799,
-        0.046
-      ],
       "dimensions": [
         0.035999,
         4.942402,
@@ -2421,16 +1426,8 @@
     {
       "name": "HERO_Sidewalk_WideTop",
       "type": "MESH",
-      "collections": [
-        "HERO_SIDEWALK_CURB_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        21.528799,
-        0.02
-      ],
       "dimensions": [
         26.907015,
         4.942402,
@@ -2442,16 +1439,8 @@
     {
       "name": "HERO_StoreMall_DeepBody",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        27.0,
-        2.886878
-      ],
       "dimensions": [
         25.607014,
         6.0,
@@ -2463,16 +1452,8 @@
     {
       "name": "HERO_StoreMall_FlatRoof",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        27.0,
-        5.966215
-      ],
       "dimensions": [
         26.407015,
         6.5,
@@ -2484,16 +1465,8 @@
     {
       "name": "HERO_StoreMall_FrontParapet",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        23.92,
-        6.488602
-      ],
       "dimensions": [
         26.507013,
         0.200001,
@@ -2505,16 +1478,8 @@
     {
       "name": "HERO_Storefront_CenterMullion_0",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -8.14136,
-        23.834999,
-        1.995827
-      ],
       "dimensions": [
         0.035,
         0.099998,
@@ -2526,16 +1491,8 @@
     {
       "name": "HERO_Storefront_CenterMullion_3",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        8.14136,
-        23.834999,
-        1.995827
-      ],
       "dimensions": [
         0.035,
         0.099998,
@@ -2547,16 +1504,8 @@
     {
       "name": "HERO_Storefront_ContinuousBottomFrame",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        23.834999,
-        0.06
-      ],
       "dimensions": [
         20.657778,
         0.099998,
@@ -2568,16 +1517,8 @@
     {
       "name": "HERO_Storefront_ContinuousTopFrame",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        23.834999,
-        3.931653
-      ],
       "dimensions": [
         20.657778,
         0.099998,
@@ -2589,16 +1530,8 @@
     {
       "name": "HERO_Storefront_LeftVertical_0",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -10.228889,
-        23.834999,
-        1.995827
-      ],
       "dimensions": [
         0.035,
         0.099998,
@@ -2610,16 +1543,8 @@
     {
       "name": "HERO_Storefront_LeftVertical_1",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -4.801315,
-        23.834999,
-        1.995827
-      ],
       "dimensions": [
         0.035,
         0.099998,
@@ -2631,16 +1556,8 @@
     {
       "name": "HERO_Storefront_LeftVertical_2",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.626258,
-        23.834999,
-        1.995827
-      ],
       "dimensions": [
         0.035,
         0.099998,
@@ -2652,16 +1569,8 @@
     {
       "name": "HERO_Storefront_LeftVertical_3",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        6.053832,
-        23.834999,
-        1.995827
-      ],
       "dimensions": [
         0.035,
         0.099998,
@@ -2673,16 +1582,8 @@
     {
       "name": "HERO_Storefront_MidHorizontal_0",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -8.14136,
-        23.834999,
-        1.995827
-      ],
       "dimensions": [
         4.175056,
         0.099998,
@@ -2694,16 +1595,8 @@
     {
       "name": "HERO_Storefront_MidHorizontal_1",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -2.713787,
-        23.834999,
-        1.995827
-      ],
       "dimensions": [
         4.175057,
         0.099998,
@@ -2715,16 +1608,8 @@
     {
       "name": "HERO_Storefront_MidHorizontal_2",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        2.713787,
-        23.834999,
-        1.995827
-      ],
       "dimensions": [
         4.175057,
         0.099998,
@@ -2736,16 +1621,8 @@
     {
       "name": "HERO_Storefront_MidHorizontal_3",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        8.14136,
-        23.834999,
-        1.995827
-      ],
       "dimensions": [
         4.175056,
         0.099998,
@@ -2757,16 +1634,8 @@
     {
       "name": "HERO_Storefront_RightVertical_0",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -6.053832,
-        23.834999,
-        1.995827
-      ],
       "dimensions": [
         0.035,
         0.099998,
@@ -2778,16 +1647,8 @@
     {
       "name": "HERO_Storefront_RightVertical_1",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -0.626258,
-        23.834999,
-        1.995827
-      ],
       "dimensions": [
         0.035,
         0.099998,
@@ -2799,16 +1660,8 @@
     {
       "name": "HERO_Storefront_RightVertical_2",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        4.801315,
-        23.834999,
-        1.995827
-      ],
       "dimensions": [
         0.035,
         0.099998,
@@ -2820,16 +1673,8 @@
     {
       "name": "HERO_Storefront_RightVertical_3",
       "type": "MESH",
-      "collections": [
-        "HERO_STOREFRONT_REBUILD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        10.228889,
-        23.834999,
-        1.995827
-      ],
       "dimensions": [
         0.035,
         0.099998,
@@ -2841,19 +1686,8 @@
     {
       "name": "HERO_Underglow_FrontHiddenStrip",
       "type": "MESH",
-      "collections": [
-        "ENV_PARKING",
-        "HERO_CAR_UNDERGLOW",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -0.419602,
-        3.300874,
-        0.192754
-      ],
       "dimensions": [
         1.868341,
         0.993543,
@@ -2865,19 +1699,8 @@
     {
       "name": "HERO_Underglow_RearHiddenStrip",
       "type": "MESH",
-      "collections": [
-        "ENV_PARKING",
-        "HERO_CAR_UNDERGLOW",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -2.454135,
-        7.081832,
-        0.192754
-      ],
       "dimensions": [
         1.80072,
         0.903876,
@@ -2889,16 +1712,8 @@
     {
       "name": "Handlebars.001",
       "type": "MESH",
-      "collections": [
-        "Large Trash Can"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         0.68882,
         0.196537,
@@ -2910,16 +1725,8 @@
     {
       "name": "Large Trash Can",
       "type": "EMPTY",
-      "collections": [
-        "Large Trash Can"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        23.245672,
-        0.0
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -2929,16 +1736,8 @@
     {
       "name": "Lid Pins.001",
       "type": "MESH",
-      "collections": [
-        "Large Trash Can"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -0.0,
-        0.417478,
-        1.111198
-      ],
       "dimensions": [
         0.747022,
         0.042809,
@@ -2950,17 +1749,8 @@
     {
       "name": "Lid.001",
       "type": "MESH",
-      "collections": [
-        "Large Trash Can",
-        "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -0.0,
-        0.417478,
-        1.111198
-      ],
       "dimensions": [
         1.053914,
         1.260361,
@@ -2972,16 +1762,8 @@
     {
       "name": "MESHY_LEFT_REFINED_00",
       "type": "MESH",
-      "collections": [
-        "CHAR_Meshy_LeftCandidate_Refined"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        2.688858,
-        -0.249535,
-        0.01029
-      ],
       "dimensions": [
         0.749037,
         0.639691,
@@ -2993,16 +1775,8 @@
     {
       "name": "MESHY_LEFT_SOURCE_00",
       "type": "MESH",
-      "collections": [
-        "BASE_Meshy_LeftCandidate_Source"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        2.688858,
-        -0.249535,
-        0.01029
-      ],
       "dimensions": [
         0.751085,
         0.639829,
@@ -3014,16 +1788,8 @@
     {
       "name": "MOUTH_CUT_GUIDE_Data",
       "type": "CURVE",
-      "collections": [
-        "CHAR_Meshy_LeftCandidate_Refined"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -0.626627,
-        -0.006094,
-        0.04515
-      ],
       "dimensions": [
         0.158167,
         0.014303,
@@ -3033,16 +1799,8 @@
     {
       "name": "Mball.008",
       "type": "MESH",
-      "collections": [
-        "No Parking Sign Board"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.127337,
-        -0.030586,
-        2.01407
-      ],
       "dimensions": [
         0.265476,
         0.020794,
@@ -3054,16 +1812,8 @@
     {
       "name": "Mball.011",
       "type": "MESH",
-      "collections": [
-        "No Parking Sign Board"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -0.022724,
-        -0.005908,
-        0.025406
-      ],
       "dimensions": [
         0.059259,
         0.057907,
@@ -3075,17 +1825,8 @@
     {
       "name": "No Parking Sign Board",
       "type": "EMPTY",
-      "collections": [
-        "ENV_PARKING",
-        "No Parking Sign Board"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -10.828649,
-        19.20541,
-        0.060147
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -3095,16 +1836,8 @@
     {
       "name": "Plane",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         3.18126,
         3.141149,
@@ -3116,17 +1849,8 @@
     {
       "name": "Plane.001",
       "type": "MESH",
-      "collections": [
-        "Shoes",
-        "WARDROBE_IMPORTED"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -0.064073,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         0.626516,
         0.950595,
@@ -3138,16 +1862,8 @@
     {
       "name": "Plane.002",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         3.407207,
         2.653353,
@@ -3159,16 +1875,8 @@
     {
       "name": "Plane.003",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.920681,
         2.014244,
@@ -3180,16 +1888,8 @@
     {
       "name": "Plane.004",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         3.597764,
         3.084245,
@@ -3201,16 +1901,8 @@
     {
       "name": "Plane.005",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         3.648615,
         3.091781,
@@ -3222,16 +1914,8 @@
     {
       "name": "Plane.006",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         5.047075,
         5.794346,
@@ -3243,16 +1927,8 @@
     {
       "name": "Plane.007",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         4.378591,
         4.467309,
@@ -3264,16 +1940,8 @@
     {
       "name": "Plane.008",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.902925,
         3.179534,
@@ -3285,16 +1953,8 @@
     {
       "name": "Plane.009",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         1.743563,
         1.143356,
@@ -3306,16 +1966,8 @@
     {
       "name": "Plane.010",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.193757,
         1.773015,
@@ -3327,16 +1979,8 @@
     {
       "name": "Plane.011",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         1.551346,
         0.907192,
@@ -3348,16 +1992,8 @@
     {
       "name": "Plane.012",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         1.808538,
         1.297402,
@@ -3369,16 +2005,8 @@
     {
       "name": "Plane.013",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         3.262776,
         2.431212,
@@ -3390,16 +2018,8 @@
     {
       "name": "Plane.014",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         3.133461,
         2.288276,
@@ -3411,16 +2031,8 @@
     {
       "name": "Plane.015",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.059358,
         1.307454,
@@ -3432,16 +2044,8 @@
     {
       "name": "Plane.016",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.289762,
         1.705429,
@@ -3453,16 +2057,8 @@
     {
       "name": "Plane.017",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.113891,
         1.620678,
@@ -3474,16 +2070,8 @@
     {
       "name": "Plane.018",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         1.508734,
         1.25697,
@@ -3495,16 +2083,8 @@
     {
       "name": "Plane.019",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         3.162104,
         2.292806,
@@ -3516,16 +2096,8 @@
     {
       "name": "Plane.020",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.459338,
         1.498135,
@@ -3537,16 +2109,8 @@
     {
       "name": "Plane.021",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.309491,
         1.439219,
@@ -3558,17 +2122,8 @@
     {
       "name": "Plane.022",
       "type": "MESH",
-      "collections": [
-        "Shoes",
-        "WARDROBE_IMPORTED"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.065381,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         0.626517,
         0.950595,
@@ -3580,16 +2135,8 @@
     {
       "name": "Plane.023",
       "type": "MESH",
-      "collections": [
-        "No Parking Sign Board"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -0.0,
-        0.0,
-        0.005406
-      ],
       "dimensions": [
         0.267585,
         0.267584,
@@ -3601,16 +2148,8 @@
     {
       "name": "Plane.024",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         4.619956,
         5.608452,
@@ -3622,16 +2161,8 @@
     {
       "name": "Plane.025",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         3.953485,
         4.298723,
@@ -3643,16 +2174,8 @@
     {
       "name": "Plane.026",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         1.401062,
         0.88293,
@@ -3664,16 +2187,8 @@
     {
       "name": "Plane.027",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         6.060659,
         7.745157,
@@ -3685,16 +2200,8 @@
     {
       "name": "Plane.028",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         1.353342,
         0.872962,
@@ -3706,16 +2213,8 @@
     {
       "name": "Plane.029",
       "type": "MESH",
-      "collections": [
-        "Cast iron sewer hatch"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        -0.018496
-      ],
       "dimensions": [
         0.971477,
         0.971477,
@@ -3727,16 +2226,8 @@
     {
       "name": "Plane.030",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         0.833996,
         0.604236,
@@ -3748,16 +2239,8 @@
     {
       "name": "Plane.031",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         0.104465,
         0.094461,
@@ -3769,16 +2252,8 @@
     {
       "name": "Plane.032",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.775446,
         1.603065,
@@ -3790,16 +2265,8 @@
     {
       "name": "Plane.033",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         3.681785,
         3.193502,
@@ -3811,16 +2278,8 @@
     {
       "name": "Plane.034",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         3.229456,
         1.906515,
@@ -3832,16 +2291,8 @@
     {
       "name": "Plane.035",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.524132,
         1.608474,
@@ -3853,16 +2304,8 @@
     {
       "name": "Plane.036",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.295025,
         1.375324,
@@ -3874,16 +2317,8 @@
     {
       "name": "Plane.037",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.810511,
         1.928159,
@@ -3895,16 +2330,8 @@
     {
       "name": "Plane.038",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.90456,
         1.976458,
@@ -3916,16 +2343,8 @@
     {
       "name": "Plane.039",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         1.290713,
         0.670511,
@@ -3937,16 +2356,8 @@
     {
       "name": "Plane.040",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         3.079275,
         1.662402,
@@ -3958,16 +2369,8 @@
     {
       "name": "Plane.041",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         1.200482,
         0.713297,
@@ -3979,16 +2382,8 @@
     {
       "name": "Plane.042",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.11092,
         1.28221,
@@ -4000,16 +2395,8 @@
     {
       "name": "Plane.043",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         1.448743,
         0.857288,
@@ -4021,16 +2408,8 @@
     {
       "name": "Plane.045",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.620227,
         1.828115,
@@ -4042,16 +2421,8 @@
     {
       "name": "Plane.047",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.862259,
         2.03985,
@@ -4063,16 +2434,8 @@
     {
       "name": "Plane.048",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.76549,
         1.883227,
@@ -4084,16 +2447,8 @@
     {
       "name": "Plane.049",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.765114,
         2.017748,
@@ -4105,16 +2460,8 @@
     {
       "name": "Plane.050",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.756282,
         1.942394,
@@ -4126,16 +2473,8 @@
     {
       "name": "Plane.051",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.511614,
         1.676124,
@@ -4147,16 +2486,8 @@
     {
       "name": "Plane.052",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.327899,
         1.440327,
@@ -4168,16 +2499,8 @@
     {
       "name": "Plane.053",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.309229,
         1.396087,
@@ -4189,16 +2512,8 @@
     {
       "name": "Plane.054",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.536843,
         1.459589,
@@ -4210,16 +2525,8 @@
     {
       "name": "Plane.055",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.119414,
         1.202733,
@@ -4231,16 +2538,8 @@
     {
       "name": "Plane.056",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         3.036253,
         2.232702,
@@ -4252,16 +2551,8 @@
     {
       "name": "Plane.057",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.601479,
         1.453259,
@@ -4273,16 +2564,8 @@
     {
       "name": "Plane.058",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.760767,
         1.73149,
@@ -4294,16 +2577,8 @@
     {
       "name": "Plane.059",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.511296,
         1.414055,
@@ -4315,16 +2590,8 @@
     {
       "name": "Plane.060",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.884162,
         2.04316,
@@ -4336,16 +2603,8 @@
     {
       "name": "Plane.061",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.417875,
         1.265083,
@@ -4357,16 +2616,8 @@
     {
       "name": "Plane.062",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.116791,
         1.297871,
@@ -4378,16 +2629,8 @@
     {
       "name": "Plane.063",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.222176,
         1.490107,
@@ -4399,16 +2642,8 @@
     {
       "name": "Plane.064",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.703604,
         1.730586,
@@ -4420,16 +2655,8 @@
     {
       "name": "Plane.065",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.574204,
         1.557535,
@@ -4441,16 +2668,8 @@
     {
       "name": "Plane.066",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.360613,
         1.466117,
@@ -4462,16 +2681,8 @@
     {
       "name": "Plane.067",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.819869,
         1.999782,
@@ -4483,16 +2694,8 @@
     {
       "name": "Plane.068",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.42244,
         1.582986,
@@ -4504,16 +2707,8 @@
     {
       "name": "Plane.069",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.525618,
         1.64777,
@@ -4525,16 +2720,8 @@
     {
       "name": "Plane.070",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         1.862912,
         1.025428,
@@ -4546,16 +2733,8 @@
     {
       "name": "Plane.071",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         1.812208,
         0.945842,
@@ -4567,16 +2746,8 @@
     {
       "name": "Plane.072",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         2.933166,
         2.078957,
@@ -4588,16 +2759,8 @@
     {
       "name": "Plane.074",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         5.463704,
         6.615914,
@@ -4609,16 +2772,8 @@
     {
       "name": "Plane.076",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         3.993265,
         3.781497,
@@ -4630,16 +2785,8 @@
     {
       "name": "Plane.077",
       "type": "MESH",
-      "collections": [
-        "Audi e-tron GT quattro Black"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         4.690357,
         5.328498,
@@ -4651,16 +2798,8 @@
     {
       "name": "Ribbing.001",
       "type": "MESH",
-      "collections": [
-        "Large Trash Can"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         1.1229,
         1.140148,
@@ -4672,93 +2811,21 @@
     {
       "name": "SACKBOY_Hoodie_Main",
       "type": "MESH",
-      "collections": [
-        "Apricot Pullover Hoodie",
-        "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS",
-        "WARDROBE_IMPORTED"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -2.816514,
-        0.012429,
-        0.993742
-      ],
       "dimensions": [
         2.277528,
-        1.142069,
-        2.412861
+        1.142038,
+        2.412762
       ],
       "vertices": 257116,
-      "faces": 489064,
-      "shape_keys": [
-        {
-          "name": "Basis",
-          "value": 1.0
-        },
-        {
-          "name": "HOODIEFIT_NarrowSackboy_v1",
-          "value": 0.0
-        },
-        {
-          "name": "HOODIEFIT_CrownSleeveTaper_v1",
-          "value": 0.0
-        },
-        {
-          "name": "HOODIEFIT_CrownSmoothExpand_v1",
-          "value": 0.0
-        },
-        {
-          "name": "HOODIEFIT_RimCrownContain_v1",
-          "value": 0.0
-        },
-        {
-          "name": "HOODIEFIT_TopArtifactFix_v1",
-          "value": 0.0
-        },
-        {
-          "name": "HOODIEFIT_BowlRidgePolish_v1",
-          "value": 0.0
-        },
-        {
-          "name": "HOODIEFIT_BowlRimRefine_v1",
-          "value": 0.0
-        },
-        {
-          "name": "HOODIEFIT_SpikeSleeveSideFix_v1",
-          "value": 0.0
-        },
-        {
-          "name": "HOODIEFIT_CameraCleanupShapeFix_v1",
-          "value": 0.0
-        },
-        {
-          "name": "HOODIEFIT_SideBackBowlFix_v1",
-          "value": 0.0
-        },
-        {
-          "name": "HOODIEFIT_DomeSideDepressionFix_v1B",
-          "value": 0.0
-        },
-        {
-          "name": "HOODIEFIT_SideDomeCorrection_v1C",
-          "value": 1.0
-        }
-      ]
+      "faces": 489064
     },
     {
       "name": "SK_Eye_L",
       "type": "MESH",
-      "collections": [
-        "CHAR_SackDoll"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        -0.31,
-        -0.615,
-        2.15
-      ],
       "dimensions": [
         0.25,
         0.1911,
@@ -4770,16 +2837,8 @@
     {
       "name": "SK_Eye_R",
       "type": "MESH",
-      "collections": [
-        "CHAR_SackDoll"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        0.31,
-        -0.615,
-        2.15
-      ],
       "dimensions": [
         0.25,
         0.1911,
@@ -4791,16 +2850,8 @@
     {
       "name": "SK_Foot_L",
       "type": "MESH",
-      "collections": [
-        "CHAR_SackDoll"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        -0.18,
-        -0.13,
-        0.12
-      ],
       "dimensions": [
         0.599626,
         0.740001,
@@ -4812,16 +2863,8 @@
     {
       "name": "SK_Foot_R",
       "type": "MESH",
-      "collections": [
-        "CHAR_SackDoll"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        0.18,
-        -0.13,
-        0.12
-      ],
       "dimensions": [
         0.599626,
         0.740001,
@@ -4833,16 +2876,8 @@
     {
       "name": "SK_Forearm_L",
       "type": "MESH",
-      "collections": [
-        "CHAR_SackDoll"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        -0.64,
-        0.0,
-        1.03
-      ],
       "dimensions": [
         0.29,
         0.26,
@@ -4854,16 +2889,8 @@
     {
       "name": "SK_Forearm_R",
       "type": "MESH",
-      "collections": [
-        "CHAR_SackDoll"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        0.64,
-        0.0,
-        1.03
-      ],
       "dimensions": [
         0.29,
         0.26,
@@ -4875,16 +2902,8 @@
     {
       "name": "SK_Hand_L",
       "type": "MESH",
-      "collections": [
-        "CHAR_SackDoll"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        -0.76,
-        -0.01,
-        0.76
-      ],
       "dimensions": [
         0.515,
         0.2772,
@@ -4896,16 +2915,8 @@
     {
       "name": "SK_Hand_L_Thumb",
       "type": "MESH",
-      "collections": [
-        "CHAR_SackDoll"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        -0.885,
-        -0.05125,
-        0.75325
-      ],
       "dimensions": [
         0.165,
         0.1518,
@@ -4917,16 +2928,8 @@
     {
       "name": "SK_Hand_R",
       "type": "MESH",
-      "collections": [
-        "CHAR_SackDoll"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        0.76,
-        -0.01,
-        0.76
-      ],
       "dimensions": [
         0.515,
         0.2772,
@@ -4938,16 +2941,8 @@
     {
       "name": "SK_Hand_R_Thumb",
       "type": "MESH",
-      "collections": [
-        "CHAR_SackDoll"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        0.885,
-        -0.05125,
-        0.75325
-      ],
       "dimensions": [
         0.165,
         0.1518,
@@ -4959,16 +2954,8 @@
     {
       "name": "SK_Head",
       "type": "MESH",
-      "collections": [
-        "CHAR_SackDoll"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        0.0,
-        0.0,
-        2.08
-      ],
       "dimensions": [
         2.0776,
         1.3104,
@@ -4980,16 +2967,8 @@
     {
       "name": "SK_Mouth_Open",
       "type": "MESH",
-      "collections": [
-        "CHAR_SackDoll"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        0.0,
-        -0.635,
-        1.985
-      ],
       "dimensions": [
         0.68,
         0.08525,
@@ -5001,16 +2980,8 @@
     {
       "name": "SK_Shin_L",
       "type": "MESH",
-      "collections": [
-        "CHAR_SackDoll"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        -0.18,
-        0.0,
-        0.3
-      ],
       "dimensions": [
         0.36,
         0.33,
@@ -5022,16 +2993,8 @@
     {
       "name": "SK_Shin_R",
       "type": "MESH",
-      "collections": [
-        "CHAR_SackDoll"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        0.18,
-        0.0,
-        0.3
-      ],
       "dimensions": [
         0.36,
         0.33,
@@ -5043,16 +3006,8 @@
     {
       "name": "SK_Thigh_L",
       "type": "MESH",
-      "collections": [
-        "CHAR_SackDoll"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        -0.18,
-        0.0,
-        0.6
-      ],
       "dimensions": [
         0.38,
         0.35,
@@ -5064,16 +3019,8 @@
     {
       "name": "SK_Thigh_R",
       "type": "MESH",
-      "collections": [
-        "CHAR_SackDoll"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        0.18,
-        0.0,
-        0.6
-      ],
       "dimensions": [
         0.38,
         0.35,
@@ -5085,16 +3032,8 @@
     {
       "name": "SK_Torso",
       "type": "MESH",
-      "collections": [
-        "CHAR_SackDoll"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        0.0,
-        0.03,
-        1.16
-      ],
       "dimensions": [
         0.94,
         0.78,
@@ -5106,16 +3045,8 @@
     {
       "name": "SK_UpperArm_L",
       "type": "MESH",
-      "collections": [
-        "CHAR_SackDoll"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        -0.5,
-        0.0,
-        1.37
-      ],
       "dimensions": [
         0.32,
         0.28,
@@ -5127,16 +3058,8 @@
     {
       "name": "SK_UpperArm_R",
       "type": "MESH",
-      "collections": [
-        "CHAR_SackDoll"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        0.5,
-        0.0,
-        1.37
-      ],
       "dimensions": [
         0.32,
         0.28,
@@ -5148,16 +3071,8 @@
     {
       "name": "Shoes",
       "type": "EMPTY",
-      "collections": [
-        "Shoes"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -2.827274,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -5167,16 +3082,8 @@
     {
       "name": "Stop road sign",
       "type": "MESH",
-      "collections": [
-        "Stop road sign"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -9.464718,
-        3.741887,
-        0.032826
-      ],
       "dimensions": [
         1.500132,
         0.196774,
@@ -5188,16 +3095,8 @@
     {
       "name": "Traffic Cone (Photoscanned)",
       "type": "MESH",
-      "collections": [
-        "Traffic Cone (Photoscanned)"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.001217,
-        18.626059,
-        0.010688
-      ],
       "dimensions": [
         0.456958,
         0.466835,
@@ -5209,17 +3108,8 @@
     {
       "name": "Utility Box (Photoscanned)",
       "type": "MESH",
-      "collections": [
-        "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS",
-        "Utility Box (Photoscanned)"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -12.197587,
-        23.763023,
-        0.064346
-      ],
       "dimensions": [
         1.209123,
         0.534925,
@@ -5231,17 +3121,8 @@
     {
       "name": "V2B_OverheadAmber_0",
       "type": "LIGHT",
-      "collections": [
-        "ENV_LIGHTING_APPROVED",
-        "V2B_LIGHTS_OVERHEAD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        -5.222266,
-        2.649782,
-        5.278863
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -5251,17 +3132,8 @@
     {
       "name": "V2B_OverheadAmber_1",
       "type": "LIGHT",
-      "collections": [
-        "ENV_LIGHTING_APPROVED",
-        "V2B_LIGHTS_OVERHEAD"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        5.284363,
-        2.653402,
-        5.278863
-      ],
       "dimensions": [
         0.0,
         0.0,
@@ -5271,16 +3143,8 @@
     {
       "name": "Wheel.001",
       "type": "MESH",
-      "collections": [
-        "Large Trash Can"
-      ],
       "visible": true,
       "hidden": false,
-      "location": [
-        0.0,
-        0.0,
-        0.0
-      ],
       "dimensions": [
         1.092931,
         0.385597,
@@ -5292,16 +3156,8 @@
     {
       "name": "sackboy_scene_manual_v1.blend",
       "type": "MESH",
-      "collections": [
-        "CHAR_Meshy_LeftCandidate_Refined"
-      ],
       "visible": false,
       "hidden": true,
-      "location": [
-        2.688858,
-        -0.249535,
-        0.01029
-      ],
       "dimensions": [
         0.749037,
         0.639691,
@@ -5309,344 +3165,6 @@
       ],
       "vertices": 33484,
       "faces": 66916
-    }
-  ],
-  "collections": [
-    {
-      "name": "Apricot Pullover Hoodie",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 1,
-      "child_count": 0
-    },
-    {
-      "name": "Asphalt ground",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 1,
-      "child_count": 0
-    },
-    {
-      "name": "Audi e-tron GT quattro Black",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 80,
-      "child_count": 0
-    },
-    {
-      "name": "BASE_Meshy_LeftCandidate_Source",
-      "hide_viewport": true,
-      "hide_render": true,
-      "object_count": 1,
-      "child_count": 0
-    },
-    {
-      "name": "CAM_Rigs",
-      "hide_viewport": true,
-      "hide_render": true,
-      "object_count": 1,
-      "child_count": 0
-    },
-    {
-      "name": "CHAR_F2",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 2,
-      "child_count": 0
-    },
-    {
-      "name": "CHAR_HandRefine_J2B",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 1,
-      "child_count": 0
-    },
-    {
-      "name": "CHAR_Meshy_LeftCandidate_Refined",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 5,
-      "child_count": 0
-    },
-    {
-      "name": "CHAR_SackDoll",
-      "hide_viewport": true,
-      "hide_render": true,
-      "object_count": 19,
-      "child_count": 0
-    },
-    {
-      "name": "Cargo pants",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 1,
-      "child_count": 0
-    },
-    {
-      "name": "Cast iron sewer hatch",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 2,
-      "child_count": 0
-    },
-    {
-      "name": "Collection",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 0,
-      "child_count": 0
-    },
-    {
-      "name": "ENV_LIGHTING_APPROVED",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 6,
-      "child_count": 0
-    },
-    {
-      "name": "ENV_PARKING",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 22,
-      "child_count": 0
-    },
-    {
-      "name": "ENV_ParkingLot",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 1,
-      "child_count": 0
-    },
-    {
-      "name": "FINAL_CAMERAS",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 0,
-      "child_count": 0
-    },
-    {
-      "name": "FINAL_HELPERS",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 1,
-      "child_count": 0
-    },
-    {
-      "name": "FINAL_LIGHTS_Minimal",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 0,
-      "child_count": 0
-    },
-    {
-      "name": "FX_REFLECTION_TRAFFIC",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 9,
-      "child_count": 0
-    },
-    {
-      "name": "HERO_CAR_AMBER_READ",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 3,
-      "child_count": 0
-    },
-    {
-      "name": "HERO_CAR_UNDERGLOW",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 3,
-      "child_count": 0
-    },
-    {
-      "name": "HERO_ENV_CORRECTIONS",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 0,
-      "child_count": 0
-    },
-    {
-      "name": "HERO_H_PARKING_LAYOUT",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 17,
-      "child_count": 0
-    },
-    {
-      "name": "HERO_IMPORTED_CLOTHING_CANDIDATES",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 0,
-      "child_count": 10
-    },
-    {
-      "name": "HERO_SIDEWALK_CURB_REBUILD",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 9,
-      "child_count": 0
-    },
-    {
-      "name": "HERO_STOREFRONT_REBUILD",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 39,
-      "child_count": 0
-    },
-    {
-      "name": "HERO_VISIBLE_LAMPPOSTS",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 8,
-      "child_count": 0
-    },
-    {
-      "name": "LGT_Night",
-      "hide_viewport": true,
-      "hide_render": true,
-      "object_count": 0,
-      "child_count": 0
-    },
-    {
-      "name": "Large Trash Can",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 8,
-      "child_count": 0
-    },
-    {
-      "name": "MESHY_GalleryTemp",
-      "hide_viewport": true,
-      "hide_render": true,
-      "object_count": 0,
-      "child_count": 0
-    },
-    {
-      "name": "MESHY_TempAnalysis",
-      "hide_viewport": true,
-      "hide_render": true,
-      "object_count": 0,
-      "child_count": 0
-    },
-    {
-      "name": "No Parking Sign Board",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 9,
-      "child_count": 0
-    },
-    {
-      "name": "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 3,
-      "child_count": 0
-    },
-    {
-      "name": "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 19,
-      "child_count": 0
-    },
-    {
-      "name": "PARKING_PAINT_ORIGINALS_HIDDEN",
-      "hide_viewport": true,
-      "hide_render": true,
-      "object_count": 19,
-      "child_count": 0
-    },
-    {
-      "name": "PROD_RECON_V2B",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 0,
-      "child_count": 1
-    },
-    {
-      "name": "PROD_RECON_V2C",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 0,
-      "child_count": 3
-    },
-    {
-      "name": "Shoes",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 3,
-      "child_count": 0
-    },
-    {
-      "name": "Stop road sign",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 1,
-      "child_count": 0
-    },
-    {
-      "name": "Traffic Cone (Photoscanned)",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 1,
-      "child_count": 0
-    },
-    {
-      "name": "Utility Box (Photoscanned)",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 1,
-      "child_count": 0
-    },
-    {
-      "name": "V2B_HELPERS",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 0,
-      "child_count": 0
-    },
-    {
-      "name": "V2B_LIGHTS_OVERHEAD",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 2,
-      "child_count": 0
-    },
-    {
-      "name": "V2C_CAMERAS",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 0,
-      "child_count": 0
-    },
-    {
-      "name": "V2C_ENVIRONMENT",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 0,
-      "child_count": 0
-    },
-    {
-      "name": "V2C_HELPERS",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 0,
-      "child_count": 0
-    },
-    {
-      "name": "WARDROBE_IMPORTED",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 4,
-      "child_count": 0
-    },
-    {
-      "name": "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END",
-      "hide_viewport": false,
-      "hide_render": false,
-      "object_count": 3,
-      "child_count": 0
     }
   ]
 }

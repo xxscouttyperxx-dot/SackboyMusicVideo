@@ -1,0 +1,457 @@
+{
+  "pass": "hoodie_reports_and_dome_fix_v1D",
+  "migrated_project_changes": [
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\CharacterBodyFitPrep_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\character_body_fit_prep\\CharacterBodyFitPrep_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\CharacterBodyFitPrep_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\character_body_fit_prep\\CharacterBodyFitPrep_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\CharacterSilhouetteRefine_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\character_silhouette_refine\\CharacterSilhouetteRefine_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\CharacterSilhouetteRefine_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\character_silhouette_refine\\CharacterSilhouetteRefine_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\CharacterTorsoHoodFit_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\character_torso_hood_fit\\CharacterTorsoHoodFit_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\CharacterTorsoHoodFit_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\character_torso_hood_fit\\CharacterTorsoHoodFit_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\CircularReflectionRefine_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\circular_reflection_refine\\CircularReflectionRefine_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\CircularReflectionRefine_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\circular_reflection_refine\\CircularReflectionRefine_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\CyclesReflectionCards_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\cycles_reflection_cards\\CyclesReflectionCards_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\CyclesReflectionCards_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\cycles_reflection_cards\\CyclesReflectionCards_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\DecimatePreviewPaintSnap_FATAL_ERROR.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\decimate_preview_paint_snap\\DecimatePreviewPaintSnap_FATAL_ERROR.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\DecimatePreviewPaintSnap_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\decimate_preview_paint_snap\\DecimatePreviewPaintSnap_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\DecimatePreviewPaintSnap_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\decimate_preview_paint_snap\\DecimatePreviewPaintSnap_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\GlassReflectionVisibility_FATAL_ERROR.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\glass_reflection_visibility\\GlassReflectionVisibility_FATAL_ERROR.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\GlassReflectionVisibility_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\glass_reflection_visibility\\GlassReflectionVisibility_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\GlassReflectionVisibility_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\glass_reflection_visibility\\GlassReflectionVisibility_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\GridParkingReflectionLights_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\grid_parking_reflection_lights\\GridParkingReflectionLights_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\GridParkingReflectionLights_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\grid_parking_reflection_lights\\GridParkingReflectionLights_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\HeroCarHDRI_build_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\hero_car_hdri\\HeroCarHDRI_build_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\HeroCarHDRI_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\hero_car_hdri\\HeroCarHDRI_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\HoodieBowlRidgePolish_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\hoodie_bowl_ridge_polish\\HoodieBowlRidgePolish_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\HoodieBowlRidgePolish_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\hoodie_bowl_ridge_polish\\HoodieBowlRidgePolish_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\HoodieBowlRimRefine_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\hoodie_bowl_rim_refine\\HoodieBowlRimRefine_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\HoodieBowlRimRefine_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\hoodie_bowl_rim_refine\\HoodieBowlRimRefine_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\HoodieCameraCleanupShapeFix_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\hoodie_camera_cleanup_shape_fix\\HoodieCameraCleanupShapeFix_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\HoodieCameraCleanupShapeFix_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\hoodie_camera_cleanup_shape_fix\\HoodieCameraCleanupShapeFix_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\HoodieCameraCountSideBowlFix_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\hoodie_camera_count_side_bowl_fix\\HoodieCameraCountSideBowlFix_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\HoodieCameraCountSideBowlFix_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\hoodie_camera_count_side_bowl_fix\\HoodieCameraCountSideBowlFix_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\HoodieCrownSleeveTaper_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\hoodie_crown_sleeve_taper\\HoodieCrownSleeveTaper_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\HoodieCrownSleeveTaper_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\hoodie_crown_sleeve_taper\\HoodieCrownSleeveTaper_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\HoodieCrownSmoothExpand_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\hoodie_crown_smooth_expand\\HoodieCrownSmoothExpand_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\HoodieCrownSmoothExpand_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\hoodie_crown_smooth_expand\\HoodieCrownSmoothExpand_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\HoodieNarrowFit_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\hoodie_narrow_fit\\HoodieNarrowFit_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\HoodieNarrowFit_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\hoodie_narrow_fit\\HoodieNarrowFit_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\HoodieRimCrownContain_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\hoodie_rim_crown_contain\\HoodieRimCrownContain_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\HoodieRimCrownContain_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\hoodie_rim_crown_contain\\HoodieRimCrownContain_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\HoodieSpikeSleeveSideFix_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\hoodie_spike_sleeve_side_fix\\HoodieSpikeSleeveSideFix_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\HoodieSpikeSleeveSideFix_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\hoodie_spike_sleeve_side_fix\\HoodieSpikeSleeveSideFix_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\HoodTopArtifactFix_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\hood_top_artifact_fix\\HoodTopArtifactFix_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\HoodTopArtifactFix_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\hood_top_artifact_fix\\HoodTopArtifactFix_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\MeshAuditOptimizationPreview_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\mesh_audit_optimization_preview\\MeshAuditOptimizationPreview_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\MeshAuditOptimizationPreview_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\mesh_audit_optimization_preview\\MeshAuditOptimizationPreview_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\ParkingHeightUnderglowRepair_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\parking_height_underglow_repair\\ParkingHeightUnderglowRepair_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\ParkingHeightUnderglowRepair_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\parking_height_underglow_repair\\ParkingHeightUnderglowRepair_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\ParkingTextureDecalFitPrep_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\parking_texture_decal_fit_prep\\ParkingTextureDecalFitPrep_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\ParkingTextureDecalFitPrep_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\parking_texture_decal_fit_prep\\ParkingTextureDecalFitPrep_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\RemoveHiddenRejectedFrames_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\remove_hidden_rejected_frames\\RemoveHiddenRejectedFrames_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\RemoveHiddenRejectedFrames_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\remove_hidden_rejected_frames\\RemoveHiddenRejectedFrames_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\RemoveVisibleReflectionStreaks_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\remove_visible_reflection_streaks\\RemoveVisibleReflectionStreaks_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\RemoveVisibleReflectionStreaks_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\remove_visible_reflection_streaks\\RemoveVisibleReflectionStreaks_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\RestoreCharacterBaseline_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\restore_character_baseline\\RestoreCharacterBaseline_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\RestoreCharacterBaseline_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\restore_character_baseline\\RestoreCharacterBaseline_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\SceneCleanupFlatAsphalt_FATAL_ERROR.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\scene_cleanup_flat_asphalt\\SceneCleanupFlatAsphalt_FATAL_ERROR.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\SceneCleanupFlatAsphalt_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\scene_cleanup_flat_asphalt\\SceneCleanupFlatAsphalt_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\SceneCleanupFlatAsphalt_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\scene_cleanup_flat_asphalt\\SceneCleanupFlatAsphalt_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\SceneScrubGlassReflectionBoost_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\scene_scrub_glass_reflection_boost\\SceneScrubGlassReflectionBoost_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\SceneScrubGlassReflectionBoost_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\scene_scrub_glass_reflection_boost\\SceneScrubGlassReflectionBoost_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\StorefrontParkingSky_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\storefront_parking_sky\\StorefrontParkingSky_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\StorefrontParkingSky_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\storefront_parking_sky\\StorefrontParkingSky_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\StorefrontParkingV1C_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\storefront_parking_v1_c\\StorefrontParkingV1C_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\StorefrontParkingV1C_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\storefront_parking_v1_c\\StorefrontParkingV1C_status.json"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\SurfaceRepairCharacterFitScan_report.txt",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\surface_repair_character_fit_scan\\SurfaceRepairCharacterFitScan_report.txt"
+    },
+    {
+      "from": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\Project changes\\SurfaceRepairCharacterFitScan_status.json",
+      "to": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\surface_repair_character_fit_scan\\SurfaceRepairCharacterFitScan_status.json"
+    }
+  ],
+  "hoodie_fit": {
+    "shape_key": "HOODIEFIT_ReportsAndDomeFix_v1D",
+    "source_key": "HOODIEFIT_SideDomeCorrection_v1C",
+    "touched_vertices": 59699,
+    "smoothed_vertices": 86929,
+    "max_delta_local": 0.02238416507545892,
+    "vertex_count_before": 257116,
+    "vertex_count_after": 257116,
+    "vertex_count_delta": 0,
+    "face_count_before": 489064,
+    "face_count_after": 489064,
+    "face_count_delta": 0,
+    "world_dimensions_before": [
+      2.277528,
+      1.142042,
+      2.412821
+    ],
+    "world_dimensions_after": [
+      2.277528,
+      1.142037,
+      2.412773
+    ],
+    "world_dimension_delta": [
+      0.0,
+      -5e-06,
+      -4.8e-05
+    ],
+    "region_counts": {
+      "front_depressions_down_out": 4979,
+      "rear_droop_up_out": 3351,
+      "side_feather": 15607
+    }
+  },
+  "camera_report": {
+    "before_count": 12,
+    "after_total": 12,
+    "visible_count": 9,
+    "hidden_count": 3,
+    "names": [
+      "CAM_ANIM_Close",
+      "CAM_ANIM_Medium",
+      "CAM_ANIM_Wide",
+      "CAM_F2_Front",
+      "CAM_F2_Profile",
+      "CAM_F2_ThreeQuarter",
+      "CAM_Hood_Front",
+      "CAM_Hood_LeftSide",
+      "CAM_Hood_RightSide",
+      "CAM_Hood_Top",
+      "CAM_SceneWide",
+      "CAM_StorefrontReflection"
+    ]
+  },
+  "disabled_bodyfit_keys": [
+    {
+      "name": "BODYFIT_HoodiePantsPrep_v1",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "name": "BODYFIT_TorsoHoodFit_v1",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "name": "BODYFIT_SilhouetteRefine_v1",
+      "before": 0.0,
+      "after": 0.0
+    }
+  ],
+  "underglow_lock": {
+    "before": [
+      -1.522953,
+      5.177517,
+      0.075276
+    ],
+    "after": [
+      -1.522953,
+      5.177517,
+      0.075276
+    ]
+  },
+  "renders": [
+    {
+      "camera": "CAM_Hood_Front",
+      "render": "01_HoodFrontLowAngleMaterial.png",
+      "mode": "WORKBENCH_MATERIAL_HOODIE_ISOLATED"
+    },
+    {
+      "camera": "CAM_Hood_LeftSide",
+      "render": "02_HoodLeftSideGray.png",
+      "mode": "WORKBENCH_SINGLE_HOODIE_ISOLATED"
+    },
+    {
+      "camera": "CAM_Hood_RightSide",
+      "render": "03_HoodRightSideGray.png",
+      "mode": "WORKBENCH_SINGLE_HOODIE_ISOLATED"
+    },
+    {
+      "camera": "CAM_Hood_Top",
+      "render": "04_HoodTopGray.png",
+      "mode": "WORKBENCH_SINGLE_HOODIE_ISOLATED"
+    },
+    {
+      "camera": "CAM_Hood_Front",
+      "render": "05_HoodIsolatedWireCheck.png",
+      "mode": "WORKBENCH_SINGLE_ISOLATED_WIRE"
+    },
+    {
+      "camera": "CAM_SceneWide",
+      "render": "06_ScenePreserved.png",
+      "mode": "WORKBENCH_MATERIAL"
+    }
+  ],
+  "key_objects": [
+    {
+      "name": "F2",
+      "type": "MESH",
+      "visible": true,
+      "dims": [
+        2.783371,
+        1.475343,
+        2.749408
+      ],
+      "vertices": 30549,
+      "faces": 60930
+    },
+    {
+      "name": "SACKBOY_Hoodie_Main",
+      "type": "MESH",
+      "visible": true,
+      "dims": [
+        2.277528,
+        1.142038,
+        2.412762
+      ],
+      "vertices": 257116,
+      "faces": 489064
+    },
+    {
+      "name": "Cargo pants",
+      "type": "MESH",
+      "visible": true,
+      "dims": [
+        1.559261,
+        0.898337,
+        1.052398
+      ],
+      "vertices": 16507,
+      "faces": 16424
+    },
+    {
+      "name": "Plane.001",
+      "type": "MESH",
+      "visible": true,
+      "dims": [
+        0.626516,
+        0.950595,
+        0.372303
+      ],
+      "vertices": 10292,
+      "faces": 10800
+    },
+    {
+      "name": "Plane.022",
+      "type": "MESH",
+      "visible": true,
+      "dims": [
+        0.626517,
+        0.950595,
+        0.372303
+      ],
+      "vertices": 10292,
+      "faces": 10800
+    },
+    {
+      "name": "Asphalt ground",
+      "type": "MESH",
+      "visible": true,
+      "dims": [
+        70.766041,
+        70.315693,
+        3.844296
+      ],
+      "vertices": 16441,
+      "faces": 16154
+    },
+    {
+      "name": "Audi e-tron GT quattro Black",
+      "type": "EMPTY",
+      "visible": true,
+      "dims": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 0,
+      "faces": 0
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# Hoodie Reports and Dome Fix v1D
+
+## Latest numbers
+- Smoothed vertices: 86929
+- Max local vertex movement: 0.022384
+
+## Report migration
+- Moved text/json files from `renders/Project changes` into `reports/<matching_pass_folder>`: 63 files.
+- `renders/Project changes` is removed when empty.
+
+## Shape/camera changes
+- Front hood camera is lowered and aimed upward at the hood.
+- Remaining front side depressions were moved down/outward.
+- Rear side droop was moved up/outward and feathered.
+- Current review remains image-only.

@@ -1,8 +1,7 @@
 # Scene Layout Summary
 
-Updated by Hoodie Side Dome Correction v1C.
+Updated by Hoodie Reports and Dome Fix v1D.
 
-- Corrected remaining hoodie side depressions and rear droop directionally.
-- Raised hood review cameras to include top hood and wire termination.
-- Current review stores images only; text/json reports go under reports.
-- Camera inventory remains exactly 12 cameras: 9 visible + 3 hidden animation cameras.
+- Project changes folder migrated into reports.
+- Front hood camera lowered for a slight upward view.
+- Camera inventory remains 12 cameras.

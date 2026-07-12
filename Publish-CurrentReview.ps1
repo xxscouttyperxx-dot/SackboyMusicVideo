@@ -23,7 +23,7 @@ function GitAddExistingOrDeleted {
 }
 
 Write-Host "[Publish] Cleaning stale package files..."
-$Keep=@("Apply-HoodieSideDomeCorrection_v1C.ps1","Validate-HoodieSideDomeCorrection_v1C.ps1","Publish-CurrentReview.ps1","README-HoodieSideDomeCorrection_v1C.txt","README_FIRST.txt","Run-BuildAll.ps1","Run-DiagnosticRenders.ps1")
+$Keep=@("Apply-HoodieReportsAndDomeFix_v1D.ps1","Validate-HoodieReportsAndDomeFix_v1D.ps1","Publish-CurrentReview.ps1","README-HoodieReportsAndDomeFix_v1D.txt","README_FIRST.txt","Run-BuildAll.ps1","Run-DiagnosticRenders.ps1")
 $Patterns=@("Apply-*.ps1","Validate-*.ps1","README-*.txt")
 foreach($Pattern in $Patterns){
     Get-ChildItem -Path $Root -Filter $Pattern -File -ErrorAction SilentlyContinue |
@@ -37,17 +37,16 @@ GitAddExistingOrDeleted @(
     "blender\sackboy_scene.blend",
     "blender\scripts",
     "scene_manifest.json",
-    "reports\project_workflow_audit",
-    "reports\hoodie_side_dome_correction_v1C",
-    "reports\hoodie_dome_side_depression_fix_v1B",
+    "reports",
     "renders\current_review",
+    "renders\Project changes",
+    "Apply-HoodieReportsAndDomeFix_v1D.ps1",
+    "Validate-HoodieReportsAndDomeFix_v1D.ps1",
+    "Publish-CurrentReview.ps1",
+    "README-HoodieReportsAndDomeFix_v1D.txt",
     "Apply-HoodieSideDomeCorrection_v1C.ps1",
     "Validate-HoodieSideDomeCorrection_v1C.ps1",
-    "Publish-CurrentReview.ps1",
-    "README-HoodieSideDomeCorrection_v1C.txt",
-    "Apply-HoodieDomeSideDepressionFix_v1B.ps1",
-    "Validate-HoodieDomeSideDepressionFix_v1B.ps1",
-    "README-HoodieDomeSideDepressionFix_v1B.txt"
+    "README-HoodieSideDomeCorrection_v1C.txt"
 )
 
 git -C $Root status --short
@@ -55,7 +54,7 @@ $Status = git -C $Root status --porcelain
 if([string]::IsNullOrWhiteSpace($Status)){
     Write-Host "[Publish] Nothing to commit."
 } else {
-    git -C $Root commit -m "Correct hoodie side dome direction and raised reviews"
+    git -C $Root commit -m "Move change logs to reports and refine hoodie front view"
     if($LASTEXITCODE -ne 0){throw "git commit failed"}
 }
 
