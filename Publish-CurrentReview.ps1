@@ -23,7 +23,7 @@ function GitAddExistingOrDeleted {
 }
 
 Write-Host "[Publish] Cleaning stale package files..."
-$Keep=@("Apply-HoodieBowlRimRefine.ps1","Validate-HoodieBowlRimRefine.ps1","Publish-CurrentReview.ps1","README-HoodieBowlRimRefine.txt","README_FIRST.txt","Run-BuildAll.ps1","Run-DiagnosticRenders.ps1")
+$Keep=@("Apply-HoodieSpikeSleeveSideFix.ps1","Validate-HoodieSpikeSleeveSideFix.ps1","Publish-CurrentReview.ps1","README-HoodieSpikeSleeveSideFix.txt","README_FIRST.txt","Run-BuildAll.ps1","Run-DiagnosticRenders.ps1")
 $Patterns=@("Apply-*.ps1","Validate-*.ps1","README-*.txt")
 foreach($Pattern in $Patterns){
     Get-ChildItem -Path $Root -Filter $Pattern -File -ErrorAction SilentlyContinue |
@@ -32,39 +32,39 @@ foreach($Pattern in $Patterns){
 }
 
 GitAddExistingOrDeleted @(
-    ".gitignore",
-    ".gitattributes",
-    "blender\sackboy_scene.blend",
-    "blender\scripts",
-    "scene_manifest.json",
-    "reports\project_workflow_audit",
-    "reports\hoodie_bowl_rim_refine_v1",
-    "reports\hoodie_bowl_ridge_polish_v1",
-    "renders\current_review",
-    "Apply-HoodieBowlRimRefine.ps1",
-    "Validate-HoodieBowlRimRefine.ps1",
-    "Publish-CurrentReview.ps1",
-    "README-HoodieBowlRimRefine.txt",
-    "Apply-HoodieBowlRidgePolish.ps1",
-    "Validate-HoodieBowlRidgePolish.ps1",
-    "README-HoodieBowlRidgePolish.txt"
+    '.gitignore',
+    '.gitattributes',
+    'blender\sackboy_scene.blend',
+    'blender\scripts',
+    'scene_manifest.json',
+    'reports\project_workflow_audit',
+    'reports\hoodie_spike_sleeve_side_fix_v1',
+    'reports\hoodie_bowl_rim_refine_v1',
+    'renders\current_review',
+    'Apply-HoodieSpikeSleeveSideFix.ps1',
+    'Validate-HoodieSpikeSleeveSideFix.ps1',
+    'Publish-CurrentReview.ps1',
+    'README-HoodieSpikeSleeveSideFix.txt',
+    'Apply-HoodieBowlRimRefine.ps1',
+    'Validate-HoodieBowlRimRefine.ps1',
+    'README-HoodieBowlRimRefine.txt'
 )
 
 git -C $Root status --short
 $Status = git -C $Root status --porcelain
 if([string]::IsNullOrWhiteSpace($Status)){
-    Write-Host "[Publish] Nothing to commit."
+    Write-Host '[Publish] Nothing to commit.'
 } else {
-    git -C $Root commit -m "Refine hoodie bowl rim and add shape evidence renders"
-    if($LASTEXITCODE -ne 0){throw "git commit failed"}
+    git -C $Root commit -m 'Fix hoodie spikes, sleeve thickness, and side folds'
+    if($LASTEXITCODE -ne 0){throw 'git commit failed'}
 }
 
 git -C $Root lfs push origin main
 if($LASTEXITCODE -ne 0){
-    Write-Host "[Publish] git lfs push failed once; retrying..."
+    Write-Host '[Publish] git lfs push failed once; retrying...'
     Start-Sleep -Seconds 5
     git -C $Root lfs push origin main
 }
 git -C $Root push origin main
-if($LASTEXITCODE -ne 0){throw "git push failed"}
-Write-Host "[Publish] Done."
+if($LASTEXITCODE -ne 0){throw 'git push failed'}
+Write-Host '[Publish] Done.'

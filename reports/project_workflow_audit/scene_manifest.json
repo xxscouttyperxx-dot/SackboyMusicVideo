@@ -579,6 +579,44 @@
       "review_camera": true
     },
     {
+      "name": "CAM_REVIEW_Hoodie_LeftGray",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        -5.26761,
+        -2.571946,
+        3.710916
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_Hoodie_Material",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        -2.11761,
+        -3.571946,
+        3.760916
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
       "name": "CAM_REVIEW_Hoodie_MaterialPreview",
       "type": "CAMERA",
       "collections": [
@@ -589,6 +627,44 @@
         -2.16761,
         -3.272761,
         3.995764
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_Hoodie_RightGray",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        -0.36761,
+        -2.571946,
+        3.710916
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_Hoodie_Scene",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        2.18239,
+        -7.521946,
+        3.407544
       ],
       "dimensions": [
         0.0,
@@ -627,6 +703,25 @@
         -2.61761,
         -3.022761,
         4.495764
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_Hoodie_Wire",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        -2.51761,
+        -2.971946,
+        4.060915
       ],
       "dimensions": [
         0.0,
@@ -4998,8 +5093,8 @@
       ],
       "dimensions": [
         2.277528,
-        1.136019,
-        2.254445
+        1.141959,
+        2.320687
       ],
       "vertices": 257116,
       "faces": 489064,
@@ -5034,6 +5129,10 @@
         },
         {
           "name": "HOODIEFIT_BowlRimRefine_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_SpikeSleeveSideFix_v1",
           "value": 1.0
         }
       ]
