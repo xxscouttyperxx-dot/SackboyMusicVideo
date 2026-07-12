@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "hoodie_shape_key": "HOODIEFIT_DomeSideDepressionFix_v1B",
+  "camera_total": 12,
+  "visible_cameras": 9,
+  "hidden_cameras": 3,
+  "touched_vertices": 77973,
+  "smoothed_vertices": 90701,
+  "max_local_vertex_movement": 0.05794734266234918,
+  "vertex_count_before": 257116,
+  "vertex_count_after": 257116,
+  "face_count_before": 489064,
+  "face_count_after": 489064,
+  "vertex_delta": 0,
+  "face_delta": 0,
+  "world_dimensions_before": [
+    2.277528,
+    1.144511,
+    2.394016
+  ],
+  "world_dimensions_after": [
+    2.277528,
+    1.14205,
+    2.41288
+  ],
+  "world_dimension_delta": [
+    0.0,
+    -0.002461,
+    0.018864
+  ],
+  "current_review_images": [
+    "01_HoodFrontMaterial.png",
+    "02_HoodLeftSideGray.png",
+    "03_HoodRightSideGray.png",
+    "04_HoodTopGray.png",
+    "05_HoodIsolatedWireCheck.png",
+    "06_ScenePreserved.png"
+  ]
+}

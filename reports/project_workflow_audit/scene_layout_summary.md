@@ -1,6 +1,7 @@
 # Scene Layout Summary
 
-Updated by Hoodie Camera Count Side Bowl Fix v1.
+Updated by Hoodie Dome Side Depression Fix v1B.
 
-- Camera inventory reset to exactly 12 cameras: 9 visible + 3 hidden animation cameras.
-- Current review stores images only; text/json summaries go to renders/Project changes.
+- Corrected hoodie side depressions and back silhouette flow.
+- Current review stores images only; text/json reports go under reports.
+- Camera inventory remains exactly 12 cameras: 9 visible + 3 hidden animation cameras.
