@@ -1,8 +1,0 @@
-[pass] restore character baseline v1
-[lock] underglow locked [-1.522953, 5.177517, 0.075276] -> [-1.522953, 5.177517, 0.075276]
-[render] Cycles review renders retained; viewport preview samples remain low
-[restore] disabled 3 BODYFIT shape key(s); F2 returns to Basis visual state
-[render] 01_RestoredCharacterFront.png
-[render] 02_RestoredCharacterProfile.png
-[render] 03_RestoredFaceHands.png
-[render] 04_StorefrontReflectionPreserved.png

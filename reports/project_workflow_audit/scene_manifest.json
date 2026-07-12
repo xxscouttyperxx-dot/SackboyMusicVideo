@@ -57,11 +57,21 @@
       ],
       "dimensions": [
         2.277528,
-        1.091159,
+        1.075389,
         1.549869
       ],
       "vertices": 257116,
-      "faces": 489064
+      "faces": 489064,
+      "shape_keys": [
+        {
+          "name": "Basis",
+          "value": 1.0
+        },
+        {
+          "name": "HOODIEFIT_NarrowSackboy_v1",
+          "value": 1.0
+        }
+      ]
     },
     {
       "name": "Asphalt ground",
@@ -259,6 +269,63 @@
       "review_camera": true
     },
     {
+      "name": "CAM_REVIEW_HoodieFit_Front",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        -0.215551,
+        -5.985823,
+        1.990261
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_HoodieFit_Profile",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        4.884449,
+        -0.985823,
+        1.990261
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_HoodieFit_ThreeQuarter",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        3.184449,
+        -5.685822,
+        2.190261
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
       "name": "CAM_REVIEW_RestoredCharacter_Front",
       "type": "CAMERA",
       "collections": [
@@ -361,9 +428,9 @@
       ],
       "visible": true,
       "location": [
-        7.584558,
+        7.584449,
         -9.985823,
-        2.824389
+        2.940261
       ],
       "dimensions": [
         0.0,

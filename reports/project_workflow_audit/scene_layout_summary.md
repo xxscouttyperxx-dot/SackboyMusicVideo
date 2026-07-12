@@ -1,6 +1,7 @@
 # Scene Layout Summary
 
-Updated by Restore Character Baseline v1.
+Updated by Hoodie Narrow Fit v1.
 
-- Disabled all BODYFIT shape key values on F2 to restore visual character baseline.
+- Added non-destructive hoodie shape key for narrower Sackboy proportions.
+- F2 remains restored baseline; BODYFIT keys disabled.
 - Preserved current reflection setup and scene lighting.
