@@ -1,0 +1,10 @@
+[pass] glass reflection visibility v1B
+[fx] removed old/extra reflection FX objects: ['FX_ReflectCard_Green_01', 'FX_ReflectCard_Green_02', 'FX_ReflectCard_Red_01', 'FX_ReflectCard_Red_02', 'FX_ReflectCard_Yellow_01', 'FX_ReflectCard_Yellow_02']
+[lock] underglow locked [-1.522953, 5.177517, 0.075276] -> [-1.522953, 5.177517, 0.075276]
+[lights] positioned red/yellow/green spotlights close to storefront reflection zone
+[fx] created 6 reflection cards and 6 on-glass streak overlays
+[glass] tuned 14 glass/window material slots
+[render] 01_GlassReflectionClose.png
+[render] 02_GlassReflectionOblique.png
+[render] 03_ReflectionFXSetup.png
+[render] 04_CharacterReadyUnchanged.png

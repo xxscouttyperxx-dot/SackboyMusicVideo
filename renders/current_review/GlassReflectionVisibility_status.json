@@ -1,0 +1,882 @@
+{
+  "old_reflection_fx_removed": [
+    "FX_ReflectCard_Green_01",
+    "FX_ReflectCard_Green_02",
+    "FX_ReflectCard_Red_01",
+    "FX_ReflectCard_Red_02",
+    "FX_ReflectCard_Yellow_01",
+    "FX_ReflectCard_Yellow_02"
+  ],
+  "glass_objects": [
+    "HERO_BlackSkateShoe_L_WhiteSole",
+    "HERO_BlackSkateShoe_R_WhiteSole",
+    "HERO_GlassStorefront_Bay_0",
+    "HERO_GlassStorefront_Bay_1",
+    "HERO_GlassStorefront_Bay_2",
+    "HERO_GlassStorefront_Bay_3",
+    "Plane.024",
+    "Plane.037",
+    "Plane.038",
+    "Plane.040",
+    "Plane.061"
+  ],
+  "glass_bounds": {
+    "min_x": -10.228888511657715,
+    "max_x": 10.228888511657715,
+    "min_y": -0.5169463157653809,
+    "max_y": 23.88800048828125,
+    "min_z": -0.029651019722223282,
+    "max_z": 3.9316530227661133,
+    "dim_x": 20.45777702331543,
+    "dim_y": 24.40494680404663,
+    "dim_z": 3.9613040424883366
+  },
+  "underglow_lock": {
+    "name": "HERO_CyanUnderglow_Area",
+    "before": [
+      -1.522953,
+      5.177517,
+      0.075276
+    ],
+    "after": [
+      -1.522953,
+      5.177517,
+      0.075276
+    ]
+  },
+  "traffic_lights": [
+    {
+      "name": "FX_TrafficLight_Red",
+      "loc": [
+        -5.728178,
+        -4.716946,
+        2.426358
+      ],
+      "target": [
+        0.0,
+        11.685527,
+        2.267905
+      ],
+      "energy": 520.0,
+      "color": [
+        1.0,
+        0.02,
+        0.01
+      ]
+    },
+    {
+      "name": "FX_TrafficLight_Yellow",
+      "loc": [
+        0.0,
+        -4.966946,
+        2.505584
+      ],
+      "target": [
+        0.0,
+        11.685527,
+        2.267905
+      ],
+      "energy": 480.0,
+      "color": [
+        1.0,
+        0.78,
+        0.04
+      ]
+    },
+    {
+      "name": "FX_TrafficLight_Green",
+      "loc": [
+        5.728178,
+        -4.716946,
+        2.426358
+      ],
+      "target": [
+        0.0,
+        11.685527,
+        2.267905
+      ],
+      "energy": 380.0,
+      "color": [
+        0.03,
+        1.0,
+        0.12
+      ]
+    }
+  ],
+  "reflection_fx": {
+    "reflection_cards": [
+      {
+        "name": "FX_ReflectCard_Red_01",
+        "loc": [
+          -6.955644,
+          -0.866946,
+          2.267905
+        ],
+        "width": 3.886978,
+        "height": 0.16,
+        "visible_camera": false
+      },
+      {
+        "name": "FX_ReflectCard_Red_02",
+        "loc": [
+          -5.728178,
+          -0.906946,
+          2.743262
+        ],
+        "width": 2.045778,
+        "height": 0.09,
+        "visible_camera": false
+      },
+      {
+        "name": "FX_ReflectCard_Yellow_01",
+        "loc": [
+          0.0,
+          -0.866946,
+          2.267905
+        ],
+        "width": 3.6824,
+        "height": 0.14,
+        "visible_camera": false
+      },
+      {
+        "name": "FX_ReflectCard_Yellow_02",
+        "loc": [
+          -1.227467,
+          -0.906946,
+          1.67371
+        ],
+        "width": 2.045778,
+        "height": 0.08,
+        "visible_camera": false
+      },
+      {
+        "name": "FX_ReflectCard_Green_01",
+        "loc": [
+          6.546489,
+          -0.866946,
+          2.267905
+        ],
+        "width": 3.6824,
+        "height": 0.14,
+        "visible_camera": false
+      },
+      {
+        "name": "FX_ReflectCard_Green_02",
+        "loc": [
+          5.5236,
+          -0.906946,
+          2.743262
+        ],
+        "width": 2.045778,
+        "height": 0.08,
+        "visible_camera": false
+      }
+    ],
+    "glass_streak_overlays": [
+      {
+        "name": "FX_GlassStreak_Red_01",
+        "loc": [
+          -6.955644,
+          -0.534946,
+          2.267905
+        ],
+        "width": 4.091555,
+        "height": 0.055
+      },
+      {
+        "name": "FX_GlassStreak_Red_02",
+        "loc": [
+          -5.625889,
+          -0.534946,
+          2.743262
+        ],
+        "width": 2.045778,
+        "height": 0.035
+      },
+      {
+        "name": "FX_GlassStreak_Yellow_01",
+        "loc": [
+          0.0,
+          -0.534946,
+          2.267905
+        ],
+        "width": 3.6824,
+        "height": 0.052
+      },
+      {
+        "name": "FX_GlassStreak_Yellow_02",
+        "loc": [
+          -1.227467,
+          -0.534946,
+          1.67371
+        ],
+        "width": 2.045778,
+        "height": 0.032
+      },
+      {
+        "name": "FX_GlassStreak_Green_01",
+        "loc": [
+          6.546489,
+          -0.534946,
+          2.267905
+        ],
+        "width": 3.6824,
+        "height": 0.05
+      },
+      {
+        "name": "FX_GlassStreak_Green_02",
+        "loc": [
+          5.5236,
+          -0.534946,
+          2.743262
+        ],
+        "width": 2.045778,
+        "height": 0.03
+      }
+    ]
+  },
+  "glass_materials_updated": [
+    {
+      "object": "FX_GlassStreak_Green_01",
+      "material": "FX_MAT_GlassStreak_Green"
+    },
+    {
+      "object": "FX_GlassStreak_Red_01",
+      "material": "FX_MAT_GlassStreak_Red"
+    },
+    {
+      "object": "FX_GlassStreak_Yellow_01",
+      "material": "FX_MAT_GlassStreak_Yellow"
+    },
+    {
+      "object": "HERO_BlackSkateShoe_L_WhiteSole",
+      "material": "HERO_MAT_SkateShoeWhitePanels"
+    },
+    {
+      "object": "HERO_BlackSkateShoe_R_WhiteSole",
+      "material": "HERO_MAT_SkateShoeWhitePanels"
+    },
+    {
+      "object": "HERO_GlassStorefront_Bay_0",
+      "material": "HERO_MAT_Glass_NightGlossy"
+    },
+    {
+      "object": "HERO_GlassStorefront_Bay_1",
+      "material": "HERO_MAT_Glass_NightGlossy"
+    },
+    {
+      "object": "HERO_GlassStorefront_Bay_2",
+      "material": "HERO_MAT_Glass_NightGlossy"
+    },
+    {
+      "object": "HERO_GlassStorefront_Bay_3",
+      "material": "HERO_MAT_Glass_NightGlossy"
+    },
+    {
+      "object": "Plane.024",
+      "material": "Glass"
+    },
+    {
+      "object": "Plane.037",
+      "material": "Window"
+    },
+    {
+      "object": "Plane.038",
+      "material": "Window"
+    },
+    {
+      "object": "Plane.040",
+      "material": "Window Glass Cycle"
+    },
+    {
+      "object": "Plane.061",
+      "material": "Glass.001"
+    }
+  ],
+  "fx_scan": [
+    {
+      "name": "FX_GlassStreak_Green_01",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        6.546489,
+        -0.534946,
+        2.267905
+      ],
+      "dims": [
+        3.6824,
+        0.0,
+        0.05
+      ],
+      "collections": [
+        "FX_REFLECTION_TRAFFIC"
+      ],
+      "intent": "subtle on-glass reflection streak overlay to guarantee visible traffic-light reflection in Eevee",
+      "visible_camera": true,
+      "visible_glossy": true
+    },
+    {
+      "name": "FX_GlassStreak_Green_02",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        5.5236,
+        -0.534946,
+        2.743262
+      ],
+      "dims": [
+        2.045778,
+        0.0,
+        0.03
+      ],
+      "collections": [
+        "FX_REFLECTION_TRAFFIC"
+      ],
+      "intent": "subtle on-glass reflection streak overlay to guarantee visible traffic-light reflection in Eevee",
+      "visible_camera": true,
+      "visible_glossy": true
+    },
+    {
+      "name": "FX_GlassStreak_Red_01",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        -6.955644,
+        -0.534946,
+        2.267905
+      ],
+      "dims": [
+        4.091556,
+        0.0,
+        0.055
+      ],
+      "collections": [
+        "FX_REFLECTION_TRAFFIC"
+      ],
+      "intent": "subtle on-glass reflection streak overlay to guarantee visible traffic-light reflection in Eevee",
+      "visible_camera": true,
+      "visible_glossy": true
+    },
+    {
+      "name": "FX_GlassStreak_Red_02",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        -5.625889,
+        -0.534946,
+        2.743262
+      ],
+      "dims": [
+        2.045778,
+        0.0,
+        0.035
+      ],
+      "collections": [
+        "FX_REFLECTION_TRAFFIC"
+      ],
+      "intent": "subtle on-glass reflection streak overlay to guarantee visible traffic-light reflection in Eevee",
+      "visible_camera": true,
+      "visible_glossy": true
+    },
+    {
+      "name": "FX_GlassStreak_Yellow_01",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        0.0,
+        -0.534946,
+        2.267905
+      ],
+      "dims": [
+        3.6824,
+        0.0,
+        0.052
+      ],
+      "collections": [
+        "FX_REFLECTION_TRAFFIC"
+      ],
+      "intent": "subtle on-glass reflection streak overlay to guarantee visible traffic-light reflection in Eevee",
+      "visible_camera": true,
+      "visible_glossy": true
+    },
+    {
+      "name": "FX_GlassStreak_Yellow_02",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        -1.227467,
+        -0.534946,
+        1.67371
+      ],
+      "dims": [
+        2.045778,
+        0.0,
+        0.032
+      ],
+      "collections": [
+        "FX_REFLECTION_TRAFFIC"
+      ],
+      "intent": "subtle on-glass reflection streak overlay to guarantee visible traffic-light reflection in Eevee",
+      "visible_camera": true,
+      "visible_glossy": true
+    },
+    {
+      "name": "FX_ReflectCard_Green_01",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        6.546489,
+        -0.866946,
+        2.267905
+      ],
+      "dims": [
+        3.6824,
+        0.0,
+        0.14
+      ],
+      "collections": [
+        "FX_REFLECTION_TRAFFIC"
+      ],
+      "intent": "camera-invisible reflection source for storefront glass",
+      "visible_camera": false,
+      "visible_glossy": true
+    },
+    {
+      "name": "FX_ReflectCard_Green_02",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        5.5236,
+        -0.906946,
+        2.743262
+      ],
+      "dims": [
+        2.045778,
+        0.0,
+        0.08
+      ],
+      "collections": [
+        "FX_REFLECTION_TRAFFIC"
+      ],
+      "intent": "camera-invisible reflection source for storefront glass",
+      "visible_camera": false,
+      "visible_glossy": true
+    },
+    {
+      "name": "FX_ReflectCard_Red_01",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        -6.955644,
+        -0.866946,
+        2.267905
+      ],
+      "dims": [
+        3.886978,
+        0.0,
+        0.16
+      ],
+      "collections": [
+        "FX_REFLECTION_TRAFFIC"
+      ],
+      "intent": "camera-invisible reflection source for storefront glass",
+      "visible_camera": false,
+      "visible_glossy": true
+    },
+    {
+      "name": "FX_ReflectCard_Red_02",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        -5.728178,
+        -0.906946,
+        2.743262
+      ],
+      "dims": [
+        2.045778,
+        0.0,
+        0.09
+      ],
+      "collections": [
+        "FX_REFLECTION_TRAFFIC"
+      ],
+      "intent": "camera-invisible reflection source for storefront glass",
+      "visible_camera": false,
+      "visible_glossy": true
+    },
+    {
+      "name": "FX_ReflectCard_Yellow_01",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        0.0,
+        -0.866946,
+        2.267905
+      ],
+      "dims": [
+        3.6824,
+        0.0,
+        0.14
+      ],
+      "collections": [
+        "FX_REFLECTION_TRAFFIC"
+      ],
+      "intent": "camera-invisible reflection source for storefront glass",
+      "visible_camera": false,
+      "visible_glossy": true
+    },
+    {
+      "name": "FX_ReflectCard_Yellow_02",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        -1.227467,
+        -0.906946,
+        1.67371
+      ],
+      "dims": [
+        2.045778,
+        0.0,
+        0.08
+      ],
+      "collections": [
+        "FX_REFLECTION_TRAFFIC"
+      ],
+      "intent": "camera-invisible reflection source for storefront glass",
+      "visible_camera": false,
+      "visible_glossy": true
+    },
+    {
+      "name": "FX_TrafficLight_Green",
+      "type": "LIGHT",
+      "visible": true,
+      "loc": [
+        5.728178,
+        -4.716946,
+        2.426358
+      ],
+      "dims": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "collections": [
+        "FX_REFLECTION_TRAFFIC",
+        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
+      ],
+      "intent": "",
+      "energy": 380.0,
+      "color": [
+        0.03,
+        1.0,
+        0.12
+      ]
+    },
+    {
+      "name": "FX_TrafficLight_Red",
+      "type": "LIGHT",
+      "visible": true,
+      "loc": [
+        -5.728178,
+        -4.716946,
+        2.426358
+      ],
+      "dims": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "collections": [
+        "FX_REFLECTION_TRAFFIC",
+        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
+      ],
+      "intent": "",
+      "energy": 520.0,
+      "color": [
+        1.0,
+        0.02,
+        0.01
+      ]
+    },
+    {
+      "name": "FX_TrafficLight_Yellow",
+      "type": "LIGHT",
+      "visible": true,
+      "loc": [
+        0.0,
+        -4.966946,
+        2.505584
+      ],
+      "dims": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "collections": [
+        "FX_REFLECTION_TRAFFIC",
+        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
+      ],
+      "intent": "",
+      "energy": 480.0,
+      "color": [
+        1.0,
+        0.78,
+        0.04
+      ]
+    }
+  ],
+  "lights_scan": [
+    {
+      "name": "FX_TrafficLight_Green",
+      "type": "SPOT",
+      "loc": [
+        5.728178,
+        -4.716946,
+        2.426358
+      ],
+      "energy": 380.0,
+      "color": [
+        0.03,
+        1.0,
+        0.12
+      ]
+    },
+    {
+      "name": "FX_TrafficLight_Red",
+      "type": "SPOT",
+      "loc": [
+        -5.728178,
+        -4.716946,
+        2.426358
+      ],
+      "energy": 520.0,
+      "color": [
+        1.0,
+        0.02,
+        0.01
+      ]
+    },
+    {
+      "name": "FX_TrafficLight_Yellow",
+      "type": "SPOT",
+      "loc": [
+        0.0,
+        -4.966946,
+        2.505584
+      ],
+      "energy": 480.0,
+      "color": [
+        1.0,
+        0.78,
+        0.04
+      ]
+    },
+    {
+      "name": "HERO_CarAmberHoodRead",
+      "type": "SPOT",
+      "loc": [
+        5.265154,
+        1.978295,
+        5.190777
+      ],
+      "energy": 100.0,
+      "color": [
+        1.0,
+        0.257203,
+        0.006592
+      ]
+    },
+    {
+      "name": "HERO_CarAmberRoofRead",
+      "type": "SPOT",
+      "loc": [
+        -5.186506,
+        1.995343,
+        5.201615
+      ],
+      "energy": 100.00001525878906,
+      "color": [
+        1.0,
+        0.216022,
+        0.00379
+      ]
+    },
+    {
+      "name": "HERO_CarWarmSideGlint",
+      "type": "SPOT",
+      "loc": [
+        0.007344,
+        22.906092,
+        7.155601
+      ],
+      "energy": 90.0,
+      "color": [
+        1.0,
+        0.38,
+        0.08
+      ]
+    },
+    {
+      "name": "HERO_CyanUnderglow_Area",
+      "type": "AREA",
+      "loc": [
+        -1.522953,
+        5.177517,
+        0.075276
+      ],
+      "energy": 160.0,
+      "color": [
+        0.0,
+        0.55,
+        1.0
+      ]
+    },
+    {
+      "name": "V2B_OverheadAmber_0",
+      "type": "AREA",
+      "loc": [
+        -5.222266,
+        2.649782,
+        5.278863
+      ],
+      "energy": 520.0,
+      "color": [
+        1.0,
+        0.37,
+        0.055
+      ]
+    },
+    {
+      "name": "V2B_OverheadAmber_1",
+      "type": "AREA",
+      "loc": [
+        5.284363,
+        2.653402,
+        5.278863
+      ],
+      "energy": 300.0,
+      "color": [
+        1.0,
+        0.37,
+        0.055
+      ]
+    }
+  ],
+  "fit_scan": {
+    "key_objects": [
+      {
+        "name": "F2",
+        "status": "present",
+        "visible": true,
+        "loc": [
+          2.688858,
+          -0.249535,
+          0.01029
+        ],
+        "dims": [
+          2.783371,
+          1.475343,
+          2.749408
+        ],
+        "faces": 60930
+      },
+      {
+        "name": "Apricot Pullover Hoodie",
+        "status": "present",
+        "visible": true,
+        "loc": [
+          -2.816514,
+          0.012429,
+          0.993742
+        ],
+        "dims": [
+          2.277528,
+          1.091159,
+          1.549869
+        ],
+        "faces": 489064
+      },
+      {
+        "name": "Cargo pants",
+        "status": "present",
+        "visible": true,
+        "loc": [
+          -2.80222,
+          -0.00521,
+          0.329369
+        ],
+        "dims": [
+          1.559261,
+          0.898337,
+          1.052398
+        ],
+        "faces": 16424
+      },
+      {
+        "name": "Plane.001",
+        "status": "present",
+        "visible": true,
+        "loc": [
+          -0.064073,
+          0.0,
+          0.0
+        ],
+        "dims": [
+          0.626516,
+          0.950595,
+          0.372303
+        ],
+        "faces": 10800
+      },
+      {
+        "name": "Plane.022",
+        "status": "present",
+        "visible": true,
+        "loc": [
+          0.065381,
+          0.0,
+          0.0
+        ],
+        "dims": [
+          0.626517,
+          0.950595,
+          0.372303
+        ],
+        "faces": 10800
+      },
+      {
+        "name": "Asphalt ground",
+        "status": "present",
+        "visible": true,
+        "loc": [
+          0.0,
+          4.780939,
+          -0.876001
+        ],
+        "dims": [
+          70.766041,
+          70.315693,
+          3.844296
+        ],
+        "faces": 16154
+      },
+      {
+        "name": "Audi e-tron GT quattro Black",
+        "status": "present",
+        "visible": true,
+        "loc": [
+          -1.511359,
+          5.16917,
+          0.0
+        ],
+        "dims": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "faces": 0
+      }
+    ]
+  },
+  "note": "v1B fixes the Object-removed iteration bug. This pass uses camera-invisible reflection cards plus subtle on-glass streak overlays for reliable visible red/yellow/green reflections."
+}

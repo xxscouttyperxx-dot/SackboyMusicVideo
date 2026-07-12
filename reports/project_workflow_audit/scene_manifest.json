@@ -521,22 +521,141 @@
       ]
     },
     {
-      "name": "FX_ReflectCard_Green_01",
+      "name": "FX_GlassStreak_Green_01",
       "type": "MESH",
       "collections": [
-        "FX_REFLECTION_TRAFFIC",
-        "Scene Collection"
+        "FX_REFLECTION_TRAFFIC"
       ],
       "visible": true,
       "location": [
-        6.5,
-        -16.5,
-        2.25
+        6.546489,
+        -0.534946,
+        2.267905
       ],
       "dimensions": [
-        2.919053,
-        1.016711,
-        0.005311
+        3.6824,
+        0.0,
+        0.05
+      ],
+      "vertices": 4,
+      "faces": 1
+    },
+    {
+      "name": "FX_GlassStreak_Green_02",
+      "type": "MESH",
+      "collections": [
+        "FX_REFLECTION_TRAFFIC"
+      ],
+      "visible": true,
+      "location": [
+        5.5236,
+        -0.534946,
+        2.743262
+      ],
+      "dimensions": [
+        2.045778,
+        0.0,
+        0.03
+      ],
+      "vertices": 4,
+      "faces": 1
+    },
+    {
+      "name": "FX_GlassStreak_Red_01",
+      "type": "MESH",
+      "collections": [
+        "FX_REFLECTION_TRAFFIC"
+      ],
+      "visible": true,
+      "location": [
+        -6.955644,
+        -0.534946,
+        2.267905
+      ],
+      "dimensions": [
+        4.091556,
+        0.0,
+        0.055
+      ],
+      "vertices": 4,
+      "faces": 1
+    },
+    {
+      "name": "FX_GlassStreak_Red_02",
+      "type": "MESH",
+      "collections": [
+        "FX_REFLECTION_TRAFFIC"
+      ],
+      "visible": true,
+      "location": [
+        -5.625889,
+        -0.534946,
+        2.743262
+      ],
+      "dimensions": [
+        2.045778,
+        0.0,
+        0.035
+      ],
+      "vertices": 4,
+      "faces": 1
+    },
+    {
+      "name": "FX_GlassStreak_Yellow_01",
+      "type": "MESH",
+      "collections": [
+        "FX_REFLECTION_TRAFFIC"
+      ],
+      "visible": true,
+      "location": [
+        0.0,
+        -0.534946,
+        2.267905
+      ],
+      "dimensions": [
+        3.6824,
+        0.0,
+        0.052
+      ],
+      "vertices": 4,
+      "faces": 1
+    },
+    {
+      "name": "FX_GlassStreak_Yellow_02",
+      "type": "MESH",
+      "collections": [
+        "FX_REFLECTION_TRAFFIC"
+      ],
+      "visible": true,
+      "location": [
+        -1.227467,
+        -0.534946,
+        1.67371
+      ],
+      "dimensions": [
+        2.045778,
+        0.0,
+        0.032
+      ],
+      "vertices": 4,
+      "faces": 1
+    },
+    {
+      "name": "FX_ReflectCard_Green_01",
+      "type": "MESH",
+      "collections": [
+        "FX_REFLECTION_TRAFFIC"
+      ],
+      "visible": true,
+      "location": [
+        6.546489,
+        -0.866946,
+        2.267905
+      ],
+      "dimensions": [
+        3.6824,
+        0.0,
+        0.14
       ],
       "vertices": 4,
       "faces": 1
@@ -545,19 +664,18 @@
       "name": "FX_ReflectCard_Green_02",
       "type": "MESH",
       "collections": [
-        "FX_REFLECTION_TRAFFIC",
-        "Scene Collection"
+        "FX_REFLECTION_TRAFFIC"
       ],
       "visible": true,
       "location": [
-        5.0,
-        -16.1,
-        2.62
+        5.5236,
+        -0.906946,
+        2.743262
       ],
       "dimensions": [
-        1.385626,
-        0.418334,
-        0.001742
+        2.045778,
+        0.0,
+        0.08
       ],
       "vertices": 4,
       "faces": 1
@@ -566,19 +684,18 @@
       "name": "FX_ReflectCard_Red_01",
       "type": "MESH",
       "collections": [
-        "FX_REFLECTION_TRAFFIC",
-        "Scene Collection"
+        "FX_REFLECTION_TRAFFIC"
       ],
       "visible": true,
       "location": [
-        -6.8,
-        -16.5,
-        2.2
+        -6.955644,
+        -0.866946,
+        2.267905
       ],
       "dimensions": [
-        3.106596,
-        1.131508,
-        0.006349
+        3.886978,
+        0.0,
+        0.16
       ],
       "vertices": 4,
       "faces": 1
@@ -587,19 +704,18 @@
       "name": "FX_ReflectCard_Red_02",
       "type": "MESH",
       "collections": [
-        "FX_REFLECTION_TRAFFIC",
-        "Scene Collection"
+        "FX_REFLECTION_TRAFFIC"
       ],
       "visible": true,
       "location": [
-        -5.2,
-        -16.200001,
-        2.55
+        -5.728178,
+        -0.906946,
+        2.743262
       ],
       "dimensions": [
-        1.580507,
-        0.485892,
-        0.002254
+        2.045778,
+        0.0,
+        0.09
       ],
       "vertices": 4,
       "faces": 1
@@ -608,19 +724,18 @@
       "name": "FX_ReflectCard_Yellow_01",
       "type": "MESH",
       "collections": [
-        "FX_REFLECTION_TRAFFIC",
-        "Scene Collection"
+        "FX_REFLECTION_TRAFFIC"
       ],
       "visible": true,
       "location": [
         0.0,
-        -16.9,
-        2.35
+        -0.866946,
+        2.267905
       ],
       "dimensions": [
-        3.0,
-        0.159931,
-        0.00472
+        3.6824,
+        0.0,
+        0.14
       ],
       "vertices": 4,
       "faces": 1
@@ -629,19 +744,18 @@
       "name": "FX_ReflectCard_Yellow_02",
       "type": "MESH",
       "collections": [
-        "FX_REFLECTION_TRAFFIC",
-        "Scene Collection"
+        "FX_REFLECTION_TRAFFIC"
       ],
       "visible": true,
       "location": [
-        1.5,
-        -16.4,
-        2.7
+        -1.227467,
+        -0.906946,
+        1.67371
       ],
       "dimensions": [
-        1.403564,
-        0.197075,
-        0.00139
+        2.045778,
+        0.0,
+        0.08
       ],
       "vertices": 4,
       "faces": 1
@@ -655,20 +769,20 @@
       ],
       "visible": true,
       "location": [
-        7.5,
-        -18.5,
-        2.55
+        5.728178,
+        -4.716946,
+        2.426358
       ],
       "dimensions": [
         0.0,
         0.0,
         0.0
       ],
-      "energy": 420.0,
+      "energy": 380.0,
       "color": [
-        0.02,
+        0.03,
         1.0,
-        0.16
+        0.12
       ]
     },
     {
@@ -680,19 +794,19 @@
       ],
       "visible": true,
       "location": [
-        -7.5,
-        -18.5,
-        2.55
+        -5.728178,
+        -4.716946,
+        2.426358
       ],
       "dimensions": [
         0.0,
         0.0,
         0.0
       ],
-      "energy": 650.0,
+      "energy": 520.0,
       "color": [
         1.0,
-        0.025,
+        0.02,
         0.01
       ]
     },
@@ -706,19 +820,19 @@
       "visible": true,
       "location": [
         0.0,
-        -19.0,
-        2.55
+        -4.966946,
+        2.505584
       ],
       "dimensions": [
         0.0,
         0.0,
         0.0
       ],
-      "energy": 560.0,
+      "energy": 480.0,
       "color": [
         1.0,
-        0.82,
-        0.05
+        0.78,
+        0.04
       ]
     },
     {
@@ -4937,7 +5051,7 @@
       "name": "FX_REFLECTION_TRAFFIC",
       "hide_viewport": false,
       "hide_render": false,
-      "object_count": 9,
+      "object_count": 15,
       "child_count": 0
     },
     {
