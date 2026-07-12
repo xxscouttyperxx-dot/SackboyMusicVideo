@@ -23,7 +23,7 @@ function GitAddExistingOrDeleted {
 }
 
 Write-Host "[Publish] Cleaning stale package files..."
-$Keep=@("Apply-GlassReflectionVisibility.ps1","Validate-GlassReflectionVisibility.ps1","Publish-CurrentReview.ps1","README-GlassReflectionVisibility.txt","README_FIRST.txt","Run-BuildAll.ps1","Run-DiagnosticRenders.ps1")
+$Keep=@("Apply-RemoveVisibleReflectionStreaks.ps1","Validate-RemoveVisibleReflectionStreaks.ps1","Publish-CurrentReview.ps1","README-RemoveVisibleReflectionStreaks.txt","README_FIRST.txt","Run-BuildAll.ps1","Run-DiagnosticRenders.ps1")
 $Patterns=@("Apply-*.ps1","Validate-*.ps1","README-*.txt")
 foreach($Pattern in $Patterns){
     Get-ChildItem -Path $Root -Filter $Pattern -File -ErrorAction SilentlyContinue |
@@ -38,16 +38,16 @@ GitAddExistingOrDeleted @(
     "blender\scripts",
     "scene_manifest.json",
     "reports\project_workflow_audit",
+    "reports\remove_visible_reflection_streaks_v1",
     "reports\glass_reflection_visibility_v1B",
-    "reports\remove_hidden_rejected_frames_v1",
     "renders\current_review",
+    "Apply-RemoveVisibleReflectionStreaks.ps1",
+    "Validate-RemoveVisibleReflectionStreaks.ps1",
+    "Publish-CurrentReview.ps1",
+    "README-RemoveVisibleReflectionStreaks.txt",
     "Apply-GlassReflectionVisibility.ps1",
     "Validate-GlassReflectionVisibility.ps1",
-    "Publish-CurrentReview.ps1",
-    "README-GlassReflectionVisibility.txt",
-    "Apply-RemoveHiddenRejectedFrames.ps1",
-    "Validate-RemoveHiddenRejectedFrames.ps1",
-    "README-RemoveHiddenRejectedFrames.txt"
+    "README-GlassReflectionVisibility.txt"
 )
 
 git -C $Root status --short
@@ -55,7 +55,7 @@ $Status = git -C $Root status --porcelain
 if([string]::IsNullOrWhiteSpace($Status)){
     Write-Host "[Publish] Nothing to commit."
 } else {
-    git -C $Root commit -m "Improve storefront glass reflection visibility"
+    git -C $Root commit -m "Remove visible reflection streak overlays"
     if($LASTEXITCODE -ne 0){throw "git commit failed"}
 }
 

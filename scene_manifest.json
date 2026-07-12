@@ -521,126 +521,6 @@
       ]
     },
     {
-      "name": "FX_GlassStreak_Green_01",
-      "type": "MESH",
-      "collections": [
-        "FX_REFLECTION_TRAFFIC"
-      ],
-      "visible": true,
-      "location": [
-        6.546489,
-        -0.534946,
-        2.267905
-      ],
-      "dimensions": [
-        3.6824,
-        0.0,
-        0.05
-      ],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "FX_GlassStreak_Green_02",
-      "type": "MESH",
-      "collections": [
-        "FX_REFLECTION_TRAFFIC"
-      ],
-      "visible": true,
-      "location": [
-        5.5236,
-        -0.534946,
-        2.743262
-      ],
-      "dimensions": [
-        2.045778,
-        0.0,
-        0.03
-      ],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "FX_GlassStreak_Red_01",
-      "type": "MESH",
-      "collections": [
-        "FX_REFLECTION_TRAFFIC"
-      ],
-      "visible": true,
-      "location": [
-        -6.955644,
-        -0.534946,
-        2.267905
-      ],
-      "dimensions": [
-        4.091556,
-        0.0,
-        0.055
-      ],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "FX_GlassStreak_Red_02",
-      "type": "MESH",
-      "collections": [
-        "FX_REFLECTION_TRAFFIC"
-      ],
-      "visible": true,
-      "location": [
-        -5.625889,
-        -0.534946,
-        2.743262
-      ],
-      "dimensions": [
-        2.045778,
-        0.0,
-        0.035
-      ],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "FX_GlassStreak_Yellow_01",
-      "type": "MESH",
-      "collections": [
-        "FX_REFLECTION_TRAFFIC"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        -0.534946,
-        2.267905
-      ],
-      "dimensions": [
-        3.6824,
-        0.0,
-        0.052
-      ],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
-      "name": "FX_GlassStreak_Yellow_02",
-      "type": "MESH",
-      "collections": [
-        "FX_REFLECTION_TRAFFIC"
-      ],
-      "visible": true,
-      "location": [
-        -1.227467,
-        -0.534946,
-        1.67371
-      ],
-      "dimensions": [
-        2.045778,
-        0.0,
-        0.032
-      ],
-      "vertices": 4,
-      "faces": 1
-    },
-    {
       "name": "FX_ReflectCard_Green_01",
       "type": "MESH",
       "collections": [
@@ -654,8 +534,8 @@
       ],
       "dimensions": [
         3.6824,
-        0.0,
-        0.14
+        0.14,
+        0.0
       ],
       "vertices": 4,
       "faces": 1
@@ -674,8 +554,8 @@
       ],
       "dimensions": [
         2.045778,
-        0.0,
-        0.08
+        0.08,
+        0.0
       ],
       "vertices": 4,
       "faces": 1
@@ -693,9 +573,9 @@
         2.267905
       ],
       "dimensions": [
-        3.886978,
-        0.0,
-        0.16
+        3.886977,
+        0.16,
+        0.0
       ],
       "vertices": 4,
       "faces": 1
@@ -713,9 +593,9 @@
         2.743262
       ],
       "dimensions": [
-        2.045778,
-        0.0,
-        0.09
+        2.045777,
+        0.09,
+        0.0
       ],
       "vertices": 4,
       "faces": 1
@@ -734,8 +614,8 @@
       ],
       "dimensions": [
         3.6824,
-        0.0,
-        0.14
+        0.14,
+        0.0
       ],
       "vertices": 4,
       "faces": 1
@@ -754,8 +634,8 @@
       ],
       "dimensions": [
         2.045778,
-        0.0,
-        0.08
+        0.08,
+        0.0
       ],
       "vertices": 4,
       "faces": 1
@@ -5051,7 +4931,7 @@
       "name": "FX_REFLECTION_TRAFFIC",
       "hide_viewport": false,
       "hide_render": false,
-      "object_count": 15,
+      "object_count": 9,
       "child_count": 0
     },
     {
