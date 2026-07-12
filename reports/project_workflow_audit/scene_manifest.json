@@ -461,314 +461,6 @@
       "faces": 6
     },
     {
-      "name": "ENV_FrameTop_-1",
-      "type": "MESH",
-      "collections": [
-        "ENV_ParkingLot",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
-      "visible": true,
-      "location": [
-        -3.5,
-        6.6,
-        4.139754
-      ],
-      "dimensions": [
-        3.2,
-        0.16,
-        0.0
-      ],
-      "vertices": 8,
-      "faces": 6
-    },
-    {
-      "name": "ENV_FrameTop_-2",
-      "type": "MESH",
-      "collections": [
-        "ENV_ParkingLot",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
-      "visible": true,
-      "location": [
-        -7.0,
-        6.6,
-        4.139754
-      ],
-      "dimensions": [
-        3.2,
-        0.16,
-        0.0
-      ],
-      "vertices": 8,
-      "faces": 6
-    },
-    {
-      "name": "ENV_FrameTop_-3",
-      "type": "MESH",
-      "collections": [
-        "ENV_ParkingLot",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
-      "visible": true,
-      "location": [
-        -10.5,
-        6.6,
-        4.139754
-      ],
-      "dimensions": [
-        3.200001,
-        0.16,
-        0.0
-      ],
-      "vertices": 8,
-      "faces": 6
-    },
-    {
-      "name": "ENV_FrameTop_0",
-      "type": "MESH",
-      "collections": [
-        "ENV_ParkingLot",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        6.6,
-        4.139754
-      ],
-      "dimensions": [
-        3.2,
-        0.16,
-        0.0
-      ],
-      "vertices": 8,
-      "faces": 6
-    },
-    {
-      "name": "ENV_FrameTop_1",
-      "type": "MESH",
-      "collections": [
-        "ENV_ParkingLot",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
-      "visible": true,
-      "location": [
-        3.5,
-        6.6,
-        4.139754
-      ],
-      "dimensions": [
-        3.2,
-        0.16,
-        0.0
-      ],
-      "vertices": 8,
-      "faces": 6
-    },
-    {
-      "name": "ENV_FrameTop_2",
-      "type": "MESH",
-      "collections": [
-        "ENV_ParkingLot",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
-      "visible": true,
-      "location": [
-        7.0,
-        6.6,
-        4.139754
-      ],
-      "dimensions": [
-        3.2,
-        0.16,
-        0.0
-      ],
-      "vertices": 8,
-      "faces": 6
-    },
-    {
-      "name": "ENV_FrameTop_3",
-      "type": "MESH",
-      "collections": [
-        "ENV_ParkingLot",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
-      "visible": true,
-      "location": [
-        10.5,
-        6.6,
-        4.139754
-      ],
-      "dimensions": [
-        3.200001,
-        0.16,
-        0.0
-      ],
-      "vertices": 8,
-      "faces": 6
-    },
-    {
-      "name": "ENV_Glass_-1",
-      "type": "MESH",
-      "collections": [
-        "ENV_ParkingLot",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
-      "visible": true,
-      "location": [
-        -3.5,
-        6.72,
-        3.984754
-      ],
-      "dimensions": [
-        2.84,
-        0.16,
-        0.0
-      ],
-      "vertices": 8,
-      "faces": 6
-    },
-    {
-      "name": "ENV_Glass_-2",
-      "type": "MESH",
-      "collections": [
-        "ENV_ParkingLot",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
-      "visible": true,
-      "location": [
-        -7.0,
-        6.72,
-        3.984754
-      ],
-      "dimensions": [
-        2.84,
-        0.16,
-        0.0
-      ],
-      "vertices": 8,
-      "faces": 6
-    },
-    {
-      "name": "ENV_Glass_-3",
-      "type": "MESH",
-      "collections": [
-        "ENV_ParkingLot",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
-      "visible": true,
-      "location": [
-        -10.5,
-        6.72,
-        3.984754
-      ],
-      "dimensions": [
-        2.84,
-        0.16,
-        0.0
-      ],
-      "vertices": 8,
-      "faces": 6
-    },
-    {
-      "name": "ENV_Glass_0",
-      "type": "MESH",
-      "collections": [
-        "ENV_ParkingLot",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
-      "visible": true,
-      "location": [
-        0.0,
-        6.72,
-        3.984754
-      ],
-      "dimensions": [
-        2.84,
-        0.16,
-        0.0
-      ],
-      "vertices": 8,
-      "faces": 6
-    },
-    {
-      "name": "ENV_Glass_1",
-      "type": "MESH",
-      "collections": [
-        "ENV_ParkingLot",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
-      "visible": true,
-      "location": [
-        3.5,
-        6.72,
-        3.984754
-      ],
-      "dimensions": [
-        2.84,
-        0.16,
-        0.0
-      ],
-      "vertices": 8,
-      "faces": 6
-    },
-    {
-      "name": "ENV_Glass_2",
-      "type": "MESH",
-      "collections": [
-        "ENV_ParkingLot",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
-      "visible": true,
-      "location": [
-        7.0,
-        6.72,
-        3.984754
-      ],
-      "dimensions": [
-        2.84,
-        0.16,
-        0.0
-      ],
-      "vertices": 8,
-      "faces": 6
-    },
-    {
-      "name": "ENV_Glass_3",
-      "type": "MESH",
-      "collections": [
-        "ENV_ParkingLot",
-        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
-        "PARKING_PAINT_ORIGINALS_HIDDEN"
-      ],
-      "visible": true,
-      "location": [
-        10.5,
-        6.72,
-        3.984754
-      ],
-      "dimensions": [
-        2.84,
-        0.16,
-        0.0
-      ],
-      "vertices": 8,
-      "faces": 6
-    },
-    {
       "name": "F2",
       "type": "MESH",
       "collections": [
@@ -842,9 +534,9 @@
         2.25
       ],
       "dimensions": [
-        1.0,
-        0.0,
-        1.0
+        2.919053,
+        1.016711,
+        0.005311
       ],
       "vertices": 4,
       "faces": 1
@@ -863,9 +555,9 @@
         2.62
       ],
       "dimensions": [
-        1.0,
-        0.0,
-        1.0
+        1.385626,
+        0.418334,
+        0.001742
       ],
       "vertices": 4,
       "faces": 1
@@ -884,9 +576,9 @@
         2.2
       ],
       "dimensions": [
-        1.0,
-        0.0,
-        1.0
+        3.106596,
+        1.131508,
+        0.006349
       ],
       "vertices": 4,
       "faces": 1
@@ -905,9 +597,9 @@
         2.55
       ],
       "dimensions": [
-        1.0,
-        0.0,
-        1.0
+        1.580507,
+        0.485892,
+        0.002254
       ],
       "vertices": 4,
       "faces": 1
@@ -926,9 +618,9 @@
         2.35
       ],
       "dimensions": [
-        1.0,
-        0.0,
-        1.0
+        3.0,
+        0.159931,
+        0.00472
       ],
       "vertices": 4,
       "faces": 1
@@ -947,9 +639,9 @@
         2.7
       ],
       "dimensions": [
-        1.0,
-        0.0,
-        1.0
+        1.403564,
+        0.197075,
+        0.00139
       ],
       "vertices": 4,
       "faces": 1
@@ -5217,7 +4909,7 @@
       "name": "ENV_ParkingLot",
       "hide_viewport": false,
       "hide_render": false,
-      "object_count": 15,
+      "object_count": 1,
       "child_count": 0
     },
     {
@@ -5350,14 +5042,14 @@
       "name": "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
       "hide_viewport": false,
       "hide_render": false,
-      "object_count": 33,
+      "object_count": 19,
       "child_count": 0
     },
     {
       "name": "PARKING_PAINT_ORIGINALS_HIDDEN",
       "hide_viewport": true,
       "hide_render": true,
-      "object_count": 33,
+      "object_count": 19,
       "child_count": 0
     },
     {
