@@ -1,7 +1,7 @@
 # Scene Layout Summary
 
-Updated by Hoodie Surface Data Repair v1F.
+Updated by Restore Imported Hoodie Baseline v1.
 
-- Hood ridges/depressions were measured and repaired using local disparity data.
-- Actual long-edge audit render replaces the old wireframe-modifier suspicion path.
+- Hoodie restored to imported/Basis geometry by disabling all non-Basis hoodie shape keys.
+- No new hoodie deformation applied.
 - Current review remains image-only; text/json reports go under reports.

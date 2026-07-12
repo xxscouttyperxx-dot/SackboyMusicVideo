@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "hoodie_active_shape_key_after": "Basis",
+  "restored_shape_key_count": 15,
+  "vertex_count": 257116,
+  "face_count": 489064,
+  "current_review_images": [
+    "01_RestoredHoodieFront.png",
+    "02_RestoredHoodieLeftSideGray.png",
+    "03_RestoredHoodieRightSideGray.png",
+    "04_RestoredHoodieTopGray.png",
+    "05_ScenePreserved.png"
+  ]
+}

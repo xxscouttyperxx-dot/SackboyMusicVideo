@@ -436,7 +436,25 @@
         2.749408
       ],
       "vertices": 30549,
-      "faces": 60930
+      "faces": 60930,
+      "shape_keys": [
+        {
+          "name": "Basis",
+          "value": 0.0
+        },
+        {
+          "name": "BODYFIT_HoodiePantsPrep_v1",
+          "value": 0.0
+        },
+        {
+          "name": "BODYFIT_TorsoHoodFit_v1",
+          "value": 0.0
+        },
+        {
+          "name": "BODYFIT_SilhouetteRefine_v1",
+          "value": 0.0
+        }
+      ]
     },
     {
       "name": "F2.001",
@@ -449,7 +467,25 @@
         0.343261
       ],
       "vertices": 30549,
-      "faces": 60930
+      "faces": 60930,
+      "shape_keys": [
+        {
+          "name": "Basis",
+          "value": 0.0
+        },
+        {
+          "name": "BODYFIT_HoodiePantsPrep_v1",
+          "value": 0.0
+        },
+        {
+          "name": "BODYFIT_TorsoHoodFit_v1",
+          "value": 0.0
+        },
+        {
+          "name": "BODYFIT_SilhouetteRefine_v1",
+          "value": 0.0
+        }
+      ]
     },
     {
       "name": "FINAL_ORBIT_RIG",
@@ -2815,11 +2851,77 @@
       "hidden": false,
       "dimensions": [
         2.277528,
-        1.142266,
-        2.412392
+        1.091159,
+        1.549869
       ],
       "vertices": 257116,
-      "faces": 489064
+      "faces": 489064,
+      "shape_keys": [
+        {
+          "name": "Basis",
+          "value": 1.0
+        },
+        {
+          "name": "HOODIEFIT_NarrowSackboy_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_CrownSleeveTaper_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_CrownSmoothExpand_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_RimCrownContain_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_TopArtifactFix_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_BowlRidgePolish_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_BowlRimRefine_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_SpikeSleeveSideFix_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_CameraCleanupShapeFix_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_SideBackBowlFix_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_DomeSideDepressionFix_v1B",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_SideDomeCorrection_v1C",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_ReportsAndDomeFix_v1D",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_SurfaceRelaxSpikeAudit_v1E",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_SurfaceDataRepair_v1F",
+          "value": 0.0
+        }
+      ]
     },
     {
       "name": "SK_Eye_L",
