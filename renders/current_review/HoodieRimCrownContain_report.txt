@@ -1,9 +1,0 @@
-[pass] hoodie rim crown contain v1
-[lock] underglow locked [-1.522953, 5.177517, 0.075276] -> [-1.522953, 5.177517, 0.075276]
-[character] F2 baseline preserved; BODYFIT keys kept disabled
-[render] Cycles review renders retained; viewport preview samples remain low
-[hoodie] added active shape key HOODIEFIT_RimCrownContain_v1; source=HOODIEFIT_CrownSmoothExpand_v1; touched_vertices=128572; max_delta_local=0.150580; head_top_world=2.750000238418579
-[render] 01_HoodRimFront.png
-[render] 02_HoodRimProfile.png
-[render] 03_HoodTopArtifactCheck.png
-[render] 04_StorefrontReflectionPreserved.png

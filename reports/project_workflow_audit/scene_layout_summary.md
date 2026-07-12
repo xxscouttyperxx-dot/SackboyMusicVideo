@@ -1,7 +1,7 @@
 # Scene Layout Summary
 
-Updated by Hoodie Rim Crown Contain v1.
+Updated by Hood Top Artifact Fix v1.
 
-- Added hoodie rim/crown containment shape key.
+- Focused hood-top artifact corrective shape key added to hoodie.
 - F2 remains restored baseline; BODYFIT keys disabled.
-- Preserved reflection setup and approved scene lighting.
+- Cameras now prioritize the active deformation area plus one preservation view.

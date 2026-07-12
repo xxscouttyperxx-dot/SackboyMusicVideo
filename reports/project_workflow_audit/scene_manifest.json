@@ -57,8 +57,8 @@
       ],
       "dimensions": [
         2.277528,
-        1.0901,
-        1.957913
+        1.099294,
+        2.06258
       ],
       "vertices": 257116,
       "faces": 489064,
@@ -81,6 +81,10 @@
         },
         {
           "name": "HOODIEFIT_RimCrownContain_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_TopArtifactFix_v1",
           "value": 1.0
         }
       ]
@@ -243,6 +247,25 @@
       "review_camera": true
     },
     {
+      "name": "CAM_REVIEW_CharacterScenePreserved",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        4.384449,
+        -7.785823,
+        3.175178
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
       "name": "CAM_REVIEW_ClothingClearance",
       "type": "CAMERA",
       "collections": [
@@ -319,6 +342,25 @@
       "review_camera": true
     },
     {
+      "name": "CAM_REVIEW_HoodRim_ProfileClose",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        2.934449,
+        -0.635823,
+        2.775178
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
       "name": "CAM_REVIEW_HoodTopArtifactCheck",
       "type": "CAMERA",
       "collections": [
@@ -367,6 +409,44 @@
         4.584449,
         -0.785823,
         2.600237
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_HoodTop_Artifact_Close",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        0.334449,
+        -2.185823,
+        3.175178
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_HoodTop_Overhead",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        -0.065551,
+        -0.885823,
+        4.975178
       ],
       "dimensions": [
         0.0,
