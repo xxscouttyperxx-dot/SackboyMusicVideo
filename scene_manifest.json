@@ -57,8 +57,8 @@
       ],
       "dimensions": [
         2.277528,
-        1.075389,
-        1.549869
+        1.071129,
+        1.604985
       ],
       "vertices": 257116,
       "faces": 489064,
@@ -69,6 +69,10 @@
         },
         {
           "name": "HOODIEFIT_NarrowSackboy_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_CrownSleeveTaper_v1",
           "value": 1.0
         }
       ]
@@ -269,6 +273,44 @@
       "review_camera": true
     },
     {
+      "name": "CAM_REVIEW_HoodieCrown_Front",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        -0.215551,
+        -5.985823,
+        2.145249
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_HoodieCrown_Profile",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        4.984449,
+        -0.985823,
+        2.145249
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
       "name": "CAM_REVIEW_HoodieFit_Front",
       "type": "CAMERA",
       "collections": [
@@ -421,6 +463,25 @@
       "review_camera": true
     },
     {
+      "name": "CAM_REVIEW_SleeveTaper_Check",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        3.184449,
+        -5.485823,
+        2.245249
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
       "name": "CAM_REVIEW_StorefrontReflection",
       "type": "CAMERA",
       "collections": [
@@ -430,7 +491,7 @@
       "location": [
         7.584449,
         -9.985823,
-        2.940261
+        2.995249
       ],
       "dimensions": [
         0.0,

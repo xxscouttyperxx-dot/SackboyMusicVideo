@@ -1,9 +1,0 @@
-[pass] hoodie narrow fit v1
-[lock] underglow locked [-1.522953, 5.177517, 0.075276] -> [-1.522953, 5.177517, 0.075276]
-[character] kept F2 baseline; disabled BODYFIT keys: ['BODYFIT_HoodiePantsPrep_v1', 'BODYFIT_TorsoHoodFit_v1', 'BODYFIT_SilhouetteRefine_v1']
-[render] Cycles review renders retained; viewport preview samples remain low
-[hoodie] added active shape key HOODIEFIT_NarrowSackboy_v1; touched_vertices=244022; max_delta_local=0.061745
-[render] 01_HoodieNarrowFront.png
-[render] 02_HoodieNarrowProfile.png
-[render] 03_HoodieNarrowThreeQuarter.png
-[render] 04_StorefrontReflectionPreserved.png

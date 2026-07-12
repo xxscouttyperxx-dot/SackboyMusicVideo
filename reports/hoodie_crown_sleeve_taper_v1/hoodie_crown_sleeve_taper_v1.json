@@ -1,0 +1,467 @@
+{
+  "pass": "hoodie_crown_sleeve_taper_v1",
+  "hoodie_fit": {
+    "shape_key": "HOODIEFIT_CrownSleeveTaper_v1",
+    "source_key": "HOODIEFIT_NarrowSackboy_v1",
+    "value": 1.0,
+    "touched_vertices": 223816,
+    "max_delta_local": 0.07511870269662493,
+    "region_counts": {
+      "hood_crown_expanded": 35896,
+      "hood_transition_smoothed": 73706,
+      "sleeve_tapered": 78723,
+      "sleeve_bulge_reduced": 33821,
+      "torso_kept_narrow": 167580
+    },
+    "local_bounds_after": {
+      "min_x": -0.292818546295166,
+      "max_x": 0.2922556400299072,
+      "min_y": -0.1355455219745636,
+      "max_y": 0.1530328094959259,
+      "min_z": 0.002238236367702484,
+      "max_z": 1.0371111631393433,
+      "dim_x": 0.5850741863250732,
+      "dim_y": 0.2885783314704895,
+      "dim_z": 1.0348729267716408
+    }
+  },
+  "disabled_bodyfit_keys": [
+    {
+      "name": "BODYFIT_HoodiePantsPrep_v1",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "name": "BODYFIT_TorsoHoodFit_v1",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "name": "BODYFIT_SilhouetteRefine_v1",
+      "before": 0.0,
+      "after": 0.0
+    }
+  ],
+  "underglow_lock": {
+    "name": "HERO_CyanUnderglow_Area",
+    "before": [
+      -1.522953,
+      5.177517,
+      0.075276
+    ],
+    "after": [
+      -1.522953,
+      5.177517,
+      0.075276
+    ]
+  },
+  "review_cameras": [
+    {
+      "name": "CAM_REVIEW_HoodieCrown_Front",
+      "render": "01_HoodCrownFront.png",
+      "loc": [
+        -0.215551,
+        -5.985823,
+        2.145249
+      ],
+      "lens": 56
+    },
+    {
+      "name": "CAM_REVIEW_HoodieCrown_Profile",
+      "render": "02_HoodCrownProfile.png",
+      "loc": [
+        4.984449,
+        -0.985823,
+        2.145249
+      ],
+      "lens": 62
+    },
+    {
+      "name": "CAM_REVIEW_SleeveTaper_Check",
+      "render": "03_SleeveTaperThreeQuarter.png",
+      "loc": [
+        3.184449,
+        -5.485823,
+        2.245249
+      ],
+      "lens": 56
+    },
+    {
+      "name": "CAM_REVIEW_StorefrontReflection",
+      "render": "04_StorefrontReflectionPreserved.png",
+      "loc": [
+        7.584449,
+        -9.985823,
+        2.995249
+      ],
+      "lens": 48
+    }
+  ],
+  "key_objects": [
+    {
+      "name": "F2",
+      "status": "present",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        2.688858,
+        -0.249535,
+        0.01029
+      ],
+      "dims": [
+        2.783371,
+        1.475343,
+        2.749408
+      ],
+      "vertices": 30549,
+      "faces": 60930,
+      "shape_keys": [
+        {
+          "name": "Basis",
+          "value": 0.0
+        },
+        {
+          "name": "BODYFIT_HoodiePantsPrep_v1",
+          "value": 0.0
+        },
+        {
+          "name": "BODYFIT_TorsoHoodFit_v1",
+          "value": 0.0
+        },
+        {
+          "name": "BODYFIT_SilhouetteRefine_v1",
+          "value": 0.0
+        }
+      ],
+      "modifiers": [],
+      "collections": [
+        "CHAR_F2",
+        "CHAR_Meshy_LeftCandidate_Refined"
+      ]
+    },
+    {
+      "name": "Apricot Pullover Hoodie",
+      "status": "present",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        -2.816514,
+        0.012429,
+        0.993742
+      ],
+      "dims": [
+        2.277528,
+        1.071129,
+        1.604985
+      ],
+      "vertices": 257116,
+      "faces": 489064,
+      "shape_keys": [
+        {
+          "name": "Basis",
+          "value": 1.0
+        },
+        {
+          "name": "HOODIEFIT_NarrowSackboy_v1",
+          "value": 0.0
+        },
+        {
+          "name": "HOODIEFIT_CrownSleeveTaper_v1",
+          "value": 1.0
+        }
+      ],
+      "modifiers": [
+        {
+          "name": "OPT_PREVIEW_DECIMATE",
+          "type": "DECIMATE"
+        }
+      ],
+      "collections": [
+        "Apricot Pullover Hoodie",
+        "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS",
+        "WARDROBE_IMPORTED"
+      ]
+    },
+    {
+      "name": "Cargo pants",
+      "status": "present",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        -2.80222,
+        -0.00521,
+        0.329369
+      ],
+      "dims": [
+        1.559261,
+        0.898337,
+        1.052398
+      ],
+      "vertices": 16507,
+      "faces": 16424,
+      "shape_keys": [],
+      "modifiers": [
+        {
+          "name": "Collision",
+          "type": "COLLISION"
+        }
+      ],
+      "collections": [
+        "Cargo pants",
+        "WARDROBE_IMPORTED"
+      ]
+    },
+    {
+      "name": "Plane.001",
+      "status": "present",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        -0.064073,
+        0.0,
+        0.0
+      ],
+      "dims": [
+        0.626516,
+        0.950595,
+        0.372303
+      ],
+      "vertices": 10292,
+      "faces": 10800,
+      "shape_keys": [],
+      "modifiers": [],
+      "collections": [
+        "Shoes",
+        "WARDROBE_IMPORTED"
+      ]
+    },
+    {
+      "name": "Plane.022",
+      "status": "present",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        0.065381,
+        0.0,
+        0.0
+      ],
+      "dims": [
+        0.626517,
+        0.950595,
+        0.372303
+      ],
+      "vertices": 10292,
+      "faces": 10800,
+      "shape_keys": [],
+      "modifiers": [
+        {
+          "name": "WeightedNormal",
+          "type": "WEIGHTED_NORMAL"
+        },
+        {
+          "name": "WeightedNormal.001",
+          "type": "WEIGHTED_NORMAL"
+        }
+      ],
+      "collections": [
+        "Shoes",
+        "WARDROBE_IMPORTED"
+      ]
+    },
+    {
+      "name": "Asphalt ground",
+      "status": "present",
+      "type": "MESH",
+      "visible": true,
+      "loc": [
+        0.0,
+        4.780939,
+        -0.876001
+      ],
+      "dims": [
+        70.766041,
+        70.315693,
+        3.844296
+      ],
+      "vertices": 16441,
+      "faces": 16154,
+      "shape_keys": [],
+      "modifiers": [],
+      "collections": [
+        "Asphalt ground",
+        "ENV_PARKING"
+      ]
+    },
+    {
+      "name": "Audi e-tron GT quattro Black",
+      "status": "present",
+      "type": "EMPTY",
+      "visible": true,
+      "loc": [
+        -1.511359,
+        5.16917,
+        0.0
+      ],
+      "dims": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 0,
+      "faces": 0,
+      "shape_keys": [],
+      "modifiers": [],
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ]
+    }
+  ],
+  "lights_scan": [
+    {
+      "name": "FX_TrafficLight_Green",
+      "type": "SPOT",
+      "loc": [
+        5.728178,
+        -4.716946,
+        2.426358
+      ],
+      "energy": 360.0,
+      "color": [
+        0.05,
+        1.0,
+        0.16
+      ]
+    },
+    {
+      "name": "FX_TrafficLight_Red",
+      "type": "SPOT",
+      "loc": [
+        -5.728178,
+        -4.716946,
+        2.426358
+      ],
+      "energy": 450.0,
+      "color": [
+        1.0,
+        0.02,
+        0.01
+      ]
+    },
+    {
+      "name": "FX_TrafficLight_Yellow",
+      "type": "SPOT",
+      "loc": [
+        0.0,
+        -4.966946,
+        2.505584
+      ],
+      "energy": 420.0,
+      "color": [
+        1.0,
+        0.82,
+        0.05
+      ]
+    },
+    {
+      "name": "HERO_CarAmberHoodRead",
+      "type": "SPOT",
+      "loc": [
+        5.265154,
+        1.978295,
+        5.190777
+      ],
+      "energy": 100.0,
+      "color": [
+        1.0,
+        0.257203,
+        0.006592
+      ]
+    },
+    {
+      "name": "HERO_CarAmberRoofRead",
+      "type": "SPOT",
+      "loc": [
+        -5.186506,
+        1.995343,
+        5.201615
+      ],
+      "energy": 100.00001525878906,
+      "color": [
+        1.0,
+        0.216022,
+        0.00379
+      ]
+    },
+    {
+      "name": "HERO_CarWarmSideGlint",
+      "type": "SPOT",
+      "loc": [
+        0.007344,
+        22.906092,
+        7.155601
+      ],
+      "energy": 90.0,
+      "color": [
+        1.0,
+        0.38,
+        0.08
+      ]
+    },
+    {
+      "name": "HERO_CyanUnderglow_Area",
+      "type": "AREA",
+      "loc": [
+        -1.522953,
+        5.177517,
+        0.075276
+      ],
+      "energy": 160.0,
+      "color": [
+        0.0,
+        0.55,
+        1.0
+      ]
+    },
+    {
+      "name": "V2B_OverheadAmber_0",
+      "type": "AREA",
+      "loc": [
+        -5.222266,
+        2.649782,
+        5.278863
+      ],
+      "energy": 520.0,
+      "color": [
+        1.0,
+        0.37,
+        0.055
+      ]
+    },
+    {
+      "name": "V2B_OverheadAmber_1",
+      "type": "AREA",
+      "loc": [
+        5.284363,
+        2.653402,
+        5.278863
+      ],
+      "energy": 300.0,
+      "color": [
+        1.0,
+        0.37,
+        0.055
+      ]
+    }
+  ],
+  "notes": [
+    "Continues from HOODIEFIT_NarrowSackboy_v1.",
+    "Expands hood crown in feathered sections.",
+    "Tapers sleeve outer/cuff zones.",
+    "F2 baseline remains unchanged."
+  ],
+  "next_goals": [
+    "Judge hood crown size and sleeve taper.",
+    "If crown is right but slope still steep, run crown smoothing only.",
+    "Then fit pants and shoes."
+  ]
+}
