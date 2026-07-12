@@ -1,9 +1,0 @@
-[pass] hoodie crown sleeve taper v1
-[lock] underglow locked [-1.522953, 5.177517, 0.075276] -> [-1.522953, 5.177517, 0.075276]
-[character] F2 baseline preserved; BODYFIT keys kept disabled
-[render] Cycles review renders retained; viewport preview samples remain low
-[hoodie] added active shape key HOODIEFIT_CrownSleeveTaper_v1; source=HOODIEFIT_NarrowSackboy_v1; touched_vertices=223816; max_delta_local=0.075119
-[render] 01_HoodCrownFront.png
-[render] 02_HoodCrownProfile.png
-[render] 03_SleeveTaperThreeQuarter.png
-[render] 04_StorefrontReflectionPreserved.png

@@ -23,7 +23,7 @@ function GitAddExistingOrDeleted {
 }
 
 Write-Host "[Publish] Cleaning stale package files..."
-$Keep=@("Apply-HoodieCrownSleeveTaper.ps1","Validate-HoodieCrownSleeveTaper.ps1","Publish-CurrentReview.ps1","README-HoodieCrownSleeveTaper.txt","README_FIRST.txt","Run-BuildAll.ps1","Run-DiagnosticRenders.ps1")
+$Keep=@("Apply-HoodieCrownSmoothExpand.ps1","Validate-HoodieCrownSmoothExpand.ps1","Publish-CurrentReview.ps1","README-HoodieCrownSmoothExpand.txt","README_FIRST.txt","Run-BuildAll.ps1","Run-DiagnosticRenders.ps1")
 $Patterns=@("Apply-*.ps1","Validate-*.ps1","README-*.txt")
 foreach($Pattern in $Patterns){
     Get-ChildItem -Path $Root -Filter $Pattern -File -ErrorAction SilentlyContinue |
@@ -38,16 +38,16 @@ GitAddExistingOrDeleted @(
     "blender\scripts",
     "scene_manifest.json",
     "reports\project_workflow_audit",
+    "reports\hoodie_crown_smooth_expand_v1",
     "reports\hoodie_crown_sleeve_taper_v1",
-    "reports\hoodie_narrow_fit_v1",
     "renders\current_review",
+    "Apply-HoodieCrownSmoothExpand.ps1",
+    "Validate-HoodieCrownSmoothExpand.ps1",
+    "Publish-CurrentReview.ps1",
+    "README-HoodieCrownSmoothExpand.txt",
     "Apply-HoodieCrownSleeveTaper.ps1",
     "Validate-HoodieCrownSleeveTaper.ps1",
-    "Publish-CurrentReview.ps1",
-    "README-HoodieCrownSleeveTaper.txt",
-    "Apply-HoodieNarrowFit.ps1",
-    "Validate-HoodieNarrowFit.ps1",
-    "README-HoodieNarrowFit.txt"
+    "README-HoodieCrownSleeveTaper.txt"
 )
 
 git -C $Root status --short
@@ -55,7 +55,7 @@ $Status = git -C $Root status --porcelain
 if([string]::IsNullOrWhiteSpace($Status)){
     Write-Host "[Publish] Nothing to commit."
 } else {
-    git -C $Root commit -m "Expand hoodie crown and taper sleeves"
+    git -C $Root commit -m "Smooth hoodie crown and fix sleeve elbow dips"
     if($LASTEXITCODE -ne 0){throw "git commit failed"}
 }
 

@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "hoodie_shape_key": "HOODIEFIT_CrownSmoothExpand_v1",
+  "touched_vertices": 166236,
+  "review_cameras": [
+    "CAM_REVIEW_HoodTopFront",
+    "CAM_REVIEW_HoodTopProfile",
+    "CAM_REVIEW_SleeveElbowCheck",
+    "CAM_REVIEW_StorefrontReflection"
+  ]
+}
