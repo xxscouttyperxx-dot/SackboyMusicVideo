@@ -23,7 +23,7 @@ function GitAddExistingOrDeleted {
 }
 
 Write-Host "[Publish] Cleaning stale package files..."
-$Keep=@("Apply-HoodieReportsAndDomeFix_v1D.ps1","Validate-HoodieReportsAndDomeFix_v1D.ps1","Publish-CurrentReview.ps1","README-HoodieReportsAndDomeFix_v1D.txt","README_FIRST.txt","Run-BuildAll.ps1","Run-DiagnosticRenders.ps1")
+$Keep=@("Apply-HoodieSurfaceRelaxSpikeAudit_v1E.ps1","Validate-HoodieSurfaceRelaxSpikeAudit_v1E.ps1","Publish-CurrentReview.ps1","README-HoodieSurfaceRelaxSpikeAudit_v1E.txt","README_FIRST.txt","Run-BuildAll.ps1","Run-DiagnosticRenders.ps1")
 $Patterns=@("Apply-*.ps1","Validate-*.ps1","README-*.txt")
 foreach($Pattern in $Patterns){
     Get-ChildItem -Path $Root -Filter $Pattern -File -ErrorAction SilentlyContinue |
@@ -40,13 +40,13 @@ GitAddExistingOrDeleted @(
     "reports",
     "renders\current_review",
     "renders\Project changes",
+    "Apply-HoodieSurfaceRelaxSpikeAudit_v1E.ps1",
+    "Validate-HoodieSurfaceRelaxSpikeAudit_v1E.ps1",
+    "Publish-CurrentReview.ps1",
+    "README-HoodieSurfaceRelaxSpikeAudit_v1E.txt",
     "Apply-HoodieReportsAndDomeFix_v1D.ps1",
     "Validate-HoodieReportsAndDomeFix_v1D.ps1",
-    "Publish-CurrentReview.ps1",
-    "README-HoodieReportsAndDomeFix_v1D.txt",
-    "Apply-HoodieSideDomeCorrection_v1C.ps1",
-    "Validate-HoodieSideDomeCorrection_v1C.ps1",
-    "README-HoodieSideDomeCorrection_v1C.txt"
+    "README-HoodieReportsAndDomeFix_v1D.txt"
 )
 
 git -C $Root status --short
@@ -54,7 +54,7 @@ $Status = git -C $Root status --porcelain
 if([string]::IsNullOrWhiteSpace($Status)){
     Write-Host "[Publish] Nothing to commit."
 } else {
-    git -C $Root commit -m "Move change logs to reports and refine hoodie front view"
+    git -C $Root commit -m "Audit hoodie wire spikes and relax hood surface"
     if($LASTEXITCODE -ne 0){throw "git commit failed"}
 }
 

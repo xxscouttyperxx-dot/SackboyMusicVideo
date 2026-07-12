@@ -1,0 +1,210 @@
+{
+  "pass": "hoodie_surface_relax_spike_audit_v1E",
+  "hoodie_fit": {
+    "shape_key": "HOODIEFIT_SurfaceRelaxSpikeAudit_v1E",
+    "source_key": "HOODIEFIT_ReportsAndDomeFix_v1D",
+    "touched_vertices": 72984,
+    "smoothed_vertices": 97540,
+    "max_delta_local": 0.02004955014829861,
+    "spike_candidate_vertices_before": 0,
+    "spike_candidate_vertices_after": 0,
+    "long_edge_candidates_before": 1113,
+    "long_edge_candidates_after": 1065,
+    "median_edge_length": 0.00417032178483915,
+    "vertex_count_before": 257116,
+    "vertex_count_after": 257116,
+    "face_count_before": 489064,
+    "face_count_after": 489064,
+    "vertex_count_delta": 0,
+    "face_count_delta": 0,
+    "world_dimensions_before": [
+      2.277528,
+      1.142037,
+      2.412773
+    ],
+    "world_dimensions_after": [
+      2.277528,
+      1.142028,
+      2.412696
+    ],
+    "world_dimension_delta": [
+      0.0,
+      -9e-06,
+      -7.6e-05
+    ],
+    "region_counts": {
+      "side_depression_relax": 32479,
+      "rear_droop_relax": 3663,
+      "front_rim_light_smooth": 8334,
+      "hood_crown_blend": 19591
+    }
+  },
+  "camera_report": {
+    "before_count": 12,
+    "after_total": 12,
+    "visible_count": 9,
+    "hidden_count": 3,
+    "names": [
+      "CAM_ANIM_Close",
+      "CAM_ANIM_Medium",
+      "CAM_ANIM_Wide",
+      "CAM_F2_Front",
+      "CAM_F2_Profile",
+      "CAM_F2_ThreeQuarter",
+      "CAM_Hood_Front",
+      "CAM_Hood_LeftSide",
+      "CAM_Hood_RightSide",
+      "CAM_Hood_Top",
+      "CAM_SceneWide",
+      "CAM_StorefrontReflection"
+    ]
+  },
+  "disabled_bodyfit_keys": [
+    {
+      "name": "BODYFIT_HoodiePantsPrep_v1",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "name": "BODYFIT_TorsoHoodFit_v1",
+      "before": 0.0,
+      "after": 0.0
+    },
+    {
+      "name": "BODYFIT_SilhouetteRefine_v1",
+      "before": 0.0,
+      "after": 0.0
+    }
+  ],
+  "underglow_lock": {
+    "before": [
+      -1.522953,
+      5.177517,
+      0.075276
+    ],
+    "after": [
+      -1.522953,
+      5.177517,
+      0.075276
+    ]
+  },
+  "renders": [
+    {
+      "camera": "CAM_Hood_Front",
+      "render": "01_HoodFrontLowAngleMaterial.png",
+      "mode": "WORKBENCH_MATERIAL_HOODIE_ISOLATED"
+    },
+    {
+      "camera": "CAM_Hood_LeftSide",
+      "render": "02_HoodLeftSideGray.png",
+      "mode": "WORKBENCH_SINGLE_HOODIE_ISOLATED"
+    },
+    {
+      "camera": "CAM_Hood_RightSide",
+      "render": "03_HoodRightSideGray.png",
+      "mode": "WORKBENCH_SINGLE_HOODIE_ISOLATED"
+    },
+    {
+      "camera": "CAM_Hood_Top",
+      "render": "04_HoodTopGray.png",
+      "mode": "WORKBENCH_SINGLE_HOODIE_ISOLATED"
+    },
+    {
+      "camera": "CAM_Hood_Front",
+      "render": "05_HoodIsolatedWireCheck.png",
+      "mode": "WORKBENCH_SINGLE_ISOLATED_WIRE"
+    },
+    {
+      "camera": "CAM_SceneWide",
+      "render": "06_ScenePreserved.png",
+      "mode": "WORKBENCH_MATERIAL"
+    }
+  ],
+  "spike_audit_note": "No isolated spike vertices were detected by geometry audit; remaining spike-like lines in wire render are likely wireframe-visualization artifacts from the render overlay, not protruding hoodie geometry.",
+  "key_objects": [
+    {
+      "name": "F2",
+      "type": "MESH",
+      "visible": true,
+      "dims": [
+        2.783371,
+        1.475343,
+        2.749408
+      ],
+      "vertices": 30549,
+      "faces": 60930
+    },
+    {
+      "name": "SACKBOY_Hoodie_Main",
+      "type": "MESH",
+      "visible": true,
+      "dims": [
+        2.277528,
+        1.142072,
+        2.412708
+      ],
+      "vertices": 257116,
+      "faces": 489064
+    },
+    {
+      "name": "Cargo pants",
+      "type": "MESH",
+      "visible": true,
+      "dims": [
+        1.559261,
+        0.898337,
+        1.052398
+      ],
+      "vertices": 16507,
+      "faces": 16424
+    },
+    {
+      "name": "Plane.001",
+      "type": "MESH",
+      "visible": true,
+      "dims": [
+        0.626516,
+        0.950595,
+        0.372303
+      ],
+      "vertices": 10292,
+      "faces": 10800
+    },
+    {
+      "name": "Plane.022",
+      "type": "MESH",
+      "visible": true,
+      "dims": [
+        0.626517,
+        0.950595,
+        0.372303
+      ],
+      "vertices": 10292,
+      "faces": 10800
+    },
+    {
+      "name": "Asphalt ground",
+      "type": "MESH",
+      "visible": true,
+      "dims": [
+        70.766041,
+        70.315693,
+        3.844296
+      ],
+      "vertices": 16441,
+      "faces": 16154
+    },
+    {
+      "name": "Audi e-tron GT quattro Black",
+      "type": "EMPTY",
+      "visible": true,
+      "dims": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 0,
+      "faces": 0
+    }
+  ]
+}

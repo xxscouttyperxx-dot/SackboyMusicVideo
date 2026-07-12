@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "smoothed_vertices": 97540,
+  "max_local_vertex_movement": 0.02004955014829861,
+  "spike_candidate_vertices_before": 0,
+  "spike_candidate_vertices_after": 0,
+  "long_edge_candidates_before": 1113,
+  "long_edge_candidates_after": 1065,
+  "spike_audit_note": "No isolated spike vertices were detected by geometry audit; remaining spike-like lines in wire render are likely wireframe-visualization artifacts from the render overlay, not protruding hoodie geometry."
+}

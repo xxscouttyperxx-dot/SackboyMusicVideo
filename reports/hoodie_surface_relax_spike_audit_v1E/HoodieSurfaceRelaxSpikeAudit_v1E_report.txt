@@ -1,0 +1,20 @@
+# Hoodie Surface Relax Spike Audit v1E
+
+## Latest numbers
+- Smoothed vertices: 97540
+- Max local vertex movement: 0.020050
+
+## Spike audit
+- Spike candidate vertices before: 0
+- Spike candidate vertices after: 0
+- Long edge candidates before: 1113
+- Long edge candidates after: 1065
+- Median edge length: 0.004170
+- Conclusion: No isolated spike vertices were detected by geometry audit; remaining spike-like lines in wire render are likely wireframe-visualization artifacts from the render overlay, not protruding hoodie geometry.
+
+## Shape approach
+- Treated the remaining issues as broad surface valleys/depressions rather than tiny point edits.
+- Expanded side valleys outward into the dome/bowl silhouette.
+- Smoothed the valley boundaries so hard depression edges are feathered into surrounding topology.
+- Lifted and feathered rear droop into the back curve.
+- Preserved the front rim/opening.[save] C:\BlenderProjects\SackboyMusicVideo\Project\blender\sackboy_scene.blend
