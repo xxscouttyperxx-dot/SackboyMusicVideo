@@ -259,6 +259,63 @@
       "review_camera": true
     },
     {
+      "name": "CAM_REVIEW_RestoredCharacter_Front",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        -0.215441,
+        -5.985823,
+        1.874388
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_RestoredCharacter_Profile",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        4.884559,
+        -0.885823,
+        1.874388
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
+      "name": "CAM_REVIEW_RestoredFaceHands",
+      "type": "CAMERA",
+      "collections": [
+        "Scene Collection"
+      ],
+      "visible": true,
+      "location": [
+        1.434559,
+        -3.285823,
+        2.844388
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review_camera": true
+    },
+    {
       "name": "CAM_REVIEW_Silhouette_Front",
       "type": "CAMERA",
       "collections": [
@@ -304,9 +361,9 @@
       ],
       "visible": true,
       "location": [
-        7.584449,
+        7.584558,
         -9.985823,
-        2.77486
+        2.824389
       ],
       "dimensions": [
         0.0,
@@ -607,9 +664,9 @@
         0.01029
       ],
       "dimensions": [
-        2.782415,
+        2.783371,
         1.475343,
-        2.578342
+        2.749408
       ],
       "vertices": 30549,
       "faces": 60930,
@@ -628,7 +685,7 @@
         },
         {
           "name": "BODYFIT_SilhouetteRefine_v1",
-          "value": 1.0
+          "value": 0.0
         }
       ]
     },
@@ -667,7 +724,7 @@
         },
         {
           "name": "BODYFIT_SilhouetteRefine_v1",
-          "value": 1.0
+          "value": 0.0
         }
       ]
     },

@@ -1,7 +1,6 @@
 # Scene Layout Summary
 
-Updated by Character Silhouette Refine v1.
+Updated by Restore Character Baseline v1.
 
-- Added stronger silhouette/face/hand body-fit shape key on F2.
-- Preserved reflection setup and traffic light concept.
-- Review cameras retained, including storefront reflection view.
+- Disabled all BODYFIT shape key values on F2 to restore visual character baseline.
+- Preserved current reflection setup and scene lighting.

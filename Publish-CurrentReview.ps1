@@ -23,7 +23,7 @@ function GitAddExistingOrDeleted {
 }
 
 Write-Host "[Publish] Cleaning stale package files..."
-$Keep=@("Apply-CharacterSilhouetteRefine.ps1","Validate-CharacterSilhouetteRefine.ps1","Publish-CurrentReview.ps1","README-CharacterSilhouetteRefine.txt","README_FIRST.txt","Run-BuildAll.ps1","Run-DiagnosticRenders.ps1")
+$Keep=@("Apply-RestoreCharacterBaseline.ps1","Validate-RestoreCharacterBaseline.ps1","Publish-CurrentReview.ps1","README-RestoreCharacterBaseline.txt","README_FIRST.txt","Run-BuildAll.ps1","Run-DiagnosticRenders.ps1")
 $Patterns=@("Apply-*.ps1","Validate-*.ps1","README-*.txt")
 foreach($Pattern in $Patterns){
     Get-ChildItem -Path $Root -Filter $Pattern -File -ErrorAction SilentlyContinue |
@@ -38,16 +38,16 @@ GitAddExistingOrDeleted @(
     "blender\scripts",
     "scene_manifest.json",
     "reports\project_workflow_audit",
+    "reports\restore_character_baseline_v1",
     "reports\character_silhouette_refine_v1",
-    "reports\character_torso_hood_fit_v1",
     "renders\current_review",
+    "Apply-RestoreCharacterBaseline.ps1",
+    "Validate-RestoreCharacterBaseline.ps1",
+    "Publish-CurrentReview.ps1",
+    "README-RestoreCharacterBaseline.txt",
     "Apply-CharacterSilhouetteRefine.ps1",
     "Validate-CharacterSilhouetteRefine.ps1",
-    "Publish-CurrentReview.ps1",
-    "README-CharacterSilhouetteRefine.txt",
-    "Apply-CharacterTorsoHoodFit.ps1",
-    "Validate-CharacterTorsoHoodFit.ps1",
-    "README-CharacterTorsoHoodFit.txt"
+    "README-CharacterSilhouetteRefine.txt"
 )
 
 git -C $Root status --short
@@ -55,7 +55,7 @@ $Status = git -C $Root status --porcelain
 if([string]::IsNullOrWhiteSpace($Status)){
     Write-Host "[Publish] Nothing to commit."
 } else {
-    git -C $Root commit -m "Refine Sackboy silhouette for clothing fit"
+    git -C $Root commit -m "Restore character baseline after rejected silhouette pass"
     if($LASTEXITCODE -ne 0){throw "git commit failed"}
 }
 
