@@ -1,0 +1,63 @@
+{
+  "pass": "current_baseline_annotation_v1",
+  "safety": "Audit/render/report only. No objects edited, deleted, renamed, hidden/unhidden, moved, or saved. Existing current_review images cleaned because normal review rule resumed.",
+  "blend_file": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\blender\\sackboy_scene.blend",
+  "total_objects": 216,
+  "visible_objects": 205,
+  "hidden_objects": 11,
+  "mesh_objects": 188,
+  "camera_objects": 12,
+  "light_objects": 9,
+  "duplicate_base_name_group_count": 6,
+  "duplicate_base_name_object_count": 91,
+  "shared_data_group_count": 1,
+  "multi_collection_object_count": 0,
+  "category_counts": {
+    "Cameras": 13,
+    "Character": 8,
+    "Clothing - Hoodie / Top": 1,
+    "Clothing - Lower / Shoes": 2,
+    "Environment": 42,
+    "Hero Car": 2,
+    "Lighting / Reflections": 26,
+    "Props / Signs / Decor": 3,
+    "Unsorted / Review": 119
+  },
+  "renders": [
+    {
+      "camera": "CAM_SceneWide",
+      "filename": "01_CurrentSceneWide_SOLID.png",
+      "mode": "solid"
+    },
+    {
+      "camera": "CAM_SceneWide",
+      "filename": "02_CurrentSceneWide_RENDERED.png",
+      "mode": "rendered"
+    },
+    {
+      "camera": "CAM_F2_ThreeQuarter",
+      "filename": "03_CurrentCharacterThreeQuarter_SOLID.png",
+      "mode": "solid"
+    },
+    {
+      "camera": "CAM_F2_ThreeQuarter",
+      "filename": "04_CurrentCharacterThreeQuarter_RENDERED.png",
+      "mode": "rendered"
+    },
+    {
+      "camera": "CAM_Hood_Front",
+      "filename": "05_CurrentHoodFront_SOLID.png",
+      "mode": "solid"
+    },
+    {
+      "camera": "CAM_Hood_LeftSide",
+      "filename": "06_CurrentHoodLeftSide_SOLID.png",
+      "mode": "solid"
+    },
+    {
+      "camera": "CAM_Hood_RightSide",
+      "filename": "07_CurrentHoodRightSide_SOLID.png",
+      "mode": "solid"
+    }
+  ]
+}

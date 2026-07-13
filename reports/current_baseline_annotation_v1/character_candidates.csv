@@ -1,0 +1,12 @@
+name,base_name,type,category_guess,visible_viewport,hide_viewport,hide_render,hide_select,collection_count,collections,data_name,data_users,vertices,faces,parent,children_count
+F2,F2,MESH,Character,True,False,False,False,1,Main Model,Meshy_Left_Standing_Candidate.006,2,33625,63717,,0
+F2.001,F2,MESH,Character,False,True,True,False,1,Main Model,Meshy_Left_Standing_Candidate.006,2,33625,63717,,0
+Handlebars.001,Handlebars,MESH,Character,True,False,False,False,1,PROPS,Mesh.015,1,4352,4791,Large Trash Can,0
+HERO_LampArm_0,HERO_LampArm_0,MESH,Lighting / Reflections,True,False,False,False,1,LIGHTS_AND_REFLECTION_HELPERS,Cylinder.017,1,36,20,,0
+HERO_LampArm_1,HERO_LampArm_1,MESH,Lighting / Reflections,True,False,False,False,1,LIGHTS_AND_REFLECTION_HELPERS,Cylinder.019,1,36,20,,0
+HERO_StoreMall_DeepBody,HERO_StoreMall_DeepBody,MESH,Character,True,False,False,False,1,ENVIRONMENT_AND_PARKING,Cube.050,1,8,6,,0
+L.Eye,L.Eye,MESH,Character,True,False,False,False,1,Main Model,Sphere.019,1,482,512,,0
+Mball.008,Mball,MESH,Character,True,False,False,False,1,SAME_NAME_Mball,Mesh.001,1,1510,1893,177d920ddde57c74f8e1ef18863ab511,0
+Mball.011,Mball,MESH,Character,True,False,False,False,1,SAME_NAME_Mball,Mesh,1,1930,2419,Plane.023,0
+R.Eye,R.Eye,MESH,Character,True,False,False,False,1,Main Model,Sphere.020,1,482,512,,0
+SACKBOY_Hoodie_EditProxy,SACKBOY_Hoodie_EditProxy,MESH,Clothing - Hoodie / Top,True,False,False,False,1,HOODIE,SACKBOY_Hoodie_Main_Mesh.003,1,245107,489016,,0

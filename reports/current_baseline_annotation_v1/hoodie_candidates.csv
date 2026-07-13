@@ -1,0 +1,2 @@
+name,base_name,type,category_guess,visible_viewport,hide_viewport,hide_render,hide_select,collection_count,collections,data_name,data_users,vertices,faces,parent,children_count
+SACKBOY_Hoodie_EditProxy,SACKBOY_Hoodie_EditProxy,MESH,Clothing - Hoodie / Top,True,False,False,False,1,HOODIE,SACKBOY_Hoodie_Main_Mesh.003,1,245107,489016,,0
