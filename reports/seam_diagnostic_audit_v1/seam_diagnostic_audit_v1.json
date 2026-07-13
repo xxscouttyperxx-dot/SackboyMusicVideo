@@ -1,0 +1,123 @@
+{
+  "summary": {
+    "pass": "seam_diagnostic_audit_v1",
+    "safety": "Diagnostic only. Deletes prior SEAMDIAG_* cameras/TMP_SEAMDIAG_* objects, creates fresh seam cameras, temporarily renders boundary overlays, removes temporary overlay objects before save, and does not edit hoodie geometry.",
+    "hoodie_object": "SACKBOY_Hoodie_EditProxy",
+    "hoodie_candidates": [
+      "SACKBOY_Hoodie_EditProxy"
+    ],
+    "removed_previous_seam_diag_objects": [],
+    "created_seam_cameras": [
+      "SEAMDIAG_LEFT_ARMPIT_CLOSE",
+      "SEAMDIAG_RIGHT_ARMPIT_CLOSE",
+      "SEAMDIAG_HOOD_COLLAR_FRONT",
+      "SEAMDIAG_HOOD_TOP_CENTER",
+      "SEAMDIAG_FULL_FRONT_CONTEXT"
+    ],
+    "mesh_diagnostics": {
+      "object": "SACKBOY_Hoodie_EditProxy",
+      "vertices": 245107,
+      "edges": 733840,
+      "faces": 489016,
+      "boundary_edge_count_total": 931,
+      "connected_vertex_island_count": 380,
+      "connected_vertex_island_sizes_top_30": [
+        180811,
+        40509,
+        13703,
+        3069,
+        3053,
+        1092,
+        1092,
+        360,
+        360,
+        103,
+        100,
+        91,
+        90,
+        64,
+        51,
+        49,
+        39,
+        38,
+        37,
+        36,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "interpretation": "Open/boundary edges are expected at cuffs, hem, hood opening, and garment openings; seam breaks show up as unexpected boundary edges in armpit/collar/top-hood zones."
+    },
+    "zone_exports": {
+      "left_armpit": {
+        "boundary_edge_count": 605,
+        "csv": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\seam_diagnostic_audit_v1\\seam_zone_csv\\left_armpit_boundary_edges.csv",
+        "obj": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\seam_diagnostic_audit_v1\\seam_zone_obj\\left_armpit_boundary_edges.obj",
+        "total_boundary_length": 3.342531,
+        "mean_boundary_length": 0.005525
+      },
+      "right_armpit": {
+        "boundary_edge_count": 326,
+        "csv": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\seam_diagnostic_audit_v1\\seam_zone_csv\\right_armpit_boundary_edges.csv",
+        "obj": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\seam_diagnostic_audit_v1\\seam_zone_obj\\right_armpit_boundary_edges.obj",
+        "total_boundary_length": 2.290879,
+        "mean_boundary_length": 0.007027
+      },
+      "hood_collar_band": {
+        "boundary_edge_count": 0,
+        "csv": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\seam_diagnostic_audit_v1\\seam_zone_csv\\hood_collar_band_boundary_edges.csv",
+        "obj": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\seam_diagnostic_audit_v1\\seam_zone_obj\\hood_collar_band_boundary_edges.obj",
+        "total_boundary_length": 0,
+        "mean_boundary_length": 0.0
+      },
+      "hood_top_center": {
+        "boundary_edge_count": 0,
+        "csv": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\seam_diagnostic_audit_v1\\seam_zone_csv\\hood_top_center_boundary_edges.csv",
+        "obj": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\seam_diagnostic_audit_v1\\seam_zone_obj\\hood_top_center_boundary_edges.obj",
+        "total_boundary_length": 0,
+        "mean_boundary_length": 0.0
+      },
+      "all_boundary_edges": {
+        "boundary_edge_count": 931,
+        "csv": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\seam_diagnostic_audit_v1\\seam_zone_csv\\all_boundary_edges_boundary_edges.csv",
+        "obj": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\seam_diagnostic_audit_v1\\seam_zone_obj\\all_boundary_edges_boundary_edges.obj",
+        "total_boundary_length": 5.63341,
+        "mean_boundary_length": 0.006051
+      }
+    },
+    "renders": [
+      {
+        "filename": "01_SEAM_FullFront_BoundaryOverlay.png",
+        "camera": "SEAMDIAG_FULL_FRONT_CONTEXT",
+        "mode": "solid_boundary_overlay"
+      },
+      {
+        "filename": "02_SEAM_LeftArmpit_BoundaryOverlay.png",
+        "camera": "SEAMDIAG_LEFT_ARMPIT_CLOSE",
+        "mode": "solid_boundary_overlay"
+      },
+      {
+        "filename": "03_SEAM_RightArmpit_BoundaryOverlay.png",
+        "camera": "SEAMDIAG_RIGHT_ARMPIT_CLOSE",
+        "mode": "solid_boundary_overlay"
+      },
+      {
+        "filename": "04_SEAM_HoodCollar_BoundaryOverlay.png",
+        "camera": "SEAMDIAG_HOOD_COLLAR_FRONT",
+        "mode": "solid_boundary_overlay"
+      },
+      {
+        "filename": "05_SEAM_HoodTop_BoundaryOverlay.png",
+        "camera": "SEAMDIAG_HOOD_TOP_CENTER",
+        "mode": "solid_boundary_overlay"
+      }
+    ]
+  }
+}

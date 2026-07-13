@@ -21,16 +21,16 @@ function GitAddExistingOrDeleted {
     }
 }
 
-Write-Host "[PublishReportsOnly] Staging reports/renders/scripts only. Blend is intentionally NOT staged."
+Write-Host "[PublishReportsOnly] Staging seam diagnostic reports/renders/scripts only. Blend is intentionally NOT staged."
 GitAddExistingOrDeleted @(
-    "blender\scripts\diagnostic_cameras_mesh_export_v1.py",
-    "reports\diagnostic_cameras_mesh_export_v1",
+    "blender\scripts\seam_diagnostic_audit_v1.py",
+    "reports\seam_diagnostic_audit_v1",
     "renders\current_review",
-    "Apply-DiagnosticCamerasMeshExport.ps1",
-    "Validate-DiagnosticCamerasMeshExport.ps1",
+    "Apply-SeamDiagnosticAudit.ps1",
+    "Validate-SeamDiagnosticAudit.ps1",
     "Publish-ReportsOnly.ps1",
     "Try-PushBlendOnly.ps1",
-    "README-DiagnosticCamerasMeshExport.txt"
+    "README-SeamDiagnosticAudit.txt"
 )
 
 git -C $Root status --short
@@ -38,7 +38,7 @@ $Status = git -C $Root status --porcelain
 if([string]::IsNullOrWhiteSpace($Status)){
     Write-Host "[PublishReportsOnly] Nothing to commit."
 } else {
-    git -C $Root commit -m "Add diagnostic cameras mesh export reports"
+    git -C $Root commit -m "Add seam diagnostic audit reports"
     if($LASTEXITCODE -ne 0){throw "git commit failed"}
 }
 git -C $Root push origin main

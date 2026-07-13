@@ -23,7 +23,7 @@ $Status = git status --porcelain
 if([string]::IsNullOrWhiteSpace($Status)){
     Write-Host "Nothing to commit."
 } else {
-    git commit -m "Update current blend baseline"
+    git commit -m "Update blend with seam diagnostic cameras"
 }
 
 Write-Host ""
