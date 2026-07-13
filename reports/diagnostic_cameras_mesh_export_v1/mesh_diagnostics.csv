@@ -1,0 +1,3 @@
+object,vertices,edges,faces,boundary_edge_count,boundary_vertex_count,nonmanifold_edge_count,connected_vertex_island_count,connected_vertex_island_sizes_top_20,note
+SACKBOY_Hoodie_EditProxy,245107,733840,489016,931,923,1102,380,"[180811, 40509, 13703, 3069, 3053, 1092, 1092, 360, 360, 103, 100, 91, 90, 64, 51, 49, 39, 38, 37, 36]",Boundary/open edges can be normal at cuffs/hood opening/bottom hem; high counts or many islands suggest separated panels/seams needing inspection.
+Cargo pants,16507,32932,16424,356,362,540,1,[16507],Boundary/open edges can be normal at cuffs/hood opening/bottom hem; high counts or many islands suggest separated panels/seams needing inspection.

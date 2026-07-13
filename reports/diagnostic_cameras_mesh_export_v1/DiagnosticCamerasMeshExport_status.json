@@ -1,0 +1,731 @@
+{
+  "pass": "diagnostic_cameras_mesh_export_v1",
+  "safety": "Creates fresh DIAG_CURRENT_* cameras after deleting older DIAG_CURRENT_* cameras. Exports targeted OBJ diagnostics. Renders current_review. Does not change mesh geometry/materials/lights/world. Saves blend locally only so diagnostic cameras remain available.",
+  "removed_previous_diag_cameras": [],
+  "created_diag_cameras": [
+    "DIAG_CURRENT_FULL_FRONT",
+    "DIAG_CURRENT_FULL_3Q",
+    "DIAG_CURRENT_LEFT_ARMPIT",
+    "DIAG_CURRENT_RIGHT_ARMPIT",
+    "DIAG_CURRENT_HOOD_TOP"
+  ],
+  "total_objects": 221,
+  "visible_objects": 210,
+  "hidden_objects": 11,
+  "duplicate_base_name_groups": 6,
+  "duplicate_base_name_object_count": 91,
+  "shared_data_groups": 1,
+  "current_hoodie": {
+    "name": "SACKBOY_Hoodie_EditProxy",
+    "base_name": "SACKBOY_Hoodie_EditProxy",
+    "type": "MESH",
+    "visible": true,
+    "hide_viewport": false,
+    "hide_render": false,
+    "hide_select": false,
+    "collections": [
+      "HOODIE"
+    ],
+    "data_name": "SACKBOY_Hoodie_Main_Mesh.003",
+    "data_users": 1,
+    "vertices": 245107,
+    "faces": 489016,
+    "modifiers": [
+      {
+        "name": "OPT_PREVIEW_DECIMATE",
+        "type": "DECIMATE",
+        "show_viewport": true,
+        "show_render": true
+      }
+    ],
+    "bounds_world": {
+      "min": [
+        -0.919491,
+        -0.493668,
+        0.864968
+      ],
+      "max": [
+        1.09873,
+        0.592892,
+        2.617762
+      ],
+      "center": [
+        0.089619,
+        0.049612,
+        1.741365
+      ],
+      "dimensions": [
+        2.018221,
+        1.08656,
+        1.752793
+      ]
+    }
+  },
+  "current_body": {
+    "name": "SACKBOY_Hoodie_EditProxy",
+    "base_name": "SACKBOY_Hoodie_EditProxy",
+    "type": "MESH",
+    "visible": true,
+    "hide_viewport": false,
+    "hide_render": false,
+    "hide_select": false,
+    "collections": [
+      "HOODIE"
+    ],
+    "data_name": "SACKBOY_Hoodie_Main_Mesh.003",
+    "data_users": 1,
+    "vertices": 245107,
+    "faces": 489016,
+    "modifiers": [
+      {
+        "name": "OPT_PREVIEW_DECIMATE",
+        "type": "DECIMATE",
+        "show_viewport": true,
+        "show_render": true
+      }
+    ],
+    "bounds_world": {
+      "min": [
+        -0.919491,
+        -0.493668,
+        0.864968
+      ],
+      "max": [
+        1.09873,
+        0.592892,
+        2.617762
+      ],
+      "center": [
+        0.089619,
+        0.049612,
+        1.741365
+      ],
+      "dimensions": [
+        2.018221,
+        1.08656,
+        1.752793
+      ]
+    }
+  },
+  "clothing_candidates": [
+    {
+      "name": "SACKBOY_Hoodie_EditProxy",
+      "base_name": "SACKBOY_Hoodie_EditProxy",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "HOODIE"
+      ],
+      "data_name": "SACKBOY_Hoodie_Main_Mesh.003",
+      "data_users": 1,
+      "vertices": 245107,
+      "faces": 489016,
+      "modifiers": [
+        {
+          "name": "OPT_PREVIEW_DECIMATE",
+          "type": "DECIMATE",
+          "show_viewport": true,
+          "show_render": true
+        }
+      ],
+      "bounds_world": {
+        "min": [
+          -0.919491,
+          -0.493668,
+          0.864968
+        ],
+        "max": [
+          1.09873,
+          0.592892,
+          2.617762
+        ],
+        "center": [
+          0.089619,
+          0.049612,
+          1.741365
+        ],
+        "dimensions": [
+          2.018221,
+          1.08656,
+          1.752793
+        ]
+      }
+    },
+    {
+      "name": "Cargo pants",
+      "base_name": "Cargo pants",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "PANTS"
+      ],
+      "data_name": "Cargo pants",
+      "data_users": 1,
+      "vertices": 16507,
+      "faces": 16424,
+      "modifiers": [
+        {
+          "name": "Collision",
+          "type": "COLLISION",
+          "show_viewport": true,
+          "show_render": true
+        }
+      ],
+      "bounds_world": {
+        "min": [
+          -0.42348,
+          -0.232158,
+          0.221276
+        ],
+        "max": [
+          0.620876,
+          0.37724,
+          1.194326
+        ],
+        "center": [
+          0.098698,
+          0.072541,
+          0.707801
+        ],
+        "dimensions": [
+          1.044356,
+          0.609398,
+          0.97305
+        ]
+      }
+    }
+  ],
+  "character_candidates": [
+    {
+      "name": "SACKBOY_Hoodie_EditProxy",
+      "base_name": "SACKBOY_Hoodie_EditProxy",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "HOODIE"
+      ],
+      "data_name": "SACKBOY_Hoodie_Main_Mesh.003",
+      "data_users": 1,
+      "vertices": 245107,
+      "faces": 489016,
+      "modifiers": [
+        {
+          "name": "OPT_PREVIEW_DECIMATE",
+          "type": "DECIMATE",
+          "show_viewport": true,
+          "show_render": true
+        }
+      ],
+      "bounds_world": {
+        "min": [
+          -0.919491,
+          -0.493668,
+          0.864968
+        ],
+        "max": [
+          1.09873,
+          0.592892,
+          2.617762
+        ],
+        "center": [
+          0.089619,
+          0.049612,
+          1.741365
+        ],
+        "dimensions": [
+          2.018221,
+          1.08656,
+          1.752793
+        ]
+      }
+    },
+    {
+      "name": "F2",
+      "base_name": "F2",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "Main Model"
+      ],
+      "data_name": "Meshy_Left_Standing_Candidate.006",
+      "data_users": 2,
+      "vertices": 33625,
+      "faces": 63717,
+      "modifiers": [],
+      "bounds_world": {
+        "min": [
+          -0.967927,
+          -0.399883,
+          0.397306
+        ],
+        "max": [
+          1.195227,
+          0.347408,
+          2.561233
+        ],
+        "center": [
+          0.11365,
+          -0.026238,
+          1.479269
+        ],
+        "dimensions": [
+          2.163155,
+          0.747291,
+          2.163927
+        ]
+      }
+    },
+    {
+      "name": "Handlebars.001",
+      "base_name": "Handlebars",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "PROPS"
+      ],
+      "data_name": "Mesh.015",
+      "data_users": 1,
+      "vertices": 4352,
+      "faces": 4791,
+      "modifiers": [],
+      "bounds_world": {
+        "min": [
+          -0.344352,
+          23.715376,
+          1.512968
+        ],
+        "max": [
+          0.344468,
+          23.911913,
+          1.724033
+        ],
+        "center": [
+          5.8e-05,
+          23.813644,
+          1.6185
+        ],
+        "dimensions": [
+          0.68882,
+          0.196537,
+          0.211064
+        ]
+      }
+    },
+    {
+      "name": "Mball.011",
+      "base_name": "Mball",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "SAME_NAME_Mball"
+      ],
+      "data_name": "Mesh",
+      "data_users": 1,
+      "vertices": 1930,
+      "faces": 2419,
+      "modifiers": [
+        {
+          "name": "PARKING_TO_ASPHALT_PREVIEW",
+          "type": "SHRINKWRAP",
+          "show_viewport": true,
+          "show_render": true
+        }
+      ],
+      "bounds_world": {
+        "min": [
+          -10.85804,
+          19.17729,
+          0.064515
+        ],
+        "max": [
+          -10.79878,
+          19.235197,
+          0.092066
+        ],
+        "center": [
+          -10.82841,
+          19.206244,
+          0.07829
+        ],
+        "dimensions": [
+          0.059259,
+          0.057907,
+          0.027551
+        ]
+      }
+    },
+    {
+      "name": "Mball.008",
+      "base_name": "Mball",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "SAME_NAME_Mball"
+      ],
+      "data_name": "Mesh.001",
+      "data_users": 1,
+      "vertices": 1510,
+      "faces": 1893,
+      "modifiers": [
+        {
+          "name": "PARKING_TO_ASPHALT_PREVIEW",
+          "type": "SHRINKWRAP",
+          "show_viewport": true,
+          "show_render": true
+        }
+      ],
+      "bounds_world": {
+        "min": [
+          -10.962285,
+          19.1675,
+          1.75648
+        ],
+        "max": [
+          -10.696809,
+          19.188293,
+          2.097908
+        ],
+        "center": [
+          -10.829547,
+          19.177896,
+          1.927194
+        ],
+        "dimensions": [
+          0.265476,
+          0.020794,
+          0.341428
+        ]
+      }
+    },
+    {
+      "name": "L.Eye",
+      "base_name": "L.Eye",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "Main Model"
+      ],
+      "data_name": "Sphere.019",
+      "data_users": 1,
+      "vertices": 482,
+      "faces": 512,
+      "modifiers": [],
+      "bounds_world": {
+        "min": [
+          0.214751,
+          -0.397124,
+          2.199077
+        ],
+        "max": [
+          0.3557,
+          -0.289225,
+          2.366086
+        ],
+        "center": [
+          0.285225,
+          -0.343175,
+          2.282581
+        ],
+        "dimensions": [
+          0.14095,
+          0.107898,
+          0.167008
+        ]
+      }
+    },
+    {
+      "name": "R.Eye",
+      "base_name": "R.Eye",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "Main Model"
+      ],
+      "data_name": "Sphere.020",
+      "data_users": 1,
+      "vertices": 482,
+      "faces": 512,
+      "modifiers": [],
+      "bounds_world": {
+        "min": [
+          -0.117965,
+          -0.392889,
+          2.201749
+        ],
+        "max": [
+          0.029433,
+          -0.27477,
+          2.362371
+        ],
+        "center": [
+          -0.044266,
+          -0.333829,
+          2.28206
+        ],
+        "dimensions": [
+          0.147398,
+          0.118119,
+          0.160623
+        ]
+      }
+    },
+    {
+      "name": "HERO_LampArm_0",
+      "base_name": "HERO_LampArm_0",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "LIGHTS_AND_REFLECTION_HELPERS"
+      ],
+      "data_name": "Cylinder.017",
+      "data_users": 1,
+      "vertices": 36,
+      "faces": 20,
+      "modifiers": [],
+      "bounds_world": {
+        "min": [
+          -5.247871,
+          2.009782,
+          5.252863
+        ],
+        "max": [
+          -5.196661,
+          2.649782,
+          5.304863
+        ],
+        "center": [
+          -5.222266,
+          2.329782,
+          5.278863
+        ],
+        "dimensions": [
+          0.05121,
+          0.64,
+          0.052
+        ]
+      }
+    },
+    {
+      "name": "HERO_LampArm_1",
+      "base_name": "HERO_LampArm_1",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "LIGHTS_AND_REFLECTION_HELPERS"
+      ],
+      "data_name": "Cylinder.019",
+      "data_users": 1,
+      "vertices": 36,
+      "faces": 20,
+      "modifiers": [],
+      "bounds_world": {
+        "min": [
+          5.233381,
+          2.01289,
+          5.252863
+        ],
+        "max": [
+          5.309947,
+          2.654418,
+          5.304863
+        ],
+        "center": [
+          5.271664,
+          2.333654,
+          5.278863
+        ],
+        "dimensions": [
+          0.076567,
+          0.641528,
+          0.052
+        ]
+      }
+    },
+    {
+      "name": "HERO_StoreMall_DeepBody",
+      "base_name": "HERO_StoreMall_DeepBody",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENVIRONMENT_AND_PARKING"
+      ],
+      "data_name": "Cube.050",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6,
+      "modifiers": [
+        {
+          "name": "Bevel",
+          "type": "BEVEL",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "name": "WeightedNormals",
+          "type": "WEIGHTED_NORMAL",
+          "show_viewport": true,
+          "show_render": true
+        }
+      ],
+      "bounds_world": {
+        "min": [
+          -12.803507,
+          24.0,
+          0.0
+        ],
+        "max": [
+          12.803507,
+          30.0,
+          5.773757
+        ],
+        "center": [
+          0.0,
+          27.0,
+          2.886878
+        ],
+        "dimensions": [
+          25.607014,
+          6.0,
+          5.773757
+        ]
+      }
+    }
+  ],
+  "mesh_exports": [
+    {
+      "object": "SACKBOY_Hoodie_EditProxy",
+      "path": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\diagnostic_cameras_mesh_export_v1\\targeted_mesh_exports\\current_hoodie_SACKBOY_Hoodie_EditProxy.obj",
+      "vertices": 37028,
+      "faces": 73351
+    },
+    {
+      "object": "SACKBOY_Hoodie_EditProxy",
+      "path": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\diagnostic_cameras_mesh_export_v1\\targeted_mesh_exports\\current_body_SACKBOY_Hoodie_EditProxy.obj",
+      "vertices": 37028,
+      "faces": 73351
+    },
+    {
+      "object": "Cargo pants",
+      "path": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\diagnostic_cameras_mesh_export_v1\\targeted_mesh_exports\\clothing_2_Cargo_pants.obj",
+      "vertices": 16507,
+      "faces": 16424
+    }
+  ],
+  "mesh_diagnostics": [
+    {
+      "object": "SACKBOY_Hoodie_EditProxy",
+      "vertices": 245107,
+      "edges": 733840,
+      "faces": 489016,
+      "boundary_edge_count": 931,
+      "boundary_vertex_count": 923,
+      "nonmanifold_edge_count": 1102,
+      "connected_vertex_island_count": 380,
+      "connected_vertex_island_sizes_top_20": [
+        180811,
+        40509,
+        13703,
+        3069,
+        3053,
+        1092,
+        1092,
+        360,
+        360,
+        103,
+        100,
+        91,
+        90,
+        64,
+        51,
+        49,
+        39,
+        38,
+        37,
+        36
+      ],
+      "note": "Boundary/open edges can be normal at cuffs/hood opening/bottom hem; high counts or many islands suggest separated panels/seams needing inspection."
+    },
+    {
+      "object": "Cargo pants",
+      "vertices": 16507,
+      "edges": 32932,
+      "faces": 16424,
+      "boundary_edge_count": 356,
+      "boundary_vertex_count": 362,
+      "nonmanifold_edge_count": 540,
+      "connected_vertex_island_count": 1,
+      "connected_vertex_island_sizes_top_20": [
+        16507
+      ],
+      "note": "Boundary/open edges can be normal at cuffs/hood opening/bottom hem; high counts or many islands suggest separated panels/seams needing inspection."
+    }
+  ],
+  "renders": [
+    {
+      "filename": "01_DIAG_FullFront_SOLID.png",
+      "camera": "DIAG_CURRENT_FULL_FRONT",
+      "mode": "solid"
+    },
+    {
+      "filename": "02_DIAG_Full3Q_SOLID.png",
+      "camera": "DIAG_CURRENT_FULL_3Q",
+      "mode": "solid"
+    },
+    {
+      "filename": "03_DIAG_Full3Q_RENDERED.png",
+      "camera": "DIAG_CURRENT_FULL_3Q",
+      "mode": "rendered"
+    },
+    {
+      "filename": "04_DIAG_LeftArmpit_SOLID.png",
+      "camera": "DIAG_CURRENT_LEFT_ARMPIT",
+      "mode": "solid"
+    },
+    {
+      "filename": "05_DIAG_RightArmpit_SOLID.png",
+      "camera": "DIAG_CURRENT_RIGHT_ARMPIT",
+      "mode": "solid"
+    },
+    {
+      "filename": "06_DIAG_HoodTop_SOLID.png",
+      "camera": "DIAG_CURRENT_HOOD_TOP",
+      "mode": "solid"
+    }
+  ]
+}
