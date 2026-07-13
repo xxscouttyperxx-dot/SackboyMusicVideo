@@ -1,0 +1,117 @@
+{
+  "pass": "body_target_seam_audit_fix_v1B",
+  "safety": "Diagnostic correction pass. Fixes body target selection, improves seam zone selection, deletes old SEAMDIAG/TMP objects only, renders overlays, removes temporary overlays, saves local blend to keep cameras.",
+  "hoodie_object": "SACKBOY_Hoodie_EditProxy",
+  "hoodie_candidates": [
+    "SACKBOY_Hoodie_EditProxy"
+  ],
+  "body_object": "F2",
+  "body_selection_method": "exact_visible_F2",
+  "removed_previous_diag_objects": [],
+  "created_cameras": [
+    "SEAMDIAG_V1B_FULL_CONTEXT",
+    "SEAMDIAG_V1B_LEFT_ARMPIT",
+    "SEAMDIAG_V1B_RIGHT_ARMPIT",
+    "SEAMDIAG_V1B_HOOD_COLLAR",
+    "SEAMDIAG_V1B_HOOD_TOP"
+  ],
+  "hoodie_vertices": 245107,
+  "hoodie_faces": 489016,
+  "hoodie_boundary_edges_total": 931,
+  "hoodie_island_count": 380,
+  "hoodie_top_island_sizes": [
+    180811,
+    40509,
+    13703,
+    3069,
+    3053,
+    1092,
+    1092,
+    360,
+    360,
+    103,
+    100,
+    91,
+    90,
+    64,
+    51,
+    49,
+    39,
+    38,
+    37,
+    36
+  ],
+  "zone_exports": {
+    "left_armpit": {
+      "edge_count": 180,
+      "total_length": 0.598499,
+      "csv": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\body_target_seam_audit_fix_v1B\\seam_zone_csv\\left_armpit_edges.csv",
+      "obj": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\body_target_seam_audit_fix_v1B\\targeted_mesh_exports\\left_armpit_edges.obj"
+    },
+    "right_armpit": {
+      "edge_count": 180,
+      "total_length": 1.277087,
+      "csv": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\body_target_seam_audit_fix_v1B\\seam_zone_csv\\right_armpit_edges.csv",
+      "obj": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\body_target_seam_audit_fix_v1B\\targeted_mesh_exports\\right_armpit_edges.obj"
+    },
+    "hood_collar_front": {
+      "edge_count": 180,
+      "total_length": 0.514702,
+      "csv": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\body_target_seam_audit_fix_v1B\\seam_zone_csv\\hood_collar_front_edges.csv",
+      "obj": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\body_target_seam_audit_fix_v1B\\targeted_mesh_exports\\hood_collar_front_edges.obj"
+    },
+    "hood_collar_back": {
+      "edge_count": 180,
+      "total_length": 0.960556,
+      "csv": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\body_target_seam_audit_fix_v1B\\seam_zone_csv\\hood_collar_back_edges.csv",
+      "obj": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\body_target_seam_audit_fix_v1B\\targeted_mesh_exports\\hood_collar_back_edges.obj"
+    },
+    "hood_top_center": {
+      "edge_count": 180,
+      "total_length": 0.594362,
+      "csv": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\body_target_seam_audit_fix_v1B\\seam_zone_csv\\hood_top_center_edges.csv",
+      "obj": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\body_target_seam_audit_fix_v1B\\targeted_mesh_exports\\hood_top_center_edges.obj"
+    }
+  },
+  "mesh_exports": [
+    {
+      "object": "SACKBOY_Hoodie_EditProxy",
+      "path": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\body_target_seam_audit_fix_v1B\\targeted_mesh_exports\\current_hoodie_SACKBOY_Hoodie_EditProxy.obj",
+      "vertices": 37028,
+      "faces": 73351
+    },
+    {
+      "object": "F2",
+      "path": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\reports\\body_target_seam_audit_fix_v1B\\targeted_mesh_exports\\current_body_F2.obj",
+      "vertices": 33625,
+      "faces": 63717
+    }
+  ],
+  "renders": [
+    {
+      "filename": "01_V1B_FullContext_SeamOverlay.png",
+      "camera": "SEAMDIAG_V1B_FULL_CONTEXT",
+      "mode": "solid_boundary_overlay"
+    },
+    {
+      "filename": "02_V1B_LeftArmpit_SeamOverlay.png",
+      "camera": "SEAMDIAG_V1B_LEFT_ARMPIT",
+      "mode": "solid_boundary_overlay"
+    },
+    {
+      "filename": "03_V1B_RightArmpit_SeamOverlay.png",
+      "camera": "SEAMDIAG_V1B_RIGHT_ARMPIT",
+      "mode": "solid_boundary_overlay"
+    },
+    {
+      "filename": "04_V1B_HoodCollar_SeamOverlay.png",
+      "camera": "SEAMDIAG_V1B_HOOD_COLLAR",
+      "mode": "solid_boundary_overlay"
+    },
+    {
+      "filename": "05_V1B_HoodTop_SeamOverlay.png",
+      "camera": "SEAMDIAG_V1B_HOOD_TOP",
+      "mode": "solid_boundary_overlay"
+    }
+  ]
+}
