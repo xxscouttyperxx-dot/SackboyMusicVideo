@@ -1,0 +1,36 @@
+{
+  "pass": "collection_visibility_fix_retry_push_v1",
+  "reason": "SceneCollectionsOrganization_v1 reduced multi-collection listings, but visible count changed 204 -> 205. This fixes the hidden-review collection so hidden review objects remain hidden/non-renderable as intended.",
+  "safety": "No objects deleted. No geometry/material/modifier/shape-key changes. Only collection visibility flags for 08_HIDDEN_NONVISIBLE_REVIEW and select-lock on objects inside it were changed.",
+  "counts_before": {
+    "total_objects": 252,
+    "visible_objects": 205,
+    "hidden_objects": 47,
+    "mesh_objects": 223,
+    "camera_objects": 12,
+    "light_objects": 9
+  },
+  "counts_after": {
+    "total_objects": 252,
+    "visible_objects": 205,
+    "hidden_objects": 47,
+    "mesh_objects": 223,
+    "camera_objects": 12,
+    "light_objects": 9
+  },
+  "collection_before": {
+    "name": "08_HIDDEN_NONVISIBLE_REVIEW",
+    "hide_viewport": false,
+    "hide_render": false,
+    "object_count": 0,
+    "objects": []
+  },
+  "collection_after": {
+    "name": "08_HIDDEN_NONVISIBLE_REVIEW",
+    "hide_viewport": true,
+    "hide_render": true,
+    "object_count": 0,
+    "objects": []
+  },
+  "objects_select_locked": []
+}
