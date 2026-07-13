@@ -1,0 +1,59 @@
+{
+  "pass": "compare_current_renders_only_v1",
+  "safety": "render-only; no scene object changes; no blend save; does not delete old current_review files",
+  "existing_current_review_file_count_before": 5,
+  "current_review_file_count_after": 11,
+  "new_render_files": [
+    "COMPARE_NOW_01_SceneWide_SOLID.png",
+    "COMPARE_NOW_02_SceneWide_RENDERED.png",
+    "COMPARE_NOW_03_HoodCharacterFront_SOLID.png",
+    "COMPARE_NOW_04_HoodCharacterFront_RENDERED.png",
+    "COMPARE_NOW_05_CharacterThreeQuarter_SOLID.png",
+    "COMPARE_NOW_06_CharacterThreeQuarter_RENDERED.png"
+  ],
+  "renders": [
+    {
+      "camera": "CAM_SceneWide",
+      "filename": "COMPARE_NOW_01_SceneWide_SOLID.png",
+      "mode": "solid",
+      "path": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\current_review\\COMPARE_NOW_01_SceneWide_SOLID.png"
+    },
+    {
+      "camera": "CAM_SceneWide",
+      "filename": "COMPARE_NOW_02_SceneWide_RENDERED.png",
+      "mode": "rendered",
+      "path": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\current_review\\COMPARE_NOW_02_SceneWide_RENDERED.png"
+    },
+    {
+      "camera": "CAM_Hood_Front",
+      "filename": "COMPARE_NOW_03_HoodCharacterFront_SOLID.png",
+      "mode": "solid",
+      "path": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\current_review\\COMPARE_NOW_03_HoodCharacterFront_SOLID.png"
+    },
+    {
+      "camera": "CAM_Hood_Front",
+      "filename": "COMPARE_NOW_04_HoodCharacterFront_RENDERED.png",
+      "mode": "rendered",
+      "path": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\current_review\\COMPARE_NOW_04_HoodCharacterFront_RENDERED.png"
+    },
+    {
+      "camera": "CAM_F2_ThreeQuarter",
+      "filename": "COMPARE_NOW_05_CharacterThreeQuarter_SOLID.png",
+      "mode": "solid",
+      "path": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\current_review\\COMPARE_NOW_05_CharacterThreeQuarter_SOLID.png"
+    },
+    {
+      "camera": "CAM_F2_ThreeQuarter",
+      "filename": "COMPARE_NOW_06_CharacterThreeQuarter_RENDERED.png",
+      "mode": "rendered",
+      "path": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\current_review\\COMPARE_NOW_06_CharacterThreeQuarter_RENDERED.png"
+    }
+  ],
+  "object_counts": {
+    "total_objects": 252,
+    "visible_objects": 204,
+    "mesh_objects": 223,
+    "camera_objects": 12,
+    "light_objects": 9
+  }
+}

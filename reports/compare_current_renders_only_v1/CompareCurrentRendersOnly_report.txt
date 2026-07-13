@@ -1,0 +1,10 @@
+[pass] compare current renders only v1
+[safety] no current_review cleanup; no object edits; no object deletes; no blend save
+[render] COMPARE_NOW_01_SceneWide_SOLID.png camera=CAM_SceneWide mode=solid
+[render] COMPARE_NOW_02_SceneWide_RENDERED.png camera=CAM_SceneWide mode=rendered
+[render] COMPARE_NOW_03_HoodCharacterFront_SOLID.png camera=CAM_Hood_Front mode=solid
+[render] COMPARE_NOW_04_HoodCharacterFront_RENDERED.png camera=CAM_Hood_Front mode=rendered
+[render] COMPARE_NOW_05_CharacterThreeQuarter_SOLID.png camera=CAM_F2_ThreeQuarter mode=solid
+[render] COMPARE_NOW_06_CharacterThreeQuarter_RENDERED.png camera=CAM_F2_ThreeQuarter mode=rendered
+[summary] existing_current_review_files_before=5 after=11 added=6
+[done] render-only pass complete; blend not saved

@@ -1,0 +1,3674 @@
+{
+  "summary": {
+    "pass": "compare_current_renders_only_v1",
+    "safety": "render-only; no scene object changes; no blend save; does not delete old current_review files",
+    "existing_current_review_file_count_before": 5,
+    "current_review_file_count_after": 11,
+    "new_render_files": [
+      "COMPARE_NOW_01_SceneWide_SOLID.png",
+      "COMPARE_NOW_02_SceneWide_RENDERED.png",
+      "COMPARE_NOW_03_HoodCharacterFront_SOLID.png",
+      "COMPARE_NOW_04_HoodCharacterFront_RENDERED.png",
+      "COMPARE_NOW_05_CharacterThreeQuarter_SOLID.png",
+      "COMPARE_NOW_06_CharacterThreeQuarter_RENDERED.png"
+    ],
+    "renders": [
+      {
+        "camera": "CAM_SceneWide",
+        "filename": "COMPARE_NOW_01_SceneWide_SOLID.png",
+        "mode": "solid",
+        "path": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\current_review\\COMPARE_NOW_01_SceneWide_SOLID.png"
+      },
+      {
+        "camera": "CAM_SceneWide",
+        "filename": "COMPARE_NOW_02_SceneWide_RENDERED.png",
+        "mode": "rendered",
+        "path": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\current_review\\COMPARE_NOW_02_SceneWide_RENDERED.png"
+      },
+      {
+        "camera": "CAM_Hood_Front",
+        "filename": "COMPARE_NOW_03_HoodCharacterFront_SOLID.png",
+        "mode": "solid",
+        "path": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\current_review\\COMPARE_NOW_03_HoodCharacterFront_SOLID.png"
+      },
+      {
+        "camera": "CAM_Hood_Front",
+        "filename": "COMPARE_NOW_04_HoodCharacterFront_RENDERED.png",
+        "mode": "rendered",
+        "path": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\current_review\\COMPARE_NOW_04_HoodCharacterFront_RENDERED.png"
+      },
+      {
+        "camera": "CAM_F2_ThreeQuarter",
+        "filename": "COMPARE_NOW_05_CharacterThreeQuarter_SOLID.png",
+        "mode": "solid",
+        "path": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\current_review\\COMPARE_NOW_05_CharacterThreeQuarter_SOLID.png"
+      },
+      {
+        "camera": "CAM_F2_ThreeQuarter",
+        "filename": "COMPARE_NOW_06_CharacterThreeQuarter_RENDERED.png",
+        "mode": "rendered",
+        "path": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\renders\\current_review\\COMPARE_NOW_06_CharacterThreeQuarter_RENDERED.png"
+      }
+    ],
+    "object_counts": {
+      "total_objects": 252,
+      "visible_objects": 204,
+      "mesh_objects": 223,
+      "camera_objects": 12,
+      "light_objects": 9
+    }
+  },
+  "objects": [
+    {
+      "name": "177d920ddde57c74f8e1ef18863ab511",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "No Parking Sign Board"
+      ],
+      "data_name": "177d920ddde57c74f8e1ef18863ab511",
+      "data_users": 1,
+      "vertices": 874,
+      "faces": 872
+    },
+    {
+      "name": "177d920ddde57c74f8e1ef18863ab511.001",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "No Parking Sign Board"
+      ],
+      "data_name": "177d920ddde57c74f8e1ef18863ab511.001",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "Asphalt ground",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Asphalt ground",
+        "ENV_PARKING"
+      ],
+      "data_name": "remeshed_object",
+      "data_users": 1,
+      "vertices": 16441,
+      "faces": 16154
+    },
+    {
+      "name": "Audi e-tron GT quattro Black",
+      "type": "EMPTY",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": null,
+      "data_users": 0,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "Axle.001",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Large Trash Can"
+      ],
+      "data_name": "Mesh.010",
+      "data_users": 1,
+      "vertices": 302,
+      "faces": 320
+    },
+    {
+      "name": "Bolt",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "No Parking Sign Board"
+      ],
+      "data_name": "Bolt",
+      "data_users": 1,
+      "vertices": 293,
+      "faces": 304
+    },
+    {
+      "name": "Bolt.001",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "No Parking Sign Board"
+      ],
+      "data_name": "Bolt.001",
+      "data_users": 1,
+      "vertices": 586,
+      "faces": 608
+    },
+    {
+      "name": "Bolt.002",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Bolt.002",
+      "data_users": 1,
+      "vertices": 5440,
+      "faces": 5688
+    },
+    {
+      "name": "CAM_ANIM_Close",
+      "type": "CAMERA",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "Scene Collection"
+      ],
+      "data_name": "CAM_ANIM_Close_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "CAM_ANIM_Medium",
+      "type": "CAMERA",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "Scene Collection"
+      ],
+      "data_name": "CAM_ANIM_Medium_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "CAM_ANIM_Wide",
+      "type": "CAMERA",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "Scene Collection"
+      ],
+      "data_name": "CAM_ANIM_Wide_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "CAM_F2_Front",
+      "type": "CAMERA",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Scene Collection"
+      ],
+      "data_name": "CAM_F2_Front_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "CAM_F2_Profile",
+      "type": "CAMERA",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Scene Collection"
+      ],
+      "data_name": "CAM_F2_Profile_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "CAM_F2_ThreeQuarter",
+      "type": "CAMERA",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Scene Collection"
+      ],
+      "data_name": "CAM_F2_ThreeQuarter_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "CAM_Hood_Front",
+      "type": "CAMERA",
+      "visible": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Scene Collection"
+      ],
+      "data_name": "CAM_Hood_Front_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "CAM_Hood_LeftSide",
+      "type": "CAMERA",
+      "visible": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Scene Collection"
+      ],
+      "data_name": "CAM_Hood_LeftSide_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "CAM_Hood_RightSide",
+      "type": "CAMERA",
+      "visible": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Scene Collection"
+      ],
+      "data_name": "CAM_Hood_RightSide_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "CAM_Hood_Top",
+      "type": "CAMERA",
+      "visible": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Scene Collection"
+      ],
+      "data_name": "CAM_Hood_Top_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "CAM_SceneWide",
+      "type": "CAMERA",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Scene Collection"
+      ],
+      "data_name": "CAM_SceneWide_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "CAM_StorefrontReflection",
+      "type": "CAMERA",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Scene Collection"
+      ],
+      "data_name": "CAM_StorefrontReflection_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "CAM_Target",
+      "type": "EMPTY",
+      "visible": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "CAM_Rigs"
+      ],
+      "data_name": null,
+      "data_users": 0,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "Can.001",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Large Trash Can"
+      ],
+      "data_name": "Mesh.014",
+      "data_users": 1,
+      "vertices": 11142,
+      "faces": 12327
+    },
+    {
+      "name": "Cargo pants",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS",
+        "WARDROBE_IMPORTED"
+      ],
+      "data_name": "Cargo pants",
+      "data_users": 1,
+      "vertices": 16507,
+      "faces": 16424
+    },
+    {
+      "name": "Cast iron sewer hatch",
+      "type": "EMPTY",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Cast iron sewer hatch",
+        "ENV_PARKING"
+      ],
+      "data_name": null,
+      "data_users": 0,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "Circle",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Circle.001",
+      "data_users": 1,
+      "vertices": 161,
+      "faces": 156
+    },
+    {
+      "name": "Circle.001",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Circle.002",
+      "data_users": 1,
+      "vertices": 1402,
+      "faces": 1280
+    },
+    {
+      "name": "Circle.002",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Circle.006",
+      "data_users": 1,
+      "vertices": 4324,
+      "faces": 4282
+    },
+    {
+      "name": "Circle.003",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Circle.007",
+      "data_users": 1,
+      "vertices": 24792,
+      "faces": 20464
+    },
+    {
+      "name": "Circle.006",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Circle.014",
+      "data_users": 1,
+      "vertices": 1408,
+      "faces": 1280
+    },
+    {
+      "name": "Circle.007",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Circle.013",
+      "data_users": 1,
+      "vertices": 690,
+      "faces": 624
+    },
+    {
+      "name": "Circle.009",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Circle.016",
+      "data_users": 1,
+      "vertices": 23528,
+      "faces": 24192
+    },
+    {
+      "name": "Circle.011",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Circle.018",
+      "data_users": 1,
+      "vertices": 5632,
+      "faces": 5120
+    },
+    {
+      "name": "Cylinder",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "No Parking Sign Board"
+      ],
+      "data_name": "Cylinder.002",
+      "data_users": 1,
+      "vertices": 60,
+      "faces": 51
+    },
+    {
+      "name": "ENV_Asphalt",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "ENV_ParkingLot"
+      ],
+      "data_name": "Cube.001",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "F2",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "CHAR_F2",
+        "CHAR_Meshy_LeftCandidate_Refined"
+      ],
+      "data_name": "Meshy_Left_Standing_Candidate.006",
+      "data_users": 2,
+      "vertices": 33625,
+      "faces": 63717
+    },
+    {
+      "name": "F2.001",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "CHAR_F2",
+        "CHAR_Meshy_LeftCandidate_Refined"
+      ],
+      "data_name": "Meshy_Left_Standing_Candidate.006",
+      "data_users": 2,
+      "vertices": 33625,
+      "faces": 63717
+    },
+    {
+      "name": "FINAL_ORBIT_RIG",
+      "type": "EMPTY",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "FINAL_HELPERS"
+      ],
+      "data_name": null,
+      "data_users": 0,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "FX_ReflectCard_Green_01",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "FX_REFLECTION_TRAFFIC"
+      ],
+      "data_name": "FX_ReflectCard_Green_01_Mesh.001",
+      "data_users": 1,
+      "vertices": 33,
+      "faces": 1
+    },
+    {
+      "name": "FX_ReflectCard_Green_02",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "FX_REFLECTION_TRAFFIC"
+      ],
+      "data_name": "FX_ReflectCard_Green_02_Mesh.001",
+      "data_users": 1,
+      "vertices": 33,
+      "faces": 1
+    },
+    {
+      "name": "FX_ReflectCard_Red_01",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "FX_REFLECTION_TRAFFIC"
+      ],
+      "data_name": "FX_ReflectCard_Red_01_Mesh.001",
+      "data_users": 1,
+      "vertices": 33,
+      "faces": 1
+    },
+    {
+      "name": "FX_ReflectCard_Red_02",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "FX_REFLECTION_TRAFFIC"
+      ],
+      "data_name": "FX_ReflectCard_Red_02_Mesh.001",
+      "data_users": 1,
+      "vertices": 33,
+      "faces": 1
+    },
+    {
+      "name": "FX_ReflectCard_Yellow_01",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "FX_REFLECTION_TRAFFIC"
+      ],
+      "data_name": "FX_ReflectCard_Yellow_01_Mesh.001",
+      "data_users": 1,
+      "vertices": 33,
+      "faces": 1
+    },
+    {
+      "name": "FX_ReflectCard_Yellow_02",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "FX_REFLECTION_TRAFFIC"
+      ],
+      "data_name": "FX_ReflectCard_Yellow_02_Mesh.001",
+      "data_users": 1,
+      "vertices": 33,
+      "faces": 1
+    },
+    {
+      "name": "FX_TrafficLight_Green",
+      "type": "LIGHT",
+      "visible": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "FX_REFLECTION_TRAFFIC",
+        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
+      ],
+      "data_name": "FX_TrafficLight_Green_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "FX_TrafficLight_Red",
+      "type": "LIGHT",
+      "visible": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "FX_REFLECTION_TRAFFIC",
+        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
+      ],
+      "data_name": "FX_TrafficLight_Red_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "FX_TrafficLight_Yellow",
+      "type": "LIGHT",
+      "visible": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "FX_REFLECTION_TRAFFIC",
+        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
+      ],
+      "data_name": "FX_TrafficLight_Yellow_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "Handlebars.001",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Large Trash Can"
+      ],
+      "data_name": "Mesh.015",
+      "data_users": 1,
+      "vertices": 4352,
+      "faces": 4791
+    },
+    {
+      "name": "HANDREFINE_J2B_Working",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "CHAR_HandRefine_J2B"
+      ],
+      "data_name": "Meshy_Left_Standing_Candidate.012",
+      "data_users": 1,
+      "vertices": 30549,
+      "faces": 60930
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_FlameAccent_0",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "Scene Collection"
+      ],
+      "data_name": "Cube.031",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_FlameAccent_1",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "Scene Collection"
+      ],
+      "data_name": "Cube.032",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_FlameAccent_2",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "Scene Collection"
+      ],
+      "data_name": "Cube.033",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_WhiteSole",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "ARCHIVE_HIDDEN_HELPERS_DO_NOT_DELETE",
+        "Scene Collection"
+      ],
+      "data_name": "Cube",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_FlameAccent_0",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "Scene Collection"
+      ],
+      "data_name": "Cube.035",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_FlameAccent_1",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "Scene Collection"
+      ],
+      "data_name": "Cube.036",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_FlameAccent_2",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "Scene Collection"
+      ],
+      "data_name": "Cube.037",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_WhiteSole",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "ARCHIVE_HIDDEN_HELPERS_DO_NOT_DELETE",
+        "Scene Collection"
+      ],
+      "data_name": "Cube.034",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_CarAmberHoodRead",
+      "type": "LIGHT",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_LIGHTING_APPROVED",
+        "HERO_CAR_AMBER_READ"
+      ],
+      "data_name": "HERO_CarAmberHoodRead_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "HERO_CarAmberRoofRead",
+      "type": "LIGHT",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_LIGHTING_APPROVED",
+        "HERO_CAR_AMBER_READ"
+      ],
+      "data_name": "HERO_CarAmberRoofRead_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "HERO_CarWarmSideGlint",
+      "type": "LIGHT",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_LIGHTING_APPROVED",
+        "HERO_CAR_AMBER_READ"
+      ],
+      "data_name": "HERO_CarWarmSideGlint_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "HERO_Curb_VerticalFace",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "data_name": "Cube.196",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_CyanUnderglow_Area",
+      "type": "LIGHT",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_LIGHTING_APPROVED",
+        "HERO_CAR_UNDERGLOW"
+      ],
+      "data_name": "HERO_CyanUnderglow_Area_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "HERO_DoubleDoor_CenterMeet_1",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.175",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_DoubleDoor_CenterMeet_2",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.183",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_DoubleDoor_LeftSide_1",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.174",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_DoubleDoor_LeftSide_2",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.182",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_DoubleDoor_RightSide_1",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.176",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_DoubleDoor_RightSide_2",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.184",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_DoubleDoor_TopFrame_1",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.177",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_DoubleDoor_TopFrame_2",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.185",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_GlassStorefront_Bay_0",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.112",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_GlassStorefront_Bay_1",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.170",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_GlassStorefront_Bay_2",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.178",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_GlassStorefront_Bay_3",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.186",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_HParking_CenterSpine",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "data_name": "Cube.222",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_0",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "data_name": "Cube.206",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_1",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "data_name": "Cube.207",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_2",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "data_name": "Cube.208",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_3",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "data_name": "Cube.209",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_4",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "data_name": "Cube.210",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_5",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "data_name": "Cube.211",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_6",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "data_name": "Cube.212",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_7",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "data_name": "Cube.213",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_0",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "data_name": "Cube.214",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_1",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "data_name": "Cube.215",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_2",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "data_name": "Cube.216",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_3",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "data_name": "Cube.217",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_4",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "data_name": "Cube.218",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_5",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "data_name": "Cube.219",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_6",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "data_name": "Cube.220",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_7",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "data_name": "Cube.221",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_LampArm_0",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_VISIBLE_LAMPPOSTS"
+      ],
+      "data_name": "Cylinder.017",
+      "data_users": 1,
+      "vertices": 36,
+      "faces": 20
+    },
+    {
+      "name": "HERO_LampArm_1",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_VISIBLE_LAMPPOSTS"
+      ],
+      "data_name": "Cylinder.019",
+      "data_users": 1,
+      "vertices": 36,
+      "faces": 20
+    },
+    {
+      "name": "HERO_LampFixture_0",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_VISIBLE_LAMPPOSTS"
+      ],
+      "data_name": "Cube.223",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_LampFixture_1",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_VISIBLE_LAMPPOSTS"
+      ],
+      "data_name": "Cube.225",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_LampGlass_0",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_VISIBLE_LAMPPOSTS"
+      ],
+      "data_name": "Cube.224",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_LampGlass_1",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_VISIBLE_LAMPPOSTS"
+      ],
+      "data_name": "Cube.226",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_LampPole_0",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_VISIBLE_LAMPPOSTS"
+      ],
+      "data_name": "Cylinder.016",
+      "data_users": 1,
+      "vertices": 56,
+      "faces": 30
+    },
+    {
+      "name": "HERO_LampPole_1",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_VISIBLE_LAMPPOSTS"
+      ],
+      "data_name": "Cylinder.018",
+      "data_users": 1,
+      "vertices": 56,
+      "faces": 30
+    },
+    {
+      "name": "HERO_Rooftop_HVAC_0",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.191",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Rooftop_HVAC_1",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.192",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Rooftop_HVAC_2",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.193",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Rooftop_HVAC_3",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.194",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Rooftop_Vent_0",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cylinder.008",
+      "data_users": 1,
+      "vertices": 40,
+      "faces": 22
+    },
+    {
+      "name": "HERO_Rooftop_Vent_1",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cylinder.009",
+      "data_users": 1,
+      "vertices": 40,
+      "faces": 22
+    },
+    {
+      "name": "HERO_Rooftop_Vent_2",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cylinder.010",
+      "data_users": 1,
+      "vertices": 40,
+      "faces": 22
+    },
+    {
+      "name": "HERO_Rooftop_Vent_3",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cylinder.011",
+      "data_users": 1,
+      "vertices": 40,
+      "faces": 22
+    },
+    {
+      "name": "HERO_Sidewalk_ExpansionJoint_X_1",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "data_name": "Cube.198",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Sidewalk_ExpansionJoint_X_2",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "data_name": "Cube.199",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Sidewalk_ExpansionJoint_X_3",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "data_name": "Cube.200",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Sidewalk_ExpansionJoint_X_4",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "data_name": "Cube.201",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Sidewalk_ExpansionJoint_X_5",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "data_name": "Cube.202",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Sidewalk_ExpansionJoint_X_6",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "data_name": "Cube.203",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Sidewalk_ExpansionJoint_X_7",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "data_name": "Cube.204",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Sidewalk_WideTop",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_SIDEWALK_CURB_REBUILD"
+      ],
+      "data_name": "Cube.195",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Storefront_CenterMullion_0",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.169",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Storefront_CenterMullion_3",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.190",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Storefront_ContinuousBottomFrame",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.059",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Storefront_ContinuousTopFrame",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.058",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Storefront_LeftVertical_0",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.119",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Storefront_LeftVertical_1",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.171",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Storefront_LeftVertical_2",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.179",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Storefront_LeftVertical_3",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.187",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Storefront_MidHorizontal_0",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.133",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Storefront_MidHorizontal_1",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.173",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Storefront_MidHorizontal_2",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.181",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Storefront_MidHorizontal_3",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.189",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Storefront_RightVertical_0",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.126",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Storefront_RightVertical_1",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.172",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Storefront_RightVertical_2",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.180",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Storefront_RightVertical_3",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.188",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_StoreMall_DeepBody",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.050",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_StoreMall_FlatRoof",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.056",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_StoreMall_FrontParapet",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_STOREFRONT_REBUILD"
+      ],
+      "data_name": "Cube.057",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Underglow_FrontHiddenStrip",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_CAR_UNDERGLOW",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "data_name": "Cube.054",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "HERO_Underglow_RearHiddenStrip",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_CAR_UNDERGLOW",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "data_name": "Cube.055",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "L.Eye",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "CHAR_F2"
+      ],
+      "data_name": "Sphere.019",
+      "data_users": 1,
+      "vertices": 482,
+      "faces": 512
+    },
+    {
+      "name": "Large Trash Can",
+      "type": "EMPTY",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Large Trash Can"
+      ],
+      "data_name": null,
+      "data_users": 0,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "Lid Pins.001",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Large Trash Can"
+      ],
+      "data_name": "Mesh.019",
+      "data_users": 1,
+      "vertices": 2780,
+      "faces": 2970
+    },
+    {
+      "name": "Lid.001",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Large Trash Can",
+        "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS"
+      ],
+      "data_name": "Mesh.017",
+      "data_users": 1,
+      "vertices": 21254,
+      "faces": 23160
+    },
+    {
+      "name": "Mball.008",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "No Parking Sign Board"
+      ],
+      "data_name": "Mesh.001",
+      "data_users": 1,
+      "vertices": 1510,
+      "faces": 1893
+    },
+    {
+      "name": "Mball.011",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "No Parking Sign Board"
+      ],
+      "data_name": "Mesh",
+      "data_users": 1,
+      "vertices": 1930,
+      "faces": 2419
+    },
+    {
+      "name": "MESHY_LEFT_REFINED_00",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "CHAR_Meshy_LeftCandidate_Refined"
+      ],
+      "data_name": "Meshy_Left_Standing_Candidate.003",
+      "data_users": 1,
+      "vertices": 33486,
+      "faces": 66924
+    },
+    {
+      "name": "MESHY_LEFT_SOURCE_00",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "BASE_Meshy_LeftCandidate_Source"
+      ],
+      "data_name": "Meshy_Left_Standing_Candidate",
+      "data_users": 1,
+      "vertices": 33504,
+      "faces": 66959
+    },
+    {
+      "name": "MOUTH_CUT_GUIDE_Data",
+      "type": "CURVE",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "ARCHIVE_HIDDEN_HELPERS_DO_NOT_DELETE",
+        "CHAR_Meshy_LeftCandidate_Refined"
+      ],
+      "data_name": "MOUTH_CUT_GUIDE_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "No Parking Sign Board",
+      "type": "EMPTY",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_PARKING",
+        "No Parking Sign Board"
+      ],
+      "data_name": null,
+      "data_users": 0,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "Plane",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane",
+      "data_users": 1,
+      "vertices": 405,
+      "faces": 372
+    },
+    {
+      "name": "Plane.001",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS",
+        "Shoes"
+      ],
+      "data_name": "Plane.001",
+      "data_users": 1,
+      "vertices": 10292,
+      "faces": 10800
+    },
+    {
+      "name": "Plane.002",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.002",
+      "data_users": 1,
+      "vertices": 1114,
+      "faces": 1018
+    },
+    {
+      "name": "Plane.003",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.003",
+      "data_users": 1,
+      "vertices": 2285,
+      "faces": 2198
+    },
+    {
+      "name": "Plane.004",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.004",
+      "data_users": 1,
+      "vertices": 1370,
+      "faces": 1292
+    },
+    {
+      "name": "Plane.005",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.005",
+      "data_users": 1,
+      "vertices": 1268,
+      "faces": 1186
+    },
+    {
+      "name": "Plane.006",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.006",
+      "data_users": 1,
+      "vertices": 1438,
+      "faces": 1310
+    },
+    {
+      "name": "Plane.007",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.007",
+      "data_users": 1,
+      "vertices": 668,
+      "faces": 596
+    },
+    {
+      "name": "Plane.008",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.008",
+      "data_users": 1,
+      "vertices": 411,
+      "faces": 352
+    },
+    {
+      "name": "Plane.009",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.009",
+      "data_users": 1,
+      "vertices": 481,
+      "faces": 436
+    },
+    {
+      "name": "Plane.010",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.011",
+      "data_users": 1,
+      "vertices": 714,
+      "faces": 626
+    },
+    {
+      "name": "Plane.011",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.012",
+      "data_users": 1,
+      "vertices": 128,
+      "faces": 110
+    },
+    {
+      "name": "Plane.012",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.013",
+      "data_users": 1,
+      "vertices": 234,
+      "faces": 206
+    },
+    {
+      "name": "Plane.013",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.014",
+      "data_users": 1,
+      "vertices": 675,
+      "faces": 622
+    },
+    {
+      "name": "Plane.014",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.010",
+      "data_users": 1,
+      "vertices": 582,
+      "faces": 522
+    },
+    {
+      "name": "Plane.015",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.016",
+      "data_users": 1,
+      "vertices": 443,
+      "faces": 384
+    },
+    {
+      "name": "Plane.016",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.019",
+      "data_users": 1,
+      "vertices": 116,
+      "faces": 92
+    },
+    {
+      "name": "Plane.017",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.020",
+      "data_users": 1,
+      "vertices": 624,
+      "faces": 552
+    },
+    {
+      "name": "Plane.018",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.022",
+      "data_users": 1,
+      "vertices": 336,
+      "faces": 258
+    },
+    {
+      "name": "Plane.019",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.023",
+      "data_users": 1,
+      "vertices": 320,
+      "faces": 276
+    },
+    {
+      "name": "Plane.020",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.044",
+      "data_users": 1,
+      "vertices": 64,
+      "faces": 42
+    },
+    {
+      "name": "Plane.021",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.045",
+      "data_users": 1,
+      "vertices": 240,
+      "faces": 168
+    },
+    {
+      "name": "Plane.022",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS",
+        "Shoes"
+      ],
+      "data_name": "Plane.017",
+      "data_users": 1,
+      "vertices": 10292,
+      "faces": 10800
+    },
+    {
+      "name": "Plane.023",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "No Parking Sign Board"
+      ],
+      "data_name": "Plane.025",
+      "data_users": 1,
+      "vertices": 132,
+      "faces": 126
+    },
+    {
+      "name": "Plane.024",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.040",
+      "data_users": 1,
+      "vertices": 827,
+      "faces": 726
+    },
+    {
+      "name": "Plane.025",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.043",
+      "data_users": 1,
+      "vertices": 778,
+      "faces": 662
+    },
+    {
+      "name": "Plane.026",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.046",
+      "data_users": 1,
+      "vertices": 352,
+      "faces": 308
+    },
+    {
+      "name": "Plane.027",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.027",
+      "data_users": 1,
+      "vertices": 818,
+      "faces": 738
+    },
+    {
+      "name": "Plane.028",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.047",
+      "data_users": 1,
+      "vertices": 136,
+      "faces": 98
+    },
+    {
+      "name": "Plane.029",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Cast iron sewer hatch"
+      ],
+      "data_name": "Plane.032",
+      "data_users": 1,
+      "vertices": 545,
+      "faces": 512
+    },
+    {
+      "name": "Plane.030",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.049",
+      "data_users": 1,
+      "vertices": 643,
+      "faces": 560
+    },
+    {
+      "name": "Plane.031",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.052",
+      "data_users": 1,
+      "vertices": 48,
+      "faces": 40
+    },
+    {
+      "name": "Plane.032",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.053",
+      "data_users": 1,
+      "vertices": 530,
+      "faces": 462
+    },
+    {
+      "name": "Plane.033",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.054",
+      "data_users": 1,
+      "vertices": 1144,
+      "faces": 1052
+    },
+    {
+      "name": "Plane.034",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.056",
+      "data_users": 1,
+      "vertices": 1874,
+      "faces": 1752
+    },
+    {
+      "name": "Plane.035",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.066",
+      "data_users": 1,
+      "vertices": 266,
+      "faces": 218
+    },
+    {
+      "name": "Plane.036",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.018",
+      "data_users": 1,
+      "vertices": 180,
+      "faces": 144
+    },
+    {
+      "name": "Plane.037",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.063",
+      "data_users": 1,
+      "vertices": 979,
+      "faces": 886
+    },
+    {
+      "name": "Plane.038",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.061",
+      "data_users": 1,
+      "vertices": 226,
+      "faces": 190
+    },
+    {
+      "name": "Plane.039",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.067",
+      "data_users": 1,
+      "vertices": 32,
+      "faces": 30
+    },
+    {
+      "name": "Plane.040",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.015",
+      "data_users": 1,
+      "vertices": 162,
+      "faces": 128
+    },
+    {
+      "name": "Plane.041",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.021",
+      "data_users": 1,
+      "vertices": 68,
+      "faces": 48
+    },
+    {
+      "name": "Plane.042",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.024",
+      "data_users": 1,
+      "vertices": 76,
+      "faces": 56
+    },
+    {
+      "name": "Plane.043",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.026",
+      "data_users": 1,
+      "vertices": 42,
+      "faces": 20
+    },
+    {
+      "name": "Plane.045",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.030",
+      "data_users": 1,
+      "vertices": 84,
+      "faces": 60
+    },
+    {
+      "name": "Plane.047",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.028",
+      "data_users": 1,
+      "vertices": 1040,
+      "faces": 910
+    },
+    {
+      "name": "Plane.048",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.029",
+      "data_users": 1,
+      "vertices": 98,
+      "faces": 50
+    },
+    {
+      "name": "Plane.049",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.031",
+      "data_users": 1,
+      "vertices": 3136,
+      "faces": 2847
+    },
+    {
+      "name": "Plane.050",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.037",
+      "data_users": 1,
+      "vertices": 440,
+      "faces": 382
+    },
+    {
+      "name": "Plane.051",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.035",
+      "data_users": 1,
+      "vertices": 656,
+      "faces": 558
+    },
+    {
+      "name": "Plane.052",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.041",
+      "data_users": 1,
+      "vertices": 688,
+      "faces": 602
+    },
+    {
+      "name": "Plane.053",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.042",
+      "data_users": 1,
+      "vertices": 564,
+      "faces": 462
+    },
+    {
+      "name": "Plane.054",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.038",
+      "data_users": 1,
+      "vertices": 392,
+      "faces": 194
+    },
+    {
+      "name": "Plane.055",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.048",
+      "data_users": 1,
+      "vertices": 72,
+      "faces": 36
+    },
+    {
+      "name": "Plane.056",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.050",
+      "data_users": 1,
+      "vertices": 772,
+      "faces": 744
+    },
+    {
+      "name": "Plane.057",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.058",
+      "data_users": 1,
+      "vertices": 282,
+      "faces": 140
+    },
+    {
+      "name": "Plane.058",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.057",
+      "data_users": 1,
+      "vertices": 128,
+      "faces": 112
+    },
+    {
+      "name": "Plane.059",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.059",
+      "data_users": 1,
+      "vertices": 528,
+      "faces": 480
+    },
+    {
+      "name": "Plane.060",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.064",
+      "data_users": 1,
+      "vertices": 162,
+      "faces": 128
+    },
+    {
+      "name": "Plane.061",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.062",
+      "data_users": 1,
+      "vertices": 120,
+      "faces": 88
+    },
+    {
+      "name": "Plane.062",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.065",
+      "data_users": 1,
+      "vertices": 368,
+      "faces": 326
+    },
+    {
+      "name": "Plane.063",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.033",
+      "data_users": 1,
+      "vertices": 72,
+      "faces": 54
+    },
+    {
+      "name": "Plane.064",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.034",
+      "data_users": 1,
+      "vertices": 48,
+      "faces": 36
+    },
+    {
+      "name": "Plane.065",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.039",
+      "data_users": 1,
+      "vertices": 156,
+      "faces": 140
+    },
+    {
+      "name": "Plane.066",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.068",
+      "data_users": 1,
+      "vertices": 192,
+      "faces": 144
+    },
+    {
+      "name": "Plane.067",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.060",
+      "data_users": 1,
+      "vertices": 240,
+      "faces": 192
+    },
+    {
+      "name": "Plane.068",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.070",
+      "data_users": 1,
+      "vertices": 192,
+      "faces": 144
+    },
+    {
+      "name": "Plane.069",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.071",
+      "data_users": 1,
+      "vertices": 36,
+      "faces": 16
+    },
+    {
+      "name": "Plane.070",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.073",
+      "data_users": 1,
+      "vertices": 2016,
+      "faces": 1920
+    },
+    {
+      "name": "Plane.071",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.074",
+      "data_users": 1,
+      "vertices": 414,
+      "faces": 352
+    },
+    {
+      "name": "Plane.072",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.075",
+      "data_users": 1,
+      "vertices": 234,
+      "faces": 194
+    },
+    {
+      "name": "Plane.074",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.078",
+      "data_users": 1,
+      "vertices": 62832,
+      "faces": 67320
+    },
+    {
+      "name": "Plane.076",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.077",
+      "data_users": 1,
+      "vertices": 1409,
+      "faces": 1319
+    },
+    {
+      "name": "Plane.077",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Audi e-tron GT quattro Black"
+      ],
+      "data_name": "Plane.079",
+      "data_users": 1,
+      "vertices": 14992,
+      "faces": 14168
+    },
+    {
+      "name": "R.Eye",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "CHAR_F2"
+      ],
+      "data_name": "Sphere.020",
+      "data_users": 1,
+      "vertices": 482,
+      "faces": 512
+    },
+    {
+      "name": "Ribbing.001",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Large Trash Can"
+      ],
+      "data_name": "Mesh.021",
+      "data_users": 1,
+      "vertices": 11332,
+      "faces": 11940
+    },
+    {
+      "name": "SACKBOY_Hoodie_EditProxy",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "HERO_IMPORTED_CLOTHING_CANDIDATES",
+        "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS",
+        "WARDROBE_IMPORTED"
+      ],
+      "data_name": "SACKBOY_Hoodie_Main_Mesh.003",
+      "data_users": 1,
+      "vertices": 245107,
+      "faces": 489016
+    },
+    {
+      "name": "SACKBOY_Hoodie_Main",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": false,
+      "hide_render": true,
+      "collections": [
+        "HERO_IMPORTED_CLOTHING_CANDIDATES",
+        "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS",
+        "WARDROBE_IMPORTED"
+      ],
+      "data_name": "SACKBOY_Hoodie_Main_Mesh",
+      "data_users": 1,
+      "vertices": 257116,
+      "faces": 489064
+    },
+    {
+      "name": "SACKBOY_Hoodie_Main_duplicate",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": false,
+      "hide_render": true,
+      "collections": [
+        "Collection"
+      ],
+      "data_name": "SACKBOY_Hoodie_Main_Mesh.001",
+      "data_users": 1,
+      "vertices": 257116,
+      "faces": 489064
+    },
+    {
+      "name": "SACKBOY_Hoodie_Main_lowmesh",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": false,
+      "hide_render": true,
+      "collections": [
+        "Collection"
+      ],
+      "data_name": "SACKBOY_Hoodie_Main_Mesh.002",
+      "data_users": 1,
+      "vertices": 257116,
+      "faces": 489064
+    },
+    {
+      "name": "sackboy_scene_manual_v1.blend",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "CHAR_Meshy_LeftCandidate_Refined"
+      ],
+      "data_name": "Meshy_Left_Standing_Candidate.007",
+      "data_users": 1,
+      "vertices": 33484,
+      "faces": 66916
+    },
+    {
+      "name": "Shoes",
+      "type": "EMPTY",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Shoes"
+      ],
+      "data_name": null,
+      "data_users": 0,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "SK_Eye_L",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "CHAR_SackDoll"
+      ],
+      "data_name": "Sphere.002",
+      "data_users": 1,
+      "vertices": 1106,
+      "faces": 1152
+    },
+    {
+      "name": "SK_Eye_R",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "CHAR_SackDoll"
+      ],
+      "data_name": "Sphere.003",
+      "data_users": 1,
+      "vertices": 1106,
+      "faces": 1152
+    },
+    {
+      "name": "SK_Foot_L",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "CHAR_SackDoll"
+      ],
+      "data_name": "Sphere.017",
+      "data_users": 1,
+      "vertices": 1106,
+      "faces": 1152
+    },
+    {
+      "name": "SK_Foot_R",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "CHAR_SackDoll"
+      ],
+      "data_name": "Sphere.018",
+      "data_users": 1,
+      "vertices": 1106,
+      "faces": 1152
+    },
+    {
+      "name": "SK_Forearm_L",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "CHAR_SackDoll"
+      ],
+      "data_name": "Sphere.007",
+      "data_users": 1,
+      "vertices": 1106,
+      "faces": 1152
+    },
+    {
+      "name": "SK_Forearm_R",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "CHAR_SackDoll"
+      ],
+      "data_name": "Sphere.008",
+      "data_users": 1,
+      "vertices": 1106,
+      "faces": 1152
+    },
+    {
+      "name": "SK_Hand_L",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "CHAR_SackDoll"
+      ],
+      "data_name": "Sphere.009",
+      "data_users": 1,
+      "vertices": 1106,
+      "faces": 1152
+    },
+    {
+      "name": "SK_Hand_L_Thumb",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "CHAR_SackDoll"
+      ],
+      "data_name": "Sphere.010",
+      "data_users": 1,
+      "vertices": 482,
+      "faces": 512
+    },
+    {
+      "name": "SK_Hand_R",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "CHAR_SackDoll"
+      ],
+      "data_name": "Sphere.011",
+      "data_users": 1,
+      "vertices": 1106,
+      "faces": 1152
+    },
+    {
+      "name": "SK_Hand_R_Thumb",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "CHAR_SackDoll"
+      ],
+      "data_name": "Sphere.012",
+      "data_users": 1,
+      "vertices": 482,
+      "faces": 512
+    },
+    {
+      "name": "SK_Head",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "CHAR_SackDoll"
+      ],
+      "data_name": "Sphere",
+      "data_users": 1,
+      "vertices": 1986,
+      "faces": 2048
+    },
+    {
+      "name": "SK_Mouth_Open",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "CHAR_SackDoll"
+      ],
+      "data_name": "Sphere.004",
+      "data_users": 1,
+      "vertices": 1986,
+      "faces": 2048
+    },
+    {
+      "name": "SK_Shin_L",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "CHAR_SackDoll"
+      ],
+      "data_name": "Sphere.015",
+      "data_users": 1,
+      "vertices": 1106,
+      "faces": 1152
+    },
+    {
+      "name": "SK_Shin_R",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "CHAR_SackDoll"
+      ],
+      "data_name": "Sphere.016",
+      "data_users": 1,
+      "vertices": 1106,
+      "faces": 1152
+    },
+    {
+      "name": "SK_Thigh_L",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "CHAR_SackDoll"
+      ],
+      "data_name": "Sphere.013",
+      "data_users": 1,
+      "vertices": 1106,
+      "faces": 1152
+    },
+    {
+      "name": "SK_Thigh_R",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "CHAR_SackDoll"
+      ],
+      "data_name": "Sphere.014",
+      "data_users": 1,
+      "vertices": 1106,
+      "faces": 1152
+    },
+    {
+      "name": "SK_Torso",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "CHAR_SackDoll"
+      ],
+      "data_name": "Sphere.001",
+      "data_users": 1,
+      "vertices": 1986,
+      "faces": 2048
+    },
+    {
+      "name": "SK_UpperArm_L",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "CHAR_SackDoll"
+      ],
+      "data_name": "Sphere.005",
+      "data_users": 1,
+      "vertices": 1106,
+      "faces": 1152
+    },
+    {
+      "name": "SK_UpperArm_R",
+      "type": "MESH",
+      "visible": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "collections": [
+        "CHAR_SackDoll"
+      ],
+      "data_name": "Sphere.006",
+      "data_users": 1,
+      "vertices": 1106,
+      "faces": 1152
+    },
+    {
+      "name": "Stop road sign",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Stop road sign"
+      ],
+      "data_name": "Circle",
+      "data_users": 1,
+      "vertices": 253,
+      "faces": 267
+    },
+    {
+      "name": "Traffic Cone (Photoscanned)",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Traffic Cone (Photoscanned)"
+      ],
+      "data_name": "Traffic Cone (Photoscanned)",
+      "data_users": 1,
+      "vertices": 6658,
+      "faces": 12802
+    },
+    {
+      "name": "Utility Box (Photoscanned)",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS",
+        "Utility Box (Photoscanned)"
+      ],
+      "data_name": "Utility Box",
+      "data_users": 1,
+      "vertices": 12028,
+      "faces": 23700
+    },
+    {
+      "name": "V2B_OverheadAmber_0",
+      "type": "LIGHT",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_LIGHTING_APPROVED",
+        "V2B_LIGHTS_OVERHEAD"
+      ],
+      "data_name": "V2B_OverheadAmber_0_Data.001",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "V2B_OverheadAmber_1",
+      "type": "LIGHT",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "ENV_LIGHTING_APPROVED",
+        "V2B_LIGHTS_OVERHEAD"
+      ],
+      "data_name": "V2B_OverheadAmber_1_Data.001",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0
+    },
+    {
+      "name": "Wheel.001",
+      "type": "MESH",
+      "visible": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "Large Trash Can"
+      ],
+      "data_name": "Mesh.025",
+      "data_users": 1,
+      "vertices": 3143,
+      "faces": 3346
+    }
+  ]
+}
