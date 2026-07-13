@@ -1,0 +1,205 @@
+name,type,category_guess,visible_viewport,hide_viewport_flag,hide_render_flag,hide_select_flag,collection_count,collections,data_name,data_users,vertices,faces,parent,children_count
+177d920ddde57c74f8e1ef18863ab511,MESH,Unsorted / Needs Review,True,False,False,False,1,No Parking Sign Board,177d920ddde57c74f8e1ef18863ab511,1,874,872,Plane.023,2
+177d920ddde57c74f8e1ef18863ab511.001,MESH,Unsorted / Needs Review,True,False,False,False,1,No Parking Sign Board,177d920ddde57c74f8e1ef18863ab511.001,1,8,6,177d920ddde57c74f8e1ef18863ab511,0
+Asphalt ground,MESH,Environment / Props,True,False,False,False,2,Asphalt ground; ENV_PARKING,remeshed_object,1,16441,16154,,0
+Audi e-tron GT quattro Black,EMPTY,Environment / Props,True,False,False,False,1,Audi e-tron GT quattro Black,,0,0,0,,79
+Axle.001,MESH,Unsorted / Needs Review,True,False,False,False,1,Large Trash Can,Mesh.010,1,302,320,Large Trash Can,0
+Bolt,MESH,Unsorted / Needs Review,True,False,False,False,1,No Parking Sign Board,Bolt,1,293,304,Plane.023,0
+Bolt.001,MESH,Unsorted / Needs Review,True,False,False,False,1,No Parking Sign Board,Bolt.001,1,586,608,Plane.023,0
+Bolt.002,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Bolt.002,1,5440,5688,Audi e-tron GT quattro Black,0
+CAM_F2_Front,CAMERA,Cameras,True,False,False,False,1,Scene Collection,CAM_F2_Front_Data,1,0,0,,0
+CAM_F2_Profile,CAMERA,Cameras,True,False,False,False,1,Scene Collection,CAM_F2_Profile_Data,1,0,0,,0
+CAM_F2_ThreeQuarter,CAMERA,Cameras,True,False,False,False,1,Scene Collection,CAM_F2_ThreeQuarter_Data,1,0,0,,0
+CAM_SceneWide,CAMERA,Cameras,True,False,False,False,1,Scene Collection,CAM_SceneWide_Data,1,0,0,,0
+CAM_StorefrontReflection,CAMERA,Cameras,True,False,False,False,1,Scene Collection,CAM_StorefrontReflection_Data,1,0,0,,0
+Can.001,MESH,Unsorted / Needs Review,True,False,False,False,1,Large Trash Can,Mesh.014,1,11142,12327,Large Trash Can,0
+Cargo pants,MESH,Clothing,True,False,False,False,2,OPTIMIZATION_PREVIEW_DECIMATE_TARGETS; WARDROBE_IMPORTED,Cargo pants,1,16507,16424,,0
+Cast iron sewer hatch,EMPTY,Unsorted / Needs Review,True,False,False,False,2,Cast iron sewer hatch; ENV_PARKING,,0,0,0,,1
+Circle,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Circle.001,1,161,156,Audi e-tron GT quattro Black,0
+Circle.001,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Circle.002,1,1402,1280,Audi e-tron GT quattro Black,0
+Circle.002,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Circle.006,1,4324,4282,Audi e-tron GT quattro Black,0
+Circle.003,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Circle.007,1,24792,20464,Audi e-tron GT quattro Black,0
+Circle.006,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Circle.014,1,1408,1280,Audi e-tron GT quattro Black,0
+Circle.007,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Circle.013,1,690,624,Audi e-tron GT quattro Black,0
+Circle.009,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Circle.016,1,23528,24192,Audi e-tron GT quattro Black,0
+Circle.011,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Circle.018,1,5632,5120,Audi e-tron GT quattro Black,0
+Cylinder,MESH,Unsorted / Needs Review,True,False,False,False,1,No Parking Sign Board,Cylinder.002,1,60,51,Plane.023,0
+F2,MESH,Character / Duplicates,True,False,False,False,2,CHAR_F2; CHAR_Meshy_LeftCandidate_Refined,Meshy_Left_Standing_Candidate.006,2,33625,63717,,0
+FINAL_ORBIT_RIG,EMPTY,Unsorted / Needs Review,True,False,False,False,1,FINAL_HELPERS,,0,0,0,,0
+FX_ReflectCard_Green_01,MESH,Lighting / Reflections,True,False,False,False,1,FX_REFLECTION_TRAFFIC,FX_ReflectCard_Green_01_Mesh.001,1,33,1,,0
+FX_ReflectCard_Green_02,MESH,Lighting / Reflections,True,False,False,False,1,FX_REFLECTION_TRAFFIC,FX_ReflectCard_Green_02_Mesh.001,1,33,1,,0
+FX_ReflectCard_Red_01,MESH,Lighting / Reflections,True,False,False,False,1,FX_REFLECTION_TRAFFIC,FX_ReflectCard_Red_01_Mesh.001,1,33,1,,0
+FX_ReflectCard_Red_02,MESH,Lighting / Reflections,True,False,False,False,1,FX_REFLECTION_TRAFFIC,FX_ReflectCard_Red_02_Mesh.001,1,33,1,,0
+FX_ReflectCard_Yellow_01,MESH,Lighting / Reflections,True,False,False,False,1,FX_REFLECTION_TRAFFIC,FX_ReflectCard_Yellow_01_Mesh.001,1,33,1,,0
+FX_ReflectCard_Yellow_02,MESH,Lighting / Reflections,True,False,False,False,1,FX_REFLECTION_TRAFFIC,FX_ReflectCard_Yellow_02_Mesh.001,1,33,1,,0
+Handlebars.001,MESH,Character / Duplicates,True,False,False,False,1,Large Trash Can,Mesh.015,1,4352,4791,Large Trash Can,0
+HERO_CarAmberHoodRead,LIGHT,Lighting / Reflections,True,False,False,False,2,ENV_LIGHTING_APPROVED; HERO_CAR_AMBER_READ,HERO_CarAmberHoodRead_Data,1,0,0,,0
+HERO_CarAmberRoofRead,LIGHT,Lighting / Reflections,True,False,False,False,2,ENV_LIGHTING_APPROVED; HERO_CAR_AMBER_READ,HERO_CarAmberRoofRead_Data,1,0,0,,0
+HERO_CarWarmSideGlint,LIGHT,Lighting / Reflections,True,False,False,False,2,ENV_LIGHTING_APPROVED; HERO_CAR_AMBER_READ,HERO_CarWarmSideGlint_Data,1,0,0,,0
+HERO_Curb_VerticalFace,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_SIDEWALK_CURB_REBUILD,Cube.196,1,8,6,,0
+HERO_CyanUnderglow_Area,LIGHT,Lighting / Reflections,True,False,False,False,2,ENV_LIGHTING_APPROVED; HERO_CAR_UNDERGLOW,HERO_CyanUnderglow_Area_Data,1,0,0,,0
+HERO_DoubleDoor_CenterMeet_1,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.175,1,8,6,,0
+HERO_DoubleDoor_CenterMeet_2,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.183,1,8,6,,0
+HERO_DoubleDoor_LeftSide_1,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.174,1,8,6,,0
+HERO_DoubleDoor_LeftSide_2,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.182,1,8,6,,0
+HERO_DoubleDoor_RightSide_1,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.176,1,8,6,,0
+HERO_DoubleDoor_RightSide_2,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.184,1,8,6,,0
+HERO_DoubleDoor_TopFrame_1,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.177,1,8,6,,0
+HERO_DoubleDoor_TopFrame_2,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.185,1,8,6,,0
+HERO_GlassStorefront_Bay_0,MESH,Environment / Props,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.112,1,8,6,,0
+HERO_GlassStorefront_Bay_1,MESH,Environment / Props,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.170,1,8,6,,0
+HERO_GlassStorefront_Bay_2,MESH,Environment / Props,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.178,1,8,6,,0
+HERO_GlassStorefront_Bay_3,MESH,Environment / Props,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.186,1,8,6,,0
+HERO_HParking_CenterSpine,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.222,1,8,6,,0
+HERO_HParking_Row0_Divider_0,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.206,1,8,6,,0
+HERO_HParking_Row0_Divider_1,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.207,1,8,6,,0
+HERO_HParking_Row0_Divider_2,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.208,1,8,6,,0
+HERO_HParking_Row0_Divider_3,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.209,1,8,6,,0
+HERO_HParking_Row0_Divider_4,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.210,1,8,6,,0
+HERO_HParking_Row0_Divider_5,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.211,1,8,6,,0
+HERO_HParking_Row0_Divider_6,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.212,1,8,6,,0
+HERO_HParking_Row0_Divider_7,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.213,1,8,6,,0
+HERO_HParking_Row1_Divider_0,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.214,1,8,6,,0
+HERO_HParking_Row1_Divider_1,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.215,1,8,6,,0
+HERO_HParking_Row1_Divider_2,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.216,1,8,6,,0
+HERO_HParking_Row1_Divider_3,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.217,1,8,6,,0
+HERO_HParking_Row1_Divider_4,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.218,1,8,6,,0
+HERO_HParking_Row1_Divider_5,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.219,1,8,6,,0
+HERO_HParking_Row1_Divider_6,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.220,1,8,6,,0
+HERO_HParking_Row1_Divider_7,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.221,1,8,6,,0
+HERO_LampArm_0,MESH,Lighting / Reflections,True,False,False,False,1,HERO_VISIBLE_LAMPPOSTS,Cylinder.017,1,36,20,,0
+HERO_LampArm_1,MESH,Lighting / Reflections,True,False,False,False,1,HERO_VISIBLE_LAMPPOSTS,Cylinder.019,1,36,20,,0
+HERO_LampFixture_0,MESH,Lighting / Reflections,True,False,False,False,1,HERO_VISIBLE_LAMPPOSTS,Cube.223,1,8,6,,0
+HERO_LampFixture_1,MESH,Lighting / Reflections,True,False,False,False,1,HERO_VISIBLE_LAMPPOSTS,Cube.225,1,8,6,,0
+HERO_LampGlass_0,MESH,Lighting / Reflections,True,False,False,False,1,HERO_VISIBLE_LAMPPOSTS,Cube.224,1,8,6,,0
+HERO_LampGlass_1,MESH,Lighting / Reflections,True,False,False,False,1,HERO_VISIBLE_LAMPPOSTS,Cube.226,1,8,6,,0
+HERO_LampPole_0,MESH,Lighting / Reflections,True,False,False,False,1,HERO_VISIBLE_LAMPPOSTS,Cylinder.016,1,56,30,,0
+HERO_LampPole_1,MESH,Lighting / Reflections,True,False,False,False,1,HERO_VISIBLE_LAMPPOSTS,Cylinder.018,1,56,30,,0
+HERO_Rooftop_HVAC_0,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.191,1,8,6,,0
+HERO_Rooftop_HVAC_1,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.192,1,8,6,,0
+HERO_Rooftop_HVAC_2,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.193,1,8,6,,0
+HERO_Rooftop_HVAC_3,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.194,1,8,6,,0
+HERO_Rooftop_Vent_0,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cylinder.008,1,40,22,,0
+HERO_Rooftop_Vent_1,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cylinder.009,1,40,22,,0
+HERO_Rooftop_Vent_2,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cylinder.010,1,40,22,,0
+HERO_Rooftop_Vent_3,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cylinder.011,1,40,22,,0
+HERO_Sidewalk_ExpansionJoint_X_1,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_SIDEWALK_CURB_REBUILD,Cube.198,1,8,6,,0
+HERO_Sidewalk_ExpansionJoint_X_2,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_SIDEWALK_CURB_REBUILD,Cube.199,1,8,6,,0
+HERO_Sidewalk_ExpansionJoint_X_3,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_SIDEWALK_CURB_REBUILD,Cube.200,1,8,6,,0
+HERO_Sidewalk_ExpansionJoint_X_4,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_SIDEWALK_CURB_REBUILD,Cube.201,1,8,6,,0
+HERO_Sidewalk_ExpansionJoint_X_5,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_SIDEWALK_CURB_REBUILD,Cube.202,1,8,6,,0
+HERO_Sidewalk_ExpansionJoint_X_6,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_SIDEWALK_CURB_REBUILD,Cube.203,1,8,6,,0
+HERO_Sidewalk_ExpansionJoint_X_7,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_SIDEWALK_CURB_REBUILD,Cube.204,1,8,6,,0
+HERO_Sidewalk_WideTop,MESH,Unsorted / Needs Review,True,False,False,False,1,HERO_SIDEWALK_CURB_REBUILD,Cube.195,1,8,6,,0
+HERO_Storefront_CenterMullion_0,MESH,Environment / Props,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.169,1,8,6,,0
+HERO_Storefront_CenterMullion_3,MESH,Environment / Props,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.190,1,8,6,,0
+HERO_Storefront_ContinuousBottomFrame,MESH,Environment / Props,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.059,1,8,6,,0
+HERO_Storefront_ContinuousTopFrame,MESH,Environment / Props,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.058,1,8,6,,0
+HERO_Storefront_LeftVertical_0,MESH,Environment / Props,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.119,1,8,6,,0
+HERO_Storefront_LeftVertical_1,MESH,Environment / Props,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.171,1,8,6,,0
+HERO_Storefront_LeftVertical_2,MESH,Environment / Props,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.179,1,8,6,,0
+HERO_Storefront_LeftVertical_3,MESH,Environment / Props,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.187,1,8,6,,0
+HERO_Storefront_MidHorizontal_0,MESH,Environment / Props,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.133,1,8,6,,0
+HERO_Storefront_MidHorizontal_1,MESH,Environment / Props,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.173,1,8,6,,0
+HERO_Storefront_MidHorizontal_2,MESH,Environment / Props,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.181,1,8,6,,0
+HERO_Storefront_MidHorizontal_3,MESH,Environment / Props,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.189,1,8,6,,0
+HERO_Storefront_RightVertical_0,MESH,Environment / Props,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.126,1,8,6,,0
+HERO_Storefront_RightVertical_1,MESH,Environment / Props,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.172,1,8,6,,0
+HERO_Storefront_RightVertical_2,MESH,Environment / Props,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.180,1,8,6,,0
+HERO_Storefront_RightVertical_3,MESH,Environment / Props,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.188,1,8,6,,0
+HERO_StoreMall_DeepBody,MESH,Character / Duplicates,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.050,1,8,6,,0
+HERO_StoreMall_FlatRoof,MESH,Environment / Props,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.056,1,8,6,,0
+HERO_StoreMall_FrontParapet,MESH,Environment / Props,True,False,False,False,1,HERO_STOREFRONT_REBUILD,Cube.057,1,8,6,,0
+HERO_Underglow_FrontHiddenStrip,MESH,Lighting / Reflections,True,False,False,False,4,ENV_PARKING; HERO_CAR_UNDERGLOW; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.054,1,8,6,,0
+HERO_Underglow_RearHiddenStrip,MESH,Lighting / Reflections,True,False,False,False,4,ENV_PARKING; HERO_CAR_UNDERGLOW; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.055,1,8,6,,0
+L.Eye,MESH,Character / Duplicates,True,False,False,False,1,CHAR_F2,Sphere.019,1,482,512,,0
+Large Trash Can,EMPTY,Unsorted / Needs Review,True,False,False,False,1,Large Trash Can,,0,0,0,,7
+Lid Pins.001,MESH,Unsorted / Needs Review,True,False,False,False,1,Large Trash Can,Mesh.019,1,2780,2970,Large Trash Can,0
+Lid.001,MESH,Unsorted / Needs Review,True,False,False,False,2,Large Trash Can; OPTIMIZATION_PREVIEW_DECIMATE_TARGETS,Mesh.017,1,21254,23160,Large Trash Can,0
+Mball.008,MESH,Unsorted / Needs Review,True,False,False,False,1,No Parking Sign Board,Mesh.001,1,1510,1893,177d920ddde57c74f8e1ef18863ab511,0
+Mball.011,MESH,Unsorted / Needs Review,True,False,False,False,1,No Parking Sign Board,Mesh,1,1930,2419,Plane.023,0
+No Parking Sign Board,EMPTY,Environment / Props,True,False,False,False,2,ENV_PARKING; No Parking Sign Board,,0,0,0,,1
+Plane,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane,1,405,372,Audi e-tron GT quattro Black,0
+Plane.001,MESH,Unsorted / Needs Review,True,False,False,False,2,OPTIMIZATION_PREVIEW_DECIMATE_TARGETS; Shoes,Plane.001,1,10292,10800,Shoes,0
+Plane.002,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.002,1,1114,1018,Audi e-tron GT quattro Black,0
+Plane.003,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.003,1,2285,2198,Audi e-tron GT quattro Black,0
+Plane.004,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.004,1,1370,1292,Audi e-tron GT quattro Black,0
+Plane.005,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.005,1,1268,1186,Audi e-tron GT quattro Black,0
+Plane.006,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.006,1,1438,1310,Audi e-tron GT quattro Black,0
+Plane.007,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.007,1,668,596,Audi e-tron GT quattro Black,0
+Plane.008,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.008,1,411,352,Audi e-tron GT quattro Black,0
+Plane.009,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.009,1,481,436,Audi e-tron GT quattro Black,0
+Plane.010,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.011,1,714,626,Audi e-tron GT quattro Black,0
+Plane.011,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.012,1,128,110,Audi e-tron GT quattro Black,0
+Plane.012,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.013,1,234,206,Audi e-tron GT quattro Black,0
+Plane.013,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.014,1,675,622,Audi e-tron GT quattro Black,0
+Plane.014,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.010,1,582,522,Audi e-tron GT quattro Black,0
+Plane.015,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.016,1,443,384,Audi e-tron GT quattro Black,0
+Plane.016,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.019,1,116,92,Audi e-tron GT quattro Black,0
+Plane.017,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.020,1,624,552,Audi e-tron GT quattro Black,0
+Plane.018,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.022,1,336,258,Audi e-tron GT quattro Black,0
+Plane.019,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.023,1,320,276,Audi e-tron GT quattro Black,0
+Plane.020,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.044,1,64,42,Audi e-tron GT quattro Black,0
+Plane.021,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.045,1,240,168,Audi e-tron GT quattro Black,0
+Plane.022,MESH,Unsorted / Needs Review,True,False,False,False,2,OPTIMIZATION_PREVIEW_DECIMATE_TARGETS; Shoes,Plane.017,1,10292,10800,Shoes,0
+Plane.023,MESH,Unsorted / Needs Review,True,False,False,False,1,No Parking Sign Board,Plane.025,1,132,126,No Parking Sign Board,5
+Plane.024,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.040,1,827,726,Audi e-tron GT quattro Black,0
+Plane.025,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.043,1,778,662,Audi e-tron GT quattro Black,0
+Plane.026,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.046,1,352,308,Audi e-tron GT quattro Black,0
+Plane.027,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.027,1,818,738,Audi e-tron GT quattro Black,0
+Plane.028,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.047,1,136,98,Audi e-tron GT quattro Black,0
+Plane.029,MESH,Unsorted / Needs Review,True,False,False,False,1,Cast iron sewer hatch,Plane.032,1,545,512,Cast iron sewer hatch,0
+Plane.030,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.049,1,643,560,Audi e-tron GT quattro Black,0
+Plane.031,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.052,1,48,40,Audi e-tron GT quattro Black,0
+Plane.032,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.053,1,530,462,Audi e-tron GT quattro Black,0
+Plane.033,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.054,1,1144,1052,Audi e-tron GT quattro Black,0
+Plane.034,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.056,1,1874,1752,Audi e-tron GT quattro Black,0
+Plane.035,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.066,1,266,218,Audi e-tron GT quattro Black,0
+Plane.036,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.018,1,180,144,Audi e-tron GT quattro Black,0
+Plane.037,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.063,1,979,886,Audi e-tron GT quattro Black,0
+Plane.038,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.061,1,226,190,Audi e-tron GT quattro Black,0
+Plane.039,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.067,1,32,30,Audi e-tron GT quattro Black,0
+Plane.040,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.015,1,162,128,Audi e-tron GT quattro Black,0
+Plane.041,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.021,1,68,48,Audi e-tron GT quattro Black,0
+Plane.042,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.024,1,76,56,Audi e-tron GT quattro Black,0
+Plane.043,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.026,1,42,20,Audi e-tron GT quattro Black,0
+Plane.045,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.030,1,84,60,Audi e-tron GT quattro Black,0
+Plane.047,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.028,1,1040,910,Audi e-tron GT quattro Black,0
+Plane.048,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.029,1,98,50,Audi e-tron GT quattro Black,0
+Plane.049,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.031,1,3136,2847,Audi e-tron GT quattro Black,0
+Plane.050,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.037,1,440,382,Audi e-tron GT quattro Black,0
+Plane.051,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.035,1,656,558,Audi e-tron GT quattro Black,0
+Plane.052,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.041,1,688,602,Audi e-tron GT quattro Black,0
+Plane.053,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.042,1,564,462,Audi e-tron GT quattro Black,0
+Plane.054,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.038,1,392,194,Audi e-tron GT quattro Black,0
+Plane.055,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.048,1,72,36,Audi e-tron GT quattro Black,0
+Plane.056,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.050,1,772,744,Audi e-tron GT quattro Black,0
+Plane.057,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.058,1,282,140,Audi e-tron GT quattro Black,0
+Plane.058,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.057,1,128,112,Audi e-tron GT quattro Black,0
+Plane.059,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.059,1,528,480,Audi e-tron GT quattro Black,0
+Plane.060,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.064,1,162,128,Audi e-tron GT quattro Black,0
+Plane.061,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.062,1,120,88,Audi e-tron GT quattro Black,0
+Plane.062,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.065,1,368,326,Audi e-tron GT quattro Black,0
+Plane.063,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.033,1,72,54,Audi e-tron GT quattro Black,0
+Plane.064,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.034,1,48,36,Audi e-tron GT quattro Black,0
+Plane.065,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.039,1,156,140,Audi e-tron GT quattro Black,0
+Plane.066,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.068,1,192,144,Audi e-tron GT quattro Black,0
+Plane.067,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.060,1,240,192,Audi e-tron GT quattro Black,0
+Plane.068,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.070,1,192,144,Audi e-tron GT quattro Black,0
+Plane.069,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.071,1,36,16,Audi e-tron GT quattro Black,0
+Plane.070,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.073,1,2016,1920,Audi e-tron GT quattro Black,0
+Plane.071,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.074,1,414,352,Audi e-tron GT quattro Black,0
+Plane.072,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.075,1,234,194,Audi e-tron GT quattro Black,0
+Plane.074,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.078,1,62832,67320,Audi e-tron GT quattro Black,0
+Plane.076,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.077,1,1409,1319,Audi e-tron GT quattro Black,0
+Plane.077,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.079,1,14992,14168,Audi e-tron GT quattro Black,0
+R.Eye,MESH,Character / Duplicates,True,False,False,False,1,CHAR_F2,Sphere.020,1,482,512,,0
+Ribbing.001,MESH,Unsorted / Needs Review,True,False,False,False,1,Large Trash Can,Mesh.021,1,11332,11940,Large Trash Can,0
+SACKBOY_Hoodie_EditProxy,MESH,Clothing,True,False,False,False,3,HERO_IMPORTED_CLOTHING_CANDIDATES; OPTIMIZATION_PREVIEW_DECIMATE_TARGETS; WARDROBE_IMPORTED,SACKBOY_Hoodie_Main_Mesh.003,1,245107,489016,,0
+Shoes,EMPTY,Clothing,True,False,False,False,1,Shoes,,0,0,0,,2
+Stop road sign,MESH,Environment / Props,True,False,False,False,1,Stop road sign,Circle,1,253,267,,0
+Traffic Cone (Photoscanned),MESH,Lighting / Reflections,True,False,False,False,1,Traffic Cone (Photoscanned),Traffic Cone (Photoscanned),1,6658,12802,,0
+Utility Box (Photoscanned),MESH,Environment / Props,True,False,False,False,2,OPTIMIZATION_PREVIEW_DECIMATE_TARGETS; Utility Box (Photoscanned),Utility Box,1,12028,23700,,0
+V2B_OverheadAmber_0,LIGHT,Lighting / Reflections,True,False,False,False,2,ENV_LIGHTING_APPROVED; V2B_LIGHTS_OVERHEAD,V2B_OverheadAmber_0_Data.001,1,0,0,,0
+V2B_OverheadAmber_1,LIGHT,Lighting / Reflections,True,False,False,False,2,ENV_LIGHTING_APPROVED; V2B_LIGHTS_OVERHEAD,V2B_OverheadAmber_1_Data.001,1,0,0,,0
+Wheel.001,MESH,Unsorted / Needs Review,True,False,False,False,1,Large Trash Can,Mesh.025,1,3143,3346,Large Trash Can,0

@@ -1,0 +1,41 @@
+name,type,category_guess,visible_viewport,hide_viewport_flag,hide_render_flag,hide_select_flag,collection_count,collections,data_name,data_users,vertices,faces,parent,children_count
+Asphalt ground,MESH,Environment / Props,True,False,False,False,2,Asphalt ground; ENV_PARKING,remeshed_object,1,16441,16154,,0
+Cargo pants,MESH,Clothing,True,False,False,False,2,OPTIMIZATION_PREVIEW_DECIMATE_TARGETS; WARDROBE_IMPORTED,Cargo pants,1,16507,16424,,0
+Cast iron sewer hatch,EMPTY,Unsorted / Needs Review,True,False,False,False,2,Cast iron sewer hatch; ENV_PARKING,,0,0,0,,1
+F2,MESH,Character / Duplicates,True,False,False,False,2,CHAR_F2; CHAR_Meshy_LeftCandidate_Refined,Meshy_Left_Standing_Candidate.006,2,33625,63717,,0
+F2.001,MESH,Character / Duplicates,False,True,True,False,2,CHAR_F2; CHAR_Meshy_LeftCandidate_Refined,Meshy_Left_Standing_Candidate.006,2,33625,63717,,0
+FX_TrafficLight_Green,LIGHT,Lighting / Reflections,False,False,False,False,2,FX_REFLECTION_TRAFFIC; WINDOW_REFLECTION_SPOTLIGHTS_FAR_END,FX_TrafficLight_Green_Data,1,0,0,,0
+FX_TrafficLight_Red,LIGHT,Lighting / Reflections,False,False,False,False,2,FX_REFLECTION_TRAFFIC; WINDOW_REFLECTION_SPOTLIGHTS_FAR_END,FX_TrafficLight_Red_Data,1,0,0,,0
+FX_TrafficLight_Yellow,LIGHT,Lighting / Reflections,False,False,False,False,2,FX_REFLECTION_TRAFFIC; WINDOW_REFLECTION_SPOTLIGHTS_FAR_END,FX_TrafficLight_Yellow_Data,1,0,0,,0
+HERO_CarAmberHoodRead,LIGHT,Lighting / Reflections,True,False,False,False,2,ENV_LIGHTING_APPROVED; HERO_CAR_AMBER_READ,HERO_CarAmberHoodRead_Data,1,0,0,,0
+HERO_CarAmberRoofRead,LIGHT,Lighting / Reflections,True,False,False,False,2,ENV_LIGHTING_APPROVED; HERO_CAR_AMBER_READ,HERO_CarAmberRoofRead_Data,1,0,0,,0
+HERO_CarWarmSideGlint,LIGHT,Lighting / Reflections,True,False,False,False,2,ENV_LIGHTING_APPROVED; HERO_CAR_AMBER_READ,HERO_CarWarmSideGlint_Data,1,0,0,,0
+HERO_CyanUnderglow_Area,LIGHT,Lighting / Reflections,True,False,False,False,2,ENV_LIGHTING_APPROVED; HERO_CAR_UNDERGLOW,HERO_CyanUnderglow_Area_Data,1,0,0,,0
+HERO_HParking_CenterSpine,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.222,1,8,6,,0
+HERO_HParking_Row0_Divider_0,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.206,1,8,6,,0
+HERO_HParking_Row0_Divider_1,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.207,1,8,6,,0
+HERO_HParking_Row0_Divider_2,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.208,1,8,6,,0
+HERO_HParking_Row0_Divider_3,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.209,1,8,6,,0
+HERO_HParking_Row0_Divider_4,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.210,1,8,6,,0
+HERO_HParking_Row0_Divider_5,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.211,1,8,6,,0
+HERO_HParking_Row0_Divider_6,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.212,1,8,6,,0
+HERO_HParking_Row0_Divider_7,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.213,1,8,6,,0
+HERO_HParking_Row1_Divider_0,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.214,1,8,6,,0
+HERO_HParking_Row1_Divider_1,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.215,1,8,6,,0
+HERO_HParking_Row1_Divider_2,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.216,1,8,6,,0
+HERO_HParking_Row1_Divider_3,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.217,1,8,6,,0
+HERO_HParking_Row1_Divider_4,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.218,1,8,6,,0
+HERO_HParking_Row1_Divider_5,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.219,1,8,6,,0
+HERO_HParking_Row1_Divider_6,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.220,1,8,6,,0
+HERO_HParking_Row1_Divider_7,MESH,Environment / Props,True,False,False,False,4,ENV_PARKING; HERO_H_PARKING_LAYOUT; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.221,1,8,6,,0
+HERO_Underglow_FrontHiddenStrip,MESH,Lighting / Reflections,True,False,False,False,4,ENV_PARKING; HERO_CAR_UNDERGLOW; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.054,1,8,6,,0
+HERO_Underglow_RearHiddenStrip,MESH,Lighting / Reflections,True,False,False,False,4,ENV_PARKING; HERO_CAR_UNDERGLOW; PARKING_PAINT_FLAT_ORIGINALS_ACTIVE; PARKING_PAINT_ORIGINALS_HIDDEN,Cube.055,1,8,6,,0
+Lid.001,MESH,Unsorted / Needs Review,True,False,False,False,2,Large Trash Can; OPTIMIZATION_PREVIEW_DECIMATE_TARGETS,Mesh.017,1,21254,23160,Large Trash Can,0
+No Parking Sign Board,EMPTY,Environment / Props,True,False,False,False,2,ENV_PARKING; No Parking Sign Board,,0,0,0,,1
+Plane.001,MESH,Unsorted / Needs Review,True,False,False,False,2,OPTIMIZATION_PREVIEW_DECIMATE_TARGETS; Shoes,Plane.001,1,10292,10800,Shoes,0
+Plane.022,MESH,Unsorted / Needs Review,True,False,False,False,2,OPTIMIZATION_PREVIEW_DECIMATE_TARGETS; Shoes,Plane.017,1,10292,10800,Shoes,0
+SACKBOY_Hoodie_EditProxy,MESH,Clothing,True,False,False,False,3,HERO_IMPORTED_CLOTHING_CANDIDATES; OPTIMIZATION_PREVIEW_DECIMATE_TARGETS; WARDROBE_IMPORTED,SACKBOY_Hoodie_Main_Mesh.003,1,245107,489016,,0
+SACKBOY_Hoodie_Main,MESH,Clothing,False,False,True,False,3,HERO_IMPORTED_CLOTHING_CANDIDATES; OPTIMIZATION_PREVIEW_DECIMATE_TARGETS; WARDROBE_IMPORTED,SACKBOY_Hoodie_Main_Mesh,1,257116,489064,,0
+Utility Box (Photoscanned),MESH,Environment / Props,True,False,False,False,2,OPTIMIZATION_PREVIEW_DECIMATE_TARGETS; Utility Box (Photoscanned),Utility Box,1,12028,23700,,0
+V2B_OverheadAmber_0,LIGHT,Lighting / Reflections,True,False,False,False,2,ENV_LIGHTING_APPROVED; V2B_LIGHTS_OVERHEAD,V2B_OverheadAmber_0_Data.001,1,0,0,,0
+V2B_OverheadAmber_1,LIGHT,Lighting / Reflections,True,False,False,False,2,ENV_LIGHTING_APPROVED; V2B_LIGHTS_OVERHEAD,V2B_OverheadAmber_1_Data.001,1,0,0,,0

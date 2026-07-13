@@ -22,7 +22,7 @@ function GitAddExistingOrDeleted {
 }
 
 Write-Host "[Publish] Cleaning stale package files..."
-$Keep=@("Apply-RestoreImportedHoodieBaseline.ps1","Validate-RestoreImportedHoodieBaseline.ps1","Publish-CurrentReview.ps1","README-RestoreImportedHoodieBaseline.txt","README_FIRST.txt","Run-BuildAll.ps1","Run-DiagnosticRenders.ps1")
+$Keep=@("Apply-TempSafeDuplicateVisibilityCleanup.ps1","Validate-TempSafeDuplicateVisibilityCleanup.ps1","Publish-CurrentReview.ps1","README-TempSafeDuplicateVisibilityCleanup.txt","README_FIRST.txt","Run-BuildAll.ps1","Run-DiagnosticRenders.ps1")
 $Patterns=@("Apply-*.ps1","Validate-*.ps1","README-*.txt")
 foreach($Pattern in $Patterns){
     Get-ChildItem -Path $Root -Filter $Pattern -File -ErrorAction SilentlyContinue |
@@ -37,14 +37,10 @@ GitAddExistingOrDeleted @(
     "blender\scripts",
     "scene_manifest.json",
     "reports",
-    "renders\current_review",
-    "Apply-RestoreImportedHoodieBaseline.ps1",
-    "Validate-RestoreImportedHoodieBaseline.ps1",
+    "Apply-TempSafeDuplicateVisibilityCleanup.ps1",
+    "Validate-TempSafeDuplicateVisibilityCleanup.ps1",
     "Publish-CurrentReview.ps1",
-    "README-RestoreImportedHoodieBaseline.txt",
-    "Apply-HoodieSurfaceDataRepair_v1F.ps1",
-    "Validate-HoodieSurfaceDataRepair_v1F.ps1",
-    "README-HoodieSurfaceDataRepair_v1F.txt"
+    "README-TempSafeDuplicateVisibilityCleanup.txt"
 )
 
 git -C $Root status --short
@@ -52,7 +48,7 @@ $Status = git -C $Root status --porcelain
 if([string]::IsNullOrWhiteSpace($Status)){
     Write-Host "[Publish] Nothing to commit."
 } else {
-    git -C $Root commit -m "Restore imported hoodie baseline"
+    git -C $Root commit -m "Archive hidden helpers and report duplicate visibility"
     if($LASTEXITCODE -ne 0){throw "git commit failed"}
 }
 git -C $Root lfs push origin main

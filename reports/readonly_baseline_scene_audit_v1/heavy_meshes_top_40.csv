@@ -1,0 +1,41 @@
+name,type,category_guess,visible_viewport,hide_viewport_flag,hide_render_flag,hide_select_flag,collection_count,collections,data_name,data_users,vertices,faces,parent,children_count
+SACKBOY_Hoodie_Main,MESH,Clothing,False,False,True,False,3,HERO_IMPORTED_CLOTHING_CANDIDATES; OPTIMIZATION_PREVIEW_DECIMATE_TARGETS; WARDROBE_IMPORTED,SACKBOY_Hoodie_Main_Mesh,1,257116,489064,,0
+SACKBOY_Hoodie_Main_duplicate,MESH,Clothing,False,False,True,False,1,Collection,SACKBOY_Hoodie_Main_Mesh.001,1,257116,489064,,0
+SACKBOY_Hoodie_Main_lowmesh,MESH,Clothing,False,False,True,False,1,Collection,SACKBOY_Hoodie_Main_Mesh.002,1,257116,489064,,0
+SACKBOY_Hoodie_EditProxy,MESH,Clothing,True,False,False,False,3,HERO_IMPORTED_CLOTHING_CANDIDATES; OPTIMIZATION_PREVIEW_DECIMATE_TARGETS; WARDROBE_IMPORTED,SACKBOY_Hoodie_Main_Mesh.003,1,245107,489016,,0
+Plane.074,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.078,1,62832,67320,Audi e-tron GT quattro Black,0
+MESHY_LEFT_SOURCE_00,MESH,Unsorted / Needs Review,False,True,True,False,1,BASE_Meshy_LeftCandidate_Source,Meshy_Left_Standing_Candidate,1,33504,66959,,0
+MESHY_LEFT_REFINED_00,MESH,Unsorted / Needs Review,False,True,True,False,1,CHAR_Meshy_LeftCandidate_Refined,Meshy_Left_Standing_Candidate.003,1,33486,66924,,0
+sackboy_scene_manual_v1.blend,MESH,Character / Duplicates,False,True,True,False,1,CHAR_Meshy_LeftCandidate_Refined,Meshy_Left_Standing_Candidate.007,1,33484,66916,,0
+F2,MESH,Character / Duplicates,True,False,False,False,2,CHAR_F2; CHAR_Meshy_LeftCandidate_Refined,Meshy_Left_Standing_Candidate.006,2,33625,63717,,0
+F2.001,MESH,Character / Duplicates,False,True,True,False,2,CHAR_F2; CHAR_Meshy_LeftCandidate_Refined,Meshy_Left_Standing_Candidate.006,2,33625,63717,,0
+HANDREFINE_J2B_Working,MESH,Character / Duplicates,False,True,True,False,1,CHAR_HandRefine_J2B,Meshy_Left_Standing_Candidate.012,1,30549,60930,,0
+Circle.009,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Circle.016,1,23528,24192,Audi e-tron GT quattro Black,0
+Utility Box (Photoscanned),MESH,Environment / Props,True,False,False,False,2,OPTIMIZATION_PREVIEW_DECIMATE_TARGETS; Utility Box (Photoscanned),Utility Box,1,12028,23700,,0
+Lid.001,MESH,Unsorted / Needs Review,True,False,False,False,2,Large Trash Can; OPTIMIZATION_PREVIEW_DECIMATE_TARGETS,Mesh.017,1,21254,23160,Large Trash Can,0
+Circle.003,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Circle.007,1,24792,20464,Audi e-tron GT quattro Black,0
+Cargo pants,MESH,Clothing,True,False,False,False,2,OPTIMIZATION_PREVIEW_DECIMATE_TARGETS; WARDROBE_IMPORTED,Cargo pants,1,16507,16424,,0
+Asphalt ground,MESH,Environment / Props,True,False,False,False,2,Asphalt ground; ENV_PARKING,remeshed_object,1,16441,16154,,0
+Plane.077,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.079,1,14992,14168,Audi e-tron GT quattro Black,0
+Traffic Cone (Photoscanned),MESH,Lighting / Reflections,True,False,False,False,1,Traffic Cone (Photoscanned),Traffic Cone (Photoscanned),1,6658,12802,,0
+Can.001,MESH,Unsorted / Needs Review,True,False,False,False,1,Large Trash Can,Mesh.014,1,11142,12327,Large Trash Can,0
+Ribbing.001,MESH,Unsorted / Needs Review,True,False,False,False,1,Large Trash Can,Mesh.021,1,11332,11940,Large Trash Can,0
+Plane.001,MESH,Unsorted / Needs Review,True,False,False,False,2,OPTIMIZATION_PREVIEW_DECIMATE_TARGETS; Shoes,Plane.001,1,10292,10800,Shoes,0
+Plane.022,MESH,Unsorted / Needs Review,True,False,False,False,2,OPTIMIZATION_PREVIEW_DECIMATE_TARGETS; Shoes,Plane.017,1,10292,10800,Shoes,0
+Bolt.002,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Bolt.002,1,5440,5688,Audi e-tron GT quattro Black,0
+Circle.011,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Circle.018,1,5632,5120,Audi e-tron GT quattro Black,0
+Handlebars.001,MESH,Character / Duplicates,True,False,False,False,1,Large Trash Can,Mesh.015,1,4352,4791,Large Trash Can,0
+Circle.002,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Circle.006,1,4324,4282,Audi e-tron GT quattro Black,0
+Wheel.001,MESH,Unsorted / Needs Review,True,False,False,False,1,Large Trash Can,Mesh.025,1,3143,3346,Large Trash Can,0
+Lid Pins.001,MESH,Unsorted / Needs Review,True,False,False,False,1,Large Trash Can,Mesh.019,1,2780,2970,Large Trash Can,0
+Plane.049,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.031,1,3136,2847,Audi e-tron GT quattro Black,0
+Mball.011,MESH,Unsorted / Needs Review,True,False,False,False,1,No Parking Sign Board,Mesh,1,1930,2419,Plane.023,0
+Plane.003,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.003,1,2285,2198,Audi e-tron GT quattro Black,0
+SK_Head,MESH,Character / Duplicates,False,True,True,False,1,CHAR_SackDoll,Sphere,1,1986,2048,,0
+SK_Mouth_Open,MESH,Character / Duplicates,False,True,True,False,1,CHAR_SackDoll,Sphere.004,1,1986,2048,,0
+SK_Torso,MESH,Unsorted / Needs Review,False,True,True,False,1,CHAR_SackDoll,Sphere.001,1,1986,2048,,0
+Plane.070,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.073,1,2016,1920,Audi e-tron GT quattro Black,0
+Mball.008,MESH,Unsorted / Needs Review,True,False,False,False,1,No Parking Sign Board,Mesh.001,1,1510,1893,177d920ddde57c74f8e1ef18863ab511,0
+Plane.034,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.056,1,1874,1752,Audi e-tron GT quattro Black,0
+Plane.076,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.077,1,1409,1319,Audi e-tron GT quattro Black,0
+Plane.006,MESH,Unsorted / Needs Review,True,False,False,False,1,Audi e-tron GT quattro Black,Plane.006,1,1438,1310,Audi e-tron GT quattro Black,0

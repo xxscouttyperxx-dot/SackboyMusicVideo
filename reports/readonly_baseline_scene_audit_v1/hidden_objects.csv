@@ -1,0 +1,49 @@
+name,type,category_guess,visible_viewport,hide_viewport_flag,hide_render_flag,hide_select_flag,collection_count,collections,data_name,data_users,vertices,faces,parent,children_count
+CAM_ANIM_Close,CAMERA,Cameras,False,True,True,False,1,Scene Collection,CAM_ANIM_Close_Data,1,0,0,,0
+CAM_ANIM_Medium,CAMERA,Cameras,False,True,True,False,1,Scene Collection,CAM_ANIM_Medium_Data,1,0,0,,0
+CAM_ANIM_Wide,CAMERA,Cameras,False,True,True,False,1,Scene Collection,CAM_ANIM_Wide_Data,1,0,0,,0
+CAM_Hood_Front,CAMERA,Cameras,False,False,False,False,1,Scene Collection,CAM_Hood_Front_Data,1,0,0,,0
+CAM_Hood_LeftSide,CAMERA,Cameras,False,False,False,False,1,Scene Collection,CAM_Hood_LeftSide_Data,1,0,0,,0
+CAM_Hood_RightSide,CAMERA,Cameras,False,False,False,False,1,Scene Collection,CAM_Hood_RightSide_Data,1,0,0,,0
+CAM_Hood_Top,CAMERA,Cameras,False,False,False,False,1,Scene Collection,CAM_Hood_Top_Data,1,0,0,,0
+CAM_Target,EMPTY,Cameras,False,False,False,False,1,CAM_Rigs,,0,0,0,,0
+ENV_Asphalt,MESH,Environment / Props,False,True,True,False,1,ENV_ParkingLot,Cube.001,1,8,6,,0
+F2.001,MESH,Character / Duplicates,False,True,True,False,2,CHAR_F2; CHAR_Meshy_LeftCandidate_Refined,Meshy_Left_Standing_Candidate.006,2,33625,63717,,0
+FX_TrafficLight_Green,LIGHT,Lighting / Reflections,False,False,False,False,2,FX_REFLECTION_TRAFFIC; WINDOW_REFLECTION_SPOTLIGHTS_FAR_END,FX_TrafficLight_Green_Data,1,0,0,,0
+FX_TrafficLight_Red,LIGHT,Lighting / Reflections,False,False,False,False,2,FX_REFLECTION_TRAFFIC; WINDOW_REFLECTION_SPOTLIGHTS_FAR_END,FX_TrafficLight_Red_Data,1,0,0,,0
+FX_TrafficLight_Yellow,LIGHT,Lighting / Reflections,False,False,False,False,2,FX_REFLECTION_TRAFFIC; WINDOW_REFLECTION_SPOTLIGHTS_FAR_END,FX_TrafficLight_Yellow_Data,1,0,0,,0
+HANDREFINE_J2B_Working,MESH,Character / Duplicates,False,True,True,False,1,CHAR_HandRefine_J2B,Meshy_Left_Standing_Candidate.012,1,30549,60930,,0
+HERO_BlackSkateShoe_L_FlameAccent_0,MESH,Clothing,False,True,True,False,1,Scene Collection,Cube.031,1,8,6,,0
+HERO_BlackSkateShoe_L_FlameAccent_1,MESH,Clothing,False,True,True,False,1,Scene Collection,Cube.032,1,8,6,,0
+HERO_BlackSkateShoe_L_FlameAccent_2,MESH,Clothing,False,True,True,False,1,Scene Collection,Cube.033,1,8,6,,0
+HERO_BlackSkateShoe_L_WhiteSole,MESH,Clothing,False,False,False,False,1,Scene Collection,Cube,1,8,6,,0
+HERO_BlackSkateShoe_R_FlameAccent_0,MESH,Clothing,False,True,True,False,1,Scene Collection,Cube.035,1,8,6,,0
+HERO_BlackSkateShoe_R_FlameAccent_1,MESH,Clothing,False,True,True,False,1,Scene Collection,Cube.036,1,8,6,,0
+HERO_BlackSkateShoe_R_FlameAccent_2,MESH,Clothing,False,True,True,False,1,Scene Collection,Cube.037,1,8,6,,0
+HERO_BlackSkateShoe_R_WhiteSole,MESH,Clothing,False,False,False,False,1,Scene Collection,Cube.034,1,8,6,,0
+MESHY_LEFT_REFINED_00,MESH,Unsorted / Needs Review,False,True,True,False,1,CHAR_Meshy_LeftCandidate_Refined,Meshy_Left_Standing_Candidate.003,1,33486,66924,,0
+MESHY_LEFT_SOURCE_00,MESH,Unsorted / Needs Review,False,True,True,False,1,BASE_Meshy_LeftCandidate_Source,Meshy_Left_Standing_Candidate,1,33504,66959,,0
+MOUTH_CUT_GUIDE_Data,CURVE,Character / Duplicates,False,False,False,False,1,CHAR_Meshy_LeftCandidate_Refined,MOUTH_CUT_GUIDE_Data,1,0,0,,0
+SACKBOY_Hoodie_Main,MESH,Clothing,False,False,True,False,3,HERO_IMPORTED_CLOTHING_CANDIDATES; OPTIMIZATION_PREVIEW_DECIMATE_TARGETS; WARDROBE_IMPORTED,SACKBOY_Hoodie_Main_Mesh,1,257116,489064,,0
+SACKBOY_Hoodie_Main_duplicate,MESH,Clothing,False,False,True,False,1,Collection,SACKBOY_Hoodie_Main_Mesh.001,1,257116,489064,,0
+SACKBOY_Hoodie_Main_lowmesh,MESH,Clothing,False,False,True,False,1,Collection,SACKBOY_Hoodie_Main_Mesh.002,1,257116,489064,,0
+sackboy_scene_manual_v1.blend,MESH,Character / Duplicates,False,True,True,False,1,CHAR_Meshy_LeftCandidate_Refined,Meshy_Left_Standing_Candidate.007,1,33484,66916,,0
+SK_Eye_L,MESH,Character / Duplicates,False,True,True,False,1,CHAR_SackDoll,Sphere.002,1,1106,1152,,0
+SK_Eye_R,MESH,Character / Duplicates,False,True,True,False,1,CHAR_SackDoll,Sphere.003,1,1106,1152,,0
+SK_Foot_L,MESH,Character / Duplicates,False,True,True,False,1,CHAR_SackDoll,Sphere.017,1,1106,1152,,0
+SK_Foot_R,MESH,Character / Duplicates,False,True,True,False,1,CHAR_SackDoll,Sphere.018,1,1106,1152,,0
+SK_Forearm_L,MESH,Character / Duplicates,False,True,True,False,1,CHAR_SackDoll,Sphere.007,1,1106,1152,,0
+SK_Forearm_R,MESH,Character / Duplicates,False,True,True,False,1,CHAR_SackDoll,Sphere.008,1,1106,1152,,0
+SK_Hand_L,MESH,Character / Duplicates,False,True,True,False,1,CHAR_SackDoll,Sphere.009,1,1106,1152,,0
+SK_Hand_L_Thumb,MESH,Character / Duplicates,False,True,True,False,1,CHAR_SackDoll,Sphere.010,1,482,512,,0
+SK_Hand_R,MESH,Character / Duplicates,False,True,True,False,1,CHAR_SackDoll,Sphere.011,1,1106,1152,,0
+SK_Hand_R_Thumb,MESH,Character / Duplicates,False,True,True,False,1,CHAR_SackDoll,Sphere.012,1,482,512,,0
+SK_Head,MESH,Character / Duplicates,False,True,True,False,1,CHAR_SackDoll,Sphere,1,1986,2048,,0
+SK_Mouth_Open,MESH,Character / Duplicates,False,True,True,False,1,CHAR_SackDoll,Sphere.004,1,1986,2048,,0
+SK_Shin_L,MESH,Unsorted / Needs Review,False,True,True,False,1,CHAR_SackDoll,Sphere.015,1,1106,1152,,0
+SK_Shin_R,MESH,Unsorted / Needs Review,False,True,True,False,1,CHAR_SackDoll,Sphere.016,1,1106,1152,,0
+SK_Thigh_L,MESH,Unsorted / Needs Review,False,True,True,False,1,CHAR_SackDoll,Sphere.013,1,1106,1152,,0
+SK_Thigh_R,MESH,Unsorted / Needs Review,False,True,True,False,1,CHAR_SackDoll,Sphere.014,1,1106,1152,,0
+SK_Torso,MESH,Unsorted / Needs Review,False,True,True,False,1,CHAR_SackDoll,Sphere.001,1,1986,2048,,0
+SK_UpperArm_L,MESH,Character / Duplicates,False,True,True,False,1,CHAR_SackDoll,Sphere.005,1,1106,1152,,0
+SK_UpperArm_R,MESH,Character / Duplicates,False,True,True,False,1,CHAR_SackDoll,Sphere.006,1,1106,1152,,0

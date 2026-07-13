@@ -1,0 +1,2459 @@
+{
+  "pass": "temp_safe_duplicate_visibility_cleanup_v1",
+  "safety": "No objects deleted. No visible objects hidden. Only selected hidden helper objects made render-disabled/select-locked and linked into an archive collection.",
+  "explanation": {
+    "outliner_highlight_cause": "Your audit shows the main issue is multi-collection linking: 40 objects appear in multiple collections. That makes one selected object highlight in more than one Outliner location. It is not necessarily an actual duplicate object.",
+    "shared_data_cause": "There is also one shared mesh-data group: F2 and F2.001 share the same mesh datablock. F2 is visible; F2.001 is hidden/render-disabled. This package does not delete or unlink either one.",
+    "generic_names_warning": "The big Plane/Circle/Bolt duplicate-name groups are mostly imported asset parts, especially the Audi and sign. They are visible unique data pieces, not safe duplicates to remove automatically.",
+    "what_this_changed": "This package only archived three hidden helper objects that were hidden in the viewport but still renderable/selectable. It did not touch visible objects."
+  },
+  "actions": [
+    {
+      "name": "HERO_BlackSkateShoe_L_WhiteSole",
+      "action": "archived hidden helper / set hide_viewport=true hide_render=true hide_select=true",
+      "before": {
+        "name": "HERO_BlackSkateShoe_L_WhiteSole",
+        "base_name": "HERO_BlackSkateShoe_L_WhiteSole",
+        "type": "MESH",
+        "visible_viewport": false,
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_select": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "collection_count": 1,
+        "data_name": "Cube",
+        "data_users": 1,
+        "vertices": 8,
+        "faces": 6,
+        "bounds_world": {
+          "min": [
+            -1.078396,
+            -0.516946,
+            -0.029651
+          ],
+          "max": [
+            -0.076383,
+            0.338753,
+            0.069328
+          ],
+          "dimensions": [
+            1.002014,
+            0.855699,
+            0.098979
+          ]
+        }
+      },
+      "after": {
+        "name": "HERO_BlackSkateShoe_L_WhiteSole",
+        "base_name": "HERO_BlackSkateShoe_L_WhiteSole",
+        "type": "MESH",
+        "visible_viewport": false,
+        "hide_viewport": true,
+        "hide_render": true,
+        "hide_select": true,
+        "collections": [
+          "ARCHIVE_HIDDEN_HELPERS_DO_NOT_DELETE",
+          "Scene Collection"
+        ],
+        "collection_count": 2,
+        "data_name": "Cube",
+        "data_users": 1,
+        "vertices": 8,
+        "faces": 6,
+        "bounds_world": {
+          "min": [
+            -1.078396,
+            -0.516946,
+            -0.029651
+          ],
+          "max": [
+            -0.076383,
+            0.338753,
+            0.069328
+          ],
+          "dimensions": [
+            1.002014,
+            0.855699,
+            0.098979
+          ]
+        }
+      }
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_WhiteSole",
+      "action": "archived hidden helper / set hide_viewport=true hide_render=true hide_select=true",
+      "before": {
+        "name": "HERO_BlackSkateShoe_R_WhiteSole",
+        "base_name": "HERO_BlackSkateShoe_R_WhiteSole",
+        "type": "MESH",
+        "visible_viewport": false,
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_select": false,
+        "collections": [
+          "Scene Collection"
+        ],
+        "collection_count": 1,
+        "data_name": "Cube.034",
+        "data_users": 1,
+        "vertices": 8,
+        "faces": 6,
+        "bounds_world": {
+          "min": [
+            -0.35472,
+            -0.516946,
+            -0.029651
+          ],
+          "max": [
+            0.647294,
+            0.338753,
+            0.069328
+          ],
+          "dimensions": [
+            1.002014,
+            0.855699,
+            0.098979
+          ]
+        }
+      },
+      "after": {
+        "name": "HERO_BlackSkateShoe_R_WhiteSole",
+        "base_name": "HERO_BlackSkateShoe_R_WhiteSole",
+        "type": "MESH",
+        "visible_viewport": false,
+        "hide_viewport": true,
+        "hide_render": true,
+        "hide_select": true,
+        "collections": [
+          "ARCHIVE_HIDDEN_HELPERS_DO_NOT_DELETE",
+          "Scene Collection"
+        ],
+        "collection_count": 2,
+        "data_name": "Cube.034",
+        "data_users": 1,
+        "vertices": 8,
+        "faces": 6,
+        "bounds_world": {
+          "min": [
+            -0.35472,
+            -0.516946,
+            -0.029651
+          ],
+          "max": [
+            0.647294,
+            0.338753,
+            0.069328
+          ],
+          "dimensions": [
+            1.002014,
+            0.855699,
+            0.098979
+          ]
+        }
+      }
+    },
+    {
+      "name": "MOUTH_CUT_GUIDE_Data",
+      "action": "archived hidden helper / set hide_viewport=true hide_render=true hide_select=true",
+      "before": {
+        "name": "MOUTH_CUT_GUIDE_Data",
+        "base_name": "MOUTH_CUT_GUIDE_Data",
+        "type": "CURVE",
+        "visible_viewport": false,
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_select": false,
+        "collections": [
+          "CHAR_Meshy_LeftCandidate_Refined"
+        ],
+        "collection_count": 1,
+        "data_name": "MOUTH_CUT_GUIDE_Data",
+        "data_users": 1,
+        "vertices": 0,
+        "faces": 0,
+        "bounds_world": {
+          "min": [
+            -0.705711,
+            -0.013578,
+            0.042528
+          ],
+          "max": [
+            -0.547544,
+            0.000726,
+            0.047772
+          ],
+          "dimensions": [
+            0.158167,
+            0.014303,
+            0.005243
+          ]
+        }
+      },
+      "after": {
+        "name": "MOUTH_CUT_GUIDE_Data",
+        "base_name": "MOUTH_CUT_GUIDE_Data",
+        "type": "CURVE",
+        "visible_viewport": false,
+        "hide_viewport": true,
+        "hide_render": true,
+        "hide_select": true,
+        "collections": [
+          "ARCHIVE_HIDDEN_HELPERS_DO_NOT_DELETE",
+          "CHAR_Meshy_LeftCandidate_Refined"
+        ],
+        "collection_count": 2,
+        "data_name": "MOUTH_CUT_GUIDE_Data",
+        "data_users": 1,
+        "vertices": 0,
+        "faces": 0,
+        "bounds_world": {
+          "min": [
+            -0.705711,
+            -0.013578,
+            0.042528
+          ],
+          "max": [
+            -0.547544,
+            0.000726,
+            0.047772
+          ],
+          "dimensions": [
+            0.158167,
+            0.014303,
+            0.005243
+          ]
+        }
+      }
+    }
+  ],
+  "skipped": [],
+  "before_summary": {
+    "total_objects": 252,
+    "visible_objects": 204,
+    "hidden_objects": 48,
+    "duplicate_base_name_group_count": 6,
+    "shared_data_group_count": 1,
+    "multi_collection_object_count": 40,
+    "hidden_but_renderable_count": 11
+  },
+  "after_summary": {
+    "total_objects": 252,
+    "visible_objects": 204,
+    "hidden_objects": 48,
+    "duplicate_base_name_group_count": 6,
+    "shared_data_group_count": 1,
+    "multi_collection_object_count": 43,
+    "hidden_but_renderable_count": 8
+  },
+  "duplicate_base_name_groups": {
+    "177d920ddde57c74f8e1ef18863ab511": [
+      "177d920ddde57c74f8e1ef18863ab511",
+      "177d920ddde57c74f8e1ef18863ab511.001"
+    ],
+    "Bolt": [
+      "Bolt",
+      "Bolt.001",
+      "Bolt.002"
+    ],
+    "Circle": [
+      "Circle",
+      "Circle.001",
+      "Circle.002",
+      "Circle.003",
+      "Circle.006",
+      "Circle.007",
+      "Circle.009",
+      "Circle.011"
+    ],
+    "F2": [
+      "F2",
+      "F2.001"
+    ],
+    "Mball": [
+      "Mball.008",
+      "Mball.011"
+    ],
+    "Plane": [
+      "Plane",
+      "Plane.001",
+      "Plane.002",
+      "Plane.003",
+      "Plane.004",
+      "Plane.005",
+      "Plane.006",
+      "Plane.007",
+      "Plane.008",
+      "Plane.009",
+      "Plane.010",
+      "Plane.011",
+      "Plane.012",
+      "Plane.013",
+      "Plane.014",
+      "Plane.015",
+      "Plane.016",
+      "Plane.017",
+      "Plane.018",
+      "Plane.019",
+      "Plane.020",
+      "Plane.021",
+      "Plane.022",
+      "Plane.023",
+      "Plane.024",
+      "Plane.025",
+      "Plane.026",
+      "Plane.027",
+      "Plane.028",
+      "Plane.029",
+      "Plane.030",
+      "Plane.031",
+      "Plane.032",
+      "Plane.033",
+      "Plane.034",
+      "Plane.035",
+      "Plane.036",
+      "Plane.037",
+      "Plane.038",
+      "Plane.039",
+      "Plane.040",
+      "Plane.041",
+      "Plane.042",
+      "Plane.043",
+      "Plane.045",
+      "Plane.047",
+      "Plane.048",
+      "Plane.049",
+      "Plane.050",
+      "Plane.051",
+      "Plane.052",
+      "Plane.053",
+      "Plane.054",
+      "Plane.055",
+      "Plane.056",
+      "Plane.057",
+      "Plane.058",
+      "Plane.059",
+      "Plane.060",
+      "Plane.061",
+      "Plane.062",
+      "Plane.063",
+      "Plane.064",
+      "Plane.065",
+      "Plane.066",
+      "Plane.067",
+      "Plane.068",
+      "Plane.069",
+      "Plane.070",
+      "Plane.071",
+      "Plane.072",
+      "Plane.074",
+      "Plane.076",
+      "Plane.077"
+    ]
+  },
+  "shared_data_groups": {
+    "MESH::Meshy_Left_Standing_Candidate.006": [
+      "F2",
+      "F2.001"
+    ]
+  },
+  "multi_collection_objects": [
+    {
+      "name": "Asphalt ground",
+      "base_name": "Asphalt ground",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "Asphalt ground",
+        "ENV_PARKING"
+      ],
+      "collection_count": 2,
+      "data_name": "remeshed_object",
+      "data_users": 1,
+      "vertices": 16441,
+      "faces": 16154,
+      "bounds_world": {
+        "min": [
+          -32.991898,
+          -27.842339,
+          -1.983292
+        ],
+        "max": [
+          37.774143,
+          42.473354,
+          1.861004
+        ],
+        "dimensions": [
+          70.766041,
+          70.315693,
+          3.844296
+        ]
+      }
+    },
+    {
+      "name": "Cargo pants",
+      "base_name": "Cargo pants",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS",
+        "WARDROBE_IMPORTED"
+      ],
+      "collection_count": 2,
+      "data_name": "Cargo pants",
+      "data_users": 1,
+      "vertices": 16507,
+      "faces": 16424,
+      "bounds_world": {
+        "min": [
+          -0.42348,
+          -0.232158,
+          0.221276
+        ],
+        "max": [
+          0.620876,
+          0.37724,
+          1.194326
+        ],
+        "dimensions": [
+          1.044356,
+          0.609398,
+          0.97305
+        ]
+      }
+    },
+    {
+      "name": "Cast iron sewer hatch",
+      "base_name": "Cast iron sewer hatch",
+      "type": "EMPTY",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "Cast iron sewer hatch",
+        "ENV_PARKING"
+      ],
+      "collection_count": 2,
+      "data_name": null,
+      "data_users": 0,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          2.427868,
+          -1.920543,
+          0.0
+        ],
+        "max": [
+          2.427868,
+          -1.920543,
+          0.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "F2",
+      "base_name": "F2",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "CHAR_F2",
+        "CHAR_Meshy_LeftCandidate_Refined"
+      ],
+      "collection_count": 2,
+      "data_name": "Meshy_Left_Standing_Candidate.006",
+      "data_users": 2,
+      "vertices": 33625,
+      "faces": 63717,
+      "bounds_world": {
+        "min": [
+          -0.967927,
+          -0.399883,
+          0.397306
+        ],
+        "max": [
+          1.195227,
+          0.347408,
+          2.561233
+        ],
+        "dimensions": [
+          2.163154,
+          0.747291,
+          2.163927
+        ]
+      }
+    },
+    {
+      "name": "F2.001",
+      "base_name": "F2",
+      "type": "MESH",
+      "visible_viewport": false,
+      "hide_viewport": true,
+      "hide_render": true,
+      "hide_select": false,
+      "collections": [
+        "CHAR_F2",
+        "CHAR_Meshy_LeftCandidate_Refined"
+      ],
+      "collection_count": 2,
+      "data_name": "Meshy_Left_Standing_Candidate.006",
+      "data_users": 2,
+      "vertices": 33625,
+      "faces": 63717,
+      "bounds_world": {
+        "min": [
+          -0.999551,
+          -0.002256,
+          -0.232987
+        ],
+        "max": [
+          0.0,
+          0.637435,
+          0.110274
+        ],
+        "dimensions": [
+          0.999551,
+          0.639691,
+          0.343261
+        ]
+      }
+    },
+    {
+      "name": "FX_TrafficLight_Green",
+      "base_name": "FX_TrafficLight_Green",
+      "type": "LIGHT",
+      "visible_viewport": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "FX_REFLECTION_TRAFFIC",
+        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
+      ],
+      "collection_count": 2,
+      "data_name": "FX_TrafficLight_Green_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          5.728178,
+          -4.716946,
+          2.426358
+        ],
+        "max": [
+          5.728178,
+          -4.716946,
+          2.426358
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "FX_TrafficLight_Red",
+      "base_name": "FX_TrafficLight_Red",
+      "type": "LIGHT",
+      "visible_viewport": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "FX_REFLECTION_TRAFFIC",
+        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
+      ],
+      "collection_count": 2,
+      "data_name": "FX_TrafficLight_Red_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          -5.728178,
+          -4.716946,
+          2.426358
+        ],
+        "max": [
+          -5.728178,
+          -4.716946,
+          2.426358
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "FX_TrafficLight_Yellow",
+      "base_name": "FX_TrafficLight_Yellow",
+      "type": "LIGHT",
+      "visible_viewport": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "FX_REFLECTION_TRAFFIC",
+        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
+      ],
+      "collection_count": 2,
+      "data_name": "FX_TrafficLight_Yellow_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          0.0,
+          -4.966946,
+          2.505584
+        ],
+        "max": [
+          0.0,
+          -4.966946,
+          2.505584
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HERO_CarAmberHoodRead",
+      "base_name": "HERO_CarAmberHoodRead",
+      "type": "LIGHT",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_LIGHTING_APPROVED",
+        "HERO_CAR_AMBER_READ"
+      ],
+      "collection_count": 2,
+      "data_name": "HERO_CarAmberHoodRead_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          5.265154,
+          1.978295,
+          5.190777
+        ],
+        "max": [
+          5.265154,
+          1.978295,
+          5.190777
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HERO_CarAmberRoofRead",
+      "base_name": "HERO_CarAmberRoofRead",
+      "type": "LIGHT",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_LIGHTING_APPROVED",
+        "HERO_CAR_AMBER_READ"
+      ],
+      "collection_count": 2,
+      "data_name": "HERO_CarAmberRoofRead_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          -5.186506,
+          1.995343,
+          5.201615
+        ],
+        "max": [
+          -5.186506,
+          1.995343,
+          5.201615
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HERO_CarWarmSideGlint",
+      "base_name": "HERO_CarWarmSideGlint",
+      "type": "LIGHT",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_LIGHTING_APPROVED",
+        "HERO_CAR_AMBER_READ"
+      ],
+      "collection_count": 2,
+      "data_name": "HERO_CarWarmSideGlint_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          0.007344,
+          22.906092,
+          7.155601
+        ],
+        "max": [
+          0.007344,
+          22.906092,
+          7.155601
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HERO_CyanUnderglow_Area",
+      "base_name": "HERO_CyanUnderglow_Area",
+      "type": "LIGHT",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_LIGHTING_APPROVED",
+        "HERO_CAR_UNDERGLOW"
+      ],
+      "collection_count": 2,
+      "data_name": "HERO_CyanUnderglow_Area_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          -1.522953,
+          5.177517,
+          0.075276
+        ],
+        "max": [
+          -1.522953,
+          5.177517,
+          0.075276
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HERO_HParking_CenterSpine",
+      "base_name": "HERO_HParking_CenterSpine",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "collection_count": 4,
+      "data_name": "Cube.222",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6,
+      "bounds_world": {
+        "min": [
+          -9.254709,
+          2.6125,
+          0.003
+        ],
+        "max": [
+          9.254709,
+          2.6875,
+          0.003
+        ],
+        "dimensions": [
+          18.509418,
+          0.075,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_0",
+      "base_name": "HERO_HParking_Row0_Divider_0",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "collection_count": 4,
+      "data_name": "Cube.206",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6,
+      "bounds_world": {
+        "min": [
+          -9.29221,
+          -0.583529,
+          0.003
+        ],
+        "max": [
+          -9.217209,
+          2.883528,
+          0.003
+        ],
+        "dimensions": [
+          0.075001,
+          3.467057,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_1",
+      "base_name": "HERO_HParking_Row0_Divider_1",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "collection_count": 4,
+      "data_name": "Cube.207",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6,
+      "bounds_world": {
+        "min": [
+          -6.648006,
+          -0.583529,
+          0.003
+        ],
+        "max": [
+          -6.573007,
+          2.883528,
+          0.003
+        ],
+        "dimensions": [
+          0.075,
+          3.467057,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_2",
+      "base_name": "HERO_HParking_Row0_Divider_2",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "collection_count": 4,
+      "data_name": "Cube.208",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6,
+      "bounds_world": {
+        "min": [
+          -4.003804,
+          -0.583529,
+          0.003
+        ],
+        "max": [
+          -3.928804,
+          2.883528,
+          0.003
+        ],
+        "dimensions": [
+          0.075,
+          3.467057,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_3",
+      "base_name": "HERO_HParking_Row0_Divider_3",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "collection_count": 4,
+      "data_name": "Cube.209",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6,
+      "bounds_world": {
+        "min": [
+          -1.359601,
+          -0.583529,
+          0.003
+        ],
+        "max": [
+          -1.284601,
+          2.883528,
+          0.003
+        ],
+        "dimensions": [
+          0.075,
+          3.467057,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_4",
+      "base_name": "HERO_HParking_Row0_Divider_4",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "collection_count": 4,
+      "data_name": "Cube.210",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6,
+      "bounds_world": {
+        "min": [
+          1.284601,
+          -0.583529,
+          0.003
+        ],
+        "max": [
+          1.359601,
+          2.883528,
+          0.003
+        ],
+        "dimensions": [
+          0.075,
+          3.467057,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_5",
+      "base_name": "HERO_HParking_Row0_Divider_5",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "collection_count": 4,
+      "data_name": "Cube.211",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6,
+      "bounds_world": {
+        "min": [
+          3.928804,
+          -0.583529,
+          0.003
+        ],
+        "max": [
+          4.003804,
+          2.883528,
+          0.003
+        ],
+        "dimensions": [
+          0.075,
+          3.467057,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_6",
+      "base_name": "HERO_HParking_Row0_Divider_6",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "collection_count": 4,
+      "data_name": "Cube.212",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6,
+      "bounds_world": {
+        "min": [
+          6.573007,
+          -0.583529,
+          0.003
+        ],
+        "max": [
+          6.648006,
+          2.883528,
+          0.003
+        ],
+        "dimensions": [
+          0.075,
+          3.467057,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HERO_HParking_Row0_Divider_7",
+      "base_name": "HERO_HParking_Row0_Divider_7",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "collection_count": 4,
+      "data_name": "Cube.213",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6,
+      "bounds_world": {
+        "min": [
+          9.217209,
+          -0.583529,
+          0.003
+        ],
+        "max": [
+          9.29221,
+          2.883528,
+          0.003
+        ],
+        "dimensions": [
+          0.075001,
+          3.467057,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_0",
+      "base_name": "HERO_HParking_Row1_Divider_0",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "collection_count": 4,
+      "data_name": "Cube.214",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6,
+      "bounds_world": {
+        "min": [
+          -9.29221,
+          2.416471,
+          0.003
+        ],
+        "max": [
+          -9.217209,
+          5.883529,
+          0.003
+        ],
+        "dimensions": [
+          0.075001,
+          3.467057,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_1",
+      "base_name": "HERO_HParking_Row1_Divider_1",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "collection_count": 4,
+      "data_name": "Cube.215",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6,
+      "bounds_world": {
+        "min": [
+          -6.648006,
+          2.416471,
+          0.003
+        ],
+        "max": [
+          -6.573007,
+          5.883529,
+          0.003
+        ],
+        "dimensions": [
+          0.075,
+          3.467057,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_2",
+      "base_name": "HERO_HParking_Row1_Divider_2",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "collection_count": 4,
+      "data_name": "Cube.216",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6,
+      "bounds_world": {
+        "min": [
+          -4.003804,
+          2.416471,
+          0.003
+        ],
+        "max": [
+          -3.928804,
+          5.883529,
+          0.003
+        ],
+        "dimensions": [
+          0.075,
+          3.467057,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_3",
+      "base_name": "HERO_HParking_Row1_Divider_3",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "collection_count": 4,
+      "data_name": "Cube.217",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6,
+      "bounds_world": {
+        "min": [
+          -1.359601,
+          2.416471,
+          0.003
+        ],
+        "max": [
+          -1.284601,
+          5.883529,
+          0.003
+        ],
+        "dimensions": [
+          0.075,
+          3.467057,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_4",
+      "base_name": "HERO_HParking_Row1_Divider_4",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "collection_count": 4,
+      "data_name": "Cube.218",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6,
+      "bounds_world": {
+        "min": [
+          1.284601,
+          2.416471,
+          0.003
+        ],
+        "max": [
+          1.359601,
+          5.883529,
+          0.003
+        ],
+        "dimensions": [
+          0.075,
+          3.467057,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_5",
+      "base_name": "HERO_HParking_Row1_Divider_5",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "collection_count": 4,
+      "data_name": "Cube.219",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6,
+      "bounds_world": {
+        "min": [
+          3.928804,
+          2.416471,
+          0.003
+        ],
+        "max": [
+          4.003804,
+          5.883529,
+          0.003
+        ],
+        "dimensions": [
+          0.075,
+          3.467057,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_6",
+      "base_name": "HERO_HParking_Row1_Divider_6",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "collection_count": 4,
+      "data_name": "Cube.220",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6,
+      "bounds_world": {
+        "min": [
+          6.573007,
+          2.416471,
+          0.003
+        ],
+        "max": [
+          6.648006,
+          5.883529,
+          0.003
+        ],
+        "dimensions": [
+          0.075,
+          3.467057,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HERO_HParking_Row1_Divider_7",
+      "base_name": "HERO_HParking_Row1_Divider_7",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_H_PARKING_LAYOUT",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "collection_count": 4,
+      "data_name": "Cube.221",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6,
+      "bounds_world": {
+        "min": [
+          9.217209,
+          2.416471,
+          0.003
+        ],
+        "max": [
+          9.29221,
+          5.883529,
+          0.003
+        ],
+        "dimensions": [
+          0.075001,
+          3.467057,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HERO_Underglow_FrontHiddenStrip",
+      "base_name": "HERO_Underglow_FrontHiddenStrip",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_CAR_UNDERGLOW",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "collection_count": 4,
+      "data_name": "Cube.054",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6,
+      "bounds_world": {
+        "min": [
+          -1.353772,
+          2.804102,
+          0.003
+        ],
+        "max": [
+          0.514569,
+          3.797645,
+          0.003
+        ],
+        "dimensions": [
+          1.868341,
+          0.993543,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HERO_Underglow_RearHiddenStrip",
+      "base_name": "HERO_Underglow_RearHiddenStrip",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_PARKING",
+        "HERO_CAR_UNDERGLOW",
+        "PARKING_PAINT_FLAT_ORIGINALS_ACTIVE",
+        "PARKING_PAINT_ORIGINALS_HIDDEN"
+      ],
+      "collection_count": 4,
+      "data_name": "Cube.055",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6,
+      "bounds_world": {
+        "min": [
+          -3.354495,
+          6.629894,
+          0.003
+        ],
+        "max": [
+          -1.553775,
+          7.533771,
+          0.003
+        ],
+        "dimensions": [
+          1.80072,
+          0.903876,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Lid.001",
+      "base_name": "Lid",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "Large Trash Can",
+        "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS"
+      ],
+      "collection_count": 2,
+      "data_name": "Mesh.017",
+      "data_users": 1,
+      "vertices": 21254,
+      "faces": 23160,
+      "bounds_world": {
+        "min": [
+          2.243699,
+          22.657509,
+          1.659932
+        ],
+        "max": [
+          3.297613,
+          23.91787,
+          1.798107
+        ],
+        "dimensions": [
+          1.053914,
+          1.260361,
+          0.138174
+        ]
+      }
+    },
+    {
+      "name": "No Parking Sign Board",
+      "base_name": "No Parking Sign Board",
+      "type": "EMPTY",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_PARKING",
+        "No Parking Sign Board"
+      ],
+      "collection_count": 2,
+      "data_name": null,
+      "data_users": 0,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          -10.828649,
+          19.20541,
+          0.060147
+        ],
+        "max": [
+          -10.828649,
+          19.20541,
+          0.060147
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "Plane.001",
+      "base_name": "Plane",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS",
+        "Shoes"
+      ],
+      "collection_count": 2,
+      "data_name": "Plane.001",
+      "data_users": 1,
+      "vertices": 10292,
+      "faces": 10800,
+      "bounds_world": {
+        "min": [
+          -0.466946,
+          -0.548141,
+          0.102221
+        ],
+        "max": [
+          0.111644,
+          0.329736,
+          0.446044
+        ],
+        "dimensions": [
+          0.57859,
+          0.877878,
+          0.343824
+        ]
+      }
+    },
+    {
+      "name": "Plane.022",
+      "base_name": "Plane",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS",
+        "Shoes"
+      ],
+      "collection_count": 2,
+      "data_name": "Plane.017",
+      "data_users": 1,
+      "vertices": 10292,
+      "faces": 10800,
+      "bounds_world": {
+        "min": [
+          0.090472,
+          -0.548141,
+          0.102221
+        ],
+        "max": [
+          0.669063,
+          0.329737,
+          0.446044
+        ],
+        "dimensions": [
+          0.57859,
+          0.877878,
+          0.343824
+        ]
+      }
+    },
+    {
+      "name": "SACKBOY_Hoodie_EditProxy",
+      "base_name": "SACKBOY_Hoodie_EditProxy",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "HERO_IMPORTED_CLOTHING_CANDIDATES",
+        "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS",
+        "WARDROBE_IMPORTED"
+      ],
+      "collection_count": 3,
+      "data_name": "SACKBOY_Hoodie_Main_Mesh.003",
+      "data_users": 1,
+      "vertices": 245107,
+      "faces": 489016,
+      "bounds_world": {
+        "min": [
+          -0.919491,
+          -0.493668,
+          0.864968
+        ],
+        "max": [
+          1.09873,
+          0.592892,
+          2.617762
+        ],
+        "dimensions": [
+          2.018221,
+          1.08656,
+          1.752793
+        ]
+      }
+    },
+    {
+      "name": "SACKBOY_Hoodie_Main",
+      "base_name": "SACKBOY_Hoodie_Main",
+      "type": "MESH",
+      "visible_viewport": false,
+      "hide_viewport": false,
+      "hide_render": true,
+      "hide_select": false,
+      "collections": [
+        "HERO_IMPORTED_CLOTHING_CANDIDATES",
+        "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS",
+        "WARDROBE_IMPORTED"
+      ],
+      "collection_count": 3,
+      "data_name": "SACKBOY_Hoodie_Main_Mesh",
+      "data_users": 1,
+      "vertices": 257116,
+      "faces": 489064,
+      "bounds_world": {
+        "min": [
+          -3.956374,
+          -0.497617,
+          0.997261
+        ],
+        "max": [
+          -1.678846,
+          0.613099,
+          2.893657
+        ],
+        "dimensions": [
+          2.277528,
+          1.110716,
+          1.896397
+        ]
+      }
+    },
+    {
+      "name": "Utility Box (Photoscanned)",
+      "base_name": "Utility Box (Photoscanned)",
+      "type": "MESH",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "OPTIMIZATION_PREVIEW_DECIMATE_TARGETS",
+        "Utility Box (Photoscanned)"
+      ],
+      "collection_count": 2,
+      "data_name": "Utility Box",
+      "data_users": 1,
+      "vertices": 12028,
+      "faces": 23700,
+      "bounds_world": {
+        "min": [
+          -12.801711,
+          23.477732,
+          0.064295
+        ],
+        "max": [
+          -11.592588,
+          24.012657,
+          1.679567
+        ],
+        "dimensions": [
+          1.209123,
+          0.534925,
+          1.615272
+        ]
+      }
+    },
+    {
+      "name": "V2B_OverheadAmber_0",
+      "base_name": "V2B_OverheadAmber_0",
+      "type": "LIGHT",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_LIGHTING_APPROVED",
+        "V2B_LIGHTS_OVERHEAD"
+      ],
+      "collection_count": 2,
+      "data_name": "V2B_OverheadAmber_0_Data.001",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          -5.222266,
+          2.649782,
+          5.278863
+        ],
+        "max": [
+          -5.222266,
+          2.649782,
+          5.278863
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "V2B_OverheadAmber_1",
+      "base_name": "V2B_OverheadAmber_1",
+      "type": "LIGHT",
+      "visible_viewport": true,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "ENV_LIGHTING_APPROVED",
+        "V2B_LIGHTS_OVERHEAD"
+      ],
+      "collection_count": 2,
+      "data_name": "V2B_OverheadAmber_1_Data.001",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          5.284363,
+          2.653402,
+          5.278863
+        ],
+        "max": [
+          5.284363,
+          2.653402,
+          5.278863
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "hidden_but_renderable_before": [
+    {
+      "name": "CAM_Hood_Front",
+      "base_name": "CAM_Hood_Front",
+      "type": "CAMERA",
+      "visible_viewport": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "Scene Collection"
+      ],
+      "collection_count": 1,
+      "data_name": "CAM_Hood_Front_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          -2.63761,
+          -3.923745,
+          3.089439
+        ],
+        "max": [
+          -2.63761,
+          -3.923745,
+          3.089439
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "CAM_Hood_LeftSide",
+      "base_name": "CAM_Hood_LeftSide",
+      "type": "CAMERA",
+      "visible_viewport": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "Scene Collection"
+      ],
+      "collection_count": 1,
+      "data_name": "CAM_Hood_LeftSide_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          -6.41761,
+          0.076255,
+          3.539439
+        ],
+        "max": [
+          -6.41761,
+          0.076255,
+          3.539439
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "CAM_Hood_RightSide",
+      "base_name": "CAM_Hood_RightSide",
+      "type": "CAMERA",
+      "visible_viewport": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "Scene Collection"
+      ],
+      "collection_count": 1,
+      "data_name": "CAM_Hood_RightSide_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          0.78239,
+          0.076255,
+          3.539439
+        ],
+        "max": [
+          0.78239,
+          0.076255,
+          3.539439
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "CAM_Hood_Top",
+      "base_name": "CAM_Hood_Top",
+      "type": "CAMERA",
+      "visible_viewport": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "Scene Collection"
+      ],
+      "collection_count": 1,
+      "data_name": "CAM_Hood_Top_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          -2.76761,
+          -0.143745,
+          6.139439
+        ],
+        "max": [
+          -2.76761,
+          -0.143745,
+          6.139439
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "CAM_Target",
+      "base_name": "CAM_Target",
+      "type": "EMPTY",
+      "visible_viewport": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "CAM_Rigs"
+      ],
+      "collection_count": 1,
+      "data_name": null,
+      "data_users": 0,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "FX_TrafficLight_Green",
+      "base_name": "FX_TrafficLight_Green",
+      "type": "LIGHT",
+      "visible_viewport": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "FX_REFLECTION_TRAFFIC",
+        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
+      ],
+      "collection_count": 2,
+      "data_name": "FX_TrafficLight_Green_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          5.728178,
+          -4.716946,
+          2.426358
+        ],
+        "max": [
+          5.728178,
+          -4.716946,
+          2.426358
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "FX_TrafficLight_Red",
+      "base_name": "FX_TrafficLight_Red",
+      "type": "LIGHT",
+      "visible_viewport": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "FX_REFLECTION_TRAFFIC",
+        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
+      ],
+      "collection_count": 2,
+      "data_name": "FX_TrafficLight_Red_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          -5.728178,
+          -4.716946,
+          2.426358
+        ],
+        "max": [
+          -5.728178,
+          -4.716946,
+          2.426358
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "FX_TrafficLight_Yellow",
+      "base_name": "FX_TrafficLight_Yellow",
+      "type": "LIGHT",
+      "visible_viewport": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "FX_REFLECTION_TRAFFIC",
+        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
+      ],
+      "collection_count": 2,
+      "data_name": "FX_TrafficLight_Yellow_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          0.0,
+          -4.966946,
+          2.505584
+        ],
+        "max": [
+          0.0,
+          -4.966946,
+          2.505584
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "HERO_BlackSkateShoe_L_WhiteSole",
+      "base_name": "HERO_BlackSkateShoe_L_WhiteSole",
+      "type": "MESH",
+      "visible_viewport": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "Scene Collection"
+      ],
+      "collection_count": 1,
+      "data_name": "Cube",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6,
+      "bounds_world": {
+        "min": [
+          -1.078396,
+          -0.516946,
+          -0.029651
+        ],
+        "max": [
+          -0.076383,
+          0.338753,
+          0.069328
+        ],
+        "dimensions": [
+          1.002014,
+          0.855699,
+          0.098979
+        ]
+      }
+    },
+    {
+      "name": "HERO_BlackSkateShoe_R_WhiteSole",
+      "base_name": "HERO_BlackSkateShoe_R_WhiteSole",
+      "type": "MESH",
+      "visible_viewport": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "Scene Collection"
+      ],
+      "collection_count": 1,
+      "data_name": "Cube.034",
+      "data_users": 1,
+      "vertices": 8,
+      "faces": 6,
+      "bounds_world": {
+        "min": [
+          -0.35472,
+          -0.516946,
+          -0.029651
+        ],
+        "max": [
+          0.647294,
+          0.338753,
+          0.069328
+        ],
+        "dimensions": [
+          1.002014,
+          0.855699,
+          0.098979
+        ]
+      }
+    },
+    {
+      "name": "MOUTH_CUT_GUIDE_Data",
+      "base_name": "MOUTH_CUT_GUIDE_Data",
+      "type": "CURVE",
+      "visible_viewport": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "CHAR_Meshy_LeftCandidate_Refined"
+      ],
+      "collection_count": 1,
+      "data_name": "MOUTH_CUT_GUIDE_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          -0.705711,
+          -0.013578,
+          0.042528
+        ],
+        "max": [
+          -0.547544,
+          0.000726,
+          0.047772
+        ],
+        "dimensions": [
+          0.158167,
+          0.014303,
+          0.005243
+        ]
+      }
+    }
+  ],
+  "hidden_but_renderable_after": [
+    {
+      "name": "CAM_Hood_Front",
+      "base_name": "CAM_Hood_Front",
+      "type": "CAMERA",
+      "visible_viewport": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "Scene Collection"
+      ],
+      "collection_count": 1,
+      "data_name": "CAM_Hood_Front_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          -2.63761,
+          -3.923745,
+          3.089439
+        ],
+        "max": [
+          -2.63761,
+          -3.923745,
+          3.089439
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "CAM_Hood_LeftSide",
+      "base_name": "CAM_Hood_LeftSide",
+      "type": "CAMERA",
+      "visible_viewport": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "Scene Collection"
+      ],
+      "collection_count": 1,
+      "data_name": "CAM_Hood_LeftSide_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          -6.41761,
+          0.076255,
+          3.539439
+        ],
+        "max": [
+          -6.41761,
+          0.076255,
+          3.539439
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "CAM_Hood_RightSide",
+      "base_name": "CAM_Hood_RightSide",
+      "type": "CAMERA",
+      "visible_viewport": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "Scene Collection"
+      ],
+      "collection_count": 1,
+      "data_name": "CAM_Hood_RightSide_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          0.78239,
+          0.076255,
+          3.539439
+        ],
+        "max": [
+          0.78239,
+          0.076255,
+          3.539439
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "CAM_Hood_Top",
+      "base_name": "CAM_Hood_Top",
+      "type": "CAMERA",
+      "visible_viewport": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "Scene Collection"
+      ],
+      "collection_count": 1,
+      "data_name": "CAM_Hood_Top_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          -2.76761,
+          -0.143745,
+          6.139439
+        ],
+        "max": [
+          -2.76761,
+          -0.143745,
+          6.139439
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "CAM_Target",
+      "base_name": "CAM_Target",
+      "type": "EMPTY",
+      "visible_viewport": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "CAM_Rigs"
+      ],
+      "collection_count": 1,
+      "data_name": null,
+      "data_users": 0,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "FX_TrafficLight_Green",
+      "base_name": "FX_TrafficLight_Green",
+      "type": "LIGHT",
+      "visible_viewport": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "FX_REFLECTION_TRAFFIC",
+        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
+      ],
+      "collection_count": 2,
+      "data_name": "FX_TrafficLight_Green_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          5.728178,
+          -4.716946,
+          2.426358
+        ],
+        "max": [
+          5.728178,
+          -4.716946,
+          2.426358
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "FX_TrafficLight_Red",
+      "base_name": "FX_TrafficLight_Red",
+      "type": "LIGHT",
+      "visible_viewport": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "FX_REFLECTION_TRAFFIC",
+        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
+      ],
+      "collection_count": 2,
+      "data_name": "FX_TrafficLight_Red_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          -5.728178,
+          -4.716946,
+          2.426358
+        ],
+        "max": [
+          -5.728178,
+          -4.716946,
+          2.426358
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "FX_TrafficLight_Yellow",
+      "base_name": "FX_TrafficLight_Yellow",
+      "type": "LIGHT",
+      "visible_viewport": false,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_select": false,
+      "collections": [
+        "FX_REFLECTION_TRAFFIC",
+        "WINDOW_REFLECTION_SPOTLIGHTS_FAR_END"
+      ],
+      "collection_count": 2,
+      "data_name": "FX_TrafficLight_Yellow_Data",
+      "data_users": 1,
+      "vertices": 0,
+      "faces": 0,
+      "bounds_world": {
+        "min": [
+          0.0,
+          -4.966946,
+          2.505584
+        ],
+        "max": [
+          0.0,
+          -4.966946,
+          2.505584
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ]
+}
