@@ -1,0 +1,12 @@
+COLLAR BRIDGE REPAIR V1O
+v1N_value_before=1.0
+v1N_value_after=0.0
+bridge_object=SACKBOY_CollarGapBridge_v1O
+bridge_vertices=384
+bridge_faces=576
+bridge_x_radius_outer=0.63081
+bridge_y_radius_outer=0.460613
+bridge_band_width=0.076009
+bridge_vertical_height=0.060547
+hoodie_boundary_edges_unchanged=371
+hoodie_boundary_loops_unchanged=10

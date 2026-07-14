@@ -1,0 +1,50 @@
+{
+  "timestamp_utc": "2026-07-14T15:51:52.931920+00:00",
+  "hoodie_target": "SACKBOY_Hoodie_EditProxy",
+  "body_target": "F2",
+  "saved_blend": true,
+  "created_backup_blend_files": 0,
+  "v1N_shape_key": {
+    "name": "SEAMSEAT_CollarParallelSnap_v1N",
+    "value_before": 1.0,
+    "value_after": 0.0,
+    "disabled_to_remove_side_shoulder_distortion": true
+  },
+  "hoodie_topology": {
+    "boundary_edges_before": 371,
+    "boundary_edges_after": 371,
+    "boundary_loops_before": 10,
+    "boundary_loops_after": 10
+  },
+  "bridge": {
+    "created": true,
+    "name": "SACKBOY_CollarGapBridge_v1O",
+    "vertex_count": 384,
+    "face_count": 576,
+    "center": [
+      0.089619,
+      0.049612,
+      1.810623
+    ],
+    "x_radius_outer": 0.63081,
+    "y_radius_outer": 0.460613,
+    "band_width": 0.076009,
+    "vertical_height": 0.060547,
+    "material": "SACKBOY_CollarBridge_Fabric_v1O"
+  },
+  "rendering": {
+    "cameras": {
+      "full": "TMP_V1O_COLLARBRIDGE_CAM_FULL_CHARACTER_CHECK",
+      "collar_side_left": "DIAG_L.Arm armpit view",
+      "collar_side_right": "DIAG_R.Arm armpit view",
+      "inside": "TMP_V1O_COLLARBRIDGE_CAM_INSIDE_COLLAR",
+      "front": "TMP_V1O_COLLARBRIDGE_CAM_FRONT_COLLAR",
+      "back": "TMP_V1O_COLLARBRIDGE_CAM_BACK_COLLAR"
+    },
+    "uses_armpit_named_cameras_as_collar_side_views": true,
+    "closeups_hide_sackboy": true,
+    "colored_tube_overlays": false,
+    "full_character_check_visible": true
+  },
+  "final_render_engine": "CYCLES"
+}
