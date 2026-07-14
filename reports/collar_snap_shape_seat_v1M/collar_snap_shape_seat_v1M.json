@@ -1,0 +1,63 @@
+{
+  "timestamp_utc": "2026-07-14T15:16:38.154918+00:00",
+  "hoodie_target": "SACKBOY_Hoodie_EditProxy",
+  "body_target": "F2",
+  "saved_blend": true,
+  "created_backup_blend_files": 0,
+  "shape_key": {
+    "name": "SEAMSEAT_CollarSnap_v1M",
+    "value": 1.0,
+    "reversible": true,
+    "stacks_on_existing_active_keys": true
+  },
+  "metrics": {
+    "boundary_edges_before": 371,
+    "boundary_edges_after": 371,
+    "boundary_loops_before": 10,
+    "boundary_loops_after": 10,
+    "polygon_islands_before": 14,
+    "polygon_islands_after": 14
+  },
+  "repair": {
+    "total_pairs": 42,
+    "total_smoothed_vertices": 37,
+    "max_local_vertex_movement": 0.047258,
+    "movement_scaled_by_safety_cap": false,
+    "zones": {
+      "hood_collar_back": {
+        "candidate_vertices": 357,
+        "threshold": 0.171549,
+        "pairs": 14,
+        "smoothed_vertices": 37,
+        "components_touched": 10
+      },
+      "hood_collar_front": {
+        "candidate_vertices": 357,
+        "threshold": 0.171549,
+        "pairs": 14,
+        "smoothed_vertices": 37,
+        "components_touched": 10
+      },
+      "hood_collar_wide": {
+        "candidate_vertices": 357,
+        "threshold": 0.191731,
+        "pairs": 14,
+        "smoothed_vertices": 37,
+        "components_touched": 10
+      }
+    }
+  },
+  "rendering": {
+    "cameras": {
+      "full": "TMP_V1M_COLLARSNAP_CAM_FULL_CHARACTER_CHECK",
+      "collar_front": "TMP_V1M_COLLARSNAP_CAM_COLLAR_FRONT",
+      "inside": "TMP_V1M_COLLARSNAP_CAM_INSIDE_COLLAR",
+      "collar_back": "TMP_V1M_COLLARSNAP_CAM_BACK_COLLAR",
+      "top": "TMP_V1M_COLLARSNAP_CAM_TOP_COLLAR"
+    },
+    "closeups_hide_sackboy": true,
+    "colored_tube_overlays": false,
+    "full_character_check_visible": true
+  },
+  "final_render_engine": "CYCLES"
+}

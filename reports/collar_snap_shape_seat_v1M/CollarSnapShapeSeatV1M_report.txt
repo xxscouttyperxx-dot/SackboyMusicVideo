@@ -1,0 +1,10 @@
+COLLAR SNAP SHAPE SEAT V1M
+shape_key=SEAMSEAT_CollarSnap_v1M
+boundary_edges_unchanged=371
+boundary_loops_unchanged=10
+total_pairs=42
+total_smoothed_vertices=37
+max_local_vertex_movement=0.047258
+zone=hood_collar_back; pairs=14; smoothed_vertices=37; threshold=0.171549; components_touched=10
+zone=hood_collar_front; pairs=14; smoothed_vertices=37; threshold=0.171549; components_touched=10
+zone=hood_collar_wide; pairs=14; smoothed_vertices=37; threshold=0.191731; components_touched=10

@@ -1,0 +1,4 @@
+zone,candidate_vertices,threshold,pairs,smoothed_vertices,components_touched
+hood_collar_back,357,0.171549,14,37,10
+hood_collar_front,357,0.171549,14,37,10
+hood_collar_wide,357,0.191731,14,37,10
