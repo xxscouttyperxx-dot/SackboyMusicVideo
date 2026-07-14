@@ -1,0 +1,122 @@
+{
+  "timestamp_utc": "2026-07-14T03:52:19.075816+00:00",
+  "hoodie_target": "SACKBOY_Hoodie_EditProxy",
+  "body_target": "F2",
+  "saved_blend": true,
+  "reverted_due_to_safety_gate": false,
+  "created_backup_blend_files": 0,
+  "before": {
+    "boundary_edges": 372,
+    "boundary_loop_count": 12,
+    "boundary_loop_sizes": [
+      298,
+      34,
+      6,
+      5,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "polygon_island_count": 14,
+    "top_polygon_islands": [
+      361698,
+      81160,
+      27402,
+      6134,
+      6102,
+      2180,
+      2180,
+      720,
+      720,
+      139
+    ]
+  },
+  "after": {
+    "boundary_edges": 371,
+    "boundary_loop_count": 10,
+    "boundary_loop_sizes": [
+      298,
+      37,
+      6,
+      4,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "polygon_island_count": 14,
+    "top_polygon_islands": [
+      361698,
+      81160,
+      27402,
+      6134,
+      6102,
+      2180,
+      2180,
+      720,
+      720,
+      139
+    ]
+  },
+  "repair": {
+    "total_pairs_accepted": 3,
+    "total_smoothed_vertices": 56,
+    "max_local_vertex_movement": 0.002352,
+    "zones": {
+      "hood_collar_back": {
+        "candidate_vertices": 256,
+        "threshold": 0.040364,
+        "pairs_accepted": 2,
+        "smoothed_vertices": 44,
+        "components_touched": 4
+      },
+      "hood_collar_front": {
+        "candidate_vertices": 255,
+        "threshold": 0.040364,
+        "pairs_accepted": 1,
+        "smoothed_vertices": 12,
+        "components_touched": 7
+      },
+      "left_armpit": {
+        "candidate_vertices": 215,
+        "threshold": 0.028255,
+        "pairs_accepted": 0,
+        "smoothed_vertices": 0,
+        "components_touched": 4
+      },
+      "right_armpit": {
+        "candidate_vertices": 226,
+        "threshold": 0.028255,
+        "pairs_accepted": 0,
+        "smoothed_vertices": 0,
+        "components_touched": 5
+      },
+      "hood_top": {
+        "candidate_vertices": 157,
+        "threshold": 0.020182,
+        "pairs_accepted": 0,
+        "smoothed_vertices": 0,
+        "components_touched": 5
+      }
+    }
+  },
+  "rendering": {
+    "cameras": {
+      "full": "TMP_V1K_HOODSEAT_CAM_FULL_CHARACTER_CHECK",
+      "left": "DIAG_L.Arm armpit view",
+      "right": "DIAG_R.Arm armpit view",
+      "collar": "TMP_V1K_HOODSEAT_CAM_COLLAR",
+      "inside": "TMP_V1K_HOODSEAT_CAM_INSIDE",
+      "top": "TMP_V1K_HOODSEAT_CAM_TOP"
+    },
+    "closeups_hide_sackboy": true,
+    "full_character_check_visible": true,
+    "colored_tube_overlays": false
+  },
+  "final_render_engine": "CYCLES"
+}

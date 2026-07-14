@@ -1,0 +1,13 @@
+HOOD SWEATER INTERSECTION SEAT V1K
+before_boundary_edges=372
+after_boundary_edges=371
+before_boundary_loop_count=12
+after_boundary_loop_count=10
+total_pairs_accepted=3
+total_smoothed_vertices=56
+max_local_vertex_movement=0.002352
+zone=hood_collar_back; pairs_accepted=2; smoothed_vertices=44; threshold=0.040364
+zone=hood_collar_front; pairs_accepted=1; smoothed_vertices=12; threshold=0.040364
+zone=left_armpit; pairs_accepted=0; smoothed_vertices=0; threshold=0.028255
+zone=right_armpit; pairs_accepted=0; smoothed_vertices=0; threshold=0.028255
+zone=hood_top; pairs_accepted=0; smoothed_vertices=0; threshold=0.020182
