@@ -1,0 +1,76 @@
+{
+  "timestamp_utc": "2026-07-14T14:57:19.347688+00:00",
+  "hoodie_target": "SACKBOY_Hoodie_EditProxy",
+  "body_target": "F2",
+  "saved_blend": true,
+  "created_backup_blend_files": 0,
+  "shape_key": {
+    "name": "SEAMSEAT_ArmpitCollar_v1L",
+    "value": 1.0,
+    "reversible": true
+  },
+  "metrics": {
+    "boundary_edges_before": 371,
+    "boundary_edges_after": 371,
+    "boundary_loops_before": 10,
+    "boundary_loops_after": 10,
+    "polygon_islands_before": 14,
+    "polygon_islands_after": 14
+  },
+  "repair": {
+    "total_pairs": 3,
+    "total_smoothed_vertices": 4,
+    "max_local_vertex_movement": 0.014953,
+    "zones": {
+      "hood_collar_back": {
+        "candidate_vertices": 255,
+        "threshold": 0.052474,
+        "pairs": 0,
+        "smoothed_vertices": 0,
+        "components_touched": 3
+      },
+      "hood_collar_front": {
+        "candidate_vertices": 254,
+        "threshold": 0.052474,
+        "pairs": 1,
+        "smoothed_vertices": 4,
+        "components_touched": 6
+      },
+      "left_armpit": {
+        "candidate_vertices": 223,
+        "threshold": 0.036328,
+        "pairs": 1,
+        "smoothed_vertices": 4,
+        "components_touched": 4
+      },
+      "right_armpit": {
+        "candidate_vertices": 236,
+        "threshold": 0.036328,
+        "pairs": 0,
+        "smoothed_vertices": 0,
+        "components_touched": 5
+      },
+      "hood_top": {
+        "candidate_vertices": 147,
+        "threshold": 0.020182,
+        "pairs": 1,
+        "smoothed_vertices": 4,
+        "components_touched": 5
+      }
+    }
+  },
+  "rendering": {
+    "cameras": {
+      "full": "TMP_V1L_SHAPESEAT_CAM_FULL_CHARACTER_CHECK",
+      "left": "DIAG_L.Arm armpit view",
+      "right": "DIAG_R.Arm armpit view",
+      "collar": "TMP_V1L_SHAPESEAT_CAM_COLLAR",
+      "inside": "TMP_V1L_SHAPESEAT_CAM_INSIDE",
+      "top": "TMP_V1L_SHAPESEAT_CAM_TOP"
+    },
+    "closeups_hide_sackboy": true,
+    "colored_tube_overlays": false,
+    "full_character_check_visible": true
+  },
+  "final_render_engine": "CYCLES"
+}

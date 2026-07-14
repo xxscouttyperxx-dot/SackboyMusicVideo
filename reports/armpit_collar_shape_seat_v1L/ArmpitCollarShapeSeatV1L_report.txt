@@ -1,0 +1,12 @@
+ARMPIT COLLAR SHAPE SEAT V1L
+shape_key=SEAMSEAT_ArmpitCollar_v1L
+boundary_edges_unchanged=371
+boundary_loops_unchanged=10
+total_pairs=3
+total_smoothed_vertices=4
+max_local_vertex_movement=0.014953
+zone=hood_collar_back; pairs=0; smoothed_vertices=0; threshold=0.052474
+zone=hood_collar_front; pairs=1; smoothed_vertices=4; threshold=0.052474
+zone=left_armpit; pairs=1; smoothed_vertices=4; threshold=0.036328
+zone=right_armpit; pairs=0; smoothed_vertices=0; threshold=0.036328
+zone=hood_top; pairs=1; smoothed_vertices=4; threshold=0.020182
