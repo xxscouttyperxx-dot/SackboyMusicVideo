@@ -1,0 +1,86 @@
+{
+  "timestamp_utc": "2026-07-14T02:50:18.921908+00:00",
+  "hoodie_target": "SACKBOY_Hoodie_EditProxy",
+  "body_target": "F2",
+  "saved_blend": true,
+  "reverted_due_to_safety_gate": false,
+  "created_backup_blend_files": 0,
+  "before": {
+    "boundary_edges": 793,
+    "boundary_loop_count": 29,
+    "polygon_island_count": 19,
+    "top_polygon_islands": [
+      361331,
+      81160,
+      27402,
+      6134,
+      6102,
+      2180,
+      2180,
+      720
+    ]
+  },
+  "after": {
+    "boundary_edges": 582,
+    "boundary_loop_count": 13,
+    "polygon_island_count": 14,
+    "top_polygon_islands": [
+      361686,
+      81160,
+      27402,
+      6134,
+      6102,
+      2180,
+      2180,
+      720
+    ]
+  },
+  "repair": {
+    "total_pairs_accepted": 139,
+    "total_smoothed_vertices": 786,
+    "max_local_vertex_movement": 0.004263,
+    "zones": {
+      "left_armpit": {
+        "candidate_vertices": 159,
+        "threshold": 0.009607,
+        "pairs_accepted": 22,
+        "smoothed_vertices": 167,
+        "components_touched": 11
+      },
+      "right_armpit": {
+        "candidate_vertices": 155,
+        "threshold": 0.012616,
+        "pairs_accepted": 48,
+        "smoothed_vertices": 242,
+        "components_touched": 8
+      },
+      "hood_collar_front": {
+        "candidate_vertices": 168,
+        "threshold": 0.020182,
+        "pairs_accepted": 8,
+        "smoothed_vertices": 126,
+        "components_touched": 9
+      },
+      "hood_collar_back": {
+        "candidate_vertices": 190,
+        "threshold": 0.020182,
+        "pairs_accepted": 61,
+        "smoothed_vertices": 262,
+        "components_touched": 7
+      },
+      "hood_top": {
+        "candidate_vertices": 138,
+        "threshold": 0.020182,
+        "pairs_accepted": 0,
+        "smoothed_vertices": 0,
+        "components_touched": 6
+      }
+    }
+  },
+  "rendering": {
+    "left_armpit_camera": "DIAG_L.Arm armpit view",
+    "right_armpit_camera": "DIAG_R.Arm armpit view",
+    "closeups_hide_sackboy": true,
+    "full_character_check_visible": true
+  }
+}

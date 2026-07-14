@@ -1,0 +1,10 @@
+RESIDUAL SEAM CONSOLIDATION V1F
+before_boundary_edges=793
+after_boundary_edges=582
+before_boundary_loop_count=29
+after_boundary_loop_count=13
+total_pairs_accepted=139
+total_smoothed_vertices=786
+max_local_vertex_movement=0.004263
+left_armpit_camera=DIAG_L.Arm armpit view
+right_armpit_camera=DIAG_R.Arm armpit view
