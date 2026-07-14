@@ -1,0 +1,149 @@
+{
+  "timestamp_utc": "2026-07-14T03:31:03.272294+00:00",
+  "hoodie_target": "SACKBOY_Hoodie_EditProxy",
+  "body_target": "F2",
+  "saved_blend": false,
+  "created_backup_blend_files": 0,
+  "current": {
+    "boundary_edges": 372,
+    "boundary_loop_count": 12,
+    "boundary_loop_sizes": [
+      298,
+      34,
+      6,
+      5,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "polygon_island_count": 14,
+    "top_polygon_islands": [
+      361698,
+      81160,
+      27402,
+      6134,
+      6102,
+      2180,
+      2180,
+      720,
+      720,
+      139
+    ]
+  },
+  "zones": {
+    "left_armpit": {
+      "edges_within_radius": 327,
+      "vertices_within_radius": 313,
+      "components_within_radius": 8,
+      "rendered_nearest_edges": 170,
+      "rendered_nearest_vertices": 165,
+      "nearest_component_sizes": [
+        298,
+        6,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "right_armpit": {
+      "edges_within_radius": 45,
+      "vertices_within_radius": 47,
+      "components_within_radius": 4,
+      "rendered_nearest_edges": 170,
+      "rendered_nearest_vertices": 174,
+      "nearest_component_sizes": [
+        34,
+        5,
+        2,
+        2
+      ]
+    },
+    "hood_collar_front": {
+      "edges_within_radius": 0,
+      "vertices_within_radius": 0,
+      "components_within_radius": 5,
+      "rendered_nearest_edges": 170,
+      "rendered_nearest_vertices": 171,
+      "nearest_component_sizes": [
+        298,
+        5,
+        2,
+        2,
+        2
+      ]
+    },
+    "hood_collar_back": {
+      "edges_within_radius": 206,
+      "vertices_within_radius": 206,
+      "components_within_radius": 3,
+      "rendered_nearest_edges": 170,
+      "rendered_nearest_vertices": 174,
+      "nearest_component_sizes": [
+        298,
+        5,
+        2
+      ]
+    },
+    "hood_top": {
+      "edges_within_radius": 0,
+      "vertices_within_radius": 0,
+      "components_within_radius": 5,
+      "rendered_nearest_edges": 170,
+      "rendered_nearest_vertices": 180,
+      "nearest_component_sizes": [
+        298,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  },
+  "prior_recorded_changes": {
+    "left_armpit": {
+      "v1F_pairs_accepted": 22,
+      "v1F_smoothed_vertices": 167,
+      "v1F_threshold": 0.009607
+    },
+    "right_armpit": {
+      "v1F_pairs_accepted": 48,
+      "v1F_smoothed_vertices": 242,
+      "v1F_threshold": 0.012616
+    },
+    "hood_collar_front": {
+      "v1F_pairs_accepted": 8,
+      "v1F_smoothed_vertices": 126,
+      "v1F_threshold": 0.020182
+    },
+    "hood_collar_back": {
+      "v1F_pairs_accepted": 61,
+      "v1F_smoothed_vertices": 262,
+      "v1F_threshold": 0.020182
+    },
+    "hood_top": {
+      "v1F_pairs_accepted": 0,
+      "v1F_smoothed_vertices": 0,
+      "v1F_threshold": 0.020182
+    }
+  },
+  "rendering": {
+    "cameras": {
+      "full": "TMP_V1J_EDITSTYLE_CAM_FULL_CHARACTER_CHECK",
+      "left": "DIAG_L.Arm armpit view",
+      "right": "DIAG_R.Arm armpit view",
+      "collar": "TMP_V1J_EDITSTYLE_CAM_COLLAR",
+      "inside": "TMP_V1J_EDITSTYLE_CAM_INSIDE",
+      "top": "TMP_V1J_EDITSTYLE_CAM_TOP"
+    },
+    "closeups_hide_sackboy": true,
+    "full_character_check_visible": true,
+    "style": "Workbench solid with colored boundary-edge overlay; approximates edit-mode solid gap inspection."
+  },
+  "final_render_engine_memory_only": "CYCLES"
+}

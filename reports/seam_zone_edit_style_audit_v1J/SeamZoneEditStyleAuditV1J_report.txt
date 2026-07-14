@@ -1,0 +1,9 @@
+SEAM ZONE EDIT STYLE AUDIT V1J
+boundary_edges=372
+boundary_loops=12
+polygon_islands=14
+zone=left_armpit; edges_within_radius=327; vertices_within_radius=313; components_within_radius=8; v1F_pairs_accepted=22
+zone=right_armpit; edges_within_radius=45; vertices_within_radius=47; components_within_radius=4; v1F_pairs_accepted=48
+zone=hood_collar_front; edges_within_radius=0; vertices_within_radius=0; components_within_radius=5; v1F_pairs_accepted=8
+zone=hood_collar_back; edges_within_radius=206; vertices_within_radius=206; components_within_radius=3; v1F_pairs_accepted=61
+zone=hood_top; edges_within_radius=0; vertices_within_radius=0; components_within_radius=5; v1F_pairs_accepted=0

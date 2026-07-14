@@ -1,0 +1,6 @@
+zone,edges_within_radius,vertices_within_radius,components_within_radius,rendered_nearest_edges,rendered_nearest_vertices,nearest_component_sizes,v1F_pairs_accepted,v1F_smoothed_vertices
+left_armpit,327,313,8,170,165,298;6;3;2;2;2;2;2,22,167
+right_armpit,45,47,4,170,174,34;5;2;2,48,242
+hood_collar_front,0,0,5,170,171,298;5;2;2;2,8,126
+hood_collar_back,206,206,3,170,174,298;5;2,61,262
+hood_top,0,0,5,170,180,298;2;2;2;2,0,0
