@@ -1,0 +1,14 @@
+COLLAR PARALLEL SNAP V1N
+shape_key=SEAMSEAT_CollarParallelSnap_v1N
+boundary_edges_unchanged=371
+boundary_loops_unchanged=10
+total_vertices_moved=357
+average_gap_before=0.121592
+average_gap_after=1.4e-05
+average_gap_reduction_ratio=0.999886
+max_local_vertex_movement=0.262146
+zone=collar_side_left; vertices_moved=312; avg_gap_before=0.131285; avg_gap_after=0.009251; reduction=0.929535; components_touched=7
+zone=collar_side_right; vertices_moved=357; avg_gap_before=0.01494; avg_gap_after=0.002559; reduction=0.828745; components_touched=10
+zone=collar_back_wide; vertices_moved=357; avg_gap_before=0.002559; avg_gap_after=0.000143; reduction=0.944164; components_touched=10
+zone=collar_front_wide; vertices_moved=357; avg_gap_before=0.000143; avg_gap_after=2.4e-05; reduction=0.830008; components_touched=10
+zone=collar_center_wide; vertices_moved=357; avg_gap_before=2.4e-05; avg_gap_after=1.4e-05; reduction=0.427513; components_touched=10

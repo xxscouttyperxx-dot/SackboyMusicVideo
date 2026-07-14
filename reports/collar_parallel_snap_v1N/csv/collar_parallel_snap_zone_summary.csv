@@ -1,0 +1,6 @@
+zone,candidate_vertices,vertices_moved,avg_gap_before,avg_gap_after,median_gap_before,median_gap_after,max_gap_before,max_gap_after,gap_reduction_ratio,components_touched
+collar_side_left,312,312,0.131285,0.009251,0.12403,0.008563,0.284941,0.021552,0.929535,7
+collar_side_right,357,357,0.01494,0.002559,0.009359,0.001837,0.217143,0.102705,0.828745,10
+collar_back_wide,357,357,0.002559,0.000143,0.001837,6.7e-05,0.102705,0.008601,0.944164,10
+collar_front_wide,357,357,0.000143,2.4e-05,6.7e-05,6e-06,0.008601,0.000923,0.830008,10
+collar_center_wide,357,357,2.4e-05,1.4e-05,6e-06,0.0,0.000923,0.001007,0.427513,10

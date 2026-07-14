@@ -7,7 +7,7 @@ git add -- "blender/sackboy_scene.blend"
 git status --short
 git diff --cached --quiet
 if($LASTEXITCODE -eq 0){Write-Host "No staged blend changes detected."; exit 0}
-git commit -m "Update blend with collar snap shape seat v1M"
+git commit -m "Update blend with collar parallel snap v1N"
 git -c lfs.concurrenttransfers=1 -c lfs.activitytimeout=900 -c lfs.dialtimeout=900 -c lfs.tlstimeout=900 -c lfs.transfer.maxretries=50 -c lfs.transfer.maxretrydelay=60 lfs push origin main
 if($LASTEXITCODE -ne 0){throw "Blend LFS push failed."}
 git push origin main

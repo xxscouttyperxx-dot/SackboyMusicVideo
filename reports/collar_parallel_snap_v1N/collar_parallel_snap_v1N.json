@@ -1,0 +1,108 @@
+{
+  "timestamp_utc": "2026-07-14T15:31:56.719913+00:00",
+  "hoodie_target": "SACKBOY_Hoodie_EditProxy",
+  "body_target": "F2",
+  "saved_blend": true,
+  "created_backup_blend_files": 0,
+  "shape_key": {
+    "name": "SEAMSEAT_CollarParallelSnap_v1N",
+    "value": 1.0,
+    "reversible": true,
+    "stacks_on_existing_active_keys": true
+  },
+  "metrics": {
+    "boundary_edges_before": 371,
+    "boundary_edges_after": 371,
+    "boundary_loops_before": 10,
+    "boundary_loops_after": 10,
+    "polygon_islands_before": 14,
+    "polygon_islands_after": 14
+  },
+  "snap": {
+    "total_vertices_moved": 357,
+    "average_gap_before": 0.121592,
+    "average_gap_after": 1.4e-05,
+    "max_gap_before": 0.284941,
+    "max_gap_after": 0.001007,
+    "average_gap_reduction_ratio": 0.999886,
+    "max_local_vertex_movement": 0.262146,
+    "movement_scaled_by_safety_cap": false,
+    "zones": {
+      "collar_side_left": {
+        "candidate_vertices": 312,
+        "vertices_moved": 312,
+        "avg_gap_before": 0.131285,
+        "avg_gap_after": 0.009251,
+        "max_gap_before": 0.284941,
+        "max_gap_after": 0.021552,
+        "median_gap_before": 0.12403,
+        "median_gap_after": 0.008563,
+        "gap_reduction_ratio": 0.929535,
+        "components_touched": 7
+      },
+      "collar_side_right": {
+        "candidate_vertices": 357,
+        "vertices_moved": 357,
+        "avg_gap_before": 0.01494,
+        "avg_gap_after": 0.002559,
+        "max_gap_before": 0.217143,
+        "max_gap_after": 0.102705,
+        "median_gap_before": 0.009359,
+        "median_gap_after": 0.001837,
+        "gap_reduction_ratio": 0.828745,
+        "components_touched": 10
+      },
+      "collar_back_wide": {
+        "candidate_vertices": 357,
+        "vertices_moved": 357,
+        "avg_gap_before": 0.002559,
+        "avg_gap_after": 0.000143,
+        "max_gap_before": 0.102705,
+        "max_gap_after": 0.008601,
+        "median_gap_before": 0.001837,
+        "median_gap_after": 6.7e-05,
+        "gap_reduction_ratio": 0.944164,
+        "components_touched": 10
+      },
+      "collar_front_wide": {
+        "candidate_vertices": 357,
+        "vertices_moved": 357,
+        "avg_gap_before": 0.000143,
+        "avg_gap_after": 2.4e-05,
+        "max_gap_before": 0.008601,
+        "max_gap_after": 0.000923,
+        "median_gap_before": 6.7e-05,
+        "median_gap_after": 6e-06,
+        "gap_reduction_ratio": 0.830008,
+        "components_touched": 10
+      },
+      "collar_center_wide": {
+        "candidate_vertices": 357,
+        "vertices_moved": 357,
+        "avg_gap_before": 2.4e-05,
+        "avg_gap_after": 1.4e-05,
+        "max_gap_before": 0.000923,
+        "max_gap_after": 0.001007,
+        "median_gap_before": 6e-06,
+        "median_gap_after": 0.0,
+        "gap_reduction_ratio": 0.427513,
+        "components_touched": 10
+      }
+    }
+  },
+  "rendering": {
+    "cameras": {
+      "full": "TMP_V1N_COLLARPARALLEL_CAM_FULL_CHARACTER_CHECK",
+      "collar_side_left": "DIAG_L.Arm armpit view",
+      "collar_side_right": "DIAG_R.Arm armpit view",
+      "inside": "TMP_V1N_COLLARPARALLEL_CAM_INSIDE_COLLAR",
+      "front": "TMP_V1N_COLLARPARALLEL_CAM_COLLAR_FRONT",
+      "back": "TMP_V1N_COLLARPARALLEL_CAM_COLLAR_BACK"
+    },
+    "uses_armpit_named_cameras_as_collar_side_views": true,
+    "closeups_hide_sackboy": true,
+    "colored_tube_overlays": false,
+    "full_character_check_visible": true
+  },
+  "final_render_engine": "CYCLES"
+}
