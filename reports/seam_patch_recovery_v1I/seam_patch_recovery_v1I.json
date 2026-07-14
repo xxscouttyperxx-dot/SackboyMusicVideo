@@ -1,0 +1,73 @@
+{
+  "timestamp_utc": "2026-07-14T03:10:47.262797+00:00",
+  "hoodie_target": "SACKBOY_Hoodie_EditProxy",
+  "body_target": "F2",
+  "saved_blend": false,
+  "created_backup_blend_files": 0,
+  "current": {
+    "boundary_edges": 372,
+    "boundary_loop_count": 12,
+    "boundary_loop_sizes": [
+      298,
+      34,
+      6,
+      5,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "polygon_island_count": 14,
+    "top_polygon_islands": [
+      361698,
+      81160,
+      27402,
+      6134,
+      6102,
+      2180,
+      2180,
+      720,
+      720,
+      139
+    ],
+    "zone_summary": {
+      "left_armpit": {
+        "candidate_edges": 170,
+        "candidate_vertices": 165
+      },
+      "right_armpit": {
+        "candidate_edges": 170,
+        "candidate_vertices": 174
+      },
+      "hood_collar_front": {
+        "candidate_edges": 170,
+        "candidate_vertices": 171
+      },
+      "hood_collar_back": {
+        "candidate_edges": 170,
+        "candidate_vertices": 174
+      },
+      "hood_top": {
+        "candidate_edges": 170,
+        "candidate_vertices": 180
+      }
+    }
+  },
+  "comparison_to_v1F_after": {
+    "v1F_after_edges": 582,
+    "v1F_after_loops": 13,
+    "boundary_edges_delta": -210,
+    "boundary_loop_delta": -1
+  },
+  "rendering": {
+    "left_armpit_camera": "DIAG_L.Arm armpit view",
+    "right_armpit_camera": "DIAG_R.Arm armpit view",
+    "collar_camera": "TMP_V1I_RECOVERY_CAM_HOODIE_ONLY_COLLAR",
+    "inside_hood_camera": "TMP_V1I_RECOVERY_CAM_HOODIE_ONLY_INSIDE",
+    "closeups_hide_sackboy": true,
+    "full_character_check_visible": true
+  },
+  "final_render_engine_memory_only": "CYCLES"
+}

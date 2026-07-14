@@ -1,0 +1,9 @@
+SEAM PATCH RECOVERY V1I
+current_boundary_edges=372
+current_boundary_loops=12
+current_polygon_islands=14
+edge_delta_vs_v1F_after=-210
+loop_delta_vs_v1F_after=-1
+left_armpit_camera=DIAG_L.Arm armpit view
+right_armpit_camera=DIAG_R.Arm armpit view
+closeups_hide_sackboy=True
