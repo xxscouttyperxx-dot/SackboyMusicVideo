@@ -1,0 +1,3 @@
+object,category,shape_key,value,mute,slider_min,slider_max,relative_key
+F2,CHARACTER,Basis,0.0,False,0.0,1.0,Basis
+F2,CHARACTER,Key 1,1.0,False,0.0,1.0,Basis

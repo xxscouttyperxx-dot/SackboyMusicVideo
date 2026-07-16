@@ -1,0 +1,6 @@
+name,type,data_name,collections,parent,action,driver_count,modifier_count,visible,location,scale
+Bolt,MESH,Bolt,SAME_NAME_Bolt,Plane.023,BoltAction,0,4,True,"[0.0, 0.0, 0.0]","[1.0, 1.0, 1.0]"
+Bolt.001,MESH,Bolt.001,SAME_NAME_Bolt,Plane.023,Bolt.001Action,0,3,True,"[0.0, 0.0, 0.0]","[1.0, 1.0, 1.0]"
+Bolt.002,MESH,Bolt.002,SAME_NAME_Bolt,Audi e-tron GT quattro Black,Bolt.002Action,0,0,True,"[0.0, 0.0, 0.0]","[1.0, 1.0, 1.0]"
+Lightning,MESH,Cylinder,06_LIGHTING_REFLECTIONS,,CylinderAction,0,1,True,"[-165.854248046875, -0.04423290491104126, 25.995426177978516]","[0.937018871307373, 0.937018871307373, 0.937018871307373]"
+Volume,VOLUME,Volume,04_ENVIRONMENT_STOREFRONTS_PARKING,,,0,2,True,"[0.00298503041267395, 90.68109893798828, 44.98980712890625]","[1.0, 1.0, 1.0]"

@@ -1,0 +1,100 @@
+CHARACTER SPATIAL / HIERARCHY AUDIT V1
+object_count=220
+character_object_count=24
+visible_character_object_count=24
+shape_key_object_count=1
+shape_key_count=2
+animated_object_count=215
+parented_object_count=96
+detached_origin_candidate_count=77
+character_near_empty_count=4
+protected_effect_object_count=5
+
+SHAPE KEY CLEANUP SCOPE
+F2 | category=CHARACTER | visible=True | protected=False | Basis=0.0 | Key 1=1.0
+
+DETACHED ORIGIN CANDIDATES
+Axle.001 | category=OTHER | distance=0.356330 | parent=Large Trash Can
+Bolt.001 | category=PROTECTED_EFFECT | distance=1.877667 | parent=Plane.023
+Can.001 | category=OTHER | distance=0.858303 | parent=Large Trash Can
+Circle | category=OTHER | distance=3.993412 | parent=Audi e-tron GT quattro Black
+Circle.001 | category=OTHER | distance=4.050613 | parent=Audi e-tron GT quattro Black
+Circle.002 | category=OTHER | distance=2.228996 | parent=Audi e-tron GT quattro Black
+Circle.006 | category=OTHER | distance=4.084806 | parent=Audi e-tron GT quattro Black
+Circle.007 | category=OTHER | distance=3.969586 | parent=Audi e-tron GT quattro Black
+F2 | category=CHARACTER | distance=2.517715 | parent=
+Handlebars.001 | category=CHARACTER | distance=1.715266 | parent=Large Trash Can
+Lid.001 | category=OTHER | distance=0.595469 | parent=Large Trash Can
+Lightning | category=PROTECTED_EFFECT | distance=375.456973 | parent=
+Lowerpoly hoodie | category=CLOTHING | distance=1.443094 | parent=
+Plane | category=OTHER | distance=2.977040 | parent=Audi e-tron GT quattro Black
+Plane.002 | category=OTHER | distance=3.401354 | parent=Audi e-tron GT quattro Black
+Plane.003 | category=OTHER | distance=3.666626 | parent=Audi e-tron GT quattro Black
+Plane.008 | category=OTHER | distance=2.204645 | parent=Audi e-tron GT quattro Black
+Plane.009 | category=OTHER | distance=3.878787 | parent=Audi e-tron GT quattro Black
+Plane.010 | category=OTHER | distance=3.713703 | parent=Audi e-tron GT quattro Black
+Plane.011 | category=OTHER | distance=3.929083 | parent=Audi e-tron GT quattro Black
+Plane.012 | category=OTHER | distance=3.567942 | parent=Audi e-tron GT quattro Black
+Plane.013 | category=OTHER | distance=3.525808 | parent=Audi e-tron GT quattro Black
+Plane.014 | category=OTHER | distance=3.499004 | parent=Audi e-tron GT quattro Black
+Plane.015 | category=OTHER | distance=3.836708 | parent=Audi e-tron GT quattro Black
+Plane.016 | category=OTHER | distance=3.379739 | parent=Audi e-tron GT quattro Black
+Plane.017 | category=OTHER | distance=3.597309 | parent=Audi e-tron GT quattro Black
+Plane.018 | category=OTHER | distance=3.627939 | parent=Audi e-tron GT quattro Black
+Plane.019 | category=OTHER | distance=3.471471 | parent=Audi e-tron GT quattro Black
+Plane.020 | category=OTHER | distance=1.866379 | parent=Audi e-tron GT quattro Black
+Plane.021 | category=OTHER | distance=3.738870 | parent=Audi e-tron GT quattro Black
+Plane.026 | category=OTHER | distance=3.894518 | parent=Audi e-tron GT quattro Black
+Plane.028 | category=OTHER | distance=3.860154 | parent=Audi e-tron GT quattro Black
+Plane.030 | category=OTHER | distance=3.840460 | parent=Audi e-tron GT quattro Black
+Plane.031 | category=OTHER | distance=3.984766 | parent=Audi e-tron GT quattro Black
+Plane.032 | category=OTHER | distance=3.431407 | parent=Audi e-tron GT quattro Black
+Plane.034 | category=OTHER | distance=1.731724 | parent=Audi e-tron GT quattro Black
+Plane.035 | category=OTHER | distance=3.761882 | parent=Audi e-tron GT quattro Black
+Plane.036 | category=OTHER | distance=3.701677 | parent=Audi e-tron GT quattro Black
+Plane.037 | category=OTHER | distance=3.752563 | parent=Audi e-tron GT quattro Black
+Plane.038 | category=OTHER | distance=3.547609 | parent=Audi e-tron GT quattro Black
+Plane.039 | category=OTHER | distance=3.783553 | parent=Audi e-tron GT quattro Black
+Plane.040 | category=OTHER | distance=1.727332 | parent=Audi e-tron GT quattro Black
+Plane.041 | category=OTHER | distance=3.855735 | parent=Audi e-tron GT quattro Black
+Plane.042 | category=OTHER | distance=3.902893 | parent=Audi e-tron GT quattro Black
+Plane.043 | category=OTHER | distance=3.713748 | parent=Audi e-tron GT quattro Black
+Plane.045 | category=OTHER | distance=2.179791 | parent=Audi e-tron GT quattro Black
+Plane.047 | category=OTHER | distance=3.672360 | parent=Audi e-tron GT quattro Black
+Plane.048 | category=OTHER | distance=3.696623 | parent=Audi e-tron GT quattro Black
+Plane.049 | category=OTHER | distance=3.662846 | parent=Audi e-tron GT quattro Black
+Plane.050 | category=OTHER | distance=3.706771 | parent=Audi e-tron GT quattro Black
+Plane.051 | category=OTHER | distance=3.727714 | parent=Audi e-tron GT quattro Black
+Plane.052 | category=OTHER | distance=3.762451 | parent=Audi e-tron GT quattro Black
+Plane.053 | category=OTHER | distance=3.784085 | parent=Audi e-tron GT quattro Black
+Plane.054 | category=OTHER | distance=3.491737 | parent=Audi e-tron GT quattro Black
+Plane.055 | category=OTHER | distance=3.746394 | parent=Audi e-tron GT quattro Black
+Plane.056 | category=OTHER | distance=3.401641 | parent=Audi e-tron GT quattro Black
+Plane.057 | category=OTHER | distance=3.332631 | parent=Audi e-tron GT quattro Black
+Plane.058 | category=OTHER | distance=3.214425 | parent=Audi e-tron GT quattro Black
+Plane.059 | category=OTHER | distance=3.322775 | parent=Audi e-tron GT quattro Black
+Plane.060 | category=OTHER | distance=3.442417 | parent=Audi e-tron GT quattro Black
+Plane.061 | category=OTHER | distance=3.397501 | parent=Audi e-tron GT quattro Black
+Plane.062 | category=OTHER | distance=3.688636 | parent=Audi e-tron GT quattro Black
+Plane.063 | category=OTHER | distance=3.590058 | parent=Audi e-tron GT quattro Black
+Plane.064 | category=OTHER | distance=3.268218 | parent=Audi e-tron GT quattro Black
+Plane.065 | category=OTHER | distance=3.348397 | parent=Audi e-tron GT quattro Black
+Plane.066 | category=OTHER | distance=3.543373 | parent=Audi e-tron GT quattro Black
+Plane.067 | category=OTHER | distance=3.456661 | parent=Audi e-tron GT quattro Black
+Plane.068 | category=OTHER | distance=3.496241 | parent=Audi e-tron GT quattro Black
+Plane.069 | category=OTHER | distance=3.386244 | parent=Audi e-tron GT quattro Black
+Plane.070 | category=OTHER | distance=3.459470 | parent=Audi e-tron GT quattro Black
+Plane.071 | category=OTHER | distance=3.499280 | parent=Audi e-tron GT quattro Black
+Plane.072 | category=OTHER | distance=3.420737 | parent=Audi e-tron GT quattro Black
+Plane.076 | category=OTHER | distance=2.590503 | parent=Audi e-tron GT quattro Black
+Ribbing.001 | category=OTHER | distance=0.854326 | parent=Large Trash Can
+Stop sign | category=OTHER | distance=2.269181 | parent=
+Traffic Cone (Photoscanned) | category=OTHER | distance=0.400944 | parent=
+Utility Box (Photoscanned) | category=OTHER | distance=0.807782 | parent=
+
+PROTECTED EFFECT OBJECTS
+Bolt | type=MESH | action=BoltAction | drivers=0 | modifiers=4
+Bolt.001 | type=MESH | action=Bolt.001Action | drivers=0 | modifiers=3
+Bolt.002 | type=MESH | action=Bolt.002Action | drivers=0 | modifiers=0
+Lightning | type=MESH | action=CylinderAction | drivers=0 | modifiers=1
+Volume | type=VOLUME | action= | drivers=0 | modifiers=2
