@@ -1,0 +1,175 @@
+{
+  "script_version": "1.0",
+  "timestamp_utc": "2026-07-16T19:48:55.763172+00:00",
+  "blend_file": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\blender\\sackboy_scene.blend",
+  "saved_blend": true,
+  "rig_name": "SACKBOY_RIG_PLACEMENT_V1",
+  "preserved_action": "F2_DEFORMATION_TEST_V1_2",
+  "deform_group_count": 21,
+  "transfer_method": "NEAREST_F2_TRIANGLE_BARYCENTRIC_TOP4_NORMALIZED",
+  "transfer_stats": {
+    "Lowerpoly hoodie": {
+      "vertex_count": 7107,
+      "nearest_distance_min": 0.0006424410967156291,
+      "nearest_distance_median": 0.05710327997803688,
+      "nearest_distance_max": 0.13204209506511688,
+      "empty_transfer_count": 0
+    },
+    "Cargo pants": {
+      "vertex_count": 16507,
+      "nearest_distance_min": 1.5011024743216694e-06,
+      "nearest_distance_median": 0.026420287787914276,
+      "nearest_distance_max": 0.11332457512617111,
+      "empty_transfer_count": 0
+    }
+  },
+  "clothing_metrics": {
+    "Lowerpoly hoodie": {
+      "vertex_count": 7107,
+      "maximum_influences": 4,
+      "influence_histogram": {
+        "2": 2872,
+        "3": 1731,
+        "4": 2109,
+        "1": 395
+      },
+      "group_vertex_counts": {
+        "pelvis": 588,
+        "spine": 2768,
+        "chest": 1104,
+        "neck": 684,
+        "head": 1082,
+        "clavicle.L": 1723,
+        "upper_arm.L": 1675,
+        "forearm.L": 1405,
+        "hand.L": 749,
+        "clavicle.R": 1935,
+        "upper_arm.R": 1925,
+        "forearm.R": 1432,
+        "hand.R": 563,
+        "thigh.L": 992,
+        "shin.L": 21,
+        "foot.L": 0,
+        "toe.L": 0,
+        "thigh.R": 1109,
+        "shin.R": 13,
+        "foot.R": 0,
+        "toe.R": 0
+      },
+      "unweighted_count": 0,
+      "invalid_weight_sum_count": 0
+    },
+    "Cargo pants": {
+      "vertex_count": 16507,
+      "maximum_influences": 4,
+      "influence_histogram": {
+        "2": 7140,
+        "3": 6607,
+        "4": 2495,
+        "1": 265
+      },
+      "group_vertex_counts": {
+        "pelvis": 4113,
+        "spine": 4560,
+        "chest": 73,
+        "neck": 0,
+        "head": 0,
+        "clavicle.L": 738,
+        "upper_arm.L": 11,
+        "forearm.L": 0,
+        "hand.L": 0,
+        "clavicle.R": 691,
+        "upper_arm.R": 55,
+        "forearm.R": 0,
+        "hand.R": 0,
+        "thigh.L": 8374,
+        "shin.L": 6292,
+        "foot.L": 2277,
+        "toe.L": 0,
+        "thigh.R": 8610,
+        "shin.R": 6316,
+        "foot.R": 2236,
+        "toe.R": 0
+      },
+      "unweighted_count": 0,
+      "invalid_weight_sum_count": 0
+    }
+  },
+  "clothing_armature_modifier_count": 2,
+  "clothing_unweighted_vertex_count": 0,
+  "clothing_invalid_weight_sum_count": 0,
+  "rigid_attachment_map": {
+    "L.Eye": "head",
+    "R.Eye": "head",
+    "Plane.001": "foot.L",
+    "Plane.022": "foot.R"
+  },
+  "attachment_parent_checks": {
+    "L.Eye": true,
+    "R.Eye": true,
+    "Plane.001": true,
+    "Plane.022": true
+  },
+  "attachment_parent_checks_passed": true,
+  "rest_visual_errors": {
+    "Lowerpoly hoodie": 4.2983134958426877e-07,
+    "Cargo pants": 2.585254843964796e-07,
+    "L.Eye": 2.5463115409962923e-07,
+    "R.Eye": 2.457562461863554e-07,
+    "Plane.001": 6.198327820239386e-07,
+    "Plane.022": 1.9314112360500873e-07
+  },
+  "rest_visual_max_error": 6.198327820239386e-07,
+  "motion_metrics": {
+    "Lowerpoly hoodie": {
+      "frame": 205,
+      "max_vertex_movement": 0.3041514933079726,
+      "finite": true,
+      "passed": true
+    },
+    "Cargo pants": {
+      "frame": 235,
+      "max_vertex_movement": 0.15794858647694945,
+      "finite": true,
+      "passed": true
+    },
+    "L.Eye": {
+      "frame": 265,
+      "max_vertex_movement": 0.18413727298862068,
+      "finite": true,
+      "passed": true
+    },
+    "R.Eye": {
+      "frame": 265,
+      "max_vertex_movement": 0.14786738119203785,
+      "finite": true,
+      "passed": true
+    },
+    "Plane.001": {
+      "frame": 245,
+      "max_vertex_movement": 0.4662454522409012,
+      "finite": true,
+      "passed": true
+    },
+    "Plane.022": {
+      "frame": 255,
+      "max_vertex_movement": 0.46411289383384846,
+      "finite": true,
+      "passed": true
+    }
+  },
+  "motion_response_checks_passed": true,
+  "f2_change_count": 0,
+  "f2_changes": [],
+  "armature_rest_change_count": 0,
+  "armature_rest_changes": [],
+  "protected_change_count": 0,
+  "protected_changes": [],
+  "scene_frame_start_before": 1,
+  "scene_frame_start_after": 1,
+  "scene_frame_end_before": 120,
+  "scene_frame_end_after": 120,
+  "scene_frame_range_changed": false,
+  "original_frame_restored": true,
+  "created_backup_blend_files": 0
+}
