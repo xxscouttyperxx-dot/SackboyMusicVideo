@@ -1,0 +1,13 @@
+SACKBOY F2-ONLY BIND / WEIGHTS V1
+weighting_method=AUTOMATIC_BONE_HEAT
+automatic_weighting_error=
+vertices=33624
+deform_groups=21
+unweighted_vertices=0
+invalid_weight_sums=0
+maximum_influences=6
+rest_visual_error=0.000000717890
+other_targets_bound=0
+protected_changes=0
+empty_deform_groups=['toe.L', 'toe.R']
+influence_histogram={'2': 12512, '1': 7187, '3': 7260, '4': 3773, '5': 2604, '6': 288}
