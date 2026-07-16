@@ -1,0 +1,38 @@
+RIGGING READINESS AUDIT V1
+blend_file=C:\BlenderProjects\SackboyMusicVideo\Project\blender\sackboy_scene.blend
+object_count=220
+mesh_count=189
+armature_count=0
+camera_count=13
+light_count=9
+material_count=78
+collection_count=21
+action_count=217
+modifier_count=175
+constraint_count=1
+vertex_group_count=0
+shape_key_count=2
+armature_modifier_count=0
+character_candidate_count=11
+clothing_candidate_count=1
+rig_ready_candidate_count=12
+external_file_count=78
+missing_external_file_count=0
+render_engine=CYCLES
+active_camera=CAM_wholescene
+frame_range=1-120
+fps=24/1.0
+
+RIGGING CANDIDATES
+CLOTHING | Cargo pants | verts=16507 | polys=16424 | boundary=356 | nonmanifold=540 | vgroups=0 | shape_keys=0 | armature_modifiers=0 | visible=True
+CHARACTER | F2 | verts=33624 | polys=63715 | boundary=0 | nonmanifold=0 | vgroups=0 | shape_keys=2 | armature_modifiers=0 | visible=True
+CHARACTER | Handlebars.001 | verts=4352 | polys=4791 | boundary=0 | nonmanifold=0 | vgroups=0 | shape_keys=0 | armature_modifiers=0 | visible=True
+CHARACTER | HERO_Curb_VerticalFace | verts=8 | polys=6 | boundary=0 | nonmanifold=0 | vgroups=0 | shape_keys=0 | armature_modifiers=0 | visible=True
+CHARACTER | HERO_LampArm_0 | verts=36 | polys=20 | boundary=0 | nonmanifold=0 | vgroups=0 | shape_keys=0 | armature_modifiers=0 | visible=True
+CHARACTER | HERO_LampArm_1 | verts=36 | polys=20 | boundary=0 | nonmanifold=0 | vgroups=0 | shape_keys=0 | armature_modifiers=0 | visible=True
+CHARACTER | HERO_StoreMall_DeepBody | verts=8 | polys=6 | boundary=0 | nonmanifold=0 | vgroups=0 | shape_keys=0 | armature_modifiers=0 | visible=True
+CHARACTER | L.Eye | verts=482 | polys=512 | boundary=0 | nonmanifold=0 | vgroups=0 | shape_keys=0 | armature_modifiers=0 | visible=True
+CHARACTER | Lowerpoly hoodie | verts=7107 | polys=14099 | boundary=85 | nonmanifold=578 | vgroups=0 | shape_keys=0 | armature_modifiers=0 | visible=True
+CHARACTER | Plane.001 | verts=10292 | polys=10800 | boundary=836 | nonmanifold=838 | vgroups=0 | shape_keys=0 | armature_modifiers=0 | visible=True
+CHARACTER | Plane.022 | verts=10292 | polys=10800 | boundary=836 | nonmanifold=838 | vgroups=0 | shape_keys=0 | armature_modifiers=0 | visible=True
+CHARACTER | R.Eye | verts=482 | polys=512 | boundary=0 | nonmanifold=0 | vgroups=0 | shape_keys=0 | armature_modifiers=0 | visible=True

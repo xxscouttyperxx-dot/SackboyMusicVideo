@@ -1,0 +1,13 @@
+object,category,mesh,vertices,polygons,boundary_edges,nonmanifold_edges,vertex_groups,shape_keys,armature_modifiers,parent,data_users,visible,likely_rig_ready
+Cargo pants,CLOTHING,Cargo pants,16507,16424,356,540,0,0,0,,1,True,True
+F2,CHARACTER,Meshy_Left_Standing_Candidate.006,33624,63715,0,0,0,2,0,,1,True,True
+Handlebars.001,CHARACTER,Mesh.015,4352,4791,0,0,0,0,0,Large Trash Can,1,True,True
+HERO_Curb_VerticalFace,CHARACTER,Cube.196,8,6,0,0,0,0,0,,1,True,True
+HERO_LampArm_0,CHARACTER,Cylinder.017,36,20,0,0,0,0,0,,1,True,True
+HERO_LampArm_1,CHARACTER,Cylinder.019,36,20,0,0,0,0,0,,1,True,True
+HERO_StoreMall_DeepBody,CHARACTER,Cube.050,8,6,0,0,0,0,0,,1,True,True
+L.Eye,CHARACTER,Sphere.019,482,512,0,0,0,0,0,,1,True,True
+Lowerpoly hoodie,CHARACTER,SACKBOY_Hoodie_Main_Mesh.002,7107,14099,85,578,0,0,0,,1,True,True
+Plane.001,CHARACTER,Plane.036,10292,10800,836,838,0,0,0,Shoes,1,True,True
+Plane.022,CHARACTER,Plane.051,10292,10800,836,838,0,0,0,Shoes,1,True,True
+R.Eye,CHARACTER,Sphere.020,482,512,0,0,0,0,0,,1,True,True

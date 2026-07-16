@@ -1,0 +1,22 @@
+name,object_count,child_collection_count,hide_viewport,hide_render,users
+01_CHARACTER_AND_SAME_NAME_GROUPS,0,1,False,False,1
+02_CLOTHING_AND_SAME_NAME_GROUPS,0,3,False,False,1
+03_HERO_CAR_AND_IMPORTED_PARTS,0,3,False,False,1
+04_ENVIRONMENT_STOREFRONTS_PARKING,2,1,False,False,1
+05_PROPS_SIGNS_DECOR,0,3,False,False,1
+06_LIGHTING_REFLECTIONS,2,1,False,False,1
+07_CAMERAS,1,1,False,False,1
+CAMERAS,14,0,False,False,1
+ENVIRONMENT_AND_PARKING,67,0,False,False,1
+HOODIE,1,0,False,False,1
+IMPORTED_CAR_OR_GENERIC_ASSET_PARTS,1,0,False,False,1
+LIGHTS_AND_REFLECTION_HELPERS,25,0,False,False,1
+Main Model,3,0,False,False,1
+PANTS,1,0,False,False,1
+PROPS,16,0,False,False,1
+SAME_NAME_Bolt,3,0,False,False,1
+SAME_NAME_Circle,8,0,False,False,1
+SAME_NAME_Mball,2,0,False,False,1
+SAME_NAME_Plane,71,0,False,False,1
+SHOES,0,1,False,False,1
+Shoes,3,0,False,False,1

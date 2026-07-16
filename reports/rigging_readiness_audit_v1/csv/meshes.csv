@@ -1,0 +1,190 @@
+object,category,mesh,data_users,vertices,edges,polygons,boundary_edges,nonmanifold_edges,shape_key_count,active_shape_key,shape_keys,vertex_group_count,armature_modifier_count,parent,materials,hide_viewport,hide_render
+177d920ddde57c74f8e1ef18863ab511,OTHER,177d920ddde57c74f8e1ef18863ab511,1,874,1744,872,0,0,0,,,0,0,Plane.023,no parking_board | no parking_Rusty painted metal,False,False
+177d920ddde57c74f8e1ef18863ab511.001,OTHER,177d920ddde57c74f8e1ef18863ab511.001,1,8,12,6,0,0,0,,,0,0,177d920ddde57c74f8e1ef18863ab511,no parking_Procedural Metal 01,False,False
+Asphalt ground,ENVIRONMENT_EFFECT,remeshed_object,1,16441,32594,16154,572,572,0,,,0,0,,main.001,False,False
+Axle.001,OTHER,Mesh.010,1,302,620,320,0,0,0,,,0,0,Large Trash Can,Can.001,False,False
+Bolt,ENVIRONMENT_EFFECT,Bolt,1,293,596,304,40,40,0,,,0,0,Plane.023,no parking_Procedural Metal 01,False,False
+Bolt.001,ENVIRONMENT_EFFECT,Bolt.001,1,586,1192,608,80,80,0,,,0,0,Plane.023,no parking_Procedural Metal 01,False,False
+Bolt.002,ENVIRONMENT_EFFECT,Bolt.002,1,5440,11100,5688,1128,1128,0,,,0,0,Audi e-tron GT quattro Black,Bolts,False,False
+Can.001,OTHER,Mesh.014,1,11142,23471,12327,0,0,0,,,0,0,Large Trash Can,Can.002,False,False
+Cargo pants,CLOTHING,Cargo pants,1,16507,32932,16424,356,540,0,,,0,0,,Black Denim Jeans Fabric,False,False
+Circle,OTHER,Circle.001,1,161,316,156,8,8,0,,,0,0,Audi e-tron GT quattro Black,Plastic.001 | Material.005,False,False
+Circle.001,OTHER,Circle.002,1,1402,2688,1280,256,256,0,,,0,0,Audi e-tron GT quattro Black,Car paint | Material | Plastic,False,False
+Circle.002,OTHER,Circle.006,1,4324,8594,4282,80,80,0,,,0,0,Audi e-tron GT quattro Black,Material.003,False,False
+Circle.003,OTHER,Circle.007,1,24792,46496,20464,4464,9960,0,,,0,0,Audi e-tron GT quattro Black,Metal,False,False
+Circle.006,OTHER,Circle.014,1,1408,2688,1280,256,256,0,,,0,0,Audi e-tron GT quattro Black,Material,False,False
+Circle.007,OTHER,Circle.013,1,690,1312,624,128,128,0,,,0,0,Audi e-tron GT quattro Black,Car paint | Material | Plastic,False,False
+Circle.009,OTHER,Circle.016,1,23528,47876,24192,140,240,0,,,0,0,Audi e-tron GT quattro Black,Rims,False,False
+Circle.011,OTHER,Circle.018,1,5632,10752,5120,1024,1024,0,,,0,0,Audi e-tron GT quattro Black,Material,False,False
+Cube,ENVIRONMENT_EFFECT,Cube,1,8,12,6,0,0,0,,,0,0,,,False,True
+Cylinder.001,OTHER,Cylinder.002,1,60,110,51,10,10,0,,,0,0,Plane.023,no parking_Procedural Metal 01,False,False
+F2,CHARACTER,Meshy_Left_Standing_Candidate.006,1,33624,97337,63715,0,0,2,Key 1,Basis | Key 1,0,0,,Cloth Brown | Material.020,False,False
+FX_ReflectCard_Green_01,ENVIRONMENT_EFFECT,FX_ReflectCard_Green_01_Mesh.001,1,33,33,1,33,33,0,,,0,0,,FX_MAT_CyclesReflect_Green,False,False
+FX_ReflectCard_Green_02,ENVIRONMENT_EFFECT,FX_ReflectCard_Green_02_Mesh.001,1,33,33,1,33,33,0,,,0,0,,FX_MAT_CyclesReflect_Green,False,False
+FX_ReflectCard_Red_01,ENVIRONMENT_EFFECT,FX_ReflectCard_Red_01_Mesh.001,1,33,33,1,33,33,0,,,0,0,,FX_MAT_CyclesReflect_Red,False,False
+FX_ReflectCard_Red_02,ENVIRONMENT_EFFECT,FX_ReflectCard_Red_02_Mesh.001,1,33,33,1,33,33,0,,,0,0,,FX_MAT_CyclesReflect_Red,False,False
+FX_ReflectCard_Yellow_01,ENVIRONMENT_EFFECT,FX_ReflectCard_Yellow_01_Mesh.001,1,33,33,1,33,33,0,,,0,0,,FX_MAT_CyclesReflect_Yellow,False,False
+FX_ReflectCard_Yellow_02,ENVIRONMENT_EFFECT,FX_ReflectCard_Yellow_02_Mesh.001,1,33,33,1,33,33,0,,,0,0,,FX_MAT_CyclesReflect_Yellow,False,False
+Handlebars.001,CHARACTER,Mesh.015,1,4352,9143,4791,0,0,0,,,0,0,Large Trash Can,Can.002,False,False
+HERO_Curb_VerticalFace,CHARACTER,Cube.196,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_SidewalkConcrete,False,False
+HERO_DoubleDoor_CenterMeet_1,ENVIRONMENT_EFFECT,Cube.175,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ConjoinedBlackMetalFrames,False,False
+HERO_DoubleDoor_CenterMeet_2,ENVIRONMENT_EFFECT,Cube.183,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ConjoinedBlackMetalFrames,False,False
+HERO_DoubleDoor_LeftSide_1,ENVIRONMENT_EFFECT,Cube.174,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ConjoinedBlackMetalFrames,False,False
+HERO_DoubleDoor_LeftSide_2,ENVIRONMENT_EFFECT,Cube.182,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ConjoinedBlackMetalFrames,False,False
+HERO_DoubleDoor_RightSide_1,ENVIRONMENT_EFFECT,Cube.176,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ConjoinedBlackMetalFrames,False,False
+HERO_DoubleDoor_RightSide_2,ENVIRONMENT_EFFECT,Cube.184,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ConjoinedBlackMetalFrames,False,False
+HERO_DoubleDoor_TopFrame_1,ENVIRONMENT_EFFECT,Cube.177,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ConjoinedBlackMetalFrames,False,False
+HERO_DoubleDoor_TopFrame_2,ENVIRONMENT_EFFECT,Cube.185,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ConjoinedBlackMetalFrames,False,False
+HERO_GlassStorefront_Bay_0,ENVIRONMENT_EFFECT,Cube.112,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_Glass_NightGlossy,False,False
+HERO_GlassStorefront_Bay_1,ENVIRONMENT_EFFECT,Cube.170,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_Glass_NightGlossy,False,False
+HERO_GlassStorefront_Bay_2,ENVIRONMENT_EFFECT,Cube.178,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_Glass_NightGlossy,False,False
+HERO_GlassStorefront_Bay_3,ENVIRONMENT_EFFECT,Cube.186,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_Glass_NightGlossy,False,False
+HERO_HParking_CenterSpine,ENVIRONMENT_EFFECT,Cube.222,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ParkingLinePaint,False,False
+HERO_HParking_Row0_Divider_0,ENVIRONMENT_EFFECT,Cube.206,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ParkingLinePaint,False,False
+HERO_HParking_Row0_Divider_1,ENVIRONMENT_EFFECT,Cube.207,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ParkingLinePaint,False,False
+HERO_HParking_Row0_Divider_2,ENVIRONMENT_EFFECT,Cube.208,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ParkingLinePaint,False,False
+HERO_HParking_Row0_Divider_3,ENVIRONMENT_EFFECT,Cube.209,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ParkingLinePaint,False,False
+HERO_HParking_Row0_Divider_4,ENVIRONMENT_EFFECT,Cube.210,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ParkingLinePaint,False,False
+HERO_HParking_Row0_Divider_5,ENVIRONMENT_EFFECT,Cube.211,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ParkingLinePaint,False,False
+HERO_HParking_Row0_Divider_6,ENVIRONMENT_EFFECT,Cube.212,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ParkingLinePaint,False,False
+HERO_HParking_Row0_Divider_7,ENVIRONMENT_EFFECT,Cube.213,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ParkingLinePaint,False,False
+HERO_HParking_Row1_Divider_0,ENVIRONMENT_EFFECT,Cube.214,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ParkingLinePaint,False,False
+HERO_HParking_Row1_Divider_1,ENVIRONMENT_EFFECT,Cube.215,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ParkingLinePaint,False,False
+HERO_HParking_Row1_Divider_2,ENVIRONMENT_EFFECT,Cube.216,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ParkingLinePaint,False,False
+HERO_HParking_Row1_Divider_3,ENVIRONMENT_EFFECT,Cube.217,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ParkingLinePaint,False,False
+HERO_HParking_Row1_Divider_4,ENVIRONMENT_EFFECT,Cube.218,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ParkingLinePaint,False,False
+HERO_HParking_Row1_Divider_5,ENVIRONMENT_EFFECT,Cube.219,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ParkingLinePaint,False,False
+HERO_HParking_Row1_Divider_6,ENVIRONMENT_EFFECT,Cube.220,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ParkingLinePaint,False,False
+HERO_HParking_Row1_Divider_7,ENVIRONMENT_EFFECT,Cube.221,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ParkingLinePaint,False,False
+HERO_LampArm_0,CHARACTER,Cylinder.017,1,36,54,20,0,0,0,,,0,0,,HERO_MAT_LampPostDarkMetal,False,False
+HERO_LampArm_1,CHARACTER,Cylinder.019,1,36,54,20,0,0,0,,,0,0,,HERO_MAT_LampPostDarkMetal,False,False
+HERO_LampFixture_0,ENVIRONMENT_EFFECT,Cube.223,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_LampPostDarkMetal,False,False
+HERO_LampFixture_1,ENVIRONMENT_EFFECT,Cube.225,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_LampPostDarkMetal,False,False
+HERO_LampGlass_0,ENVIRONMENT_EFFECT,Cube.224,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_LampGlassAmber,False,False
+HERO_LampGlass_1,ENVIRONMENT_EFFECT,Cube.226,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_LampGlassAmber,False,False
+HERO_LampPole_0,ENVIRONMENT_EFFECT,Cylinder.016,1,56,84,30,0,0,0,,,0,0,,HERO_MAT_LampPostDarkMetal,False,False
+HERO_LampPole_1,ENVIRONMENT_EFFECT,Cylinder.018,1,56,84,30,0,0,0,,,0,0,,HERO_MAT_LampPostDarkMetal,False,False
+HERO_Rooftop_HVAC_0,ENVIRONMENT_EFFECT,Cube.191,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_RooftopHVAC,False,False
+HERO_Rooftop_HVAC_1,ENVIRONMENT_EFFECT,Cube.192,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_RooftopHVAC,False,False
+HERO_Rooftop_HVAC_2,ENVIRONMENT_EFFECT,Cube.193,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_RooftopHVAC,False,False
+HERO_Rooftop_HVAC_3,ENVIRONMENT_EFFECT,Cube.194,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_RooftopHVAC,False,False
+HERO_Rooftop_Vent_0,ENVIRONMENT_EFFECT,Cylinder.008,1,40,60,22,0,0,0,,,0,0,,HERO_MAT_RooftopHVAC,False,False
+HERO_Rooftop_Vent_1,ENVIRONMENT_EFFECT,Cylinder.009,1,40,60,22,0,0,0,,,0,0,,HERO_MAT_RooftopHVAC,False,False
+HERO_Rooftop_Vent_2,ENVIRONMENT_EFFECT,Cylinder.010,1,40,60,22,0,0,0,,,0,0,,HERO_MAT_RooftopHVAC,False,False
+HERO_Rooftop_Vent_3,ENVIRONMENT_EFFECT,Cylinder.011,1,40,60,22,0,0,0,,,0,0,,HERO_MAT_RooftopHVAC,False,False
+HERO_Sidewalk_ExpansionJoint_X_1,ENVIRONMENT_EFFECT,Cube.198,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_SidewalkGroove,False,False
+HERO_Sidewalk_ExpansionJoint_X_2,ENVIRONMENT_EFFECT,Cube.199,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_SidewalkGroove,False,False
+HERO_Sidewalk_ExpansionJoint_X_3,ENVIRONMENT_EFFECT,Cube.200,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_SidewalkGroove,False,False
+HERO_Sidewalk_ExpansionJoint_X_4,ENVIRONMENT_EFFECT,Cube.201,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_SidewalkGroove,False,False
+HERO_Sidewalk_ExpansionJoint_X_5,ENVIRONMENT_EFFECT,Cube.202,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_SidewalkGroove,False,False
+HERO_Sidewalk_ExpansionJoint_X_6,ENVIRONMENT_EFFECT,Cube.203,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_SidewalkGroove,False,False
+HERO_Sidewalk_ExpansionJoint_X_7,ENVIRONMENT_EFFECT,Cube.204,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_SidewalkGroove,False,False
+HERO_Sidewalk_WideTop,ENVIRONMENT_EFFECT,Cube.195,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_SidewalkConcrete,False,False
+HERO_Storefront_CenterMullion_0,ENVIRONMENT_EFFECT,Cube.169,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ConjoinedBlackMetalFrames,False,False
+HERO_Storefront_CenterMullion_3,ENVIRONMENT_EFFECT,Cube.190,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ConjoinedBlackMetalFrames,False,False
+HERO_Storefront_ContinuousBottomFrame,ENVIRONMENT_EFFECT,Cube.059,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ConjoinedBlackMetalFrames,False,False
+HERO_Storefront_ContinuousTopFrame,ENVIRONMENT_EFFECT,Cube.058,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ConjoinedBlackMetalFrames,False,False
+HERO_Storefront_LeftVertical_0,ENVIRONMENT_EFFECT,Cube.119,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ConjoinedBlackMetalFrames,False,False
+HERO_Storefront_LeftVertical_1,ENVIRONMENT_EFFECT,Cube.171,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ConjoinedBlackMetalFrames,False,False
+HERO_Storefront_LeftVertical_2,ENVIRONMENT_EFFECT,Cube.179,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ConjoinedBlackMetalFrames,False,False
+HERO_Storefront_LeftVertical_3,ENVIRONMENT_EFFECT,Cube.187,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ConjoinedBlackMetalFrames,False,False
+HERO_Storefront_MidHorizontal_0,ENVIRONMENT_EFFECT,Cube.133,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ConjoinedBlackMetalFrames,False,False
+HERO_Storefront_MidHorizontal_1,ENVIRONMENT_EFFECT,Cube.173,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ConjoinedBlackMetalFrames,False,False
+HERO_Storefront_MidHorizontal_2,ENVIRONMENT_EFFECT,Cube.181,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ConjoinedBlackMetalFrames,False,False
+HERO_Storefront_MidHorizontal_3,ENVIRONMENT_EFFECT,Cube.189,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ConjoinedBlackMetalFrames,False,False
+HERO_Storefront_RightVertical_0,ENVIRONMENT_EFFECT,Cube.126,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ConjoinedBlackMetalFrames,False,False
+HERO_Storefront_RightVertical_1,ENVIRONMENT_EFFECT,Cube.172,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ConjoinedBlackMetalFrames,False,False
+HERO_Storefront_RightVertical_2,ENVIRONMENT_EFFECT,Cube.180,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ConjoinedBlackMetalFrames,False,False
+HERO_Storefront_RightVertical_3,ENVIRONMENT_EFFECT,Cube.188,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_ConjoinedBlackMetalFrames,False,False
+HERO_StoreMall_DeepBody,CHARACTER,Cube.050,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_StoreStucco,False,False
+HERO_StoreMall_FlatRoof,ENVIRONMENT_EFFECT,Cube.056,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_FlatRoof,False,False
+HERO_StoreMall_FrontParapet,ENVIRONMENT_EFFECT,Cube.057,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_StoreStucco,False,False
+HERO_Underglow_FrontHiddenStrip,ENVIRONMENT_EFFECT,Cube.054,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_CyanUnderglow,False,False
+HERO_Underglow_RearHiddenStrip,ENVIRONMENT_EFFECT,Cube.055,1,8,12,6,0,0,0,,,0,0,,HERO_MAT_CyanUnderglow,False,False
+L.Eye,CHARACTER,Sphere.019,1,482,992,512,0,0,0,,,0,0,,Material.001,False,False
+Lid Pins.001,OTHER,Mesh.019,1,2780,5746,2970,0,0,0,,,0,0,Large Trash Can,Can.001,False,False
+Lid.001,OTHER,Mesh.017,1,21254,44416,23160,0,40,0,,,0,0,Large Trash Can,Can.002,False,False
+Lightning,ENVIRONMENT_EFFECT,Cylinder,1,1856,3680,1826,0,0,0,,,0,0,,Material.022,False,False
+Lowerpoly hoodie,CHARACTER,SACKBOY_Hoodie_Main_Mesh.002,1,7107,21232,14099,85,578,0,,,0,0,,Cloth Black.004 | Cloth Black.004 | Cloth Black.004 | Material107852.002 | Material118001.002,False,False
+Mball.008,OTHER,Mesh.001,1,1510,3395,1893,0,0,0,,,0,0,177d920ddde57c74f8e1ef18863ab511,no parking_Rusty painted metal,False,False
+Mball.011,OTHER,Mesh,1,1930,4349,2419,0,0,0,,,0,0,Plane.023,no parking_Procedural Metal 01,False,False
+Mountains,ENVIRONMENT_EFFECT,Plane.001,1,4225,8320,4096,256,256,0,,,0,0,,Material.021,False,False
+Plane,OTHER,Plane,1,405,776,372,64,64,0,,,0,0,Audi e-tron GT quattro Black,Material.002,False,False
+Plane.001,CHARACTER,Plane.036,1,10292,21106,10800,836,838,0,,,0,0,Shoes,Rubber Black | Cloth Black | Cloth Black | Shoes_Metal.001 | Cloth Black | Cloth Black | Rubber Black,False,False
+Plane.002,OTHER,Plane.002,1,1114,2133,1018,204,204,0,,,0,0,Audi e-tron GT quattro Black,Material.002,False,False
+Plane.003,OTHER,Plane.003,1,2285,4492,2198,190,194,0,,,0,0,Audi e-tron GT quattro Black,Material.002,False,False
+Plane.004,OTHER,Plane.004,1,1370,2660,1292,168,168,0,,,0,0,Audi e-tron GT quattro Black,Material.002 | Plastic,False,False
+Plane.005,OTHER,Plane.005,1,1268,2452,1186,176,176,0,,,0,0,Audi e-tron GT quattro Black,Material.002 | Plastic,False,False
+Plane.006,OTHER,Plane.006,1,1438,2746,1310,268,268,0,,,0,0,Audi e-tron GT quattro Black,Material.002,False,False
+Plane.007,OTHER,Plane.007,1,668,1262,596,148,148,0,,,0,0,Audi e-tron GT quattro Black,Material.002,False,False
+Plane.008,OTHER,Plane.008,1,411,760,352,112,112,0,,,0,0,Audi e-tron GT quattro Black,Material.002 | Plastic,False,False
+Plane.009,OTHER,Plane.009,1,481,917,436,106,106,0,,,0,0,Audi e-tron GT quattro Black,Material.002,False,False
+Plane.010,OTHER,Plane.011,1,714,1336,626,180,180,0,,,0,0,Audi e-tron GT quattro Black,Material.002,False,False
+Plane.011,OTHER,Plane.012,1,128,237,110,38,38,0,,,0,0,Audi e-tron GT quattro Black,Car paint,False,False
+Plane.012,OTHER,Plane.013,1,234,439,206,54,54,0,,,0,0,Audi e-tron GT quattro Black,Material.002,False,False
+Plane.013,OTHER,Plane.014,1,675,1296,622,122,122,0,,,0,0,Audi e-tron GT quattro Black,Material.002,False,False
+Plane.014,OTHER,Plane.010,1,582,1103,522,124,124,0,,,0,0,Audi e-tron GT quattro Black,Material.002,False,False
+Plane.015,OTHER,Plane.016,1,443,824,384,108,108,0,,,0,0,Audi e-tron GT quattro Black,Material.002,False,False
+Plane.016,OTHER,Plane.019,1,116,206,92,44,44,0,,,0,0,Audi e-tron GT quattro Black,Plastic,False,False
+Plane.017,OTHER,Plane.020,1,624,1174,552,140,140,0,,,0,0,Audi e-tron GT quattro Black,Material.002,False,False
+Plane.018,OTHER,Plane.022,1,336,588,258,120,120,0,,,0,0,Audi e-tron GT quattro Black,Plastic,False,False
+Plane.019,OTHER,Plane.023,1,320,595,276,86,86,0,,,0,0,Audi e-tron GT quattro Black,Plastic,False,False
+Plane.020,OTHER,Plane.044,1,64,104,42,40,40,0,,,0,0,Audi e-tron GT quattro Black,Plastic,False,False
+Plane.021,OTHER,Plane.045,1,240,414,168,132,144,0,,,0,0,Audi e-tron GT quattro Black,Plastic,False,False
+Plane.022,CHARACTER,Plane.051,1,10292,21106,10800,836,838,0,,,0,0,Shoes,Rubber Black | Cloth Black | Cloth Black | Shoes_Metal.001 | Cloth Black | Cloth Black | Rubber Black,False,False
+Plane.023,OTHER,Plane.025,1,132,256,126,0,0,0,,,0,0,No Parking Sign,no parking_Procedural Metal 01,False,False
+Plane.024,OTHER,Plane.040,1,827,1547,726,216,216,0,,,0,0,Audi e-tron GT quattro Black,Glass,False,False
+Plane.025,OTHER,Plane.043,1,778,1434,662,224,224,0,,,0,0,Audi e-tron GT quattro Black,Plastic,False,False
+Plane.026,OTHER,Plane.046,1,352,660,308,88,88,0,,,0,0,Audi e-tron GT quattro Black,Plastic,False,False
+Plane.027,OTHER,Plane.027,1,818,1555,738,160,160,0,,,0,0,Audi e-tron GT quattro Black,Underpart,False,False
+Plane.028,OTHER,Plane.047,1,136,239,98,70,78,0,,,0,0,Audi e-tron GT quattro Black,Plastic,False,False
+Plane.029,OTHER,Plane.032,1,545,1056,512,64,64,0,,,0,0,Cast iron sewer hatch,Material.004,False,False
+Plane.030,OTHER,Plane.049,1,643,1202,560,176,178,0,,,0,0,Audi e-tron GT quattro Black,Plastic.001 | Material.005,False,False
+Plane.031,OTHER,Plane.052,1,48,87,40,14,14,0,,,0,0,Audi e-tron GT quattro Black,Plastic,False,False
+Plane.032,OTHER,Plane.053,1,530,992,462,136,136,0,,,0,0,Audi e-tron GT quattro Black,Plastic,False,False
+Plane.033,OTHER,Plane.054,1,1144,2196,1052,176,176,0,,,0,0,Audi e-tron GT quattro Black,Car paint,False,False
+Plane.034,OTHER,Plane.056,1,1874,3622,1752,234,234,0,,,0,0,Audi e-tron GT quattro Black,Material.002 | Plastic | Material.018,False,False
+Plane.035,OTHER,Plane.066,1,266,480,218,94,94,0,,,0,0,Audi e-tron GT quattro Black,Plastic,False,False
+Plane.036,OTHER,Plane.018,1,180,322,144,68,68,0,,,0,0,Audi e-tron GT quattro Black,Underpart,False,False
+Plane.037,OTHER,Plane.063,1,979,1862,886,198,198,0,,,0,0,Audi e-tron GT quattro Black,Window,False,False
+Plane.038,OTHER,Plane.061,1,226,414,190,68,68,0,,,0,0,Audi e-tron GT quattro Black,Window,False,False
+Plane.039,OTHER,Plane.067,1,32,61,30,32,32,0,,,0,0,Audi e-tron GT quattro Black,Underpart,False,False
+Plane.040,OTHER,Plane.015,1,162,288,128,64,64,0,,,0,0,Audi e-tron GT quattro Black,Window Glass Cycle,False,False
+Plane.041,OTHER,Plane.021,1,68,115,48,38,38,0,,,0,0,Audi e-tron GT quattro Black,Underpart,False,False
+Plane.042,OTHER,Plane.024,1,76,131,56,38,38,0,,,0,0,Audi e-tron GT quattro Black,,False,False
+Plane.043,OTHER,Plane.026,1,42,61,20,42,42,0,,,0,0,Audi e-tron GT quattro Black,Material.003,False,False
+Plane.045,OTHER,Plane.030,1,84,143,60,46,46,0,,,0,0,Audi e-tron GT quattro Black,Material.003,False,False
+Plane.047,OTHER,Plane.028,1,1040,1950,910,260,260,0,,,0,0,Audi e-tron GT quattro Black,Material.009,False,False
+Plane.048,OTHER,Plane.029,1,98,146,50,94,94,0,,,0,0,Audi e-tron GT quattro Black,Material.010,False,False
+Plane.049,OTHER,Plane.031,1,3136,5980,2847,544,544,0,,,0,0,Audi e-tron GT quattro Black,Material.006 | Material.007,False,False
+Plane.050,OTHER,Plane.037,1,440,819,382,110,110,0,,,0,0,Audi e-tron GT quattro Black,Material.008,False,False
+Plane.051,OTHER,Plane.035,1,656,1206,558,180,180,0,,,0,0,Audi e-tron GT quattro Black,Material.008,False,False
+Plane.052,OTHER,Plane.041,1,688,1290,602,172,172,0,,,0,0,Audi e-tron GT quattro Black,Material.008,False,False
+Plane.053,OTHER,Plane.042,1,564,1028,462,184,184,0,,,0,0,Audi e-tron GT quattro Black,Material.009,False,False
+Plane.054,OTHER,Plane.038,1,392,584,194,392,392,0,,,0,0,Audi e-tron GT quattro Black,Material.007,False,False
+Plane.055,OTHER,Plane.048,1,72,102,36,72,72,0,,,0,0,Audi e-tron GT quattro Black,Material.008,False,False
+Plane.056,OTHER,Plane.050,1,772,1514,744,68,68,0,,,0,0,Audi e-tron GT quattro Black,Material.014,False,False
+Plane.057,OTHER,Plane.058,1,282,420,140,282,282,0,,,0,0,Audi e-tron GT quattro Black,Material.017,False,False
+Plane.058,OTHER,Plane.057,1,128,240,112,32,32,0,,,0,0,Audi e-tron GT quattro Black,Material.015,False,False
+Plane.059,OTHER,Plane.059,1,528,1008,480,96,96,0,,,0,0,Audi e-tron GT quattro Black,Material.016,False,False
+Plane.060,OTHER,Plane.064,1,162,288,128,64,64,0,,,0,0,Audi e-tron GT quattro Black,Material.015,False,False
+Plane.061,OTHER,Plane.062,1,120,206,88,60,60,0,,,0,0,Audi e-tron GT quattro Black,Glass.001,False,False
+Plane.062,OTHER,Plane.065,1,368,684,326,64,64,0,,,0,0,Audi e-tron GT quattro Black,Material.011,False,False
+Plane.063,OTHER,Plane.033,1,72,124,54,32,32,0,,,0,0,Audi e-tron GT quattro Black,Material.015,False,False
+Plane.064,OTHER,Plane.034,1,48,82,36,22,22,0,,,0,0,Audi e-tron GT quattro Black,Material.015,False,False
+Plane.065,OTHER,Plane.039,1,156,292,140,26,26,0,,,0,0,Audi e-tron GT quattro Black,Material.011,False,False
+Plane.066,OTHER,Plane.068,1,192,336,144,96,96,0,,,0,0,Audi e-tron GT quattro Black,Material.012,False,False
+Plane.067,OTHER,Plane.060,1,240,428,192,88,88,0,,,0,0,Audi e-tron GT quattro Black,Material.015,False,False
+Plane.068,OTHER,Plane.070,1,192,336,144,96,96,0,,,0,0,Audi e-tron GT quattro Black,Material.015,False,False
+Plane.069,OTHER,Plane.071,1,36,50,16,36,36,0,,,0,0,Audi e-tron GT quattro Black,Material.015,False,False
+Plane.070,OTHER,Plane.073,1,2016,3936,1920,192,192,0,,,0,0,Audi e-tron GT quattro Black,,False,False
+Plane.071,OTHER,Plane.074,1,414,764,352,120,120,0,,,0,0,Audi e-tron GT quattro Black,,False,False
+Plane.072,OTHER,Plane.075,1,234,426,194,66,66,0,,,0,0,Audi e-tron GT quattro Black,Material.013,False,False
+Plane.074,OTHER,Plane.078,1,62832,130152,67320,1584,1584,0,,,0,0,Audi e-tron GT quattro Black,Tires,False,False
+Plane.076,OTHER,Plane.077,1,1409,2726,1319,208,208,0,,,0,0,Audi e-tron GT quattro Black,Material.002,False,False
+Plane.077,OTHER,Plane.079,1,14992,29136,14168,1712,1712,0,,,0,0,Audi e-tron GT quattro Black,Brake2 | Bolts,False,False
+R.Eye,CHARACTER,Sphere.020,1,482,992,512,0,0,0,,,0,0,,Material.019,False,False
+Ribbing.001,OTHER,Mesh.021,1,11332,23150,11940,360,360,0,,,0,0,Large Trash Can,Can.002,False,False
+Stop sign,OTHER,Circle,1,253,512,267,24,24,0,,,0,0,,STOP | Metal.001,False,False
+Traffic Cone (Photoscanned),OTHER,Traffic Cone (Photoscanned),1,6658,19458,12802,0,0,0,,,0,0,,Traffic Cone (Photoscanned),False,False
+Utility Box (Photoscanned),OTHER,Utility Box,1,12028,35726,23700,0,0,0,,,0,0,,UtilityBox,False,False
