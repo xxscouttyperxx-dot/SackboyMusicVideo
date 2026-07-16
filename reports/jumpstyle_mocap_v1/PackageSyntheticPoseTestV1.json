@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "quality": {
+    "passed": true,
+    "detection_rate": 0.9555555555555556,
+    "detected_frames": 86,
+    "frame_count": 90,
+    "median_key_visibility": 0.9499999999999997,
+    "longest_missing_gap_frames": 4,
+    "low_confidence_frames": 4,
+    "left_contact_frames": 90,
+    "right_contact_frames": 90,
+    "either_contact_frames": 90,
+    "both_contact_frames": 90
+  },
+  "calibration_frame": 67
+}

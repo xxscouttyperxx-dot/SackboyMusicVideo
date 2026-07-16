@@ -1,0 +1,573 @@
+{
+  "script_version": "1.3",
+  "timestamp_utc": "2026-07-16T23:14:02.622054+00:00",
+  "saved_blend": true,
+  "source_video": "motion/reference/dance_reference.mp4",
+  "source_sha256": "6128ee3ace2df31c6b344d8483b528b46da818ab8f27cf348eeed36d7f7fe487",
+  "source_width": 1780,
+  "source_height": 1002,
+  "source_fps": 30.0,
+  "source_frame_count": 764,
+  "source_duration_seconds": 25.466633,
+  "source_audio_usable": false,
+  "pose_quality": {
+    "passed": true,
+    "detection_rate": 1.0,
+    "detected_frames": 764,
+    "frame_count": 764,
+    "median_key_visibility": 0.8866902730044197,
+    "longest_missing_gap_frames": 0,
+    "low_confidence_frames": 0,
+    "left_contact_frames": 43,
+    "right_contact_frames": 35,
+    "either_contact_frames": 73,
+    "both_contact_frames": 5
+  },
+  "calibration_frame": 63,
+  "target_action": "SACKBOY_JUMPSTYLE_RETARGET_V1",
+  "target_start_frame": 400.0,
+  "target_end_frame": 1010.4,
+  "scene_fps": 24.0,
+  "scene_frame_start_before": 1,
+  "scene_frame_end_before": 120,
+  "scene_frame_start_after": 400,
+  "scene_frame_end_after": 1011,
+  "scene_frame_range_changed_intentionally": true,
+  "world_scale": 0.8904325266449041,
+  "screen_scale": 2.89838359368197,
+  "target_leg_length": 0.6438138948984299,
+  "source_leg_length": 0.7230350145948528,
+  "keyed_control_count": 13,
+  "keyed_controls": {
+    "root": true,
+    "CTRL_pelvis": true,
+    "CTRL_spine": true,
+    "CTRL_chest": true,
+    "CTRL_head": true,
+    "IK_hand.L": true,
+    "IK_hand.R": true,
+    "IK_foot.L": true,
+    "IK_foot.R": true,
+    "POLE_elbow.L": true,
+    "POLE_elbow.R": true,
+    "POLE_knee.L": true,
+    "POLE_knee.R": true
+  },
+  "keyed_switch_count": 4,
+  "keyed_switches": {
+    "IK_ARM_L": true,
+    "IK_ARM_R": true,
+    "IK_LEG_L": true,
+    "IK_LEG_R": true
+  },
+  "action_storage_api": "LAYERED_ACTION_CHANNELBAGS",
+  "action_layer_count": 1,
+  "action_slot_count": 1,
+  "action_channelbag_count": 1,
+  "fcurve_count": 79,
+  "keyframe_point_count": 60356,
+  "left_contact_segment_count": 12,
+  "right_contact_segment_count": 7,
+  "left_contact_max_target_slide": 0.0,
+  "right_contact_max_target_slide": 0.0,
+  "geometry_sample_count": 11,
+  "geometry_samples": {
+    "0": {
+      "F2": {
+        "dimensions": [
+          0.9477614164352417,
+          1.0182856321334839,
+          1.8447597026824951
+        ],
+        "ratios": [
+          0.4235602657118588,
+          1.3921674356157119,
+          0.8815402167790484
+        ],
+        "finite": true,
+        "passed": true
+      },
+      "Lowerpoly hoodie": {
+        "dimensions": [
+          0.9369485378265381,
+          1.1364004611968994,
+          1.6565965414047241
+        ],
+        "ratios": [
+          0.45615717768629,
+          1.4883079802496058,
+          1.117302122341445
+        ],
+        "finite": true,
+        "passed": true
+      },
+      "Cargo pants": {
+        "dimensions": [
+          0.5957898497581482,
+          0.9369202852249146,
+          0.6801602840423584
+        ],
+        "ratios": [
+          0.6919658896650398,
+          1.688552477541882,
+          0.9106894800931057
+        ],
+        "finite": true,
+        "passed": true
+      }
+    },
+    "76": {
+      "F2": {
+        "dimensions": [
+          0.960204005241394,
+          0.7602674961090088,
+          2.0735931396484375
+        ],
+        "ratios": [
+          0.42912093333293555,
+          1.0394133208208833,
+          0.9908909779301721
+        ],
+        "finite": true,
+        "passed": true
+      },
+      "Lowerpoly hoodie": {
+        "dimensions": [
+          1.074159026145935,
+          0.8457210063934326,
+          1.5499423742294312
+        ],
+        "ratios": [
+          0.5229586577824373,
+          1.1076142309502153,
+          1.0453685378124884
+        ],
+        "finite": true,
+        "passed": true
+      },
+      "Cargo pants": {
+        "dimensions": [
+          1.0399326086044312,
+          0.5359897017478943,
+          0.8418923616409302
+        ],
+        "ratios": [
+          1.2078048879093202,
+          0.9659805141331509,
+          1.1272379983148024
+        ],
+        "finite": true,
+        "passed": true
+      }
+    },
+    "153": {
+      "F2": {
+        "dimensions": [
+          0.9309075474739075,
+          0.7522221803665161,
+          1.8644492626190186
+        ],
+        "ratios": [
+          0.4160281705117971,
+          1.0284140233423578,
+          0.8909491055950213
+        ],
+        "finite": true,
+        "passed": true
+      },
+      "Lowerpoly hoodie": {
+        "dimensions": [
+          1.0471091270446777,
+          0.8331935405731201,
+          1.7617743015289307
+        ],
+        "ratios": [
+          0.509789305216552,
+          1.0912074025571346,
+          1.1882399347011445
+        ],
+        "finite": true,
+        "passed": true
+      },
+      "Cargo pants": {
+        "dimensions": [
+          0.8099246621131897,
+          0.7632558345794678,
+          0.6148058176040649
+        ],
+        "ratios": [
+          0.9406676525427753,
+          1.3755679653878685,
+          0.8231841869161445
+        ],
+        "finite": true,
+        "passed": true
+      }
+    },
+    "229": {
+      "F2": {
+        "dimensions": [
+          0.9714541435241699,
+          1.139883279800415,
+          1.7816452980041504
+        ],
+        "ratios": [
+          0.4341486876577217,
+          1.5584118369775328,
+          0.8513802529088897
+        ],
+        "finite": true,
+        "passed": true
+      },
+      "Lowerpoly hoodie": {
+        "dimensions": [
+          0.8663382530212402,
+          1.2607828378677368,
+          1.6863969564437866
+        ],
+        "ratios": [
+          0.42178027550644703,
+          1.6512076710915518,
+          1.1374012026773046
+        ],
+        "finite": true,
+        "passed": true
+      },
+      "Cargo pants": {
+        "dimensions": [
+          0.7306423187255859,
+          0.7651274800300598,
+          0.7440125346183777
+        ],
+        "ratios": [
+          0.8485870685932464,
+          1.378941114216553,
+          0.9961834059281347
+        ],
+        "finite": true,
+        "passed": true
+      }
+    },
+    "306": {
+      "F2": {
+        "dimensions": [
+          0.9751474857330322,
+          0.8185224533081055,
+          1.8419544696807861
+        ],
+        "ratios": [
+          0.4357992644592488,
+          1.119057628681586,
+          0.8801997030498909
+        ],
+        "finite": true,
+        "passed": true
+      },
+      "Lowerpoly hoodie": {
+        "dimensions": [
+          1.0521163940429688,
+          0.9144821166992188,
+          1.5938633680343628
+        ],
+        "ratios": [
+          0.5122271133667846,
+          1.197668496759945,
+          1.0749913327218534
+        ],
+        "finite": true,
+        "passed": true
+      },
+      "Cargo pants": {
+        "dimensions": [
+          0.8576345443725586,
+          0.6144715547561646,
+          0.6748847961425781
+        ],
+        "ratios": [
+          0.9960791556706313,
+          1.1074234196065658,
+          0.9036259519139314
+        ],
+        "finite": true,
+        "passed": true
+      }
+    },
+    "382": {
+      "F2": {
+        "dimensions": [
+          0.9530602693557739,
+          0.9629001617431641,
+          1.7892441749572754
+        ],
+        "ratios": [
+          0.42592835488711805,
+          1.3164461980272846,
+          0.8550114660293815
+        ],
+        "finite": true,
+        "passed": true
+      },
+      "Lowerpoly hoodie": {
+        "dimensions": [
+          0.9887807965278625,
+          1.1052887439727783,
+          1.6110482215881348
+        ],
+        "ratios": [
+          0.4813919220588556,
+          1.447561941678696,
+          1.0865817670055535
+        ],
+        "finite": true,
+        "passed": true
+      },
+      "Cargo pants": {
+        "dimensions": [
+          0.7557792663574219,
+          0.6317983865737915,
+          0.7178704738616943
+        ],
+        "ratios": [
+          0.8777817759864449,
+          1.1386504783595761,
+          0.9611809215466979
+        ],
+        "finite": true,
+        "passed": true
+      }
+    },
+    "458": {
+      "F2": {
+        "dimensions": [
+          1.1582585573196411,
+          1.083072543144226,
+          1.8555762767791748
+        ],
+        "ratios": [
+          0.5176327014308906,
+          1.4807420210925941,
+          0.8867090444914753
+        ],
+        "finite": true,
+        "passed": true
+      },
+      "Lowerpoly hoodie": {
+        "dimensions": [
+          1.097335934638977,
+          1.0534790754318237,
+          1.6268327236175537
+        ],
+        "ratios": [
+          0.5342424292371687,
+          1.3797084465627438,
+          1.0972277252559661
+        ],
+        "finite": true,
+        "passed": true
+      },
+      "Cargo pants": {
+        "dimensions": [
+          0.9439806938171387,
+          1.0508431196212769,
+          0.8156536221504211
+        ],
+        "ratios": [
+          1.0963638284354047,
+          1.8938684337679688,
+          1.0921060675250565
+        ],
+        "finite": true,
+        "passed": true
+      }
+    },
+    "535": {
+      "F2": {
+        "dimensions": [
+          0.9865119457244873,
+          0.7409415245056152,
+          1.8018616437911987
+        ],
+        "ratios": [
+          0.4408781098418319,
+          1.0129914726882452,
+          0.8610408725666588
+        ],
+        "finite": true,
+        "passed": true
+      },
+      "Lowerpoly hoodie": {
+        "dimensions": [
+          1.0330710411071777,
+          0.7425940036773682,
+          1.623764157295227
+        ],
+        "ratios": [
+          0.5029548064123571,
+          0.9725520355689448,
+          1.0951581110929582
+        ],
+        "finite": true,
+        "passed": true
+      },
+      "Cargo pants": {
+        "dimensions": [
+          1.0649508237838745,
+          0.6969329714775085,
+          0.5843197703361511
+        ],
+        "ratios": [
+          1.2368616963317904,
+          1.2560384423595563,
+          0.7823653928937913
+        ],
+        "finite": true,
+        "passed": true
+      }
+    },
+    "611": {
+      "F2": {
+        "dimensions": [
+          0.9529300928115845,
+          0.7072722911834717,
+          1.6776608228683472
+        ],
+        "ratios": [
+          0.4258701782081668,
+          0.966959977463248,
+          0.8016900430568543
+        ],
+        "finite": true,
+        "passed": true
+      },
+      "Lowerpoly hoodie": {
+        "dimensions": [
+          1.0299084186553955,
+          0.7711977362632751,
+          1.6716949939727783
+        ],
+        "ratios": [
+          0.5014150709056036,
+          1.01001344545582,
+          1.127485370149058
+        ],
+        "finite": true,
+        "passed": true
+      },
+      "Cargo pants": {
+        "dimensions": [
+          0.8635711073875427,
+          0.6493635773658752,
+          0.5127084255218506
+        ],
+        "ratios": [
+          1.002974034980649,
+          1.1703071164943228,
+          0.6864825548219904
+        ],
+        "finite": true,
+        "passed": true
+      }
+    },
+    "688": {
+      "F2": {
+        "dimensions": [
+          0.8057670593261719,
+          1.1373196840286255,
+          1.84071683883667
+        ],
+        "ratios": [
+          0.3601021352332885,
+          1.5549069711138261,
+          0.8796082865304232
+        ],
+        "finite": true,
+        "passed": true
+      },
+      "Lowerpoly hoodie": {
+        "dimensions": [
+          0.9465078115463257,
+          1.1827566623687744,
+          1.7279728651046753
+        ],
+        "ratios": [
+          0.4608111486833143,
+          1.5490192404909933,
+          1.1654423399271112
+        ],
+        "finite": true,
+        "passed": true
+      },
+      "Cargo pants": {
+        "dimensions": [
+          0.8104441165924072,
+          0.8028619885444641,
+          0.884986162185669
+        ],
+        "ratios": [
+          0.941270960539711,
+          1.4469476445965919,
+          1.1849377372352834
+        ],
+        "finite": true,
+        "passed": true
+      }
+    },
+    "763": {
+      "F2": {
+        "dimensions": [
+          0.7496048808097839,
+          1.1920409202575684,
+          2.0189051628112793
+        ],
+        "ratios": [
+          0.3350029205545239,
+          1.6297200890746053,
+          0.9647576821485406
+        ],
+        "finite": true,
+        "passed": true
+      },
+      "Lowerpoly hoodie": {
+        "dimensions": [
+          0.8723865747451782,
+          1.2517375946044922,
+          1.6991417407989502
+        ],
+        "ratios": [
+          0.42472492535213685,
+          1.6393614001759214,
+          1.1459970039197322
+        ],
+        "finite": true,
+        "passed": true
+      },
+      "Cargo pants": {
+        "dimensions": [
+          0.6664326786994934,
+          0.7896718382835388,
+          0.8150495290756226
+        ],
+        "ratios": [
+          0.7740123159287572,
+          1.4231758667266223,
+          1.0912972269897836
+        ],
+        "finite": true,
+        "passed": true
+      }
+    }
+  },
+  "geometry_checks_passed": true,
+  "rest_bone_change_count": 0,
+  "constraint_snapshot_mode": "STRUCTURAL_CONSTRAINTS_WITH_DRIVEN_INFLUENCE_EXCLUDED",
+  "constraint_driver_policy": "COMPARE_DRIVER_DEFINITION_NOT_EVALUATED_VALUE",
+  "constraint_change_count": 0,
+  "constraint_structure_change_count": 0,
+  "constraint_driver_change_count": 0,
+  "constraint_driver_count_before": 8,
+  "constraint_driver_count_after": 8,
+  "mesh_binding_change_count": 0,
+  "protected_change_count": 0,
+  "existing_actions_preserved": true,
+  "active_action": "SACKBOY_JUMPSTYLE_RETARGET_V1"
+}

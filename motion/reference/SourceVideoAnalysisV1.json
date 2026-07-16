@@ -1,0 +1,44 @@
+{
+  "analysis_version": "1.0",
+  "source_file": "motion/reference/dance_reference.mp4",
+  "sha256": "6128ee3ace2df31c6b344d8483b528b46da818ab8f27cf348eeed36d7f7fe487",
+  "container": "mp4",
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "width": 1780,
+  "height": 1002,
+  "fps": 30.0,
+  "frame_count": 764,
+  "duration_seconds": 25.466633,
+  "audio_analysis": {
+    "stream_present": true,
+    "usable_audio": false,
+    "reason": "Decoded audio samples are silent; preserve source frame timing instead of beat extraction."
+  },
+  "visual_analysis": {
+    "camera": "fixed",
+    "primary_subject": "single dominant foreground dancer",
+    "background_people": true,
+    "full_body_visibility": "good across the clip",
+    "feet_visibility": "good across the clip",
+    "motion_blur": "moderate during fastest jumps and kicks",
+    "occlusion_risk": "moderate during self-crossing limbs; low from background people",
+    "recommended_tracking_crop": {
+      "x_min": 0.18,
+      "x_max": 0.98,
+      "y_min": 0.0,
+      "y_max": 1.0
+    },
+    "reason_for_crop": "Keeps the large foreground dancer while excluding most left-side spectators."
+  },
+  "processing_plan": {
+    "pose_system": "MediaPipe legacy Pose full model bundled in mediapipe 0.10.18",
+    "landmarks": 33,
+    "primary_pass": "cropped sequential video tracking",
+    "fallback_pass": "expanded static-image detection for missed frames",
+    "smoothing": "short-window interpolation, median filtering, and Savitzky-Golay smoothing",
+    "contact_detection": "ankle/heel/toe floor distance plus velocity",
+    "target_action": "SACKBOY_JUMPSTYLE_RETARGET_V1",
+    "target_start_frame": 400
+  }
+}

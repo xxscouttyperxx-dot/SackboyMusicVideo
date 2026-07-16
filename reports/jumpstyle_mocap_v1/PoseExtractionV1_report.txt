@@ -1,0 +1,15 @@
+SACKBOY AUTOMATED JUMPSTYLE POSE EXTRACTION V1
+passed=True
+frame_count=764
+detected_frames=764
+detection_rate=1.000000
+median_key_visibility=0.886690
+longest_missing_gap_frames=0
+left_contact_frames=43
+right_contact_frames=35
+either_contact_frames=73
+both_contact_frames=5
+calibration_frame=63
+floor_y_normalized=0.93908230
+source_body_height_normalized=0.55707306
+source_leg_length_world=0.72303501

@@ -1,0 +1,11 @@
+{
+  "script_version": "1.3",
+  "snapshot_mode": "STRUCTURAL_CONSTRAINTS_WITH_DRIVEN_INFLUENCE_EXCLUDED",
+  "driven_influence_policy": "COMPARE_DRIVER_DEFINITION_NOT_EVALUATED_VALUE",
+  "structure_change_count": 0,
+  "driver_change_count": 0,
+  "structure_diff": {},
+  "driver_diff": {},
+  "driver_count_before": 8,
+  "driver_count_after": 8
+}
