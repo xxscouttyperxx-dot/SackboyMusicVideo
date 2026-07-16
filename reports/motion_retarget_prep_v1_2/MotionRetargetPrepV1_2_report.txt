@@ -1,0 +1,15 @@
+SACKBOY MOTION RETARGET PREP V1.2
+bone_collections={'CTRL_Main': 5, 'CTRL_IK': 4, 'CTRL_Poles': 4, 'DEF_Skeleton': 21}
+bone_collection_assignments_passed=True
+custom_shaped_controls=13
+controls_only_default=True
+rest_visual_max_error=0.000000000000
+rest_bone_changes=0
+constraint_changes=0
+action_changes=0
+mesh_binding_changes=0
+protected_comparison_frame=22
+protected_snapshot_mode=SAME_FRAME_EVALUATED_STATE
+protected_changes=0
+retarget_profile=configs\SackboyRetargetProfileV1.json
+rig_manifest=reports\motion_retarget_prep_v1_2\SackboyRigManifestV1.json

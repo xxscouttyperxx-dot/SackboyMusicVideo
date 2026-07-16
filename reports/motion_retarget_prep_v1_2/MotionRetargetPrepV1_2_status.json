@@ -1,0 +1,110 @@
+{
+  "script_version": "1.2",
+  "timestamp_utc": "2026-07-16T21:38:02.443300+00:00",
+  "saved_blend": true,
+  "armature": "SACKBOY_RIG_PLACEMENT_V1",
+  "total_bone_count": 34,
+  "bone_collection_count": 4,
+  "bone_collection_counts": {
+    "CTRL_Main": 5,
+    "CTRL_IK": 4,
+    "CTRL_Poles": 4,
+    "DEF_Skeleton": 21
+  },
+  "bone_collection_assignment_checks": {
+    "CTRL_Main": true,
+    "CTRL_IK": true,
+    "CTRL_Poles": true,
+    "DEF_Skeleton": true
+  },
+  "bone_collection_assignment_checks_passed": true,
+  "bone_collection_assignments": {
+    "CTRL_Main": [
+      "CTRL_chest",
+      "CTRL_head",
+      "CTRL_pelvis",
+      "CTRL_spine",
+      "root"
+    ],
+    "CTRL_IK": [
+      "IK_foot.L",
+      "IK_foot.R",
+      "IK_hand.L",
+      "IK_hand.R"
+    ],
+    "CTRL_Poles": [
+      "POLE_elbow.L",
+      "POLE_elbow.R",
+      "POLE_knee.L",
+      "POLE_knee.R"
+    ],
+    "DEF_Skeleton": [
+      "chest",
+      "clavicle.L",
+      "clavicle.R",
+      "foot.L",
+      "foot.R",
+      "forearm.L",
+      "forearm.R",
+      "hand.L",
+      "hand.R",
+      "head",
+      "neck",
+      "pelvis",
+      "shin.L",
+      "shin.R",
+      "spine",
+      "thigh.L",
+      "thigh.R",
+      "toe.L",
+      "toe.R",
+      "upper_arm.L",
+      "upper_arm.R"
+    ]
+  },
+  "main_control_count": 5,
+  "ik_control_count": 4,
+  "pole_control_count": 4,
+  "deform_bone_count": 21,
+  "custom_shaped_control_count": 13,
+  "shape_object_count": 4,
+  "shape_objects": [
+    "WGT_ROOT_V1",
+    "WGT_MAIN_V1",
+    "WGT_IK_V1",
+    "WGT_POLE_V1"
+  ],
+  "controls_only_default": true,
+  "rest_visual_errors": {
+    "F2": 0.0,
+    "Lowerpoly hoodie": 0.0,
+    "Cargo pants": 0.0,
+    "L.Eye": 0.0,
+    "R.Eye": 0.0,
+    "Plane.001": 0.0,
+    "Plane.022": 0.0
+  },
+  "rest_visual_max_error": 0.0,
+  "rest_bone_change_count": 0,
+  "rest_bone_changes": [],
+  "constraint_change_count": 0,
+  "constraint_changes": [],
+  "action_change_count": 0,
+  "action_changes": [],
+  "mesh_binding_snapshot_type": "POSE_INDEPENDENT_BINDING_SNAPSHOT",
+  "mesh_binding_change_count": 0,
+  "mesh_binding_changes": [],
+  "protected_comparison_frame": 22,
+  "protected_snapshot_mode": "SAME_FRAME_EVALUATED_STATE",
+  "protected_change_count": 0,
+  "protected_changes": [],
+  "protected_change_details": {},
+  "scene_frame_range_changed": false,
+  "original_frame_restored": true,
+  "retarget_profile_written": true,
+  "retarget_profile_path": "configs\\SackboyRetargetProfileV1.json",
+  "rig_manifest_written": true,
+  "rig_manifest_path": "reports\\motion_retarget_prep_v1_2\\SackboyRigManifestV1.json",
+  "active_action": "SACKBOY_CONTROL_RIG_VALIDATION_V1",
+  "preserved_action_present": true
+}

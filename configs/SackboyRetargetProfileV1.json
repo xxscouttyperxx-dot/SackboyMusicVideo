@@ -1,0 +1,79 @@
+{
+  "profile_version": "1.0",
+  "profile_name": "SACKBOY_RETARGET_PROFILE_V1",
+  "source_schema": "MEDIAPIPE_POSE_33",
+  "target_armature": "SACKBOY_RIG_PLACEMENT_V1",
+  "target_action_name": "SACKBOY_JUMPSTYLE_RETARGET_V1",
+  "controls": {
+    "root": "root",
+    "pelvis": "CTRL_pelvis",
+    "spine": "CTRL_spine",
+    "chest": "CTRL_chest",
+    "head": "CTRL_head",
+    "left_hand_ik": "IK_hand.L",
+    "right_hand_ik": "IK_hand.R",
+    "left_elbow_pole": "POLE_elbow.L",
+    "right_elbow_pole": "POLE_elbow.R",
+    "left_foot_ik": "IK_foot.L",
+    "right_foot_ik": "IK_foot.R",
+    "left_knee_pole": "POLE_knee.L",
+    "right_knee_pole": "POLE_knee.R"
+  },
+  "ik_switches": {
+    "left_arm": "IK_ARM_L",
+    "right_arm": "IK_ARM_R",
+    "left_leg": "IK_LEG_L",
+    "right_leg": "IK_LEG_R"
+  },
+  "source_landmarks": {
+    "pelvis": [
+      "left_hip",
+      "right_hip"
+    ],
+    "chest": [
+      "left_shoulder",
+      "right_shoulder",
+      "left_hip",
+      "right_hip"
+    ],
+    "head": [
+      "nose",
+      "left_ear",
+      "right_ear"
+    ],
+    "left_arm": [
+      "left_shoulder",
+      "left_elbow",
+      "left_wrist"
+    ],
+    "right_arm": [
+      "right_shoulder",
+      "right_elbow",
+      "right_wrist"
+    ],
+    "left_leg": [
+      "left_hip",
+      "left_knee",
+      "left_ankle",
+      "left_heel",
+      "left_foot_index"
+    ],
+    "right_leg": [
+      "right_hip",
+      "right_knee",
+      "right_ankle",
+      "right_heel",
+      "right_foot_index"
+    ]
+  },
+  "rules": {
+    "root_translation": "Smoothed pelvis midpoint relative to calibrated start",
+    "pelvis_rotation": "Hip axis plus torso-up direction",
+    "spine_chest": "Distribute torso orientation",
+    "hands": "Wrist positions scaled into target rig space",
+    "feet": "Contact-aware ankle/heel/foot-index targets",
+    "elbow_poles": "Shoulder-elbow-wrist plane normal with temporal continuity",
+    "knee_poles": "Hip-knee-ankle plane normal with temporal continuity",
+    "foot_lock": "Lock support foot and solve root/pelvis around contact"
+  }
+}
