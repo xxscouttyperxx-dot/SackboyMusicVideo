@@ -1,0 +1,11 @@
+SACKBOY ARM ALIGNMENT FINALIZATION V2
+arm_center_world=(-0.03449521027505398, 0.04730938374996185, 1.6801498532295227)
+arm_z_fraction=0.6130221984004866
+sample_counts=L:3765 R:3089
+geometry_checks_passed=True
+mesh_changes=0
+armature_modifiers=0
+parented_targets=0
+protected_changes=0
+L checks={'side': 'L', 'monotonic_outward': True, 'z_spread': 0.0, 'y_spread': 0.0, 'connected': True, 'lengths': [0.31571438908576965, 0.2939409911632538, 0.26128092408180237, 0.19051727652549744], 'plausible_lengths': True, 'endpoint_fraction': 0.9749999659951474, 'endpoint_ok': True, 'passed': True}
+R checks={'side': 'R', 'monotonic_outward': True, 'z_spread': 0.0, 'y_spread': 0.0, 'connected': True, 'lengths': [0.3331916332244873, 0.3102129399776459, 0.27574482560157776, 0.20106402039527893], 'plausible_lengths': True, 'endpoint_fraction': 0.9750000529723952, 'endpoint_ok': True, 'passed': True}
