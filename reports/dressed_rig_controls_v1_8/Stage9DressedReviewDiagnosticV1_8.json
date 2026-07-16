@@ -1,0 +1,382 @@
+{
+  "script_version": "1.8",
+  "frames": [
+    205,
+    215,
+    225,
+    235,
+    245,
+    255,
+    265
+  ],
+  "metrics": {
+    "205": {
+      "F2": {
+        "finite": true,
+        "dimension_ratios": [
+          0.9426529247526213,
+          1.0,
+          1.0
+        ],
+        "edge_ratio_p001": 0.7706310417344586,
+        "edge_ratio_p01": 0.9590304638460323,
+        "edge_ratio_median": 1.0,
+        "edge_ratio_p99": 1.0683457884742615,
+        "edge_ratio_p999": 1.2555721393393262,
+        "extreme_edge_count": 0,
+        "extreme_edge_fraction": 0.0,
+        "passed": true
+      },
+      "Lowerpoly hoodie": {
+        "finite": true,
+        "dimension_ratios": [
+          0.9743578612290305,
+          1.0,
+          1.0
+        ],
+        "edge_ratio_p001": 0.5547185491707538,
+        "edge_ratio_p01": 0.8868040719031052,
+        "edge_ratio_median": 1.0,
+        "edge_ratio_p99": 1.1584359773368593,
+        "edge_ratio_p999": 2.275562459939301,
+        "extreme_edge_count": 2,
+        "extreme_edge_fraction": 9.420187461730488e-05,
+        "passed": true
+      },
+      "Cargo pants": {
+        "finite": true,
+        "dimension_ratios": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "edge_ratio_p001": 0.9945477612356123,
+        "edge_ratio_p01": 1.0,
+        "edge_ratio_median": 1.0,
+        "edge_ratio_p99": 1.0,
+        "edge_ratio_p999": 1.0015564069436709,
+        "extreme_edge_count": 0,
+        "extreme_edge_fraction": 0.0,
+        "passed": true
+      }
+    },
+    "215": {
+      "F2": {
+        "finite": true,
+        "dimension_ratios": [
+          0.7696431532015713,
+          1.0,
+          1.0
+        ],
+        "edge_ratio_p001": 0.5149031829356862,
+        "edge_ratio_p01": 0.8800465784371274,
+        "edge_ratio_median": 1.0,
+        "edge_ratio_p99": 1.158982979619513,
+        "edge_ratio_p999": 1.5557258603169817,
+        "extreme_edge_count": 0,
+        "extreme_edge_fraction": 0.0,
+        "passed": true
+      },
+      "Lowerpoly hoodie": {
+        "finite": true,
+        "dimension_ratios": [
+          0.8631114195096155,
+          1.0,
+          1.0
+        ],
+        "edge_ratio_p001": 0.34471290696038526,
+        "edge_ratio_p01": 0.7182607684167223,
+        "edge_ratio_median": 1.0,
+        "edge_ratio_p99": 1.3143076707707284,
+        "edge_ratio_p999": 1.7854228759949786,
+        "extreme_edge_count": 0,
+        "extreme_edge_fraction": 0.0,
+        "passed": true
+      },
+      "Cargo pants": {
+        "finite": true,
+        "dimension_ratios": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "edge_ratio_p001": 0.997701420210922,
+        "edge_ratio_p01": 1.0,
+        "edge_ratio_median": 1.0,
+        "edge_ratio_p99": 1.0,
+        "edge_ratio_p999": 1.0006248826681248,
+        "extreme_edge_count": 0,
+        "extreme_edge_fraction": 0.0,
+        "passed": true
+      }
+    },
+    "225": {
+      "F2": {
+        "finite": true,
+        "dimension_ratios": [
+          0.9762505961511332,
+          1.0,
+          1.0
+        ],
+        "edge_ratio_p001": 0.7192563631584855,
+        "edge_ratio_p01": 0.8978724598025813,
+        "edge_ratio_median": 1.0,
+        "edge_ratio_p99": 1.122994950929453,
+        "edge_ratio_p999": 1.2914617289770525,
+        "extreme_edge_count": 0,
+        "extreme_edge_fraction": 0.0,
+        "passed": true
+      },
+      "Lowerpoly hoodie": {
+        "finite": true,
+        "dimension_ratios": [
+          0.9722875466795804,
+          1.0,
+          1.0
+        ],
+        "edge_ratio_p001": 0.5786994947257661,
+        "edge_ratio_p01": 0.819889604066936,
+        "edge_ratio_median": 1.0,
+        "edge_ratio_p99": 1.202937599527657,
+        "edge_ratio_p999": 1.722695454962765,
+        "extreme_edge_count": 0,
+        "extreme_edge_fraction": 0.0,
+        "passed": true
+      },
+      "Cargo pants": {
+        "finite": true,
+        "dimension_ratios": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "edge_ratio_p001": 1.0,
+        "edge_ratio_p01": 1.0,
+        "edge_ratio_median": 1.0,
+        "edge_ratio_p99": 1.0,
+        "edge_ratio_p999": 1.0,
+        "extreme_edge_count": 0,
+        "extreme_edge_fraction": 0.0,
+        "passed": true
+      }
+    },
+    "235": {
+      "F2": {
+        "finite": true,
+        "dimension_ratios": [
+          1.0,
+          0.9660535691163052,
+          0.9467848747760114
+        ],
+        "edge_ratio_p001": 0.2932496443049927,
+        "edge_ratio_p01": 0.633277842617022,
+        "edge_ratio_median": 0.9999995983500635,
+        "edge_ratio_p99": 1.134101461713322,
+        "edge_ratio_p999": 1.3872654573238479,
+        "extreme_edge_count": 0,
+        "extreme_edge_fraction": 0.0,
+        "passed": true
+      },
+      "Lowerpoly hoodie": {
+        "finite": true,
+        "dimension_ratios": [
+          1.0,
+          0.9979722525841368,
+          1.0874798513923605
+        ],
+        "edge_ratio_p001": 0.5495472679406831,
+        "edge_ratio_p01": 0.825676642515573,
+        "edge_ratio_median": 1.0,
+        "edge_ratio_p99": 1.2897777603742893,
+        "edge_ratio_p999": 2.0771033972720696,
+        "extreme_edge_count": 0,
+        "extreme_edge_fraction": 0.0,
+        "passed": true
+      },
+      "Cargo pants": {
+        "finite": true,
+        "dimension_ratios": [
+          0.9999991000569179,
+          1.1860394942413361,
+          0.9204707443934622
+        ],
+        "edge_ratio_p001": 0.15510547983013076,
+        "edge_ratio_p01": 0.3098579104957921,
+        "edge_ratio_median": 0.98842513758828,
+        "edge_ratio_p99": 1.5389782162547931,
+        "edge_ratio_p999": 1.9557572835867978,
+        "extreme_edge_count": 0,
+        "extreme_edge_fraction": 0.0,
+        "passed": true
+      }
+    },
+    "245": {
+      "F2": {
+        "finite": true,
+        "dimension_ratios": [
+          0.9795861656283656,
+          1.0322708426044682,
+          0.9872585115672002
+        ],
+        "edge_ratio_p001": 0.659486935948873,
+        "edge_ratio_p01": 0.825551389493062,
+        "edge_ratio_median": 0.9999999253764671,
+        "edge_ratio_p99": 1.1385091229883733,
+        "edge_ratio_p999": 1.2995976422916526,
+        "extreme_edge_count": 0,
+        "extreme_edge_fraction": 0.0,
+        "passed": true
+      },
+      "Lowerpoly hoodie": {
+        "finite": true,
+        "dimension_ratios": [
+          0.9777720926798896,
+          1.029989210222982,
+          1.101815432965116
+        ],
+        "edge_ratio_p001": 0.5030459664914944,
+        "edge_ratio_p01": 0.8271412906708664,
+        "edge_ratio_median": 1.0000000821848154,
+        "edge_ratio_p99": 1.384023462903719,
+        "edge_ratio_p999": 2.474448357943275,
+        "extreme_edge_count": 0,
+        "extreme_edge_fraction": 0.0,
+        "passed": true
+      },
+      "Cargo pants": {
+        "finite": true,
+        "dimension_ratios": [
+          1.0216167712838962,
+          1.3247289964748488,
+          1.0244223553787537
+        ],
+        "edge_ratio_p001": 0.3555298429089325,
+        "edge_ratio_p01": 0.7077231650297438,
+        "edge_ratio_median": 0.9959998198237574,
+        "edge_ratio_p99": 1.3195344751740066,
+        "edge_ratio_p999": 2.1435828012164064,
+        "extreme_edge_count": 0,
+        "extreme_edge_fraction": 0.0,
+        "passed": true
+      }
+    },
+    "255": {
+      "F2": {
+        "finite": true,
+        "dimension_ratios": [
+          0.9815585255259236,
+          1.0323687930524612,
+          0.9879585044578975
+        ],
+        "edge_ratio_p001": 0.6598340764836036,
+        "edge_ratio_p01": 0.8160887543365494,
+        "edge_ratio_median": 0.9999999224947852,
+        "edge_ratio_p99": 1.1372975015562203,
+        "edge_ratio_p999": 1.2636027390098807,
+        "extreme_edge_count": 0,
+        "extreme_edge_fraction": 0.0,
+        "passed": true
+      },
+      "Lowerpoly hoodie": {
+        "finite": true,
+        "dimension_ratios": [
+          0.9849765226608672,
+          1.0351627919902415,
+          1.0879506823833311
+        ],
+        "edge_ratio_p001": 0.5645095226073349,
+        "edge_ratio_p01": 0.801033735078096,
+        "edge_ratio_median": 1.0000000779942606,
+        "edge_ratio_p99": 1.4365709974970573,
+        "edge_ratio_p999": 2.7286151695983176,
+        "extreme_edge_count": 0,
+        "extreme_edge_fraction": 0.0,
+        "passed": true
+      },
+      "Cargo pants": {
+        "finite": true,
+        "dimension_ratios": [
+          1.0093148262576808,
+          1.3165147795104664,
+          1.0371507999580536
+        ],
+        "edge_ratio_p001": 0.3396014828222289,
+        "edge_ratio_p01": 0.6940136575799007,
+        "edge_ratio_median": 0.9958261059983364,
+        "edge_ratio_p99": 1.3124998861070156,
+        "edge_ratio_p999": 2.3930424821261,
+        "extreme_edge_count": 0,
+        "extreme_edge_fraction": 0.0,
+        "passed": true
+      }
+    },
+    "265": {
+      "F2": {
+        "finite": true,
+        "dimension_ratios": [
+          0.9829754366553993,
+          0.9864633621727593,
+          0.9956482863845914
+        ],
+        "edge_ratio_p001": 0.8682089516943393,
+        "edge_ratio_p01": 0.9167075885883986,
+        "edge_ratio_median": 1.0,
+        "edge_ratio_p99": 1.0805809024495252,
+        "edge_ratio_p999": 1.1341388094148397,
+        "extreme_edge_count": 0,
+        "extreme_edge_fraction": 0.0,
+        "passed": true
+      },
+      "Lowerpoly hoodie": {
+        "finite": true,
+        "dimension_ratios": [
+          0.9925557589706279,
+          1.0445337859283885,
+          1.006369404218697
+        ],
+        "edge_ratio_p001": 0.517987719835358,
+        "edge_ratio_p01": 0.8238247917202907,
+        "edge_ratio_median": 1.000000168173564,
+        "edge_ratio_p99": 1.1591645762360985,
+        "edge_ratio_p999": 2.0057892832309125,
+        "extreme_edge_count": 0,
+        "extreme_edge_fraction": 0.0,
+        "passed": true
+      },
+      "Cargo pants": {
+        "finite": true,
+        "dimension_ratios": [
+          1.0,
+          0.9884263834628982,
+          1.0199130394671085
+        ],
+        "edge_ratio_p001": 0.6458875928808907,
+        "edge_ratio_p01": 0.8831835534750447,
+        "edge_ratio_median": 1.0,
+        "edge_ratio_p99": 1.0788137618281781,
+        "edge_ratio_p999": 1.1540100119289378,
+        "extreme_edge_count": 0,
+        "extreme_edge_fraction": 0.0,
+        "passed": true
+      }
+    }
+  },
+  "weight_checks": {
+    "F2": {
+      "unweighted": 0,
+      "invalid": 0,
+      "max_influences": 6
+    },
+    "Lowerpoly hoodie": {
+      "unweighted": 0,
+      "invalid": 0,
+      "max_influences": 4
+    },
+    "Cargo pants": {
+      "unweighted": 0,
+      "invalid": 0,
+      "max_influences": 4
+    }
+  },
+  "passed": true
+}

@@ -1,0 +1,9 @@
+{
+  "script_version": "1.8",
+  "snapshot_type": "POSE_INDEPENDENT_BINDING_SNAPSHOT",
+  "active_action_before": "F2_DEFORMATION_TEST_V1_2",
+  "active_action_after": "SACKBOY_CONTROL_RIG_VALIDATION_V1",
+  "original_frame": 22,
+  "change_count": 0,
+  "changes": {}
+}

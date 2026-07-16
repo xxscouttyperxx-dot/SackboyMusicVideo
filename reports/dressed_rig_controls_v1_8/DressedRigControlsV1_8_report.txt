@@ -1,0 +1,20 @@
+SACKBOY DRESSED RIG REVIEW + CONTROLS V1.8
+stage9_passed=True
+stage9_corrections=0
+control_bones=12
+control_constraints=11
+pelvis_control_mode=DIRECT_BONE_PARENT_ORDERED_RESTORE
+pelvis_edit_reparent_geometry_error=0.0
+pelvis_parent_probe_movement=0.05000001108273755
+pelvis_parent_probe_restore_error=3.754281321679498e-09
+allowed_hierarchy_changes=['pelvis->CTRL_pelvis']
+ik_switch_properties=4
+constraint_drivers=8
+total_bones=34
+rest_visual_error=0.000000281155
+stage11_checks=True
+control_checks={'root_moves_character': True, 'torso_head_control_moves_head': True, 'arm_ik_reaches_targets': True, 'squat_feet_planted': True, 'squat_pelvis_control_moves': True, 'squat_pelvis_bone_follows': True, 'left_kick_moves_left_foot': True, 'left_support_foot_planted': True, 'right_kick_moves_right_foot': True, 'right_support_foot_planted': True, 'weight_shift_feet_planted': True, 'weight_shift_pelvis_control_moves': True, 'weight_shift_pelvis_bone_follows': True}
+measurements={'root_character_movement': 0.14421679466509071, 'head_movement': 0.06023704275050744, 'arm_reach_error': {'L': 0.01150572276675417, 'R': 0.016260477577274154}, 'squat_shoe_movement': {'Plane.001': 3.546099510651342e-05, 'Plane.022': 3.2791908004065665e-05}, 'squat_body_centroid_movement': 0.19445770761514325, 'squat_control_movement': 0.2220359981441578, 'squat_pelvis_bone_movement': 0.2220359981441578, 'squat_pelvis_follow_error': 0.0, 'left_kick_movement': 0.4703195472409897, 'left_support_movement': 2.8517334474630115e-07, 'right_kick_movement': 0.4703194332562265, 'right_support_movement': 9.799708752308716e-07, 'weight_shift_shoe_movement': {'Plane.001': 1.4712208565708975e-06, 'Plane.022': 2.0056320856083917e-06}, 'weight_shift_body_centroid_movement': 0.1478966915123217, 'weight_shift_control_movement': 0.16970562877112838, 'weight_shift_pelvis_bone_movement': 0.16970562877112838, 'weight_shift_pelvis_follow_error': 0.0}
+original_bone_changes=0
+mesh_binding_changes=0
+protected_changes=0
