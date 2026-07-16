@@ -1,0 +1,16 @@
+SACKBOY F2 DEFORMATION TESTS V1.2
+action=F2_DEFORMATION_TEST_V1_2
+production_frames_rest=True
+all_pose_checks=True
+root_use_deform=False
+root_vertex_group_present=False
+rest_bone_changes=0
+other_targets_bound=0
+protected_changes=0
+frame 205: {'name': 'shoulders', 'finite': True, 'max_vertex_displacement': 0.3392058268979833, 'bounds_min': [-1.064409852027893, -0.41517049074172974, 0.39730584621429443], 'bounds_max': [1.0448768138885498, 0.31626856327056885, 2.4899611473083496], 'dimension_ratios': [0.9426529247526213, 1.0, 1.0], 'max_edge_stretch_ratio': 1.3803964888576292, 'min_edge_stretch_ratio': 0.6366134400199256, 'passed': True}
+frame 215: {'name': 'elbows', 'finite': True, 'max_vertex_displacement': 0.5917628124241641, 'bounds_min': [-0.8755151033401489, -0.41517049074172974, 0.39730584621429443], 'bounds_max': [0.84664386510849, 0.31626856327056885, 2.4899611473083496], 'dimension_ratios': [0.7696431532015713, 1.0, 1.0], 'max_edge_stretch_ratio': 1.9028868141238269, 'min_edge_stretch_ratio': 0.11689186627465088, 'passed': True}
+frame 225: {'name': 'wrists', 'finite': True, 'max_vertex_displacement': 0.12062616716023122, 'bounds_min': [-1.0967357158660889, -0.41517049074172974, 0.39730584621429443], 'bounds_max': [1.0877294540405273, 0.31626856327056885, 2.4899611473083496], 'dimension_ratios': [0.9762505961511332, 1.0, 1.0], 'max_edge_stretch_ratio': 1.4508284149046466, 'min_edge_stretch_ratio': 0.5117626811865256, 'passed': True}
+frame 235: {'name': 'squat', 'finite': True, 'max_vertex_displacement': 0.19285248594451374, 'bounds_min': [-1.1231656074523926, -0.25727513432502747, 0.5065456628799438], 'bounds_max': [1.1144413948059082, 0.44933417439460754, 2.487839937210083], 'dimension_ratios': [1.0, 0.9660535691163052, 0.9467848747760114], 'max_edge_stretch_ratio': 1.5556500417213486, 'min_edge_stretch_ratio': 0.1304941574163723, 'passed': True}
+frame 245: {'name': 'left_kick', 'finite': True, 'max_vertex_displacement': 0.38913280872294975, 'bounds_min': [-1.0912202596664429, -0.41710519790649414, 0.4239695072174072], 'bounds_max': [1.1007084846496582, 0.33793801069259644, 2.4899611473083496], 'dimension_ratios': [0.9795861656283656, 1.0322708426044682, 0.9872585115672002], 'max_edge_stretch_ratio': 1.3789723907304614, 'min_edge_stretch_ratio': 0.26360936952764014, 'passed': True}
+frame 255: {'name': 'right_kick', 'finite': True, 'max_vertex_displacement': 0.38693886728957194, 'bounds_min': [-1.1111575365066528, -0.42793336510658264, 0.4225046634674072], 'bounds_max': [1.0851846933364868, 0.32718148827552795, 2.4899611473083496], 'dimension_ratios': [0.9815585255259236, 1.0323687930524612, 0.9879585044578975], 'max_edge_stretch_ratio': 1.3583715193009893, 'min_edge_stretch_ratio': 0.35998255407937874, 'passed': True}
+frame 265: {'name': 'torso', 'finite': True, 'max_vertex_displacement': 0.3155576078215752, 'bounds_min': [-1.1274076700210571, -0.26974552869796753, 0.39730584621429443], 'bounds_max': [1.072105050086975, 0.45179226994514465, 2.4808542728424072], 'dimension_ratios': [0.9829754366553993, 0.9864633621727593, 0.9956482863845914], 'max_edge_stretch_ratio': 1.204909118875553, 'min_edge_stretch_ratio': 0.8223811929891095, 'passed': True}
