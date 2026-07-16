@@ -1,0 +1,12 @@
+SACKBOY LOWER-BODY / FOOT ALIGNMENT V1
+geometry_checks_passed=True
+mesh_changes=0
+armature_modifiers=0
+parented_targets=0
+protected_changes=0
+
+L landmarks={'hip': Vector((-0.2506796419620514, 0.06619350612163544, 1.0772278308868408)), 'knee': Vector((-0.31114569306373596, -0.030943792313337326, 0.7934199571609497)), 'ankle': Vector((-0.24739347398281097, 0.011119023896753788, 0.4370039105415344)), 'ball': Vector((-0.24739347398281097, -0.20877426862716675, 0.4370039105415344)), 'toe': Vector((-0.24739347398281097, -0.38868698477745056, 0.4370039105415344))}
+L checks={'side': 'L', 'connected': True, 'descending': True, 'foot_level': True, 'forward': True, 'foot_inside_z': True, 'toe_inside': True, 'x_inside': True, 'lengths': [0.3060044050216675, 0.36450791358947754, 0.21989285945892334, 0.17991237342357635], 'lengths_ok': True, 'knee_forward_bias': True, 'passed': True}
+
+R landmarks={'hip': Vector((0.21776451170444489, 0.06332678347826004, 1.0772278308868408)), 'knee': Vector((0.29728445410728455, -0.03524535521864891, 0.7934199571609497)), 'ankle': Vector((0.270877480506897, 0.005382552742958069, 0.43700388073921204)), 'ball': Vector((0.270877480506897, -0.21451076865196228, 0.43700388073921204)), 'toe': Vector((0.270877480506897, -0.3944234848022461, 0.43700388073921204))}
+R checks={'side': 'R', 'connected': True, 'descending': True, 'foot_level': True, 'forward': True, 'foot_inside_z': True, 'toe_inside': True, 'x_inside': True, 'lengths': [0.31078416109085083, 0.35969486832618713, 0.21989336609840393, 0.1799127161502838], 'lengths_ok': True, 'knee_forward_bias': True, 'passed': True}
