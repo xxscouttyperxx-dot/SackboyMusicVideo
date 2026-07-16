@@ -1,0 +1,202 @@
+{
+  "timestamp_utc": "2026-07-16T17:54:38.828042+00:00",
+  "blend_file": "C:\\BlenderProjects\\SackboyMusicVideo\\Project\\blender\\sackboy_scene.blend",
+  "saved_blend": true,
+  "approved_targets": [
+    "F2",
+    "Lowerpoly hoodie",
+    "Cargo pants",
+    "L.Eye",
+    "R.Eye",
+    "Plane.001",
+    "Plane.022"
+  ],
+  "f2_shape_keys_before": 2,
+  "f2_shape_keys_after": 0,
+  "origins_normalized_count": 7,
+  "origin_offsets_local": {
+    "F2": [
+      -0.6438591480255127,
+      0.3182618021965027,
+      -0.074997678399086
+    ],
+    "Lowerpoly hoodie": [
+      -0.006431002169847488,
+      0.021332530304789543,
+      0.5689438581466675
+    ],
+    "Cargo pants": [
+      0.0017824419774115086,
+      0.007613991387188435,
+      0.3855653405189514
+    ],
+    "L.Eye": [
+      1.3436396102406434e-06,
+      -2.365976797591429e-06,
+      -9.8928876202109e-10
+    ],
+    "R.Eye": [
+      -1.0739128589630127,
+      0.7177411317825317,
+      -3.170670481722482e-07
+    ],
+    "Plane.001": [
+      -0.014186831191182137,
+      -0.015287412330508232,
+      0.053776539862155914
+    ],
+    "Plane.022": [
+      -0.014183314517140388,
+      -0.015309098176658154,
+      0.053776539862155914
+    ]
+  },
+  "origin_world_before": {
+    "F2": [
+      2.3136987686157227,
+      -0.2618328332901001,
+      0.48427021503448486
+    ],
+    "Lowerpoly hoodie": [
+      0.016639718785881996,
+      -0.04106549173593521,
+      0.35124439001083374
+    ],
+    "Cargo pants": [
+      -0.0027921944856643677,
+      0.03338572382926941,
+      0.5093981027603149
+    ],
+    "L.Eye": [
+      0.1776907742023468,
+      -0.34317445755004883,
+      2.2559003829956055
+    ],
+    "R.Eye": [
+      -0.08250532299280167,
+      -0.38255709409713745,
+      2.2692859172821045
+    ],
+    "Plane.001": [
+      -0.32080304622650146,
+      -0.04904162883758545,
+      0.3217954933643341
+    ],
+    "Plane.022": [
+      0.3442869186401367,
+      -0.05477803945541382,
+      0.3217954933643341
+    ]
+  },
+  "origin_world_after": {
+    "F2": [
+      -0.02636241912841797,
+      0.010741082951426506,
+      1.6409704685211182
+    ],
+    "Lowerpoly hoodie": [
+      -0.006479328498244286,
+      0.03207061439752579,
+      1.633108377456665
+    ],
+    "Cargo pants": [
+      0.0023136762902140617,
+      0.058751482516527176,
+      0.8493978977203369
+    ],
+    "L.Eye": [
+      0.17769086360931396,
+      -0.3431745767593384,
+      2.2559003829956055
+    ],
+    "R.Eye": [
+      -0.15180018544197083,
+      -0.33382925391197205,
+      2.2553789615631104
+    ],
+    "Plane.001": [
+      -0.25197598338127136,
+      -0.0910860002040863,
+      0.49294424057006836
+    ],
+    "Plane.022": [
+      0.2753570079803467,
+      -0.09682253003120422,
+      0.49294421076774597
+    ]
+  },
+  "shoes_empty_removed": true,
+  "shoe_parents_after": {
+    "Plane.001": "",
+    "Plane.022": ""
+  },
+  "target_animation_before": {
+    "F2": {
+      "action": "F2Action",
+      "drivers": 0,
+      "nla": 0
+    },
+    "Lowerpoly hoodie": {
+      "action": "Lowerpoly hoodieAction",
+      "drivers": 0,
+      "nla": 0
+    },
+    "Cargo pants": {
+      "action": "Cargo pantsAction",
+      "drivers": 0,
+      "nla": 0
+    },
+    "L.Eye": {
+      "action": "L.EyeAction",
+      "drivers": 0,
+      "nla": 0
+    },
+    "R.Eye": {
+      "action": "R.EyeAction",
+      "drivers": 0,
+      "nla": 0
+    },
+    "Plane.001": {
+      "action": "Plane.001Action",
+      "drivers": 0,
+      "nla": 0
+    },
+    "Plane.022": {
+      "action": "Plane.022Action",
+      "drivers": 0,
+      "nla": 0
+    },
+    "Shoes": {
+      "action": "ShoesAction",
+      "drivers": 0,
+      "nla": 0
+    }
+  },
+  "target_animation_data_cleared": [
+    "F2",
+    "Lowerpoly hoodie",
+    "Cargo pants",
+    "L.Eye",
+    "R.Eye",
+    "Plane.001",
+    "Plane.022",
+    "Shoes"
+  ],
+  "target_animation_data_after": 0,
+  "visual_world_error_by_object": {
+    "F2": 3.1680303253932744e-07,
+    "Lowerpoly hoodie": 2.4755668231600746e-07,
+    "Cargo pants": 1.2377834115800373e-07,
+    "L.Eye": 2.407356265396403e-07,
+    "R.Eye": 2.421152116249788e-07,
+    "Plane.001": 8.940696716308594e-08,
+    "Plane.022": 6.828569911354542e-08
+  },
+  "max_visual_world_error": 3.1680303253932744e-07,
+  "protected_object_count": 212,
+  "protected_change_count": 0,
+  "protected_changes": [],
+  "armatures_after": 0,
+  "scene_frame_preserved": true,
+  "created_backup_blend_files": 0
+}

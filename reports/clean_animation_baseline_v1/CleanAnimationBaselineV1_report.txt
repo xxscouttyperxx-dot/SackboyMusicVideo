@@ -1,0 +1,17 @@
+CLEAN ANIMATION BASELINE V1
+F2 shape keys: 2 -> 0
+Origins normalized: 7
+Shoes Empty removed: True
+Target animation data cleared: F2, Lowerpoly hoodie, Cargo pants, L.Eye, R.Eye, Plane.001, Plane.022, Shoes
+Maximum evaluated world-space error: 0.000000316803
+Protected object changes: 0
+Armatures after: 0
+
+PER-OBJECT VISUAL ERRORS
+F2: 0.000000316803
+Lowerpoly hoodie: 0.000000247557
+Cargo pants: 0.000000123778
+L.Eye: 0.000000240736
+R.Eye: 0.000000242115
+Plane.001: 0.000000089407
+Plane.022: 0.000000068286
